@@ -1,0 +1,55 @@
+/*
+ *  Copyright (C) 2014 Transportman
+ *  This file is part of the 2cc Trains In NML and is based on The Dutch Trainset 2.0 by Jasper Vries
+ *  This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
+ *  This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+ *  You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+*/
+
+/*
+* GRF HEADER
+*/
+
+//define grf
+#include "src/header.pnml"
+//disable original vehicles
+//#include "src/disableorigvehs.pnml"
+//include sprite templates
+#include "src/templates.pnml"
+//cargo translation table
+#include "src/cargotable.pnml"
+//cargo refit definitions
+#include "src/cargorefits.pnml"
+//railtype translation table
+#include "src/railtypetable.pnml"
+
+/*
+* VEHICLES
+*/
+
+//Railbus-steam
+
+//Railbus-diesel
+
+//Railbus-electric
+
+//Locomotives-steam
+
+//Locomotives-diesel
+
+//Locomotives-electric
+
+//MU-diesel
+
+//MU-electric
+
+//Metro
+
+//Maglev
+
+//wagons
+
+//coaches
+
+//sort vehicles in purchase list
+//#include "src/vehiclesort.pnml"
