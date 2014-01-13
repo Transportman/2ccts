@@ -1,0 +1,188 @@
+{{GRF_TITLE}}
+===================================
+Dutch Trains for OpenTTD
+
+----------
+0 Contents
+----------
+
+1   About
+2   General information
+    2.1  Requirements
+    2.2  Installation
+    2.3  Parameter settings
+    2.4  Usage
+3   Known issues
+4   Background information
+5   Frequently Asked Questions
+6   Credits
+7   Contact information
+    7.1  Bug reports
+    7.2  Other problems
+    7.3  General enquiries
+8   License
+9   Obtaining the source
+
+
+
+-------
+1 About
+-------
+
+2cc Trains In NML for OpenTTD. The set gives you engines 
+from all over the world in 2cc.
+
+{{GRF_TITLE}}
+MD5Hash:  {{GRF_MD5}}
+Version:  {{REPO_REVISION}}
+GRF ID:   "TM\01\01"
+
+
+
+---------------------
+2 General information
+---------------------
+
+2.1 Requirements
+----------------
+- OpenTTD 1.2.0-RC1 or nightly r23971, or higher
+- Not compatible with TTDPatch
+
+
+2.2 Installation
+----------------
+OpenTTD:
+  see http://wiki.openttd.org/NewGRF
+  Releases available from the ingame Online Content
+  Nightlies available from http://dev.openttdcoop.org/projects/2ccts
+
+2.3 Parameter settings
+----------------------
+Currently there are no parameters
+  
+  
+2.4 Usage
+---------
+Starting date
+    <To fill in>
+
+Metro vehicles
+    If there is no Metro track available, the Metro vehicles will use
+	monorail as replacement, as this set does not define other vehicles
+	for monorail.
+    
+Multiple units
+    Multiple units are purchased in single parts. All parts have the same
+	properties. Graphics are set automatically.
+    
+
+
+--------------
+3 Known issues
+--------------
+    
+Missing vehicles
+	Most vehicles have not yet been recoded.
+
+
+
+------------------------
+4 Background information
+------------------------
+
+
+
+
+----------------------------
+5 Frequently Asked Questions
+----------------------------
+
+
+
+
+---------
+6 Credits
+---------
+
+Graphics from the original 2cc Trainset:
+- Purno
+- Voyager One
+
+Code:
+- Transportman
+
+Makefile system:
+- planetmaker (Ingo von Borstel)
+
+
+
+
+
+---------------------
+7 Contact information
+---------------------
+
+7.1 Bug reports
+---------------
+Please report any bugs you find at
+  bug tracker: http://dev.openttdcoop.org/projects/2ccts/issues
+  or forum topic: http://www.tt-forums.net/viewtopic.php?f=26&t=69826
+
+Always included a detailed description of the bug, preferrably with
+screenshot and savegame. Also state the exact game version you're using, 
+as well as the version of this NewGRF.
+
+If you have a savegame that includes NewGRFs not available on OpenTTD's 
+Online Content, then please try to reproduce the bug in a new game 
+which has all NewGRFs easily accessible.
+
+If you're using a patched version of the game, please try to reproduce
+the bug on an official game build. If you can't reproduce the bug, then
+don't report it here but in the forum topic of the patch(pack) instead.
+
+
+7.2 Other problems
+------------------
+If you have any problems using this NewGRF that are not covered in the 
+Frequently Asked Questions above, then you can ask your questions in the
+forum topic: http://www.tt-forums.net/viewtopic.php?f=26&t=69826
+
+
+7.3 General enquiries
+---------------------
+
+If you have any queries that cannot be asked in the forum topic, then
+contact Transportman via Private Message at www.tt-forums.net.
+
+
+---------
+8 License
+---------
+
+2cc Trains In NML
+Copyright (C) 2014 2cc Trains In NML team
+
+This program is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation; either version 2 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along
+with this program; if not, write to the Free Software Foundation, Inc.,
+51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+
+
+
+----------------------
+9 Obtaining the source
+----------------------
+
+The source code can be obtained from the #openttdcoop DevZone:
+    http://dev.openttdcoop.org/projects/2ccts/repository
+
+
