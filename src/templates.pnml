@@ -1,0 +1,161 @@
+/*
+ *  Copyright (C) 2014 Transportman
+ *  This file is part of the 2cc Trains In NML
+ *  This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
+ *  This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+ *  You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+*/
+
+template template_purchase(x, y) {
+    //[left_x, upper_y, width, height, offset_x, offset_y]
+    [x, y,  60, 12, -31, -8]
+}
+
+/*
+ * The templates below are derived from the 2cc trainset.
+*/
+
+//emu / engine back
+template template_2cc_engines_back(x, y) {
+    //[left_x, upper_y, width, height, offset_x, offset_y]
+    [x+88 , y,  8, 24,  -3, -12]
+    [x+97 , y, 22, 20, -14, -12]
+    [x+120, y, 32, 16, -16, -12]
+    [x+153, y, 22, 20,  -6, -12]
+    [x    , y,  8, 24,  -3, -12]
+    [x+9  , y, 22, 20, -14, -12]
+    [x+32 , y, 32, 16, -16, -12]
+    [x+65 , y, 22, 20,  -6, -12]
+}
+
+//emu / engine front and middle
+template template_2cc_engines_general(x, y) {
+    //[left_x, upper_y, width, height, offset_x, offset_y]
+    [x    , y,  8, 24,  -3, -12]
+    [x+9  , y, 22, 20, -14, -12]
+    [x+32 , y, 32, 16, -16, -12]
+    [x+65 , y, 22, 20,  -6, -12]
+    [x+88 , y,  8, 24,  -3, -12]
+    [x+97 , y, 22, 20, -14, -12]
+    [x+120, y, 32, 16, -16, -12]
+    [x+153, y, 22, 20,  -6, -12]
+}
+
+
+//dmu / ice / tgv / wagons back
+template template_2cc_dmu_back(x, y) {
+    //[left_x, upper_y, width, height, offset_x, offset_y]
+    [x+88 , y,  8, 24,  -3, -12]
+    [x+97 , y, 22, 18, -14, -10]
+    [x+120, y, 32, 14, -16, -10]
+    [x+153, y, 22, 18,  -6, -10]
+	[x    , y,  8, 24,  -3, -12]
+    [x+9  , y, 22, 18, -14, -10]
+    [x+32 , y, 32, 14, -16, -10]
+    [x+65 , y, 22, 18,  -6, -10]
+}
+
+//dmu / ice / tgv / wagons front and middle
+template template_2cc_dmu_general(x, y) {
+    //[left_x, upper_y, width, height, offset_x, offset_y]
+    [x    , y,  8, 24,  -3, -12]
+    [x+9  , y, 22, 18, -14, -10]
+    [x+32 , y, 32, 14, -16, -10]
+    [x+65 , y, 22, 18,  -6, -10]
+    [x+88 , y,  8, 24,  -3, -12]
+    [x+97 , y, 22, 18, -14, -10]
+    [x+120, y, 32, 14, -16, -10]
+    [x+153, y, 22, 18,  -6, -10]
+}
+
+//hsa back
+template template_2cc_hsa_back(x, y) {
+    //[left_x, upper_y, width, height, offset_x, offset_y]
+    [x+88 , y,  8, 23,  -3, -12]
+    [x+97 , y, 22, 17, -14, -9]
+    [x+120, y, 32, 14, -16, -10]
+    [x+153, y, 22, 17,  -6, -9]
+	[x    , y,  8, 23,  -3, -12]
+    [x+9  , y, 22, 17, -14, -9]
+    [x+32 , y, 32, 14, -16, -10]
+    [x+65 , y, 22, 17,  -6, -9]
+}
+
+//hsa front and middle
+template template_2cc_hsa_general(x, y) {
+    //[left_x, upper_y, width, height, offset_x, offset_y]
+	[x    , y,  8, 23,  -3, -12]
+    [x+9  , y, 22, 17, -14, -9]
+    [x+32 , y, 32, 14, -16, -10]
+    [x+65 , y, 22, 17,  -6, -9]
+    [x+88 , y,  8, 23,  -3, -12]
+    [x+97 , y, 22, 17, -14, -9]
+    [x+120, y, 32, 14, -16, -10]
+    [x+153, y, 22, 17,  -6, -9]
+}
+
+//xgv / metro single /railbus back
+template template_2cc_railbus_back(x, y) {
+    //[left_x, upper_y, width, height, offset_x, offset_y]
+    [x+88 , y,  8, 24,  -3, -12]
+    [x+97 , y, 22, 20, -14, -12]
+    [x+120, y, 32, 16, -16, -10]
+    [x+153, y, 22, 20,  -6, -12]
+	[x    , y,  8, 24,  -3, -12]
+    [x+9  , y, 22, 20, -14, -12]
+    [x+32 , y, 32, 16, -16, -10]
+    [x+65 , y, 22, 20,  -6, -12]
+}
+
+//metro front and middle
+template template_2cc_metro_general(x, y) {
+    //[left_x, upper_y, width, height, offset_x, offset_y]
+	[x    , y,  8, 24,  -3, -12]
+    [x+9  , y, 22, 20, -14, -12]
+    [x+32 , y, 32, 14, -16, -10]
+    [x+65 , y, 22, 20,  -6, -12]
+    [x+88 , y,  8, 24,  -3, -12]
+    [x+97 , y, 22, 20, -14, -12]
+    [x+120, y, 32, 14, -16, -10]
+    [x+153, y, 22, 20,  -6, -12]
+}
+
+//metro back
+template template_2cc_metro_back(x, y) {
+    //[left_x, upper_y, width, height, offset_x, offset_y]
+    [x+88 , y,  8, 24,  -3, -12]
+    [x+97 , y, 22, 20, -14, -12]
+    [x+120, y, 32, 14, -16, -10]
+    [x+153, y, 22, 20,  -6, -12]
+	[x    , y,  8, 24,  -3, -12]
+    [x+9  , y, 22, 20, -14, -12]
+    [x+32 , y, 32, 14, -16, -10]
+    [x+65 , y, 22, 20,  -6, -12]
+}
+
+
+//doubledecker front and middle
+template template_2cc_doubledecker_general(x, y) {
+    //[left_x, upper_y, width, height, offset_x, offset_y]
+	[x    , y,  8, 24,  -3, -12]
+    [x+9  , y, 22, 19, -14, -11]
+    [x+32 , y, 32, 14, -16, -10]
+    [x+65 , y, 22, 19,  -6, -11]
+    [x+88 , y,  8, 24,  -3, -12]
+    [x+97 , y, 22, 19, -14, -11]
+    [x+120, y, 32, 14, -16, -10]
+    [x+153, y, 22, 19,  -6, -11]
+}
+
+//doubledecker back
+template template_2cc_doubledecker_back(x, y) {
+    //[left_x, upper_y, width, height, offset_x, offset_y]
+    [x+88 , y,  8, 24,  -3, -12]
+    [x+97 , y, 22, 19, -14, -11]
+    [x+120, y, 32, 14, -16, -10]
+    [x+153, y, 22, 19,  -6, -11]
+	[x    , y,  8, 24,  -3, -12]
+    [x+9  , y, 22, 19, -14, -11]
+    [x+32 , y, 32, 14, -16, -10]
+    [x+65 , y, 22, 19,  -6, -11]	
+}
