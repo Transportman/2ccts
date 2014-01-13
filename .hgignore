@@ -1,0 +1,42 @@
+# Use glob syntax:
+syntax: glob
+
+# And the description file and the grs which are generated automatically
+# This has to be adopted to the newgrf filename
+*.nml
+*.grf
+*.grf.cache*
+*.md5
+*.scm
+custom_tags.txt
+docs/readme.txt
+Makefile.fordist
+*-*-source
+*-*-source.tar*
+*-*-source.zip
+dutchtrains/*
+dutchtrains.tar
+
+# The local makefile should be ignored:
+Makefile.local
+
+# NML intermediate files
+parsetab.py
+
+# Dependency files:
+.version
+Makefile.dep
+*.src.dep
+*.gfx.dep
+
+# Ignore frequent development left-overs like
+# editor backups, patches, rejects etc. pp
+**.orig
+**.bak
+**.log
+**.rej
+**.diff
+
+# Files created by Mac image preview and file browser:
+**/.DS_Store
+**/Thumbs.db
