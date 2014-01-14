@@ -28,6 +28,10 @@
 */
 
 //Railbus-steam
+#include "src/Railbus-steam/Austria_NOLB_1_graphics.pnml"
+#include "src/Railbus-steam/Austria_NOLB_1_item.pnml"
+#include "src/Railbus-steam/Italy_FS_86_graphics.pnml"
+#include "src/Railbus-steam/Italy_FS_86_item.pnml"
 
 //Railbus-diesel
 
@@ -46,6 +50,10 @@
 //Metro
 
 //Maglev
+#include "src/Maglev/China_Transrapid_graphics.pnml"
+#include "src/Maglev/China_Transrapid_item.pnml"
+#include "src/Maglev/Japan_MLX01_901_graphics.pnml"
+#include "src/Maglev/Japan_MLX01_901_item.pnml"
 
 //wagons
 

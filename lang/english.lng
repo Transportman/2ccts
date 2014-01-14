@@ -9,6 +9,8 @@ STR_GRF_URL             :https://dev.openttdcoop.org/projects/2ccts
 
 #VEHICLE NAMES
 #Railbus-steam
+str_rbs_Austria_NOLB_1		:NOLB 1 (Steam Railbus)
+str_rbs_Italy_FS_86			:FS 86 (Steam Railbus)
 
 #Railbus-diesel
 
@@ -27,6 +29,8 @@ STR_GRF_URL             :https://dev.openttdcoop.org/projects/2ccts
 #Metro
 
 #Maglev
+str_mglv_China_Transrapid	:Shanghai Transrapdi (Maglev)
+str_mglv_Japan_MLX01_901	:JR MLX01-901 (Maglev)
 
 #wagons
 
