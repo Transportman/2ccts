@@ -31,3 +31,17 @@ else {
 
 //disable original rail vehicles
 disable_item(FEAT_TRAINS, 0, 115);
+
+//set base cost multiplier for this set
+basecost {
+	PR_BUILD_VEHICLE_TRAIN:    1; //+ param_purchase_cost - 4;
+//	PR_BUILD_VEHICLE_WAGON:    3 + param_purchase_cost - 4;
+//	PR_RUNNING_TRAIN_STEAM:    0 + param_running_cost  - 4;
+//	PR_RUNNING_TRAIN_DIESEL:   0 + param_running_cost  - 4;
+	PR_RUNNING_TRAIN_ELECTRIC: 1; //+ param_running_cost  - 4;
+}
+
+//set depot vehicle width to 32px to avoid overlap
+train_width_32_px = 1;
+//align train properly in depot window
+traininfo_y_offset = 2;
