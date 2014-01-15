@@ -36,5 +36,9 @@ str_mglv_Japan_MLX01_901	:JR MLX01-901 (Maglev)
 
 #coaches
 
+#special wagons
+str_wagon_mglv				:Maglev Unit Wagon
+
+
 #PURCHASE MENU TEXTS
 

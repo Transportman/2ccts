@@ -56,6 +56,8 @@
 #include "src/Maglev/Japan_MLX01_901_item.pnml"
 
 //wagons
+#include "src/Wagons/Maglev_Wagon_graphics.pnml"
+#include "src/Wagons/Maglev_Wagon_item.pnml"
 
 //coaches
 
