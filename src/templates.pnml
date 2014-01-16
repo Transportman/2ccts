@@ -6,6 +6,7 @@
  *  You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
 */
 
+//Purchase templates
 template template_purchase(x, y) {
     //[left_x, upper_y, width, height, offset_x, offset_y]
     [x, y,  87, 12, -25, -8]
@@ -20,6 +21,25 @@ template template_purchase_dualheaded(x,y) {
     [1 	,  1,  1,  1,   0,   0, "gfx/Empty.png"]
     [1 	,  1,  1,  1,   0,   0, "gfx/Empty.png"]
     [x	,  y,  87, 12, -11, -8]
+    [1	,  1,  1,  1,   0,   0, "gfx/Empty.png"]
+}
+
+
+//Templates for MU/Maglev/Metro wagons
+template template_purchase_wagon_special(x, y) {
+    //[left_x, upper_y, width, height, offset_x, offset_y]
+    [x, y,  63, 12, -25, -8]
+}
+
+template template_wagon_special(x,y) {
+    //[left_x, upper_y, width, height, offset_x, offset_y]
+	[1  ,  1,  1,  1,   0,   0, "gfx/Empty.png"]
+    [1  ,  1,  1,  1,   0,   0, "gfx/Empty.png"]
+    [1 	,  1,  1,  1,   0,   0, "gfx/Empty.png"]
+    [1 	,  1,  1,  1,   0,   0, "gfx/Empty.png"]
+    [1 	,  1,  1,  1,   0,   0, "gfx/Empty.png"]
+    [1 	,  1,  1,  1,   0,   0, "gfx/Empty.png"]
+	[x	,  y, 33, 12, -16,  -8]
     [1	,  1,  1,  1,   0,   0, "gfx/Empty.png"]
 }
 

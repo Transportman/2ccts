@@ -11,7 +11,7 @@
 */
 
 spriteset(spriteset_wagon_mglv_purchase, "gfx/Wagons/Maglev_Wagon.png") {
-	[1, 1,  63, 12, -25, -8]
+	template_purchase_wagon_special(1, 1)
 }
 
 /*
@@ -19,13 +19,6 @@ spriteset(spriteset_wagon_mglv_purchase, "gfx/Wagons/Maglev_Wagon.png") {
 */
 
 spriteset(spriteset_wagon_mglv, "gfx/Wagons/Maglev_Wagon.png") {
-	[1  ,  1,  1,  1,   0,   0]
-    [1  ,  1,  1,  1,   0,   0]
-    [1 	,  1,  1,  1,   0,   0]
-    [1 	,  1,  1,  1,   0,   0]
-    [1 	,  1,  1,  1,   0,   0]
-    [1 	,  1,  1,  1,   0,   0]
-    [21	,  1, 33, 12, -16,  -8]
-    [1	,  1,  1,  1,   0,   0]
+	template_wagon_special(21,1)
 }
 	
