@@ -27,6 +27,10 @@
 * VEHICLES
 */
 
+//Unit wagons
+#include "src/Wagons/Maglev_Wagon_graphics.pnml"
+#include "src/Wagons/Maglev_Wagon_item.pnml"
+
 //Railbus-steam
 #include "src/Railbus-steam/Austria_NOLB_1_graphics.pnml"
 #include "src/Railbus-steam/Austria_NOLB_1_item.pnml"
@@ -56,8 +60,6 @@
 #include "src/Maglev/Japan_MLX01_901_item.pnml"
 
 //wagons
-#include "src/Wagons/Maglev_Wagon_graphics.pnml"
-#include "src/Wagons/Maglev_Wagon_item.pnml"
 
 //coaches
 
