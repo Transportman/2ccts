@@ -11,6 +11,18 @@ template template_purchase(x, y) {
     [x, y,  87, 12, -25, -8]
 }
 
+template template_purchase_dualheaded(x,y) {
+    //[left_x, upper_y, width, height, offset_x, offset_y]
+	[1  ,  1,  1,  1,   0,   0, "gfx/Empty.png"]
+    [1  ,  1,  1,  1,   0,   0, "gfx/Empty.png"]
+    [1 	,  1,  1,  1,   0,   0, "gfx/Empty.png"]
+    [1 	,  1,  1,  1,   0,   0, "gfx/Empty.png"]
+    [1 	,  1,  1,  1,   0,   0, "gfx/Empty.png"]
+    [1 	,  1,  1,  1,   0,   0, "gfx/Empty.png"]
+    [x	,  y,  87, 12, -11, -8]
+    [1	,  1,  1,  1,   0,   0, "gfx/Empty.png"]
+}
+
 /*
  * The templates below are derived from the 2cc trainset.
 */
