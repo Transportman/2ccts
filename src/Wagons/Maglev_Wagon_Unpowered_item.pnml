@@ -10,19 +10,19 @@
 * ITEM
 */
 
-item(FEAT_TRAINS, item_wagon_mglv) {
+item(FEAT_TRAINS, item_mglv_wagon_unpowered) {
     property {
-        name: string(str_wagon_mglv);
+        name: string(str_mglv_wagon_unpowered);
         
         introduction_date: date(2002,1,1);
         model_life: VEHICLE_NEVER_EXPIRES;
         vehicle_life: 25;
         loading_speed: 1;
-        cost_factor: 1;
-        running_cost_factor: 1;
+        cost_factor: 100;
+        running_cost_factor: 0;
         speed: 0 km/h;
         power: 0 hp;
-        cargo_capacity: 0;
+        cargo_capacity: 1;
         weight: 0 ton;
         tractive_effort_coefficient: 0.3;
         air_drag_coefficient: 0;
@@ -46,7 +46,7 @@ item(FEAT_TRAINS, item_wagon_mglv) {
         bitmask_vehicle_info: 0;
 	}
 	graphics {
-		purchase: spriteset_wagon_mglv_purchase;
-		spriteset_wagon_mglv;
+		purchase: spriteset_mglv_wagon_unpowered_purchase;
+		spriteset_mglv_wagon_unpowered;
 	}	
 }

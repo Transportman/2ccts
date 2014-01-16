@@ -50,4 +50,12 @@ item(FEAT_TRAINS, item_mglv_China_Transrapid) {
 		purchase: spriteset_mglv_China_Transrapid_purchase;
 		switch_mglv_China_Transrapid_reversed;
 	}	
+	livery_override (item_mglv_wagon_unpowered){
+		loading_speed: 8;
+		running_cost_factor: 62;
+		power: 0;
+		cargo_capacity: switch_mglv_China_Transrapid_capacity;
+		weight: 15;
+		default: switch_mglv_China_Transrapid_cargo_selection; 
+	}
 }

@@ -29,7 +29,7 @@ str_rbs_Italy_FS_86			:FS 86 (Steam Railbus)
 #Metro
 
 #Maglev
-str_mglv_China_Transrapid	:Shanghai Transrapdi (Maglev)
+str_mglv_China_Transrapid	:Shanghai Transrapdid (Maglev)
 str_mglv_Japan_MLX01_901	:JR MLX01-901 (Maglev)
 
 #wagons
@@ -37,7 +37,7 @@ str_mglv_Japan_MLX01_901	:JR MLX01-901 (Maglev)
 #coaches
 
 #special wagons
-str_wagon_mglv				:Maglev Unit Wagon
+str_mglv_wagon_unpowered	:Maglev Unit Wagon (Unpowered)
 
 
 #PURCHASE MENU TEXTS
