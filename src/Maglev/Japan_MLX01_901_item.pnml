@@ -19,9 +19,9 @@ item(FEAT_TRAINS, item_mglv_Japan_MLX01_901) {
         vehicle_life: 25;
         loading_speed: 8;
         cost_factor: 154;
-        running_cost_factor: 123;
+        running_cost_factor: 246;
         speed: 603 km/h;
-        power: 1521 hp;
+        power: 3042 hp;
         cargo_capacity: 55;
         weight: 72 ton;
         tractive_effort_coefficient: 0.3;
@@ -40,7 +40,7 @@ item(FEAT_TRAINS, item_mglv_Japan_MLX01_901) {
         
         climates_available: ALL_CLIMATES;
         sprite_id: SPRITE_ID_NEW_TRAIN;
-        dual_headed: 0;
+        dual_headed: 1;
         length: 8;
         extra_power_per_wagon: 0;
         bitmask_vehicle_info: 0;
@@ -48,6 +48,6 @@ item(FEAT_TRAINS, item_mglv_Japan_MLX01_901) {
 	graphics {
 		cargo_capacity: switch_mglv_Japan_MLX01_901_capacity;
 		purchase: spriteset_mglv_Japan_MLX01_901_purchase;
-		switch_mglv_Japan_MLX01_901_cargo_selection;
+		switch_mglv_Japan_MLX01_901_reversed;
 	}	
 }

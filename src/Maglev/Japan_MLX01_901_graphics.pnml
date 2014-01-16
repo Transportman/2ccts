@@ -11,7 +11,7 @@
 */
 
 spriteset(spriteset_mglv_Japan_MLX01_901_purchase, "gfx/Maglev/Japan_MLX01_901.png") {
-	template_purchase(1, 128)
+	template_purchase_dualheaded(1, 128)
 }
 
 /*
@@ -25,7 +25,7 @@ spriteset(spriteset_mglv_Japan_MLX01_901_front, "gfx/Maglev/Japan_MLX01_901.png"
 
 //Back
 spriteset(spriteset_mglv_Japan_MLX01_901_back, "gfx/Maglev/Japan_MLX01_901.png") {
-	template_2cc_engines_back(1, 32)
+	template_2cc_engines_general(1, 32)
 }
 
 //Middle - PAX
@@ -37,24 +37,11 @@ spriteset(spriteset_mglv_Japan_MLX01_901_middlemail, "gfx/Maglev/Japan_MLX01_901
 	template_2cc_engines_general(1, 96)
 }
 
-//PAX Switch
-switch(FEAT_TRAINS, SELF, switch_mglv_Japan_MLX01_901_PASS_position, position_in_vehid_chain) {
-	0: spriteset_mglv_Japan_MLX01_901_front;
-    2 : spriteset_mglv_Japan_MLX01_901_back; 
-    spriteset_mglv_Japan_MLX01_901_middlepass;
-}
-
-//MAIL Switch
-switch(FEAT_TRAINS, SELF, switch_mglv_Japan_MLX01_901_MAIL_position, position_in_vehid_chain) {
-	0: spriteset_mglv_Japan_MLX01_901_front;
-    2: spriteset_mglv_Japan_MLX01_901_back; 
-    spriteset_mglv_Japan_MLX01_901_middlemail;
-}
-
-//Graphics selection based on cargo class
-switch(FEAT_TRAINS, SELF, switch_mglv_Japan_MLX01_901_cargo_selection, cargo_classes){
-	bitmask(CC_PASSENGERS): switch_mglv_Japan_MLX01_901_PASS_position;
-	switch_mglv_Japan_MLX01_901_MAIL_position;
+//Dualheaded engines
+switch(FEAT_TRAINS, SELF, switch_mglv_Japan_MLX01_901_reversed, var[0xC8]) {
+	0xFE: spriteset_mglv_Japan_MLX01_901_back;
+    0xFF: spriteset_mglv_Japan_MLX01_901_back; 
+    spriteset_mglv_Japan_MLX01_901_front;
 }
 
 /*
@@ -66,4 +53,9 @@ switch(FEAT_TRAINS, SELF, switch_mglv_Japan_MLX01_901_capacity, cargo_classes) {
 	bitmask(CC_ARMOURED): 28;
 	55;
 }
-	
+
+//Graphics for the unit wagon based on cargo class
+switch(FEAT_TRAINS, SELF, switch_mglv_Japan_MLX01_901_cargo_selection, cargo_classes){
+	bitmask(CC_PASSENGERS): spriteset_mglv_Japan_MLX01_901_middlepass;
+	spriteset_mglv_Japan_MLX01_901_middlemail;
+}

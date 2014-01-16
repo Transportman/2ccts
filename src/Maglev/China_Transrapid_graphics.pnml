@@ -11,7 +11,7 @@
 */
 
 spriteset(spriteset_mglv_China_Transrapid_purchase, "gfx/Maglev/China_Transrapid.png") {
-	template_purchase(1, 128)
+	template_purchase_dualheaded(1, 128)
 }
 
 /*
@@ -25,7 +25,7 @@ spriteset(spriteset_mglv_China_Transrapid_front, "gfx/Maglev/China_Transrapid.pn
 
 //Back
 spriteset(spriteset_mglv_China_Transrapid_back, "gfx/Maglev/China_Transrapid.png") {
-	template_2cc_engines_back(1, 32)
+	template_2cc_engines_general(1, 32)
 }
 
 //Middle - PAX
@@ -37,24 +37,11 @@ spriteset(spriteset_mglv_China_Transrapid_middlemail, "gfx/Maglev/China_Transrap
 	template_2cc_engines_general(1, 96)
 }
 
-//PAX Switch
-switch(FEAT_TRAINS, SELF, switch_mglv_China_Transrapid_PASS_position, position_in_vehid_chain) {
-	0: spriteset_mglv_China_Transrapid_front;
-    2 : spriteset_mglv_China_Transrapid_back; 
-    spriteset_mglv_China_Transrapid_middlepass;
-}
-
-//MAIL Switch
-switch(FEAT_TRAINS, SELF, switch_mglv_China_Transrapid_MAIL_position, position_in_vehid_chain) {
-	0: spriteset_mglv_China_Transrapid_front;
-    2: spriteset_mglv_China_Transrapid_back; 
-    spriteset_mglv_China_Transrapid_middlemail;
-}
-
-//Graphics selection based on cargo class
-switch(FEAT_TRAINS, SELF, switch_mglv_China_Transrapid_cargo_selection, cargo_classes){
-	bitmask(CC_PASSENGERS): switch_mglv_China_Transrapid_PASS_position;
-	switch_mglv_China_Transrapid_MAIL_position;
+//Dualheaded engines
+switch(FEAT_TRAINS, SELF, switch_mglv_China_Transrapid_reversed, var[0xC8]) {
+	0xFE: spriteset_mglv_China_Transrapid_back;
+    0xFF: spriteset_mglv_China_Transrapid_back; 
+    spriteset_mglv_China_Transrapid_front;
 }
 
 /*
@@ -67,3 +54,8 @@ switch(FEAT_TRAINS, SELF, switch_mglv_China_Transrapid_capacity, cargo_classes) 
 	55;
 }
 	
+//Graphics for the unit wagon based on cargo class
+switch(FEAT_TRAINS, SELF, switch_mglv_China_Transrapid_cargo_selection, cargo_classes){
+	bitmask(CC_PASSENGERS): spriteset_mglv_China_Transrapid_middlepass;
+	spriteset_mglv_China_Transrapid_middlemail;
+}
