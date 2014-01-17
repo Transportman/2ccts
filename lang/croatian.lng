@@ -1,0 +1,46 @@
+##grflangid 0x38
+##plural 6
+##gender male female middle
+##case aku dat gen ins lok nom vok
+
+#Main grf title and description
+STR_GRF_NAME                    :{TITLE}
+STR_GRF_DESCRIPTION             :{SILVER}2cc Vlakovi svijeta u NML-u{}{}(c)2ccts{}Licenca: GPLv2 ili viša.{}Pogledajte readme za detalje.
+STR_GRF_URL             :https://dev.openttdcoop.org/projects/2ccts
+
+#parameter strings
+
+#VEHICLE NAMES
+#Railbus-steam
+str_rbs_Austria_NOLB_1          :NOLB 1 (parni šinobus)
+str_rbs_Italy_FS_86                     :FS 86 (parni šinobus)
+
+#Railbus-diesel
+
+#Railbus-electric
+
+#Locomotives-steam
+
+#Locomotives-diesel
+
+#Locomotives-electric
+
+#MU-diesel
+
+#MU-electric
+
+#Metro
+
+#Maglev
+str_mglv_China_Transrapid       :Shanghai Transrapid (Maglev)
+str_mglv_Japan_MLX01_901        :JR MLX01-901 (Maglev)
+
+#wagons
+
+#coaches
+
+#special wagons
+str_mglv_wagon_unpowered        :Vagon Magleva (bez pogona)
+
+
+#PURCHASE MENU TEXTS
