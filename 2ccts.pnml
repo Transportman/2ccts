@@ -40,6 +40,16 @@
 //Railbus-diesel
 
 //Railbus-electric
+#include "src/Railbus-electric/Switzerland_SBB_Cfe_3_3_graphics.pnml"
+#include "src/Railbus-electric/Switzerland_SBB_Cfe_3_3_item.pnml"
+#include "src/Railbus-electric/Morocco_ONCFM_ZAB1000_graphics.pnml"
+#include "src/Railbus-electric/Morocco_ONCFM_ZAB1000_item.pnml"
+#include "src/Railbus-electric/Germany_DB_ET85_graphics.pnml"
+#include "src/Railbus-electric/Germany_DB_ET85_item.pnml"
+#include "src/Railbus-electric/Germany_DB_ET479_graphics.pnml"
+#include "src/Railbus-electric/Germany_DB_ET479_item.pnml"
+#include "src/Railbus-electric/Italy_FS_ALe_840_graphics.pnml"
+#include "src/Railbus-electric/Italy_FS_ALe_840_item.pnml"
 
 //Locomotives-steam
 
