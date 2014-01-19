@@ -1,0 +1,40 @@
+##grflangid 0x1f
+##plural 0
+
+#Main grf title and description
+STR_GRF_NAME                    :{TITLE}
+STR_GRF_URL             :https://dev.openttdcoop.org/projects/2ccts
+
+#parameter strings
+
+#VEHICLE NAMES
+#Railbus-steam
+
+#Railbus-diesel
+
+#Railbus-electric
+
+#Locomotives-steam
+
+#Locomotives-diesel
+
+#Locomotives-electric
+
+#MU-diesel
+
+#MU-electric
+
+#Metro
+
+#Maglev
+str_mglv_China_Transrapid       :Shanghai Transrapid (Maglev)
+str_mglv_Japan_MLX01_901        :JR MLX01-901 (Maglev)
+
+#wagons
+
+#coaches
+
+#special wagons
+
+
+#PURCHASE MENU TEXTS
