@@ -62,6 +62,14 @@
 //MU-electric
 
 //Metro
+#include "src/Metro/USA_Brooklyn_Union_Gate_Car_graphics.pnml"
+#include "src/Metro/USA_Brooklyn_Union_Gate_Car_item.pnml"
+#include "src/Metro/Hungary_Budapest_1894_Stock_graphics.pnml"
+#include "src/Metro/Hungary_Budapest_1894_Stock_item.pnml"
+#include "src/Metro/USA_Chicago_L_Northwest_Elevated_1907_Stock_graphics.pnml"
+#include "src/Metro/USA_Chicago_L_Northwest_Elevated_1907_Stock_item.pnml"
+#include "src/Metro/Germany_Berlin_U_Bahn_C_II_graphics.pnml"
+#include "src/Metro/Germany_Berlin_U_Bahn_C_II_item.pnml"
 
 //Maglev
 #include "src/Maglev/China_Transrapid_graphics.pnml"
