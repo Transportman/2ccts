@@ -10,7 +10,11 @@
 //it is referenced from the wagon item definitions.
 //any changes to cargo refits can be done centrally from this file.
 
+//The old set also allowed carrying of MAIL and Valuables in passenger trains
 #define CARGODEF_PASSENGERS refittable_cargo_classes: bitmask(CC_PASSENGERS,CC_MAIL,CC_ARMOURED); non_refittable_cargo_classes: 0;
+
+//Metro does not allow it
+#define CARGODEF_PASSENGERS_ONLY refittable_cargo_classes: bitmask(CC_PASSENGERS); non_refittable_cargo_classes: 0;
 
 /* 
 #define CARGODEF_BAGGAGE refittable_cargo_classes: bitmask(CC_MAIL, CC_EXPRESS); non_refittable_cargo_classes: 0; cargo_allow_refit: [MAIL, GOOD, FOOD, BEER]; cargo_disallow_refit: [PASS, COAL, OIL_, LVST, GRAI, WOOD, IORE, STEL, VALU, PAPR, WHEA, GOLD, RUBR, FRUT, MAIZ, CORE, WATR, DIAM, SUGR, TOYS, BATT, SWET, TOFF, COLA, CTCD, BUBL, PLST, FZDR, AORE, BDMT, BRCK, CERA, CERE, CLAY, CMNT, COPR, DYES, ENSP, FERT, FICR, FISH, FMSP, FRVG, GLAS, GRVL, LIME, MILK, MNSP, OLSD, PETR, PLAS, POTA, RCYC, RFPR, SAND, SCMT, SGBT, SGCN, SULP, TOUR, VEHI, WDPR, WOOL];
