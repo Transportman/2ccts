@@ -34,11 +34,13 @@ str_rbe_Italy_FS_ALe_840                        :FS ALe 840 (električni šinobu
 
 #MU-electric
 
-#Metro
+#Single Unit Metro
 str_mtro_USA_Brooklyn_Union_Gate_Car    :Brooklyn Union Gate (Metro)
 str_mtro_Hungary_Budapest_1894_Stock    :Budapest 1894 (Metro)
 str_mtro_USA_Chicago_L_Northwest_Elevated_1907_Stock    :Chicago L Northwest Elevated 1907 (Metro)
 str_mtro_Germany_Berlin_U_Bahn_C_II             :Berlin U-Bahn C II (Metro)
+
+#Multiple Unit Metro
 
 #Maglev
 str_mglv_China_Transrapid       :Shanghai Transrapid (Maglev)
@@ -50,6 +52,5 @@ str_mglv_Japan_MLX01_901        :JR MLX01-901 (Maglev)
 
 #special wagons
 str_mglv_wagon_unpowered        :Vagon Magleva (bez pogona)
-
 
 #PURCHASE MENU TEXTS
