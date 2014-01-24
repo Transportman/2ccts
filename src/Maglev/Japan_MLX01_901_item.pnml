@@ -58,4 +58,12 @@ item(FEAT_TRAINS, item_mglv_Japan_MLX01_901) {
 		weight: 36;
 		default: switch_mglv_Japan_MLX01_901_cargo_selection; 
 	}
+	livery_override (item_mglv_wagon_powered){
+		loading_speed: 8;
+		running_cost_factor: 246;
+		power: 1521;
+		cargo_capacity: switch_mglv_Japan_MLX01_901_capacity;
+		weight: 54;
+		default: switch_mglv_Japan_MLX01_901_cargo_selection; 
+	}
 }
