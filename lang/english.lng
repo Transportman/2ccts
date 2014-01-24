@@ -38,6 +38,10 @@ str_mtro_USA_Chicago_L_Northwest_Elevated_1907_Stock	:Chicago L Northwest Elevat
 str_mtro_Germany_Berlin_U_Bahn_C_II		:Berlin U-Bahn C II (Metro)
 
 #Multiple Unit Metro
+str_mtro_UK_London_1903_Stock			:London 1903 Stock (Metro)
+str_mtro_Argentina_Le_Brugeoise			:Buenos Aires 'Le Brugeoise' (Metro)
+str_mtro_USA_NY_R1						:New York R1 (Metro)
+str_mtro_UK_London_1938_Stock			:London 1938 Stock (Metro)
 
 #Maglev
 str_mglv_China_Transrapid	:Shanghai Transrapdid (Maglev)

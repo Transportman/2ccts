@@ -79,7 +79,14 @@
 #include "src/Metro/Germany_Berlin_U_Bahn_C_II_item.pnml"
 
 //Multiple Unit Metro
-
+#include "src/Metro/UK_London_1903_Stock_graphics.pnml"
+#include "src/Metro/UK_London_1903_Stock_item.pnml"
+#include "src/Metro/Argentina_Le_Brugeoise_graphics.pnml"
+#include "src/Metro/Argentina_Le_Brugeoise_item.pnml"
+#include "src/Metro/USA_NY_R1_graphics.pnml"
+#include "src/Metro/USA_NY_R1_item.pnml"
+#include "src/Metro/UK_London_1938_Stock_graphics.pnml"
+#include "src/Metro/UK_London_1938_Stock_item.pnml"
 
 //Maglev
 #include "src/Maglev/China_Transrapid_graphics.pnml"
