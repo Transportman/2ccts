@@ -23,11 +23,14 @@
 //railtype translation table
 #include "src/railtypetable.pnml"
 
+
 /*
 * VEHICLES
 */
 
 //Unit wagons
+#include "src/Wagons/Metro_Wagon_Unpowered_graphics.pnml"
+#include "src/Wagons/Metro_Wagon_Unpowered_item.pnml"
 #include "src/Wagons/Maglev_Wagon_Unpowered_graphics.pnml"
 #include "src/Wagons/Maglev_Wagon_Unpowered_item.pnml"
 
@@ -61,7 +64,7 @@
 
 //MU-electric
 
-//Metro
+//Single Unit Metro
 #include "src/Metro/USA_Brooklyn_Union_Gate_Car_graphics.pnml"
 #include "src/Metro/USA_Brooklyn_Union_Gate_Car_item.pnml"
 #include "src/Metro/Hungary_Budapest_1894_Stock_graphics.pnml"
@@ -70,6 +73,9 @@
 #include "src/Metro/USA_Chicago_L_Northwest_Elevated_1907_Stock_item.pnml"
 #include "src/Metro/Germany_Berlin_U_Bahn_C_II_graphics.pnml"
 #include "src/Metro/Germany_Berlin_U_Bahn_C_II_item.pnml"
+
+//Multiple Unit Metro
+
 
 //Maglev
 #include "src/Maglev/China_Transrapid_graphics.pnml"
