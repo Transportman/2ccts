@@ -87,6 +87,16 @@
 #include "src/Metro/USA_NY_R1_item.pnml"
 #include "src/Metro/UK_London_1938_Stock_graphics.pnml"
 #include "src/Metro/UK_London_1938_Stock_item.pnml"
+#include "src/Metro/Germany_DB_ET171_graphics.pnml"
+#include "src/Metro/Germany_DB_ET171_item.pnml"
+#include "src/Metro/France_Paris_M2_840_graphics.pnml"
+#include "src/Metro/France_Paris_M2_840_item.pnml"
+#include "src/Metro/Portugal_Lisbon_ML7_graphics.pnml"
+#include "src/Metro/Portugal_Lisbon_ML7_item.pnml"
+#include "src/Metro/Hungary_Budapest_Ev3_200_graphics.pnml"
+#include "src/Metro/Hungary_Budapest_Ev3_200_item.pnml"
+#include "src/Metro/Norway_Oslo_T1000_graphics.pnml"
+#include "src/Metro/Norway_Oslo_T1000_item.pnml"
 
 //Maglev
 #include "src/Maglev/China_Transrapid_graphics.pnml"

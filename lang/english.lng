@@ -42,6 +42,11 @@ str_mtro_UK_London_1903_Stock			:London 1903 Stock (Metro)
 str_mtro_Argentina_Le_Brugeoise			:Buenos Aires 'Le Brugeoise' (Metro)
 str_mtro_USA_NY_R1						:New York R1 (Metro)
 str_mtro_UK_London_1938_Stock			:London 1938 Stock (Metro)
+str_mtro_Germany_DB_ET171				:DB ET171 (Metro)
+str_mtro_France_Paris_M2_840			:Paris M2 840 (Metro)
+str_mtro_Portugal_Lisbon_ML7			:Lisbon ML7 (Metro)
+str_mtro_Hungary_Budapest_Ev3_200		:Budapest Ev3-200 (Metro)
+str_mtro_Norway_Oslo_T1000				:Oslo T1000 (Metro)
 
 #Maglev
 str_mglv_China_Transrapid	:Shanghai Transrapdid (Maglev)
@@ -55,7 +60,7 @@ str_mglv_Japan_MLX01_901	:JR MLX01-901 (Maglev)
 str_mtro_wagon_unpowered	:Metro Unit Wagon (Unpowered)
 str_mglv_wagon_unpowered	:Maglev Unit Wagon (Unpowered)
 str_mtro_wagon_powered		:Metro Unit Wagon (Powered)
-str_mglv_wagon_powered	:Maglev Unit Wagon (Powered)
+str_mglv_wagon_powered		:Maglev Unit Wagon (Powered)
 
 #PURCHASE MENU TEXTS
 
