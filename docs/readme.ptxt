@@ -72,8 +72,11 @@ Metro vehicles
 	for monorail.
     
 Multiple units
-    Multiple units are purchased in single parts. All parts have the same
-	properties. Graphics are set automatically.
+    With MUs you buy the front and back as dual headed train, and use Unit
+	Wagons to get the consist length you want. You can chose between unpowered
+	and powered unit wagons. The unpowered wagon weighs 50% of the engine, the
+	powered wagon weighs 75% of the engine and has double the costs as the
+	unpowered wagon.
     
 
 
@@ -114,7 +117,8 @@ Code:
 Makefile system:
 - planetmaker (Ingo von Borstel)
 
-
+Special thanks to:
+- Juzza1 for help with organizing the vehicle properties from the old set
 
 
 
@@ -124,7 +128,7 @@ Makefile system:
 
 7.1 Bug reports
 ---------------
-Please report any bugs you find at
+Please report any bugs you find at the
   bug tracker: http://dev.openttdcoop.org/projects/2ccts/issues
   or forum topic: http://www.tt-forums.net/viewtopic.php?f=26&t=69826
 
