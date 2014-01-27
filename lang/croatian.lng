@@ -41,6 +41,15 @@ str_mtro_USA_Chicago_L_Northwest_Elevated_1907_Stock    :Chicago L Northwest Ele
 str_mtro_Germany_Berlin_U_Bahn_C_II             :Berlin U-Bahn C II (Metro)
 
 #Multiple Unit Metro
+str_mtro_UK_London_1903_Stock                   :London 1903 (Metro)
+str_mtro_Argentina_Le_Brugeoise                 :Buenos Aires 'Le Brugeoise' (Metro)
+str_mtro_USA_NY_R1                                              :New York R1 (Metro)
+str_mtro_UK_London_1938_Stock                   :London 1938 (Metro)
+str_mtro_Germany_DB_ET171                               :DB ET171 (Metro)
+str_mtro_France_Paris_M2_840                    :Paris M2 840 (Metro)
+str_mtro_Portugal_Lisbon_ML7                    :Lisbon ML7 (Metro)
+str_mtro_Hungary_Budapest_Ev3_200               :Budapest Ev3-200 (Metro)
+str_mtro_Norway_Oslo_T1000                              :Oslo T1000 (Metro)
 
 #Maglev
 str_mglv_China_Transrapid       :Shanghai Transrapid (Maglev)
@@ -51,6 +60,9 @@ str_mglv_Japan_MLX01_901        :JR MLX01-901 (Maglev)
 #coaches
 
 #special wagons
+str_mtro_wagon_unpowered        :Vagon Metroa (bez pogona)
 str_mglv_wagon_unpowered        :Vagon Magleva (bez pogona)
+str_mtro_wagon_powered          :Vagon Metroa (sa pogonom)
+str_mglv_wagon_powered          :Vagon Magleva (sa pogonom)
 
 #PURCHASE MENU TEXTS
