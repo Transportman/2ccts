@@ -18,8 +18,8 @@ item(FEAT_TRAINS, item_mtro_France_Paris_M2_840) {
         model_life: 42;
         vehicle_life: 60;
         loading_speed: 60;
-        cost_factor: 12;
-        running_cost_factor: 64;
+        cost_factor: 5;
+        running_cost_factor: 50;
         speed: 80 km/h;
         power: 450 hp;
         cargo_capacity: 140;
@@ -51,7 +51,7 @@ item(FEAT_TRAINS, item_mtro_France_Paris_M2_840) {
 	}	
 	livery_override (item_mtro_wagon_unpowered){
 		loading_speed: 60;
-		running_cost_factor: 32;
+		running_cost_factor: 25;
 		power: 0;
 		weight: 19;
 		cargo_capacity: 140;
@@ -60,7 +60,7 @@ item(FEAT_TRAINS, item_mtro_France_Paris_M2_840) {
 	}
 	livery_override (item_mtro_wagon_powered){
 		loading_speed: 60;
-		running_cost_factor: 48;
+		running_cost_factor: 38;
 		power: 225;
 		weight: 28;
 		cargo_capacity: 140;

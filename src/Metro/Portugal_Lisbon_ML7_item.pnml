@@ -18,8 +18,8 @@ item(FEAT_TRAINS, item_mtro_Portugal_Lisbon_ML7) {
         model_life: 50;
         vehicle_life: 60;
         loading_speed: 60;
-        cost_factor: 13;
-        running_cost_factor: 44;
+        cost_factor: 6;
+        running_cost_factor: 33;
         speed: 60 km/h;
         power: 535 hp;
         cargo_capacity: 160;
@@ -51,7 +51,7 @@ item(FEAT_TRAINS, item_mtro_Portugal_Lisbon_ML7) {
 	}	
 	livery_override (item_mtro_wagon_unpowered){
 		loading_speed: 60;
-		running_cost_factor: 22;
+		running_cost_factor: 17;
 		power: 0;
 		weight: 18;
         cargo_capacity: 160;
@@ -59,7 +59,7 @@ item(FEAT_TRAINS, item_mtro_Portugal_Lisbon_ML7) {
 	}
 	livery_override (item_mtro_wagon_powered){
 		loading_speed: 60;
-		running_cost_factor: 33;
+		running_cost_factor: 25;
 		power: 268;
 		weight: 27;
         cargo_capacity: 160;

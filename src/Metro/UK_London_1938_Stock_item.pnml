@@ -18,8 +18,8 @@ item(FEAT_TRAINS, item_mtro_UK_London_1938_Stock) {
         model_life: 50;
         vehicle_life: 60;
         loading_speed: 60;
-        cost_factor: 11;
-        running_cost_factor: 48;
+        cost_factor: 5;
+        running_cost_factor: 41;
         speed: 70 km/h;
         power: 600 hp;
         cargo_capacity: 120;
@@ -53,7 +53,7 @@ item(FEAT_TRAINS, item_mtro_UK_London_1938_Stock) {
 		loading_speed: 60;
 		running_cost_factor: 24;
 		power: 0;
-		weight: 13;
+		weight: 20;
 		cargo_capacity: 120;
 		length: 7;
 		default: spriteset_mtro_UK_London_1938_Stock_middle;
@@ -62,7 +62,7 @@ item(FEAT_TRAINS, item_mtro_UK_London_1938_Stock) {
 		loading_speed: 60;
 		running_cost_factor: 36;
 		power: 300;
-		weight: 20;
+		weight: 31;
 		cargo_capacity: 120;
 		length: 7;
 		default: spriteset_mtro_UK_London_1938_Stock_middle;

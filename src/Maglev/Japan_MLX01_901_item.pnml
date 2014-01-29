@@ -18,8 +18,8 @@ item(FEAT_TRAINS, item_mglv_Japan_MLX01_901) {
         model_life: VEHICLE_NEVER_EXPIRES;
         vehicle_life: 25;
         loading_speed: 8;
-        cost_factor: 154;
-        running_cost_factor: 246;
+        cost_factor: 246;
+        running_cost_factor: 255;
         speed: 603 km/h;
         power: 3042 hp;
         cargo_capacity: 55;
@@ -60,7 +60,7 @@ item(FEAT_TRAINS, item_mglv_Japan_MLX01_901) {
 	}
 	livery_override (item_mglv_wagon_powered){
 		loading_speed: 8;
-		running_cost_factor: 246;
+		running_cost_factor: 187;
 		power: 1521;
 		cargo_capacity: switch_mglv_Japan_MLX01_901_capacity;
 		weight: 54;
