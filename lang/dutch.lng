@@ -28,6 +28,7 @@ STR_GRF_URL             :https://dev.openttdcoop.org/projects/2ccts
 
 #Multiple Unit Metro
 
+
 #Maglev
 str_mglv_China_Transrapid       :Shanghai Transrapid (Maglev)
 str_mglv_Japan_MLX01_901        :JR MLX01-901 (Maglev)
