@@ -13,7 +13,8 @@ STR_GRF_URL             :https://dev.openttdcoop.org/projects/2ccts
 str_rbs_Austria_NOLB_1          :NOLB 1 (Steam Railbus)
 str_rbs_Italy_FS_86                     :FS 86 (Steam Railbus)
 
-#Railbus-diesel
+#Diesel Railbus
+
 
 #Railbus-electric
 str_rbe_Switzerland_SBB_Cfe_3_3         :SBB Cfe 3/3 (Electric Railbus)

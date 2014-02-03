@@ -15,7 +15,27 @@ STR_GRF_URL             :https://dev.openttdcoop.org/projects/2ccts
 str_rbs_Austria_NOLB_1          :NOLB 1 (parni šinobus)
 str_rbs_Italy_FS_86                     :FS 86 (parni šinobus)
 
-#Railbus-diesel
+#Diesel Railbus
+str_rbd_Australia_Victorian_Railways_AEC_RM1    :Victorian Railways AEC RM1 (Dizel šinobus)
+str_rbd_Germany_DB_VT133                                                :DB VT133 (Dizel šinobus)
+str_rbd_United_Kingdom_GWR_AEC_Railcar                  :GWR AEC Railcar (Dizel šinobus)
+str_rbd_Germany_DB_VT42                                                 :DB VT42 (Dizel šinobus)
+str_rbd_New_Zealand_NZR_RM31                                    :NZR RM31 (Dizel šinobus)
+str_rbd_Portugal_CP_0100                                                :CP 0100 (Dizel šinobus)
+str_rbd_USA_Amtrak_Budd_RDC                                     :Amtrak Budd RDC (Dizel šinobus)
+str_rbd_Germany_DB_VT98                                                 :DB VT98 (Dizel šinobus)
+str_rbd_Germany_OHE_520_GDT                                     :OHE 520 GDT (Dizel šinobus)
+str_rbd_Netherlands_NS_20_Kameel                                :NS 20 'Kameel' (Dizel šinobus)
+str_rbd_Finland_VR_Dm7                                                  :VR Dm7 (Dizel šinobus)
+str_rbd_USSR_MPC_ACh2                                                   :MPC ACh2 (Dizel šinobus)
+str_rbd_Netherlands_NS_DH1                                              :NS DH1 (Dizel šinobus)
+str_rbd_Austria_OBB_5047                                                :OBB 5047 (Dizel šinobus)
+str_rbd_United_Kingdom_BR_153_Super_Sprinter    :BR 153 'Super Sprinter' (Dizel šinobus)
+str_rbd_Czech_Republic_CD_809                                   :CD 809 (Dizel šinobus)
+str_rbd_Germany_DB_650_Regio_Shuttle                    :DB 650 'Regio Shuttle' (Dizel šinobus)
+str_rbd_Germany_DB_670                                                  :DB 670 (Dizel šinobus)
+str_rbd_Lithuania_Lithuanian_Railways_AR2               :Lithuanian Railways AR2 (Dizel šinobus)
+
 
 #Railbus-electric
 str_rbe_Switzerland_SBB_Cfe_3_3         :SBB Cfe 3/3 (električni šinobus)
