@@ -1,0 +1,46 @@
+##grflangid 0x04
+##plural 0
+##gender m f
+
+#Main grf title and description
+STR_GRF_NAME                    :{TITLE}
+STR_GRF_DESCRIPTION             :{SILVER}Trenes 2cc del Mundo en NML{}{}(c)2ccts{}Licencia: GPLv2 ó superior.{}Para más información ver el readme.
+
+#parameter strings
+
+#VEHICLE NAMES
+#Railbus-steam
+str_rbs_Italy_FS_86                     :FS 86 (Railbus a vapor)
+
+#Diesel Railbus
+
+
+#Railbus-electric
+str_rbe_Germany_DB_ET479                        :DB ET479 (Railbus eléctrico)
+
+#Locomotives-steam
+
+#Locomotives-diesel
+
+#Locomotives-electric
+
+#MU-diesel
+
+#MU-electric
+
+#Single Unit Metro
+
+#Multiple Unit Metro
+
+
+#Maglev
+str_mglv_China_Transrapid       :Shanghai Transrapid (Maglev)
+str_mglv_Japan_MLX01_901        :JR MLX01-901 (Maglev)
+
+#wagons
+
+#coaches
+
+#special wagons
+
+#PURCHASE MENU TEXTS
