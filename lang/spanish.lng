@@ -5,6 +5,7 @@
 #Main grf title and description
 STR_GRF_NAME                    :{TITLE}
 STR_GRF_DESCRIPTION             :{SILVER}Trenes 2cc del Mundo en NML{}{}(c)2ccts{}Licencia: GPLv2 ó superior.{}Para más información ver el readme.
+STR_GRF_URL             :https://dev.openttdcoop.org/projects/2ccts
 
 #parameter strings
 
@@ -13,6 +14,7 @@ STR_GRF_DESCRIPTION             :{SILVER}Trenes 2cc del Mundo en NML{}{}(c)2ccts
 str_rbs_Italy_FS_86                     :FS 86 (Railbus a vapor)
 
 #Diesel Railbus
+str_rbd_Lithuania_Lithuanian_Railways_AR2               :Lithuanian Railways AR2 (Railbus diesel)
 
 
 #Railbus-electric
