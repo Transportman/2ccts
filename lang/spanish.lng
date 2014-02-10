@@ -14,6 +14,7 @@ STR_GRF_URL             :https://dev.openttdcoop.org/projects/2ccts
 str_rbs_Italy_FS_86                     :FS 86 (Railbus a vapor)
 
 #Diesel Railbus
+str_rbd_United_Kingdom_BR_153_Super_Sprinter    :BR 153 'Super Sprinter' (Railbus diesel)
 str_rbd_Lithuania_Lithuanian_Railways_AR2               :Lithuanian Railways AR2 (Railbus diesel)
 
 
@@ -33,6 +34,7 @@ str_rbe_Germany_DB_ET479                        :DB ET479 (Railbus eléctrico)
 #Single Unit Metro
 
 #Multiple Unit Metro
+str_mtro_Canada_Toronto_H_series                :Toronto H-series (Metro)
 
 
 #Maglev
