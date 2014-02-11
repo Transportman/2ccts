@@ -15,6 +15,8 @@ str_rbs_Italy_FS_86                     :FS 86 (Railbus a vapor)
 
 #Diesel Railbus
 str_rbd_United_Kingdom_BR_153_Super_Sprinter    :BR 153 'Super Sprinter' (Railbus diesel)
+str_rbd_Czech_Republic_CD_809                                   :CD 809 (Railbus diesel)
+str_rbd_Germany_DB_650_Regio_Shuttle                    :DB 650 'Regio Shuttle' (Railbus diesel)
 str_rbd_Lithuania_Lithuanian_Railways_AR2               :Lithuanian Railways AR2 (Railbus diesel)
 
 
@@ -34,6 +36,7 @@ str_rbe_Germany_DB_ET479                        :DB ET479 (Railbus eléctrico)
 #Single Unit Metro
 
 #Multiple Unit Metro
+str_mtro_Argentina_Le_Brugeoise                 :Buenos Aires 'La Brugeoise' (Metro)
 str_mtro_Canada_Toronto_H_series                :Toronto H-series (Metro)
 
 
