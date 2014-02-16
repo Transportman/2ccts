@@ -25,6 +25,7 @@ str_rbd_Lithuania_Lithuanian_Railways_AR2               :Lithuanian Railways AR2
 
 
 #Railbus-electric
+str_rbe_Switzerland_SBB_Cfe_3_3         :SBB Cfe 3/3 (Railbus eléctrico)
 str_rbe_Germany_DB_ET479                        :DB ET479 (Railbus eléctrico)
 
 #Locomotives-steam
@@ -45,6 +46,7 @@ str_mtro_Argentina_Le_Brugeoise                 :Buenos Aires 'La Brugeoise' (Me
 str_mtro_Germany_DB_ET171                               :DB ET171 (Metro)
 str_mtro_France_Paris_M2_840                    :Paris M2 840 (Metro)
 str_mtro_Canada_Toronto_H_series                :Toronto H-series (Metro)
+str_mtro_Germany_Munchen_MVG_A2                 :Munchen MVG A2 (Metro)
 str_mtro_Finland_Helsinki_M100                  :Helsinki M100 (Metro)
 str_mtro_Brasil_Sao_Paulo_Serie_5500    :Sao Paulo Serie 5500 (Metro)
 str_mtro_USSR_Moscow_81_720                     :Moscow 81-720 (Metro)
