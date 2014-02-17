@@ -43,6 +43,7 @@ str_mtro_Germany_Berlin_U_Bahn_C_II             :Berlin U-Bahn C II (Metro)
 
 #Multiple Unit Metro
 str_mtro_Argentina_Le_Brugeoise                 :Buenos Aires 'La Brugeoise' (Metro)
+str_mtro_USA_NY_R1                                              :New York R1 (Metro)
 str_mtro_Germany_DB_ET171                               :DB ET171 (Metro)
 str_mtro_France_Paris_M2_840                    :Paris M2 840 (Metro)
 str_mtro_Canada_Toronto_H_series                :Toronto H-series (Metro)
@@ -53,6 +54,8 @@ str_mtro_USSR_Moscow_81_720                     :Moscow 81-720 (Metro)
 str_mtro_Japan_Tokyo_S01                                :Tokyo S01 (Metro)
 str_mtro_UK_DLR_P86                                     :DLR P86 (Metro)
 str_mtro_France_Paris_MP89                              :Paris MP89 (Metro)
+str_mtro_USA_Washington_7000                    :Washington 7000 (Metro)
+str_mtro_Greece_Thessaloniki_2014               :Thessaloniki 2014 (Metro)
 
 
 #Maglev
