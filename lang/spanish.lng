@@ -64,6 +64,7 @@ str_mtro_UK_DLR_P86                                     :DLR P86 (Metro)
 str_mtro_USSR_Moscow_81_7175M                   :Moscow 81-717.5M (Metro)
 str_mtro_Netherlands_Amsterdam_CAF_90   :Amsterdam CAF 90 (Metro)
 str_mtro_France_Paris_MP89                              :Paris MP89 (Metro)
+str_mtro_Norway_Oslo_MX3000                     :Oslo MX3000 (Metro)
 str_mtro_Japan_Osaka_30000                              :Osaka 30000 (Metro)
 str_mtro_USA_Washington_7000                    :Washington 7000 (Metro)
 str_mtro_Greece_Thessaloniki_2014               :Thessaloniki 2014 (Metro)
@@ -78,5 +79,7 @@ str_mglv_Japan_MLX01_901        :JR MLX01-901 (Maglev)
 #coaches
 
 #special wagons
+str_mtro_wagon_unpowered        :Vagón de metro (Sin motorización)
+str_mtro_wagon_powered          :Vagón de metro (Motorizado)
 
 #PURCHASE MENU TEXTS
