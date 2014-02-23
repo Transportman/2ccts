@@ -1,0 +1,112 @@
+##grflangid 0x35
+##plural 0
+
+#Main grf title and description
+STR_GRF_NAME                    :{TITLE}
+STR_GRF_DESCRIPTION             :{SILVER}2cc Maailman Junat NML-muodossa{}{}(c)2ccts{}Lisenssi: GPLv2 tai korkeampi.{}Yksityiskohdat readme:ssa.
+STR_GRF_URL             :https://dev.openttdcoop.org/projects/2ccts
+
+#parameter strings
+
+#VEHICLE NAMES
+#Railbus-steam
+str_rbs_Austria_NOLB_1          :NOLB 1 (Höyrykiskobussi)
+str_rbs_Italy_FS_86                     :FS 86 (Höyrykiskobussi)
+
+#Diesel Railbus
+str_rbd_Australia_Victorian_Railways_AEC_RM1    :Victorian Railways AEC RM1 (Dieselkiskobussi)
+str_rbd_Germany_DB_VT133                                                :DB VT133 (Dieselkiskobussi)
+str_rbd_United_Kingdom_GWR_AEC_Railcar                  :GWR AEC kiskobussi (Dieselkiskobussi)
+str_rbd_Germany_DB_VT42                                                 :DB VT42 (Dieselkiskobussi)
+str_rbd_New_Zealand_NZR_RM31                                    :NZR RM31 (Dieselkiskobussi)
+str_rbd_Portugal_CP_0100                                                :CP 0100 (Dieselkiskobussi)
+str_rbd_USA_Amtrak_Budd_RDC                                     :Amtrak Budd RDC (Dieselkiskobussi)
+str_rbd_Germany_DB_VT98                                                 :DB VT98 (Dieselkiskobussi)
+str_rbd_Germany_OHE_520_GDT                                     :OHE 520 GDT (Dieselkiskobussi)
+str_rbd_Netherlands_NS_20_Kameel                                :NS 20 'Kameel' (Dieselkiskobussi)
+str_rbd_Finland_VR_Dm7                                                  :VR Dm7 (Dieselkiskobussi)
+str_rbd_USSR_MPC_ACh2                                                   :MPC ACh2 (Dieselkiskobussi)
+str_rbd_Netherlands_NS_DH1                                              :NS DH1 (Dieselkiskobussi)
+str_rbd_Austria_OBB_5047                                                :OBB 5047 (Dieselkiskobussi)
+str_rbd_United_Kingdom_BR_153_Super_Sprinter    :BR 153 'Super Sprinter' (Dieselkiskobussi)
+str_rbd_Czech_Republic_CD_809                                   :CD 809 (Dieselkiskobussi)
+str_rbd_Germany_DB_650_Regio_Shuttle                    :DB 650 'Regio Shuttle' (Dieselkiskobussi)
+str_rbd_Germany_DB_670                                                  :DB 670 (Dieselkiskobussi)
+str_rbd_Lithuania_Lithuanian_Railways_AR2               :Lithuanian Railways AR2 (Dieselkiskobussi)
+
+
+#Railbus-electric
+str_rbe_Switzerland_SBB_Cfe_3_3         :SBB Cfe 3/3 (Sähkökiskobussi)
+str_rbe_Morocco_ONCFM_ZAB1000           :ONCFM ZAB1000 (Sähkökiskobussi)
+str_rbe_Germany_DB_ET85                         :DB ET85 (Sähkökiskobussi)
+str_rbe_Germany_DB_ET479                        :DB ET479 (Sähkökiskobussi)
+str_rbe_Italy_FS_ALe_840                        :FS ALe 840 (Sähkökiskobussi)
+
+#Locomotives-steam
+
+#Locomotives-diesel
+
+#Locomotives-electric
+
+#MU-diesel
+
+#MU-electric
+
+#Single Unit Metro
+str_mtro_USA_Brooklyn_Union_Gate_Car    :Brooklyn Union Gate Car (Metro)
+str_mtro_Hungary_Budapest_1894_Stock    :Budapest vuoden 1894 kalusto (Metro)
+str_mtro_USA_Chicago_L_Northwest_Elevated_1907_Stock    :Chicago L Northwest Elevated vuoden 1907 kalusto (Metro)
+str_mtro_Germany_Berlin_U_Bahn_C_II             :Berliini U-Bahn C II (Metro)
+
+#Multiple Unit Metro
+str_mtro_UK_London_1903_Stock                   :Lontoo vuoden 1903 kalusto (Metro)
+str_mtro_Argentina_Le_Brugeoise                 :Buenos Aires 'Le Brugeoise' (Metro)
+str_mtro_USA_NY_R1                                              :New York R1 (Metro)
+str_mtro_UK_London_1938_Stock                   :Lontoo vuoden 1938 kalusto (Metro)
+str_mtro_Germany_DB_ET171                               :DB ET171 (Metro)
+str_mtro_France_Paris_M2_840                    :Pariisi M2 840 (Metro)
+str_mtro_Portugal_Lisbon_ML7                    :Lissabon ML7 (Metro)
+str_mtro_Hungary_Budapest_Ev3_200               :Budapest Ev3-200 (Metro)
+str_mtro_Norway_Oslo_T1000                              :Oslo T1000 (Metro)
+str_mtro_Canada_Toronto_H_series                :Toronto H-sarja (Metro)
+str_mtro_Germany_Munchen_MVG_A2                 :Munich MVG A2 (Metro)
+str_mtro_USA_NY_R44                                     :New York R44 (Metro)
+str_mtro_Netherlands_Amsterdam_Type_M1  :Amsterdam M1 (Metro)
+str_mtro_Sweden_Stockholm_C8                    :Tukholma C8 (Metro)
+str_mtro_North_Korea_Pyongyang_D_stock  :Pyongyang D-sarja (Metro)
+str_mtro_Finland_Helsinki_M100                  :Helsinki M100 (Metro)
+str_mtro_Brasil_Sao_Paulo_Serie_5500    :Sao Paulo 5500-sarja (Metro)
+str_mtro_USSR_Moscow_81_720                     :Moskova 81-720 (Metro)
+str_mtro_Japan_Tokyo_S01                                :Tokio S01 (Metro)
+str_mtro_Egypt_Cairo_1987_Stock                 :Kairo vuoden 1987 kalusto (Metro)
+str_mtro_UK_DLR_P86                                     :DLR P86 (Metro)
+str_mtro_USSR_Moscow_81_7175M                   :Moskova 81-717.5M (Metro)
+str_mtro_USA_Boston_01800                               :Boston 01800 (Metro)
+str_mtro_USA_LA_A650                                    :LA A650 (Metro)
+str_mtro_Taiwan_Taipei_C301                     :Taipei C301 (Metro)
+str_mtro_Netherlands_Amsterdam_CAF_90   :Amsterdam CAF 90 (Metro)
+str_mtro_France_Paris_MP89                              :Pariisi MP89 (Metro)
+str_mtro_Russia_Moscow_81_740                   :Moskova 81-740 (Metro)
+str_mtro_Singapore_Singapore_C830_Metropolis :Singapore C830 'Metropolis' (Metro)
+str_mtro_Norway_Oslo_MX3000                     :Oslo MX3000 (Metro)
+str_mtro_Japan_Osaka_30000                              :Osaka 30000 (Metro)
+str_mtro_Singapore_Singapore_C151A              :Singapore C151A (Metro)
+str_mtro_USA_Washington_7000                    :Washington 7000 (Metro)
+str_mtro_Greece_Thessaloniki_2014               :Thessaloniki 2014 (Metro)
+
+
+#Maglev
+str_mglv_China_Transrapid       :Shanghai Transrapid (Maglev)
+str_mglv_Japan_MLX01_901        :JR MLX01-901 (Maglev)
+
+#wagons
+
+#coaches
+
+#special wagons
+str_mtro_wagon_unpowered        :Metrovaunu (moottoroimaton)
+str_mglv_wagon_unpowered        :Maglev-vaunu (moottoroimaton)
+str_mtro_wagon_powered          :Metrovaunu (moottoroitu)
+str_mglv_wagon_powered          :Maglev-vaunu (moottoroitu)
+
+#PURCHASE MENU TEXTS

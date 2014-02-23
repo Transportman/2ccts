@@ -11,6 +11,7 @@ STR_GRF_URL             :https://dev.openttdcoop.org/projects/2ccts
 
 #VEHICLE NAMES
 #Railbus-steam
+str_rbs_Austria_NOLB_1          :NOLB 1 (Railbus a vapor)
 str_rbs_Italy_FS_86                     :FS 86 (Railbus a vapor)
 
 #Diesel Railbus
@@ -66,6 +67,7 @@ str_mtro_Netherlands_Amsterdam_CAF_90   :Amsterdam CAF 90 (Metro)
 str_mtro_France_Paris_MP89                              :Paris MP89 (Metro)
 str_mtro_Norway_Oslo_MX3000                     :Oslo MX3000 (Metro)
 str_mtro_Japan_Osaka_30000                              :Osaka 30000 (Metro)
+str_mtro_Singapore_Singapore_C151A              :Singapore C151A (Metro)
 str_mtro_USA_Washington_7000                    :Washington 7000 (Metro)
 str_mtro_Greece_Thessaloniki_2014               :Thessaloniki 2014 (Metro)
 
