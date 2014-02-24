@@ -19,7 +19,7 @@ item(FEAT_TRAINS, item_rbd_United_Kingdom_BR_153_Super_Sprinter) {
         vehicle_life: 15;
         loading_speed: 20;
         cost_factor: 5;
-        running_cost_factor: 61;
+        running_cost_factor: 8;
         speed: 144 km/h;
         power: 285 hp;
         cargo_capacity: 75;

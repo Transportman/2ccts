@@ -19,7 +19,7 @@ item(FEAT_TRAINS, item_mtro_USA_NY_R1) {
         vehicle_life: 60;
         loading_speed: 60;
         cost_factor: 6;
-        running_cost_factor: 60;
+        running_cost_factor: 16;
         speed: 90 km/h;
         power: 380 hp;
         cargo_capacity: 156;
@@ -51,18 +51,20 @@ item(FEAT_TRAINS, item_mtro_USA_NY_R1) {
 	}	
 	livery_override (item_mtro_wagon_unpowered){
 		loading_speed: 60;
-		running_cost_factor: 30;
+		running_cost_factor: 8;
 		power: 0;
 		weight: 19;
-        cargo_capacity: 156;
+		cargo_capacity: 156;
+		length: 8;
 		default: spriteset_mtro_USA_NY_R1_middle;
 	}
 	livery_override (item_mtro_wagon_powered){
 		loading_speed: 60;
-		running_cost_factor: 45;
+		running_cost_factor: 12;
 		power: 190;
-		weight: 34;
-        cargo_capacity: 156;
+		weight: 29;
+		cargo_capacity: 156;
+		length: 8;
 		default: spriteset_mtro_USA_NY_R1_middle;
 	}
 }

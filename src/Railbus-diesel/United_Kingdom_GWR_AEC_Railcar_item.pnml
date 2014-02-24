@@ -19,7 +19,7 @@ item(FEAT_TRAINS, item_rbd_United_Kingdom_GWR_AEC_Railcar) {
         vehicle_life: 15;
         loading_speed: 20;
         cost_factor: 2;
-        running_cost_factor: 22;
+        running_cost_factor: 3;
         speed: 80 km/h;
         power: 175 hp;
         cargo_capacity: 70;

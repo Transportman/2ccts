@@ -19,7 +19,7 @@ item(FEAT_TRAINS, item_rbd_Germany_DB_650_Regio_Shuttle) {
         vehicle_life: 15;
         loading_speed: 20;
         cost_factor: 4;
-        running_cost_factor: 47;
+        running_cost_factor: 6;
         speed: 120 km/h;
         power: 690 hp;
         cargo_capacity: 68;

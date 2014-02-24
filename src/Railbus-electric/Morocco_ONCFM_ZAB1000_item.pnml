@@ -19,7 +19,7 @@ item(FEAT_TRAINS, item_rbe_Morocco_ONCFM_ZAB1000) {
         vehicle_life: 15;
         loading_speed: 20;
         cost_factor: 2;
-        running_cost_factor: 11;
+        running_cost_factor: 3;
         speed: 85 km/h;
         power: 480 hp;
         cargo_capacity: 44;

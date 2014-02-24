@@ -19,7 +19,7 @@ item(FEAT_TRAINS, item_rbd_USSR_MPC_ACh2) {
         vehicle_life: 15;
         loading_speed: 20;
         cost_factor: 4;
-        running_cost_factor: 50;
+        running_cost_factor: 6;
         speed: 120 km/h;
         power: 990 hp;
         cargo_capacity: 67;

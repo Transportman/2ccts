@@ -19,7 +19,7 @@ item(FEAT_TRAINS, item_mtro_UK_London_1903_Stock) {
         vehicle_life: 60;
         loading_speed: 60;
         cost_factor: 4;
-        running_cost_factor: 41;
+        running_cost_factor: 11;
         speed: 70 km/h;
         power: 300 hp;
         cargo_capacity: 125;
@@ -51,18 +51,20 @@ item(FEAT_TRAINS, item_mtro_UK_London_1903_Stock) {
 	}	
 	livery_override (item_mtro_wagon_unpowered){
 		loading_speed: 60;
-		running_cost_factor: 20;
+		running_cost_factor: 6;
 		power: 0;
 		weight: 23;
-        cargo_capacity: 125;
+		cargo_capacity: 125;
+		length: 8;
 		default: spriteset_mtro_UK_London_1903_Stock_middle;
 	}
 	livery_override (item_mtro_wagon_powered){
 		loading_speed: 60;
-		running_cost_factor: 31;
+		running_cost_factor: 8;
 		power: 150;
 		weight: 34;
-        cargo_capacity: 125;
+		cargo_capacity: 125;
+		length: 8;
 		default: spriteset_mtro_UK_London_1903_Stock_middle;
 	}
 }

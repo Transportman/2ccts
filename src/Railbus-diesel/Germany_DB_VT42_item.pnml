@@ -19,7 +19,7 @@ item(FEAT_TRAINS, item_rbd_Germany_DB_VT42) {
         vehicle_life: 15;
         loading_speed: 20;
         cost_factor: 3;
-        running_cost_factor: 41;
+        running_cost_factor: 5;
         speed: 110 km/h;
         power: 410 hp;
         cargo_capacity: 78;

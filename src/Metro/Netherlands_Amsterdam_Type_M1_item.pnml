@@ -19,7 +19,7 @@ item(FEAT_TRAINS, item_mtro_Netherlands_Amsterdam_Type_M1) {
         vehicle_life: 60;
         loading_speed: 60;
         cost_factor: 8;
-        running_cost_factor: 61;
+        running_cost_factor: 16;
         speed: 90 km/h;
         power: 580 hp;
         cargo_capacity: 174;
@@ -51,7 +51,7 @@ item(FEAT_TRAINS, item_mtro_Netherlands_Amsterdam_Type_M1) {
 	}	
 	livery_override (item_mtro_wagon_unpowered){
 		loading_speed: 60;
-		running_cost_factor: 31;
+		running_cost_factor: 8;
 		power: 0;
 		weight: 16;
 		cargo_capacity: 174;
@@ -60,7 +60,7 @@ item(FEAT_TRAINS, item_mtro_Netherlands_Amsterdam_Type_M1) {
 	}
 	livery_override (item_mtro_wagon_powered){
 		loading_speed: 60;
-		running_cost_factor: 46;
+		running_cost_factor: 12;
 		power: 290;
 		weight: 23;
 		cargo_capacity: 174;

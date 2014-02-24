@@ -19,7 +19,7 @@ item(FEAT_TRAINS, item_mtro_Greece_Thessaloniki_2014) {
         vehicle_life: 60;
         loading_speed: 60;
         cost_factor: 4;
-        running_cost_factor: 57;
+        running_cost_factor: 15;
         speed: 90 km/h;
         power: 255 hp;
         cargo_capacity: 110;
@@ -51,7 +51,7 @@ item(FEAT_TRAINS, item_mtro_Greece_Thessaloniki_2014) {
 	}	
 	livery_override (item_mtro_wagon_unpowered){
 		loading_speed: 60;
-		running_cost_factor: 29;
+		running_cost_factor: 8;
 		power: 0;
 		weight: 9;
 		cargo_capacity: 110;
@@ -60,7 +60,7 @@ item(FEAT_TRAINS, item_mtro_Greece_Thessaloniki_2014) {
 	}
 	livery_override (item_mtro_wagon_powered){
 		loading_speed: 60;
-		running_cost_factor: 43;
+		running_cost_factor: 11;
 		power: 128;
 		weight: 14;
 		cargo_capacity: 110;

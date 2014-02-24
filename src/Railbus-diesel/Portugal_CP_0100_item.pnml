@@ -19,7 +19,7 @@ item(FEAT_TRAINS, item_rbd_Portugal_CP_0100) {
         vehicle_life: 15;
         loading_speed: 20;
         cost_factor: 3;
-        running_cost_factor: 39;
+        running_cost_factor: 5;
         speed: 112 km/h;
         power: 250 hp;
         cargo_capacity: 70;

@@ -19,7 +19,7 @@ item(FEAT_TRAINS, item_rbd_Germany_OHE_520_GDT) {
         vehicle_life: 15;
         loading_speed: 20;
         cost_factor: 3;
-        running_cost_factor: 22;
+        running_cost_factor: 3;
         speed: 75 km/h;
         power: 600 hp;
         cargo_capacity: 108;

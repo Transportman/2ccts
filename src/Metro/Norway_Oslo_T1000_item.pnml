@@ -19,7 +19,7 @@ item(FEAT_TRAINS, item_mtro_Norway_Oslo_T1000) {
         vehicle_life: 60;
         loading_speed: 60;
         cost_factor: 7;
-        running_cost_factor: 38;
+        running_cost_factor: 10;
         speed: 70 km/h;
         power: 131 hp;
         cargo_capacity: 180;
@@ -51,7 +51,7 @@ item(FEAT_TRAINS, item_mtro_Norway_Oslo_T1000) {
 	}	
 	livery_override (item_mtro_wagon_unpowered){
 		loading_speed: 60;
-		running_cost_factor: 19;
+		running_cost_factor: 5;
 		power: 0;
 		weight: 14;
 		cargo_capacity: 180;
@@ -60,8 +60,8 @@ item(FEAT_TRAINS, item_mtro_Norway_Oslo_T1000) {
 	}
 	livery_override (item_mtro_wagon_powered){
 		loading_speed: 60;
-		running_cost_factor: 29;
-		power: 65;
+		running_cost_factor: 8;
+		power: 66;
 		weight: 21;
 		cargo_capacity: 180;
 		length: 7;

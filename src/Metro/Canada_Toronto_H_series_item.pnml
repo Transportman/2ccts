@@ -19,7 +19,7 @@ item(FEAT_TRAINS, item_mtro_Canada_Toronto_H_series) {
         vehicle_life: 60;
         loading_speed: 60;
         cost_factor: 10;
-        running_cost_factor: 60;
+        running_cost_factor: 16;
         speed: 88 km/h;
         power: 484 hp;
         cargo_capacity: 210;
@@ -51,7 +51,7 @@ item(FEAT_TRAINS, item_mtro_Canada_Toronto_H_series) {
 	}	
 	livery_override (item_mtro_wagon_unpowered){
 		loading_speed: 60;
-		running_cost_factor: 30;
+		running_cost_factor: 8;
 		power: 0;
 		weight: 26;
 		cargo_capacity: 210;
@@ -60,7 +60,7 @@ item(FEAT_TRAINS, item_mtro_Canada_Toronto_H_series) {
 	}
 	livery_override (item_mtro_wagon_powered){
 		loading_speed: 60;
-		running_cost_factor: 45;
+		running_cost_factor: 12;
 		power: 242;
 		weight: 38;
 		cargo_capacity: 210;

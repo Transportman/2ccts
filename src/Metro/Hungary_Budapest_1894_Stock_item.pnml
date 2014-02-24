@@ -19,7 +19,7 @@ item(FEAT_TRAINS, item_mtro_Hungary_Budapest_1894_Stock) {
         vehicle_life: 60;
         loading_speed: 60;
         cost_factor: 3;
-        running_cost_factor: 10;
+        running_cost_factor: 3;
         speed: 60 km/h;
         power: 200 hp;
         cargo_capacity: 100;

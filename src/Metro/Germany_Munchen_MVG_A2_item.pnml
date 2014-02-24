@@ -19,7 +19,7 @@ item(FEAT_TRAINS, item_mtro_Germany_Munchen_MVG_A2) {
         vehicle_life: 60;
         loading_speed: 60;
         cost_factor: 8;
-        running_cost_factor: 49;
+        running_cost_factor: 13;
         speed: 80 km/h;
         power: 480 hp;
         cargo_capacity: 195;
@@ -51,7 +51,7 @@ item(FEAT_TRAINS, item_mtro_Germany_Munchen_MVG_A2) {
 	}	
 	livery_override (item_mtro_wagon_unpowered){
 		loading_speed: 60;
-		running_cost_factor: 25;
+		running_cost_factor: 7;
 		power: 0;
 		weight: 13;
 		cargo_capacity: 195;
@@ -60,7 +60,7 @@ item(FEAT_TRAINS, item_mtro_Germany_Munchen_MVG_A2) {
 	}
 	livery_override (item_mtro_wagon_powered){
 		loading_speed: 60;
-		running_cost_factor: 37;
+		running_cost_factor: 10;
 		power: 240;
 		weight: 20;
 		cargo_capacity: 195;

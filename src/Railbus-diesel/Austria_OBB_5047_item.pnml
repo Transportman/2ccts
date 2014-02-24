@@ -19,7 +19,7 @@ item(FEAT_TRAINS, item_rbd_Austria_OBB_5047) {
         vehicle_life: 15;
         loading_speed: 20;
         cost_factor: 3;
-        running_cost_factor: 46;
+        running_cost_factor: 6;
         speed: 120 km/h;
         power: 562 hp;
         cargo_capacity: 62;

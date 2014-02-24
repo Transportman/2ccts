@@ -19,7 +19,7 @@ item(FEAT_TRAINS, item_rbd_Netherlands_NS_20_Kameel) {
         vehicle_life: 15;
         loading_speed: 20;
         cost_factor: 2;
-        running_cost_factor: 52;
+        running_cost_factor: 7;
         speed: 125 km/h;
         power: 285 hp;
         cargo_capacity: 28;

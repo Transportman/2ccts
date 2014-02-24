@@ -19,7 +19,7 @@ item(FEAT_TRAINS, item_mtro_Russia_Moscow_81_740) {
         vehicle_life: 60;
         loading_speed: 60;
         cost_factor: 5;
-        running_cost_factor: 65;
+        running_cost_factor: 17;
         speed: 90 km/h;
         power: 860 hp;
         cargo_capacity: 120;
@@ -51,7 +51,7 @@ item(FEAT_TRAINS, item_mtro_Russia_Moscow_81_740) {
 	}	
 	livery_override (item_mtro_wagon_unpowered){
 		loading_speed: 60;
-		running_cost_factor: 33;
+		running_cost_factor: 9;
 		power: 0;
 		weight: 24;
 		cargo_capacity: 120;
@@ -60,7 +60,7 @@ item(FEAT_TRAINS, item_mtro_Russia_Moscow_81_740) {
 	}
 	livery_override (item_mtro_wagon_powered){
 		loading_speed: 60;
-		running_cost_factor: 49;
+		running_cost_factor: 13;
 		power: 430;
 		weight: 35;
 		cargo_capacity: 120;

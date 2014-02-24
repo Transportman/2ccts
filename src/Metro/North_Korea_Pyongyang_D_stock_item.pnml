@@ -19,7 +19,7 @@ item(FEAT_TRAINS, item_mtro_North_Korea_Pyongyang_D_stock) {
         vehicle_life: 60;
         loading_speed: 60;
         cost_factor: 8;
-        running_cost_factor: 71;
+        running_cost_factor: 19;
         speed: 100 km/h;
         power: 350 hp;
         cargo_capacity: 180;
@@ -51,7 +51,7 @@ item(FEAT_TRAINS, item_mtro_North_Korea_Pyongyang_D_stock) {
 	}	
 	livery_override (item_mtro_wagon_unpowered){
 		loading_speed: 60;
-		running_cost_factor: 36;
+		running_cost_factor: 10;
 		power: 0;
 		weight: 20;
 		cargo_capacity: 180;
@@ -60,7 +60,7 @@ item(FEAT_TRAINS, item_mtro_North_Korea_Pyongyang_D_stock) {
 	}
 	livery_override (item_mtro_wagon_powered){
 		loading_speed: 60;
-		running_cost_factor: 53;
+		running_cost_factor: 14;
 		power: 175;
 		weight: 30;
 		cargo_capacity: 180;

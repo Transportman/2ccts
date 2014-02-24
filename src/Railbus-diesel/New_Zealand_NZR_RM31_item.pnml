@@ -19,7 +19,7 @@ item(FEAT_TRAINS, item_rbd_New_Zealand_NZR_RM31) {
         vehicle_life: 15;
         loading_speed: 20;
         cost_factor: 3;
-        running_cost_factor: 45;
+        running_cost_factor: 6;
         speed: 120 km/h;
         power: 250 hp;
         cargo_capacity: 50;

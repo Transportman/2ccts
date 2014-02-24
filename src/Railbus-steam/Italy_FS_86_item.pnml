@@ -19,7 +19,7 @@ item(FEAT_TRAINS, item_rbs_Italy_FS_86) {
         vehicle_life: 15;
         loading_speed: 20;
         cost_factor: 2;
-        running_cost_factor: 16;
+        running_cost_factor: 2;
         speed: 60 km/h;
         power: 132 hp;
         cargo_capacity: 86;

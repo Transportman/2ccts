@@ -19,7 +19,7 @@ item(FEAT_TRAINS, item_rbd_Germany_DB_VT98) {
         vehicle_life: 15;
         loading_speed: 20;
         cost_factor: 2;
-        running_cost_factor: 27;
+        running_cost_factor: 3;
         speed: 90 km/h;
         power: 290 hp;
         cargo_capacity: 56;

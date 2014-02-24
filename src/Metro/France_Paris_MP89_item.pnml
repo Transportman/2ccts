@@ -19,7 +19,7 @@ item(FEAT_TRAINS, item_mtro_France_Paris_MP89) {
         vehicle_life: 60;
         loading_speed: 60;
         cost_factor: 5;
-        running_cost_factor: 72;
+        running_cost_factor: 19;
         speed: 100 km/h;
         power: 634 hp;
         cargo_capacity: 120;
@@ -51,7 +51,7 @@ item(FEAT_TRAINS, item_mtro_France_Paris_MP89) {
 	}	
 	livery_override (item_mtro_wagon_unpowered){
 		loading_speed: 60;
-		running_cost_factor: 36;
+		running_cost_factor: 10;
 		power: 0;
 		weight: 14;
 		cargo_capacity: 120;
@@ -60,7 +60,7 @@ item(FEAT_TRAINS, item_mtro_France_Paris_MP89) {
 	}
 	livery_override (item_mtro_wagon_powered){
 		loading_speed: 60;
-		running_cost_factor: 54;
+		running_cost_factor: 14;
 		power: 317;
 		weight: 21;
 		cargo_capacity: 120;

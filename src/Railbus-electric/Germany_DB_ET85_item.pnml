@@ -19,7 +19,7 @@ item(FEAT_TRAINS, item_rbe_Germany_DB_ET85) {
         vehicle_life: 15;
         loading_speed: 20;
         cost_factor: 3;
-        running_cost_factor: 10;
+        running_cost_factor: 3;
         speed: 75 km/h;
         power: 740 hp;
         cargo_capacity: 75;

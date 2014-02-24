@@ -19,7 +19,7 @@ item(FEAT_TRAINS, item_mtro_Japan_Tokyo_S01) {
         vehicle_life: 60;
         loading_speed: 60;
         cost_factor: 7;
-        running_cost_factor: 99;
+        running_cost_factor: 26;
         speed: 120 km/h;
         power: 700 hp;
         cargo_capacity: 120;
@@ -51,7 +51,7 @@ item(FEAT_TRAINS, item_mtro_Japan_Tokyo_S01) {
 	}	
 	livery_override (item_mtro_wagon_unpowered){
 		loading_speed: 60;
-		running_cost_factor: 50;
+		running_cost_factor: 13;
 		power: 0;
 		weight: 18;
 		cargo_capacity: 120;
@@ -60,7 +60,7 @@ item(FEAT_TRAINS, item_mtro_Japan_Tokyo_S01) {
 	}
 	livery_override (item_mtro_wagon_powered){
 		loading_speed: 60;
-		running_cost_factor: 74;
+		running_cost_factor: 20;
 		power: 350;
 		weight: 26;
 		cargo_capacity: 120;

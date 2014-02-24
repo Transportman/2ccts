@@ -19,7 +19,7 @@ item(FEAT_TRAINS, item_rbd_Finland_VR_Dm7) {
         vehicle_life: 15;
         loading_speed: 20;
         cost_factor: 2;
-        running_cost_factor: 29;
+        running_cost_factor: 4;
         speed: 95 km/h;
         power: 180 hp;
         cargo_capacity: 64;
