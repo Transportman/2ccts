@@ -2,7 +2,7 @@
 
 #Main grf title and description
 STR_GRF_NAME			:{TITLE}
-STR_GRF_DESCRIPTION		:{SILVER}2cc Trains of the World in NML {}{}(c)2ccts {}License: GPLv2 or higher. {}See readme for details.
+STR_GRF_DESCRIPTION		:{SILVER}2cc Trains of the World in NML {}{}(c)2ccts {}License:GPLv2 or higher. {}See readme for details.
 STR_GRF_URL             :https://dev.openttdcoop.org/projects/2ccts
 
 #parameter strings
@@ -41,7 +41,39 @@ str_rbe_Germany_DB_ET85				:DB ET85 (Electric Railbus)
 str_rbe_Germany_DB_ET479			:DB ET479 (Electric Railbus)
 str_rbe_Italy_FS_ALe_840			:FS ALe 840 (Electric Railbus)
 
-#Locomotives-steam
+#Steam
+str_steam_Belgium_Le_Belge 			:Le Belge (Steam)
+str_steam_USA_4_4_0_American 		:4-4-0 'American' (Steam)
+str_steam_Switzerland_SBB_Ec_2_5 	:SBB Ec 2/5 (Steam)
+str_steam_USA_4_6_0_Ten_wheeler 	:4-6-0 'Ten-wheeler' (Steam)
+str_steam_USA_2_8_0_Consolidation 	:2-8-0 'Consolidation' (Steam)
+str_steam_Hungary_MAV_377 			:MAV 377 (Steam)
+str_steam_Austria_KkStB_99 			:KkStB 99 (Steam)
+str_steam_UK_Caledonian_Railway_439 :Caledonian Railway 439 (Steam)
+str_steam_Switzerland_SBB_A_3_5 	:SBB A 3/5 (Steam)
+str_steam_Switzerland_SBB_E_3_3 	:SBB E 3/3 (Steam)
+str_steam_Austria_KkStB_299 		:KkStB 299 (Steam)
+str_steam_New_Zealand_NZR_X_Class 	:NZR X Class (Steam)
+str_steam_Croatia_HZ_51 			:HZ 51 (Steam)
+str_steam_Italy_FS_880 				:FS 880 (Steam)
+str_steam_Argentina_FCNEA_11B_0_8_2 :FCNEA 11B 0-8-2 (Steam)
+str_steam_France_SNCF_140C 			:SNCF 140C (Steam)
+str_steam_France_SNCF_141TA 		:SNCF 141TA (Steam)
+str_steam_UK_GWR_4900 				:GWR 4900 (Steam)
+str_steam_UK_GWR_5700 				:GWR 5700 (Steam)
+str_steam_Netherlands_NS_6300 		:NS 6300 (Steam)
+str_steam_USA_AT_SF_5000 			:AT&SF 5000 (Steam)
+str_steam_Germany_Prussian_S10 		:Prussian S.10 (Steam)
+str_steam_UK_LMS_5MT_Black_Five 	:LMS 5MT 'Black Five' (Steam)
+str_steam_USSR_MPC_9P 				:MPC 9P (Steam)
+str_steam_UK_LNER_A4_Gresley 		:LNER A4 'Gresley' (Steam)
+str_steam_Canada_CPR_Royal_Hudson 	:CPR Royal Hudson (Steam)
+str_steam_Denmark_DSB_E 			:DSB E (Steam)
+str_steam_Germany_DB_52 			:DB 52 (Steam)
+str_steam_UK_LNER_A1_Peppercorn 	:LNER A1 'Peppercorn' (Steam)
+str_steam_South_Africa_SAR_25 		:SAR 25 (Steam)
+str_steam_USSR_MPC_P36 				:MPC P36 (Steam)
+
 
 #Locomotives-diesel
 

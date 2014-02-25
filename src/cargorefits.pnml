@@ -10,6 +10,9 @@
 //it is referenced from the wagon item definitions.
 //any changes to cargo refits can be done centrally from this file.
 
+//Class for engines that do not accept cargo
+#define CARGODEF_NONE refittable_cargo_classes: bitmask(NO_CARGO_CLASS);
+
 //The old set also allowed carrying of MAIL and Valuables in passenger trains
 #define CARGODEF_PASSENGERS refittable_cargo_classes: bitmask(CC_PASSENGERS,CC_MAIL,CC_ARMOURED); non_refittable_cargo_classes: 0;
 
