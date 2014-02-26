@@ -4,7 +4,7 @@
 
 #Main grf title and description
 STR_GRF_NAME                    :{TITLE}
-STR_GRF_DESCRIPTION             :{SILVER}Trenes 2cc del Mundo en NML{}{}(c)2ccts{}Licencia: GPLv2 ó superior.{}Para más información ver el readme.
+STR_GRF_DESCRIPTION             :{SILVER}Trenes 2cc del Mundo en NML{}{}(c)2ccts{}Licencia:GPLv2 ó superior.{}Para más información ver el readme.
 STR_GRF_URL             :https://dev.openttdcoop.org/projects/2ccts
 
 #parameter strings
@@ -34,7 +34,8 @@ str_rbd_Lithuania_Lithuanian_Railways_AR2               :Lithuanian Railways AR2
 str_rbe_Switzerland_SBB_Cfe_3_3         :SBB Cfe 3/3 (Railbus eléctrico)
 str_rbe_Germany_DB_ET479                        :DB ET479 (Railbus eléctrico)
 
-#Locomotives-steam
+#Steam
+
 
 #Locomotives-diesel
 
@@ -54,6 +55,7 @@ str_mtro_USA_NY_R1                                              :New York R1 (Me
 str_mtro_UK_London_1938_Stock                   :London 1938 Stock (Metro)
 str_mtro_Germany_DB_ET171                               :DB ET171 (Metro)
 str_mtro_France_Paris_M2_840                    :Paris M2 840 (Metro)
+str_mtro_Portugal_Lisbon_ML7                    :Lisbon ML7 (Metro)
 str_mtro_Hungary_Budapest_Ev3_200               :Budapest Ev3-200 (Metro)
 str_mtro_Norway_Oslo_T1000                              :Oslo T1000 (Metro)
 str_mtro_Canada_Toronto_H_series                :Toronto H-series (Metro)
