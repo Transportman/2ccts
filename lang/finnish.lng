@@ -34,7 +34,6 @@ str_rbd_Germany_DB_650_Regio_Shuttle                    :DB 650 'Regio Shuttle' 
 str_rbd_Germany_DB_670                                                  :DB 670 (Dieselkiskobussi)
 str_rbd_Lithuania_Lithuanian_Railways_AR2               :Lithuanian Railways AR2 (Dieselkiskobussi)
 
-
 #Railbus-electric
 str_rbe_Switzerland_SBB_Cfe_3_3         :SBB Cfe 3/3 (Sähkökiskobussi)
 str_rbe_Morocco_ONCFM_ZAB1000           :ONCFM ZAB1000 (Sähkökiskobussi)
@@ -43,9 +42,39 @@ str_rbe_Germany_DB_ET479                        :DB ET479 (Sähkökiskobussi)
 str_rbe_Italy_FS_ALe_840                        :FS ALe 840 (Sähkökiskobussi)
 
 #Steam
+str_steam_Belgium_Le_Belge                      :Le Belge (Höyry)
+str_steam_USA_4_4_0_American            :4-4-0 'American' (Höyry)
+str_steam_Switzerland_SBB_Ec_2_5        :SBB Ec 2/5 (Höyry)
+str_steam_USA_4_6_0_Ten_wheeler         :4-6-0 'Ten-wheeler' (Höyry)
+str_steam_USA_2_8_0_Consolidation       :2-8-0 'Consolidation' (Höyry)
+str_steam_Hungary_MAV_377                       :MAV 377 (Höyry)
+str_steam_Austria_KkStB_99                      :KkStB 99 (Höyry)
+str_steam_UK_Caledonian_Railway_439 :Caledonian Railway 439 (Höyry)
+str_steam_Switzerland_SBB_A_3_5         :SBB A 3/5 (Höyry)
+str_steam_Switzerland_SBB_E_3_3         :SBB E 3/3 (Höyry)
+str_steam_Austria_KkStB_299             :KkStB 299 (Höyry)
+str_steam_New_Zealand_NZR_X_Class       :NZR X-sarja (Höyry)
+str_steam_Croatia_HZ_51                         :HZ 51 (Höyry)
+str_steam_Italy_FS_880                          :FS 880 (Höyry)
+str_steam_Argentina_FCNEA_11B_0_8_2 :FCNEA 11B 0-8-2 (Höyry)
+str_steam_France_SNCF_140C                      :SNCF 140C (Höyry)
+str_steam_France_SNCF_141TA             :SNCF 141TA (Höyry)
+str_steam_UK_GWR_4900                           :GWR 4900 (Höyry)
+str_steam_UK_GWR_5700                           :GWR 5700 (Höyry)
+str_steam_Netherlands_NS_6300           :NS 6300 (Höyry)
+str_steam_USA_AT_SF_5000                        :AT&amp;SF 5000 (Höyry)
+str_steam_Germany_Prussian_S10          :Prussian S.10 (Höyry)
+str_steam_UK_LMS_5MT_Black_Five         :LMS 5MT 'Black Five' (Höyry)
+str_steam_USSR_MPC_9P                           :MPC 9P (Höyry)
+str_steam_UK_LNER_A4_Gresley            :LNER A4 'Gresley' (Höyry)
+str_steam_Canada_CPR_Royal_Hudson       :CPR Royal Hudson (Höyry)
+str_steam_Denmark_DSB_E                         :DSB E (Höyry)
+str_steam_Germany_DB_52                         :DB 52 (Höyry)
+str_steam_UK_LNER_A1_Peppercorn         :LNER A1 'Peppercorn' (Höyry)
+str_steam_South_Africa_SAR_25           :SAR 25 (Höyry)
+str_steam_USSR_MPC_P36                          :MPC P36 (Höyry)
 
-
-#Locomotives-diesel
+#Diesel
 
 #Locomotives-electric
 
@@ -94,7 +123,6 @@ str_mtro_Japan_Osaka_30000                              :Osaka 30000 (Metro)
 str_mtro_Singapore_Singapore_C151A              :Singapore C151A (Metro)
 str_mtro_USA_Washington_7000                    :Washington 7000 (Metro)
 str_mtro_Greece_Thessaloniki_2014               :Thessaloniki 2014 (Metro)
-
 
 #Maglev
 str_mglv_China_Transrapid       :Shanghai Transrapid (Maglev)

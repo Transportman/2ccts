@@ -29,15 +29,14 @@ str_rbd_Germany_DB_650_Regio_Shuttle                    :DB 650 'Regio Shuttle' 
 str_rbd_Germany_DB_670                                                  :DB 670 (Railbus diesel)
 str_rbd_Lithuania_Lithuanian_Railways_AR2               :Lithuanian Railways AR2 (Railbus diesel)
 
-
 #Railbus-electric
 str_rbe_Switzerland_SBB_Cfe_3_3         :SBB Cfe 3/3 (Railbus eléctrico)
 str_rbe_Germany_DB_ET479                        :DB ET479 (Railbus eléctrico)
 
 #Steam
+str_steam_Netherlands_NS_6300           :NS 6300 (Vapor)
 
-
-#Locomotives-diesel
+#Diesel
 
 #Locomotives-electric
 
@@ -70,12 +69,12 @@ str_mtro_USSR_Moscow_81_7175M                   :Moscow 81-717.5M (Metro)
 str_mtro_Netherlands_Amsterdam_CAF_90   :Amsterdam CAF 90 (Metro)
 str_mtro_France_Paris_MP89                              :Paris MP89 (Metro)
 str_mtro_Russia_Moscow_81_740                   :Moscow 81-740 (Metro)
+str_mtro_Singapore_Singapore_C830_Metropolis :Singapore C830 'Metropolis' (Metro)
 str_mtro_Norway_Oslo_MX3000                     :Oslo MX3000 (Metro)
 str_mtro_Japan_Osaka_30000                              :Osaka 30000 (Metro)
 str_mtro_Singapore_Singapore_C151A              :Singapore C151A (Metro)
 str_mtro_USA_Washington_7000                    :Washington 7000 (Metro)
 str_mtro_Greece_Thessaloniki_2014               :Thessaloniki 2014 (Metro)
-
 
 #Maglev
 str_mglv_China_Transrapid       :Shanghai Transrapid (Maglev)

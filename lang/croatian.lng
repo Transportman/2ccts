@@ -36,7 +36,6 @@ str_rbd_Germany_DB_650_Regio_Shuttle                    :DB 650 'Regio Shuttle' 
 str_rbd_Germany_DB_670                                                  :DB 670 (dizel šinobus)
 str_rbd_Lithuania_Lithuanian_Railways_AR2               :Lithuanian Railways AR2 (dizel šinobus)
 
-
 #Railbus-electric
 str_rbe_Switzerland_SBB_Cfe_3_3         :SBB Cfe 3/3 (električni šinobus)
 str_rbe_Morocco_ONCFM_ZAB1000           :ONCFM ZAB1000 (električni šinobus)
@@ -77,8 +76,7 @@ str_steam_UK_LNER_A1_Peppercorn         :LNER A1 'Peppercorn' (parna lokomotiva)
 str_steam_South_Africa_SAR_25           :SAR 25 (parna lokomotiva)
 str_steam_USSR_MPC_P36                          :MPC P36 (parna lokomotiva)
 
-
-#Locomotives-diesel
+#Diesel
 
 #Locomotives-electric
 
@@ -127,7 +125,6 @@ str_mtro_Japan_Osaka_30000                              :Osaka 30000 (metro)
 str_mtro_Singapore_Singapore_C151A              :Singapore C151A (metro)
 str_mtro_USA_Washington_7000                    :Washington 7000 (metro)
 str_mtro_Greece_Thessaloniki_2014               :Thessaloniki 2014 (metro)
-
 
 #Maglev
 str_mglv_China_Transrapid       :Shanghai Transrapid (maglev)

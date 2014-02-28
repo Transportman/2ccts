@@ -12,13 +12,11 @@ STR_GRF_URL             :https://dev.openttdcoop.org/projects/2ccts
 
 #Diesel Railbus
 
-
 #Railbus-electric
 
 #Steam
 
-
-#Locomotives-diesel
+#Diesel
 
 #Locomotives-electric
 
@@ -29,7 +27,6 @@ STR_GRF_URL             :https://dev.openttdcoop.org/projects/2ccts
 #Single Unit Metro
 
 #Multiple Unit Metro
-
 
 #Maglev
 str_mglv_China_Transrapid       :Shanghai Transrapid (Maglev)
