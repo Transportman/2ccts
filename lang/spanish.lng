@@ -37,6 +37,7 @@ str_rbe_Germany_DB_ET479                        :DB ET479 (Railbus eléctrico)
 str_steam_Netherlands_NS_6300           :NS 6300 (Vapor)
 
 #Diesel
+str_diesel_USA_Western_Pacific_ALCO_S_2 :Western Pacific ALCO S-2 (Diésel)
 
 #Locomotives-electric
 
@@ -64,6 +65,7 @@ str_mtro_Finland_Helsinki_M100                  :Helsinki M100 (Metro)
 str_mtro_Brasil_Sao_Paulo_Serie_5500    :Sao Paulo Serie 5500 (Metro)
 str_mtro_USSR_Moscow_81_720                     :Moscow 81-720 (Metro)
 str_mtro_Japan_Tokyo_S01                                :Tokyo S01 (Metro)
+str_mtro_Egypt_Cairo_1987_Stock                 :Cairo 1987 stock (Metro)
 str_mtro_UK_DLR_P86                                     :DLR P86 (Metro)
 str_mtro_USSR_Moscow_81_7175M                   :Moscow 81-717.5M (Metro)
 str_mtro_Netherlands_Amsterdam_CAF_90   :Amsterdam CAF 90 (Metro)
