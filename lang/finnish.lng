@@ -76,11 +76,11 @@ str_steam_USSR_MPC_P36                          :MPC P36 (Höyry)
 
 #Diesel
 
-#Locomotives-electric
+#Electric
 
-#MU-diesel
+#DMU
 
-#MU-electric
+#EMU
 
 #Single Unit Metro
 str_mtro_USA_Brooklyn_Union_Gate_Car    :Brooklyn Union Gate Car (Metro)
