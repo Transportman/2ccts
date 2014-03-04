@@ -22,9 +22,9 @@ str_rbd_Germany_OHE_520_GDT                                     :OHE 520 GDT (Ra
 str_rbd_Netherlands_NS_20_Kameel                                :NS 20 'Kameel' (Railbus diésel)
 str_rbd_USSR_MPC_ACh2                                                   :MPC ACh2 (Railbus diésel)
 str_rbd_Netherlands_NS_DH1                                              :NS DH1 (Railbus diésel)
-str_rbd_Austria_OBB_5047                                                :OBB 5047 (Railbus diesel)
+str_rbd_Austria_OBB_5047                                                :OBB 5047 (Railbus diésel)
 str_rbd_United_Kingdom_BR_153_Super_Sprinter    :BR 153 'Super Sprinter' (Railbus diésel)
-str_rbd_Czech_Republic_CD_809                                   :CD 809 (Railbus diesel)
+str_rbd_Czech_Republic_CD_809                                   :CD 809 (Railbus diésel)
 str_rbd_Germany_DB_650_Regio_Shuttle                    :DB 650 'Regio Shuttle' (Railbus diésel)
 str_rbd_Germany_DB_670                                                  :DB 670 (Railbus diésel)
 str_rbd_Lithuania_Lithuanian_Railways_AR2               :Lithuanian Railways AR2 (Railbus diésel)
@@ -39,7 +39,9 @@ str_steam_Netherlands_NS_6300           :NS 6300 (Vapor)
 #Diesel
 str_diesel_USA_Western_Pacific_ALCO_S_2 :Western Pacific ALCO S-2 (Diésel)
 str_diesel_Austria_OBB_2060 :OBB 2060 (Diésel)
+str_diesel_Belgium_NMBS_SNCB_67 :NMBS/SNCB 67 (Diésel)
 str_diesel_Argentina_MF_GE_U20C :MF GE U20C (Diésel)
+str_diesel_Belgium_NMBS_SNCB_7800 :NMBS/SNCB 7800 (Diésel)
 
 #Electric
 
