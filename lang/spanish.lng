@@ -39,7 +39,11 @@ str_steam_Netherlands_NS_6300           :NS 6300 (Vapor)
 #Diesel
 str_diesel_USA_Western_Pacific_ALCO_S_2 :Western Pacific ALCO S-2 (Diésel)
 str_diesel_Austria_OBB_2060 :OBB 2060 (Diésel)
+str_diesel_Belgium_NMBS_SNCB_83 :NMBS/SNCB 83 (Diésel)
 str_diesel_Belgium_NMBS_SNCB_67 :NMBS/SNCB 67 (Diésel)
+str_diesel_Australia_Queensland_Rail_2100 :Queensland Rail 2100 (Diésel)
+str_diesel_Croatia_HZ_2062 :HZ 2062 (Diésel)
+str_diesel_China_China_Railways_DFH3 :China Railways DFH3 (Diésel)
 str_diesel_Argentina_MF_GE_U20C :MF GE U20C (Diésel)
 str_diesel_Belgium_NMBS_SNCB_7800 :NMBS/SNCB 7800 (Diésel)
 
