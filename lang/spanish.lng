@@ -15,6 +15,7 @@ str_rbs_Austria_NOLB_1          :NOLB 1 (Railbus a vapor)
 str_rbs_Italy_FS_86                     :FS 86 (Railbus a vapor)
 
 #Diesel Railbus
+str_rbd_Australia_Victorian_Railways_AEC_RM1    :Victorian Railways AEC RM1 (Railbus diésel)
 str_rbd_United_Kingdom_GWR_AEC_Railcar                  :GWR AEC Railcar (Railbus diésel)
 str_rbd_Germany_DB_VT42                                                 :DB VT42 (Railbus diésel)
 str_rbd_Portugal_CP_0100                                                :CP 0100 (Railbus diésel)
@@ -39,6 +40,7 @@ str_steam_Netherlands_NS_6300           :NS 6300 (Vapor)
 #Diesel
 str_diesel_Australia_NSWGR_79 :NSWGR 79 (Diésel)
 str_diesel_USA_Western_Pacific_ALCO_S_2 :Western Pacific ALCO S-2 (Diésel)
+str_diesel_Brasil_EFCB_ALCO_RS_3 :EFCB ALCO RS-3 (Diésel)
 str_diesel_Austria_OBB_2060 :OBB 2060 (Diésel)
 str_diesel_Hungary_MAV_M44 :MAV M44 (Diésel)
 str_diesel_Belgium_NMBS_SNCB_83 :NMBS/SNCB 83 (Diésel)
