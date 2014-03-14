@@ -35,6 +35,7 @@ str_rbe_Switzerland_SBB_Cfe_3_3         :SBB Cfe 3/3 (Railbus eléctrico)
 str_rbe_Germany_DB_ET479                        :DB ET479 (Railbus eléctrico)
 
 #Steam
+str_steam_USA_2_8_0_Consolidation       :2-8-0 'Consolidation' (Vapor)
 str_steam_Netherlands_NS_6300           :NS 6300 (Vapor)
 
 #Diesel
@@ -45,6 +46,7 @@ str_diesel_Austria_OBB_2060 :OBB 2060 (Diésel)
 str_diesel_Hungary_MAV_M44 :MAV M44 (Diésel)
 str_diesel_Belgium_NMBS_SNCB_83 :NMBS/SNCB 83 (Diésel)
 str_diesel_Brasil_BF_EMD_GL8 :BF EMD GL8 (Diésel)
+str_diesel_Brasil_EFVM_ML4000 :EFVM ML4000 (Diésel)
 str_diesel_Belgium_NMBS_SNCB_67 :NMBS/SNCB 67 (Diésel)
 str_diesel_Denmark_DSB_MaK_100 :DSB MaK 100 (Diésel)
 str_diesel_UK_BR_14 :BR 14 (Diésel)
