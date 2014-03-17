@@ -39,9 +39,11 @@ str_steam_USA_2_8_0_Consolidation       :2-8-0 'Consolidation' (Vapor)
 str_steam_Netherlands_NS_6300           :NS 6300 (Vapor)
 
 #Diesel
+str_diesel_USA_CNJ_ALCo_GE_IR_Boxcab :CNJ ALCo-GE-IR Boxcab (Diésel)
 str_diesel_Australia_NSWGR_79 :NSWGR 79 (Diésel)
 str_diesel_USA_Western_Pacific_ALCO_S_2 :Western Pacific ALCO S-2 (Diésel)
 str_diesel_Brasil_EFCB_ALCO_RS_3 :EFCB ALCO RS-3 (Diésel)
+str_diesel_Canada_CPR_Trainmaster :CPR 'Trainmaster' (Diésel)
 str_diesel_Austria_OBB_2060 :OBB 2060 (Diésel)
 str_diesel_Hungary_MAV_M44 :MAV M44 (Diésel)
 str_diesel_Belgium_NMBS_SNCB_83 :NMBS/SNCB 83 (Diésel)
