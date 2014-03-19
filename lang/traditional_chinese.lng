@@ -1,0 +1,99 @@
+##grflangid 0x0c
+##plural 1
+
+#Main grf title and description
+STR_GRF_NAME                    :{TITLE}
+STR_GRF_DESCRIPTION             :{SILVER}2cc 世界列車大全，以 NML 開發{}{}(c)2ccts{}授權認證：GPLv2 或更高版本{}更多資訊請參閱 readme 檔案
+STR_GRF_URL             :https://dev.openttdcoop.org/projects/2ccts
+
+#parameter strings
+
+#VEHICLE NAMES
+#Railbus-steam
+
+#Diesel Railbus
+str_rbd_Germany_DB_VT133                                                :德鐵 VT133 型 (柴油輕軌車廂)
+str_rbd_Germany_DB_VT98                                                 :德鐵 VT98 型 (柴油輕軌車廂)
+str_rbd_Germany_OHE_520_GDT                                     :OHE 520 GDT (柴油輕軌車廂)
+str_rbd_USSR_MPC_ACh2                                                   :MPC ACh2 (柴油輕軌車廂)
+str_rbd_Germany_DB_670                                                  :德鐵670型 (柴油輕軌車廂)
+
+#Railbus-electric
+
+#Steam
+str_steam_Belgium_Le_Belge                      :比利時號 (蒸汽)
+str_steam_Austria_KkStB_99                      :KkStB 99 (蒸汽)
+str_steam_Croatia_HZ_51                         :HZ 51 (蒸汽)
+str_steam_Italy_FS_880                          :FS 880 (蒸汽)
+str_steam_France_SNCF_141TA             :SNCF 141TA (蒸汽)
+str_steam_Netherlands_NS_6300           :NS 6300 (蒸汽)
+str_steam_Germany_DB_52                         :德鐵 52 型 (蒸汽)
+str_steam_USSR_MPC_P36                          :蘇聯鐵路 P36 型 (蒸汽)
+
+#Diesel
+str_diesel_Netherlands_NS_200 :荷鐵200型「山羊鬍子」(柴油)
+str_diesel_Germany_DB_270 :德鐵 270 型 (柴油)
+str_diesel_Australia_NSWGR_79 :NSWGR 79 (柴油)
+str_diesel_Uruguay_AFE_1500 :AFE 1500 (柴油)
+str_diesel_Canada_CNR_SW1200 :CNR SW1200 (柴油)
+str_diesel_Germany_DB_220_V200 :德鐵 220 V200 型 (柴油)
+str_diesel_Brasil_BF_EMD_GL8 :BF EMD GL8 (柴油)
+str_diesel_Sweden_SJ_V4 :SJ V4 (柴油)
+str_diesel_Iran_RAI_DE43CA_Prima :RAI DE43CA 'Prima' (柴油)
+str_diesel_China_China_Railways_HXN5 :中國鐵路和諧5型 (柴油)
+
+#Electric
+str_electric_Switzerland_RhB_DE_2_2 :RhB DE 2/2 (電力)
+str_electric_Chile_EFE_Series_E_28 :智利鐵路 E-28 型 (電力)
+str_electric_Germany_DB_169 :德鐵 169 型 (電力)
+str_electric_Japan_JNR_EB10 :日本國鐵 EB10 系 (電力)
+str_electric_UK_BR_77 :英鐵 77 型 (電力)
+str_electric_France_SNCF_BB_9004 :SNCF BB 9004 (電力)
+str_electric_USSR_MPC_VL41 :蘇聯鐵路 VL41 型 (電力)
+str_electric_South_Africa_SAR_6E :南非鐵路 6E 型 (電力)
+str_electric_Poland_PKP_ET41 :PKP ET41 (電力)
+str_electric_Netherlands_NS_1600 :荷鐵 1600 型 (電力)
+str_electric_China_China_Railways_6K :中國鐵路 6K 型 (電力)
+str_electric_China_China_Railways_SS6 :中國鐵路韶山6型 (電力)
+str_electric_UK_BR_92 :英鐵 92 型 (電力)
+str_electric_Japan_JR_EH500 :JR EH500 (電力)
+str_electric_Sweden_MTAB_IORE :MTAB IORE (電力)
+str_electric_Ukraine_UZ_DS3 :烏克蘭鐵路 DS3 型 (電力)
+
+#DMU
+
+#EMU
+
+#Single Unit Metro
+str_mtro_USA_Brooklyn_Union_Gate_Car    :布魯克林大聯盟閘門車廂 (捷運)
+str_mtro_Germany_Berlin_U_Bahn_C_II             :柏林地鐵 C II 型 (捷運)
+
+#Multiple Unit Metro
+str_mtro_UK_London_1903_Stock                   :倫敦地鐵 1903 型 (捷運)
+str_mtro_UK_London_1938_Stock                   :倫敦地鐵1938型 (捷運)
+str_mtro_Norway_Oslo_T1000                              :奧斯陸 T1000 型 (捷運)
+str_mtro_Canada_Toronto_H_series                :多倫多 H 系列 (捷運)
+str_mtro_Sweden_Stockholm_C8                    :斯德哥爾摩 C8 型 (捷運)
+str_mtro_North_Korea_Pyongyang_D_stock  :平壤 D 型 (捷運)
+str_mtro_Finland_Helsinki_M100                  :赫爾辛基 M100 型 (捷運)
+str_mtro_Japan_Tokyo_S01                                :東京 S01 (捷運)
+str_mtro_UK_DLR_P86                                     :碼頭區輕鐵 P86 型 (捷運)
+str_mtro_Taiwan_Taipei_C301                     :台北捷運 C301 型 (捷運)
+str_mtro_Singapore_Singapore_C830_Metropolis :新加坡 C830「大都會」型 (捷運)
+str_mtro_USA_Washington_7000                    :華盛頓地鐵7000型 (捷運)
+str_mtro_Greece_Thessaloniki_2014               :帖薩邏尼迦 2014 型 (捷運)
+
+#Maglev
+str_mglv_China_Transrapid       :上海 Transrapid (磁浮)
+
+#wagons
+
+#coaches
+
+#special wagons
+str_mtro_wagon_unpowered        :捷運車廂 (無動力)
+str_mglv_wagon_unpowered        :磁浮車廂 (無動力)
+str_mtro_wagon_powered          :捷運車廂 (有動力)
+str_mglv_wagon_powered          :磁浮車廂 (有動力)
+
+#PURCHASE MENU TEXTS
