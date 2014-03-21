@@ -10,9 +10,13 @@ STR_GRF_URL             :https://dev.openttdcoop.org/projects/2ccts
 
 #VEHICLE NAMES
 #Railbus-steam
+str_rbs_Austria_NOLB_1          :下奧地利國家鐵路1型 (蒸汽輕軌車廂)
+str_rbs_Italy_FS_86                     :意鐵86型 (蒸汽輕軌車廂)
 
 #Diesel Railbus
 str_rbd_Germany_DB_VT133                                                :德鐵 VT133 型 (柴油輕軌車廂)
+str_rbd_United_Kingdom_GWR_AEC_Railcar                  :GWR AEC 車廂 (柴油輕軌車廂)
+str_rbd_New_Zealand_NZR_RM31                                    :新西蘭鐵路RM31型 (柴油輕軌車廂)
 str_rbd_Germany_DB_VT98                                                 :德鐵 VT98 型 (柴油輕軌車廂)
 str_rbd_Germany_OHE_520_GDT                                     :OHE 520 GDT (柴油輕軌車廂)
 str_rbd_USSR_MPC_ACh2                                                   :MPC ACh2 (柴油輕軌車廂)
@@ -22,35 +26,51 @@ str_rbd_Germany_DB_670                                                  :德鐵6
 
 #Steam
 str_steam_Belgium_Le_Belge                      :比利時號 (蒸汽)
+str_steam_Hungary_MAV_377                       :匈牙利國家鐵路377型 (蒸汽)
 str_steam_Austria_KkStB_99                      :KkStB 99 (蒸汽)
 str_steam_Croatia_HZ_51                         :HZ 51 (蒸汽)
 str_steam_Italy_FS_880                          :FS 880 (蒸汽)
 str_steam_France_SNCF_141TA             :SNCF 141TA (蒸汽)
 str_steam_Netherlands_NS_6300           :NS 6300 (蒸汽)
+str_steam_Denmark_DSB_E                         :丹麥鐵路E型(蒸汽)
 str_steam_Germany_DB_52                         :德鐵 52 型 (蒸汽)
+str_steam_UK_LNER_A1_Peppercorn         :LNER A1「胡椒子」型 (蒸汽)
+str_steam_South_Africa_SAR_25           :南非鐵路25型(蒸汽)
 str_steam_USSR_MPC_P36                          :蘇聯鐵路 P36 型 (蒸汽)
 
 #Diesel
+str_diesel_USA_CNJ_ALCo_GE_IR_Boxcab :新澤西中央鐵路 ALCo-GE-IR 調度機車 (柴油)
 str_diesel_Netherlands_NS_200 :荷鐵200型「山羊鬍子」(柴油)
 str_diesel_Germany_DB_270 :德鐵 270 型 (柴油)
-str_diesel_Australia_NSWGR_79 :NSWGR 79 (柴油)
+str_diesel_Australia_NSWGR_79 :新南威爾斯鐵路79型 (柴油)
 str_diesel_Uruguay_AFE_1500 :AFE 1500 (柴油)
 str_diesel_Canada_CNR_SW1200 :CNR SW1200 (柴油)
 str_diesel_Germany_DB_220_V200 :德鐵 220 V200 型 (柴油)
 str_diesel_Brasil_BF_EMD_GL8 :BF EMD GL8 (柴油)
+str_diesel_USSR_MPC_M62 :蘇聯鐵路M62型(柴油)
+str_diesel_USA_UP_EMD_DDA40X :聯合太平洋鐵路EMD DDA40X型 (柴油)
 str_diesel_Sweden_SJ_V4 :SJ V4 (柴油)
+str_diesel_USSR_MPC_TEP80 :蘇聯鐵路TEP80型 (柴油)
+str_diesel_USA_Amtrak_P42DC_Genesis :Amtrak P42DC「創世」型 (柴油)
+str_diesel_UK_BR_67 :英鐵67型 (柴油)
 str_diesel_Iran_RAI_DE43CA_Prima :RAI DE43CA 'Prima' (柴油)
 str_diesel_China_China_Railways_HXN5 :中國鐵路和諧5型 (柴油)
 
 #Electric
 str_electric_Switzerland_RhB_DE_2_2 :RhB DE 2/2 (電力)
+str_electric_USA_Milwaukee_Road_ES_2 :密爾沃基鐵路ES-2型 (電力)
 str_electric_Chile_EFE_Series_E_28 :智利鐵路 E-28 型 (電力)
+str_electric_Austria_OBB_1161 :奧鐵1161型 (電力)
 str_electric_Germany_DB_169 :德鐵 169 型 (電力)
 str_electric_Japan_JNR_EB10 :日本國鐵 EB10 系 (電力)
+str_electric_Japan_JNR_EF55 :日本國鐵EF55型 (電力)
+str_electric_Netherlands_NS_1000 :荷鐵1000型 (電力)
 str_electric_UK_BR_77 :英鐵 77 型 (電力)
 str_electric_France_SNCF_BB_9004 :SNCF BB 9004 (電力)
 str_electric_USSR_MPC_VL41 :蘇聯鐵路 VL41 型 (電力)
+str_electric_Croatia_HZ_1141 :克羅地亞鐵路1141型 (電力)
 str_electric_South_Africa_SAR_6E :南非鐵路 6E 型 (電力)
+str_electric_France_SNCF_BB_22200 :法國國鐵BB 22200型 (電力)
 str_electric_Poland_PKP_ET41 :PKP ET41 (電力)
 str_electric_Netherlands_NS_1600 :荷鐵 1600 型 (電力)
 str_electric_China_China_Railways_6K :中國鐵路 6K 型 (電力)
