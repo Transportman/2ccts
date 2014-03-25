@@ -67,11 +67,13 @@ str_diesel_Australia_Queensland_Rail_2100 :Queensland Rail 2100 (Diésel)
 str_diesel_Croatia_HZ_2062 :HZ 2062 (Diésel)
 str_diesel_Canada_CNR_MLW_M420W :CNR MLW M420W (Diésel)
 str_diesel_China_China_Railways_DFH3 :China Railways DFH3 (Diésel)
+str_diesel_Portugal_CP_1900 :CP 1900 (Diésel)
 str_diesel_Finland_VR_Dr16 :VR Dr16 (Diésel)
 str_diesel_Australia_Australian_National_AN :Australian National AN (Diésel)
 str_diesel_Argentina_MF_GE_U20C :MF GE U20C (Diésel)
 str_diesel_Belgium_NMBS_SNCB_7800 :NMBS/SNCB 7800 (Diésel)
 str_diesel_Germany_DB_253_G2000_3_BB :DB 253 G2000-3 BB (Diésel)
+str_diesel_China_China_Railways_HXN5 :China Railways HXN5 (Diésel)
 
 #Electric
 str_electric_Finland_VR_Sr1 :VR Sr1 (Eléctrico)
