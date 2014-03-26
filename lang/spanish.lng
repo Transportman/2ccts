@@ -61,6 +61,7 @@ str_diesel_Denmark_DSB_MaK_100 :DSB MaK 100 (Diésel)
 str_diesel_India_Indian_Railways_WDM_2 :Indian Railways WDM-2 (Diésel)
 str_diesel_UK_BR_14 :BR 14 (Diésel)
 str_diesel_USSR_MPC_ChME3 :MPC ChME3 (Diésel)
+str_diesel_Argentina_MF_GM_EMD_J16CW_AC :MF GM-EMD-J16CW-AC (Diésel)
 str_diesel_Australia_NSWGR_422 :NSWGR 422 (Diésel)
 str_diesel_Egypt_ENR_G22W :ENR G22W (Diésel)
 str_diesel_Australia_Queensland_Rail_2100 :Queensland Rail 2100 (Diésel)
@@ -76,6 +77,7 @@ str_diesel_Germany_DB_253_G2000_3_BB :DB 253 G2000-3 BB (Diésel)
 str_diesel_China_China_Railways_HXN5 :China Railways HXN5 (Diésel)
 
 #Electric
+str_electric_South_Africa_SAR_6E :SAR 6E (Eléctrico)
 str_electric_Finland_VR_Sr1 :VR Sr1 (Eléctrico)
 str_electric_Kazakhstan_KTZ_KZ4A :KTZ KZ4A (Eléctrico)
 
