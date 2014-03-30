@@ -14,8 +14,8 @@ Makefile.fordist
 *-*-source
 *-*-source.tar*
 *-*-source.zip
-dutchtrains/*
-dutchtrains.tar
+2ccts/*
+2ccts.tar
 
 # The local makefile should be ignored:
 Makefile.local
