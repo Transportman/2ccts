@@ -250,8 +250,10 @@ str_mglv_Japan_MLX01_901	:JR MLX01-901 (Maglev)
 #coaches
 
 #special wagons
+str_mu_wagon_unpowered		:Multiple Unit Wagon (Unpowered)
 str_mtro_wagon_unpowered	:Metro Unit Wagon (Unpowered)
 str_mglv_wagon_unpowered	:Maglev Unit Wagon (Unpowered)
+str_mu_wagon_powered		:Multiple Unit Wagon (Powered)
 str_mtro_wagon_powered		:Metro Unit Wagon (Powered)
 str_mglv_wagon_powered		:Maglev Unit Wagon (Powered)
 
