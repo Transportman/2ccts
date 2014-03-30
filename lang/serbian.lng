@@ -1,7 +1,7 @@
 ##grflangid 0x0d
 ##plural 6
-##gender muški ženski srednji 
-##case nom big gen dat aku vok lok ins 
+##gender muški ženski srednji
+##case aku big dat gen ins lok nom vok
 
 #Main grf title and description
 STR_GRF_NAME                    :{TITLE}
