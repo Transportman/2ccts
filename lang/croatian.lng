@@ -253,8 +253,10 @@ str_mglv_Japan_MLX01_901        :JR MLX01-901 (maglev)
 #coaches
 
 #special wagons
+str_mu_wagon_unpowered          :Vagon višestruke jedinice (bez pogona)
 str_mtro_wagon_unpowered        :Vagon Metroa (bez pogona)
 str_mglv_wagon_unpowered        :Vagon Magleva (bez pogona)
+str_mu_wagon_powered            :Vagon višestruke jedinice (sa pogonom)
 str_mtro_wagon_powered          :Vagon Metroa (sa pogonom)
 str_mglv_wagon_powered          :Vagon Magleva (sa pogonom)
 
