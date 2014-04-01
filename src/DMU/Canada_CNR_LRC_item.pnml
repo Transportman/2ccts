@@ -10,43 +10,64 @@
 * ITEM
 */
 
-item(FEAT_TRAINS, item_mu_wagon_powered) {
+item(FEAT_TRAINS, item_dmu_Canada_CNR_LRC) {
     property {
-        name: string(str_mu_wagon_powered);
+        name: string(str_dmu_Canada_CNR_LRC);
         
-        introduction_date: date(1920,1,1);
-        model_life: VEHICLE_NEVER_EXPIRES;
-        vehicle_life: 60;
-        loading_speed: 1;
-        cost_factor: 200;
-        running_cost_factor: 0;
-        speed: 0 km/h;
-        power: 0 hp;
-        cargo_capacity: 1;
-        weight: 0 ton;
+        introduction_date: date(1980,1,1);
+        model_life: 15;
+        vehicle_life: 25;
+        loading_speed: 8;
+        cost_factor: 15;
+        running_cost_factor: 147;
+        speed: 180 km/h;
+        power: 5400 hp;
+        cargo_capacity: 0;
+        weight: 65 ton;
         tractive_effort_coefficient: 0.3;
         air_drag_coefficient: 0;
         
         reliability_decay: 20;
         CARGODEF_PASSENGERS
         cargo_age_period: 185;
-        misc_flags: bitmask(TRAIN_FLAG_2CC);
+        misc_flags: bitmask(TRAIN_FLAG_MU,TRAIN_FLAG_2CC);
         refit_cost: 0;
         track_type: RAIL;
 		ai_special_flag: AI_FLAG_PASSENGER;
-        running_cost_base: RUNNING_COST_ELECTRIC;
-        engine_class: ENGINE_CLASS_STEAM;
+        running_cost_base: RUNNING_COST_DIESEL;
+        engine_class: ENGINE_CLASS_DIESEL;
         visual_effect_and_powered: visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
         
         climates_available: ALL_CLIMATES;
         sprite_id: SPRITE_ID_NEW_TRAIN;
-        dual_headed: 0;
+        dual_headed: 1;
         length: 8;
         extra_power_per_wagon: 0;
         bitmask_vehicle_info: 0;
 	}
 	graphics {
-		purchase: spriteset_mu_wagon_powered_purchase;
-		spriteset_mu_wagon_powered;
+		purchase: spriteset_dmu_Canada_CNR_LRC_purchase;
+		cargo_capacity: 0; //Heads have no capacity
+		purchase_cargo_capacity: 55;
+		visual_effect_and_powered: switch_dmu_Canada_CNR_LRC_visual_effect_and_powered;
+		switch_dmu_Canada_CNR_LRC_reversed;
 	}	
+	livery_override (item_mu_wagon_unpowered){
+		loading_speed: 8;
+		running_cost_factor: 74;
+		power: 0;
+		weight: 33;
+		cargo_capacity: switch_dmu_Canada_CNR_LRC_capacity;
+		length: 8;
+		default: switch_dmu_Canada_CNR_LRC_cargo_selection;
+	}
+	livery_override (item_mu_wagon_powered){
+		loading_speed: 8;
+		running_cost_factor: 110;
+		power: 2700;
+		weight: 49;
+		cargo_capacity: switch_dmu_Canada_CNR_LRC_capacity;
+		length: 8;
+		default: switch_dmu_Canada_CNR_LRC_cargo_selection;
+	}
 }

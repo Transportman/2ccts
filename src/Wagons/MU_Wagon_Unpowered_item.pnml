@@ -28,14 +28,14 @@ item(FEAT_TRAINS, item_mu_wagon_unpowered) {
         air_drag_coefficient: 0;
         
         reliability_decay: 20;
-        CARGODEF_PASSENGERS_ONLY
+        CARGODEF_PASSENGERS
         cargo_age_period: 185;
         misc_flags: bitmask(TRAIN_FLAG_2CC);
         refit_cost: 0;
         track_type: RAIL;
 		ai_special_flag: AI_FLAG_PASSENGER;
         running_cost_base: RUNNING_COST_ELECTRIC;
-        engine_class: ENGINE_CLASS_ELECTRIC;
+        engine_class: ENGINE_CLASS_STEAM;
         visual_effect_and_powered: visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
         
         climates_available: ALL_CLIMATES;
