@@ -80,6 +80,7 @@ str_diesel_Panama_Panama_Canal_Railway_EMD_F40PH :Panama Canal Railway EMD F40PH
 str_diesel_Portugal_CP_1900 :CP 1900 (Diésel)
 str_diesel_Finland_VR_Dr16 :VR Dr16 (Diésel)
 str_diesel_Australia_Australian_National_AN :Australian National AN (Diésel)
+str_diesel_Turkey_TCDD_DH7000 :TCDD DH7000 (Diésel)
 str_diesel_Argentina_MF_GE_U20C :MF GE U20C (Diésel)
 str_diesel_Belgium_NMBS_SNCB_7800 :NMBS/SNCB 7800 (Diésel)
 str_diesel_Iran_RAI_DE43CA_Prima :RAI DE43CA 'Prima' (Diésel)
@@ -89,6 +90,7 @@ str_diesel_Russia_RZD_GT1 :RZD GT1 (Diésel)
 
 #Electric
 str_electric_Norway_NSB_EL7 :NSB EL7 (Eléctrico)
+str_electric_Japan_JNR_EF55 :JNR EF55 (Eléctrico)
 str_electric_South_Africa_SAR_6E :SAR 6E (Eléctrico)
 str_electric_Finland_VR_Sr1 :VR Sr1 (Eléctrico)
 str_electric_USSR_MPC_VL15 :MPC VL15 (Eléctrico)
