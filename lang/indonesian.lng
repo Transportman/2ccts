@@ -1,0 +1,39 @@
+##grflangid 0x5a
+##plural 1
+
+#Main grf title and description
+
+#parameter strings
+
+#VEHICLE NAMES
+#Railbus-steam
+
+#Diesel Railbus
+
+#Railbus-electric
+
+#Steam
+str_steam_USSR_MPC_P36                          :MPC P36 (Uap)
+
+#Diesel
+str_diesel_UK_BR_14 : BR 14 (Diesel)
+
+#Electric
+
+#DMU
+
+#EMU
+
+#Single Unit Metro
+
+#Multiple Unit Metro
+
+#Maglev
+
+#wagons
+
+#coaches
+
+#special wagons
+
+#PURCHASE MENU TEXTS
