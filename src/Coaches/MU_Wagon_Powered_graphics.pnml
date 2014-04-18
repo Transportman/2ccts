@@ -10,7 +10,7 @@
 * PURCHASE
 */
 
-spriteset(spriteset_mglv_wagon_powered_purchase, "gfx/Wagons/Powered_Wagon.png") {
+spriteset(spriteset_mu_wagon_powered_purchase, "gfx/Coaches/Unit_Wagon_Powered.png") {
 	template_purchase_wagon_special(4, 37)
 }
 
@@ -18,7 +18,7 @@ spriteset(spriteset_mglv_wagon_powered_purchase, "gfx/Wagons/Powered_Wagon.png")
 * VEHICLE
 */
 
-spriteset(spriteset_mglv_wagon_powered, "gfx/Wagons/Powered_Wagon.png") {
+spriteset(spriteset_mu_wagon_powered, "gfx/Coaches/Unit_Wagon_Powered.png") {
 	template_wagon_special(24,37)
 }
 	

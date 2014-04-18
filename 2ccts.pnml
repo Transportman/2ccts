@@ -29,18 +29,18 @@
 */
 
 //Unit wagons
-#include "src/Wagons/MU_Wagon_Unpowered_graphics.pnml"
-#include "src/Wagons/MU_Wagon_Unpowered_item.pnml"
-#include "src/Wagons/MU_Wagon_Powered_graphics.pnml"
-#include "src/Wagons/MU_Wagon_Powered_item.pnml"
-#include "src/Wagons/Metro_Wagon_Unpowered_graphics.pnml"
-#include "src/Wagons/Metro_Wagon_Unpowered_item.pnml"
-#include "src/Wagons/Metro_Wagon_Powered_graphics.pnml"
-#include "src/Wagons/Metro_Wagon_Powered_item.pnml"
-#include "src/Wagons/Maglev_Wagon_Unpowered_graphics.pnml"
-#include "src/Wagons/Maglev_Wagon_Unpowered_item.pnml"
-#include "src/Wagons/Maglev_Wagon_Powered_graphics.pnml"
-#include "src/Wagons/Maglev_Wagon_Powered_item.pnml"
+#include "src/Coaches/MU_Wagon_Unpowered_graphics.pnml"
+#include "src/Coaches/MU_Wagon_Unpowered_item.pnml"
+#include "src/Coaches/MU_Wagon_Powered_graphics.pnml"
+#include "src/Coaches/MU_Wagon_Powered_item.pnml"
+#include "src/Coaches/Metro_Wagon_Unpowered_graphics.pnml"
+#include "src/Coaches/Metro_Wagon_Unpowered_item.pnml"
+#include "src/Coaches/Metro_Wagon_Powered_graphics.pnml"
+#include "src/Coaches/Metro_Wagon_Powered_item.pnml"
+#include "src/Coaches/Maglev_Wagon_Unpowered_graphics.pnml"
+#include "src/Coaches/Maglev_Wagon_Unpowered_item.pnml"
+#include "src/Coaches/Maglev_Wagon_Powered_graphics.pnml"
+#include "src/Coaches/Maglev_Wagon_Powered_item.pnml"
 
 //Railbus-steam
 #include "src/Railbus-steam/Austria_NOLB_1_graphics.pnml"
