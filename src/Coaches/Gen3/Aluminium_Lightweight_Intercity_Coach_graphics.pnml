@@ -1,0 +1,46 @@
+/*
+ *  Copyright (C) 2014 Transportman
+ *  This file is part of the 2cc Trains In NML
+ *  This program is free software; you can redistribute it and/or modify it under the terms of the GNU Gen3eral Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
+ *  This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Gen3eral Public License for more details.
+ *  You should have received a copy of the GNU Gen3eral Public License along with this program; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+*/
+
+/*
+* PURCHASE
+*/
+
+spriteset(spriteset_coach_Gen3_Aluminium_Lightweight_Intercity_Coach_purchase, "gfx/Coaches/Gen3/Aluminium_Lightweight_Intercity_Coach_Purchase.png") {
+	template_purchase_wagon(1, 1)
+}
+
+/*
+* Vehicle
+*/
+
+//Livery 1
+spriteset(spriteset_coach_Gen3_Aluminium_Lightweight_Intercity_Coach_L1, "gfx/Coaches/Gen3/Aluminium_Lightweight_Intercity_Coach.png") {
+	template_2cc_wagons(1, 1)
+}
+
+//Livery 2
+spriteset(spriteset_coach_Gen3_Aluminium_Lightweight_Intercity_Coach_L2, "gfx/Coaches/Gen3/Aluminium_Lightweight_Intercity_Coach.png") {
+	template_2cc_wagons(179, 1)
+}
+
+//Livery 3
+spriteset(spriteset_coach_Gen3_Aluminium_Lightweight_Intercity_Coach_L3, "gfx/Coaches/Gen3/Aluminium_Lightweight_Intercity_Coach.png") {
+	template_2cc_wagons(357, 1)
+}
+
+//Livery 4
+spriteset(spriteset_coach_Gen3_Aluminium_Lightweight_Intercity_Coach_L4, "gfx/Coaches/Gen3/Aluminium_Lightweight_Intercity_Coach.png") {
+	template_2cc_wagons(535, 1)
+}
+
+random_switch(FEAT_TRAINS, SELF, switch_coach_Gen3_Aluminium_Lightweight_Intercity_Coach_livery) {
+	7: spriteset_coach_Gen3_Aluminium_Lightweight_Intercity_Coach_L1;
+	1: spriteset_coach_Gen3_Aluminium_Lightweight_Intercity_Coach_L2;
+	1: spriteset_coach_Gen3_Aluminium_Lightweight_Intercity_Coach_L3;
+	1: spriteset_coach_Gen3_Aluminium_Lightweight_Intercity_Coach_L4;
+}

@@ -74,152 +74,152 @@ str_steam_South_Africa_SAR_25 		:SAR 25 (Steam)
 str_steam_USSR_MPC_P36 				:MPC P36 (Steam)
 
 #Diesel
-str_diesel_Germany_DB_310_Kof_II : DB 310 Kof II (Diesel)
-str_diesel_USA_CNJ_ALCo_GE_IR_Boxcab : CNJ ALCo-GE-IR Boxcab (Diesel)
-str_diesel_Netherlands_NS_200 : NS 200 'Sik' (Diesel)
-str_diesel_Germany_DB_270 : DB 270 (Diesel)
-str_diesel_Switzerland_SBB_Am_4_6 : SBB Am 4/6 (Diesel)
-str_diesel_Australia_NSWGR_79 : NSWGR 79 (Diesel)
-str_diesel_USA_Western_Pacific_ALCO_S_2 : Western Pacific ALCO S-2 (Diesel)
-str_diesel_USA_GNR_EMD_F3 : GNR EMD F3 (Diesel)
-str_diesel_USA_UP_EMD_E8 : UP EMD E8 (Diesel)
-str_diesel_Brasil_EFCB_ALCO_RS_3 : EFCB ALCO RS-3 (Diesel)
-str_diesel_Netherlands_NS_600 : NS 600 'Bakkie' (Diesel)
-str_diesel_USA_Pennsylvania_Railroad_RF_16_Sharknose : Pennsylvania Railroad RF-16 'Sharknose' (Diesel)
-str_diesel_Uruguay_AFE_1500 : AFE 1500 (Diesel)
-str_diesel_Canada_CPR_Trainmaster : CPR 'Trainmaster' (Diesel)
-str_diesel_Liberia_Liberia_Railways_Class_08 : Liberia Railways Class 08 (Diesel)
-str_diesel_Austria_OBB_2060 : OBB 2060 (Diesel)
-str_diesel_Canada_CNR_SW1200 : CNR SW1200 (Diesel)
-str_diesel_Canada_VIA_Rail_FP9 : VIA Rail FP9 (Diesel)
-str_diesel_Hungary_MAV_M44 : MAV M44 (Diesel)
-str_diesel_Hungary_MAV_M28 : MAV M28 (Diesel)
-str_diesel_Belgium_NMBS_SNCB_83 : NMBS/SNCB 83 (Diesel)
-str_diesel_Germany_DB_220_V200 : DB 220 V200 (Diesel)
-str_diesel_USA_Amtrak_FL9 : Amtrak FL9 (Diesel)
-str_diesel_Czechoslovakia_CSD_720_ChME2 : CSD 720 ChME2 (Diesel)
-str_diesel_Finland_VR_Dr12 : VR Dr12 (Diesel)
-str_diesel_Romania_CFR_060_DA : CFR 060-DA (Diesel)
-str_diesel_Brasil_BF_EMD_GL8 : BF EMD GL8 (Diesel)
-str_diesel_Brasil_EFVM_ML4000 : EFVM ML4000 (Diesel)
-str_diesel_USSR_MPC_TEP60 : MPC TEP60 (Diesel)
-str_diesel_Belgium_NMBS_SNCB_67 : NMBS/SNCB 67 (Diesel)
-str_diesel_Denmark_DSB_MaK_100 : DSB MaK 100 (Diesel)
-str_diesel_India_Indian_Railways_WDM_2 : Indian Railways WDM-2 (Diesel)
-str_diesel_UK_BR_14 : BR 14 (Diesel)
-str_diesel_USSR_MPC_ChME3 : MPC ChME3 (Diesel)
-str_diesel_Argentina_MF_GM_EMD_J16CW_AC : MF GM-EMD-J16CW-AC (Diesel)
-str_diesel_USSR_MPC_M62 : MPC M62 (Diesel)
-str_diesel_Australia_NSWGR_422 : NSWGR 422 (Diesel)
-str_diesel_Egypt_ENR_G22W : ENR G22W (Diesel)
-str_diesel_USA_UP_EMD_DDA40X : UP EMD DDA40X (Diesel)
-str_diesel_Australia_Queensland_Rail_2100 : Queensland Rail 2100 (Diesel)
-str_diesel_Croatia_HZ_2062 : HZ 2062 (Diesel)
-str_diesel_Sweden_SJ_V4 : SJ V4 (Diesel)
-str_diesel_Canada_CNR_MLW_M420W : CNR MLW M420W (Diesel)
-str_diesel_USA_GNR_SDP_40F : GNR SDP-40F (Diesel)
-str_diesel_China_China_Railways_DFH3 : China Railways DFH3 (Diesel)
-str_diesel_Panama_Panama_Canal_Railway_EMD_F40PH : Panama Canal Railway EMD F40PH (Diesel)
-str_diesel_Portugal_CP_1900 : CP 1900 (Diesel)
-str_diesel_Finland_VR_Dr16 : VR Dr16 (Diesel)
-str_diesel_USSR_MPC_TEP80 : MPC TEP80 (Diesel)
-str_diesel_Australia_Australian_National_AN : Australian National AN (Diesel)
-str_diesel_USA_Amtrak_P42DC_Genesis : Amtrak P42DC 'Genesis' (Diesel)
-str_diesel_Turkey_TCDD_DH7000 : TCDD DH7000 (Diesel)
-str_diesel_Argentina_MF_GE_U20C : MF GE U20C (Diesel)
-str_diesel_Belgium_NMBS_SNCB_7800 : NMBS/SNCB 7800 (Diesel)
-str_diesel_UK_BR_66 : BR 66 (Diesel)
-str_diesel_UK_BR_67 : BR 67 (Diesel)
-str_diesel_Iran_RAI_DE43CA_Prima : RAI DE43CA 'Prima' (Diesel)
-str_diesel_Germany_DB_253_G2000_3_BB : DB 253 G2000-3 BB (Diesel)
-str_diesel_Ukraine_UZ_TEP150 : UZ TEP150 (Diesel)
-str_diesel_China_China_Railways_HXN5 : China Railways HXN5 (Diesel)
-str_diesel_Germany_DB_260_Gravita_10BB : DB 260 Gravita 10BB (Diesel)
-str_diesel_Russia_RZD_GT1 : RZD GT1 (Diesel)
+str_diesel_Germany_DB_310_Kof_II :DB 310 Kof II (Diesel)
+str_diesel_USA_CNJ_ALCo_GE_IR_Boxcab :CNJ ALCo-GE-IR Boxcab (Diesel)
+str_diesel_Netherlands_NS_200 :NS 200 'Sik' (Diesel)
+str_diesel_Germany_DB_270 :DB 270 (Diesel)
+str_diesel_Switzerland_SBB_Am_4_6 :SBB Am 4/6 (Diesel)
+str_diesel_Australia_NSWGR_79 :NSWGR 79 (Diesel)
+str_diesel_USA_Western_Pacific_ALCO_S_2 :Western Pacific ALCO S-2 (Diesel)
+str_diesel_USA_GNR_EMD_F3 :GNR EMD F3 (Diesel)
+str_diesel_USA_UP_EMD_E8 :UP EMD E8 (Diesel)
+str_diesel_Brasil_EFCB_ALCO_RS_3 :EFCB ALCO RS-3 (Diesel)
+str_diesel_Netherlands_NS_600 :NS 600 'Bakkie' (Diesel)
+str_diesel_USA_Pennsylvania_Railroad_RF_16_Sharknose :Pennsylvania Railroad RF-16 'Sharknose' (Diesel)
+str_diesel_Uruguay_AFE_1500 :AFE 1500 (Diesel)
+str_diesel_Canada_CPR_Trainmaster :CPR 'Trainmaster' (Diesel)
+str_diesel_Liberia_Liberia_Railways_Class_08 :Liberia Railways Class 08 (Diesel)
+str_diesel_Austria_OBB_2060 :OBB 2060 (Diesel)
+str_diesel_Canada_CNR_SW1200 :CNR SW1200 (Diesel)
+str_diesel_Canada_VIA_Rail_FP9 :VIA Rail FP9 (Diesel)
+str_diesel_Hungary_MAV_M44 :MAV M44 (Diesel)
+str_diesel_Hungary_MAV_M28 :MAV M28 (Diesel)
+str_diesel_Belgium_NMBS_SNCB_83 :NMBS/SNCB 83 (Diesel)
+str_diesel_Germany_DB_220_V200 :DB 220 V200 (Diesel)
+str_diesel_USA_Amtrak_FL9 :Amtrak FL9 (Diesel)
+str_diesel_Czechoslovakia_CSD_720_ChME2 :CSD 720 ChME2 (Diesel)
+str_diesel_Finland_VR_Dr12 :VR Dr12 (Diesel)
+str_diesel_Romania_CFR_060_DA :CFR 060-DA (Diesel)
+str_diesel_Brasil_BF_EMD_GL8 :BF EMD GL8 (Diesel)
+str_diesel_Brasil_EFVM_ML4000 :EFVM ML4000 (Diesel)
+str_diesel_USSR_MPC_TEP60 :MPC TEP60 (Diesel)
+str_diesel_Belgium_NMBS_SNCB_67 :NMBS/SNCB 67 (Diesel)
+str_diesel_Denmark_DSB_MaK_100 :DSB MaK 100 (Diesel)
+str_diesel_India_Indian_Railways_WDM_2 :Indian Railways WDM-2 (Diesel)
+str_diesel_UK_BR_14 :BR 14 (Diesel)
+str_diesel_USSR_MPC_ChME3 :MPC ChME3 (Diesel)
+str_diesel_Argentina_MF_GM_EMD_J16CW_AC :MF GM-EMD-J16CW-AC (Diesel)
+str_diesel_USSR_MPC_M62 :MPC M62 (Diesel)
+str_diesel_Australia_NSWGR_422 :NSWGR 422 (Diesel)
+str_diesel_Egypt_ENR_G22W :ENR G22W (Diesel)
+str_diesel_USA_UP_EMD_DDA40X :UP EMD DDA40X (Diesel)
+str_diesel_Australia_Queensland_Rail_2100 :Queensland Rail 2100 (Diesel)
+str_diesel_Croatia_HZ_2062 :HZ 2062 (Diesel)
+str_diesel_Sweden_SJ_V4 :SJ V4 (Diesel)
+str_diesel_Canada_CNR_MLW_M420W :CNR MLW M420W (Diesel)
+str_diesel_USA_GNR_SDP_40F :GNR SDP-40F (Diesel)
+str_diesel_China_China_Railways_DFH3 :China Railways DFH3 (Diesel)
+str_diesel_Panama_Panama_Canal_Railway_EMD_F40PH :Panama Canal Railway EMD F40PH (Diesel)
+str_diesel_Portugal_CP_1900 :CP 1900 (Diesel)
+str_diesel_Finland_VR_Dr16 :VR Dr16 (Diesel)
+str_diesel_USSR_MPC_TEP80 :MPC TEP80 (Diesel)
+str_diesel_Australia_Australian_National_AN :Australian National AN (Diesel)
+str_diesel_USA_Amtrak_P42DC_Genesis :Amtrak P42DC 'Genesis' (Diesel)
+str_diesel_Turkey_TCDD_DH7000 :TCDD DH7000 (Diesel)
+str_diesel_Argentina_MF_GE_U20C :MF GE U20C (Diesel)
+str_diesel_Belgium_NMBS_SNCB_7800 :NMBS/SNCB 7800 (Diesel)
+str_diesel_UK_BR_66 :BR 66 (Diesel)
+str_diesel_UK_BR_67 :BR 67 (Diesel)
+str_diesel_Iran_RAI_DE43CA_Prima :RAI DE43CA 'Prima' (Diesel)
+str_diesel_Germany_DB_253_G2000_3_BB :DB 253 G2000-3 BB (Diesel)
+str_diesel_Ukraine_UZ_TEP150 :UZ TEP150 (Diesel)
+str_diesel_China_China_Railways_HXN5 :China Railways HXN5 (Diesel)
+str_diesel_Germany_DB_260_Gravita_10BB :DB 260 Gravita 10BB (Diesel)
+str_diesel_Russia_RZD_GT1 :RZD GT1 (Diesel)
 
 #Electric
-str_electric_Switzerland_RhB_DE_2_2 : RhB DE 2/2 (Electric)
-str_electric_Norway_NSB_EL7 : NSB EL7 (Electric)
-str_electric_UK_NER_EF1 : NER EF1 (Electric)
-str_electric_USA_Milwaukee_Road_ES_2 : Milwaukee Road ES-2 (Electric)
-str_electric_USA_Pennsylvania_Railroad_FF_1 : Pennsylvania Railroad FF-1 (Electric)
-str_electric_USA_Milwaukee_Road_EP_2_Bipolar : Milwaukee Road EP-2 Bipolar (Electric)
-str_electric_Chile_EFE_Series_E_28 : EFE Series E-28 (Electric)
-str_electric_Austria_OBB_1161 : OBB 1161 (Electric)
-str_electric_Germany_DB_169 : DB 169 (Electric)
-str_electric_Japan_JNR_EB10 : JNR EB10 (Electric)
-str_electric_Norway_NSB_EL10 : NSB EL10 (Electric)
-str_electric_Germany_DB_104 : DB 104 (Electric)
-str_electric_Italy_FS_E428 : FS E428 (Electric)
-str_electric_USA_Pennsylvania_Railroad_GG_1 : Pennsylvania Railroad GG-1 (Electric)
-str_electric_Japan_JNR_EF55 : JNR EF55 (Electric)
-str_electric_South_Africa_SAR_ES_Class : SAR ES Class (Electric)
-str_electric_Austria_OBB_1020_Crocodile : OBB 1020 'Crocodile' (Electric)
-str_electric_USSR_MPC_VL22M : MPC VL22M (Electric)
-str_electric_Netherlands_NS_1000 : NS 1000 (Electric)
-str_electric_Sweden_MTAB_Dm3 : MTAB Dm3 (Electric)
-str_electric_UK_BR_77 : BR 77 (Electric)
-str_electric_UK_BR_77_Metrovic : BR 77 'Metrovic' (Electric)
-str_electric_France_SNCF_BB_9004 : SNCF BB 9004 (Electric)
-str_electric_Switzerland_SBB_Ce_4_4 : SBB Ce 4/4 (Electric)
-str_electric_Switzerland_SBB_Ae_6_6 : SBB Ae 6/6 (Electric)
-str_electric_India_Indian_Railways_WCM_1 : Indian Railways WCM-1 (Electric)
-str_electric_Italy_FS_E646 : FS E646 (Electric)
-str_electric_USSR_MPC_VL41 : MPC VL41 (Electric)
-str_electric_Japan_JNR_EF64 : JNR EF64 (Electric)
-str_electric_Croatia_HZ_1141 : HZ 1141 (Electric)
-str_electric_Germany_DB_103 : DB 103 (Electric)
-str_electric_South_Africa_SAR_6E : SAR 6E (Electric)
-str_electric_Finland_VR_Sr1 : VR Sr1 (Electric)
-str_electric_Austria_OBB_1044 : OBB 1044 (Electric)
-str_electric_France_SNCF_BB_22200 : SNCF BB 22200 (Electric)
-str_electric_Poland_PKP_ET41 : PKP ET41 (Electric)
-str_electric_Netherlands_NS_1600 : NS 1600 (Electric)
-str_electric_Austria_OBB_1063 : OBB 1063 (Electric)
-str_electric_USSR_MPC_VL85 : MPC VL85 (Electric)
-str_electric_USSR_MPC_VL15 : MPC VL15 (Electric)
-str_electric_China_China_Railways_6K : China Railways 6K (Electric)
-str_electric_France_SNCF_BB_26000 : SNCF BB 26000 (Electric)
-str_electric_China_China_Railways_SS6 : China Railways SS6 (Electric)
-str_electric_Switzerland_SBB_Re460_Lok_2000 : SBB Re460 'Lok 2000' (Electric)
-str_electric_Spain_RENFE_252 : RENFE 252 (Electric)
-str_electric_UK_BR_92 : BR 92 (Electric)
-str_electric_Germany_DB_145_TRAXX_F140 : DB 145 TRAXX F140 (Electric)
-str_electric_Belgium_NMBS_SNCB_13_HLE : NMBS/SNCB 13 HLE (Electric)
-str_electric_Japan_JR_EH500 : JR EH500 (Electric)
-str_electric_Turkey_TCDD_E55200 : TCDD E55200 (Electric)
-str_electric_Germany_DB_182_ES64U_Taurus : DB 182 ES64U 'Taurus' (Electric)
-str_electric_Sweden_MTAB_IORE : MTAB IORE (Electric)
-str_electric_South_Korea_Korail_8200 : Korail 8200 (Electric)
-str_electric_Ukraine_UZ_DS3 : UZ DS3 (Electric)
-str_electric_Kazakhstan_KTZ_KZ4A : KTZ KZ4A (Electric)
-str_electric_Switzerland_SBB_Eem_923 : SBB Eem 923 (Electric)
+str_electric_Switzerland_RhB_DE_2_2 :RhB DE 2/2 (Electric)
+str_electric_Norway_NSB_EL7 :NSB EL7 (Electric)
+str_electric_UK_NER_EF1 :NER EF1 (Electric)
+str_electric_USA_Milwaukee_Road_ES_2 :Milwaukee Road ES-2 (Electric)
+str_electric_USA_Pennsylvania_Railroad_FF_1 :Pennsylvania Railroad FF-1 (Electric)
+str_electric_USA_Milwaukee_Road_EP_2_Bipolar :Milwaukee Road EP-2 Bipolar (Electric)
+str_electric_Chile_EFE_Series_E_28 :EFE Series E-28 (Electric)
+str_electric_Austria_OBB_1161 :OBB 1161 (Electric)
+str_electric_Germany_DB_169 :DB 169 (Electric)
+str_electric_Japan_JNR_EB10 :JNR EB10 (Electric)
+str_electric_Norway_NSB_EL10 :NSB EL10 (Electric)
+str_electric_Germany_DB_104 :DB 104 (Electric)
+str_electric_Italy_FS_E428 :FS E428 (Electric)
+str_electric_USA_Pennsylvania_Railroad_GG_1 :Pennsylvania Railroad GG-1 (Electric)
+str_electric_Japan_JNR_EF55 :JNR EF55 (Electric)
+str_electric_South_Africa_SAR_ES_Class :SAR ES Class (Electric)
+str_electric_Austria_OBB_1020_Crocodile :OBB 1020 'Crocodile' (Electric)
+str_electric_USSR_MPC_VL22M :MPC VL22M (Electric)
+str_electric_Netherlands_NS_1000 :NS 1000 (Electric)
+str_electric_Sweden_MTAB_Dm3 :MTAB Dm3 (Electric)
+str_electric_UK_BR_77 :BR 77 (Electric)
+str_electric_UK_BR_77_Metrovic :BR 77 'Metrovic' (Electric)
+str_electric_France_SNCF_BB_9004 :SNCF BB 9004 (Electric)
+str_electric_Switzerland_SBB_Ce_4_4 :SBB Ce 4/4 (Electric)
+str_electric_Switzerland_SBB_Ae_6_6 :SBB Ae 6/6 (Electric)
+str_electric_India_Indian_Railways_WCM_1 :Indian Railways WCM-1 (Electric)
+str_electric_Italy_FS_E646 :FS E646 (Electric)
+str_electric_USSR_MPC_VL41 :MPC VL41 (Electric)
+str_electric_Japan_JNR_EF64 :JNR EF64 (Electric)
+str_electric_Croatia_HZ_1141 :HZ 1141 (Electric)
+str_electric_Germany_DB_103 :DB 103 (Electric)
+str_electric_South_Africa_SAR_6E :SAR 6E (Electric)
+str_electric_Finland_VR_Sr1 :VR Sr1 (Electric)
+str_electric_Austria_OBB_1044 :OBB 1044 (Electric)
+str_electric_France_SNCF_BB_22200 :SNCF BB 22200 (Electric)
+str_electric_Poland_PKP_ET41 :PKP ET41 (Electric)
+str_electric_Netherlands_NS_1600 :NS 1600 (Electric)
+str_electric_Austria_OBB_1063 :OBB 1063 (Electric)
+str_electric_USSR_MPC_VL85 :MPC VL85 (Electric)
+str_electric_USSR_MPC_VL15 :MPC VL15 (Electric)
+str_electric_China_China_Railways_6K :China Railways 6K (Electric)
+str_electric_France_SNCF_BB_26000 :SNCF BB 26000 (Electric)
+str_electric_China_China_Railways_SS6 :China Railways SS6 (Electric)
+str_electric_Switzerland_SBB_Re460_Lok_2000 :SBB Re460 'Lok 2000' (Electric)
+str_electric_Spain_RENFE_252 :RENFE 252 (Electric)
+str_electric_UK_BR_92 :BR 92 (Electric)
+str_electric_Germany_DB_145_TRAXX_F140 :DB 145 TRAXX F140 (Electric)
+str_electric_Belgium_NMBS_SNCB_13_HLE :NMBS/SNCB 13 HLE (Electric)
+str_electric_Japan_JR_EH500 :JR EH500 (Electric)
+str_electric_Turkey_TCDD_E55200 :TCDD E55200 (Electric)
+str_electric_Germany_DB_182_ES64U_Taurus :DB 182 ES64U 'Taurus' (Electric)
+str_electric_Sweden_MTAB_IORE :MTAB IORE (Electric)
+str_electric_South_Korea_Korail_8200 :Korail 8200 (Electric)
+str_electric_Ukraine_UZ_DS3 :UZ DS3 (Electric)
+str_electric_Kazakhstan_KTZ_KZ4A :KTZ KZ4A (Electric)
+str_electric_Switzerland_SBB_Eem_923 :SBB Eem 923 (Electric)
 
 #DMU
-str_dmu_Germany_DB_VT04_Flying_Hamburger : DB VT04 'Flying Hamburger' (DMU)
-str_dmu_Australia_NSWGR_Silver_City_Comet : NSWGR Silver City Comet (DMU)
-str_dmu_Czechoslovakia_CSD_M131 : CSD M131 (DMU)
-str_dmu_Germany_DB_VT08 : DB VT08 (DMU)
-str_dmu_Australia_Queensland_Rail_400 : Queensland Rail 400 (DMU)
-str_dmu_Italy_FS_ALn668 : FS ALn668 (DMU)
-str_dmu_Germany_DB_601_VT11_TEE : DB 601 VT11 TEE (DMU)
-str_dmu_Netherlands_NS_Plan_U_DE_III : NS Plan U DE-III (DMU)
-str_dmu_Canada_CNR_Turbo_Train : CNR 'Turbo Train' (DMU)
-str_dmu_Serbia_ZS_811 : ZS 811 (DMU)
-str_dmu_UK_BR_43_IC125 : BR 43 IC125 (DMU)
-str_dmu_Canada_CNR_LRC : CNR LRC (DMU)
-str_dmu_Sweden_SJ_Y2 : SJ Y2 (DMU)
-str_dmu_Spain_RENFE_594_TRD : RENFE 594 TRD (DMU)
-str_dmu_UK_BR_168 : BR 168 (DMU)
-str_dmu_Germany_DB_612_Regio_Swinger : DB 612 'Regio Swinger' (DMU)
-str_dmu_Germany_DB_642_Desiro : DB 642 'Desiro' (DMU)
-str_dmu_Denmark_Arriva_Lint_41 : Arriva Lint 41 (DMU)
-str_dmu_Norway_NSB_BM_93_Talent : NSB BM 93 'Talent' (DMU)
-str_dmu_Australia_Transwa_Prospector : Transwa Prospector (DMU)
-str_dmu_Australia_CityRail_Hunter_Railcar : CityRail Hunter Railcar (DMU)
-str_dmu_Russia_RZD_RA2 : RZD RA2 (DMU)
-str_dmu_Denmark_DSB_IC4 : DSB IC4 (DMU)
-str_dmu_Croatia_HZ_7022 : HZ 7022 (DMU)
+str_dmu_Germany_DB_VT04_Flying_Hamburger :DB VT04 'Flying Hamburger' (DMU)
+str_dmu_Australia_NSWGR_Silver_City_Comet :NSWGR Silver City Comet (DMU)
+str_dmu_Czechoslovakia_CSD_M131 :CSD M131 (DMU)
+str_dmu_Germany_DB_VT08 :DB VT08 (DMU)
+str_dmu_Australia_Queensland_Rail_400 :Queensland Rail 400 (DMU)
+str_dmu_Italy_FS_ALn668 :FS ALn668 (DMU)
+str_dmu_Germany_DB_601_VT11_TEE :DB 601 VT11 TEE (DMU)
+str_dmu_Netherlands_NS_Plan_U_DE_III :NS Plan U DE-III (DMU)
+str_dmu_Canada_CNR_Turbo_Train :CNR 'Turbo Train' (DMU)
+str_dmu_Serbia_ZS_811 :ZS 811 (DMU)
+str_dmu_UK_BR_43_IC125 :BR 43 IC125 (DMU)
+str_dmu_Canada_CNR_LRC :CNR LRC (DMU)
+str_dmu_Sweden_SJ_Y2 :SJ Y2 (DMU)
+str_dmu_Spain_RENFE_594_TRD :RENFE 594 TRD (DMU)
+str_dmu_UK_BR_168 :BR 168 (DMU)
+str_dmu_Germany_DB_612_Regio_Swinger :DB 612 'Regio Swinger' (DMU)
+str_dmu_Germany_DB_642_Desiro :DB 642 'Desiro' (DMU)
+str_dmu_Denmark_Arriva_Lint_41 :Arriva Lint 41 (DMU)
+str_dmu_Norway_NSB_BM_93_Talent :NSB BM 93 'Talent' (DMU)
+str_dmu_Australia_Transwa_Prospector :Transwa Prospector (DMU)
+str_dmu_Australia_CityRail_Hunter_Railcar :CityRail Hunter Railcar (DMU)
+str_dmu_Russia_RZD_RA2 :RZD RA2 (DMU)
+str_dmu_Denmark_DSB_IC4 :DSB IC4 (DMU)
+str_dmu_Croatia_HZ_7022 :HZ 7022 (DMU)
 
 #EMU
 
@@ -272,6 +272,79 @@ str_mglv_Japan_MLX01_901	:JR MLX01-901 (Maglev)
 #wagons
 
 #coaches
+str_coach_Gen1_Wooden_2_axle_Compartment_Coach :Wooden 2-axle Compartment Coach
+str_coach_Gen1_Wooden_2_axle_Regional_Coach :Wooden 2-axle Regional Coach
+str_coach_Gen1_Wooden_2_axle_Mail_Coach :Wooden 2-axle Mail Coach
+str_coach_Gen1_Clerestory_Compartment_Coach :Clerestory Compartment Coach
+str_coach_Gen1_Clerestory_Regional_Coach :Clerestory Regional Coach
+str_coach_Gen1_Clerestory_Mail_Coach :Clerestory Mail Coach
+str_coach_Gen1_Wooden_3_axle_Compartment_Coach :Wooden 3-axle Compartment Coach
+str_coach_Gen1_Wooden_3_axle_Regional_Coach :Wooden 3-axle Regional Coach
+str_coach_Gen1_Wooden_3_axle_Mail_Coach :Wooden 3-axle Mail Coach
+str_coach_Gen2_Heavyweight_Intercity_Coach :Heavyweight Intercity Coach
+str_coach_Gen2_Heavyweight_Mail_Coach :Heavyweight Mail Coach
+str_coach_Gen2_Steel_Intercity_Coach :Steel Intercity Coach
+str_coach_Gen2_Steel_Compartment_Coach :Steel Compartment Coach
+str_coach_Gen2_Steel_Regional_Coach :Steel Regional Coach
+str_coach_Gen2_Steel_Mail_Coach :Steel Mail Coach
+str_coach_Gen2_Steel_2_axle_Compartment_Coach :Steel 2-axle Compartment Coach
+str_coach_Gen2_Steel_2_axle_Regional_Coach :Steel 2-axle Regional Coach
+str_coach_Gen2_Steel_2_axle_Mail_Coach :Steel 2-axle Mail Coach
+str_coach_Gen2_Steel_3_axle_Compartment_Coach :Steel 3-axle Compartment Coach
+str_coach_Gen2_Steel_3_axle_Regional_Coach :Steel 3-axle Regional Coach
+str_coach_Gen2_Steel_3_axle_Mail_Coach :Steel 3-axle Mail Coach
+str_coach_Gen3_Steel_Lightweight_Intercity_Coach :Steel Lightweight Intercity Coach
+str_coach_Gen3_Steel_Lightweight_Regional_Coach :Steel Lightweight Regional Coach
+str_coach_Gen3_Steel_Lightweight_Mail_Coach :Steel Lightweight Mail Coach
+str_coach_Gen3_Aluminium_Lightweight_Intercity_Coach :Aluminium Lightweight Intercity Coach
+str_coach_Gen3_Aluminium_Lightweight_Regional_Coach :Aluminium Lightweight Regional Coach
+str_coach_Gen3_Aluminium_Lightweight_Mail_Coach :Aluminium Lightweight Mail Coach
+str_coach_Gen3_Gallery_Car :Gallery Car
+str_coach_Gen3_Mk1_Intercity_Coach :Mk1 Intercity Coach
+str_coach_Gen3_Mk1_Regional_Coach :Mk1 Regional Coach
+str_coach_Gen3_Mk1_Mail_Coach :Mk1 Mail Coach
+str_coach_Gen3_UIC_X_Intercity_Coach :UIC-X Intercity Coach
+str_coach_Gen3_TEE_Intercity_Coach :TEE Intercity Coach
+str_coach_Gen3_UIC_X_Regional_Coach :UIC-X Regional Coach
+str_coach_Gen3_Umbauwagen_Local_Coach :'Umbauwagen' Local Coach
+str_coach_Gen3_Doppelstockwagen_Local_Coach :'Doppelstockwagen' Local Coach
+str_coach_Gen3_UIC_X_Mail_Coach :UIC-X Mail Coach
+str_coach_Gen3_Indian_Intercity_Coach :Indian Intercity Coach
+str_coach_Gen3_Indian_Local_Coach :Indian Local Coach
+str_coach_Gen3_Indian_Regional_Coach :Indian Regional Coach
+str_coach_Gen3_Indian_Mail_Coach :Indian Mail Coach
+str_coach_Gen4_Eurofima_Intercity_Coach :Eurofima Coach
+str_coach_Gen4_InterRegio_Coach :InterRegio Coach
+str_coach_Gen4_Silberling_Commuter_Coach :'Silberling' Commuter Coach
+str_coach_Gen4_Eurofima_Mail_Coach :Eurofima Mail Coach
+str_coach_Gen4_Double_Decker_Coach :Double Decker Coach
+str_coach_Gen4_Russian_Intercity_Coach :Russian Intercity Coach
+str_coach_Gen4_Russian_Regional_Coach :Russian Regional Coach
+str_coach_Gen4_Russian_Mail_Coach :Russian Mail Coach
+str_coach_Gen4_Superliner_Coach :Superliner Coach
+str_coach_Gen4_Superliner_California :Superliner California
+str_coach_Gen4_Amfleet_Regional_Coach :Amfleet Regional Coach
+str_coach_Gen4_Amfleet_Intercity_Coach :Amfleet Intercity Coach
+str_coach_Gen4_Comet_Commuter_Coach :Comet Commuter Coach
+str_coach_Gen4_Horizon_Regional_Coach :Horizon Regional Coach
+str_coach_Gen4_Horizon_Baggage_Coach :Horizon Baggage Coach
+str_coach_Gen4_Bombardier_Bi_level :Bombardier Bi-level
+str_coach_Gen5_High_Speed_Coach :High Speed Coach
+str_coach_Gen5_Modern_Regional_Coach :Modern Regional Coach
+str_coach_Gen5_Modern_Commuter_Coach :Modern Commuter Coach
+str_coach_Gen5_Modern_Double_Decker_Coach :Modern Double Decker Coach 
+str_coach_Gen5_High_Speed_Double_Decker_IC2000 :High Speed Double Decker (IC2000)
+str_coach_Gen5_High_Speed_Mail_Coach :High Speed Mail Coach
+str_coach_Gen5_Talgo_Pendular :Talgo Pendular
+str_coach_Gen5_Talgo_Pendular_Mail :Talgo Pendular Mail
+str_coach_Gen6_Grand_Voyager_Coach :Grand Voyager Coach
+str_coach_Gen6_Grand_Regio_Coach :Grand Regio Coach
+str_coach_Gen6_Metropolis_Coach :Metropolis Coach
+str_coach_Gen6_Speedmail_Coach :Speedmail Coach
+str_coach_Gen6_Super_Regio_Coach :Super Regio Coach
+str_coach_Gen6_Super_Voyager_Coach :Super Voyager Coach
+
+
 
 #special wagons
 str_mu_wagon_unpowered		:Multiple Unit Wagon (Unpowered)
