@@ -14,6 +14,48 @@ grf {
     url:    string(STR_GRF_URL);
 	version:		REPO_REVISION;
 	min_compatible_version:	1;
+    param {
+        param_purchase_cost {
+            type:   int;
+            name:   string(STR_PARAM_PURCHASE_COST);
+            desc:   string(STR_PARAM_PURCHASE_COST_DESC);
+            min_value: 0;
+            max_value: 8;
+            def_value: 4;
+            names: {
+                        0: string(STR_PARAM_DIVIDE_16);
+                        1: string(STR_PARAM_DIVIDE_8);
+                        2: string(STR_PARAM_DIVIDE_4);
+                        3: string(STR_PARAM_DIVIDE_2);
+                        4: string(STR_PARAM_NORMAL);
+                        5: string(STR_PARAM_TIMES_2);
+                        6: string(STR_PARAM_TIMES_4);
+                        7: string(STR_PARAM_TIMES_8);
+                        8: string(STR_PARAM_TIMES_16);
+            };
+        }
+    }
+    param {
+        param_running_cost {
+            type:   int;
+            name:   string(STR_PARAM_RUNNING_COST);
+            desc:   string(STR_PARAM_RUNNING_COST_DESC);
+            min_value: 0;
+            max_value: 8;
+            def_value: 4;
+            names: {
+                        0: string(STR_PARAM_DIVIDE_16);
+                        1: string(STR_PARAM_DIVIDE_8);
+                        2: string(STR_PARAM_DIVIDE_4);
+                        3: string(STR_PARAM_DIVIDE_2);
+                        4: string(STR_PARAM_NORMAL);
+                        5: string(STR_PARAM_TIMES_2);
+                        6: string(STR_PARAM_TIMES_4);
+                        7: string(STR_PARAM_TIMES_8);
+                        8: string(STR_PARAM_TIMES_16);
+            };
+        }
+    }
 }
 
 //check for OpenTTD and version
@@ -34,11 +76,11 @@ disable_item(FEAT_TRAINS, 0, 115);
 
 //set base cost multiplier for this set
 basecost {
-	PR_BUILD_VEHICLE_TRAIN:    1; //+ param_purchase_cost - 4;
-	PR_BUILD_VEHICLE_WAGON:    3; // + param_purchase_cost - 4;
-	PR_RUNNING_TRAIN_STEAM:    3; //+ param_running_cost  - 4;
-	PR_RUNNING_TRAIN_DIESEL:   3; //+ param_running_cost  - 4;
-	PR_RUNNING_TRAIN_ELECTRIC: 3; //+ param_running_cost  - 4;
+	PR_BUILD_VEHICLE_TRAIN:    1 + param_purchase_cost - 4;
+	PR_BUILD_VEHICLE_WAGON:    3 + param_purchase_cost - 4;
+	PR_RUNNING_TRAIN_STEAM:    3 + param_running_cost  - 4;
+	PR_RUNNING_TRAIN_DIESEL:   3 + param_running_cost  - 4;
+	PR_RUNNING_TRAIN_ELECTRIC: 3 + param_running_cost  - 4;
 }
 
 //set depot vehicle width to 32px to avoid overlap
