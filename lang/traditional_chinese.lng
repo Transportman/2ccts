@@ -8,6 +8,7 @@ STR_GRF_URL             :https://dev.openttdcoop.org/projects/2ccts
 
 #parameter strings
 
+
 #VEHICLE NAMES
 #Railbus-steam
 str_rbs_Austria_NOLB_1          :下奧地利國家鐵路1型 (蒸汽輕軌車廂)
@@ -109,6 +110,8 @@ str_mglv_China_Transrapid       :上海 Transrapid (磁浮)
 #wagons
 
 #coaches
+
+
 
 #special wagons
 str_mtro_wagon_unpowered        :捷運車廂 (無動力)

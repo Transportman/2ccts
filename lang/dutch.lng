@@ -7,6 +7,7 @@ STR_GRF_URL             :https://dev.openttdcoop.org/projects/2ccts
 
 #parameter strings
 
+
 #VEHICLE NAMES
 #Railbus-steam
 
@@ -35,6 +36,8 @@ str_mglv_Japan_MLX01_901        :JR MLX01-901 (Maglev)
 #wagons
 
 #coaches
+
+
 
 #special wagons
 

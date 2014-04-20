@@ -10,6 +10,7 @@ STR_GRF_URL             :https://dev.openttdcoop.org/projects/2ccts
 
 #parameter strings
 
+
 #VEHICLE NAMES
 #Railbus-steam
 str_rbs_Austria_NOLB_1          :NOLB 1 (parni šinobus)
@@ -275,6 +276,8 @@ str_mglv_Japan_MLX01_901        :JR MLX01-901 (maglev)
 #wagons
 
 #coaches
+
+
 
 #special wagons
 str_mu_wagon_unpowered          :Vagon višestruke jedinice (bez pogona)

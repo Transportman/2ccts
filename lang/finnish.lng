@@ -8,6 +8,7 @@ STR_GRF_URL             :https://dev.openttdcoop.org/projects/2ccts
 
 #parameter strings
 
+
 #VEHICLE NAMES
 #Railbus-steam
 str_rbs_Austria_NOLB_1          :NOLB 1 (Höyrykiskobussi)
@@ -131,6 +132,8 @@ str_mglv_Japan_MLX01_901        :JR MLX01-901 (Maglev)
 #wagons
 
 #coaches
+
+
 
 #special wagons
 str_mtro_wagon_unpowered        :Metrovaunu (moottoroimaton)

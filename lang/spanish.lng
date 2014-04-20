@@ -9,6 +9,7 @@ STR_GRF_URL             :https://dev.openttdcoop.org/projects/2ccts
 
 #parameter strings
 
+
 #VEHICLE NAMES
 #Railbus-steam
 str_rbs_Austria_NOLB_1          :NOLB 1 (Railbus a vapor)
@@ -53,6 +54,7 @@ str_diesel_Germany_DB_270 :DB 270 (Diésel)
 str_diesel_Switzerland_SBB_Am_4_6 :SBB Am 4/6 (Diésel)
 str_diesel_Australia_NSWGR_79 :NSWGR 79 (Diésel)
 str_diesel_USA_Western_Pacific_ALCO_S_2 :Western Pacific ALCO S-2 (Diésel)
+str_diesel_USA_UP_EMD_E8 :UP EMD E8 (Diésel)
 str_diesel_Brasil_EFCB_ALCO_RS_3 :EFCB ALCO RS-3 (Diésel)
 str_diesel_Netherlands_NS_600 :NS 600 'Bakkie' (Diésel)
 str_diesel_USA_Pennsylvania_Railroad_RF_16_Sharknose :Pennsylvania Railroad RF-16 'Sharknose' (Diésel)
@@ -163,6 +165,8 @@ str_mglv_Japan_MLX01_901        :JR MLX01-901 (Maglev)
 #wagons
 
 #coaches
+
+
 
 #special wagons
 str_mtro_wagon_unpowered        :Vagón de metro (Sin motorización)
