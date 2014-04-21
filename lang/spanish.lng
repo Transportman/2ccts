@@ -9,6 +9,7 @@ STR_GRF_URL             :https://dev.openttdcoop.org/projects/2ccts
 
 #parameter strings
 
+STR_PARAM_DIVIDE_4                  :1/4
 
 #VEHICLE NAMES
 #Railbus-steam
@@ -111,6 +112,7 @@ str_electric_Japan_JNR_EF55 :JNR EF55 (Eléctrico)
 str_electric_Austria_OBB_1020_Crocodile :OBB 1020 'Crocodile' (Eléctrico)
 str_electric_Netherlands_NS_1000 :NS 1000 (Eléctrico)
 str_electric_UK_BR_77_Metrovic :BR 77 'Metrovic' (Eléctrico)
+str_electric_USSR_MPC_VL41 :MPC VL41 (Eléctrico)
 str_electric_Croatia_HZ_1141 :HZ 1141 (Eléctrico)
 str_electric_South_Africa_SAR_6E :SAR 6E (Eléctrico)
 str_electric_Finland_VR_Sr1 :VR Sr1 (Eléctrico)
