@@ -9,7 +9,20 @@ STR_GRF_DESCRIPTION             :{SILVER}2cc Vlakovi svijeta u NML-u{}{}(c)2ccts
 STR_GRF_URL             :https://dev.openttdcoop.org/projects/2ccts
 
 #parameter strings
+STR_PARAM_PURCHASE_COST             :Višekratnik za troškove nabave vozila
+STR_PARAM_PURCHASE_COST_DESC        :Možete koristiti ovu postavku za povećavanje ili smanjivanje troškova nabave vozila u ovom setu. Pripazite jer će izmjena ove postavke napraviti troškove nesrazmjerne prema osnovnim vozilima.
+STR_PARAM_RUNNING_COST              :Višekratnik za tekuće troškove vozila
+STR_PARAM_RUNNING_COST_DESC         :Možete koristiti ovu postavku za povećavanje ili smanjivanje tekućih troškova vozila u ovom setu. Pripazite jer će izmjena ove postavke napraviti troškove nesrazmjerne prema osnovnim vozilima.
 
+STR_PARAM_DIVIDE_16                 :1/16
+STR_PARAM_DIVIDE_8                  :1/8
+STR_PARAM_DIVIDE_4                  :1/4
+STR_PARAM_DIVIDE_2                  :1/2
+STR_PARAM_NORMAL                    :1 (osnovna postavka)
+STR_PARAM_TIMES_2                   :2
+STR_PARAM_TIMES_4                   :4
+STR_PARAM_TIMES_8                   :8
+STR_PARAM_TIMES_16                  :16
 
 #VEHICLE NAMES
 #Railbus-steam
@@ -129,7 +142,7 @@ str_diesel_Finland_VR_Dr16 : VR Dr16 (dizel lokomotiva)
 str_diesel_USSR_MPC_TEP80 : MPC TEP80 (dizel lokomotiva)
 str_diesel_Australia_Australian_National_AN : Australian National AN (dizel lokomotiva)
 str_diesel_USA_Amtrak_P42DC_Genesis : Amtrak P42DC 'Genesis' (dizel lokomotiva)
-str_diesel_Turkey_TCDD_DH7000 : TCDD DH7000 (dizel lokomotiva)
+str_diesel_Turkey_TCDD_DH7000 :TCDD DH7000 (dizel lokomotiva)
 str_diesel_Argentina_MF_GE_U20C : MF GE U20C (dizel lokomotiva)
 str_diesel_Belgium_NMBS_SNCB_7800 : NMBS/SNCB 7800 (dizel lokomotiva)
 str_diesel_UK_BR_66 : BR 66 (dizel lokomotiva)
@@ -168,7 +181,7 @@ str_electric_France_SNCF_BB_9004 : SNCF BB 9004 (električna lokomotiva)
 str_electric_Switzerland_SBB_Ce_4_4 : SBB Ce 4/4 (električna lokomotiva)
 str_electric_Switzerland_SBB_Ae_6_6 : SBB Ae 6/6 (električna lokomotiva)
 str_electric_India_Indian_Railways_WCM_1 : Indian Railways WCM-1 (električna lokomotiva)
-str_electric_Italy_FS_E646 : FS E646 (električna lokomotiva)
+str_electric_Italy_FS_E646 :FS E646 (električna lokomotiva)
 str_electric_USSR_MPC_VL41 : MPC VL41 (električna lokomotiva)
 str_electric_Japan_JNR_EF64 : JNR EF64 (električna lokomotiva)
 str_electric_Croatia_HZ_1141 : HZ 1141 (električna lokomotiva)
@@ -276,6 +289,77 @@ str_mglv_Japan_MLX01_901        :JR MLX01-901 (maglev)
 #wagons
 
 #coaches
+str_coach_Gen1_Wooden_2_axle_Compartment_Coach :Drveni dvoosovinski vagon za putnike sa kupeima
+str_coach_Gen1_Wooden_2_axle_Regional_Coach :Drveni dvoosovinski regionalni vagon za putnike
+str_coach_Gen1_Wooden_2_axle_Mail_Coach :Drveni dvoosovinski vagon za poštu
+str_coach_Gen1_Clerestory_Compartment_Coach :Vagon za putnike sa sjenikom sa kupeima
+str_coach_Gen1_Clerestory_Regional_Coach :Regionalni vagon za putnike sa sjenikom
+str_coach_Gen1_Clerestory_Mail_Coach :Vagon za poštu sa sjenikom
+str_coach_Gen1_Wooden_3_axle_Compartment_Coach :Drveni troosovinski vagon za putnike sa kupeima
+str_coach_Gen1_Wooden_3_axle_Regional_Coach :Drveni troosovinski regionalni vagon za putnike
+str_coach_Gen1_Wooden_3_axle_Mail_Coach :Drveni troosovinski vagon za poštu
+str_coach_Gen2_Heavyweight_Intercity_Coach :Teški Intercity vagon za putnike
+str_coach_Gen2_Heavyweight_Mail_Coach :Teški vagon za poštu
+str_coach_Gen2_Steel_Intercity_Coach :Čelični Intercity vagon za putnike
+str_coach_Gen2_Steel_Compartment_Coach :Čelični vagon za putnike sa kupeima
+str_coach_Gen2_Steel_Regional_Coach :Čelični regionalni vagon za putnike
+str_coach_Gen2_Steel_Mail_Coach :Čelični vagon za poštu
+str_coach_Gen2_Steel_2_axle_Compartment_Coach :Čelični dvoosovinski vagon za putnike sa kupeima
+str_coach_Gen2_Steel_2_axle_Regional_Coach :Čelični dvoosovinski regionalni vagon za putnike
+str_coach_Gen2_Steel_2_axle_Mail_Coach :Čelični dvoosovinski vagon za poštu
+str_coach_Gen2_Steel_3_axle_Compartment_Coach :Čelični troosovinski vagon za putnike sa kupeima
+str_coach_Gen2_Steel_3_axle_Regional_Coach :Čelični troosovinski regionalni vagon za putnike
+str_coach_Gen2_Steel_3_axle_Mail_Coach :Čelični troosovinski vagon za poštu
+str_coach_Gen3_Steel_Lightweight_Intercity_Coach :Čelični lagani Intercity vagon za putnike
+str_coach_Gen3_Steel_Lightweight_Regional_Coach :Čelični lagani regionalni vagon za putnike
+str_coach_Gen3_Steel_Lightweight_Mail_Coach :Čelični lagani vagon za poštu
+str_coach_Gen3_Aluminium_Lightweight_Intercity_Coach :Aluminijski lagani Intercity vagon za putnike
+str_coach_Gen3_Aluminium_Lightweight_Regional_Coach :Aluminijski lagani regionalni vagon za putnike
+str_coach_Gen3_Aluminium_Lightweight_Mail_Coach :Aluminijski lagani vagon za poštu
+str_coach_Gen3_Gallery_Car :Panoramski vagon za putnike
+str_coach_Gen3_Mk1_Intercity_Coach :Mk1 Intercity vagon za putnike
+str_coach_Gen3_Mk1_Regional_Coach :Mk1 regionalni vagon za putnike
+str_coach_Gen3_Mk1_Mail_Coach :Mk1 vagon za poštu
+str_coach_Gen3_UIC_X_Intercity_Coach :UIC-X Intercity vagon za putnike
+str_coach_Gen3_TEE_Intercity_Coach :TEE Intercity vagon za putnike
+str_coach_Gen3_UIC_X_Regional_Coach :UIC-X regionalni vagon za putnike
+str_coach_Gen3_Umbauwagen_Local_Coach :'Umbauwagen' lokalni vagon za putnike
+str_coach_Gen3_Doppelstockwagen_Local_Coach :Lokalni vagon za putnike na kat
+str_coach_Gen3_UIC_X_Mail_Coach :UIC-X vagon za poštu
+str_coach_Gen3_Indian_Intercity_Coach :Indijski Intercity vagon za putnike
+str_coach_Gen3_Indian_Local_Coach :Indijski lokalni vagon za putnike
+str_coach_Gen3_Indian_Regional_Coach :Indijski regionalni vagon za putnike
+str_coach_Gen3_Indian_Mail_Coach :Indijski vagon za poštu
+str_coach_Gen4_Eurofima_Intercity_Coach :Eurofima vagon za putnike
+str_coach_Gen4_InterRegio_Coach :InterRegio vagon za putnike
+str_coach_Gen4_Silberling_Commuter_Coach :'Silberling' prigradski vagon za putnike
+str_coach_Gen4_Eurofima_Mail_Coach :Eurofima vagon za poštu
+str_coach_Gen4_Double_Decker_Coach :Vagon za putnike na kat
+str_coach_Gen4_Russian_Intercity_Coach :Ruski Intercity vagon za putnike
+str_coach_Gen4_Russian_Regional_Coach :Ruski regionalni vagon za putnike
+str_coach_Gen4_Russian_Mail_Coach :Ruski vagon za poštu
+str_coach_Gen4_Superliner_Coach :Superliner vagon za putnike
+str_coach_Gen4_Superliner_California :Superliner California
+str_coach_Gen4_Amfleet_Regional_Coach :Amfleet regionalni vagon za putnike
+str_coach_Gen4_Amfleet_Intercity_Coach :Amfleet Intercity vagon za putnike
+str_coach_Gen4_Comet_Commuter_Coach :Comet prigradski vagon za putnike
+str_coach_Gen4_Horizon_Regional_Coach :Horizon regionalni vagon za putnike
+str_coach_Gen4_Horizon_Baggage_Coach :Horizon vagon za prtljagu
+str_coach_Gen4_Bombardier_Bi_level :Bombardier vagon na kat
+str_coach_Gen5_High_Speed_Coach :Vagon za putnike za visoke brzine
+str_coach_Gen5_Modern_Regional_Coach :Moderni regionalni vagon za putnike
+str_coach_Gen5_Modern_Commuter_Coach :Moderni prigradski vagon za putnike
+str_coach_Gen5_Modern_Double_Decker_Coach :Moderni vagon za putnike na kat
+str_coach_Gen5_High_Speed_Double_Decker_IC2000 :Vagon za putnike na kat za visoke brzine (IC2000)
+str_coach_Gen5_High_Speed_Mail_Coach :Vagon za poštu za visoke brzine
+str_coach_Gen5_Talgo_Pendular :Talgo Pendular
+str_coach_Gen5_Talgo_Pendular_Mail :Talgo Pendular vagon za poštu
+str_coach_Gen6_Grand_Voyager_Coach :Grand Voyager vagon za putnike
+str_coach_Gen6_Grand_Regio_Coach :Grand Regio vagon za putnike
+str_coach_Gen6_Metropolis_Coach :Metropolis vagon za putnike
+str_coach_Gen6_Speedmail_Coach :Speedmail vagon za poštu
+str_coach_Gen6_Super_Regio_Coach :Super Regio vagon za putnike
+str_coach_Gen6_Super_Voyager_Coach :Super Voyager vagon za putnike
 
 
 

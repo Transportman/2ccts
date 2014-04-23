@@ -9,7 +9,20 @@ STR_GRF_DESCRIPTION             :{SILVER}2cc Treni del mondo in NML{}{}(c)2ccts{
 STR_GRF_URL             :https://dev.openttdcoop.org/projects/2ccts
 
 #parameter strings
+STR_PARAM_PURCHASE_COST             :Moltiplicatore per i costi d'acquisto
+STR_PARAM_PURCHASE_COST_DESC        :È possibile utilizzare questa impostazione per aumentare o diminuire i costi d'acquisto dei veicoli in questo set. Notate che la modifica di questa impostazione renderà i costi sbilanciati verso i veicoli di default.
+STR_PARAM_RUNNING_COST              :Moltiplicatore per i costi d'esercizio
+STR_PARAM_RUNNING_COST_DESC         :È possibile utilizzare questa impostazione per aumentare o diminuire i costi d'esercizio dei veicoli in questo set. Notate che la modifica di questa impostazione renderà i costi sbilanciati verso i veicoli di default.
 
+STR_PARAM_DIVIDE_16                 :1/16
+STR_PARAM_DIVIDE_8                  :1/8
+STR_PARAM_DIVIDE_4                  :1/4
+STR_PARAM_DIVIDE_2                  :1/2
+STR_PARAM_NORMAL                    :1 (impostazione di default)
+STR_PARAM_TIMES_2                   :2
+STR_PARAM_TIMES_4                   :4
+STR_PARAM_TIMES_8                   :8
+STR_PARAM_TIMES_16                  :16
 
 #VEHICLE NAMES
 #Railbus-steam
@@ -276,6 +289,77 @@ str_mglv_Japan_MLX01_901        :JR MLX01-901 (Maglev)
 #wagons
 
 #coaches
+str_coach_Gen1_Wooden_2_axle_Compartment_Coach :Carrozza di legno a 2 assi con compartimenti
+str_coach_Gen1_Wooden_2_axle_Regional_Coach :Carrozza regionale di legno a 2 assi
+str_coach_Gen1_Wooden_2_axle_Mail_Coach :Carrozza postale di legno a 2 assi
+str_coach_Gen1_Clerestory_Compartment_Coach :Carrozza con compartimenti e clerestorio
+str_coach_Gen1_Clerestory_Regional_Coach :Carroza regionale con cleristorio
+str_coach_Gen1_Clerestory_Mail_Coach :Carrozza postale con clerestorio
+str_coach_Gen1_Wooden_3_axle_Compartment_Coach :Carrozza di legno a 3 assi con compartimenti
+str_coach_Gen1_Wooden_3_axle_Regional_Coach :Carrozza regionale di legno a 3 assi
+str_coach_Gen1_Wooden_3_axle_Mail_Coach :Carrozza postale di legno a 3 assi
+str_coach_Gen2_Heavyweight_Intercity_Coach :Carrozza Intercity pesante
+str_coach_Gen2_Heavyweight_Mail_Coach :Carrozza postale pesante
+str_coach_Gen2_Steel_Intercity_Coach :Carrozza Intercity d'acciaio
+str_coach_Gen2_Steel_Compartment_Coach :Carrozza d'acciaio con compartimenti
+str_coach_Gen2_Steel_Regional_Coach :Carrozza regionale d'acciaio
+str_coach_Gen2_Steel_Mail_Coach :Carrozza postale d'acciaio
+str_coach_Gen2_Steel_2_axle_Compartment_Coach :Carrozza d'acciaio a 2 assi con compartimenti
+str_coach_Gen2_Steel_2_axle_Regional_Coach :Carrozza regionale d'acciaio a 2 assi
+str_coach_Gen2_Steel_2_axle_Mail_Coach :Carrozza postale d'acciaio a 2 assi
+str_coach_Gen2_Steel_3_axle_Compartment_Coach :Carrozza d'acciaio a 3 assi con compartimenti
+str_coach_Gen2_Steel_3_axle_Regional_Coach :Carrozza regionale d'acciaio a 3 assi
+str_coach_Gen2_Steel_3_axle_Mail_Coach :Carrozza postale d'acciaio a 3 assi
+str_coach_Gen3_Steel_Lightweight_Intercity_Coach :Carrozza Intercity d'acciaio leggera
+str_coach_Gen3_Steel_Lightweight_Regional_Coach :Carrozza regionale d'acciaio leggera
+str_coach_Gen3_Steel_Lightweight_Mail_Coach :Carrozza postale d'acciaio leggera
+str_coach_Gen3_Aluminium_Lightweight_Intercity_Coach :Carrozza Intercity d'aluminio leggera
+str_coach_Gen3_Aluminium_Lightweight_Regional_Coach :Carrozza regionale d'aluminio leggera
+str_coach_Gen3_Aluminium_Lightweight_Mail_Coach :Carrozza postale d'aluminio leggera
+str_coach_Gen3_Gallery_Car :Carrozza panorama
+str_coach_Gen3_Mk1_Intercity_Coach :Carrozza Intercity Mk1
+str_coach_Gen3_Mk1_Regional_Coach :Carrozza regionale Mk1
+str_coach_Gen3_Mk1_Mail_Coach :Carrozza postale Mk1
+str_coach_Gen3_UIC_X_Intercity_Coach :UIC-X carozza Intercity
+str_coach_Gen3_TEE_Intercity_Coach :TEE carroza Intercity
+str_coach_Gen3_UIC_X_Regional_Coach :Carrozza regionale UIC-X
+str_coach_Gen3_Umbauwagen_Local_Coach :'Umbauwagen' carrozza locale
+str_coach_Gen3_Doppelstockwagen_Local_Coach :'Doppelstockwagen' carrozza locale
+str_coach_Gen3_UIC_X_Mail_Coach :UIC-X carrozza postale
+str_coach_Gen3_Indian_Intercity_Coach :Carrozza Intercity indiana
+str_coach_Gen3_Indian_Local_Coach :Carrozza locale indiana
+str_coach_Gen3_Indian_Regional_Coach :Carrozza regionale indiana
+str_coach_Gen3_Indian_Mail_Coach :Carrozza postale indiana
+str_coach_Gen4_Eurofima_Intercity_Coach :Carrozza Eurofima
+str_coach_Gen4_InterRegio_Coach :Carrozza InterRegio
+str_coach_Gen4_Silberling_Commuter_Coach :'Silberling' carrozza pendolare
+str_coach_Gen4_Eurofima_Mail_Coach :Carrozza postale Eurofima
+str_coach_Gen4_Double_Decker_Coach :Carrozza Double Decker
+str_coach_Gen4_Russian_Intercity_Coach :Carrozza Intercity russa
+str_coach_Gen4_Russian_Regional_Coach :Carrozza regionale russa
+str_coach_Gen4_Russian_Mail_Coach :Carrozza postale russa
+str_coach_Gen4_Superliner_Coach :Carrozza Superliner
+str_coach_Gen4_Superliner_California :Superliner California
+str_coach_Gen4_Amfleet_Regional_Coach :Amfleet carrozza regionale
+str_coach_Gen4_Amfleet_Intercity_Coach :Amfleet carroza Intercity
+str_coach_Gen4_Comet_Commuter_Coach :Carrozza pendolare Comet
+str_coach_Gen4_Horizon_Regional_Coach :Carrozza regionale Horizon
+str_coach_Gen4_Horizon_Baggage_Coach :Horizon carrozza bagagli
+str_coach_Gen4_Bombardier_Bi_level :Bombardier Bi-livello
+str_coach_Gen5_High_Speed_Coach :Carrozza ad alta velocità
+str_coach_Gen5_Modern_Regional_Coach :Carozza regionale moderna
+str_coach_Gen5_Modern_Commuter_Coach :Carozza pendolare moderna
+str_coach_Gen5_Modern_Double_Decker_Coach :Carrozza Double Decker moderna
+str_coach_Gen5_High_Speed_Double_Decker_IC2000 :Carrozza Double Decker ad alta velocità (IC2000)
+str_coach_Gen5_High_Speed_Mail_Coach :Carrozza postale ad alta velocità
+str_coach_Gen5_Talgo_Pendular :Carrozza Talgo Pendular
+str_coach_Gen5_Talgo_Pendular_Mail :Carrozza postale Talgo Pendular
+str_coach_Gen6_Grand_Voyager_Coach :Carrozza Grand Voyager
+str_coach_Gen6_Grand_Regio_Coach :Carrozza Grand Regio
+str_coach_Gen6_Metropolis_Coach :Carrozza Metropolis
+str_coach_Gen6_Speedmail_Coach :Carrozza postale Speedmail
+str_coach_Gen6_Super_Regio_Coach :Carrozza Super Regio
+str_coach_Gen6_Super_Voyager_Coach :Carrozza Super Voyager
 
 
 
