@@ -171,6 +171,7 @@ str_mglv_Japan_MLX01_901        :JR MLX01-901 (Maglev)
 #wagons
 
 #coaches
+str_coach_Gen2_Heavyweight_Mail_Coach :Vagón pesado de correo
 
 
 
