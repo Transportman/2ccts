@@ -9,6 +9,7 @@ STR_GRF_URL             :https://dev.openttdcoop.org/projects/2ccts
 
 #parameter strings
 
+STR_PARAM_DIVIDE_16                 :1/16
 STR_PARAM_DIVIDE_4                  :1/4
 
 #VEHICLE NAMES
@@ -37,6 +38,7 @@ str_rbd_Lithuania_Lithuanian_Railways_AR2               :Lithuanian Railways AR2
 str_rbe_Switzerland_SBB_Cfe_3_3         :SBB Cfe 3/3 (Railbus eléctrico)
 str_rbe_Germany_DB_ET85                         :DB ET85 (Railbus eléctrico)
 str_rbe_Germany_DB_ET479                        :DB ET479 (Railbus eléctrico)
+str_rbe_Italy_FS_ALe_840                        :FS ALe 840 (Railbus eléctrico)
 
 #Steam
 str_steam_USA_2_8_0_Consolidation       :2-8-0 'Consolidation' (Vapor)
