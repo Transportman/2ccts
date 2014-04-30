@@ -10,6 +10,7 @@ STR_GRF_URL             :https://dev.openttdcoop.org/projects/2ccts
 #parameter strings
 
 STR_PARAM_DIVIDE_16                 :1/16
+STR_PARAM_DIVIDE_8                  :1/8
 STR_PARAM_DIVIDE_4                  :1/4
 
 #VEHICLE NAMES
@@ -130,6 +131,8 @@ str_electric_Kazakhstan_KTZ_KZ4A :KTZ KZ4A (Eléctrico)
 #DMU
 str_dmu_Australia_NSWGR_Silver_City_Comet :NSWGR Silver City Comet (DMU)
 str_dmu_Czechoslovakia_CSD_M131 :CSD M131 (DMU)
+str_dmu_Serbia_ZS_811 :ZS 811 (DMU)
+str_dmu_Spain_RENFE_594_TRD :RENFE 594 TRD (DMU)
 str_dmu_Australia_CityRail_Hunter_Railcar :CityRail Hunter Railcar (DMU)
 
 #EMU
