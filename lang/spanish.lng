@@ -115,6 +115,7 @@ str_diesel_Russia_RZD_GT1 :RZD GT1 (Diésel)
 
 #Electric
 str_electric_Norway_NSB_EL7 :NSB EL7 (Eléctrico)
+str_electric_USA_Pennsylvania_Railroad_GG_1 :Pennsylvania Railroad GG-1 (Eléctrico)
 str_electric_Japan_JNR_EF55 :JNR EF55 (Eléctrico)
 str_electric_Austria_OBB_1020_Crocodile :OBB 1020 'Crocodile' (Eléctrico)
 str_electric_Netherlands_NS_1000 :NS 1000 (Eléctrico)
