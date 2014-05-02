@@ -331,8 +331,6 @@
 #include "src/Electric/Netherlands_NS_1000_item.pnml"
 #include "src/Electric/Sweden_MTAB_Dm3_graphics.pnml"
 #include "src/Electric/Sweden_MTAB_Dm3_item.pnml"
-//#include "src/Electric/UK_BR_77_graphics.pnml"
-//#include "src/Electric/UK_BR_77_item.pnml"
 #include "src/Electric/UK_BR_77_Metrovic_graphics.pnml"
 #include "src/Electric/UK_BR_77_Metrovic_item.pnml"
 #include "src/Electric/France_SNCF_BB_9004_graphics.pnml"
