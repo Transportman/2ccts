@@ -115,6 +115,7 @@ str_diesel_Russia_RZD_GT1 :RZD GT1 (Diésel)
 
 #Electric
 str_electric_Norway_NSB_EL7 :NSB EL7 (Eléctrico)
+str_electric_Norway_NSB_EL10 :NSB EL10 (Eléctrico)
 str_electric_USA_Pennsylvania_Railroad_GG_1 :Pennsylvania Railroad GG-1 (Eléctrico)
 str_electric_Japan_JNR_EF55 :JNR EF55 (Eléctrico)
 str_electric_Austria_OBB_1020_Crocodile :OBB 1020 'Crocodile' (Eléctrico)
@@ -134,6 +135,7 @@ str_electric_Kazakhstan_KTZ_KZ4A :KTZ KZ4A (Eléctrico)
 str_dmu_Australia_NSWGR_Silver_City_Comet :NSWGR Silver City Comet (DMU)
 str_dmu_Czechoslovakia_CSD_M131 :CSD M131 (DMU)
 str_dmu_Serbia_ZS_811 :ZS 811 (DMU)
+str_dmu_Canada_CNR_LRC :CNR LRC (DMU)
 str_dmu_Spain_RENFE_594_TRD :RENFE 594 TRD (DMU)
 str_dmu_Australia_CityRail_Hunter_Railcar :CityRail Hunter Railcar (DMU)
 
