@@ -64,7 +64,7 @@ Currently there are no parameters
 2.4 Usage
 ---------
 Starting date
-    <To fill in>
+    You can start as early as 1835.
 
 Metro vehicles
     If there is no Metro track available, the Metro vehicles will use
@@ -83,9 +83,16 @@ Multiple units
 --------------
 3 Known issues
 --------------
+
+Toyland/ECS/FIRS cargo support
+	At this moment these cargoes are not properly supported. This can result in
+	graphical errors and cargoes that can not be transported by a vehicle
+	in this set.
     
 Missing vehicles
-	Most vehicles have not yet been recoded.
+	Most vehicles from the original set have been recoded (except for EMUs), 
+	but for a number of vehicles no permission has been obtained. 
+	These vehicles have to be redrawn to have the same license as this set.
 
 
 
