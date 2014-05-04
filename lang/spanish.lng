@@ -42,6 +42,7 @@ str_rbe_Germany_DB_ET479                        :DB ET479 (Railbus eléctrico)
 str_rbe_Italy_FS_ALe_840                        :FS ALe 840 (Railbus eléctrico)
 
 #Steam
+str_steam_USA_4_4_0_American            :4-4-0 'American' (Vapor)
 str_steam_USA_2_8_0_Consolidation       :2-8-0 'Consolidation' (Vapor)
 str_steam_Hungary_MAV_377                       :MAV 377 (Vapor)
 str_steam_Austria_KkStB_99                      :KkStB 99 (Vapor)
