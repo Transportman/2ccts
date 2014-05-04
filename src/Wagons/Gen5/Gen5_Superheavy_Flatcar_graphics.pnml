@@ -1,0 +1,96 @@
+/*
+ *  Copyright (C) 2014 Transportman
+ *  This file is part of the 2cc Trains In NML
+ *  This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
+ *  This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+ *  You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+*/
+
+/*
+* PURCHASE
+*/
+
+spriteset(spriteset_wagon_Gen5_Superheavy_Flatcar_purchase, "gfx/Wagons/Gen5/Gen5_Superheavy_Flatcar_Purchase.png") {
+	template_purchase_wagon(1, 1)
+}
+
+/*
+* VEHICLE
+*/
+
+//Front
+spriteset(spriteset_wagon_Gen5_Superheavy_Flatcar_front, "gfx/Wagons/Gen5/Gen5_Superheavy_Flatcar.png") {
+	template_2cc_wagons(1, 1)
+}
+
+//Back
+spriteset(spriteset_wagon_Gen5_Superheavy_Flatcar_back, "gfx/Wagons/Gen5/Gen5_Superheavy_Flatcar.png") {
+	template_2cc_wagons(1, 64)
+}
+
+//Middle - Empty
+spriteset(spriteset_wagon_Gen5_Superheavy_Flatcar_middle_empty, "gfx/Wagons/Gen5/Gen5_Superheavy_Flatcar.png") {
+	template_2cc_wagons(1, 32)
+}
+
+//Middle - L1
+spriteset(spriteset_wagon_Gen5_Superheavy_Flatcar_middle_L1, "gfx/Wagons/Gen5/Gen5_Superheavy_Flatcar.png") {
+	template_2cc_wagons(1, 126)
+}
+
+spritegroup spritegroup_wagon_Gen5_Superheavy_Flatcar_middle_L1 {
+	loading: [spriteset_wagon_Gen5_Superheavy_Flatcar_middle_empty, spriteset_wagon_Gen5_Superheavy_Flatcar_middle_L1, spriteset_wagon_Gen5_Superheavy_Flatcar_middle_L1];
+	loaded: [spriteset_wagon_Gen5_Superheavy_Flatcar_middle_empty, spriteset_wagon_Gen5_Superheavy_Flatcar_middle_L1, spriteset_wagon_Gen5_Superheavy_Flatcar_middle_L1];
+}
+
+//Middle - L2
+spriteset(spriteset_wagon_Gen5_Superheavy_Flatcar_middle_L2, "gfx/Wagons/Gen5/Gen5_Superheavy_Flatcar.png") {
+	template_2cc_wagons(179,126)
+}
+
+spritegroup spritegroup_wagon_Gen5_Superheavy_Flatcar_middle_L2 {
+	loading: [spriteset_wagon_Gen5_Superheavy_Flatcar_middle_empty, spriteset_wagon_Gen5_Superheavy_Flatcar_middle_L2, spriteset_wagon_Gen5_Superheavy_Flatcar_middle_L2];
+	loaded: [spriteset_wagon_Gen5_Superheavy_Flatcar_middle_empty, spriteset_wagon_Gen5_Superheavy_Flatcar_middle_L2, spriteset_wagon_Gen5_Superheavy_Flatcar_middle_L2];
+}
+
+//Middle - L3
+spriteset(spriteset_wagon_Gen5_Superheavy_Flatcar_middle_L3, "gfx/Wagons/Gen5/Gen5_Superheavy_Flatcar.png") {
+	template_2cc_wagons(357,126)
+}
+
+spritegroup spritegroup_wagon_Gen5_Superheavy_Flatcar_middle_L3 {
+	loading: [spriteset_wagon_Gen5_Superheavy_Flatcar_middle_empty, spriteset_wagon_Gen5_Superheavy_Flatcar_middle_L3, spriteset_wagon_Gen5_Superheavy_Flatcar_middle_L3];
+	loaded: [spriteset_wagon_Gen5_Superheavy_Flatcar_middle_empty, spriteset_wagon_Gen5_Superheavy_Flatcar_middle_L3, spriteset_wagon_Gen5_Superheavy_Flatcar_middle_L3];
+}
+
+//Middle - L4
+spriteset(spriteset_wagon_Gen5_Superheavy_Flatcar_middle_L4, "gfx/Wagons/Gen5/Gen5_Superheavy_Flatcar.png") {
+	template_2cc_wagons(535,126)
+}
+
+spritegroup spritegroup_wagon_Gen5_Superheavy_Flatcar_middle_L4 {
+	loading: [spriteset_wagon_Gen5_Superheavy_Flatcar_middle_empty, spriteset_wagon_Gen5_Superheavy_Flatcar_middle_L4, spriteset_wagon_Gen5_Superheavy_Flatcar_middle_L4];
+	loaded: [spriteset_wagon_Gen5_Superheavy_Flatcar_middle_empty, spriteset_wagon_Gen5_Superheavy_Flatcar_middle_L4, spriteset_wagon_Gen5_Superheavy_Flatcar_middle_L4];
+}
+
+random_switch(FEAT_TRAINS, SELF, switch_wagon_Gen5_Superheavy_Flatcar_middle_livery) {
+	7: spritegroup_wagon_Gen5_Superheavy_Flatcar_middle_L1;
+	1: spritegroup_wagon_Gen5_Superheavy_Flatcar_middle_L2;
+	1: spritegroup_wagon_Gen5_Superheavy_Flatcar_middle_L3;
+	1: spritegroup_wagon_Gen5_Superheavy_Flatcar_middle_L4;
+}
+
+switch(FEAT_TRAINS, SELF, switch_wagon_Gen5_Superheavy_Flatcar, position_in_vehid_chain % 3) {
+	1: switch_wagon_Gen5_Superheavy_Flatcar_middle_livery;
+	2: spriteset_wagon_Gen5_Superheavy_Flatcar_back;
+	spriteset_wagon_Gen5_Superheavy_Flatcar_front;
+}
+
+/*
+* Articulated part
+*/
+
+switch(FEAT_TRAINS, SELF, switch_wagon_Gen5_Superheavy_Flatcar_articulated, extra_callback_info1) {
+	1..2: return item_wagon_Gen5_Superheavy_Flatcar;
+	CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+}
