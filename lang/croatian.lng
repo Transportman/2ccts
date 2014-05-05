@@ -286,6 +286,44 @@ str_mglv_China_Transrapid       :Shanghai Transrapid (maglev)
 str_mglv_Japan_MLX01_901        :JR MLX01-901 (maglev)
 
 #wagons
+str_wagon_Gen1_Flat_Wagon :Plato-vagon 1. generacije
+str_wagon_Gen1_Boxcar :Drveni zatvoreni vagon 1. generacije
+str_wagon_Gen1_Tanker :Vagon cisterna 1. generacije
+str_wagon_Gen1_Open_Wagon :Drveni otvoreni vagon 1. generacije
+str_wagon_Gen2_Flat_Wagon :Plato-vagon 2. generacije
+str_wagon_Gen2_Boxcar :Drveni zatvoreni vagon 2. generacije
+str_wagon_Gen2_Tanker :Vagon cisterna 2. generacije
+str_wagon_Gen2_Open_Wagon :Drveni otvoreni vagon 2. generacije
+str_wagon_Gen2_Silo :Vagon-silos 2. generacije
+str_wagon_Gen2_Hopper :Drveni vagon za rasuti teret 2. generacije
+str_wagon_Gen3_Flat_Wagon :Plato-vagon 3. generacije
+str_wagon_Gen3_Boxcar :Drveni zatvoreni vagon 3. generacije
+str_wagon_Gen3_Tanker :Vagon cisterna 3. generacije
+str_wagon_Gen3_Open_Wagon :Otvoreni vagon 3. generacije
+str_wagon_Gen3_Silo :Vagon-silos 3. generacije
+str_wagon_Gen3_Hopper :Vagon za rasuti teret 3. generacije
+str_wagon_Gen4_Flatcar :Plato-vagon 4. generacije
+str_wagon_Gen4_Heavy_Flatcar :Teški plato-vagon 4. generacije
+str_wagon_Gen4_Boxcar :Zatvoreni vagon 4. generacije
+str_wagon_Gen4_Tanker :Vagon cisterna 4. generacije
+str_wagon_Gen4_Gondola :Vagon-gondola 4. generacije
+str_wagon_Gen4_Silo :Vagon-silos 4. generacije
+str_wagon_Gen4_Hopper :Samoistovarujući vagon za rasuti teret 4. generacije
+str_wagon_Gen4_Car_Transporter :Nosač automobila 4. generacije
+str_wagon_Gen4_Container_Carrier :Vagon za kontejnere 4. generacije
+str_wagon_Gen4_Centerbeam :Plato-vagon sa središnjim zidom 4. generacije
+str_wagon_Gen5_Flatcar :Plato-vagon 5. generacije
+str_wagon_Gen5_Heavy_Flatcar :Teški plato-vagon 5. generacije
+str_wagon_Gen5_Boxcar :Zatvoreni vagon 5. generacije
+str_wagon_Gen5_Tanker :Vagon cisterna 5. generacije
+str_wagon_Gen5_Gondola :Vagon-gondola 5. generacije
+str_wagon_Gen5_Silo :Vagon-silos 5. generacije
+str_wagon_Gen5_Hopper :Samoistovarujući vagon za rasuti teret 5. generacije
+str_wagon_Gen5_Car_Transporter :Nosač automobila 5. generacije
+str_wagon_Gen5_Container_Carrier :Vagon za kontejnere 5. generacije
+str_wagon_Gen5_Centerbeam :Plato-vagon sa središnjim zidom 5. generacije
+str_wagon_Gen5_Container_Doublestack :Vagon za kontejnere na kat 5. generacije
+str_wagon_Gen5_Superheavy_Flatcar :Superteški plato-vagon 5. generacije
 
 #coaches
 str_coach_Gen1_Wooden_2_axle_Compartment_Coach :Drveni dvoosovinski vagon za putnike sa kupeima

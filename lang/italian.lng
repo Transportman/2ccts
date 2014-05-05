@@ -286,6 +286,44 @@ str_mglv_China_Transrapid       :Shanghai Transrapid (Maglev)
 str_mglv_Japan_MLX01_901        :JR MLX01-901 (Maglev)
 
 #wagons
+str_wagon_Gen1_Flat_Wagon :Carro per merce lunga di 1a generazione
+str_wagon_Gen1_Boxcar :Carro merci coperto di 1a generazione
+str_wagon_Gen1_Tanker :Carro cisterna di 1a generazione
+str_wagon_Gen1_Open_Wagon :Carro merci aperto di legno di 1a generazione
+str_wagon_Gen2_Flat_Wagon :Carro per merce lunga di 2a generazione
+str_wagon_Gen2_Boxcar :Carro merci coperto di legno di 2a generazione
+str_wagon_Gen2_Tanker :Carro cisterna di 2a generazione
+str_wagon_Gen2_Open_Wagon :Carro merci aperto di legno di 2a generazione
+str_wagon_Gen2_Silo :Carro silo di 2a generazione
+str_wagon_Gen2_Hopper :Carro a tramoggio di legno di 2a generazione
+str_wagon_Gen3_Flat_Wagon :Carro per merce lunga di 3a generazione
+str_wagon_Gen3_Boxcar :Carro merci coperto di legno di 3a generazione
+str_wagon_Gen3_Tanker :Carro cisterna di 3a generazione
+str_wagon_Gen3_Open_Wagon :Carro merci aperto di 3a generazione
+str_wagon_Gen3_Silo :Carro silo di 3a generazione
+str_wagon_Gen3_Hopper :Carro a tramoggia di 3a generazione
+str_wagon_Gen4_Flatcar :Carro per merci lunge di 4a generazione
+str_wagon_Gen4_Heavy_Flatcar :Carro pesante per merci lunge di 4a generazione
+str_wagon_Gen4_Boxcar :Carro merci coperto di 4a generazione
+str_wagon_Gen4_Tanker :Carro cisterna di 4a generazione
+str_wagon_Gen4_Gondola :Carro gondola di 4a generazione
+str_wagon_Gen4_Silo :Carro silo di 4a generazione
+str_wagon_Gen4_Hopper :Carro a tramoggia di 4a generazione
+str_wagon_Gen4_Car_Transporter :Carro porta-automobili di 4a generazione
+str_wagon_Gen4_Container_Carrier :Carro porta-container di 4a generazione
+str_wagon_Gen4_Centerbeam :Carro per merci lunge con trave centrale di 4a generazione
+str_wagon_Gen5_Flatcar :Carro per merci lunge di 5a generazione
+str_wagon_Gen5_Heavy_Flatcar :Carro pesante per merci lunge di 5a generazione
+str_wagon_Gen5_Boxcar :Carro merci coperto di 5a generazione
+str_wagon_Gen5_Tanker :Carro cisterna di 5a generazione
+str_wagon_Gen5_Gondola :Carro gondola di 5a generazione
+str_wagon_Gen5_Silo :Carro silo di 5a generazione
+str_wagon_Gen5_Hopper :Carro a tramoggia di 5a generazione
+str_wagon_Gen5_Car_Transporter :Carro porta-automobili di 5a generazione
+str_wagon_Gen5_Container_Carrier :Carro porta-container di 5a generazione
+str_wagon_Gen5_Centerbeam :Carro per merci lunge con trave centrale di 5a generazione
+str_wagon_Gen5_Container_Doublestack :Carro porta-container doppio di 5a generazione
+str_wagon_Gen5_Superheavy_Flatcar :Carro superpesante per merci lunge di 5a generazione
 
 #coaches
 str_coach_Gen1_Wooden_2_axle_Compartment_Coach :Carrozza di legno a 2 assi con compartimenti
