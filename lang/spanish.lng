@@ -139,6 +139,7 @@ str_dmu_Czechoslovakia_CSD_M131 :CSD M131 (DMU)
 str_dmu_Netherlands_NS_Plan_U_DE_III :NS Plan U DE-III (DMU)
 str_dmu_Serbia_ZS_811 :ZS 811 (DMU)
 str_dmu_Canada_CNR_LRC :CNR LRC (DMU)
+str_dmu_Sweden_SJ_Y2 :SJ Y2 (DMU)
 str_dmu_Spain_RENFE_594_TRD :RENFE 594 TRD (DMU)
 str_dmu_Australia_CityRail_Hunter_Railcar :CityRail Hunter Railcar (DMU)
 
@@ -185,6 +186,7 @@ str_mglv_Japan_MLX01_901        :JR MLX01-901 (Maglev)
 
 #coaches
 str_coach_Gen2_Heavyweight_Mail_Coach :Vagón pesado de correo
+str_coach_Gen6_Grand_Voyager_Coach :Vagón Grand Voyager
 str_coach_Gen6_Super_Regio_Coach :Vagón Super Regio
 str_coach_Gen6_Super_Voyager_Coach :Vagón Super Voyager
 
