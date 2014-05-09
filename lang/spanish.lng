@@ -144,6 +144,7 @@ str_dmu_Canada_CNR_LRC :CNR LRC (DMU)
 str_dmu_Sweden_SJ_Y2 :SJ Y2 (DMU)
 str_dmu_Spain_RENFE_594_TRD :RENFE 594 TRD (DMU)
 str_dmu_UK_BR_168 :BR 168 (DMU)
+str_dmu_Germany_DB_612_Regio_Swinger :DB 612 'Regio Swinger' (DMU)
 str_dmu_Australia_CityRail_Hunter_Railcar :CityRail Hunter Railcar (DMU)
 
 #EMU
@@ -189,6 +190,7 @@ str_mglv_Japan_MLX01_901        :JR MLX01-901 (Maglev)
 
 #coaches
 str_coach_Gen2_Heavyweight_Mail_Coach :Vagón pesado de correo
+str_coach_Gen5_High_Speed_Coach :Vagón de alta velocidad
 str_coach_Gen6_Grand_Voyager_Coach :Vagón Grand Voyager
 str_coach_Gen6_Super_Regio_Coach :Vagón Super Regio
 str_coach_Gen6_Super_Voyager_Coach :Vagón Super Voyager

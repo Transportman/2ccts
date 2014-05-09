@@ -1,0 +1,99 @@
+##grflangid 0x3a
+##plural 11
+##gender m f
+
+#Main grf title and description
+STR_GRF_URL             :https://dev.openttdcoop.org/projects/2ccts
+
+#parameter strings
+
+
+#VEHICLE NAMES
+#Railbus-steam
+
+#Diesel Railbus
+str_rbd_Australia_Victorian_Railways_AEC_RM1    :Victorian Railways AEC RM1 (디젤 레일버스)
+str_rbd_New_Zealand_NZR_RM31                                    : NZR RM31 (디젤 레일버스)
+str_rbd_USA_Amtrak_Budd_RDC                                     :Amtrak Budd RDC (디젤 레일버스)
+str_rbd_USSR_MPC_ACh2                                                   :MPC ACh2 (디젤 레일버스)
+str_rbd_United_Kingdom_BR_153_Super_Sprinter    :BR 153 'Super Sprinter' (디젤 레일버스)
+
+#Railbus-electric
+str_rbe_Germany_DB_ET479                        :DB ET479 (전기 레일버스)
+str_rbe_Italy_FS_ALe_840                        :FS ALe 840 (전기 레일버스)
+
+#Steam
+str_steam_USA_4_4_0_American            :4-4-0 'American' (증기)
+str_steam_USA_2_8_0_Consolidation       :2-8-0 'Consolidation' (증기)
+str_steam_Austria_KkStB_299             :KkStB 299 (증기)
+str_steam_Italy_FS_880                          :FS 880 (증기)
+str_steam_France_SNCF_140C                      :SNCF 140C (증기)
+str_steam_Germany_DB_52                         :DB 52 (증기)
+
+#Diesel
+str_diesel_Netherlands_NS_200 :NS 200 'Sik' (디젤)
+str_diesel_USA_Western_Pacific_ALCO_S_2 :Western Pacific ALCO S-2 (디젤)
+str_diesel_USA_UP_EMD_E8 :UP EMD E8 (디젤)
+str_diesel_Hungary_MAV_M28 :MAV M28 (디젤)
+str_diesel_USA_Amtrak_FL9 :Amtrak FL9 (디젤)
+str_diesel_Romania_CFR_060_DA :CFR 060-DA (디젤)
+str_diesel_Brasil_EFVM_ML4000 :EFVM ML4000 (디젤)
+str_diesel_Germany_DB_253_G2000_3_BB :DB 253 G2000-3 BB (디젤)
+
+#Electric
+str_electric_USA_Milwaukee_Road_ES_2 :Milwaukee Road ES-2 (전기)
+str_electric_Germany_DB_169 :DB 169 (전기)
+str_electric_Germany_DB_104 :DB 104 (전기)
+str_electric_Netherlands_NS_1000 :NS 1000 (전기)
+str_electric_France_SNCF_BB_9004 :SNCF BB 9004 (전기)
+str_electric_Switzerland_SBB_Ae_6_6 :SBB Ae 6/6 (전기)
+str_electric_India_Indian_Railways_WCM_1 :Indian Railways WCM-1 (전기)
+str_electric_Germany_DB_103 :DB 103 (전기)
+str_electric_South_Africa_SAR_6E :SAR 6E (전기)
+str_electric_France_SNCF_BB_26000 :SNCF BB 26000 (전기)
+str_electric_Switzerland_SBB_Re460_Lok_2000 :SBB Re460 'Lok 2000' (전기)
+str_electric_Sweden_MTAB_IORE :MTAB IORE (전기)
+str_electric_Ukraine_UZ_DS3 :UZ DS3 (전기)
+
+#DMU
+str_dmu_Serbia_ZS_811 :ZS 811 (DMU)
+str_dmu_UK_BR_43_IC125 :BR 43 IC125 (DMU)
+str_dmu_Sweden_SJ_Y2 : SJ Y2 (DMU)
+str_dmu_UK_BR_168 :BR 168 (DMU)
+
+#EMU
+
+#Single Unit Metro
+
+#Multiple Unit Metro
+str_mtro_Argentina_Le_Brugeoise                 :부에노스아이레스 'Le Brugeoise' (지하철)
+str_mtro_Egypt_Cairo_1987_Stock                 :카이로 1987 stock (지하철)
+str_mtro_Singapore_Singapore_C830_Metropolis :싱가포르 C830 'Metropolis' (지하철)
+str_mtro_Greece_Thessaloniki_2014               :Thessaloniki 2014 (지하철)
+
+#Maglev
+
+#wagons
+str_wagon_Gen1_Boxcar :1세대 목제 유개화차
+str_wagon_Gen2_Flat_Wagon : 2세대 평판화차
+str_wagon_Gen3_Open_Wagon :3세대 무개화차
+str_wagon_Gen3_Hopper :3세대 호퍼카
+str_wagon_Gen4_Boxcar :4세대 유개화차
+str_wagon_Gen4_Silo :4세대 곡물화차
+str_wagon_Gen5_Centerbeam :5세대 구획평판화차
+
+#coaches
+str_coach_Gen1_Clerestory_Compartment_Coach :통풍 컴파트먼트 객차
+str_coach_Gen2_Steel_Compartment_Coach :철제 컴파트먼트 객차
+str_coach_Gen3_Aluminium_Lightweight_Regional_Coach :알루미늄제 경량화 객차
+str_coach_Gen3_Doppelstockwagen_Local_Coach :2층객차
+str_coach_Gen3_UIC_X_Mail_Coach :UIC-X 우편차
+str_coach_Gen3_Indian_Mail_Coach :인도 우편차
+str_coach_Gen5_Modern_Double_Decker_Coach :현대식 2층객차
+str_coach_Gen6_Speedmail_Coach :특급우편 수송차
+
+
+
+#special wagons
+
+#PURCHASE MENU TEXTS
