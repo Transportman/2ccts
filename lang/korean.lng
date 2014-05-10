@@ -6,7 +6,9 @@
 STR_GRF_URL             :https://dev.openttdcoop.org/projects/2ccts
 
 #parameter strings
+STR_PARAM_RUNNING_COST              :유지비 조정 배수
 
+STR_PARAM_TIMES_2                   :2
 
 #VEHICLE NAMES
 #Railbus-steam
@@ -15,6 +17,7 @@ STR_GRF_URL             :https://dev.openttdcoop.org/projects/2ccts
 str_rbd_Australia_Victorian_Railways_AEC_RM1    :Victorian Railways AEC RM1 (디젤 레일버스)
 str_rbd_New_Zealand_NZR_RM31                                    : NZR RM31 (디젤 레일버스)
 str_rbd_USA_Amtrak_Budd_RDC                                     :Amtrak Budd RDC (디젤 레일버스)
+str_rbd_Germany_DB_VT98                                                 :DB VT98 (디젤 레일버스)
 str_rbd_USSR_MPC_ACh2                                                   :MPC ACh2 (디젤 레일버스)
 str_rbd_United_Kingdom_BR_153_Super_Sprinter    :BR 153 'Super Sprinter' (디젤 레일버스)
 
@@ -28,6 +31,7 @@ str_steam_USA_2_8_0_Consolidation       :2-8-0 'Consolidation' (증기)
 str_steam_Austria_KkStB_299             :KkStB 299 (증기)
 str_steam_Italy_FS_880                          :FS 880 (증기)
 str_steam_France_SNCF_140C                      :SNCF 140C (증기)
+str_steam_Denmark_DSB_E                         :DSB E (증기)
 str_steam_Germany_DB_52                         :DB 52 (증기)
 
 #Diesel
@@ -38,9 +42,15 @@ str_diesel_Hungary_MAV_M28 :MAV M28 (디젤)
 str_diesel_USA_Amtrak_FL9 :Amtrak FL9 (디젤)
 str_diesel_Romania_CFR_060_DA :CFR 060-DA (디젤)
 str_diesel_Brasil_EFVM_ML4000 :EFVM ML4000 (디젤)
+str_diesel_Belgium_NMBS_SNCB_67 :NMBS/SNCB 67 (디젤)
+str_diesel_Croatia_HZ_2062 :HZ 2062 (디젤)
+str_diesel_Sweden_SJ_V4 :SJ V4 (디젤)
+str_diesel_USA_GNR_SDP_40F :GNR SDP-40F (디젤)
+str_diesel_Iran_RAI_DE43CA_Prima :RAI DE43CA 'Prima' (디젤)
 str_diesel_Germany_DB_253_G2000_3_BB :DB 253 G2000-3 BB (디젤)
 
 #Electric
+str_electric_Norway_NSB_EL7 :NSB EL7 (전기)
 str_electric_USA_Milwaukee_Road_ES_2 :Milwaukee Road ES-2 (전기)
 str_electric_Germany_DB_169 :DB 169 (전기)
 str_electric_Germany_DB_104 :DB 104 (전기)
@@ -64,10 +74,12 @@ str_dmu_UK_BR_168 :BR 168 (DMU)
 #EMU
 
 #Single Unit Metro
+str_mtro_USA_Brooklyn_Union_Gate_Car    :Brooklyn Union Gate Car (지하철)
 
 #Multiple Unit Metro
 str_mtro_Argentina_Le_Brugeoise                 :부에노스아이레스 'Le Brugeoise' (지하철)
 str_mtro_Egypt_Cairo_1987_Stock                 :카이로 1987 stock (지하철)
+str_mtro_USSR_Moscow_81_7175M                   :Moscow 81-717.5M (지하철)
 str_mtro_Singapore_Singapore_C830_Metropolis :싱가포르 C830 'Metropolis' (지하철)
 str_mtro_Greece_Thessaloniki_2014               :Thessaloniki 2014 (지하철)
 
@@ -84,12 +96,18 @@ str_wagon_Gen5_Centerbeam :5세대 구획평판화차
 
 #coaches
 str_coach_Gen1_Clerestory_Compartment_Coach :통풍 컴파트먼트 객차
+str_coach_Gen1_Clerestory_Regional_Coach :채광창이 있는 지역간 객차
 str_coach_Gen2_Steel_Compartment_Coach :철제 컴파트먼트 객차
 str_coach_Gen3_Aluminium_Lightweight_Regional_Coach :알루미늄제 경량화 객차
+str_coach_Gen3_Aluminium_Lightweight_Mail_Coach :알루미늄제 경량화 우편화물차
+str_coach_Gen3_Gallery_Car :전망칸
+str_coach_Gen3_UIC_X_Intercity_Coach :UIC-X Intercity Coach
 str_coach_Gen3_Doppelstockwagen_Local_Coach :2층객차
 str_coach_Gen3_UIC_X_Mail_Coach :UIC-X 우편차
 str_coach_Gen3_Indian_Mail_Coach :인도 우편차
+str_coach_Gen4_Superliner_California :Superliner California
 str_coach_Gen5_Modern_Double_Decker_Coach :현대식 2층객차
+str_coach_Gen6_Metropolis_Coach :Metropolis Coach
 str_coach_Gen6_Speedmail_Coach :특급우편 수송차
 
 
