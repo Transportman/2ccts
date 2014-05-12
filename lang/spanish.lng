@@ -49,6 +49,7 @@ str_steam_Hungary_MAV_377                       :MAV 377 (Vapor)
 str_steam_Austria_KkStB_99                      :KkStB 99 (Vapor)
 str_steam_Switzerland_SBB_A_3_5         :SBB A 3/5 (Vapor)
 str_steam_Switzerland_SBB_E_3_3         :SBB E 3/3 (Vapor)
+str_steam_UK_GWR_5700                           :GWR 5700 (Vapor)
 str_steam_Netherlands_NS_6300           :NS 6300 (Vapor)
 str_steam_USSR_MPC_9P                           :MPC 9P (Vapor)
 str_steam_UK_LNER_A4_Gresley            :LNER A4 'Gresley' (Vapor)
@@ -125,6 +126,7 @@ str_electric_Japan_JNR_EF55 :JNR EF55 (Eléctrico)
 str_electric_Austria_OBB_1020_Crocodile :OBB 1020 'Crocodile' (Eléctrico)
 str_electric_Netherlands_NS_1000 :NS 1000 (Eléctrico)
 str_electric_UK_BR_77_Metrovic :BR 77 'Metrovic' (Eléctrico)
+str_electric_Switzerland_SBB_Ce_4_4 :SBB Ce 4/4 (Eléctrico)
 str_electric_USSR_MPC_VL41 :MPC VL41 (Eléctrico)
 str_electric_Croatia_HZ_1141 :HZ 1141 (Eléctrico)
 str_electric_South_Africa_SAR_6E :SAR 6E (Eléctrico)
@@ -193,6 +195,7 @@ str_mglv_Japan_MLX01_901        :JR MLX01-901 (Maglev)
 str_coach_Gen2_Heavyweight_Mail_Coach :Vagón pesado de correo
 str_coach_Gen5_High_Speed_Coach :Vagón de alta velocidad
 str_coach_Gen6_Grand_Voyager_Coach :Vagón Grand Voyager
+str_coach_Gen6_Grand_Regio_Coach :Vagón Grand Regio
 str_coach_Gen6_Super_Regio_Coach :Vagón Super Regio
 str_coach_Gen6_Super_Voyager_Coach :Vagón Super Voyager
 
