@@ -12,6 +12,7 @@ STR_GRF_URL             :https://dev.openttdcoop.org/projects/2ccts
 STR_PARAM_DIVIDE_16                 :1/16
 STR_PARAM_DIVIDE_8                  :1/8
 STR_PARAM_DIVIDE_4                  :1/4
+STR_PARAM_TIMES_8                   :8
 
 #VEHICLE NAMES
 #Railbus-steam
@@ -51,6 +52,7 @@ str_steam_Switzerland_SBB_A_3_5         :SBB A 3/5 (Vapor)
 str_steam_Switzerland_SBB_E_3_3         :SBB E 3/3 (Vapor)
 str_steam_UK_GWR_5700                           :GWR 5700 (Vapor)
 str_steam_Netherlands_NS_6300           :NS 6300 (Vapor)
+str_steam_USA_AT_SF_5000                        :AT&SF 5000 (Vapor)
 str_steam_USSR_MPC_9P                           :MPC 9P (Vapor)
 str_steam_UK_LNER_A4_Gresley            :LNER A4 'Gresley' (Vapor)
 str_steam_Denmark_DSB_E                         :DSB E (Vapor)
@@ -195,6 +197,7 @@ str_mglv_Japan_MLX01_901        :JR MLX01-901 (Maglev)
 
 #coaches
 str_coach_Gen2_Heavyweight_Mail_Coach :Vagón pesado de correo
+str_coach_Gen3_Umbauwagen_Local_Coach :Vagón local 'Umbauwagen'
 str_coach_Gen5_High_Speed_Coach :Vagón de alta velocidad
 str_coach_Gen6_Grand_Voyager_Coach :Vagón Grand Voyager
 str_coach_Gen6_Grand_Regio_Coach :Vagón Grand Regio
