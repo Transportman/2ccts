@@ -45,6 +45,7 @@ str_rbe_Italy_FS_ALe_840                        :FS ALe 840 (Railbus eléctrico)
 
 #Steam
 str_steam_USA_4_4_0_American            :4-4-0 'American' (Vapor)
+str_steam_Switzerland_SBB_Ec_2_5        :SBB Ec 2/5 (Vapor)
 str_steam_USA_2_8_0_Consolidation       :2-8-0 'Consolidation' (Vapor)
 str_steam_Hungary_MAV_377                       :MAV 377 (Vapor)
 str_steam_Austria_KkStB_99                      :KkStB 99 (Vapor)
@@ -123,6 +124,7 @@ str_diesel_Russia_RZD_GT1 :RZD GT1 (Diésel)
 
 #Electric
 str_electric_Norway_NSB_EL7 :NSB EL7 (Eléctrico)
+str_electric_Chile_EFE_Series_E_28 :EFE Series E-28 (Eléctrico)
 str_electric_Norway_NSB_EL10 :NSB EL10 (Eléctrico)
 str_electric_USA_Pennsylvania_Railroad_GG_1 :Pennsylvania Railroad GG-1 (Eléctrico)
 str_electric_Japan_JNR_EF55 :JNR EF55 (Eléctrico)
@@ -199,6 +201,7 @@ str_mglv_Japan_MLX01_901        :JR MLX01-901 (Maglev)
 str_coach_Gen2_Heavyweight_Mail_Coach :Vagón pesado de correo
 str_coach_Gen3_Umbauwagen_Local_Coach :Vagón local 'Umbauwagen'
 str_coach_Gen5_High_Speed_Coach :Vagón de alta velocidad
+str_coach_Gen5_Talgo_Pendular :Talgo Pendular
 str_coach_Gen6_Grand_Voyager_Coach :Vagón Grand Voyager
 str_coach_Gen6_Grand_Regio_Coach :Vagón Grand Regio
 str_coach_Gen6_Super_Regio_Coach :Vagón Super Regio
