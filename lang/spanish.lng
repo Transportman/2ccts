@@ -12,6 +12,7 @@ STR_GRF_URL             :https://dev.openttdcoop.org/projects/2ccts
 STR_PARAM_DIVIDE_16                 :1/16
 STR_PARAM_DIVIDE_8                  :1/8
 STR_PARAM_DIVIDE_4                  :1/4
+STR_PARAM_TIMES_4                   :4
 STR_PARAM_TIMES_8                   :8
 
 #VEHICLE NAMES
@@ -46,6 +47,7 @@ str_rbe_Italy_FS_ALe_840                        :FS ALe 840 (Railbus eléctrico)
 #Steam
 str_steam_USA_4_4_0_American            :4-4-0 'American' (Vapor)
 str_steam_Switzerland_SBB_Ec_2_5        :SBB Ec 2/5 (Vapor)
+str_steam_USA_4_6_0_Ten_wheeler         :4-6-0 'Ten-wheeler' (Vapor)
 str_steam_USA_2_8_0_Consolidation       :2-8-0 'Consolidation' (Vapor)
 str_steam_Hungary_MAV_377                       :MAV 377 (Vapor)
 str_steam_Austria_KkStB_99                      :KkStB 99 (Vapor)
@@ -140,6 +142,7 @@ str_electric_USSR_MPC_VL15 :MPC VL15 (Eléctrico)
 str_electric_France_SNCF_BB_26000 :SNCF BB 26000 (Eléctrico)
 str_electric_Spain_RENFE_252 :RENFE 252 (Eléctrico)
 str_electric_UK_BR_92 :BR 92 (Eléctrico)
+str_electric_Sweden_MTAB_IORE :MTAB IORE (Eléctrico)
 str_electric_South_Korea_Korail_8200 :Korail 8200 (Eléctrico)
 str_electric_Kazakhstan_KTZ_KZ4A :KTZ KZ4A (Eléctrico)
 
@@ -196,6 +199,7 @@ str_mglv_China_Transrapid       :Shanghai Transrapid (Maglev)
 str_mglv_Japan_MLX01_901        :JR MLX01-901 (Maglev)
 
 #wagons
+str_wagon_Gen3_Open_Wagon :Vagón abierto, de 3era Generación
 
 #coaches
 str_coach_Gen2_Heavyweight_Mail_Coach :Vagón pesado de correo
