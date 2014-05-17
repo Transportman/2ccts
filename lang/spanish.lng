@@ -12,6 +12,7 @@ STR_GRF_URL             :https://dev.openttdcoop.org/projects/2ccts
 STR_PARAM_DIVIDE_16                 :1/16
 STR_PARAM_DIVIDE_8                  :1/8
 STR_PARAM_DIVIDE_4                  :1/4
+STR_PARAM_TIMES_2                   :2
 STR_PARAM_TIMES_4                   :4
 STR_PARAM_TIMES_8                   :8
 
@@ -203,7 +204,9 @@ str_wagon_Gen3_Open_Wagon :Vagón abierto, de 3era Generación
 
 #coaches
 str_coach_Gen2_Heavyweight_Mail_Coach :Vagón pesado de correo
+str_coach_Gen3_Mk1_Mail_Coach :Vagón de correo Mk1
 str_coach_Gen3_Umbauwagen_Local_Coach :Vagón local 'Umbauwagen'
+str_coach_Gen4_Superliner_Coach :Vagón Superliner
 str_coach_Gen5_High_Speed_Coach :Vagón de alta velocidad
 str_coach_Gen5_Talgo_Pendular :Talgo Pendular
 str_coach_Gen6_Grand_Voyager_Coach :Vagón Grand Voyager
