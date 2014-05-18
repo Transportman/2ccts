@@ -143,6 +143,7 @@ str_electric_USSR_MPC_VL15 :MPC VL15 (Eléctrico)
 str_electric_France_SNCF_BB_26000 :SNCF BB 26000 (Eléctrico)
 str_electric_Spain_RENFE_252 :RENFE 252 (Eléctrico)
 str_electric_UK_BR_92 :BR 92 (Eléctrico)
+str_electric_Belgium_NMBS_SNCB_13_HLE :NMBS/SNCB 13 HLE (Eléctrico)
 str_electric_Sweden_MTAB_IORE :MTAB IORE (Eléctrico)
 str_electric_South_Korea_Korail_8200 :Korail 8200 (Eléctrico)
 str_electric_Kazakhstan_KTZ_KZ4A :KTZ KZ4A (Eléctrico)
@@ -178,6 +179,7 @@ str_mtro_Norway_Oslo_T1000                              :Oslo T1000 (Metro)
 str_mtro_Canada_Toronto_H_series                :Toronto H-series (Metro)
 str_mtro_Germany_Munchen_MVG_A2                 :Munchen MVG A2 (Metro)
 str_mtro_Netherlands_Amsterdam_Type_M1  :Amsterdam M1 (Metro)
+str_mtro_North_Korea_Pyongyang_D_stock  :Pyongyang D stock (Metro)
 str_mtro_Finland_Helsinki_M100                  :Helsinki M100 (Metro)
 str_mtro_Brasil_Sao_Paulo_Serie_5500    :Sao Paulo Serie 5500 (Metro)
 str_mtro_USSR_Moscow_81_720                     :Moscow 81-720 (Metro)
@@ -207,6 +209,7 @@ str_coach_Gen2_Heavyweight_Mail_Coach :Vagón pesado de correo
 str_coach_Gen3_Mk1_Mail_Coach :Vagón de correo Mk1
 str_coach_Gen3_Umbauwagen_Local_Coach :Vagón local 'Umbauwagen'
 str_coach_Gen4_Superliner_Coach :Vagón Superliner
+str_coach_Gen4_Horizon_Baggage_Coach :Vagón de equipaje Horizon
 str_coach_Gen5_High_Speed_Coach :Vagón de alta velocidad
 str_coach_Gen5_Talgo_Pendular :Talgo Pendular
 str_coach_Gen6_Grand_Voyager_Coach :Vagón Grand Voyager
