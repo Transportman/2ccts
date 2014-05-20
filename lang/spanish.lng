@@ -12,6 +12,7 @@ STR_GRF_URL             :https://dev.openttdcoop.org/projects/2ccts
 STR_PARAM_DIVIDE_16                 :1/16
 STR_PARAM_DIVIDE_8                  :1/8
 STR_PARAM_DIVIDE_4                  :1/4
+STR_PARAM_NORMAL                    :1 (por defecto)
 STR_PARAM_TIMES_2                   :2
 STR_PARAM_TIMES_4                   :4
 STR_PARAM_TIMES_8                   :8
@@ -157,6 +158,7 @@ str_dmu_Czechoslovakia_CSD_M131 :CSD M131 (DMU)
 str_dmu_Germany_DB_VT08 :DB VT08 (DMU)
 str_dmu_Netherlands_NS_Plan_U_DE_III :NS Plan U DE-III (DMU)
 str_dmu_Serbia_ZS_811 :ZS 811 (DMU)
+str_dmu_UK_BR_43_IC125 :BR 43 IC125 (DMU)
 str_dmu_Canada_CNR_LRC :CNR LRC (DMU)
 str_dmu_Sweden_SJ_Y2 :SJ Y2 (DMU)
 str_dmu_Spain_RENFE_594_TRD :RENFE 594 TRD (DMU)
@@ -218,6 +220,7 @@ str_coach_Gen5_High_Speed_Coach :Vagón de alta velocidad
 str_coach_Gen5_Talgo_Pendular :Talgo Pendular
 str_coach_Gen6_Grand_Voyager_Coach :Vagón Grand Voyager
 str_coach_Gen6_Grand_Regio_Coach :Vagón Grand Regio
+str_coach_Gen6_Metropolis_Coach :Vagón Metropolis
 str_coach_Gen6_Super_Regio_Coach :Vagón Super Regio
 str_coach_Gen6_Super_Voyager_Coach :Vagón Super Voyager
 
