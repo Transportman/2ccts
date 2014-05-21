@@ -139,6 +139,7 @@ str_electric_Austria_OBB_1020_Crocodile :OBB 1020 'Crocodile' (Eléctrico)
 str_electric_Netherlands_NS_1000 :NS 1000 (Eléctrico)
 str_electric_UK_BR_77_Metrovic :BR 77 'Metrovic' (Eléctrico)
 str_electric_Switzerland_SBB_Ce_4_4 :SBB Ce 4/4 (Eléctrico)
+str_electric_Italy_FS_E646 :FS E646 (Eléctrico)
 str_electric_USSR_MPC_VL41 :MPC VL41 (Eléctrico)
 str_electric_Croatia_HZ_1141 :HZ 1141 (Eléctrico)
 str_electric_South_Africa_SAR_6E :SAR 6E (Eléctrico)
@@ -211,6 +212,7 @@ str_mglv_Japan_MLX01_901        :JR MLX01-901 (Maglev)
 str_wagon_Gen3_Open_Wagon :Vagón abierto, de 3era Generación
 
 #coaches
+str_coach_Gen1_Clerestory_Mail_Coach :Vagón de correo Clerestory
 str_coach_Gen2_Heavyweight_Mail_Coach :Vagón pesado de correo
 str_coach_Gen3_Mk1_Mail_Coach :Vagón de correo Mk1
 str_coach_Gen3_Umbauwagen_Local_Coach :Vagón local 'Umbauwagen'
