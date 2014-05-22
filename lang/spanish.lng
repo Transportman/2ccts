@@ -133,6 +133,7 @@ str_diesel_Russia_RZD_GT1 :RZD GT1 (Diésel)
 str_electric_Norway_NSB_EL7 :NSB EL7 (Eléctrico)
 str_electric_Chile_EFE_Series_E_28 :EFE Series E-28 (Eléctrico)
 str_electric_Norway_NSB_EL10 :NSB EL10 (Eléctrico)
+str_electric_Italy_FS_E428 :FS E428 (Eléctrico)
 str_electric_USA_Pennsylvania_Railroad_GG_1 :Pennsylvania Railroad GG-1 (Eléctrico)
 str_electric_Japan_JNR_EF55 :JNR EF55 (Eléctrico)
 str_electric_Austria_OBB_1020_Crocodile :OBB 1020 'Crocodile' (Eléctrico)
@@ -219,6 +220,7 @@ str_coach_Gen3_Umbauwagen_Local_Coach :Vagón local 'Umbauwagen'
 str_coach_Gen4_Superliner_Coach :Vagón Superliner
 str_coach_Gen4_Horizon_Baggage_Coach :Vagón de equipaje Horizon
 str_coach_Gen5_High_Speed_Coach :Vagón de alta velocidad
+str_coach_Gen5_High_Speed_Mail_Coach :Vagón de correo de alta velocidad
 str_coach_Gen5_Talgo_Pendular :Talgo Pendular
 str_coach_Gen6_Grand_Voyager_Coach :Vagón Grand Voyager
 str_coach_Gen6_Grand_Regio_Coach :Vagón Grand Regio
