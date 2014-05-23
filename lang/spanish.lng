@@ -145,6 +145,7 @@ str_electric_USSR_MPC_VL41 :MPC VL41 (Eléctrico)
 str_electric_Croatia_HZ_1141 :HZ 1141 (Eléctrico)
 str_electric_South_Africa_SAR_6E :SAR 6E (Eléctrico)
 str_electric_Finland_VR_Sr1 :VR Sr1 (Eléctrico)
+str_electric_France_SNCF_BB_22200 :SNCF BB 22200 (Eléctrico)
 str_electric_USSR_MPC_VL15 :MPC VL15 (Eléctrico)
 str_electric_France_SNCF_BB_26000 :SNCF BB 26000 (Eléctrico)
 str_electric_Spain_RENFE_252 :RENFE 252 (Eléctrico)
@@ -158,6 +159,7 @@ str_electric_Kazakhstan_KTZ_KZ4A :KTZ KZ4A (Eléctrico)
 str_dmu_Australia_NSWGR_Silver_City_Comet :NSWGR Silver City Comet (DMU)
 str_dmu_Czechoslovakia_CSD_M131 :CSD M131 (DMU)
 str_dmu_Germany_DB_VT08 :DB VT08 (DMU)
+str_dmu_Italy_FS_ALn668 :FS ALn668 (DMU)
 str_dmu_Netherlands_NS_Plan_U_DE_III :NS Plan U DE-III (DMU)
 str_dmu_Serbia_ZS_811 :ZS 811 (DMU)
 str_dmu_UK_BR_43_IC125 :BR 43 IC125 (DMU)
@@ -211,6 +213,7 @@ str_mglv_Japan_MLX01_901        :JR MLX01-901 (Maglev)
 
 #wagons
 str_wagon_Gen3_Open_Wagon :Vagón abierto, de 3era Generación
+str_wagon_Gen5_Heavy_Flatcar :Vagón plano pesado, 5a generación
 
 #coaches
 str_coach_Gen1_Clerestory_Mail_Coach :Vagón de correo Clerestory
