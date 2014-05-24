@@ -136,6 +136,7 @@ str_electric_Norway_NSB_EL10 :NSB EL10 (Eléctrico)
 str_electric_Italy_FS_E428 :FS E428 (Eléctrico)
 str_electric_USA_Pennsylvania_Railroad_GG_1 :Pennsylvania Railroad GG-1 (Eléctrico)
 str_electric_Japan_JNR_EF55 :JNR EF55 (Eléctrico)
+str_electric_South_Africa_SAR_ES_Class :SAR ES Class (Eléctrico)
 str_electric_Austria_OBB_1020_Crocodile :OBB 1020 'Crocodile' (Eléctrico)
 str_electric_Netherlands_NS_1000 :NS 1000 (Eléctrico)
 str_electric_UK_BR_77_Metrovic :BR 77 'Metrovic' (Eléctrico)
@@ -220,6 +221,8 @@ str_coach_Gen1_Clerestory_Mail_Coach :Vagón de correo Clerestory
 str_coach_Gen2_Heavyweight_Mail_Coach :Vagón pesado de correo
 str_coach_Gen3_Mk1_Mail_Coach :Vagón de correo Mk1
 str_coach_Gen3_Umbauwagen_Local_Coach :Vagón local 'Umbauwagen'
+str_coach_Gen3_Doppelstockwagen_Local_Coach :Vagón local 'Doppelstockwagen'
+str_coach_Gen3_UIC_X_Mail_Coach :Vagón de correo UIC-X
 str_coach_Gen4_Superliner_Coach :Vagón Superliner
 str_coach_Gen4_Horizon_Baggage_Coach :Vagón de equipaje Horizon
 str_coach_Gen5_High_Speed_Coach :Vagón de alta velocidad
