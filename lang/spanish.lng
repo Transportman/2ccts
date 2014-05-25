@@ -154,6 +154,7 @@ str_electric_UK_BR_92 :BR 92 (Eléctrico)
 str_electric_Belgium_NMBS_SNCB_13_HLE :NMBS/SNCB 13 HLE (Eléctrico)
 str_electric_Sweden_MTAB_IORE :MTAB IORE (Eléctrico)
 str_electric_South_Korea_Korail_8200 :Korail 8200 (Eléctrico)
+str_electric_Ukraine_UZ_DS3 :UZ DS3 (Eléctrico)
 str_electric_Kazakhstan_KTZ_KZ4A :KTZ KZ4A (Eléctrico)
 
 #DMU
@@ -169,6 +170,7 @@ str_dmu_Sweden_SJ_Y2 :SJ Y2 (DMU)
 str_dmu_Spain_RENFE_594_TRD :RENFE 594 TRD (DMU)
 str_dmu_UK_BR_168 :BR 168 (DMU)
 str_dmu_Germany_DB_612_Regio_Swinger :DB 612 'Regio Swinger' (DMU)
+str_dmu_Germany_DB_642_Desiro :DB 642 'Desiro' (DMU)
 str_dmu_Norway_NSB_BM_93_Talent :NSB BM 93 'Talent' (DMU)
 str_dmu_Australia_CityRail_Hunter_Railcar :CityRail Hunter Railcar (DMU)
 
@@ -214,6 +216,7 @@ str_mglv_Japan_MLX01_901        :JR MLX01-901 (Maglev)
 
 #wagons
 str_wagon_Gen3_Open_Wagon :Vagón abierto, de 3era Generación
+str_wagon_Gen5_Flatcar :Vagón plano, 5a generación
 str_wagon_Gen5_Heavy_Flatcar :Vagón plano pesado, 5a generación
 
 #coaches
