@@ -97,6 +97,7 @@ str_diesel_Finland_VR_Dr12 :VR Dr12 (Diésel)
 str_diesel_Romania_CFR_060_DA :CFR 060-DA (Diésel)
 str_diesel_Brasil_BF_EMD_GL8 :BF EMD GL8 (Diésel)
 str_diesel_Brasil_EFVM_ML4000 :EFVM ML4000 (Diésel)
+str_diesel_USSR_MPC_TEP60 :MPC TEP60 (Diésel)
 str_diesel_Belgium_NMBS_SNCB_67 :NMBS/SNCB 67 (Diésel)
 str_diesel_Denmark_DSB_MaK_100 :DSB MaK 100 (Diésel)
 str_diesel_India_Indian_Railways_WDM_2 :Indian Railways WDM-2 (Diésel)
@@ -138,6 +139,7 @@ str_electric_USA_Pennsylvania_Railroad_GG_1 :Pennsylvania Railroad GG-1 (Eléctr
 str_electric_Japan_JNR_EF55 :JNR EF55 (Eléctrico)
 str_electric_South_Africa_SAR_ES_Class :SAR ES Class (Eléctrico)
 str_electric_Austria_OBB_1020_Crocodile :OBB 1020 'Crocodile' (Eléctrico)
+str_electric_USSR_MPC_VL22M :MPC VL22M (Eléctrico)
 str_electric_Netherlands_NS_1000 :NS 1000 (Eléctrico)
 str_electric_UK_BR_77_Metrovic :BR 77 'Metrovic' (Eléctrico)
 str_electric_Switzerland_SBB_Ce_4_4 :SBB Ce 4/4 (Eléctrico)
@@ -177,6 +179,7 @@ str_dmu_Australia_CityRail_Hunter_Railcar :CityRail Hunter Railcar (DMU)
 #EMU
 
 #Single Unit Metro
+str_mtro_USA_Brooklyn_Union_Gate_Car    :Brooklyn Union Gate Car (Metro)
 str_mtro_Germany_Berlin_U_Bahn_C_II             :Berlin U-Bahn C II (Metro)
 
 #Multiple Unit Metro
