@@ -1,0 +1,107 @@
+/*
+ *  Copyright (C) 2014 Transportman
+ *  This file is part of the 2cc Trains In NML
+ *  This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
+ *  This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+ *  You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+*/
+
+/*
+* PURCHASE
+*/
+
+spriteset(spriteset_emu_Germany_DB_ET420_purchase, "gfx/EMU/Germany_DB_ET420.png") {
+	template_purchase_dualheaded(1, 128)
+}
+
+/*
+* VEHICLE
+*/
+
+//Front
+spriteset(spriteset_emu_Germany_DB_ET420_front, "gfx/EMU/Germany_DB_ET420.png") {
+	template_2cc_engines_general(1, 1)
+}
+
+//Back
+spriteset(spriteset_emu_Germany_DB_ET420_back, "gfx/EMU/Germany_DB_ET420.png") {
+	template_2cc_engines_general(1, 32)
+}
+
+//Middle - PAX-L1
+spriteset(spriteset_emu_Germany_DB_ET420_middlepass_L1, "gfx/EMU/Germany_DB_ET420.png") {
+	template_2cc_engines_general(1, 64)
+}
+
+//Middle - PAX-L2
+spriteset(spriteset_emu_Germany_DB_ET420_middlepass_L2, "gfx/EMU/Germany_DB_ET420.png") {
+	template_2cc_engines_general(178, 64)
+}
+
+//Middle - MAIL-L1
+spriteset(spriteset_emu_Germany_DB_ET420_middlemail_L1, "gfx/EMU/Germany_DB_ET420.png") {
+	template_2cc_engines_general(1, 96)
+}
+
+//Middle - MAIL-L2
+spriteset(spriteset_emu_Germany_DB_ET420_middlemail_L2, "gfx/EMU/Germany_DB_ET420.png") {
+	template_2cc_engines_general(178, 96)
+}
+
+//Dualheaded engines
+switch(FEAT_TRAINS, SELF, switch_emu_Germany_DB_ET420_reversed, var[0xC8]) {
+	0xFE: spriteset_emu_Germany_DB_ET420_back;
+    0xFF: spriteset_emu_Germany_DB_ET420_back; 
+    spriteset_emu_Germany_DB_ET420_front;
+}
+
+//Visual effect, for EMU this is done on the part with the pantograph
+random_switch(FEAT_TRAINS, SELF, switch_emu_Germany_DB_ET420_visual_effect_and_powered) {
+	9: visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
+	1: visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, -3, DISABLE_WAGON_POWER);
+}
+
+switch(FEAT_TRAINS, SELF, switch_emu_Germany_DB_ET420_visual_effect_and_powered_position, position_in_vehid_chain) {
+	0: visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, -3, DISABLE_WAGON_POWER);
+	switch_emu_Germany_DB_ET420_visual_effect_and_powered;
+}
+
+//Livery selection depends on visual effect switch
+random_switch(FEAT_TRAINS, SELF, switch_emu_Germany_DB_ET420_middlepass_livery) {
+	dependent: switch_emu_Germany_DB_ET420_visual_effect_and_powered;
+	9: spriteset_emu_Germany_DB_ET420_middlepass_L1;
+	1: spriteset_emu_Germany_DB_ET420_middlepass_L2;
+}
+
+random_switch(FEAT_TRAINS, SELF, switch_emu_Germany_DB_ET420_middlemail_livery) {
+	dependent: switch_emu_Germany_DB_ET420_visual_effect_and_powered;
+	9: spriteset_emu_Germany_DB_ET420_middlemail_L1;
+	1: spriteset_emu_Germany_DB_ET420_middlemail_L2;
+}
+
+//First unit wagon always has a pantograph
+switch(FEAT_TRAINS, SELF, switch_emu_Germany_DB_ET420_middlepass_position, position_in_vehid_chain) {
+	0: spriteset_emu_Germany_DB_ET420_middlepass_L2;
+	switch_emu_Germany_DB_ET420_middlepass_livery;
+}
+
+switch(FEAT_TRAINS, SELF, switch_emu_Germany_DB_ET420_middlemail_position, position_in_vehid_chain) {
+	0: spriteset_emu_Germany_DB_ET420_middlemail_L2;
+	switch_emu_Germany_DB_ET420_middlemail_livery;
+}
+
+/*
+* Cargo capacity
+*/
+
+switch(FEAT_TRAINS, SELF, switch_emu_Germany_DB_ET420_capacity, cargo_classes) {
+	bitmask(CC_MAIL): 57;
+	bitmask(CC_ARMOURED): 38;
+	76;
+}
+
+//Graphics for the unit wagon based on cargo class
+switch(FEAT_TRAINS, SELF, switch_emu_Germany_DB_ET420_cargo_selection, cargo_classes){
+	bitmask(CC_PASSENGERS): switch_emu_Germany_DB_ET420_middlepass_position;
+	switch_emu_Germany_DB_ET420_middlemail_position;
+}
