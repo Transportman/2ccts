@@ -12,10 +12,12 @@ STR_GRF_URL             :https://dev.openttdcoop.org/projects/2ccts
 STR_PARAM_DIVIDE_16                 :1/16
 STR_PARAM_DIVIDE_8                  :1/8
 STR_PARAM_DIVIDE_4                  :1/4
+STR_PARAM_DIVIDE_2                  :1/2
 STR_PARAM_NORMAL                    :1 (por defecto)
 STR_PARAM_TIMES_2                   :2
 STR_PARAM_TIMES_4                   :4
 STR_PARAM_TIMES_8                   :8
+STR_PARAM_TIMES_16                  :16
 
 #VEHICLE NAMES
 #Railbus-steam
@@ -154,9 +156,11 @@ str_electric_Finland_VR_Sr1 :VR Sr1 (Eléctrico)
 str_electric_France_SNCF_BB_22200 :SNCF BB 22200 (Eléctrico)
 str_electric_USSR_MPC_VL15 :MPC VL15 (Eléctrico)
 str_electric_France_SNCF_BB_26000 :SNCF BB 26000 (Eléctrico)
+str_electric_China_China_Railways_SS6 :China Railways SS6 (Eléctrico)
 str_electric_Spain_RENFE_252 :RENFE 252 (Eléctrico)
 str_electric_UK_BR_92 :BR 92 (Eléctrico)
 str_electric_Belgium_NMBS_SNCB_13_HLE :NMBS/SNCB 13 HLE (Eléctrico)
+str_electric_Turkey_TCDD_E55200 :TCDD E55200 (Eléctrico)
 str_electric_Sweden_MTAB_IORE :MTAB IORE (Eléctrico)
 str_electric_South_Korea_Korail_8200 :Korail 8200 (Eléctrico)
 str_electric_Ukraine_UZ_DS3 :UZ DS3 (Eléctrico)
