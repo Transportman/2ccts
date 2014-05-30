@@ -63,6 +63,7 @@ str_steam_Austria_KkStB_299             :KkStB 299 (Vapor)
 str_steam_UK_GWR_5700                           :GWR 5700 (Vapor)
 str_steam_Netherlands_NS_6300           :NS 6300 (Vapor)
 str_steam_USA_AT_SF_5000                        :AT&SF 5000 (Vapor)
+str_steam_UK_LMS_5MT_Black_Five         :LMS 5MT 'Black Five' (Vapor)
 str_steam_USSR_MPC_9P                           :MPC 9P (Vapor)
 str_steam_UK_LNER_A4_Gresley            :LNER A4 'Gresley' (Vapor)
 str_steam_Denmark_DSB_E                         :DSB E (Vapor)
@@ -170,6 +171,7 @@ str_electric_Kazakhstan_KTZ_KZ4A :KTZ KZ4A (Eléctrico)
 str_dmu_Australia_NSWGR_Silver_City_Comet :NSWGR Silver City Comet (DMU)
 str_dmu_Czechoslovakia_CSD_M131 :CSD M131 (DMU)
 str_dmu_Germany_DB_VT08 :DB VT08 (DMU)
+str_dmu_Australia_Queensland_Rail_400 :Queensland Rail 400 (DMU)
 str_dmu_Italy_FS_ALn668 :FS ALn668 (DMU)
 str_dmu_Netherlands_NS_Plan_U_DE_III :NS Plan U DE-III (DMU)
 str_dmu_Serbia_ZS_811 :ZS 811 (DMU)
@@ -233,6 +235,7 @@ str_wagon_Gen5_Heavy_Flatcar :Vagón plano pesado, 5a generación
 #coaches
 str_coach_Gen1_Clerestory_Mail_Coach :Vagón de correo Clerestory
 str_coach_Gen2_Heavyweight_Mail_Coach :Vagón pesado de correo
+str_coach_Gen3_Mk1_Regional_Coach :Vagón Regional Mk1
 str_coach_Gen3_Mk1_Mail_Coach :Vagón de correo Mk1
 str_coach_Gen3_Umbauwagen_Local_Coach :Vagón local 'Umbauwagen'
 str_coach_Gen3_Doppelstockwagen_Local_Coach :Vagón local 'Doppelstockwagen'
