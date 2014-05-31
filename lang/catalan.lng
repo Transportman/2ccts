@@ -1,0 +1,48 @@
+##grflangid 0x22
+##plural 0
+##gender Masculin Femenin
+
+#Main grf title and description
+STR_GRF_URL             :https://dev.openttdcoop.org/projects/2ccts
+
+#parameter strings
+
+STR_PARAM_NORMAL                    :1 (per defecte)
+
+#VEHICLE NAMES
+#Railbus-steam
+
+#Diesel Railbus
+
+#Railbus-electric
+
+#Steam
+str_steam_Canada_CPR_Royal_Hudson       :CPR Royal Hudson (Vapor)
+
+#Diesel
+str_diesel_Brasil_EFVM_ML4000 :EFVM ML4000 (Dièsel)
+str_diesel_Portugal_CP_1900 :CP 1900 (Dièsel)
+
+#Electric
+str_electric_Germany_DB_169 :DB 169 (Elèctrica)
+
+#DMU
+
+#EMU
+str_emu_France_SNCF_TGV_Sud_Est : SNCF TGV Sud-Est (EMU)
+
+#Single Unit Metro
+
+#Multiple Unit Metro
+
+#Maglev
+
+#wagons
+
+#coaches
+
+
+
+#special wagons
+
+#PURCHASE MENU TEXTS
