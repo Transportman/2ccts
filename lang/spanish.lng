@@ -63,6 +63,7 @@ str_steam_Austria_KkStB_299             :KkStB 299 (Vapor)
 str_steam_UK_GWR_5700                           :GWR 5700 (Vapor)
 str_steam_Netherlands_NS_6300           :NS 6300 (Vapor)
 str_steam_USA_AT_SF_5000                        :AT&SF 5000 (Vapor)
+str_steam_Germany_Prussian_S10          :Prussian S.10 (Vapor)
 str_steam_UK_LMS_5MT_Black_Five         :LMS 5MT 'Black Five' (Vapor)
 str_steam_USSR_MPC_9P                           :MPC 9P (Vapor)
 str_steam_UK_LNER_A4_Gresley            :LNER A4 'Gresley' (Vapor)
@@ -186,6 +187,7 @@ str_dmu_Norway_NSB_BM_93_Talent :NSB BM 93 'Talent' (DMU)
 str_dmu_Australia_CityRail_Hunter_Railcar :CityRail Hunter Railcar (DMU)
 
 #EMU
+str_emu_Italy_NTV_AGV_Duplex :NTV AGV Duplex (EMU)
 
 #Single Unit Metro
 str_mtro_USA_Brooklyn_Union_Gate_Car    :Brooklyn Union Gate Car (Metro)
