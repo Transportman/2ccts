@@ -187,6 +187,8 @@ str_dmu_Norway_NSB_BM_93_Talent :NSB BM 93 'Talent' (DMU)
 str_dmu_Australia_CityRail_Hunter_Railcar :CityRail Hunter Railcar (DMU)
 
 #EMU
+str_emu_Japan_Odakyu_3100_Series_Romance :Odakyu 3100 Series 'Romance' (EMU)
+str_emu_Netherlands_NS_Plan_Y :NS Plan Y (EMU)
 str_emu_Italy_NTV_AGV_Duplex :NTV AGV Duplex (EMU)
 
 #Single Unit Metro
@@ -233,6 +235,7 @@ str_mglv_Japan_MLX01_901        :JR MLX01-901 (Maglev)
 str_wagon_Gen3_Open_Wagon :Vagón abierto, de 3era Generación
 str_wagon_Gen5_Flatcar :Vagón plano, 5a generación
 str_wagon_Gen5_Heavy_Flatcar :Vagón plano pesado, 5a generación
+str_wagon_Gen5_Superheavy_Flatcar :Vagón plano superpesado, 5a generación
 
 #coaches
 str_coach_Gen1_Clerestory_Mail_Coach :Vagón de correo Clerestory
