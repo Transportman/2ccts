@@ -60,6 +60,7 @@ str_steam_UK_Caledonian_Railway_439 :Caledonian Railway 439 (Vapor)
 str_steam_Switzerland_SBB_A_3_5         :SBB A 3/5 (Vapor)
 str_steam_Switzerland_SBB_E_3_3         :SBB E 3/3 (Vapor)
 str_steam_Austria_KkStB_299             :KkStB 299 (Vapor)
+str_steam_Italy_FS_880                          :FS 880 (Vapor)
 str_steam_UK_GWR_5700                           :GWR 5700 (Vapor)
 str_steam_Netherlands_NS_6300           :NS 6300 (Vapor)
 str_steam_USA_AT_SF_5000                        :AT&SF 5000 (Vapor)
@@ -238,6 +239,7 @@ str_wagon_Gen5_Heavy_Flatcar :Vagón plano pesado, 5a generación
 str_wagon_Gen5_Superheavy_Flatcar :Vagón plano superpesado, 5a generación
 
 #coaches
+str_coach_Gen1_Clerestory_Regional_Coach :Vagón Regional Clerestory
 str_coach_Gen1_Clerestory_Mail_Coach :Vagón de correo Clerestory
 str_coach_Gen2_Heavyweight_Mail_Coach :Vagón pesado de correo
 str_coach_Gen3_Mk1_Regional_Coach :Vagón Regional Mk1
