@@ -151,9 +151,11 @@ str_electric_USSR_MPC_VL22M :MPC VL22M (Eléctrico)
 str_electric_Netherlands_NS_1000 :NS 1000 (Eléctrico)
 str_electric_UK_BR_77_Metrovic :BR 77 'Metrovic' (Eléctrico)
 str_electric_Switzerland_SBB_Ce_4_4 :SBB Ce 4/4 (Eléctrico)
+str_electric_Switzerland_SBB_Ae_6_6 :SBB Ae 6/6 (Eléctrico)
 str_electric_Italy_FS_E646 :FS E646 (Eléctrico)
 str_electric_USSR_MPC_VL41 :MPC VL41 (Eléctrico)
 str_electric_Croatia_HZ_1141 :HZ 1141 (Eléctrico)
+str_electric_Germany_DB_103 :DB 103 (Eléctrico)
 str_electric_South_Africa_SAR_6E :SAR 6E (Eléctrico)
 str_electric_Finland_VR_Sr1 :VR Sr1 (Eléctrico)
 str_electric_France_SNCF_BB_22200 :SNCF BB 22200 (Eléctrico)
@@ -188,8 +190,10 @@ str_dmu_Norway_NSB_BM_93_Talent :NSB BM 93 'Talent' (DMU)
 str_dmu_Australia_CityRail_Hunter_Railcar :CityRail Hunter Railcar (DMU)
 
 #EMU
+str_emu_Netherlands_NS_Mat24 :NS Mat'24 (EMU)
 str_emu_Japan_Odakyu_3100_Series_Romance :Odakyu 3100 Series 'Romance' (EMU)
 str_emu_Netherlands_NS_Plan_Y :NS Plan Y (EMU)
+str_emu_Italy_NTV_AGV :NTV AGV (EMU)
 str_emu_Italy_NTV_AGV_Duplex :NTV AGV Duplex (EMU)
 
 #Single Unit Metro
@@ -248,6 +252,7 @@ str_coach_Gen3_Umbauwagen_Local_Coach :Vagón local 'Umbauwagen'
 str_coach_Gen3_Doppelstockwagen_Local_Coach :Vagón local 'Doppelstockwagen'
 str_coach_Gen3_UIC_X_Mail_Coach :Vagón de correo UIC-X
 str_coach_Gen4_Superliner_Coach :Vagón Superliner
+str_coach_Gen4_Amfleet_Regional_Coach :Vagón Regional Amfleet
 str_coach_Gen4_Horizon_Baggage_Coach :Vagón de equipaje Horizon
 str_coach_Gen5_High_Speed_Coach :Vagón de alta velocidad
 str_coach_Gen5_High_Speed_Mail_Coach :Vagón de correo de alta velocidad
