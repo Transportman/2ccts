@@ -159,6 +159,7 @@ str_electric_Germany_DB_103 :DB 103 (Eléctrico)
 str_electric_South_Africa_SAR_6E :SAR 6E (Eléctrico)
 str_electric_Finland_VR_Sr1 :VR Sr1 (Eléctrico)
 str_electric_France_SNCF_BB_22200 :SNCF BB 22200 (Eléctrico)
+str_electric_USSR_MPC_VL85 :MPC VL85 (Eléctrico)
 str_electric_USSR_MPC_VL15 :MPC VL15 (Eléctrico)
 str_electric_France_SNCF_BB_26000 :SNCF BB 26000 (Eléctrico)
 str_electric_China_China_Railways_SS6 :China Railways SS6 (Eléctrico)
@@ -245,6 +246,7 @@ str_wagon_Gen5_Superheavy_Flatcar :Vagón plano superpesado, 5a generación
 #coaches
 str_coach_Gen1_Clerestory_Regional_Coach :Vagón Regional Clerestory
 str_coach_Gen1_Clerestory_Mail_Coach :Vagón de correo Clerestory
+str_coach_Gen2_Heavyweight_Intercity_Coach :Vagón pesado Interurbano
 str_coach_Gen2_Heavyweight_Mail_Coach :Vagón pesado de correo
 str_coach_Gen3_Mk1_Regional_Coach :Vagón Regional Mk1
 str_coach_Gen3_Mk1_Mail_Coach :Vagón de correo Mk1
