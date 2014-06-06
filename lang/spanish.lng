@@ -137,6 +137,7 @@ str_diesel_Germany_DB_260_Gravita_10BB :DB 260 Gravita 10BB (Diésel)
 str_diesel_Russia_RZD_GT1 :RZD GT1 (Diésel)
 
 #Electric
+str_electric_Switzerland_RhB_DE_2_2 :RhB DE 2/2 (Eléctrico)
 str_electric_Norway_NSB_EL7 :NSB EL7 (Eléctrico)
 str_electric_USA_Pennsylvania_Railroad_FF_1 :Pennsylvania Railroad FF-1 (Eléctrico)
 str_electric_USA_Milwaukee_Road_EP_2_Bipolar :Milwaukee Road EP-2 Bipolar (Eléctrico)
@@ -154,6 +155,7 @@ str_electric_Switzerland_SBB_Ce_4_4 :SBB Ce 4/4 (Eléctrico)
 str_electric_Switzerland_SBB_Ae_6_6 :SBB Ae 6/6 (Eléctrico)
 str_electric_Italy_FS_E646 :FS E646 (Eléctrico)
 str_electric_USSR_MPC_VL41 :MPC VL41 (Eléctrico)
+str_electric_Japan_JNR_EF64 :JNR EF64 (Eléctrico)
 str_electric_Croatia_HZ_1141 :HZ 1141 (Eléctrico)
 str_electric_Germany_DB_103 :DB 103 (Eléctrico)
 str_electric_South_Africa_SAR_6E :SAR 6E (Eléctrico)
@@ -259,6 +261,7 @@ str_coach_Gen4_Horizon_Baggage_Coach :Vagón de equipaje Horizon
 str_coach_Gen5_High_Speed_Coach :Vagón de alta velocidad
 str_coach_Gen5_High_Speed_Mail_Coach :Vagón de correo de alta velocidad
 str_coach_Gen5_Talgo_Pendular :Talgo Pendular
+str_coach_Gen5_Talgo_Pendular_Mail :Talgo Pendular de correo
 str_coach_Gen6_Grand_Voyager_Coach :Vagón Grand Voyager
 str_coach_Gen6_Grand_Regio_Coach :Vagón Grand Regio
 str_coach_Gen6_Metropolis_Coach :Vagón Metropolis
