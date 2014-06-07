@@ -31,6 +31,7 @@ str_rbd_Germany_DB_VT42                                                 :DB VT42
 str_rbd_New_Zealand_NZR_RM31                                    :NZR RM31 (Railbus diésel)
 str_rbd_Portugal_CP_0100                                                :CP 0100 (Railbus diésel)
 str_rbd_USA_Amtrak_Budd_RDC                                     :Amtrak Budd RDC (Railbus diésel)
+str_rbd_Germany_DB_VT98                                                 :DB VT98 (Railbus diésel)
 str_rbd_Germany_OHE_520_GDT                                     :OHE 520 GDT (Railbus diésel)
 str_rbd_Netherlands_NS_20_Kameel                                :NS 20 'Kameel' (Railbus diésel)
 str_rbd_USSR_MPC_ACh2                                                   :MPC ACh2 (Railbus diésel)
@@ -241,6 +242,7 @@ str_mglv_Japan_MLX01_901        :JR MLX01-901 (Maglev)
 
 #wagons
 str_wagon_Gen3_Open_Wagon :Vagón abierto, de 3era Generación
+str_wagon_Gen4_Gondola :Góndola, 4a Generación
 str_wagon_Gen5_Flatcar :Vagón plano, 5a generación
 str_wagon_Gen5_Heavy_Flatcar :Vagón plano pesado, 5a generación
 str_wagon_Gen5_Superheavy_Flatcar :Vagón plano superpesado, 5a generación
@@ -257,6 +259,7 @@ str_coach_Gen3_Doppelstockwagen_Local_Coach :Vagón local 'Doppelstockwagen'
 str_coach_Gen3_UIC_X_Mail_Coach :Vagón de correo UIC-X
 str_coach_Gen4_Superliner_Coach :Vagón Superliner
 str_coach_Gen4_Amfleet_Regional_Coach :Vagón Regional Amfleet
+str_coach_Gen4_Amfleet_Intercity_Coach :Vagón Interurbano Amfleet
 str_coach_Gen4_Horizon_Baggage_Coach :Vagón de equipaje Horizon
 str_coach_Gen5_High_Speed_Coach :Vagón de alta velocidad
 str_coach_Gen5_High_Speed_Mail_Coach :Vagón de correo de alta velocidad
