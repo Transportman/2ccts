@@ -52,6 +52,6 @@ switch(FEAT_TRAINS, SELF, switch_electric_Sweden_MTAB_Dm3_length, position_in_ve
 }
 
 switch(FEAT_TRAINS, SELF, switch_electric_Sweden_MTAB_Dm3_articulated, extra_callback_info1) {
-	2: return item_electric_Sweden_MTAB_Dm3;
+	1..2: return item_electric_Sweden_MTAB_Dm3;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
 }
