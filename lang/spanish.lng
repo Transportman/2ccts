@@ -143,6 +143,7 @@ str_electric_Norway_NSB_EL7 :NSB EL7 (Eléctrico)
 str_electric_USA_Pennsylvania_Railroad_FF_1 :Pennsylvania Railroad FF-1 (Eléctrico)
 str_electric_USA_Milwaukee_Road_EP_2_Bipolar :Milwaukee Road EP-2 Bipolar (Eléctrico)
 str_electric_Chile_EFE_Series_E_28 :EFE Series E-28 (Eléctrico)
+str_electric_Japan_JNR_EB10 :JNR EB10 (Eléctrico)
 str_electric_Norway_NSB_EL10 :NSB EL10 (Eléctrico)
 str_electric_Italy_FS_E428 :FS E428 (Eléctrico)
 str_electric_USA_Pennsylvania_Railroad_GG_1 :Pennsylvania Railroad GG-1 (Eléctrico)
@@ -191,6 +192,7 @@ str_dmu_Spain_RENFE_594_TRD :RENFE 594 TRD (DMU)
 str_dmu_UK_BR_168 :BR 168 (DMU)
 str_dmu_Germany_DB_612_Regio_Swinger :DB 612 'Regio Swinger' (DMU)
 str_dmu_Germany_DB_642_Desiro :DB 642 'Desiro' (DMU)
+str_dmu_Denmark_Arriva_Lint_41 :Arriva Lint 41 (DMU)
 str_dmu_Norway_NSB_BM_93_Talent :NSB BM 93 'Talent' (DMU)
 str_dmu_Australia_CityRail_Hunter_Railcar :CityRail Hunter Railcar (DMU)
 str_dmu_Croatia_HZ_7022 :HZ 7022 (DMU)
@@ -205,6 +207,7 @@ str_emu_Italy_NTV_AGV_Duplex :NTV AGV Duplex (EMU)
 
 #Single Unit Metro
 str_mtro_USA_Brooklyn_Union_Gate_Car    :Brooklyn Union Gate Car (Metro)
+str_mtro_Hungary_Budapest_1894_Stock    :Budapest 1894 Stock (Metro)
 str_mtro_Germany_Berlin_U_Bahn_C_II             :Berlin U-Bahn C II (Metro)
 
 #Multiple Unit Metro
