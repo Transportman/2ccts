@@ -28,7 +28,7 @@ item(FEAT_TRAINS, item_coach_Gen3_Steel_Lightweight_Mail_Coach) {
         air_drag_coefficient: 0;
         
         reliability_decay: 20;
-        CARGODEF_PASSENGERS_ONLY
+        CARGODEF_MAIL_ONLY
         cargo_age_period: 185;
         misc_flags: bitmask(TRAIN_FLAG_2CC);
         refit_cost: 0;
