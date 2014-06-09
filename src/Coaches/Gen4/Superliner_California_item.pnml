@@ -14,7 +14,7 @@ item(FEAT_TRAINS, item_coach_Gen4_Superliner_California) {
     property {
         name: string(str_coach_Gen4_Superliner_California);
         
-        introduction_date: 1980;
+        introduction_date: date(1980,1,1);
         model_life: 50;
         vehicle_life: 25;
         loading_speed: 15;

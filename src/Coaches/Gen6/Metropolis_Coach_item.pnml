@@ -14,7 +14,7 @@ item(FEAT_TRAINS, item_coach_Gen6_Metropolis_Coach) {
     property {
         name: string(str_coach_Gen6_Metropolis_Coach);
         
-        introduction_date: 2030;
+        introduction_date: date(2030,1,1);
         model_life: VEHICLE_NEVER_EXPIRES;
         vehicle_life: 25;
         loading_speed: 20;

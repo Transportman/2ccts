@@ -14,7 +14,7 @@ item(FEAT_TRAINS, item_coach_Gen4_Horizon_Baggage_Coach) {
     property {
         name: string(str_coach_Gen4_Horizon_Baggage_Coach);
         
-        introduction_date: 1970;
+        introduction_date: date(1970,1,1);
         model_life: 60;
         vehicle_life: 25;
         loading_speed: 15;

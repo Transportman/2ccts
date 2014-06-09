@@ -14,7 +14,7 @@ item(FEAT_TRAINS, item_coach_Gen1_Clerestory_Compartment_Coach) {
     property {
         name: string(str_coach_Gen1_Clerestory_Compartment_Coach);
         
-        introduction_date: 1840;
+        introduction_date: date(1840,1,1);
         model_life: 75;
         vehicle_life: 25;
         loading_speed: 20;
