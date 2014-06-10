@@ -8,6 +8,8 @@ STR_GRF_DESCRIPTION             :{SILVER}Trenes 2cc del Mundo en NML{}{}(c)2ccts
 STR_GRF_URL             :https://dev.openttdcoop.org/projects/2ccts
 
 #parameter strings
+STR_PARAM_PURCHASE_COST             :Multiplicador del precio de compra
+STR_PARAM_RUNNING_COST              :Multiplicador del coste de funcionamiento
 
 STR_PARAM_DIVIDE_16                 :1/16
 STR_PARAM_DIVIDE_8                  :1/8
@@ -69,6 +71,7 @@ str_steam_Germany_Prussian_S10          :Prussian S.10 (Vapor)
 str_steam_UK_LMS_5MT_Black_Five         :LMS 5MT 'Black Five' (Vapor)
 str_steam_USSR_MPC_9P                           :MPC 9P (Vapor)
 str_steam_UK_LNER_A4_Gresley            :LNER A4 'Gresley' (Vapor)
+str_steam_Canada_CPR_Royal_Hudson       :CPR Royal Hudson (Vapor)
 str_steam_Denmark_DSB_E                         :DSB E (Vapor)
 str_steam_Germany_DB_52                         :DB 52 (Vapor)
 str_steam_UK_LNER_A1_Peppercorn         :LNER A1 'Peppercorn' (Vapor)
