@@ -27,12 +27,8 @@ BASE_FILENAME       ?= mynewgrf
 # Documentation files
 DOC_FILES ?= docs/readme.txt docs/license.txt docs/changelog.txt
 
-# Possible offset to NewGRF version. Increase by one, if a release
-# branch is added to the repository
-REPO_BRANCH_VERSION ?= 0
-
 # Directory structure
-SCRIPT_DIR          ?= build-common
+SCRIPT_DIR          ?= scripts
 
 # Uncomment in order to make use of gimp scripting. See the file
 # for a description of the format
@@ -98,17 +94,17 @@ all: $(GENERATE_GRF) $(GENERATE_DOC) bundle_tar
 MAKE           ?= make
 MAKE_FLAGS     ?= -r
 
-NML            ?= $(shell which nmlc 2>/dev/null)
+NML            ?= nmlc
 NML_FLAGS      ?= -c
 ifdef REQUIRED_NML_BRANCH
-	NML_BRANCH = $(shell nmlc --version | head -n1 | cut -d. -f1-2)
+	NML_BRANCH = $(shell $(NML) --version | head -n1 | cut -d. -f1-2)
 endif
 ifdef MIN_NML_REVISION
-	NML_REVISION = $(shell nmlc --version | head -n1 | cut -dr -f2 | cut -d: -f1)
+	NML_REVISION = $(shell $(NML) --version | head -n1 | cut -dr -f2 | cut -d: -f1)
 endif
 
 ifdef MAIN_SRC_FILE
-	CC             ?= $(shell which gcc 2>/dev/null)
+	CC             ?= cc
 	CC_FLAGS       ?= -C -E -nostdinc -x c-header
 endif
 
@@ -116,11 +112,12 @@ AWK            ?= awk
 
 GREP           ?= grep
 
-HG             ?= $(shell hg st >/dev/null 2>/dev/null && which hg 2>/dev/null)
+HG             ?= hg
+GIT            ?= git
 
 PYTHON         ?= python
 
-UNIX2DOS       ?= $(shell which unix2dos 2>/dev/null)
+UNIX2DOS       ?= unix2dos
 UNIX2DOS_FLAGS ?= $(shell [ -n $(UNIX2DOS) ] && $(UNIX2DOS) -q --version 2>/dev/null && echo "-q" || echo "")
 
 ################################################################
@@ -131,35 +128,24 @@ UNIX2DOS_FLAGS ?= $(shell [ -n $(UNIX2DOS) ] && $(UNIX2DOS) -q --version 2>/dev/
 # a release build (taged version): GRF's Name 0.1
 ################################################################
 # This must be conditional declarations, or building from the tar.gz won't work anymore
-DEFAULT_BRANCH_NAME ?=
+VERSION_INFO ?= "$(shell ./findversion.sh)"
 
-# HG revision
-REPO_REVISION  ?= $(shell $(HG) id -n | cut -d+ -f1)
+USED_VCS ?= $(shell [ -d .hg ] && echo "HG"; [ -d .git ] && echo "GIT")
 
-# HG Hash
-REPO_HASH            ?= $(shell $(HG) id -i | cut -d+ -f1)
-
-# Days of commit since 2000-1-1 00-00
-REPO_DATE            ?= $(shell $(HG) log -r$(REPO_HASH) --template='{time|shortdate}')
-REPO_DAYS_SINCE_2000 ?= $(shell $(PYTHON) -c "from datetime import date; print (date(`echo "$(REPO_DATE)" | sed s/-/,/g | sed s/,0/,/g`)-date(2000,1,1)).days")
-
-# Whether there are local changes
-REPO_MODIFIED  ?= $(shell [ "`$(HG) id | cut -c13`" = "+" ] && echo "M" || echo "")
-
-# Branch name
-REPO_BRANCH    ?= $(shell $(HG) id -b | sed "s/default/$(DEFAULT_BRANCH_NAME)/")
-
-# Any tag which is not 'tip'
-REPO_TAGS      ?= $(shell $(HG) id -t | grep -v "tip")
-
-# Filename addition, if we're not building the default branch
-REPO_BRANCH_STRING ?= $(shell if [ "$(REPO_BRANCH)" = "$(DEFAULT_BRANCH_NAME)" ]; then echo ""; else echo "-$(REPO_BRANCH)"; fi)
+# Hash
+REPO_HASH            ?= $(shell echo ${VERSION_INFO} | cut -f1)
 
 # The version reported to OpenTTD. Usually days since 2000 + branch offset
-NEWGRF_VERSION ?= $(shell let x="$(REPO_DAYS_SINCE_2000) + 65536 * $(REPO_BRANCH_VERSION)"; echo "$$x")
+NEWGRF_VERSION ?= $(shell echo ${VERSION_INFO} | cut -f2)
+
+# Whether there are local changes
+REPO_MODIFIED  ?= $(shell echo ${VERSION_INFO} | cut -f3)
+
+# Any tag which is not 'tip'
+REPO_TAGS      ?= $(shell echo ${VERSION_INFO} | cut -f4)
 
 # The shown version is either a tag, or in the absence of a tag the revision.
-REPO_VERSION_STRING ?= $(shell [ -n "$(REPO_TAGS)" ] && echo $(REPO_TAGS)$(REPO_MODIFIED) || echo $(REPO_DATE)$(REPO_BRANCH_STRING) \($(NEWGRF_VERSION):$(REPO_HASH)$(REPO_MODIFIED)\))
+REPO_VERSION_STRING ?= $(shell echo ${VERSION_INFO} | cut -f5)
 
 # The title consists of name and version
 REPO_TITLE     ?= $(REPO_NAME) $(REPO_VERSION_STRING)
@@ -200,7 +186,7 @@ ifdef GFX_SCRIPT_LIST_FILES
 # include dependency file, if we generate graphics
 -include Makefile_gfx.dep
 
-GIMP           ?= $(shell [ `which gimp 2>/dev/null` ] && echo "gimp" || echo "")
+GIMP           ?= "$(shell [ `which gimp 2>/dev/null` ] && echo "gimp" || echo "")"
 GIMP_FLAGS     ?= -n -i -b - <
 
 %.scm: $(SCRIPT_DIR)/gimpscript $(SCRIPT_DIR)/gimp.sed
@@ -216,15 +202,38 @@ GIMP_FLAGS     ?= -n -i -b - <
 
 Makefile_gfx.dep: $(GFX_SCRIPT_LIST_FILES) Makefile
 	$(_E) "[GFX-DEP] $@"
-	$(_V) echo "" > $@
+	$(_V) echo "GIMP := $(GIMP)" > Makefile_gfx
+	$(_V) echo "GIMP_FLAGS := $(GIMP_FLAGS)" >> Makefile_gfx
+	$(_V) echo "%.scm: $(SCRIPT_DIR)/gimpscript $(SCRIPT_DIR)/gimp.sed" >> Makefile_gfx
+	$(_V) echo -e '\t$(_E) "[GIMP-SCRIPT] $@"' >> Makefile_gfx
+	$(_V) echo -e '\t$(_V) cat $(SCRIPT_DIR)/gimpscript > $$@' >> Makefile_gfx
+	$(_V) echo -e '\t$(_V) cat $(GFX_SCRIPT_LIST_FILES) | grep $$(patsubst %.scm,%.png,$$@) | sed -f $(SCRIPT_DIR)/gimp.sed >> $$@' >> Makefile_gfx
+	$(_V) echo -e '\t$(_V) echo "(gimp-quit 0)" >> $$@' >> Makefile_gfx
+	$(_V) echo -e "" >> Makefile_gfx
+	$(_V) echo -e '%.png: %.scm' >> Makefile_gfx
+	$(_V) echo -e '\t$(_E) [GIMP] $$@' >> Makefile_gfx
+	$(_V) echo -e '\t$(_V) $(GIMP) $(GIMP_FLAGS) $$< >/dev/null' >> Makefile_gfx
+	$(_V) echo -e "" >> Makefile_gfx
+	$(_V) for j in $(GFX_SCRIPT_LIST_FILES); do for i in `cat $$j | grep "\([pP][cCnN][xXgG]\)" | grep -v "^#" | cut -d\  -f1`; do echo "gimp: $$i" >> Makefile_gfx; done; done
+	$(_V) echo -e "`cat $(GFX_SCRIPT_LIST_FILES) | grep \"\([pP][cCnN][xXgG]\)\" | grep -v \"^#\" | $(AWK) '{print $1": "$2}'`" >> Makefile_gfx
+	$(_V) echo -e "" > $@
 	$(_V) for j in $(GFX_SCRIPT_LIST_FILES); do for i in `cat $$j | grep "\([pP][cCnN][xXgG]\)" | grep -v "^#" | cut -d\  -f1 | sed "s/\.\([pP][cCnN][xXgG]\)//"`; do echo "$$i.scm: $$j" >> $@; echo "$(GRF_FILE): $$i.png" >> $@; done; done
-	$(_V) cat $(GFX_SCRIPT_LIST_FILES) | grep "\([pP][cCnN][xXgG]\)" | grep -v "^#" | sed "s/[ ] */ /g" | cut -d\  -f1-2 | sed "s/ /: /g" >> $@
 
+
+ifeq ($(GIMP),"")
+gfx:
+	$(_E) "Gimp processing required, but gimp not found nor specified"
+	$(_V) false
+else
 gfx: Makefile_gfx.dep
+	$(_E) "[GFX]"
+	$(_V) make -f Makefile_gfx gimp
+endif
 
 maintainer-clean::
 	$(_E) "[MAINTAINER CLEAN GFX]"
 	$(_V) rm -rf Makefile_gfx.dep
+	$(_V) rm -rf Makefile_gfx
 	$(_V) for j in $(GFX_SCRIPT_LIST_FILES); do for i in `cat $$j | grep "\([pP][cCnN][xXgG]\)" | cut -d\  -f1 | sed "s/\.\([pP][cCnN][xXgG]\)//"`; do rm -rf $$i.scm; rm -rf $$i.png; done; done
 else
 gfx:
@@ -241,11 +250,8 @@ custom_tags.txt: $(GENERATE_NML)
 	$(_V) echo "VERSION_STRING :$(REPO_VERSION_STRING)" >> $@
 	$(_V) echo "TITLE          :$(REPO_TITLE)" >> $@
 	$(_V) echo "FILENAME       :$(GRF_FILE)" >> $@
-	$(_V) echo "REPO_DATE      :$(REPO_DATE)" >> $@
 	$(_V) echo "REPO_HASH      :$(REPO_HASH)" >> $@
-	$(_V) echo "REPO_BRANCH    :$(REPO_BRANCH)" >> $@
 	$(_V) echo "NEWGRF_VERSION :$(NEWGRF_VERSION)" >> $@
-	$(_V) echo "DAYS_SINCE_2K  :$(REPO_DAYS_SINCE_2000)" >> $@
 
 clean::
 	$(_E) "[CLEAN LNG]"
@@ -303,7 +309,6 @@ maintainer-clean::
 		| sed -e "s/$(REPLACE_FILENAME)/$(OUTPUT_FILENAME)/" \
 		> $@
 	$(_V) [ -z "$(UNIX2DOS)" ] || $(UNIX2DOS) $(UNIX2DOS_FLAGS) $@
-
 doc: $(DOC_FILES) $(GRF_FILE)
 
 clean::
@@ -318,26 +323,26 @@ clean::
 # and the distribution bundles like bundle_tar, bundle_zip, ...
 
 # Programme definitions
-TAR            ?= $(shell which tar 2>/dev/null)
+TAR            ?= tar
 TAR_FLAGS      ?= -cf
 
-ZIP            ?= $(shell which zip 2>/dev/null)
+ZIP            ?= zip
 ZIP_FLAGS      ?= -9rq
 
-GZIP           ?= $(shell which gzip 2>/dev/null)
+GZIP           ?= gzip
 GZIP_FLAGS     ?= -9f
 
-BZIP           ?= $(shell which bzip2 2>/dev/null)
+BZIP           ?= bzip2
 BZIP_FLAGS     ?= -9fk
 
-XZ             ?= $(shell which xz 2>/dev/null)
+XZ             ?= xz
 XZ_FLAGS       ?= -efk
 
 # OSX has nice extended file attributes which create their own file within tars. We don't want those, thus don't copy them
 CP_FLAGS       ?= $(shell [ "$(OSTYPE)" = "Darwin" ] && echo "-rfX" || echo "-rf")
 
 # Use the grfID programme to find the checksum which OpenTTD checks
-GRFID          ?= $(shell which grfid 2>/dev/null)
+GRFID          ?= grfid
 GRFID_FLAGS    ?= -m
 
 # Rules on how to generate filenames. Usually no need to change
@@ -354,13 +359,13 @@ DIR_NAME           := $(shell [ -n "$(REPO_TAGS)" ] && echo $(BASE_FILENAME)-$(F
 VERSIONED_FILENAME := $(BASE_FILENAME)-$(FILE_VERSION_STRING)
 DIR_NAME_SRC       := $(VERSIONED_FILENAME)-source
 
-TAR_FILENAME       := $(DIR_NAME).tar
+TAR_FILENAME       := $(shell if [[ ! -z "$(USE_VERSION)" ]]; then echo $(BASE_FILENAME)-$(FILE_VERSION_STRING); else echo $(DIR_NAME).tar; fi)
 BZIP_FILENAME      := $(TAR_FILENAME).bz2
 GZIP_FILENAME      := $(TAR_FILENAME).gz
 XZ_FILENAME        := $(TAR_FILENAME).xz
 ZIP_FILENAME       := $(VERSIONED_FILENAME).zip
 MD5_FILENAME       := $(DIR_NAME).md5
-MD5_SRC_FILENAME   := $(DIR_NAME).check.md5
+MD5_SRC_FILENAME   ?= $(DIR_NAME).check.md5
 
 # Creating file with checksum
 %.md5: $(GRF_FILE)
@@ -410,7 +415,7 @@ clean::
 # Bundle source targets
 # target 'bundle_src which builds source bundle
 ################################################################
-RE_FILES_NO_SRC_BUNDLE = ^.devzone|^.hg
+RE_FILES_NO_SRC_BUNDLE = ^.devzone|^.hg|^.git
 
 check: $(MD5_FILENAME)
 	$(_V) if [ -f $(MD5_SRC_FILENAME) ]; then echo "[CHECKING md5sums]"; else echo "Required file '$(MD5_SRC_FILENAME)' which to test against not found!"; false; fi
@@ -419,7 +424,12 @@ check: $(MD5_FILENAME)
 
 $(DIR_NAME_SRC).tar: $(DIR_NAME_SRC)
 	$(_E) "[BUNDLE SRC]"
-	$(_V) $(HG) archive -t tar $<.tar
+ifeq ("$(USED_VCS)","HG")
+	$(_V) $(HG) archive -X .hgtags -X .hgignore -X .devzone -t tar $<.tar
+endif
+ifeq ("$(USED_VCS)","GIT")
+	$(_V) $(GIT) archive -o $<.tar HEAD
+endif
 	$(_V) $(TAR) -uf $@ $^
 
 bundle_src: $(DIR_NAME_SRC).tar
@@ -435,17 +445,18 @@ Makefile.fordist:
 	$(_V) echo '# Definitions needed for tar releases' >> $@
 	$(_V) echo '# This part is automatically generated' >> $@
 	$(_V) echo '################################################################' >> $@
-	$(_V) echo 'REPO_REVISION := $(NEWGRF_VERSION)' >> $@
-	$(_V) echo 'NEWGRF_VERSION := $(NEWGRF_VERSION)' >> $@
-	$(_V) echo 'REPO_HASH := $(REPO_HASH)' >> $@
-	$(_V) echo 'REPO_VERSION_STRING := $(REPO_VERSION_STRING)' >> $@
-	$(_V) echo 'REPO_TITLE := $(REPO_TITLE)' >> $@
-	$(_V) echo 'REPO_DATE := $(REPO_DATE)' >> $@
-	$(_V) echo 'REPO_BRANCH := $(REPO_BRANCH)' >> $@
-	$(_V) echo 'REPO_MODIFIED := $(REPO_MODIFIED)' >> $@
-	$(_V) echo 'REPO_TAGS    := $(REPO_TAGS)'    >> $@
-	$(_V) echo 'HG := :' >> $@
-	$(_V) echo 'PYTHON := :' >> $@
+	$(_V) echo "REPO_REVISION := $(NEWGRF_VERSION)" >> $@
+	$(_V) echo "NEWGRF_VERSION := $(NEWGRF_VERSION)" >> $@
+	$(_V) echo "REPO_HASH := $(REPO_HASH)" >> $@
+	$(_V) echo "REPO_VERSION_STRING := $(REPO_VERSION_STRING)" >> $@
+	$(_V) echo "REPO_TITLE := $(REPO_TITLE)" >> $@
+	$(_V) echo "REPO_DATE := $(REPO_DATE)" >> $@
+	$(_V) echo "REPO_BRANCH := $(REPO_BRANCH)" >> $@
+	$(_V) echo "REPO_MODIFIED := $(REPO_MODIFIED)" >> $@
+	$(_V) echo "REPO_TAGS    := $(REPO_TAGS)"    >> $@
+	$(_V) echo "HG := :" >> $@
+	$(_V) echo "GIT := :" >> $@
+	$(_V) echo "PYTHON := :" >> $@
 
 ifneq ("$(strip $(HG))",":")
 $(DIR_NAME_SRC): $(MD5_SRC_FILENAME) Makefile.fordist
@@ -493,14 +504,11 @@ endif
 # Check for Windows / MinGW32
 ifeq ($(shell echo "$(OSTYPE)" | cut -d_ -f1),MINGW32)
 # If CC has been set to the default implicit value (cc), check if it can be used. Otherwise use a saner default.
-ifeq "$(origin CC)" "default"
-	CC=$(shell which cc 2>/dev/null && echo "cc" || echo "gcc")
-endif
 WIN_VER = $(shell echo "$(OSTYPE)" | cut -d- -f2 | cut -d. -f1)
 ifeq ($(WIN_VER),5)
-	INSTALL_DIR :=C:\Documents and Settings\All Users\Shared Documents\OpenTTD\newgrf\$(BASE_FILENAME)
+	INSTALL_DIR :=C:/Documents and Settings/All Users/Shared Documents/OpenTTD/newgrf/$(BASE_FILENAME)
 else
-	INSTALL_DIR :=C:\Users\Public\Documents\OpenTTD\newgrf\$(BASE_FILENAME)
+	INSTALL_DIR :=C:/Users/Public/Documents/OpenTTD/newgrf/$(BASE_FILENAME)
 endif
 endif
 
@@ -529,7 +537,11 @@ endif
 # misc. convenience targets like 'langcheck'
 -include $(SCRIPT_DIR)/Makefile_misc
 
-help:
+help::
+	$(_E) "Used VCS:    $(USED_VCS)"
+	$(_E)
+	$(_E) "Default targets:"
+	$(_E)
 	$(_E) "all:         Build the entire NewGRF and its documentation"
 	$(_E) "install:     Install into the default NewGRF directory ($(INSTALL_DIR))"
 	$(_E) "$(GENERATE_DOC):         Build the documentation ($(DOC_FILES))"
@@ -545,14 +557,14 @@ endif
 	$(_E) "clean:       Clean all built files"
 	$(_E) "distclean:   Clean really everything"
 	$(_E) "maintainer-clean:"
-	$(_E) "             Reset the repository to prestine state"
+	$(_E) "             Reset the repository to pristine state"
 	$(_E)
 	$(_E) "Bundles for distribution:"
 	$(_E) "bundle:      Build the distribution bundle in $(DIR_NAME)"
-	$(_E) "bundle_tar:  Build the distritubion bundle as tar archive ($(DIR_NAME).tar)"
-	$(_E) "bundle_zip:  Build the distritubion bundle and compress with zip ($(DIR_NAME).tar.zip)"
-	$(_E) "bundle_xz:   Build the distritubion bundle and compress with xz ($(DIR_NAME).tar.xz)"
-	$(_E) "bundle_gzip: Build the distritubion bundle and compress with gzip ($(DIR_NAME).tar.gz)"
+	$(_E) "bundle_tar:  Build the distribution bundle as tar archive ($(DIR_NAME).tar)"
+	$(_E) "bundle_zip:  Build the distribution bundle and compress with zip ($(DIR_NAME).tar.zip)"
+	$(_E) "bundle_xz:   Build the distribution bundle and compress with xz ($(DIR_NAME).tar.xz)"
+	$(_E) "bundle_gzip: Build the distribution bundle and compress with gzip ($(DIR_NAME).tar.gz)"
 	$(_E) "bundle_bzip: Build the distribution bundle and compress with bzip2 ($(DIR_NAME).tar.bz2)"
 	$(_E) "bundle_src:  Build the source bundle as tar archive for distribution"
 	$(_E) "bundle_bsrc: Build the source bundle as tar archive compressed with bzip2"
@@ -562,24 +574,24 @@ endif
 	$(_E)
 	$(_E) "Valid command line variables are:"
 	$(_E) "Helper programmes:"
-	$(_E) "MAKE MAKE_FLAGS.        defaults: $(MAKE) $(MAKE_FLAGS)"
+	$(_E) "MAKE MAKE_FLAGS         defaults: $(MAKE) $(MAKE_FLAGS)"
 ifdef MAIN_SRC_FILE
-	$(_E) "CC CC_FLAGS.            defaults: $(CC) $(CC_FLAGS)"
+	$(_E) "CC CC_FLAGS             defaults: $(CC) $(CC_FLAGS)"
 endif
 	$(_E) "AWK                     defaults: $(AWK)"
 	$(_E) "GREP                    defaults: $(GREP)"
-	$(_E) "GRFID GRFID_FLAGS.      defaults: $(GRFID) $(GRFID_FLAGS)"
+	$(_E) "GRFID GRFID_FLAGS       defaults: $(GRFID) $(GRFID_FLAGS)"
 	$(_E) "UNIX2DOS UNIX2DOS_FLAGS defaults: $(UNIX2DOS) $(UNIX2DOS_FLAGS)"
 ifdef GFX_SCRIPT_LIST_FILES
 	$(_E) "GIMP GIMP_FLAGS         defaults: $(GIMP) $(GIMP_FLAGS)"
 endif
-	$(_E) "CP_FLAGS (for cp command):        $(CP_FLAGS)"
+	$(_E) "cp CP_FLAGS             defaults: cp $(CP_FLAGS)"
 	$(_E)
-	$(_E) "NML NML_FLAGS.          defaults: $(NML) $(NML_FLAGS)"
+	$(_E) "NML NML_FLAGS           defaults: $(NML) $(NML_FLAGS)"
 	$(_E)
 	$(_E) "archive and compression programmes:"
-	$(_E) "TAR TAR_FLAGS   .       defaults: $(TAR) $(TAR_FLAGS)"
-	$(_E) "ZIP ZIP_FLAGS.          defaults: $(ZIP) $(ZIP_FLAGS)"
+	$(_E) "TAR TAR_FLAGS           defaults: $(TAR) $(TAR_FLAGS)"
+	$(_E) "ZIP ZIP_FLAGS           defaults: $(ZIP) $(ZIP_FLAGS)"
 	$(_E) "GZIP GZIP_FLAGS         defaults: $(GZIP) $(GZIP_FLAGS)"
 	$(_E) "BZIP BZIP_FLAGS         defaults: $(BZIP) $(BZIP_FLAGS)"
 	$(_E) "XZ XZ_FLAGS             defaults: $(XZ) $(XZ_FLAGS)"
