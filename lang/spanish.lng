@@ -189,6 +189,7 @@ str_dmu_Germany_DB_VT08 :DB VT08 (DMU)
 str_dmu_Australia_Queensland_Rail_400 :Queensland Rail 400 (DMU)
 str_dmu_Italy_FS_ALn668 :FS ALn668 (DMU)
 str_dmu_Netherlands_NS_Plan_U_DE_III :NS Plan U DE-III (DMU)
+str_dmu_Canada_CNR_Turbo_Train :CNR 'Turbo Train' (DMU)
 str_dmu_Serbia_ZS_811 :ZS 811 (DMU)
 str_dmu_UK_BR_43_IC125 :BR 43 IC125 (DMU)
 str_dmu_Canada_CNR_LRC :CNR LRC (DMU)
@@ -207,6 +208,7 @@ str_emu_Netherlands_NS_Mat24 :NS Mat'24 (EMU)
 str_emu_Italy_FS_ETR200 :FS ETR200 (EMU)
 str_emu_Japan_Odakyu_3100_Series_Romance :Odakyu 3100 Series 'Romance' (EMU)
 str_emu_Netherlands_NS_Plan_Y :NS Plan Y (EMU)
+str_emu_Finland_VR_Sm2 :VR Sm2 (EMU)
 str_emu_Italy_NTV_AGV :NTV AGV (EMU)
 str_emu_Italy_NTV_AGV_Duplex :NTV AGV Duplex (EMU)
 
@@ -252,11 +254,12 @@ str_mglv_China_Transrapid       :Shanghai Transrapid (Maglev)
 str_mglv_Japan_MLX01_901        :JR MLX01-901 (Maglev)
 
 #wagons
-str_wagon_Gen3_Open_Wagon :Vagón abierto, de 3era Generación
+str_wagon_Gen3_Open_Wagon :Vagón abierto, 3era Generación
 str_wagon_Gen4_Gondola :Góndola, 4a Generación
-str_wagon_Gen5_Flatcar :Vagón plano, 5a generación
-str_wagon_Gen5_Heavy_Flatcar :Vagón plano pesado, 5a generación
-str_wagon_Gen5_Superheavy_Flatcar :Vagón plano superpesado, 5a generación
+str_wagon_Gen5_Flatcar :Vagón plano, 5a Generación
+str_wagon_Gen5_Heavy_Flatcar :Vagón plano pesado, 5a Generación
+str_wagon_Gen5_Boxcar :Furgon cerrado, 5a Generación
+str_wagon_Gen5_Superheavy_Flatcar :Vagón plano superpesado, 5a Generación
 
 #coaches
 str_coach_Gen1_Clerestory_Regional_Coach :Vagón Regional Clerestory
