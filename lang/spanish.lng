@@ -157,6 +157,7 @@ str_electric_Austria_OBB_1020_Crocodile :OBB 1020 'Crocodile' (Eléctrico)
 str_electric_USSR_MPC_VL22M :MPC VL22M (Eléctrico)
 str_electric_Netherlands_NS_1000 :NS 1000 (Eléctrico)
 str_electric_UK_BR_77_Metrovic :BR 77 'Metrovic' (Eléctrico)
+str_electric_France_SNCF_BB_9004 :SNCF BB 9004 (Eléctrico)
 str_electric_Switzerland_SBB_Ce_4_4 :SBB Ce 4/4 (Eléctrico)
 str_electric_Switzerland_SBB_Ae_6_6 :SBB Ae 6/6 (Eléctrico)
 str_electric_Italy_FS_E646 :FS E646 (Eléctrico)
@@ -209,6 +210,7 @@ str_emu_Italy_FS_ETR200 :FS ETR200 (EMU)
 str_emu_Japan_Odakyu_3100_Series_Romance :Odakyu 3100 Series 'Romance' (EMU)
 str_emu_Netherlands_NS_Plan_Y :NS Plan Y (EMU)
 str_emu_Finland_VR_Sm2 :VR Sm2 (EMU)
+str_emu_Netherlands_NS_ICM_4000 :NS ICM 4000 (EMU)
 str_emu_Italy_NTV_AGV :NTV AGV (EMU)
 str_emu_Italy_NTV_AGV_Duplex :NTV AGV Duplex (EMU)
 
@@ -262,6 +264,7 @@ str_wagon_Gen5_Boxcar :Furgon cerrado, 5a Generación
 str_wagon_Gen5_Superheavy_Flatcar :Vagón plano superpesado, 5a Generación
 
 #coaches
+str_coach_Gen1_Clerestory_Compartment_Coach :Vagón de compartimentos Clerestory
 str_coach_Gen1_Clerestory_Regional_Coach :Vagón Regional Clerestory
 str_coach_Gen1_Clerestory_Mail_Coach :Vagón de correo Clerestory
 str_coach_Gen2_Heavyweight_Intercity_Coach :Vagón pesado Interurbano
@@ -272,6 +275,7 @@ str_coach_Gen3_Mk1_Mail_Coach :Vagón de correo Mk1
 str_coach_Gen3_Umbauwagen_Local_Coach :Vagón local 'Umbauwagen'
 str_coach_Gen3_Doppelstockwagen_Local_Coach :Vagón local 'Doppelstockwagen'
 str_coach_Gen3_UIC_X_Mail_Coach :Vagón de correo UIC-X
+str_coach_Gen4_Eurofima_Intercity_Coach :Vagón Eurofima
 str_coach_Gen4_Superliner_Coach :Vagón Superliner
 str_coach_Gen4_Amfleet_Regional_Coach :Vagón Regional Amfleet
 str_coach_Gen4_Amfleet_Intercity_Coach :Vagón Interurbano Amfleet
