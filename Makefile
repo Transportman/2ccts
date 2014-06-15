@@ -8,6 +8,7 @@
 SHELL := /bin/bash
 
 -include Makefile.config
+-include Makefile.local
 
 ##################################################################
 #
