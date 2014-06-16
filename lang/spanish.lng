@@ -267,13 +267,17 @@ str_wagon_Gen5_Superheavy_Flatcar :Vagón plano superpesado, 5a Generación
 
 #coaches
 str_coach_Gen1_Wooden_2_axle_Compartment_Coach :Vagón de compartimentos, madera y 2 ejes
+str_coach_Gen1_Wooden_2_axle_Mail_Coach :Vagón de correos, madera y 2 ejes
 str_coach_Gen1_Clerestory_Compartment_Coach :Vagón de compartimentos Clerestory
 str_coach_Gen1_Clerestory_Regional_Coach :Vagón Regional Clerestory
 str_coach_Gen1_Clerestory_Mail_Coach :Vagón de correo Clerestory
 str_coach_Gen1_Wooden_3_axle_Compartment_Coach :Vagón de compartimentos, madera y 3 ejes
+str_coach_Gen1_Wooden_3_axle_Mail_Coach :Vagón de correos, madera y 3 ejes
 str_coach_Gen2_Heavyweight_Intercity_Coach :Vagón pesado Interurbano
 str_coach_Gen2_Heavyweight_Mail_Coach :Vagón pesado de correo
 str_coach_Gen2_Steel_2_axle_Compartment_Coach :Vagón de compartimentos, acero y 2 ejes
+str_coach_Gen2_Steel_2_axle_Mail_Coach :Vagón de correos, acero y 2 ejes
+str_coach_Gen2_Steel_3_axle_Compartment_Coach :Vagón de compartimentos, acero y 3 ejes
 str_coach_Gen3_Mk1_Intercity_Coach :Vagón interurbano Mk1
 str_coach_Gen3_Mk1_Regional_Coach :Vagón Regional Mk1
 str_coach_Gen3_Mk1_Mail_Coach :Vagón de correo Mk1
