@@ -41,7 +41,7 @@ item(FEAT_TRAINS, item_emu_Germany_DB_403_ICE_3) {
         climates_available: ALL_CLIMATES;
         sprite_id: SPRITE_ID_NEW_TRAIN;
         dual_headed: 1;
-        length: 8;
+        length: 7;
         extra_power_per_wagon: 0;
         bitmask_vehicle_info: 0;
 	}
