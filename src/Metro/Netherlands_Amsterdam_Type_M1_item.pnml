@@ -55,7 +55,7 @@ item(FEAT_TRAINS, item_mtro_Netherlands_Amsterdam_Type_M1) {
 		power: 0;
 		weight: 16;
 		cargo_capacity: 174;
-		length: 8;
+		length: 7;
 		default: spriteset_mtro_Netherlands_Amsterdam_Type_M1_middle;
 	}
 	livery_override (item_mtro_wagon_powered){
@@ -64,7 +64,7 @@ item(FEAT_TRAINS, item_mtro_Netherlands_Amsterdam_Type_M1) {
 		power: 290;
 		weight: 23;
 		cargo_capacity: 174;
-		length: 8;
+		length: 7;
 		default: spriteset_mtro_Netherlands_Amsterdam_Type_M1_middle;
 	}
 }
