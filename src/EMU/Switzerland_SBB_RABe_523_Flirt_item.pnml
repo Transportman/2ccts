@@ -57,7 +57,7 @@ item(FEAT_TRAINS, item_emu_Switzerland_SBB_RABe_523_Flirt) {
 		power: 0;
 		weight: 16;
 		cargo_capacity: switch_emu_Switzerland_SBB_RABe_523_Flirt_capacity;
-		length: 8;
+		length: 7;
 		default: switch_emu_Switzerland_SBB_RABe_523_Flirt_cargo_selection;
 	}
 	livery_override (item_mu_wagon_powered){
@@ -66,7 +66,7 @@ item(FEAT_TRAINS, item_emu_Switzerland_SBB_RABe_523_Flirt) {
 		power: 335;
 		weight: 23;
 		cargo_capacity: switch_emu_Switzerland_SBB_RABe_523_Flirt_capacity;
-		length: 8;
+		length: 7;
 		default: switch_emu_Switzerland_SBB_RABe_523_Flirt_cargo_selection;
 	}
 }
