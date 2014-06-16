@@ -14,16 +14,16 @@ item(FEAT_TRAINS, item_steam_Germany_Prussian_S10) {
     property {
         name: string(str_steam_Germany_Prussian_S10);
         
-        introduction_date: date(1934,1,1);
-        model_life: 25;
+        introduction_date: date(1910,1,1);
+        model_life: 44;
         vehicle_life: 40;
         loading_speed: 1;
         cost_factor: 6;
         running_cost_factor: 98;
-        speed: 130 km/h;
-        power: 3750 hp;
+        speed: 110 km/h;
+        power: 1155 hp;
         cargo_capacity: 0;
-        weight: 135 ton;
+        weight: 77 ton;
         tractive_effort_coefficient: 0.3;
         air_drag_coefficient: 0;
         
