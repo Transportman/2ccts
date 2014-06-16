@@ -55,7 +55,7 @@ item(FEAT_TRAINS, item_mtro_Russia_Moscow_81_740) {
 		power: 0;
 		weight: 24;
 		cargo_capacity: 120;
-		length: 7;
+		length: 6;
 		default: spriteset_mtro_Russia_Moscow_81_740_middle;
 	}
 	livery_override (item_mtro_wagon_powered){
@@ -64,7 +64,7 @@ item(FEAT_TRAINS, item_mtro_Russia_Moscow_81_740) {
 		power: 430;
 		weight: 35;
 		cargo_capacity: 120;
-		length: 7;
+		length: 6;
 		default: spriteset_mtro_Russia_Moscow_81_740_middle;
 	}
 }
