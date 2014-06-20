@@ -195,7 +195,6 @@ str_dmu_Netherlands_NS_Plan_U_DE_III :NS Plan U DE-III (DMU)
 str_dmu_Canada_CNR_Turbo_Train :CNR 'Turbo Train' (DMU)
 str_dmu_Serbia_ZS_811 :ZS 811 (DMU)
 str_dmu_UK_BR_43_IC125 :BR 43 IC125 (DMU)
-str_dmu_Canada_CNR_LRC :CNR LRC (DMU)
 str_dmu_Sweden_SJ_Y2 :SJ Y2 (DMU)
 str_dmu_Spain_RENFE_594_TRD :RENFE 594 TRD (DMU)
 str_dmu_UK_BR_168 :BR 168 (DMU)
@@ -279,11 +278,13 @@ str_coach_Gen1_Wooden_3_axle_Mail_Coach :Vagón de correos, madera y 3 ejes
 str_coach_Gen2_Heavyweight_Intercity_Coach :Vagón pesado Interurbano
 str_coach_Gen2_Heavyweight_Mail_Coach :Vagón pesado de correo
 str_coach_Gen2_Steel_Compartment_Coach :Vagón de compartimentos, acero
+str_coach_Gen2_Steel_Regional_Coach :Vagón regional, acero
 str_coach_Gen2_Steel_Mail_Coach :Vagón de correos, acero
 str_coach_Gen2_Steel_2_axle_Compartment_Coach :Vagón de compartimentos, acero y 2 ejes
 str_coach_Gen2_Steel_2_axle_Regional_Coach :Vagón regional, acero y 2 ejes
 str_coach_Gen2_Steel_2_axle_Mail_Coach :Vagón de correos, acero y 2 ejes
 str_coach_Gen2_Steel_3_axle_Compartment_Coach :Vagón de compartimentos, acero y 3 ejes
+str_coach_Gen2_Steel_3_axle_Regional_Coach :Vagón regional, acero y 3 ejes
 str_coach_Gen2_Steel_3_axle_Mail_Coach :Vagón de correos, acero y 3 ejes
 str_coach_Gen3_Aluminium_Lightweight_Mail_Coach :Vagón de correo ligero, aluminio
 str_coach_Gen3_Mk1_Intercity_Coach :Vagón interurbano Mk1
