@@ -10,9 +10,9 @@
 * ITEM
 */
 
-item(FEAT_TRAINS, item_dmu_Canada_CNR_LRC) {
+item(FEAT_TRAINS, item_dmu_Canada_VIA_Rail_LRC) {
     property {
-        name: string(str_dmu_Canada_CNR_LRC);
+        name: string(str_dmu_Canada_VIA_Rail_LRC);
         
         introduction_date: date(1980,1,1);
         model_life: 15;
@@ -46,28 +46,28 @@ item(FEAT_TRAINS, item_dmu_Canada_CNR_LRC) {
         bitmask_vehicle_info: 0;
 	}
 	graphics {
-		purchase: spriteset_dmu_Canada_CNR_LRC_purchase;
+		purchase: spriteset_dmu_Canada_VIA_Rail_LRC_purchase;
 		cargo_capacity: 0; //Heads have no capacity
 		purchase_cargo_capacity: 55;
-		visual_effect_and_powered: switch_dmu_Canada_CNR_LRC_visual_effect_and_powered;
-		switch_dmu_Canada_CNR_LRC_reversed;
+		visual_effect_and_powered: switch_dmu_Canada_VIA_Rail_LRC_visual_effect_and_powered;
+		switch_dmu_Canada_VIA_Rail_LRC_reversed;
 	}	
 	livery_override (item_mu_wagon_unpowered){
 		loading_speed: 8;
 		running_cost_factor: 74;
 		power: 0;
 		weight: 33;
-		cargo_capacity: switch_dmu_Canada_CNR_LRC_capacity;
+		cargo_capacity: switch_dmu_Canada_VIA_Rail_LRC_capacity;
 		length: 8;
-		default: switch_dmu_Canada_CNR_LRC_cargo_selection;
+		default: switch_dmu_Canada_VIA_Rail_LRC_cargo_selection;
 	}
 	livery_override (item_mu_wagon_powered){
 		loading_speed: 8;
 		running_cost_factor: 110;
 		power: 2700;
 		weight: 49;
-		cargo_capacity: switch_dmu_Canada_CNR_LRC_capacity;
+		cargo_capacity: switch_dmu_Canada_VIA_Rail_LRC_capacity;
 		length: 8;
-		default: switch_dmu_Canada_CNR_LRC_cargo_selection;
+		default: switch_dmu_Canada_VIA_Rail_LRC_cargo_selection;
 	}
 }
