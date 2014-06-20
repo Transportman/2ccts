@@ -34,12 +34,12 @@ spriteset(spriteset_emu_Italy_NTV_AGV_middlepass_regular, "gfx/EMU/Italy_NTV_AGV
 }
 
 //Middle - PAX - Part 2 back
-spriteset(spriteset_emu_Italy_NTV_AGV_middlepass_part_2_back, "gfx/EMU/Italy_NTV_AGV.png") {
+spriteset(spriteset_emu_Italy_NTV_AGV_middlepass_part_2_front, "gfx/EMU/Italy_NTV_AGV.png") {
 	template_2cc_engines_general(1, 96)
 }
 
 //Middle - PAX - Part 2 front
-spriteset(spriteset_emu_Italy_NTV_AGV_middlepass_part_2_front, "gfx/EMU/Italy_NTV_AGV.png") {
+spriteset(spriteset_emu_Italy_NTV_AGV_middlepass_part_2_back, "gfx/EMU/Italy_NTV_AGV.png") {
 	template_2cc_engines_general(1, 128)
 }
 
@@ -69,12 +69,12 @@ spriteset(spriteset_emu_Italy_NTV_AGV_middlemail_regular, "gfx/EMU/Italy_NTV_AGV
 }
 
 //Middle - MAIL - Part 2 back
-spriteset(spriteset_emu_Italy_NTV_AGV_middlemail_part_2_back, "gfx/EMU/Italy_NTV_AGV.png") {
+spriteset(spriteset_emu_Italy_NTV_AGV_middlemail_part_2_front, "gfx/EMU/Italy_NTV_AGV.png") {
 	template_2cc_engines_general(1, 224)
 }
 
 //Middle - MAIL - Part 2 front
-spriteset(spriteset_emu_Italy_NTV_AGV_middlemail_part_2_front, "gfx/EMU/Italy_NTV_AGV.png") {
+spriteset(spriteset_emu_Italy_NTV_AGV_middlemail_part_2_back, "gfx/EMU/Italy_NTV_AGV.png") {
 	template_2cc_engines_back(1, 256)
 }
 
@@ -83,7 +83,7 @@ spriteset(spriteset_emu_Italy_NTV_AGV_middlemail_double, "gfx/EMU/Italy_NTV_AGV.
 	template_2cc_engines_general(1, 288)
 }
 
-switch(FEAT_TRAINS, SELF, switch_emu_Italy_NTV_AGV_middlemail_position_back, position_in_vehid_chain) {
+switch(FEAT_TRAINS, SELF, switch_emu_Italy_NTV_AGV_middlemail_position_back, position_in_vehid_chain_from_end) {
 	0: spriteset_emu_Italy_NTV_AGV_middlemail_part_2_back;
 	spriteset_emu_Italy_NTV_AGV_middlemail_regular;
 }
