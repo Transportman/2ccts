@@ -203,6 +203,7 @@ str_dmu_Germany_DB_642_Desiro :DB 642 'Desiro' (DMU)
 str_dmu_Denmark_Arriva_Lint_41 :Arriva Lint 41 (DMU)
 str_dmu_Norway_NSB_BM_93_Talent :NSB BM 93 'Talent' (DMU)
 str_dmu_Australia_CityRail_Hunter_Railcar :CityRail Hunter Railcar (DMU)
+str_dmu_Denmark_DSB_IC4 :DSB IC4 (DMU)
 str_dmu_Croatia_HZ_7022 :HZ 7022 (DMU)
 
 #EMU
@@ -286,6 +287,7 @@ str_coach_Gen2_Steel_2_axle_Mail_Coach :Vagón de correos, acero y 2 ejes
 str_coach_Gen2_Steel_3_axle_Compartment_Coach :Vagón de compartimentos, acero y 3 ejes
 str_coach_Gen2_Steel_3_axle_Regional_Coach :Vagón regional, acero y 3 ejes
 str_coach_Gen2_Steel_3_axle_Mail_Coach :Vagón de correos, acero y 3 ejes
+str_coach_Gen3_Aluminium_Lightweight_Regional_Coach :Vagón regional ligero, aluminio
 str_coach_Gen3_Aluminium_Lightweight_Mail_Coach :Vagón de correo ligero, aluminio
 str_coach_Gen3_Mk1_Intercity_Coach :Vagón interurbano Mk1
 str_coach_Gen3_Mk1_Regional_Coach :Vagón Regional Mk1
