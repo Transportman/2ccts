@@ -213,6 +213,7 @@ str_emu_Japan_Odakyu_3100_Series_Romance :Odakyu 3100 Series 'Romance' (EMU)
 str_emu_Netherlands_NS_Plan_Y :NS Plan Y (EMU)
 str_emu_Finland_VR_Sm2 :VR Sm2 (EMU)
 str_emu_Netherlands_NS_ICM_4000 :NS ICM 4000 (EMU)
+str_emu_Switzerland_SBB_RBDe_560 :SBB RBDe 560 (EMU)
 str_emu_Italy_NTV_AGV :NTV AGV (EMU)
 str_emu_Italy_NTV_AGV_Duplex :NTV AGV Duplex (EMU)
 
@@ -278,6 +279,7 @@ str_coach_Gen1_Wooden_3_axle_Regional_Coach :Vagón regional, madera y 3 ejes
 str_coach_Gen1_Wooden_3_axle_Mail_Coach :Vagón de correos, madera y 3 ejes
 str_coach_Gen2_Heavyweight_Intercity_Coach :Vagón pesado Interurbano
 str_coach_Gen2_Heavyweight_Mail_Coach :Vagón pesado de correo
+str_coach_Gen2_Steel_Intercity_Coach :Vagón interurbano, acero
 str_coach_Gen2_Steel_Compartment_Coach :Vagón de compartimentos, acero
 str_coach_Gen2_Steel_Regional_Coach :Vagón regional, acero
 str_coach_Gen2_Steel_Mail_Coach :Vagón de correos, acero
