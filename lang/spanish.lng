@@ -289,6 +289,8 @@ str_coach_Gen2_Steel_2_axle_Mail_Coach :Vagón de correos, acero y 2 ejes
 str_coach_Gen2_Steel_3_axle_Compartment_Coach :Vagón de compartimentos, acero y 3 ejes
 str_coach_Gen2_Steel_3_axle_Regional_Coach :Vagón regional, acero y 3 ejes
 str_coach_Gen2_Steel_3_axle_Mail_Coach :Vagón de correos, acero y 3 ejes
+str_coach_Gen3_Steel_Lightweight_Intercity_Coach :Vagón interurbano ligero, acero
+str_coach_Gen3_Steel_Lightweight_Mail_Coach :Vagón de correo ligero, acero
 str_coach_Gen3_Aluminium_Lightweight_Regional_Coach :Vagón regional ligero, aluminio
 str_coach_Gen3_Aluminium_Lightweight_Mail_Coach :Vagón de correo ligero, aluminio
 str_coach_Gen3_Mk1_Intercity_Coach :Vagón interurbano Mk1
