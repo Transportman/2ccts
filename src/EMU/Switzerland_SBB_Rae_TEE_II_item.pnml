@@ -57,7 +57,7 @@ item(FEAT_TRAINS, item_emu_Switzerland_SBB_Rae_TEE_II) {
 		weight: 24;
 		cargo_capacity: switch_emu_Switzerland_SBB_Rae_TEE_II_capacity;
 		length: 8;
-		visual_effect_and_powered: switch_emu_Switzerland_SBB_Rae_TEE_II_visual_effect_and_powered;
+		visual_effect_and_powered: switch_emu_Switzerland_SBB_Rae_TEE_II_visual_effect_and_powered_position;
 		default: switch_emu_Switzerland_SBB_Rae_TEE_II_cargo_selection;
 	}
 	livery_override (item_mu_wagon_powered){
@@ -67,7 +67,7 @@ item(FEAT_TRAINS, item_emu_Switzerland_SBB_Rae_TEE_II) {
 		weight: 35;
 		cargo_capacity: switch_emu_Switzerland_SBB_Rae_TEE_II_capacity;
 		length: 8;
-		visual_effect_and_powered: switch_emu_Switzerland_SBB_Rae_TEE_II_visual_effect_and_powered;
+		visual_effect_and_powered: switch_emu_Switzerland_SBB_Rae_TEE_II_visual_effect_and_powered_position;
 		default: switch_emu_Switzerland_SBB_Rae_TEE_II_cargo_selection;
 	}
 }
