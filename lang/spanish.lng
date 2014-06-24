@@ -214,6 +214,7 @@ str_emu_Netherlands_NS_Plan_Y :NS Plan Y (EMU)
 str_emu_Finland_VR_Sm2 :VR Sm2 (EMU)
 str_emu_Netherlands_NS_ICM_4000 :NS ICM 4000 (EMU)
 str_emu_Switzerland_SBB_RBDe_560 :SBB RBDe 560 (EMU)
+str_emu_Australia_CityRail_OSCars :CityRail OSCars (EMU)
 str_emu_Italy_NTV_AGV :NTV AGV (EMU)
 str_emu_Italy_NTV_AGV_Duplex :NTV AGV Duplex (EMU)
 
@@ -291,6 +292,7 @@ str_coach_Gen2_Steel_3_axle_Regional_Coach :Vagón regional, acero y 3 ejes
 str_coach_Gen2_Steel_3_axle_Mail_Coach :Vagón de correos, acero y 3 ejes
 str_coach_Gen3_Steel_Lightweight_Intercity_Coach :Vagón interurbano ligero, acero
 str_coach_Gen3_Steel_Lightweight_Mail_Coach :Vagón de correo ligero, acero
+str_coach_Gen3_Aluminium_Lightweight_Intercity_Coach :Vagón interurbano ligero, aluminio
 str_coach_Gen3_Aluminium_Lightweight_Regional_Coach :Vagón regional ligero, aluminio
 str_coach_Gen3_Aluminium_Lightweight_Mail_Coach :Vagón de correo ligero, aluminio
 str_coach_Gen3_Mk1_Intercity_Coach :Vagón interurbano Mk1
@@ -300,6 +302,7 @@ str_coach_Gen3_Umbauwagen_Local_Coach :Vagón local 'Umbauwagen'
 str_coach_Gen3_Doppelstockwagen_Local_Coach :Vagón local 'Doppelstockwagen'
 str_coach_Gen3_UIC_X_Mail_Coach :Vagón de correo UIC-X
 str_coach_Gen4_Eurofima_Intercity_Coach :Vagón Eurofima
+str_coach_Gen4_Eurofima_Mail_Coach :Vagón de correo Eurofima
 str_coach_Gen4_Superliner_Coach :Vagón Superliner
 str_coach_Gen4_Amfleet_Regional_Coach :Vagón Regional Amfleet
 str_coach_Gen4_Amfleet_Intercity_Coach :Vagón Interurbano Amfleet
