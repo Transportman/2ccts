@@ -298,6 +298,7 @@ str_coach_Gen3_Aluminium_Lightweight_Mail_Coach :Vagón de correo ligero, alumin
 str_coach_Gen3_Mk1_Intercity_Coach :Vagón interurbano Mk1
 str_coach_Gen3_Mk1_Regional_Coach :Vagón Regional Mk1
 str_coach_Gen3_Mk1_Mail_Coach :Vagón de correo Mk1
+str_coach_Gen3_TEE_Intercity_Coach :Vagón interurbano TEE
 str_coach_Gen3_Umbauwagen_Local_Coach :Vagón local 'Umbauwagen'
 str_coach_Gen3_Doppelstockwagen_Local_Coach :Vagón local 'Doppelstockwagen'
 str_coach_Gen3_UIC_X_Mail_Coach :Vagón de correo UIC-X
@@ -307,6 +308,7 @@ str_coach_Gen4_Superliner_Coach :Vagón Superliner
 str_coach_Gen4_Amfleet_Regional_Coach :Vagón Regional Amfleet
 str_coach_Gen4_Amfleet_Intercity_Coach :Vagón Interurbano Amfleet
 str_coach_Gen4_Horizon_Baggage_Coach :Vagón de equipaje Horizon
+str_coach_Gen4_Bombardier_Bi_level :Bi-nivel Bombardier
 str_coach_Gen5_High_Speed_Coach :Vagón de alta velocidad
 str_coach_Gen5_High_Speed_Mail_Coach :Vagón de correo de alta velocidad
 str_coach_Gen5_Talgo_Pendular :Talgo Pendular
