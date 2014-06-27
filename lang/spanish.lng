@@ -175,6 +175,7 @@ str_electric_USSR_MPC_VL85 :MPC VL85 (Eléctrico)
 str_electric_USSR_MPC_VL15 :MPC VL15 (Eléctrico)
 str_electric_France_SNCF_BB_26000 :SNCF BB 26000 (Eléctrico)
 str_electric_China_China_Railways_SS6 :China Railways SS6 (Eléctrico)
+str_electric_Switzerland_SBB_Re460_Lok_2000 :SBB Re460 'Lok 2000' (Eléctrico)
 str_electric_Spain_RENFE_252 :RENFE 252 (Eléctrico)
 str_electric_UK_BR_92 :BR 92 (Eléctrico)
 str_electric_Germany_DB_145_TRAXX_F140 :DB 145 TRAXX F140 (Eléctrico)
@@ -291,6 +292,7 @@ str_coach_Gen2_Steel_3_axle_Compartment_Coach :Vagón de compartimentos, acero y
 str_coach_Gen2_Steel_3_axle_Regional_Coach :Vagón regional, acero y 3 ejes
 str_coach_Gen2_Steel_3_axle_Mail_Coach :Vagón de correos, acero y 3 ejes
 str_coach_Gen3_Steel_Lightweight_Intercity_Coach :Vagón interurbano ligero, acero
+str_coach_Gen3_Steel_Lightweight_Regional_Coach :Vagón regional ligero, acero
 str_coach_Gen3_Steel_Lightweight_Mail_Coach :Vagón de correo ligero, acero
 str_coach_Gen3_Aluminium_Lightweight_Intercity_Coach :Vagón interurbano ligero, aluminio
 str_coach_Gen3_Aluminium_Lightweight_Regional_Coach :Vagón regional ligero, aluminio
