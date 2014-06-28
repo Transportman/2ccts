@@ -222,6 +222,7 @@ str_emu_Italy_NTV_AGV_Duplex :NTV AGV Duplex (EMU)
 #Single Unit Metro
 str_mtro_USA_Brooklyn_Union_Gate_Car    :Brooklyn Union Gate Car (Metro)
 str_mtro_Hungary_Budapest_1894_Stock    :Budapest 1894 Stock (Metro)
+str_mtro_USA_Chicago_L_Northwest_Elevated_1907_Stock    :Chicago L Northwest Elevated 1907 Stock (Metro)
 str_mtro_Germany_Berlin_U_Bahn_C_II             :Berlin U-Bahn C II (Metro)
 
 #Multiple Unit Metro
@@ -300,6 +301,7 @@ str_coach_Gen3_Aluminium_Lightweight_Mail_Coach :Vagón de correo ligero, alumin
 str_coach_Gen3_Mk1_Intercity_Coach :Vagón interurbano Mk1
 str_coach_Gen3_Mk1_Regional_Coach :Vagón Regional Mk1
 str_coach_Gen3_Mk1_Mail_Coach :Vagón de correo Mk1
+str_coach_Gen3_UIC_X_Intercity_Coach :Vagón interurbano UIC-X
 str_coach_Gen3_TEE_Intercity_Coach :Vagón interurbano TEE
 str_coach_Gen3_Umbauwagen_Local_Coach :Vagón local 'Umbauwagen'
 str_coach_Gen3_Doppelstockwagen_Local_Coach :Vagón local 'Doppelstockwagen'
