@@ -63,6 +63,7 @@ str_steam_UK_Caledonian_Railway_439 :Caledonian Railway 439 (Vapor)
 str_steam_Switzerland_SBB_A_3_5         :SBB A 3/5 (Vapor)
 str_steam_Switzerland_SBB_E_3_3         :SBB E 3/3 (Vapor)
 str_steam_Austria_KkStB_299             :KkStB 299 (Vapor)
+str_steam_New_Zealand_NZR_X_Class       :NZR X Class (Vapor)
 str_steam_Italy_FS_880                          :FS 880 (Vapor)
 str_steam_UK_GWR_5700                           :GWR 5700 (Vapor)
 str_steam_Netherlands_NS_6300           :NS 6300 (Vapor)
@@ -303,6 +304,7 @@ str_coach_Gen3_Mk1_Regional_Coach :Vagón Regional Mk1
 str_coach_Gen3_Mk1_Mail_Coach :Vagón de correo Mk1
 str_coach_Gen3_UIC_X_Intercity_Coach :Vagón interurbano UIC-X
 str_coach_Gen3_TEE_Intercity_Coach :Vagón interurbano TEE
+str_coach_Gen3_UIC_X_Regional_Coach :Vagón regional UIC-X
 str_coach_Gen3_Umbauwagen_Local_Coach :Vagón local 'Umbauwagen'
 str_coach_Gen3_Doppelstockwagen_Local_Coach :Vagón local 'Doppelstockwagen'
 str_coach_Gen3_UIC_X_Mail_Coach :Vagón de correo UIC-X
