@@ -48,7 +48,6 @@ item(FEAT_TRAINS, item_emu_Norway_NSB_BM73) {
 	graphics {
 		purchase: spriteset_emu_Norway_NSB_BM73_purchase;
 		cargo_capacity: switch_emu_Norway_NSB_BM73_capacity;
-		visual_effect_and_powered: switch_emu_Norway_NSB_BM73_visual_effect_and_powered;
 		switch_emu_Norway_NSB_BM73_reversed;
 	}	
 	livery_override (item_mu_wagon_unpowered){
@@ -58,6 +57,7 @@ item(FEAT_TRAINS, item_emu_Norway_NSB_BM73) {
 		weight: 27;
 		cargo_capacity: switch_emu_Norway_NSB_BM73_capacity;
 		length: 8;
+		visual_effect_and_powered: switch_emu_Norway_NSB_BM73_visual_effect_and_powered_position;
 		default: switch_emu_Norway_NSB_BM73_cargo_selection;
 	}
 	livery_override (item_mu_wagon_powered){
@@ -67,6 +67,7 @@ item(FEAT_TRAINS, item_emu_Norway_NSB_BM73) {
 		weight: 41;
 		cargo_capacity: switch_emu_Norway_NSB_BM73_capacity;
 		length: 8;
+		visual_effect_and_powered: switch_emu_Norway_NSB_BM73_visual_effect_and_powered_position;
 		default: switch_emu_Norway_NSB_BM73_cargo_selection;
 	}
 }
