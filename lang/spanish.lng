@@ -188,6 +188,7 @@ str_electric_Sweden_MTAB_IORE :MTAB IORE (Eléctrico)
 str_electric_South_Korea_Korail_8200 :Korail 8200 (Eléctrico)
 str_electric_Ukraine_UZ_DS3 :UZ DS3 (Eléctrico)
 str_electric_Kazakhstan_KTZ_KZ4A :KTZ KZ4A (Eléctrico)
+str_electric_Switzerland_SBB_Eem_923 :SBB Eem 923 (Eléctrico)
 
 #DMU
 str_dmu_Australia_NSWGR_Silver_City_Comet :NSWGR Silver City Comet (DMU)
@@ -318,6 +319,7 @@ str_coach_Gen3_UIC_X_Mail_Coach :Vagón de correo UIC-X
 str_coach_Gen4_Eurofima_Intercity_Coach :Vagón Eurofima
 str_coach_Gen4_Eurofima_Mail_Coach :Vagón de correo Eurofima
 str_coach_Gen4_Superliner_Coach :Vagón Superliner
+str_coach_Gen4_Superliner_California :Superliner California
 str_coach_Gen4_Amfleet_Regional_Coach :Vagón Regional Amfleet
 str_coach_Gen4_Amfleet_Intercity_Coach :Vagón Intercity Amfleet
 str_coach_Gen4_Horizon_Regional_Coach :Vagón regional Horizon
