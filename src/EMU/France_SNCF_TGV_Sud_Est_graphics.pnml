@@ -35,7 +35,7 @@ spriteset(spriteset_emu_France_SNCF_TGV_Sud_Est_middlepass_regular, "gfx/EMU/Fra
 
 //Middle - PAX - Part 2 Front
 spriteset(spriteset_emu_France_SNCF_TGV_Sud_Est_middlepass_part2_front, "gfx/EMU/France_SNCF_TGV_Sud_Est.png") {
-	template_2cc_engines_back(1, 96)
+	template_2cc_engines_general(1, 96)
 }
 
 //Middle - PAX - Part 2 Back
@@ -58,7 +58,7 @@ switch(FEAT_TRAINS, SELF, switch_emu_France_SNCF_TGV_Sud_Est_middlepass_position
 	switch_emu_France_SNCF_TGV_Sud_Est_middlepass_position_back;
 }
 
-switch(FEAT_TRAINS, SELF, switch_emu_France_SNCF_TGV_Sud_Est_middlepass_length, position_in_vehid_chain) {
+switch(FEAT_TRAINS, SELF, switch_emu_France_SNCF_TGV_Sud_Est_middlepass_length, num_vehs_in_vehid_chain) {
 	1: spriteset_emu_France_SNCF_TGV_Sud_Est_middlepass_double;
 	switch_emu_France_SNCF_TGV_Sud_Est_middlepass_position_front;
 }
@@ -70,7 +70,7 @@ spriteset(spriteset_emu_France_SNCF_TGV_Sud_Est_middlemail_regular, "gfx/EMU/Fra
 
 //Middle - MAIL - Part 2 Front
 spriteset(spriteset_emu_France_SNCF_TGV_Sud_Est_middlemail_part2_front, "gfx/EMU/France_SNCF_TGV_Sud_Est.png") {
-	template_2cc_engines_back(1, 224)
+	template_2cc_engines_general(1, 224)
 }
 
 //Middle - MAIL - Part 2 Back
@@ -93,7 +93,7 @@ switch(FEAT_TRAINS, SELF, switch_emu_France_SNCF_TGV_Sud_Est_middlemail_position
 	switch_emu_France_SNCF_TGV_Sud_Est_middlemail_position_back;
 }
 
-switch(FEAT_TRAINS, SELF, switch_emu_France_SNCF_TGV_Sud_Est_middlemail_length, position_in_vehid_chain) {
+switch(FEAT_TRAINS, SELF, switch_emu_France_SNCF_TGV_Sud_Est_middlemail_length, num_vehs_in_vehid_chain) {
 	1: spriteset_emu_France_SNCF_TGV_Sud_Est_middlemail_double;
 	switch_emu_France_SNCF_TGV_Sud_Est_middlemail_position_front;
 }
