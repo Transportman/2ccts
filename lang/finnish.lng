@@ -3,7 +3,7 @@
 
 #Main grf title and description
 STR_GRF_NAME                    :{TITLE}
-STR_GRF_DESCRIPTION             :{SILVER}2cc Trains of the World in NML{}{}(c)2ccts{}Lisenssi: GPLv2 tai korkeampi.{}Yksityiskohdat readme:ssa.
+STR_GRF_DESCRIPTION             :{SILVER}2cc Trains of the World in NML{}{}(c)2ccts{}Lisenssi:GPLv2 tai korkeampi.{}Yksityiskohdat readme:ssa.
 STR_GRF_URL             :https://dev.openttdcoop.org/projects/2ccts
 
 #parameter strings

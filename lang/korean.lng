@@ -15,7 +15,7 @@ STR_PARAM_TIMES_2                   :2
 
 #Diesel Railbus
 str_rbd_Australia_Victorian_Railways_AEC_RM1    :Victorian Railways AEC RM1 (디젤 레일버스)
-str_rbd_New_Zealand_NZR_RM31                                    : NZR RM31 (디젤 레일버스)
+str_rbd_New_Zealand_NZR_RM31                                    :NZR RM31 (디젤 레일버스)
 str_rbd_USA_Amtrak_Budd_RDC                                     :Amtrak Budd RDC (디젤 레일버스)
 str_rbd_Germany_DB_VT98                                                 :DB VT98 (디젤 레일버스)
 str_rbd_Germany_OHE_520_GDT                                     :OHE 520 GDT (디젤 레일버스)
@@ -78,15 +78,15 @@ str_electric_Ukraine_UZ_DS3 :UZ DS3 (전기)
 #DMU
 str_dmu_Serbia_ZS_811 :ZS 811 (DMU)
 str_dmu_UK_BR_43_IC125 :BR 43 IC125 (DMU)
-str_dmu_Sweden_SJ_Y2 : SJ Y2 (DMU)
+str_dmu_Sweden_SJ_Y2 :SJ Y2 (DMU)
 str_dmu_Spain_RENFE_594_TRD :RENFE 594 TRD (DMU)
 str_dmu_UK_BR_168 :BR 168 (DMU)
 
 #EMU
-str_emu_Turkey_TCDD_E8000 : TCDD E8000 (EMU)
-str_emu_Japan_JNR_Shinkansen_Series_0 : JNR 신칸센 0계 (EMU)
-str_emu_Japan_Odakyu_10000_Series_Romance : 오다큐 10000 계 '로망스' (EMU)
-str_emu_Bulgaria_BDZ_10_Desiro : BDZ 10 'Desiro' (EMU)
+str_emu_Turkey_TCDD_E8000 :TCDD E8000 (EMU)
+str_emu_Japan_JNR_Shinkansen_Series_0 :JNR 신칸센 0계 (EMU)
+str_emu_Japan_Odakyu_10000_Series_Romance :오다큐 10000 계 '로망스' (EMU)
+str_emu_Bulgaria_BDZ_10_Desiro :BDZ 10 'Desiro' (EMU)
 
 #Single Unit Metro
 str_mtro_USA_Brooklyn_Union_Gate_Car    :Brooklyn Union Gate Car (지하철)
@@ -102,7 +102,7 @@ str_mtro_Greece_Thessaloniki_2014               :Thessaloniki 2014 (지하철)
 
 #wagons
 str_wagon_Gen1_Boxcar :1세대 목제 유개화차
-str_wagon_Gen2_Flat_Wagon : 2세대 평판화차
+str_wagon_Gen2_Flat_Wagon :2세대 평판화차
 str_wagon_Gen3_Open_Wagon :3세대 무개화차
 str_wagon_Gen3_Hopper :3세대 호퍼카
 str_wagon_Gen4_Boxcar :4세대 유개화차
