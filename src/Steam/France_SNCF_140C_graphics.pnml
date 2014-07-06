@@ -43,8 +43,8 @@ switch(FEAT_TRAINS, SELF, switch_steam_France_SNCF_140C_visual_effect, position_
 }
 
 switch(FEAT_TRAINS, SELF, switch_steam_France_SNCF_140C_length, position_in_vehid_chain % 2) {
-	0: 6;
-	3;
+	0: 7;
+	4;
 }
 
 switch(FEAT_TRAINS, SELF, switch_steam_France_SNCF_140C_articulated, extra_callback_info1) {
