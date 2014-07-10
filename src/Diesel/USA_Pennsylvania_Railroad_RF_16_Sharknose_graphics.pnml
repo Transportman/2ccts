@@ -40,13 +40,3 @@ switch(FEAT_TRAINS, SELF, switch_diesel_USA_Pennsylvania_Railroad_RF_16_Sharknos
 	0: return visual_effect_and_powered(VISUAL_EFFECT_DIESEL, -3, DISABLE_WAGON_POWER);
 	return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
 }
-
-switch(FEAT_TRAINS, SELF, switch_diesel_USA_Pennsylvania_Railroad_RF_16_Sharknose_length, position_in_vehid_chain % 2) {
-	0: 8;
-	8;
-}
-
-switch(FEAT_TRAINS, SELF, switch_diesel_USA_Pennsylvania_Railroad_RF_16_Sharknose_articulated, extra_callback_info1) {
-	1: return item_diesel_USA_Pennsylvania_Railroad_RF_16_Sharknose;
-    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
-}

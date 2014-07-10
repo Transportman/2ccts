@@ -36,7 +36,7 @@ item(FEAT_TRAINS, item_diesel_USA_UP_EMD_E8) {
 		ai_special_flag: AI_FLAG_PASSENGER;
         running_cost_base: RUNNING_COST_DIESEL;
         engine_class: ENGINE_CLASS_DIESEL;
-        visual_effect_and_powered: visual_effect_and_powered(VISUAL_EFFECT_DIESEL, 0, DISABLE_WAGON_POWER); //Set from graphics file
+        visual_effect_and_powered: visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER); //Set from graphics file
         
         climates_available: ALL_CLIMATES;
         sprite_id: SPRITE_ID_NEW_TRAIN;
@@ -47,6 +47,7 @@ item(FEAT_TRAINS, item_diesel_USA_UP_EMD_E8) {
 	}
 	graphics {
 		purchase: spriteset_diesel_USA_UP_EMD_E8_purchase;
-		spriteset_diesel_USA_UP_EMD_E8;
+		visual_effect_and_powered: switch_diesel_USA_UP_EMD_E8_visual_effect;
+		switch_diesel_USA_UP_EMD_E8_position;
 	}
 }

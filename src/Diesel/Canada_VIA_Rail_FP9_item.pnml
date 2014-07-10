@@ -48,8 +48,6 @@ item(FEAT_TRAINS, item_diesel_Canada_VIA_Rail_FP9) {
 	graphics {
 		purchase: spriteset_diesel_Canada_VIA_Rail_FP9_purchase;
 		visual_effect_and_powered: switch_diesel_Canada_VIA_Rail_FP9_visual_effect;
-		length: switch_diesel_Canada_VIA_Rail_FP9_length;
-		articulated_part: switch_diesel_Canada_VIA_Rail_FP9_articulated;
 		switch_diesel_Canada_VIA_Rail_FP9_position;
 	}
 }

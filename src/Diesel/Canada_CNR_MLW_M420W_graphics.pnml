@@ -19,34 +19,6 @@ spriteset(spriteset_diesel_Canada_CNR_MLW_M420W_purchase, "gfx/Diesel/Canada_CNR
 */
 
 //Engine
-spriteset(spriteset_diesel_Canada_CNR_MLW_M420W_engine, "gfx/Diesel/Canada_CNR_MLW_M420W.png") {
+spriteset(spriteset_diesel_Canada_CNR_MLW_M420W, "gfx/Diesel/Canada_CNR_MLW_M420W.png") {
 	template_2cc_engines_general(1, 1)
-}
-//Tender
-spriteset(spriteset_diesel_Canada_CNR_MLW_M420W_tender, "gfx/Diesel/Canada_CNR_MLW_M420W.png") {
-	template_2cc_engines_general(1, 32)
-}
-
-switch(FEAT_TRAINS, SELF, switch_diesel_Canada_CNR_MLW_M420W_position, position_in_vehid_chain % 2) {
-	0: spriteset_diesel_Canada_CNR_MLW_M420W_engine;
-	spriteset_diesel_Canada_CNR_MLW_M420W_tender;
-}
-
-/*
-* Visual effect
-*/
-
-switch(FEAT_TRAINS, SELF, switch_diesel_Canada_CNR_MLW_M420W_visual_effect, position_in_vehid_chain % 2) {
-	0: return visual_effect_and_powered(VISUAL_EFFECT_DIESEL, -3, DISABLE_WAGON_POWER);
-	return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
-}
-
-switch(FEAT_TRAINS, SELF, switch_diesel_Canada_CNR_MLW_M420W_length, position_in_vehid_chain % 2) {
-	0: 8;
-	8;
-}
-
-switch(FEAT_TRAINS, SELF, switch_diesel_Canada_CNR_MLW_M420W_articulated, extra_callback_info1) {
-	1: return item_diesel_Canada_CNR_MLW_M420W;
-    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
 }

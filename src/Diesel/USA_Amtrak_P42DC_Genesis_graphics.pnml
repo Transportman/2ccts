@@ -19,34 +19,6 @@ spriteset(spriteset_diesel_USA_Amtrak_P42DC_Genesis_purchase, "gfx/Diesel/USA_Am
 */
 
 //Engine
-spriteset(spriteset_diesel_USA_Amtrak_P42DC_Genesis_engine, "gfx/Diesel/USA_Amtrak_P42DC_Genesis.png") {
+spriteset(spriteset_diesel_USA_Amtrak_P42DC_Genesis, "gfx/Diesel/USA_Amtrak_P42DC_Genesis.png") {
 	template_2cc_engines_general(1, 1)
-}
-//Tender
-spriteset(spriteset_diesel_USA_Amtrak_P42DC_Genesis_tender, "gfx/Diesel/USA_Amtrak_P42DC_Genesis.png") {
-	template_2cc_engines_general(1, 32)
-}
-
-switch(FEAT_TRAINS, SELF, switch_diesel_USA_Amtrak_P42DC_Genesis_position, position_in_vehid_chain % 2) {
-	0: spriteset_diesel_USA_Amtrak_P42DC_Genesis_engine;
-	spriteset_diesel_USA_Amtrak_P42DC_Genesis_tender;
-}
-
-/*
-* Visual effect
-*/
-
-switch(FEAT_TRAINS, SELF, switch_diesel_USA_Amtrak_P42DC_Genesis_visual_effect, position_in_vehid_chain % 2) {
-	0: return visual_effect_and_powered(VISUAL_EFFECT_DIESEL, -3, DISABLE_WAGON_POWER);
-	return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
-}
-
-switch(FEAT_TRAINS, SELF, switch_diesel_USA_Amtrak_P42DC_Genesis_length, position_in_vehid_chain % 2) {
-	0: 8;
-	8;
-}
-
-switch(FEAT_TRAINS, SELF, switch_diesel_USA_Amtrak_P42DC_Genesis_articulated, extra_callback_info1) {
-	1: return item_diesel_USA_Amtrak_P42DC_Genesis;
-    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
 }
