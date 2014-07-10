@@ -65,6 +65,7 @@ str_steam_Switzerland_SBB_E_3_3         :SBB E 3/3 (Vapor)
 str_steam_Austria_KkStB_299             :KkStB 299 (Vapor)
 str_steam_New_Zealand_NZR_X_Class       :NZR X Class (Vapor)
 str_steam_Italy_FS_880                          :FS 880 (Vapor)
+str_steam_France_SNCF_140C                      :SNCF 140C (Vapor)
 str_steam_UK_GWR_5700                           :GWR 5700 (Vapor)
 str_steam_Netherlands_NS_6300           :NS 6300 (Vapor)
 str_steam_USA_AT_SF_5000                        :AT&SF 5000 (Vapor)
@@ -279,6 +280,7 @@ str_mglv_China_Transrapid       :Shanghai Transrapid (Maglev)
 str_mglv_Japan_MLX01_901        :JR MLX01-901 (Maglev)
 
 #wagons
+str_wagon_Gen1_Tanker :Cisterna, 1a generación
 str_wagon_Gen2_Tanker :Cisterna, 2a generación
 str_wagon_Gen3_Open_Wagon :Vagón abierto, 3era Generación
 str_wagon_Gen4_Gondola :Góndola, 4a Generación
