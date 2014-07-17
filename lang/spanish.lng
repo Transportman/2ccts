@@ -225,6 +225,7 @@ str_dmu_Croatia_HZ_7022 :HZ 7022 (DMU)
 
 #EMU
 str_emu_Netherlands_NS_Mat24 :NS Mat'24 (EMU)
+str_emu_Austria_OBB_4041 :OBB 4041 (EMU)
 str_emu_Italy_FS_ETR200 :FS ETR200 (EMU)
 str_emu_Netherlands_NS_Mat54 :NS Mat'54 (EMU)
 str_emu_Switzerland_SBB_Rae_TEE_II :SBB Rae TEE II (EMU)
@@ -292,6 +293,7 @@ str_mglv_China_Transrapid       :Shanghai Transrapid (Maglev)
 str_mglv_Japan_MLX01_901        :JR MLX01-901 (Maglev)
 
 #wagons
+str_wagon_Gen1_Flat_Wagon :Vagón plano, 1a generación
 str_wagon_Gen1_Tanker :Cisterna, 1a generación
 str_wagon_Gen2_Tanker :Cisterna, 2a generación
 str_wagon_Gen3_Open_Wagon :Vagón abierto, 3era Generación
