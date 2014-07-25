@@ -31,7 +31,7 @@ str_rbs_Italy_FS_86                     :FS 86 (Ferrobús a Vapor)
 #Diesel Railbus
 str_rbd_Australia_Victorian_Railways_AEC_RM1    :Victorian Railways AEC RM1 (Ferrobús Dièsel)
 str_rbd_Germany_DB_VT133                                                :DB VT133 (Ferrobús Dièsel)
-str_rbd_United_Kingdom_GWR_AEC_Railcar                  :GWR AEC Railcar (Ferrobús Dièsel)
+str_rbd_United_Kingdom_GWR_AEC_Railcar                  :Automotor GWR AEC (Ferrobús Dièsel)
 str_rbd_Germany_DB_VT42                                                 :DB VT42 (Ferrobús Dièsel)
 str_rbd_New_Zealand_NZR_RM31                                    :NZR RM31 (Ferrobús Dièsel)
 str_rbd_Portugal_CP_0100                                                :CP 0100 (Ferrobús Dièsel)
@@ -231,7 +231,7 @@ str_dmu_Germany_DB_642_Desiro :DB 642 'Desiro' (DMU)
 str_dmu_Denmark_Arriva_Lint_41 :Arriva Lint 41 (DMU)
 str_dmu_Norway_NSB_BM_93_Talent :NSB BM 93 'Talent' (DMU)
 str_dmu_Australia_Transwa_Prospector :Transwa Prospector (DMU)
-str_dmu_Australia_CityRail_Hunter_Railcar :CityRail Hunter Railcar (DMU)
+str_dmu_Australia_CityRail_Hunter_Railcar :Automotor CityRail Hunter (DMU)
 str_dmu_Russia_RZD_RA2 :RZD RA2 (DMU)
 str_dmu_Denmark_DSB_IC4 :DSB IC4 (DMU)
 str_dmu_Croatia_HZ_7022 :HZ 7022 (DMU)
@@ -284,7 +284,7 @@ str_emu_Netherlands_NS_4800_HSA :NS 4800 HSA (EMU)
 str_emu_Italy_NTV_AGV_Duplex :NTV AGV Duplex (EMU)
 
 #Single Unit Metro
-str_mtro_USA_Brooklyn_Union_Gate_Car    :Brooklyn Union Gate Car (Metro)
+str_mtro_USA_Brooklyn_Union_Gate_Car    :Cotxe Brooklyn Union Gate (Metro)
 str_mtro_Hungary_Budapest_1894_Stock    :Budapest 1894 Stock (Metro)
 str_mtro_USA_Chicago_L_Northwest_Elevated_1907_Stock    :Chicago L Northwest Elevated 1907 Stock (Metro)
 str_mtro_Germany_Berlin_U_Bahn_C_II             :Berlin U-Bahn C II (Metro)
@@ -331,39 +331,39 @@ str_mglv_Japan_MLX01_901        :JR MLX01-901 (Maglev)
 
 #wagons
 str_wagon_Gen1_Flat_Wagon :Vagó Plataforma de 1a Generació
-str_wagon_Gen1_Boxcar :Vagó de Fusta de 1a Generació
+str_wagon_Gen1_Boxcar :Furgó de Fusta de 1a Generació
 str_wagon_Gen1_Tanker :Vagó Cisterna de 1a Generació
 str_wagon_Gen1_Open_Wagon :Vagó Obert de Fusta de 1a Generació
 str_wagon_Gen2_Flat_Wagon :Vagó Plataforma de 2a Generació
-str_wagon_Gen2_Boxcar :Vagó de Fusta de 2a Generació
+str_wagon_Gen2_Boxcar :Furgó de Fusta de 2a Generació
 str_wagon_Gen2_Tanker :Vagó Cisterna de 2a Generació
 str_wagon_Gen2_Open_Wagon :Vagó Obert de Fusta de 2a Generació
 str_wagon_Gen2_Silo :Vagó Sitja de 2a Generació
 str_wagon_Gen2_Hopper :Vagó Tremuja de 2a Generació
 str_wagon_Gen3_Flat_Wagon :Vagó Plataforma de 3a Generació
-str_wagon_Gen3_Boxcar :Vagó de Fusta de 3a Generació
+str_wagon_Gen3_Boxcar :Furgó de Fusta de 3a Generació
 str_wagon_Gen3_Tanker :Vagó Cisterna de 3a Generació
 str_wagon_Gen3_Open_Wagon :Vagó Obert de 3a Generació
 str_wagon_Gen3_Silo :Vagó Sitja de 3a Generació
 str_wagon_Gen3_Hopper :Vagó Tremuja de 3a Generació
 str_wagon_Gen4_Flatcar :Vagó Plataforma de 4a Generació
 str_wagon_Gen4_Heavy_Flatcar :Vagó Plataforma Pesant de 4a Generació
-str_wagon_Gen4_Boxcar :Vagó de 4a Generació
+str_wagon_Gen4_Boxcar :Furgó de 4a Generació
 str_wagon_Gen4_Tanker :Vagó Cisterna de 4a Generació
 str_wagon_Gen4_Gondola :Vagó Obert de 4a Generació
 str_wagon_Gen4_Silo :Vagó Sitja de 4a Generació
 str_wagon_Gen4_Hopper :Vagó Tremuja Autodescàrregable de 4a Generació
-str_wagon_Gen4_Car_Transporter :Vagó Transport de 4a Generació
+str_wagon_Gen4_Car_Transporter :Vagó Portacotxes de 4a Generació
 str_wagon_Gen4_Container_Carrier :Vagó de Contenidors de 4a Generació
 str_wagon_Gen4_Centerbeam :Vagó Plataforma de 4a Generació (Centerbeam)
 str_wagon_Gen5_Flatcar :Vagó Plataforma de 5a Generació
 str_wagon_Gen5_Heavy_Flatcar :Vagó Plataforma Pesant de 5a Generació
-str_wagon_Gen5_Boxcar :Vagó de 5a Generació
+str_wagon_Gen5_Boxcar :Furgó de 5a Generació
 str_wagon_Gen5_Tanker :Vagó Cisterna de 5a Generació
 str_wagon_Gen5_Gondola :Vagó Obert de 5a Generació
 str_wagon_Gen5_Silo :Vagó Sitja de 5a Generació
 str_wagon_Gen5_Hopper :Vagó Tremuja Autodescàrregable de 5a Generació
-str_wagon_Gen5_Car_Transporter :Vagó Transport de 5a Generació
+str_wagon_Gen5_Car_Transporter :Vagó Portacotxes de 5a Generació
 str_wagon_Gen5_Container_Carrier :Vagó de Contenidors de 5a Generació
 str_wagon_Gen5_Centerbeam :Vagó Plataforma de 5a Generació (Centerbeam)
 str_wagon_Gen5_Container_Doublestack :Vagó de Contenidors Apilats de 5a Generació
@@ -397,7 +397,7 @@ str_coach_Gen3_Steel_Lightweight_Mail_Coach :Vagó de Correu d'Acer Lleuger
 str_coach_Gen3_Aluminium_Lightweight_Intercity_Coach :Vagó Interurbà d'Alumini Lleuger
 str_coach_Gen3_Aluminium_Lightweight_Regional_Coach :Vagó Regional Lleuger d'Alumini
 str_coach_Gen3_Aluminium_Lightweight_Mail_Coach :Vagó de Correu d'Alumini Lleuger
-str_coach_Gen3_Gallery_Car :Vagó Galeria
+str_coach_Gen3_Gallery_Car :Cotxe Galeria
 str_coach_Gen3_Mk1_Intercity_Coach :Vagó Interurbà Mk1
 str_coach_Gen3_Mk1_Regional_Coach :Vagó Regional Mk1
 str_coach_Gen3_Mk1_Mail_Coach :Vagó de Correu Mk1
