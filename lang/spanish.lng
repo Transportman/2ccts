@@ -251,6 +251,7 @@ str_emu_Japan_JR_Shinkansen_Series_700 :JR Shinkansen Series 700 (EMU)
 str_emu_Netherlands_NS_mDDm_390 :NS mDDm 390 (EMU)
 str_emu_Czech_Republic_CD_680_Pendolino :CD 680 'Pendolino' (EMU)
 str_emu_Finland_VR_Sm4 :VR Sm4 (EMU)
+str_emu_Germany_DB_403_ICE_3 :DB 403 ICE-3 (EMU)
 str_emu_Spain_RENFE_120 :RENFE 120 (EMU)
 str_emu_Switzerland_SBB_RABe_523_Flirt :SBB RABe 523 'Flirt' (EMU)
 str_emu_Bulgaria_BDZ_10_Desiro :BDZ 10 'Desiro' (EMU)
@@ -308,6 +309,7 @@ str_mglv_Japan_MLX01_901        :JR MLX01-901 (Maglev)
 #wagons
 str_wagon_Gen1_Flat_Wagon :Vagón plano, 1a generación
 str_wagon_Gen1_Tanker :Cisterna, 1a generación
+str_wagon_Gen2_Flat_Wagon :Vagón plano, 2a generación
 str_wagon_Gen2_Tanker :Cisterna, 2a generación
 str_wagon_Gen3_Open_Wagon :Vagón abierto, 3era Generación
 str_wagon_Gen4_Gondola :Góndola, 4a Generación
