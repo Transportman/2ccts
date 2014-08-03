@@ -24,7 +24,7 @@ item(FEAT_TRAINS, item_rbd_USSR_MPC_ACh2) {
         power: 990 hp;
         cargo_capacity: 67;
         weight: 59 ton;
-        tractive_effort_coefficient: 0.3;
+        tractive_effort_coefficient: 0.24;
         air_drag_coefficient: 0;
         
         reliability_decay: 20;

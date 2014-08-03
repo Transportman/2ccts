@@ -24,7 +24,7 @@ item(FEAT_TRAINS, item_rbd_Australia_Victorian_Railways_AEC_RM1) {
         power: 45 hp;
         cargo_capacity: 33;
         weight: 24 ton;
-        tractive_effort_coefficient: 0.3;
+        tractive_effort_coefficient: 0.1;
         air_drag_coefficient: 0;
         
         reliability_decay: 20;

@@ -24,7 +24,7 @@ item(FEAT_TRAINS, item_rbe_Germany_DB_ET85) {
         power: 740 hp;
         cargo_capacity: 75;
         weight: 61 ton;
-        tractive_effort_coefficient: 0.3;
+        tractive_effort_coefficient: 0.16;
         air_drag_coefficient: 0;
         
         reliability_decay: 20;

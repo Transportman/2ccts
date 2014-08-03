@@ -24,7 +24,7 @@ item(FEAT_TRAINS, item_rbd_Germany_DB_670) {
         power: 335 hp;
         cargo_capacity: 110;
         weight: 34 ton;
-        tractive_effort_coefficient: 0.3;
+        tractive_effort_coefficient: 0.21;
         air_drag_coefficient: 0;
         
         reliability_decay: 20;

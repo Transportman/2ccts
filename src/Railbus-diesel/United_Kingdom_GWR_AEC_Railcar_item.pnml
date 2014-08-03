@@ -24,7 +24,7 @@ item(FEAT_TRAINS, item_rbd_United_Kingdom_GWR_AEC_Railcar) {
         power: 175 hp;
         cargo_capacity: 70;
         weight: 25 ton;
-        tractive_effort_coefficient: 0.3;
+        tractive_effort_coefficient: 0.27;
         air_drag_coefficient: 0;
         
         reliability_decay: 20;

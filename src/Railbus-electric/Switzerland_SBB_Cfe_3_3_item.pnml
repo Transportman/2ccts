@@ -24,7 +24,7 @@ item(FEAT_TRAINS, item_rbe_Switzerland_SBB_Cfe_3_3) {
         power: 195 hp;
         cargo_capacity: 24;
         weight: 24 ton;
-        tractive_effort_coefficient: 0.3;
+        tractive_effort_coefficient: 0.15;
         air_drag_coefficient: 0;
         
         reliability_decay: 20;

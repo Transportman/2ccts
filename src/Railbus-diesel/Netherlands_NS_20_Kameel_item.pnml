@@ -24,7 +24,7 @@ item(FEAT_TRAINS, item_rbd_Netherlands_NS_20_Kameel) {
         power: 285 hp;
         cargo_capacity: 28;
         weight: 58 ton;
-        tractive_effort_coefficient: 0.3;
+        tractive_effort_coefficient: 0.12;
         air_drag_coefficient: 0;
         
         reliability_decay: 20;

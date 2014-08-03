@@ -24,7 +24,7 @@ item(FEAT_TRAINS, item_rbe_Morocco_ONCFM_ZAB1000) {
         power: 480 hp;
         cargo_capacity: 44;
         weight: 40 ton;
-        tractive_effort_coefficient: 0.3;
+        tractive_effort_coefficient: 0.13;
         air_drag_coefficient: 0;
         
         reliability_decay: 20;

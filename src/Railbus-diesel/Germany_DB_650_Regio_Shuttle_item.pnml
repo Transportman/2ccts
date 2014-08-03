@@ -24,7 +24,7 @@ item(FEAT_TRAINS, item_rbd_Germany_DB_650_Regio_Shuttle) {
         power: 690 hp;
         cargo_capacity: 68;
         weight: 40 ton;
-        tractive_effort_coefficient: 0.3;
+        tractive_effort_coefficient: 0.32;
         air_drag_coefficient: 0;
         
         reliability_decay: 20;

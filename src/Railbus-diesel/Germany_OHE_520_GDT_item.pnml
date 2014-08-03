@@ -24,7 +24,7 @@ item(FEAT_TRAINS, item_rbd_Germany_OHE_520_GDT) {
         power: 600 hp;
         cargo_capacity: 108;
         weight: 41 ton;
-        tractive_effort_coefficient: 0.3;
+        tractive_effort_coefficient: 0.25;
         air_drag_coefficient: 0;
         
         reliability_decay: 20;

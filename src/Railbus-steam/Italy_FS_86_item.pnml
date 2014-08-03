@@ -24,7 +24,7 @@ item(FEAT_TRAINS, item_rbs_Italy_FS_86) {
         power: 132 hp;
         cargo_capacity: 86;
         weight: 47 ton;
-        tractive_effort_coefficient: 0.3;
+        tractive_effort_coefficient: 0.08;
         air_drag_coefficient: 0;
         
         reliability_decay: 20;

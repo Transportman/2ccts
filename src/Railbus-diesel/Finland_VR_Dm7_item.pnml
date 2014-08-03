@@ -24,7 +24,7 @@ item(FEAT_TRAINS, item_rbd_Finland_VR_Dm7) {
         power: 180 hp;
         cargo_capacity: 64;
         weight: 18 ton;
-        tractive_effort_coefficient: 0.3;
+        tractive_effort_coefficient: 0.33;
         air_drag_coefficient: 0;
         
         reliability_decay: 20;

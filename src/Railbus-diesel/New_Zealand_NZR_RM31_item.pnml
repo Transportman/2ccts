@@ -24,7 +24,7 @@ item(FEAT_TRAINS, item_rbd_New_Zealand_NZR_RM31) {
         power: 250 hp;
         cargo_capacity: 50;
         weight: 37 ton;
-        tractive_effort_coefficient: 0.3;
+        tractive_effort_coefficient: 0.2;
         air_drag_coefficient: 0;
         
         reliability_decay: 20;

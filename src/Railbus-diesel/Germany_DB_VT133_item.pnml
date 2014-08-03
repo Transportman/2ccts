@@ -24,7 +24,7 @@ item(FEAT_TRAINS, item_rbd_Germany_DB_VT133) {
         power: 38 hp;
         cargo_capacity: 24;
         weight: 6 ton;
-        tractive_effort_coefficient: 0.3;
+        tractive_effort_coefficient: 0.5;
         air_drag_coefficient: 0;
         
         reliability_decay: 20;

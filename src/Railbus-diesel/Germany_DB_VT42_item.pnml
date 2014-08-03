@@ -24,7 +24,7 @@ item(FEAT_TRAINS, item_rbd_Germany_DB_VT42) {
         power: 410 hp;
         cargo_capacity: 78;
         weight: 59 ton;
-        tractive_effort_coefficient: 0.3;
+        tractive_effort_coefficient: 0.08;
         air_drag_coefficient: 0;
         
         reliability_decay: 20;
