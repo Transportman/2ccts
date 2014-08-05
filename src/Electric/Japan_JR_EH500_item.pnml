@@ -24,7 +24,7 @@ item(FEAT_TRAINS, item_electric_Japan_JR_EH500) {
         power: 5350 hp;
         cargo_capacity: 0;
         weight: 134 ton;
-        tractive_effort_coefficient: 0.3;
+        tractive_effort_coefficient: 0.18;
         air_drag_coefficient: 0;
         
         reliability_decay: 20;

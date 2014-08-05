@@ -24,7 +24,7 @@ item(FEAT_TRAINS, item_diesel_UK_BR_14) {
         power: 650 hp;
         cargo_capacity: 0;
         weight: 49 ton;
-        tractive_effort_coefficient: 0.3;
+        tractive_effort_coefficient: 0.28;
         air_drag_coefficient: 0;
         
         reliability_decay: 20;

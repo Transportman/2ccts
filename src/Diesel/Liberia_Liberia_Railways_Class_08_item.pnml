@@ -24,7 +24,7 @@ item(FEAT_TRAINS, item_diesel_Liberia_Liberia_Railways_Class_08) {
         power: 350 hp;
         cargo_capacity: 0;
         weight: 50 ton;
-        tractive_effort_coefficient: 0.3;
+        tractive_effort_coefficient: 0.32;
         air_drag_coefficient: 0;
         
         reliability_decay: 20;

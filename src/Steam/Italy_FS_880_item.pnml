@@ -24,7 +24,7 @@ item(FEAT_TRAINS, item_steam_Italy_FS_880) {
         power: 500 hp;
         cargo_capacity: 0;
         weight: 144 ton;
-        tractive_effort_coefficient: 0.3;
+        tractive_effort_coefficient: 0.1;
         air_drag_coefficient: 0;
         
         reliability_decay: 20;

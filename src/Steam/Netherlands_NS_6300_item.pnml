@@ -24,7 +24,7 @@ item(FEAT_TRAINS, item_steam_Netherlands_NS_6300) {
         power: 1609 hp;
         cargo_capacity: 0;
         weight: 127 ton;
-        tractive_effort_coefficient: 0.3;
+        tractive_effort_coefficient: 0.11;
         air_drag_coefficient: 0;
         
         reliability_decay: 20;

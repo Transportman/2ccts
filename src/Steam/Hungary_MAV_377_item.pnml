@@ -24,7 +24,7 @@ item(FEAT_TRAINS, item_steam_Hungary_MAV_377) {
         power: 300 hp;
         cargo_capacity: 0;
         weight: 27 ton;
-        tractive_effort_coefficient: 0.3;
+        tractive_effort_coefficient: 0.21;
         air_drag_coefficient: 0;
         
         reliability_decay: 20;

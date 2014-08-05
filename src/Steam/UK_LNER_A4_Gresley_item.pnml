@@ -24,7 +24,7 @@ item(FEAT_TRAINS, item_steam_UK_LNER_A4_Gresley) {
         power: 2000 hp;
         cargo_capacity: 0;
         weight: 170 ton;
-        tractive_effort_coefficient: 0.3;
+        tractive_effort_coefficient: 0.09;
         air_drag_coefficient: 0;
         
         reliability_decay: 20;

@@ -24,7 +24,7 @@ item(FEAT_TRAINS, item_electric_Sweden_MTAB_Dm3) {
         power: 9648 hp;
         cargo_capacity: 0;
         weight: 273 ton;
-        tractive_effort_coefficient: 0.3;
+        tractive_effort_coefficient: 0.34;
         air_drag_coefficient: 0;
         
         reliability_decay: 20;

@@ -24,7 +24,7 @@ item(FEAT_TRAINS, item_diesel_USSR_MPC_ChME3) {
         power: 1250 hp;
         cargo_capacity: 0;
         weight: 123 ton;
-        tractive_effort_coefficient: 0.3;
+        tractive_effort_coefficient: 0.29;
         air_drag_coefficient: 0;
         
         reliability_decay: 20;

@@ -24,7 +24,7 @@ item(FEAT_TRAINS, item_steam_Switzerland_SBB_Ec_2_5) {
         power: 400 hp;
         cargo_capacity: 0;
         weight: 46 ton;
-        tractive_effort_coefficient: 0.3;
+        tractive_effort_coefficient: 0.1;
         air_drag_coefficient: 0;
         
         reliability_decay: 20;

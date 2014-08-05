@@ -24,7 +24,7 @@ item(FEAT_TRAINS, item_electric_France_SNCF_BB_22200) {
         power: 5842 hp;
         cargo_capacity: 0;
         weight: 90 ton;
-        tractive_effort_coefficient: 0.3;
+        tractive_effort_coefficient: 0.33;
         air_drag_coefficient: 0;
         
         reliability_decay: 20;

@@ -24,7 +24,7 @@ item(FEAT_TRAINS, item_diesel_Uruguay_AFE_1500) {
         power: 1500 hp;
         cargo_capacity: 0;
         weight: 112 ton;
-        tractive_effort_coefficient: 0.3;
+        tractive_effort_coefficient: 0.18;
         air_drag_coefficient: 0;
         
         reliability_decay: 20;

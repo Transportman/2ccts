@@ -24,7 +24,7 @@ item(FEAT_TRAINS, item_steam_UK_GWR_4900) {
         power: 1750 hp;
         cargo_capacity: 0;
         weight: 122 ton;
-        tractive_effort_coefficient: 0.3;
+        tractive_effort_coefficient: 0.1;
         air_drag_coefficient: 0;
         
         reliability_decay: 20;

@@ -24,7 +24,7 @@ item(FEAT_TRAINS, item_electric_Germany_DB_145_TRAXX_F140) {
         power: 7500 hp;
         cargo_capacity: 0;
         weight: 85 ton;
-        tractive_effort_coefficient: 0.3;
+        tractive_effort_coefficient: 0.33;
         air_drag_coefficient: 0;
         
         reliability_decay: 20;

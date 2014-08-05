@@ -24,7 +24,7 @@ item(FEAT_TRAINS, item_diesel_USA_Amtrak_P42DC_Genesis) {
         power: 4250 hp;
         cargo_capacity: 0;
         weight: 134 ton;
-        tractive_effort_coefficient: 0.3;
+        tractive_effort_coefficient: 0.19;
         air_drag_coefficient: 0;
         
         reliability_decay: 20;

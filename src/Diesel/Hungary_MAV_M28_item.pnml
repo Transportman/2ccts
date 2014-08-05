@@ -24,7 +24,7 @@ item(FEAT_TRAINS, item_diesel_Hungary_MAV_M28) {
         power: 197 hp;
         cargo_capacity: 0;
         weight: 19 ton;
-        tractive_effort_coefficient: 0.3;
+        tractive_effort_coefficient: 0.32;
         air_drag_coefficient: 0;
         
         reliability_decay: 20;

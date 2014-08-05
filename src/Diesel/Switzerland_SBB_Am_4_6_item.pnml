@@ -24,7 +24,7 @@ item(FEAT_TRAINS, item_diesel_Switzerland_SBB_Am_4_6) {
         power: 2170 hp;
         cargo_capacity: 0;
         weight: 92 ton;
-        tractive_effort_coefficient: 0.3;
+        tractive_effort_coefficient: 0.14;
         air_drag_coefficient: 0;
         
         reliability_decay: 20;

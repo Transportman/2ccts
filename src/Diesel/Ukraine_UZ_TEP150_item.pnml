@@ -24,7 +24,7 @@ item(FEAT_TRAINS, item_diesel_Ukraine_UZ_TEP150) {
         power: 4216 hp;
         cargo_capacity: 0;
         weight: 135 ton;
-        tractive_effort_coefficient: 0.3;
+        tractive_effort_coefficient: 0.12;
         air_drag_coefficient: 0;
         
         reliability_decay: 20;

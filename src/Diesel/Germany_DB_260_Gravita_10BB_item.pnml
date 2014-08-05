@@ -24,7 +24,7 @@ item(FEAT_TRAINS, item_diesel_Germany_DB_260_Gravita_10BB) {
         power: 1600 hp;
         cargo_capacity: 0;
         weight: 100 ton;
-        tractive_effort_coefficient: 0.3;
+        tractive_effort_coefficient: 0.41;
         air_drag_coefficient: 0;
         
         reliability_decay: 20;

@@ -24,7 +24,7 @@ item(FEAT_TRAINS, item_electric_Italy_FS_E646) {
         power: 6610 hp;
         cargo_capacity: 0;
         weight: 110 ton;
-        tractive_effort_coefficient: 0.3;
+        tractive_effort_coefficient: 0.21;
         air_drag_coefficient: 0;
         
         reliability_decay: 20;

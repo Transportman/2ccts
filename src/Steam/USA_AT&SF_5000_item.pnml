@@ -24,7 +24,7 @@ item(FEAT_TRAINS, item_steam_USA_AT_SF_5000) {
         power: 5700 hp;
         cargo_capacity: 0;
         weight: 398 ton;
-        tractive_effort_coefficient: 0.3;
+        tractive_effort_coefficient: 0.12;
         air_drag_coefficient: 0;
         
         reliability_decay: 20;

@@ -24,7 +24,7 @@ item(FEAT_TRAINS, item_electric_Switzerland_SBB_Eem_923) {
         power: 1000 hp;
         cargo_capacity: 0;
         weight: 45 ton;
-        tractive_effort_coefficient: 0.3;
+        tractive_effort_coefficient: 0.27;
         air_drag_coefficient: 0;
         
         reliability_decay: 20;

@@ -24,7 +24,7 @@ item(FEAT_TRAINS, item_electric_USA_Pennsylvania_Railroad_FF_1) {
         power: 4800 hp;
         cargo_capacity: 0;
         weight: 234 ton;
-        tractive_effort_coefficient: 0.3;
+        tractive_effort_coefficient: 0.17;
         air_drag_coefficient: 0;
         
         reliability_decay: 20;

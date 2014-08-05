@@ -24,7 +24,7 @@ item(FEAT_TRAINS, item_electric_Poland_PKP_ET41) {
         power: 2681 hp;
         cargo_capacity: 0;
         weight: 84 ton;
-        tractive_effort_coefficient: 0.3;
+        tractive_effort_coefficient: 0.6;
         air_drag_coefficient: 0;
         
         reliability_decay: 20;

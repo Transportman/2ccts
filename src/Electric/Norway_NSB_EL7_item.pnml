@@ -24,7 +24,7 @@ item(FEAT_TRAINS, item_electric_Norway_NSB_EL7) {
         power: 490 hp;
         cargo_capacity: 0;
         weight: 48 ton;
-        tractive_effort_coefficient: 0.3;
+        tractive_effort_coefficient: 0.22;
         air_drag_coefficient: 0;
         
         reliability_decay: 20;

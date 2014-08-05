@@ -24,7 +24,7 @@ item(FEAT_TRAINS, item_electric_Japan_JNR_EF55) {
         power: 1810 hp;
         cargo_capacity: 0;
         weight: 100 ton;
-        tractive_effort_coefficient: 0.3;
+        tractive_effort_coefficient: 0.06;
         air_drag_coefficient: 0;
         
         reliability_decay: 20;

@@ -24,7 +24,7 @@ item(FEAT_TRAINS, item_electric_USSR_MPC_VL41) {
         power: 2280 hp;
         cargo_capacity: 0;
         weight: 92 ton;
-        tractive_effort_coefficient: 0.3;
+        tractive_effort_coefficient: 0.19;
         air_drag_coefficient: 0;
         
         reliability_decay: 20;

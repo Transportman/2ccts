@@ -24,7 +24,7 @@ item(FEAT_TRAINS, item_diesel_USA_CNJ_ALCo_GE_IR_Boxcab) {
         power: 300 hp;
         cargo_capacity: 0;
         weight: 61 ton;
-        tractive_effort_coefficient: 0.3;
+        tractive_effort_coefficient: 0.11;
         air_drag_coefficient: 0;
         
         reliability_decay: 20;

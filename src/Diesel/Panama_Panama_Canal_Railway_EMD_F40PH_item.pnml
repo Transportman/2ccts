@@ -24,7 +24,7 @@ item(FEAT_TRAINS, item_diesel_Panama_Panama_Canal_Railway_EMD_F40PH) {
         power: 3000 hp;
         cargo_capacity: 0;
         weight: 115 ton;
-        tractive_effort_coefficient: 0.3;
+        tractive_effort_coefficient: 0.1;
         air_drag_coefficient: 0;
         
         reliability_decay: 20;

@@ -24,7 +24,7 @@ item(FEAT_TRAINS, item_diesel_Germany_DB_220_V200) {
         power: 2169 hp;
         cargo_capacity: 0;
         weight: 81 ton;
-        tractive_effort_coefficient: 0.3;
+        tractive_effort_coefficient: 0.29;
         air_drag_coefficient: 0;
         
         reliability_decay: 20;

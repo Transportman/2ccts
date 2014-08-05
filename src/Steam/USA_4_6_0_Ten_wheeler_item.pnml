@@ -24,7 +24,7 @@ item(FEAT_TRAINS, item_steam_USA_4_6_0_Ten_wheeler) {
         power: 700 hp;
         cargo_capacity: 0;
         weight: 69 ton;
-        tractive_effort_coefficient: 0.3;
+        tractive_effort_coefficient: 0.08;
         air_drag_coefficient: 0;
         
         reliability_decay: 20;

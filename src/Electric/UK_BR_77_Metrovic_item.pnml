@@ -24,7 +24,7 @@ item(FEAT_TRAINS, item_electric_UK_BR_77_Metrovic) {
         power: 2490 hp;
         cargo_capacity: 0;
         weight: 102 ton;
-        tractive_effort_coefficient: 0.3;
+        tractive_effort_coefficient: 0.2;
         air_drag_coefficient: 0;
         
         reliability_decay: 20;

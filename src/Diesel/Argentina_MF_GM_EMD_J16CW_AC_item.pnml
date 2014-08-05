@@ -24,7 +24,7 @@ item(FEAT_TRAINS, item_diesel_Argentina_MF_GM_EMD_J16CW_AC) {
         power: 1870 hp;
         cargo_capacity: 0;
         weight: 112 ton;
-        tractive_effort_coefficient: 0.3;
+        tractive_effort_coefficient: 0.21;
         air_drag_coefficient: 0;
         
         reliability_decay: 20;

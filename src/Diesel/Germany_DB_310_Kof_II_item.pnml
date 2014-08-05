@@ -24,7 +24,7 @@ item(FEAT_TRAINS, item_diesel_Germany_DB_310_Kof_II) {
         power: 95 hp;
         cargo_capacity: 0;
         weight: 18 ton;
-        tractive_effort_coefficient: 0.3;
+        tractive_effort_coefficient: 0.39;
         air_drag_coefficient: 0;
         
         reliability_decay: 20;

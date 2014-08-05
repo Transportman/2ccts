@@ -24,7 +24,7 @@ item(FEAT_TRAINS, item_steam_USA_4_4_0_American) {
         power: 650 hp;
         cargo_capacity: 0;
         weight: 60 ton;
-        tractive_effort_coefficient: 0.3;
+        tractive_effort_coefficient: 0.07;
         air_drag_coefficient: 0;
         
         reliability_decay: 20;

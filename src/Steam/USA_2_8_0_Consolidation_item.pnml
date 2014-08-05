@@ -24,7 +24,7 @@ item(FEAT_TRAINS, item_steam_USA_2_8_0_Consolidation) {
         power: 1000 hp;
         cargo_capacity: 0;
         weight: 126 ton;
-        tractive_effort_coefficient: 0.3;
+        tractive_effort_coefficient: 0.13;
         air_drag_coefficient: 0;
         
         reliability_decay: 20;

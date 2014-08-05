@@ -24,7 +24,7 @@ item(FEAT_TRAINS, item_diesel_Turkey_TCDD_DH7000) {
         power: 700 hp;
         cargo_capacity: 0;
         weight: 51 ton;
-        tractive_effort_coefficient: 0.3;
+        tractive_effort_coefficient: 0.28;
         air_drag_coefficient: 0;
         
         reliability_decay: 20;

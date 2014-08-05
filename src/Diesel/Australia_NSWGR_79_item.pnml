@@ -24,7 +24,7 @@ item(FEAT_TRAINS, item_diesel_Australia_NSWGR_79) {
         power: 380 hp;
         cargo_capacity: 0;
         weight: 40 ton;
-        tractive_effort_coefficient: 0.3;
+        tractive_effort_coefficient: 0.15;
         air_drag_coefficient: 0;
         
         reliability_decay: 20;

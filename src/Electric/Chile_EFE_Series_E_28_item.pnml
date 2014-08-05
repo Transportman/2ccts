@@ -24,7 +24,7 @@ item(FEAT_TRAINS, item_electric_Chile_EFE_Series_E_28) {
         power: 2250 hp;
         cargo_capacity: 0;
         weight: 115 ton;
-        tractive_effort_coefficient: 0.3;
+        tractive_effort_coefficient: 0.19;
         air_drag_coefficient: 0;
         
         reliability_decay: 20;

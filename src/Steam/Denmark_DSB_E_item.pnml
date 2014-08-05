@@ -24,7 +24,7 @@ item(FEAT_TRAINS, item_steam_Denmark_DSB_E) {
         power: 1000 hp;
         cargo_capacity: 0;
         weight: 137 ton;
-        tractive_effort_coefficient: 0.3;
+        tractive_effort_coefficient: 0.06;
         air_drag_coefficient: 0;
         
         reliability_decay: 20;

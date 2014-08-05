@@ -24,7 +24,7 @@ item(FEAT_TRAINS, item_steam_USSR_MPC_P36) {
         power: 3125 hp;
         cargo_capacity: 0;
         weight: 245 ton;
-        tractive_effort_coefficient: 0.3;
+        tractive_effort_coefficient: 0.06;
         air_drag_coefficient: 0;
         
         reliability_decay: 20;
