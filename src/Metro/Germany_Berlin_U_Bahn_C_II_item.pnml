@@ -24,7 +24,7 @@ item(FEAT_TRAINS, item_mtro_Germany_Berlin_U_Bahn_C_II) {
         power: 375 hp;
         cargo_capacity: 157;
         weight: 50 ton;
-        tractive_effort_coefficient: 0.3;
+        tractive_effort_coefficient: 0.07;
         air_drag_coefficient: 0;
         
         reliability_decay: 20;

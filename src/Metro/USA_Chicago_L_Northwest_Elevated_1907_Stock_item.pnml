@@ -24,7 +24,7 @@ item(FEAT_TRAINS, item_mtro_USA_Chicago_L_Northwest_Elevated_1907_Stock) {
         power: 250 hp;
         cargo_capacity: 130;
         weight: 50 ton;
-        tractive_effort_coefficient: 0.3;
+        tractive_effort_coefficient: 0.1;
         air_drag_coefficient: 0;
         
         reliability_decay: 20;
