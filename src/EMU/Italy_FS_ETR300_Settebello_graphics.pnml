@@ -28,13 +28,24 @@ spriteset(spriteset_emu_Italy_FS_ETR300_Settebello_back, "gfx/EMU/Italy_FS_ETR30
 	template_2cc_engines_general(1, 32)
 }
 
-//Middle - PAX
-spriteset(spriteset_emu_Italy_FS_ETR300_Settebello_middlepass, "gfx/EMU/Italy_FS_ETR300_Settebello.png") {
+//Middle - PAX-L1
+spriteset(spriteset_emu_Italy_FS_ETR300_Settebello_middlepass_L1, "gfx/EMU/Italy_FS_ETR300_Settebello.png") {
 	template_2cc_engines_general(1, 64)
 }
-//Middle - MAIL
-spriteset(spriteset_emu_Italy_FS_ETR300_Settebello_middlemail, "gfx/EMU/Italy_FS_ETR300_Settebello.png") {
+
+//Middle - PAX-L2
+spriteset(spriteset_emu_Italy_FS_ETR300_Settebello_middlepass_L2, "gfx/EMU/Italy_FS_ETR300_Settebello.png") {
+	template_2cc_engines_general(178, 64)
+}
+
+//Middle - MAIL-L1
+spriteset(spriteset_emu_Italy_FS_ETR300_Settebello_middlemail_L1, "gfx/EMU/Italy_FS_ETR300_Settebello.png") {
 	template_2cc_engines_general(1, 96)
+}
+
+//Middle - MAIL-L2
+spriteset(spriteset_emu_Italy_FS_ETR300_Settebello_middlemail_L2, "gfx/EMU/Italy_FS_ETR300_Settebello.png") {
+	template_2cc_engines_general(178, 96)
 }
 
 //Dualheaded engines
@@ -45,10 +56,37 @@ switch(FEAT_TRAINS, SELF, switch_emu_Italy_FS_ETR300_Settebello_reversed, var[0x
 }
 
 //Visual effect, for EMU this is done on the part with the pantograph
-switch(FEAT_TRAINS, SELF, switch_emu_Italy_FS_ETR300_Settebello_visual_effect_and_powered, var[0xC8]) {
-	0xFE: visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
-	0xFF: visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
-	visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, -3, DISABLE_WAGON_POWER);
+random_switch(FEAT_TRAINS, SELF, switch_emu_Italy_FS_ETR300_Settebello_visual_effect_and_powered) {
+	9: visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
+	1: visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, -3, DISABLE_WAGON_POWER);
+}
+
+switch(FEAT_TRAINS, SELF, switch_emu_Italy_FS_ETR300_Settebello_visual_effect_and_powered_position, position_in_vehid_chain) {
+	0: visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, -3, DISABLE_WAGON_POWER);
+	switch_emu_Italy_FS_ETR300_Settebello_visual_effect_and_powered;
+}
+
+random_switch(FEAT_TRAINS, SELF, switch_emu_Italy_FS_ETR300_Settebello_middlepass_livery) {
+	dependent: switch_emu_Italy_FS_ETR300_Settebello_visual_effect_and_powered;
+	9: spriteset_emu_Italy_FS_ETR300_Settebello_middlepass_L1;
+	1: spriteset_emu_Italy_FS_ETR300_Settebello_middlepass_L2;
+}
+
+random_switch(FEAT_TRAINS, SELF, switch_emu_Italy_FS_ETR300_Settebello_middlemail_livery) {
+	dependent: switch_emu_Italy_FS_ETR300_Settebello_visual_effect_and_powered;
+	9: spriteset_emu_Italy_FS_ETR300_Settebello_middlemail_L1;
+	1: spriteset_emu_Italy_FS_ETR300_Settebello_middlemail_L2;
+}
+
+//First unit wagon always has a pantograph
+switch(FEAT_TRAINS, SELF, switch_emu_Italy_FS_ETR300_Settebello_middlepass_position, position_in_vehid_chain) {
+	0: spriteset_emu_Italy_FS_ETR300_Settebello_middlepass_L2;
+	switch_emu_Italy_FS_ETR300_Settebello_middlepass_livery;
+}
+
+switch(FEAT_TRAINS, SELF, switch_emu_Italy_FS_ETR300_Settebello_middlemail_position, position_in_vehid_chain) {
+	0: spriteset_emu_Italy_FS_ETR300_Settebello_middlemail_L2;
+	switch_emu_Italy_FS_ETR300_Settebello_middlemail_livery;
 }
 	
 /*
@@ -63,6 +101,6 @@ switch(FEAT_TRAINS, SELF, switch_emu_Italy_FS_ETR300_Settebello_capacity, cargo_
 
 //Graphics for the unit wagon based on cargo class
 switch(FEAT_TRAINS, SELF, switch_emu_Italy_FS_ETR300_Settebello_cargo_selection, cargo_classes){
-	bitmask(CC_PASSENGERS): spriteset_emu_Italy_FS_ETR300_Settebello_middlepass;
-	spriteset_emu_Italy_FS_ETR300_Settebello_middlemail;
+	bitmask(CC_PASSENGERS): switch_emu_Italy_FS_ETR300_Settebello_middlepass_position;
+	switch_emu_Italy_FS_ETR300_Settebello_middlemail_position;
 }

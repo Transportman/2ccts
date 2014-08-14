@@ -48,7 +48,6 @@ item(FEAT_TRAINS, item_emu_Italy_FS_ETR300_Settebello) {
 	graphics {
 		purchase: spriteset_emu_Italy_FS_ETR300_Settebello_purchase;
 		cargo_capacity: switch_emu_Italy_FS_ETR300_Settebello_capacity;
-		visual_effect_and_powered: switch_emu_Italy_FS_ETR300_Settebello_visual_effect_and_powered;
 		switch_emu_Italy_FS_ETR300_Settebello_reversed;
 	}	
 	livery_override (item_mu_wagon_unpowered){
@@ -58,6 +57,7 @@ item(FEAT_TRAINS, item_emu_Italy_FS_ETR300_Settebello) {
 		weight: 26;
 		cargo_capacity: switch_emu_Italy_FS_ETR300_Settebello_capacity;
 		length: 8;
+		visual_effect_and_powered: switch_emu_Italy_FS_ETR300_Settebello_visual_effect_and_powered_position;
 		default: switch_emu_Italy_FS_ETR300_Settebello_cargo_selection;
 	}
 	livery_override (item_mu_wagon_powered){
@@ -67,6 +67,7 @@ item(FEAT_TRAINS, item_emu_Italy_FS_ETR300_Settebello) {
 		weight: 39;
 		cargo_capacity: switch_emu_Italy_FS_ETR300_Settebello_capacity;
 		length: 8;
+		visual_effect_and_powered: switch_emu_Italy_FS_ETR300_Settebello_visual_effect_and_powered_position;
 		default: switch_emu_Italy_FS_ETR300_Settebello_cargo_selection;
 	}
 }
