@@ -21,7 +21,7 @@ item(FEAT_TRAINS, item_electric_Poland_PKP_ET41) {
         cost_factor: 8;
         running_cost_factor: 67;
         speed: 125 km/h;
-        power: 2681 hp;
+        power: 5400 hp;
         cargo_capacity: 0;
         weight: 84 ton;
         tractive_effort_coefficient: 0.6;
