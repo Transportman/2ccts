@@ -359,6 +359,7 @@ str_coach_Gen3_Steel_Lightweight_Mail_Coach :Vagón de correo ligero, acero
 str_coach_Gen3_Aluminium_Lightweight_Intercity_Coach :Vagón Intercity ligero, aluminio
 str_coach_Gen3_Aluminium_Lightweight_Regional_Coach :Vagón regional ligero, aluminio
 str_coach_Gen3_Aluminium_Lightweight_Mail_Coach :Vagón de correo ligero, aluminio
+str_coach_Gen3_Gallery_Car :Vagón Galería
 str_coach_Gen3_Mk1_Intercity_Coach :Vagón Intercity Mk1
 str_coach_Gen3_Mk1_Regional_Coach :Vagón Regional Mk1
 str_coach_Gen3_Mk1_Mail_Coach :Vagón de correo Mk1
@@ -368,6 +369,8 @@ str_coach_Gen3_UIC_X_Regional_Coach :Vagón regional UIC-X
 str_coach_Gen3_Umbauwagen_Local_Coach :Vagón local 'Umbauwagen'
 str_coach_Gen3_Doppelstockwagen_Local_Coach :Vagón local 'Doppelstockwagen'
 str_coach_Gen3_UIC_X_Mail_Coach :Vagón de correo UIC-X
+str_coach_Gen3_Indian_Local_Coach :Vagón local Indio
+str_coach_Gen3_Indian_Mail_Coach :Vagón de correo Indio
 str_coach_Gen4_Eurofima_Intercity_Coach :Vagón Eurofima
 str_coach_Gen4_InterRegio_Coach :Vagón InterRegio
 str_coach_Gen4_Eurofima_Mail_Coach :Vagón de correo Eurofima
