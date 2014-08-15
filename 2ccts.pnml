@@ -163,6 +163,16 @@
 #include "src/Steam/South_Africa_SAR_25_item.pnml"
 #include "src/Steam/USSR_MPC_P36_graphics.pnml"
 #include "src/Steam/USSR_MPC_P36_item.pnml"
+#include "src/Steam/France_SNCF_150B_graphics.pnml"
+#include "src/Steam/France_SNCF_150B_item.pnml"
+#include "src/Steam/Italy_FS_895_graphics.pnml"
+#include "src/Steam/Italy_FS_895_item.pnml"
+#include "src/Steam/Poland_PKP_Okz32_graphics.pnml"
+#include "src/Steam/Poland_PKP_Okz32_item.pnml"
+#include "src/Steam/Switzerland_SBB_C_5_6_graphics.pnml"
+#include "src/Steam/Switzerland_SBB_C_5_6_item.pnml"
+#include "src/Steam/USA_UP_4000_Big_Boy_graphics.pnml"
+#include "src/Steam/USA_UP_4000_Big_Boy_item.pnml"
 
 //Diesel
 #include "src/Diesel/Germany_DB_310_Kof_II_graphics.pnml"
