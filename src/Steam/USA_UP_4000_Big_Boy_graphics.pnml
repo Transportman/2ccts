@@ -48,7 +48,7 @@ switch(FEAT_TRAINS, SELF, switch_steam_USA_UP_4000_Big_Boy_visual_effect, positi
 
 switch(FEAT_TRAINS, SELF, switch_steam_USA_UP_4000_Big_Boy_length, position_in_vehid_chain % 4) {
 	1: 4;
-	4: 5;
+	3: 7;
 	3;
 }
 
