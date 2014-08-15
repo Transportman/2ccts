@@ -155,6 +155,8 @@ str_diesel_Ukraine_UZ_TEP150 :UZ TEP150 (Diesel)
 str_diesel_China_China_Railways_HXN5 :China Railways HXN5 (Diesel)
 str_diesel_Germany_DB_260_Gravita_10BB :DB 260 Gravita 10BB (Diesel)
 str_diesel_Russia_RZD_GT1 :RZD GT1 (Diesel)
+str_diesel_China_MTR_8000	:MTR 8000 (Diesel)
+str_diesel_Germany_HVLE_V490	:HVLE V490 (Diesel)
 
 #Electric
 str_electric_Switzerland_RhB_DE_2_2 :RhB DE 2/2 (Electric)

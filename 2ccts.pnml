@@ -299,6 +299,10 @@
 #include "src/Diesel/Germany_DB_260_Gravita_10BB_item.pnml"
 #include "src/Diesel/Russia_RZD_GT1_graphics.pnml"
 #include "src/Diesel/Russia_RZD_GT1_item.pnml"
+#include "src/Diesel/China_MTR_8000_graphics.pnml"
+#include "src/Diesel/China_MTR_8000_item.pnml"
+#include "src/Diesel/Germany_HVLE_V490_graphics.pnml"
+#include "src/Diesel/Germany_HVLE_V490_item.pnml"
 
 //Electric
 #include "src/Electric/Switzerland_RhB_DE_2_2_graphics.pnml"
