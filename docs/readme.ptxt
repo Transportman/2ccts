@@ -29,7 +29,7 @@
 1 About
 -------
 
-2cc Trains In NML for OpenTTD. The set gives you engines 
+2cc Trains In NML for OpenTTD. The set gives you trains 
 from all over the world in 2cc.
 
 {{GRF_TITLE}}
@@ -52,13 +52,17 @@ GRF ID:   "TM\01\01"
 2.2 Installation
 ----------------
 OpenTTD:
-  see http://wiki.openttd.org/NewGRF
-  Releases available from the ingame Online Content
-  Nightlies available from http://dev.openttdcoop.org/projects/2ccts
-
+	see http://wiki.openttd.org/NewGRF
+	Releases will be available from the ingame Online Content
+	Nightlies/Push builds can be downloaded from http://bundles.openttdcoop.org/2ccts/
+	
+  
 2.3 Parameter settings
 ----------------------
-Currently there are no parameters
+Cost Parameters
+	With the cost parameters you can set purchase and running costs. You can set
+	the costs to the following values:
+	1/16x, 1/8x, 1/4x, 1/2x, 1x (default), 2x, 4x, 8x, 16x
   
   
 2.4 Usage
@@ -89,12 +93,6 @@ Toyland/ECS/FIRS cargo support
 	graphical errors and cargoes that can not be transported by a vehicle
 	in this set.
     
-Missing vehicles
-	Most vehicles from the original set have been recoded, 
-	but for a number of vehicles no permission has been obtained. 
-	These vehicles have to be redrawn to have the same license as this set.
-
-
 
 ------------------------
 4 Background information
