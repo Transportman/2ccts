@@ -105,3 +105,35 @@ template template_2cc_railbus_general(x, y) {
     [x+120, y, 32, 16, -16, -10]
     [x+153, y, 22, 20,  -6, -12]	
 }
+
+//Special template for vehicles with length 10
+template template_2cc_L10(x, y) {
+    //[left_x, upper_y, width, height, offset_x, offset_y]
+    [x    , y,  8, 29,  -3, -26]
+    [x+9  , y, 25, 21, -12, -15]
+    [x+36 , y, 40, 16, -12, -12]
+    [x+77 , y, 25, 21,  -3, -10]
+    [x+104 , y,  8, 29,  -3, -9]
+    [x+113 , y, 25, 21, -19, -11]
+    [x+140, y, 40, 16, -28, -12]
+    [x+181, y, 25, 21,  -12, -15]
+}
+
+//Special template for empty spritesets (vehicles with length 10 use this)
+template template_empty_spriteset() {
+    //[left_x, upper_y, width, height, offset_x, offset_y]
+	[1  ,  1,  1,  1,   0,   0, "gfx/Empty.png"]
+    [1  ,  1,  1,  1,   0,   0, "gfx/Empty.png"]
+    [1 	,  1,  1,  1,   0,   0, "gfx/Empty.png"]
+    [1 	,  1,  1,  1,   0,   0, "gfx/Empty.png"]
+    [1 	,  1,  1,  1,   0,   0, "gfx/Empty.png"]
+    [1 	,  1,  1,  1,   0,   0, "gfx/Empty.png"]
+    [1 	,  1,  1,  1,   0,   0, "gfx/Empty.png"]
+    [1	,  1,  1,  1,   0,   0, "gfx/Empty.png"]
+}
+
+spriteset(spriteset_empty) {
+	template_empty_spriteset()
+}
+
+#define EMPTY_SPRITESET spriteset_empty;
