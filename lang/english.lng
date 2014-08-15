@@ -214,6 +214,11 @@ str_electric_South_Korea_Korail_8200 :Korail 8200 (Electric)
 str_electric_Ukraine_UZ_DS3 :UZ DS3 (Electric)
 str_electric_Kazakhstan_KTZ_KZ4A :KTZ KZ4A (Electric)
 str_electric_Switzerland_SBB_Eem_923 :SBB Eem 923 (Electric)
+str_electric_China_China_Railways_HXD3	:China Railways HXD3 (Electric)
+str_electric_France_SNCF_CC_40100	:SNCF CC 40100 (Electric)
+str_electric_India_Indian_Railways_WAP_4	:Indian Railways WAP-4 (Electric)
+str_electric_India_Indian_Railways_WCG_1	:Indian Railways WCG-1 (Electric)
+str_electric_Portugal_CP_2500	:CP 2500 (Electric)
 
 #DMU
 str_dmu_Germany_DB_VT04_Flying_Hamburger :DB VT04 'Flying Hamburger' (DMU)

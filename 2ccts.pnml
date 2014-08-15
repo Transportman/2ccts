@@ -415,7 +415,16 @@
 #include "src/Electric/Kazakhstan_KTZ_KZ4A_item.pnml"
 #include "src/Electric/Switzerland_SBB_Eem_923_graphics.pnml"
 #include "src/Electric/Switzerland_SBB_Eem_923_item.pnml"
-
+#include "src/Electric/China_China_Railways_HXD3_graphics.pnml"
+#include "src/Electric/China_China_Railways_HXD3_item.pnml"
+#include "src/Electric/France_SNCF_CC_40100_graphics.pnml"
+#include "src/Electric/France_SNCF_CC_40100_item.pnml"
+#include "src/Electric/India_Indian_Railways_WAP_4_graphics.pnml"
+#include "src/Electric/India_Indian_Railways_WAP_4_item.pnml"
+#include "src/Electric/India_Indian_Railways_WCG_1_graphics.pnml"
+#include "src/Electric/India_Indian_Railways_WCG_1_item.pnml"
+#include "src/Electric/Portugal_CP_2500_graphics.pnml"
+#include "src/Electric/Portugal_CP_2500_item.pnml"
 
 //DMU
 #include "src/DMU/Germany_DB_VT04_Flying_Hamburger_graphics.pnml"
