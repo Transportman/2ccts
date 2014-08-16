@@ -21,7 +21,7 @@ item(FEAT_TRAINS, item_electric_USSR_MPC_VL15) {
         cost_factor: 18;
         running_cost_factor: 67;
         speed: 100 km/h;
-        power: 6122 hp;
+        power: 8400 hp;
         cargo_capacity: 0;
         weight: 150 ton;
         tractive_effort_coefficient: 0.23;
