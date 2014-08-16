@@ -24,7 +24,7 @@ item(FEAT_TRAINS, item_dmu_Canada_VIA_Rail_LRC) {
         power: 5400 hp;
         cargo_capacity: 0;
         weight: 65 ton;
-        tractive_effort_coefficient: 0.3;
+        tractive_effort_coefficient: 0.54;
         air_drag_coefficient: 0;
         
         reliability_decay: 20;
@@ -67,6 +67,7 @@ item(FEAT_TRAINS, item_dmu_Canada_VIA_Rail_LRC) {
 		power: 2700;
 		weight: 49;
 		cargo_capacity: switch_dmu_Canada_VIA_Rail_LRC_capacity;
+        tractive_effort_coefficient: 175;
 		length: 8;
 		default: switch_dmu_Canada_VIA_Rail_LRC_cargo_selection;
 	}

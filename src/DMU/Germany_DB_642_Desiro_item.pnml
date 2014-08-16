@@ -24,7 +24,7 @@ item(FEAT_TRAINS, item_dmu_Germany_DB_642_Desiro) {
         power: 420 hp;
         cargo_capacity: 55;
         weight: 60 ton;
-        tractive_effort_coefficient: 0.3;
+        tractive_effort_coefficient: 0.18;
         air_drag_coefficient: 0;
         
         reliability_decay: 20;
@@ -66,6 +66,7 @@ item(FEAT_TRAINS, item_dmu_Germany_DB_642_Desiro) {
 		power: 210;
 		weight: 45;
 		cargo_capacity: switch_dmu_Germany_DB_642_Desiro_capacity;
+        tractive_effort_coefficient: 55;
 		length: 8;
 		default: switch_dmu_Germany_DB_642_Desiro_cargo_selection;
 	}

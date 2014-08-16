@@ -24,7 +24,7 @@ item(FEAT_TRAINS, item_dmu_Germany_DB_VT04_Flying_Hamburger) {
         power: 400 hp;
         cargo_capacity: 50;
         weight: 39 ton;
-        tractive_effort_coefficient: 0.3;
+        tractive_effort_coefficient: 0.19;
         air_drag_coefficient: 0;
         
         reliability_decay: 20;
@@ -66,6 +66,7 @@ item(FEAT_TRAINS, item_dmu_Germany_DB_VT04_Flying_Hamburger) {
 		power: 200;
 		weight: 29;
 		cargo_capacity: switch_dmu_Germany_DB_VT04_Flying_Hamburger_capacity;
+        tractive_effort_coefficient: 38;
 		length: 8;
 		default: switch_dmu_Germany_DB_VT04_Flying_Hamburger_cargo_selection;
 	}

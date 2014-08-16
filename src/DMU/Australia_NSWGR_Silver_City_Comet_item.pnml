@@ -24,7 +24,7 @@ item(FEAT_TRAINS, item_dmu_Australia_NSWGR_Silver_City_Comet) {
         power: 660 hp;
         cargo_capacity: 0;
         weight: 55 ton;
-        tractive_effort_coefficient: 0.3;
+        tractive_effort_coefficient: 0.2;
         air_drag_coefficient: 0;
         
         reliability_decay: 20;
@@ -67,6 +67,7 @@ item(FEAT_TRAINS, item_dmu_Australia_NSWGR_Silver_City_Comet) {
 		power: 330;
 		weight: 41;
 		cargo_capacity: switch_dmu_Australia_NSWGR_Silver_City_Comet_capacity;
+        tractive_effort_coefficient: 55;
 		length: 7;
 		default: switch_dmu_Australia_NSWGR_Silver_City_Comet_cargo_selection;
 	}

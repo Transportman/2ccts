@@ -24,7 +24,7 @@ item(FEAT_TRAINS, item_dmu_Canada_CNR_Turbo_Train) {
         power: 2400 hp;
         cargo_capacity: 44;
         weight: 40 ton;
-        tractive_effort_coefficient: 0.3;
+        tractive_effort_coefficient: 0.45;
         air_drag_coefficient: 0;
         
         reliability_decay: 20;
@@ -67,6 +67,7 @@ item(FEAT_TRAINS, item_dmu_Canada_CNR_Turbo_Train) {
 		power: 1200;
 		weight: 30;
 		cargo_capacity: switch_dmu_Canada_CNR_Turbo_Train_capacity;
+        tractive_effort_coefficient: 90;
 		length: 8;
 		default: switch_dmu_Canada_CNR_Turbo_Train_cargo_selection;
 	}

@@ -24,7 +24,7 @@ item(FEAT_TRAINS, item_dmu_Australia_Transwa_Prospector) {
         power: 520 hp;
         cargo_capacity: 68;
         weight: 33 ton;
-        tractive_effort_coefficient: 0.3;
+        tractive_effort_coefficient: 0.33;
         air_drag_coefficient: 0;
         
         reliability_decay: 20;
@@ -66,6 +66,7 @@ item(FEAT_TRAINS, item_dmu_Australia_Transwa_Prospector) {
 		power: 260;
 		weight: 25;
 		cargo_capacity: switch_dmu_Australia_Transwa_Prospector_capacity;
+        tractive_effort_coefficient: 54;
 		length: 8;
 		default: switch_dmu_Australia_Transwa_Prospector_cargo_selection;
 	}

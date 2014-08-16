@@ -24,7 +24,7 @@ item(FEAT_TRAINS, item_dmu_Sweden_SJ_Y2) {
         power: 600 hp;
         cargo_capacity: 48;
         weight: 32 ton;
-        tractive_effort_coefficient: 0.3;
+        tractive_effort_coefficient: 0.63;
         air_drag_coefficient: 0;
         
         reliability_decay: 20;
@@ -66,6 +66,7 @@ item(FEAT_TRAINS, item_dmu_Sweden_SJ_Y2) {
 		power: 300;
 		weight: 24;
 		cargo_capacity: switch_dmu_Sweden_SJ_Y2_capacity;
+        tractive_effort_coefficient: 100;
 		length: 8;
 		default: switch_dmu_Sweden_SJ_Y2_cargo_selection;
 	}

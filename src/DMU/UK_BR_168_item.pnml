@@ -24,7 +24,7 @@ item(FEAT_TRAINS, item_dmu_UK_BR_168) {
         power: 1300 hp;
         cargo_capacity: 42;
         weight: 50 ton;
-        tractive_effort_coefficient: 0.3;
+        tractive_effort_coefficient: 0.39;
         air_drag_coefficient: 0;
         
         reliability_decay: 20;
@@ -67,6 +67,7 @@ item(FEAT_TRAINS, item_dmu_UK_BR_168) {
 		power: 650;
 		weight: 38;
 		cargo_capacity: switch_dmu_UK_BR_168_capacity;
+        tractive_effort_coefficient: 93;
 		length: 8;
 		default: switch_dmu_UK_BR_168_cargo_selection;
 	}

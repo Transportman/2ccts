@@ -24,7 +24,7 @@ item(FEAT_TRAINS, item_dmu_Australia_Queensland_Rail_400) {
         power: 220 hp;
         cargo_capacity: 80;
         weight: 43 ton;
-        tractive_effort_coefficient: 0.3;
+        tractive_effort_coefficient: 0.18;
         air_drag_coefficient: 0;
         
         reliability_decay: 20;
@@ -66,6 +66,7 @@ item(FEAT_TRAINS, item_dmu_Australia_Queensland_Rail_400) {
 		power: 110;
 		weight: 32;
 		cargo_capacity: switch_dmu_Australia_Queensland_Rail_400_capacity;
+        tractive_effort_coefficient: 39;
 		length: 8;
 		default: switch_dmu_Australia_Queensland_Rail_400_cargo_selection;
 	}
