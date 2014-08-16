@@ -86,6 +86,10 @@ str_steam_Germany_DB_52                         :DB 52 (Stoom)
 str_steam_UK_LNER_A1_Peppercorn         :LNER A1 'Peppercorn' (Stoom)
 str_steam_South_Africa_SAR_25           :SAR 25 (Stoom)
 str_steam_USSR_MPC_P36                          :MPC P36 (Stoom)
+str_steam_Italy_FS_895                          :FS 895 (Stoom)
+str_steam_Poland_PKP_Okz32                      :PKP Okz32 (Stoom)
+str_steam_Switzerland_SBB_C_5_6         :SBB C 5/6 (Stoom)
+str_steam_USA_UP_4000_Big_Boy           :UP 4000 'Big Boy' (Stoom)
 
 #Diesel
 str_diesel_Germany_DB_310_Kof_II :DB 310 Kof II (Diesel)
@@ -207,6 +211,8 @@ str_electric_South_Korea_Korail_8200 :Korail 8200 (Elektries)
 str_electric_Ukraine_UZ_DS3 :UZ DS3 (Elektries)
 str_electric_Kazakhstan_KTZ_KZ4A :KTZ KZ4A (Elektries)
 str_electric_Switzerland_SBB_Eem_923 :SBB Eem 923 (Elektries)
+str_electric_India_Indian_Railways_WAP_4        :Indiese Spoorwëe WAP-4 (Elektries)
+str_electric_India_Indian_Railways_WCG_1        :Indiese Spoorwëe WCG-1 (Elektries)
 
 #DMU
 str_dmu_Germany_DB_VT04_Flying_Hamburger :DB VT04 'Flying Hamburger' (DMU)
