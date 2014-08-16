@@ -24,7 +24,7 @@ item(FEAT_TRAINS, item_emu_Germany_DB_ET420) {
         power: 1000 hp;
         cargo_capacity: 76;
         weight: 46 ton;
-        tractive_effort_coefficient: 0.3;
+        tractive_effort_coefficient: 0.31;
         air_drag_coefficient: 0;
         
         reliability_decay: 20;
@@ -66,6 +66,7 @@ item(FEAT_TRAINS, item_emu_Germany_DB_ET420) {
 		power: 500;
 		weight: 35;
 		cargo_capacity: switch_emu_Germany_DB_ET420_capacity;
+        tractive_effort_coefficient: 72;
 		length: 8;
 		visual_effect_and_powered: switch_emu_Germany_DB_ET420_visual_effect_and_powered_position;
 		default: switch_emu_Germany_DB_ET420_cargo_selection;

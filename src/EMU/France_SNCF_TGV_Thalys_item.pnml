@@ -24,7 +24,7 @@ item(FEAT_TRAINS, item_emu_France_SNCF_TGV_Thalys) {
         power: 12000 hp;
         cargo_capacity: 0;
         weight: 41 ton;
-        tractive_effort_coefficient: 0.3;
+        tractive_effort_coefficient: 0.85;
         air_drag_coefficient: 0;
         
         reliability_decay: 20;
@@ -65,6 +65,7 @@ item(FEAT_TRAINS, item_emu_France_SNCF_TGV_Thalys) {
 		power: 6000;
 		weight: 31;
 		cargo_capacity: switch_emu_France_SNCF_TGV_Thalys_capacity;
+        tractive_effort_coefficient: 175;
 		length: 6;
 		default: switch_emu_France_SNCF_TGV_Thalys_cargo_selection;
 	}

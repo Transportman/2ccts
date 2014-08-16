@@ -24,7 +24,7 @@ item(FEAT_TRAINS, item_emu_Hungary_MAV_BDVmot) {
         power: 2040 hp;
         cargo_capacity: 75;
         weight: 66 ton;
-        tractive_effort_coefficient: 0.3;
+        tractive_effort_coefficient: 0.11;
         air_drag_coefficient: 0;
         
         reliability_decay: 20;
@@ -66,6 +66,7 @@ item(FEAT_TRAINS, item_emu_Hungary_MAV_BDVmot) {
 		power: 1020;
 		weight: 50;
 		cargo_capacity: switch_emu_Hungary_MAV_BDVmot_capacity;
+        tractive_effort_coefficient: 36;
 		length: 8;
 		default: switch_emu_Hungary_MAV_BDVmot_cargo_selection;
 	}

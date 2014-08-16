@@ -24,7 +24,7 @@ item(FEAT_TRAINS, item_emu_Netherlands_NS_mDDm_390) {
         power: 3219 hp;
         cargo_capacity: 48;
         weight: 76 ton;
-        tractive_effort_coefficient: 0.3;
+        tractive_effort_coefficient: 0.31;
         air_drag_coefficient: 0;
         
         reliability_decay: 20;
@@ -66,6 +66,7 @@ item(FEAT_TRAINS, item_emu_Netherlands_NS_mDDm_390) {
 		power: 1610;
 		weight: 57;
 		cargo_capacity: switch_emu_Netherlands_NS_mDDm_390_capacity_wagon;
+        tractive_effort_coefficient: 117;
 		length: 8;
 		default: switch_emu_Netherlands_NS_mDDm_390_cargo_selection;
 	}

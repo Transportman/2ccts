@@ -24,7 +24,7 @@ item(FEAT_TRAINS, item_emu_France_SNCF_TGV_Duplex) {
         power: 12800 hp;
         cargo_capacity: 0;
         weight: 43 ton;
-        tractive_effort_coefficient: 0.3;
+        tractive_effort_coefficient: 0.81;
         air_drag_coefficient: 0;
         
         reliability_decay: 20;
@@ -64,6 +64,7 @@ item(FEAT_TRAINS, item_emu_France_SNCF_TGV_Duplex) {
 		power: 6400;
 		weight: 32;
 		cargo_capacity: switch_emu_France_SNCF_TGV_Duplex_capacity;
+        tractive_effort_coefficient: 175;
 		length: 6;
 		default: switch_emu_France_SNCF_TGV_Duplex_cargo_selection;
 	}

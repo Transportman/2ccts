@@ -24,7 +24,7 @@ item(FEAT_TRAINS, item_emu_Italy_ATAC_ECD_21_30) {
         power: 650 hp;
         cargo_capacity: 34;
         weight: 31 ton;
-        tractive_effort_coefficient: 0.3;
+        tractive_effort_coefficient: 0.34;
         air_drag_coefficient: 0;
         
         reliability_decay: 20;
@@ -66,6 +66,7 @@ item(FEAT_TRAINS, item_emu_Italy_ATAC_ECD_21_30) {
 		power: 325;
 		weight: 23;
 		cargo_capacity: switch_emu_Italy_ATAC_ECD_21_30_capacity;
+        tractive_effort_coefficient: 53;
 		length: 8;
 		default: switch_emu_Italy_ATAC_ECD_21_30_cargo_selection;
 	}

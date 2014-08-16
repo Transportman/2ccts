@@ -24,7 +24,7 @@ item(FEAT_TRAINS, item_emu_Netherlands_NS_4800_HSA) {
         power: 1000 hp;
         cargo_capacity: 42;
         weight: 35 ton;
-        tractive_effort_coefficient: 0.3;
+        tractive_effort_coefficient: 0.8;
         air_drag_coefficient: 0;
         
         reliability_decay: 20;
@@ -66,6 +66,7 @@ item(FEAT_TRAINS, item_emu_Netherlands_NS_4800_HSA) {
 		power: 500;
 		weight: 26;
 		cargo_capacity: switch_emu_Netherlands_NS_4800_HSA_capacity;
+        tractive_effort_coefficient: 140;
 		length: 8;
 		visual_effect_and_powered: switch_emu_Netherlands_NS_4800_HSA_visual_effect_and_powered;
 		default: switch_emu_Netherlands_NS_4800_HSA_cargo_selection;

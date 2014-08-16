@@ -24,7 +24,7 @@ item(FEAT_TRAINS, item_emu_Italy_FS_ALe426) {
         power: 1219 hp;
         cargo_capacity: 115;
         weight: 68 ton;
-        tractive_effort_coefficient: 0.3;
+        tractive_effort_coefficient: 0.31;
         air_drag_coefficient: 0;
         
         reliability_decay: 20;
@@ -66,6 +66,7 @@ item(FEAT_TRAINS, item_emu_Italy_FS_ALe426) {
 		power: 610;
 		weight: 51;
 		cargo_capacity: switch_emu_Italy_FS_ALe426_capacity;
+        tractive_effort_coefficient: 207;
 		length: 8;
 		default: switch_emu_Italy_FS_ALe426_cargo_selection;
 	}

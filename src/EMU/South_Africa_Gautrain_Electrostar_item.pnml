@@ -66,6 +66,7 @@ item(FEAT_TRAINS, item_emu_South_Africa_Gautrain_Electrostar) {
 		power: 277;
 		weight: 32;
 		cargo_capacity: switch_emu_South_Africa_Gautrain_Electrostar_capacity;
+        tractive_effort_coefficient: 64;
 		length: 8;
 		default: switch_emu_South_Africa_Gautrain_Electrostar_cargo_selection;
 	}

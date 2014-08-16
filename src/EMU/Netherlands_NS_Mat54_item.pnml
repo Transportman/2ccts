@@ -24,7 +24,7 @@ item(FEAT_TRAINS, item_emu_Netherlands_NS_Mat54) {
         power: 910 hp;
         cargo_capacity: 60;
         weight: 55 ton;
-        tractive_effort_coefficient: 0.3;
+        tractive_effort_coefficient: 0.28;
         air_drag_coefficient: 0;
         
         reliability_decay: 20;
@@ -66,6 +66,7 @@ item(FEAT_TRAINS, item_emu_Netherlands_NS_Mat54) {
 		power: 455;
 		weight: 41;
 		cargo_capacity: switch_emu_Netherlands_NS_Mat54_capacity;
+        tractive_effort_coefficient: 77;
 		length: 8;
 		default: switch_emu_Netherlands_NS_Mat54_cargo_selection;
 	}

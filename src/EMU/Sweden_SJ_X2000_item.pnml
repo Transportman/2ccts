@@ -24,7 +24,7 @@ item(FEAT_TRAINS, item_emu_Sweden_SJ_X2000) {
         power: 4400 hp;
         cargo_capacity: 0;
         weight: 50 ton;
-        tractive_effort_coefficient: 0.3;
+        tractive_effort_coefficient: 0.49;
         air_drag_coefficient: 0;
         
         reliability_decay: 20;
@@ -65,6 +65,7 @@ item(FEAT_TRAINS, item_emu_Sweden_SJ_X2000) {
 		power: 2200;
 		weight: 38;
 		cargo_capacity: switch_emu_Sweden_SJ_X2000_capacity;
+        tractive_effort_coefficient: 122;
 		length: 8;
 		default: switch_emu_Sweden_SJ_X2000_cargo_selection;
 	}

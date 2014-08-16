@@ -24,7 +24,7 @@ item(FEAT_TRAINS, item_emu_Denmark_DSB_S_Tog_IV) {
         power: 290 hp;
         cargo_capacity: 42;
         weight: 16 ton;
-        tractive_effort_coefficient: 0.3;
+        tractive_effort_coefficient: 0.47;
         air_drag_coefficient: 0;
         
         reliability_decay: 20;
@@ -66,6 +66,7 @@ item(FEAT_TRAINS, item_emu_Denmark_DSB_S_Tog_IV) {
 		power: 145;
 		weight: 12;
 		cargo_capacity: switch_emu_Denmark_DSB_S_Tog_IV_capacity;
+        tractive_effort_coefficient: 38;
 		length: 5;
 		visual_effect_and_powered: switch_emu_Denmark_DSB_S_Tog_IV_visual_effect_and_powered_position;
 		default: switch_emu_Denmark_DSB_S_Tog_IV_cargo_selection;

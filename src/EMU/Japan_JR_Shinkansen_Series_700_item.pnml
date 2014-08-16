@@ -24,7 +24,7 @@ item(FEAT_TRAINS, item_emu_Japan_JR_Shinkansen_Series_700) {
         power: 1441 hp;
         cargo_capacity: 83;
         weight: 45 ton;
-        tractive_effort_coefficient: 0.3;
+        tractive_effort_coefficient: 0.56;
         air_drag_coefficient: 0;
         
         reliability_decay: 20;
@@ -66,6 +66,7 @@ item(FEAT_TRAINS, item_emu_Japan_JR_Shinkansen_Series_700) {
 		power: 721;
 		weight: 34;
 		cargo_capacity: switch_emu_Japan_JR_Shinkansen_Series_700_capacity;
+        tractive_effort_coefficient: 125;
 		length: 8;
 		visual_effect_and_powered: switch_emu_Japan_JR_Shinkansen_Series_700_visual_effect_and_powered_position;
 		default: switch_emu_Japan_JR_Shinkansen_Series_700_cargo_selection;

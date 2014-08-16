@@ -24,7 +24,7 @@ item(FEAT_TRAINS, item_emu_Luxembourg_CFL_2200_Coradia_Duplex) {
         power: 1050 hp;
         cargo_capacity: 111;
         weight: 53 ton;
-        tractive_effort_coefficient: 0.3;
+        tractive_effort_coefficient: 0.26;
         air_drag_coefficient: 0;
         
         reliability_decay: 20;
@@ -66,6 +66,7 @@ item(FEAT_TRAINS, item_emu_Luxembourg_CFL_2200_Coradia_Duplex) {
 		power: 525;
 		weight: 40;
 		cargo_capacity: switch_emu_Luxembourg_CFL_2200_Coradia_Duplex_capacity;
+        tractive_effort_coefficient: 68;
 		length: 8;
 		default: switch_emu_Luxembourg_CFL_2200_Coradia_Duplex_cargo_selection;
 	}

@@ -24,7 +24,7 @@ item(FEAT_TRAINS, item_emu_Norway_NSB_BM73) {
         power: 1200 hp;
         cargo_capacity: 40;
         weight: 54 ton;
-        tractive_effort_coefficient: 0.3;
+        tractive_effort_coefficient: 0.69;
         air_drag_coefficient: 0;
         
         reliability_decay: 20;
@@ -66,6 +66,7 @@ item(FEAT_TRAINS, item_emu_Norway_NSB_BM73) {
 		power: 600;
 		weight: 41;
 		cargo_capacity: switch_emu_Norway_NSB_BM73_capacity;
+        tractive_effort_coefficient: 185;
 		length: 8;
 		visual_effect_and_powered: switch_emu_Norway_NSB_BM73_visual_effect_and_powered_position;
 		default: switch_emu_Norway_NSB_BM73_cargo_selection;

@@ -24,7 +24,7 @@ item(FEAT_TRAINS, item_emu_Italy_FS_ETR300_Settebello) {
         power: 500 hp;
         cargo_capacity: 60;
         weight: 52 ton;
-        tractive_effort_coefficient: 0.3;
+        tractive_effort_coefficient: 0.36;
         air_drag_coefficient: 0;
         
         reliability_decay: 20;
@@ -66,6 +66,7 @@ item(FEAT_TRAINS, item_emu_Italy_FS_ETR300_Settebello) {
 		power: 250;
 		weight: 39;
 		cargo_capacity: switch_emu_Italy_FS_ETR300_Settebello_capacity;
+        tractive_effort_coefficient: 94;
 		length: 8;
 		visual_effect_and_powered: switch_emu_Italy_FS_ETR300_Settebello_visual_effect_and_powered_position;
 		default: switch_emu_Italy_FS_ETR300_Settebello_cargo_selection;

@@ -24,7 +24,7 @@ item(FEAT_TRAINS, item_emu_Japan_Odakyu_3100_Series_Romance) {
         power: 230 hp;
         cargo_capacity: 40;
         weight: 47 ton;
-        tractive_effort_coefficient: 0.3;
+        tractive_effort_coefficient: 0.27;
         air_drag_coefficient: 0;
         
         reliability_decay: 20;
@@ -66,6 +66,7 @@ item(FEAT_TRAINS, item_emu_Japan_Odakyu_3100_Series_Romance) {
 		power: 115;
 		weight: 35;
 		cargo_capacity: switch_emu_Japan_Odakyu_3100_Series_Romance_capacity;
+        tractive_effort_coefficient: 68;
 		length: 8;
 		visual_effect_and_powered: switch_emu_Japan_Odakyu_3100_Series_Romance_visual_effect_and_powered_position;
 		default: switch_emu_Japan_Odakyu_3100_Series_Romance_cargo_selection;

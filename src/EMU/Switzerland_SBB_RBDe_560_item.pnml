@@ -24,7 +24,7 @@ item(FEAT_TRAINS, item_emu_Switzerland_SBB_RBDe_560) {
         power: 1100 hp;
         cargo_capacity: 56;
         weight: 35 ton;
-        tractive_effort_coefficient: 0.3;
+        tractive_effort_coefficient: 0.52;
         air_drag_coefficient: 0;
         
         reliability_decay: 20;
@@ -66,6 +66,7 @@ item(FEAT_TRAINS, item_emu_Switzerland_SBB_RBDe_560) {
 		power: 550;
 		weight: 26;
 		cargo_capacity: switch_emu_Switzerland_SBB_RBDe_560_capacity;
+        tractive_effort_coefficient: 91;
 		length: 8;
 		default: switch_emu_Switzerland_SBB_RBDe_560_cargo_selection;
 	}

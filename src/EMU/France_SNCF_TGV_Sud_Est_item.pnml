@@ -24,7 +24,7 @@ item(FEAT_TRAINS, item_emu_France_SNCF_TGV_Sud_Est) {
         power: 9000 hp;
         cargo_capacity: 0;
         weight: 38 ton;
-        tractive_effort_coefficient: 0.3;
+        tractive_effort_coefficient: 0.92;
         air_drag_coefficient: 0;
         
         reliability_decay: 20;
@@ -66,6 +66,7 @@ item(FEAT_TRAINS, item_emu_France_SNCF_TGV_Sud_Est) {
 		power: 4500;
 		weight: 29;
 		cargo_capacity: switch_emu_France_SNCF_TGV_Sud_Est_capacity;
+        tractive_effort_coefficient: 175;
 		length: 6;
 		default: switch_emu_France_SNCF_TGV_Sud_Est_cargo_selection;
 	}

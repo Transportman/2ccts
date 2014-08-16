@@ -66,6 +66,7 @@ item(FEAT_TRAINS, item_emu_Japan_JNR_Shinkansen_Series_0) {
 		power: 500;
 		weight: 41;
 		cargo_capacity: switch_emu_Japan_JNR_Shinkansen_Series_0_capacity;
+        tractive_effort_coefficient: 80;
 		length: 8;
 		visual_effect_and_powered: switch_emu_Japan_JNR_Shinkansen_Series_0_visual_effect_and_powered;
 		default: switch_emu_Japan_JNR_Shinkansen_Series_0_cargo_selection;

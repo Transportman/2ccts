@@ -24,7 +24,7 @@ item(FEAT_TRAINS, item_emu_Switzerland_SBB_Rae_TEE_II) {
         power: 425 hp;
         cargo_capacity: 60;
         weight: 47 ton;
-        tractive_effort_coefficient: 0.3;
+        tractive_effort_coefficient: 0.26;
         air_drag_coefficient: 0;
         
         reliability_decay: 20;
@@ -66,6 +66,7 @@ item(FEAT_TRAINS, item_emu_Switzerland_SBB_Rae_TEE_II) {
 		power: 213;
 		weight: 35;
 		cargo_capacity: switch_emu_Switzerland_SBB_Rae_TEE_II_capacity;
+        tractive_effort_coefficient: 60;
 		length: 8;
 		visual_effect_and_powered: switch_emu_Switzerland_SBB_Rae_TEE_II_visual_effect_and_powered_position;
 		default: switch_emu_Switzerland_SBB_Rae_TEE_II_cargo_selection;

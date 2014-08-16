@@ -24,7 +24,7 @@ item(FEAT_TRAINS, item_emu_Germany_DB_403_ICE_3) {
         power: 1400 hp;
         cargo_capacity: 45;
         weight: 51 ton;
-        tractive_effort_coefficient: 0.3;
+        tractive_effort_coefficient: 0.98;
         air_drag_coefficient: 0;
         
         reliability_decay: 20;
@@ -66,6 +66,7 @@ item(FEAT_TRAINS, item_emu_Germany_DB_403_ICE_3) {
 		power: 700;
 		weight: 38;
 		cargo_capacity: switch_emu_Germany_DB_403_ICE_3_capacity;
+        tractive_effort_coefficient: 250;
 		length: 8;
 		default: switch_emu_Germany_DB_403_ICE_3_cargo_selection;
 	}

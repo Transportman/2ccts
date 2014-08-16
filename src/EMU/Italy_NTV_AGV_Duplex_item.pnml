@@ -24,7 +24,7 @@ item(FEAT_TRAINS, item_emu_Italy_NTV_AGV_Duplex) {
         power: 1750 hp;
         cargo_capacity: 67;
         weight: 44 ton;
-        tractive_effort_coefficient: 0.3;
+        tractive_effort_coefficient: 0.83;
         air_drag_coefficient: 0;
         
         reliability_decay: 20;
@@ -66,6 +66,7 @@ item(FEAT_TRAINS, item_emu_Italy_NTV_AGV_Duplex) {
 		power: 875;
 		weight: 33;
 		cargo_capacity: switch_emu_Italy_NTV_AGV_Duplex_capacity;
+        tractive_effort_coefficient: 183;
 		length: 7;
 		default: switch_emu_Italy_NTV_AGV_Duplex_cargo_selection;
 	}

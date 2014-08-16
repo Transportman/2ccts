@@ -24,7 +24,7 @@ item(FEAT_TRAINS, item_emu_Finland_VR_Sm4) {
         power: 800 hp;
         cargo_capacity: 100;
         weight: 57 ton;
-        tractive_effort_coefficient: 0.3;
+        tractive_effort_coefficient: 0.18;
         air_drag_coefficient: 0;
         
         reliability_decay: 20;
@@ -66,6 +66,7 @@ item(FEAT_TRAINS, item_emu_Finland_VR_Sm4) {
 		power: 400;
 		weight: 43;
 		cargo_capacity: switch_emu_Finland_VR_Sm4_capacity;
+        tractive_effort_coefficient: 50;
 		length: 8;
 		default: switch_emu_Finland_VR_Sm4_cargo_selection;
 	}

@@ -24,7 +24,7 @@ item(FEAT_TRAINS, item_emu_Bulgaria_BDZ_10_Desiro) {
         power: 550 hp;
         cargo_capacity: 62;
         weight: 57 ton;
-        tractive_effort_coefficient: 0.3;
+        tractive_effort_coefficient: 0.21;
         air_drag_coefficient: 0;
         
         reliability_decay: 20;
@@ -66,6 +66,7 @@ item(FEAT_TRAINS, item_emu_Bulgaria_BDZ_10_Desiro) {
 		power: 275;
 		weight: 43;
 		cargo_capacity: switch_emu_Bulgaria_BDZ_10_Desiro_capacity;
+        tractive_effort_coefficient: 60;
 		length: 8;
 		default: switch_emu_Bulgaria_BDZ_10_Desiro_cargo_selection;
 	}
