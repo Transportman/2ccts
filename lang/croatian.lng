@@ -89,6 +89,11 @@ str_steam_Germany_DB_52                         :DB 52 (parna lokomotiva)
 str_steam_UK_LNER_A1_Peppercorn         :LNER A1 'Peppercorn' (parna lokomotiva)
 str_steam_South_Africa_SAR_25           :SAR 25 (parna lokomotiva)
 str_steam_USSR_MPC_P36                          :MPC P36 (parna lokomotiva)
+str_steam_France_SNCF_150B                      :SNCF 150B (parna lokomotiva)
+str_steam_Italy_FS_895                          :FS 895 (parna lokomotiva)
+str_steam_Poland_PKP_Okz32                      :PKP Okz32 (parna lokomotiva)
+str_steam_Switzerland_SBB_C_5_6         :SBB C 5/6 (parna lokomotiva)
+str_steam_USA_UP_4000_Big_Boy           :UP 4000 'Big Boy' (parna lokomotiva)
 
 #Diesel
 str_diesel_Germany_DB_310_Kof_II :DB 310 Kof II (dizel lokomotiva)
@@ -153,6 +158,8 @@ str_diesel_Ukraine_UZ_TEP150 :UZ TEP150 (dizel lokomotiva)
 str_diesel_China_China_Railways_HXN5 :China Railways HXN5 (dizel lokomotiva)
 str_diesel_Germany_DB_260_Gravita_10BB :DB 260 Gravita 10BB (dizel lokomotiva)
 str_diesel_Russia_RZD_GT1 :RZD GT1 (dizel lokomotiva)
+str_diesel_China_MTR_8000       :MTR 8000 (dizel lokomotiva)
+str_diesel_Germany_HVLE_V490    :HVLE V490 (dizel lokomotiva)
 
 #Electric
 str_electric_Switzerland_RhB_DE_2_2 :RhB DE 2/2 (električna lokomotiva)
@@ -210,6 +217,11 @@ str_electric_South_Korea_Korail_8200 :Korail 8200 (električna lokomotiva)
 str_electric_Ukraine_UZ_DS3 :UZ DS3 (električna lokomotiva)
 str_electric_Kazakhstan_KTZ_KZ4A :KTZ KZ4A (električna lokomotiva)
 str_electric_Switzerland_SBB_Eem_923 :SBB Eem 923 (električna lokomotiva)
+str_electric_China_China_Railways_HXD3  :China Railways HXD3 (električna lokomotiva)
+str_electric_France_SNCF_CC_40100       :SNCF CC 40100 (električna lokomotiva)
+str_electric_India_Indian_Railways_WAP_4        :Indian Railways WAP-4 (električna lokomotiva)
+str_electric_India_Indian_Railways_WCG_1        :Indian Railways WCG-1 (električna lokomotiva)
+str_electric_Portugal_CP_2500   :CP 2500 (električna lokomotiva)
 
 #DMU
 str_dmu_Germany_DB_VT04_Flying_Hamburger :DB VT04 'Flying Hamburger' (dizelmotorni vlak)
