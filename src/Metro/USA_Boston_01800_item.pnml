@@ -24,7 +24,7 @@ item(FEAT_TRAINS, item_mtro_USA_Boston_01800) {
         power: 700 hp;
         cargo_capacity: 150;
         weight: 31 ton;
-        tractive_effort_coefficient: 0.3;
+        tractive_effort_coefficient: 0.51;
         air_drag_coefficient: 0;
         
         reliability_decay: 20;
@@ -64,6 +64,7 @@ item(FEAT_TRAINS, item_mtro_USA_Boston_01800) {
 		power: 350;
 		weight: 23;
 		cargo_capacity: 150;
+        tractive_effort_coefficient: 80;
 		length: 8;
 		default: spriteset_mtro_USA_Boston_01800_middle;
 	}

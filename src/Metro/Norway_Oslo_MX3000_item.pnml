@@ -64,6 +64,7 @@ item(FEAT_TRAINS, item_mtro_Norway_Oslo_MX3000) {
 		power: 380;
 		weight: 25;
 		cargo_capacity: 164;
+        tractive_effort_coefficient: 49;
 		length: 7;
 		default: spriteset_mtro_Norway_Oslo_MX3000_middle;
 	}

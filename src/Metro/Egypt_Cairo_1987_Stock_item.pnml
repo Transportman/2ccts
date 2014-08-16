@@ -24,7 +24,7 @@ item(FEAT_TRAINS, item_mtro_Egypt_Cairo_1987_Stock) {
         power: 590 hp;
         cargo_capacity: 250;
         weight: 34 ton;
-        tractive_effort_coefficient: 0.3;
+        tractive_effort_coefficient: 0.59;
         air_drag_coefficient: 0;
         
         reliability_decay: 20;
@@ -64,6 +64,7 @@ item(FEAT_TRAINS, item_mtro_Egypt_Cairo_1987_Stock) {
 		power: 295;
 		weight: 26;
 		cargo_capacity: 250;
+        tractive_effort_coefficient: 100;
 		length: 8;
 		default: spriteset_mtro_Egypt_Cairo_1987_Stock_middle;
 	}

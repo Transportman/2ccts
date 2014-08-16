@@ -24,7 +24,7 @@ item(FEAT_TRAINS, item_mtro_France_Paris_MP89) {
         power: 634 hp;
         cargo_capacity: 120;
         weight: 28 ton;
-        tractive_effort_coefficient: 0.3;
+        tractive_effort_coefficient: 0.36;
         air_drag_coefficient: 0;
         
         reliability_decay: 20;
@@ -64,6 +64,7 @@ item(FEAT_TRAINS, item_mtro_France_Paris_MP89) {
 		power: 317;
 		weight: 21;
 		cargo_capacity: 120;
+        tractive_effort_coefficient: 50;
 		length: 7;
 		default: spriteset_mtro_France_Paris_MP89_middle;
 	}

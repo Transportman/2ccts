@@ -24,7 +24,7 @@ item(FEAT_TRAINS, item_mtro_Canada_Toronto_H_series) {
         power: 484 hp;
         cargo_capacity: 210;
         weight: 51 ton;
-        tractive_effort_coefficient: 0.3;
+        tractive_effort_coefficient: 0.31;
         air_drag_coefficient: 0;
         
         reliability_decay: 20;
@@ -64,6 +64,7 @@ item(FEAT_TRAINS, item_mtro_Canada_Toronto_H_series) {
 		power: 242;
 		weight: 38;
 		cargo_capacity: 210;
+        tractive_effort_coefficient: 80;
 		length: 8;
 		default: spriteset_mtro_Canada_Toronto_H_series_middle;
 	}

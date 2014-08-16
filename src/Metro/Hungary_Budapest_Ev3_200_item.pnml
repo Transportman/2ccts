@@ -24,7 +24,7 @@ item(FEAT_TRAINS, item_mtro_Hungary_Budapest_Ev3_200) {
         power: 500 hp;
         cargo_capacity: 150;
         weight: 45 ton;
-        tractive_effort_coefficient: 0.3;
+        tractive_effort_coefficient: 0.22;
         air_drag_coefficient: 0;
         
         reliability_decay: 20;
@@ -64,6 +64,7 @@ item(FEAT_TRAINS, item_mtro_Hungary_Budapest_Ev3_200) {
 		power: 250;
 		weight: 34;
 		cargo_capacity: 150;
+        tractive_effort_coefficient: 50;
 		length: 8;
 		default: spriteset_mtro_Hungary_Budapest_Ev3_200_middle;
 	}

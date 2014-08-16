@@ -24,7 +24,7 @@ item(FEAT_TRAINS, item_mtro_Germany_Munchen_MVG_A2) {
         power: 480 hp;
         cargo_capacity: 195;
         weight: 26 ton;
-        tractive_effort_coefficient: 0.3;
+        tractive_effort_coefficient: 0.38;
         air_drag_coefficient: 0;
         
         reliability_decay: 20;
@@ -64,6 +64,7 @@ item(FEAT_TRAINS, item_mtro_Germany_Munchen_MVG_A2) {
 		power: 240;
 		weight: 20;
 		cargo_capacity: 195;
+        tractive_effort_coefficient: 49;
 		length: 8;
 		default: spriteset_mtro_Germany_Munchen_MVG_A2_middle;
 	}

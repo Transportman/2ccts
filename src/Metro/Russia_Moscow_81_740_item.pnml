@@ -24,7 +24,7 @@ item(FEAT_TRAINS, item_mtro_Russia_Moscow_81_740) {
         power: 860 hp;
         cargo_capacity: 120;
         weight: 47 ton;
-        tractive_effort_coefficient: 0.3;
+        tractive_effort_coefficient: 0.36;
         air_drag_coefficient: 0;
         
         reliability_decay: 20;
@@ -64,6 +64,7 @@ item(FEAT_TRAINS, item_mtro_Russia_Moscow_81_740) {
 		power: 430;
 		weight: 35;
 		cargo_capacity: 120;
+        tractive_effort_coefficient: 85;
 		length: 6;
 		default: spriteset_mtro_Russia_Moscow_81_740_middle;
 	}

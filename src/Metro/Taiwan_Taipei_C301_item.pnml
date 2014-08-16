@@ -64,6 +64,7 @@ item(FEAT_TRAINS, item_mtro_Taiwan_Taipei_C301) {
 		power: 100;
 		weight: 29;
 		cargo_capacity: 250;
+        tractive_effort_coefficient: 59;
 		length: 8;
 		default: spriteset_mtro_Taiwan_Taipei_C301_middle;
 	}

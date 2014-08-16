@@ -24,7 +24,7 @@ item(FEAT_TRAINS, item_mtro_Sweden_Stockholm_C8) {
         power: 470 hp;
         cargo_capacity: 158;
         weight: 23 ton;
-        tractive_effort_coefficient: 0.3;
+        tractive_effort_coefficient: 0.38;
         air_drag_coefficient: 0;
         
         reliability_decay: 20;
@@ -64,6 +64,7 @@ item(FEAT_TRAINS, item_mtro_Sweden_Stockholm_C8) {
 		power: 235;
 		weight: 17;
 		cargo_capacity: 158;
+        tractive_effort_coefficient: 44;
 		length: 8;
 		default: spriteset_mtro_Sweden_Stockholm_C8_middle;
 	}

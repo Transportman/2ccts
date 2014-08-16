@@ -24,7 +24,7 @@ item(FEAT_TRAINS, item_mtro_UK_DLR_P86) {
         power: 500 hp;
         cargo_capacity: 200;
         weight: 40 ton;
-        tractive_effort_coefficient: 0.3;
+        tractive_effort_coefficient: 0.31;
         air_drag_coefficient: 0;
         
         reliability_decay: 20;
@@ -64,6 +64,7 @@ item(FEAT_TRAINS, item_mtro_UK_DLR_P86) {
 		power: 250;
 		weight: 30;
 		cargo_capacity: 200;
+        tractive_effort_coefficient: 63;
 		length: 6;
 		default: spriteset_mtro_UK_DLR_P86_middle;
 	}

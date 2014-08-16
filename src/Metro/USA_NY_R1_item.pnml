@@ -24,7 +24,7 @@ item(FEAT_TRAINS, item_mtro_USA_NY_R1) {
         power: 380 hp;
         cargo_capacity: 156;
         weight: 38 ton;
-        tractive_effort_coefficient: 0.3;
+        tractive_effort_coefficient: 0.32;
         air_drag_coefficient: 0;
         
         reliability_decay: 20;
@@ -64,6 +64,7 @@ item(FEAT_TRAINS, item_mtro_USA_NY_R1) {
 		power: 190;
 		weight: 29;
 		cargo_capacity: 156;
+        tractive_effort_coefficient: 60;
 		length: 8;
 		default: spriteset_mtro_USA_NY_R1_middle;
 	}

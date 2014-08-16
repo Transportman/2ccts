@@ -24,7 +24,7 @@ item(FEAT_TRAINS, item_mtro_North_Korea_Pyongyang_D_stock) {
         power: 350 hp;
         cargo_capacity: 180;
         weight: 40 ton;
-        tractive_effort_coefficient: 0.3;
+        tractive_effort_coefficient: 0.38;
         air_drag_coefficient: 0;
         
         reliability_decay: 20;
@@ -64,6 +64,7 @@ item(FEAT_TRAINS, item_mtro_North_Korea_Pyongyang_D_stock) {
 		power: 175;
 		weight: 30;
 		cargo_capacity: 180;
+        tractive_effort_coefficient: 75;
 		length: 8;
 		default: spriteset_mtro_North_Korea_Pyongyang_D_stock_middle;
 	}

@@ -24,7 +24,7 @@ item(FEAT_TRAINS, item_mtro_Greece_Thessaloniki_2014) {
         power: 255 hp;
         cargo_capacity: 110;
         weight: 18 ton;
-        tractive_effort_coefficient: 0.3;
+        tractive_effort_coefficient: 0.97;
         air_drag_coefficient: 0;
         
         reliability_decay: 20;
@@ -64,6 +64,7 @@ item(FEAT_TRAINS, item_mtro_Greece_Thessaloniki_2014) {
 		power: 128;
 		weight: 14;
 		cargo_capacity: 110;
+        tractive_effort_coefficient: 88;
 		length: 6;
 		default: spriteset_mtro_Greece_Thessaloniki_2014_middle;
 	}

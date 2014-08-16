@@ -24,7 +24,7 @@ item(FEAT_TRAINS, item_mtro_UK_London_1903_Stock) {
         power: 300 hp;
         cargo_capacity: 125;
         weight: 45 ton;
-        tractive_effort_coefficient: 0.3;
+        tractive_effort_coefficient: 0.22;
         air_drag_coefficient: 0;
         
         reliability_decay: 20;
@@ -64,6 +64,7 @@ item(FEAT_TRAINS, item_mtro_UK_London_1903_Stock) {
 		power: 150;
 		weight: 34;
 		cargo_capacity: 125;
+        tractive_effort_coefficient: 50;
 		length: 8;
 		default: spriteset_mtro_UK_London_1903_Stock_middle;
 	}

@@ -24,7 +24,7 @@ item(FEAT_TRAINS, item_mtro_Finland_Helsinki_M100) {
         power: 680 hp;
         cargo_capacity: 165;
         weight: 31 ton;
-        tractive_effort_coefficient: 0.3;
+        tractive_effort_coefficient: 0.48;
         air_drag_coefficient: 0;
         
         reliability_decay: 20;
@@ -64,6 +64,7 @@ item(FEAT_TRAINS, item_mtro_Finland_Helsinki_M100) {
 		power: 340;
 		weight: 23;
 		cargo_capacity: 165;
+        tractive_effort_coefficient: 75;
 		length: 8;
 		default: spriteset_mtro_Finland_Helsinki_M100_middle;
 	}

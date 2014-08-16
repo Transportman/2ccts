@@ -24,7 +24,7 @@ item(FEAT_TRAINS, item_mtro_Norway_Oslo_T1000) {
         power: 131 hp;
         cargo_capacity: 180;
         weight: 28 ton;
-        tractive_effort_coefficient: 0.3;
+        tractive_effort_coefficient: 0.55;
         air_drag_coefficient: 0;
         
         reliability_decay: 20;
@@ -64,6 +64,7 @@ item(FEAT_TRAINS, item_mtro_Norway_Oslo_T1000) {
 		power: 66;
 		weight: 21;
 		cargo_capacity: 180;
+        tractive_effort_coefficient: 78;
 		length: 7;
 		default: spriteset_mtro_Norway_Oslo_T1000_middle;
 	}
