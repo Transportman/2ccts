@@ -63,14 +63,14 @@ str_steam_USA_4_6_0_Ten_wheeler         :4-6-0 'Ten-wheeler' (증기)
 str_steam_USA_2_8_0_Consolidation       :2-8-0 'Consolidation' (증기)
 str_steam_Hungary_MAV_377                       :MAV 377 (증기)
 str_steam_Austria_KkStB_99                      :KkStB 99 (증기)
-str_steam_UK_Caledonian_Railway_439 :칼레도니아 철도 439 (증기)
+str_steam_UK_Caledonian_Railway_439     :칼레도니아 철도 439 (증기)
 str_steam_Switzerland_SBB_A_3_5         :SBB A 3/5 (증기)
 str_steam_Switzerland_SBB_E_3_3         :SBB E 3/3 (증기)
 str_steam_Austria_KkStB_299             :KkStB 299 (증기)
 str_steam_New_Zealand_NZR_X_Class       :NZR X Class (증기)
 str_steam_Croatia_HZ_51                         :HZ 51 (증기)
 str_steam_Italy_FS_880                          :FS 880 (증기)
-str_steam_Argentina_FCNEA_11B_0_8_2 :FCNEA 11B 0-8-2 (증기)
+str_steam_Argentina_FCNEA_11B_0_8_2     :FCNEA 11B 0-8-2 (증기)
 str_steam_France_SNCF_140C                      :SNCF 140C (증기)
 str_steam_France_SNCF_141TA             :SNCF 141TA (증기)
 str_steam_UK_GWR_4900                           :GWR 4900 (증기)
@@ -87,347 +87,345 @@ str_steam_UK_LNER_A1_Peppercorn         :LNER A1 'Peppercorn' (증기)
 str_steam_South_Africa_SAR_25           :SAR 25 (증기)
 
 #Diesel
-str_diesel_Germany_DB_310_Kof_II :DB 310 Kof II (디젤)
-str_diesel_USA_CNJ_ALCo_GE_IR_Boxcab :CNJ ALCo-GE-IR Boxcab (디젤)
-str_diesel_Netherlands_NS_200 :NS 200 'Sik' (디젤)
-str_diesel_Germany_DB_270 :DB 270 (디젤)
-str_diesel_Switzerland_SBB_Am_4_6 :SBB Am 4/6 (디젤)
-str_diesel_Australia_NSWGR_79 :NSWGR 79 (디젤)
-str_diesel_USA_Western_Pacific_ALCO_S_2 :Western Pacific ALCO S-2 (디젤)
-str_diesel_USA_GNR_EMD_F3 :GNR EMD F3 (디젤)
-str_diesel_USA_UP_EMD_E8 :UP EMD E8 (디젤)
-str_diesel_Brasil_EFCB_ALCO_RS_3 :EFCB ALCO RS-3 (디젤)
-str_diesel_Netherlands_NS_600 :NS 600 'Bakkie' (디젤)
-str_diesel_USA_Pennsylvania_Railroad_RF_16_Sharknose :펜실베이니아 철도 RF-16 'Sharknose' (디젤)
-str_diesel_Uruguay_AFE_1500 :AFE 1500 (디젤)
-str_diesel_Canada_CPR_Trainmaster :CPR 'Trainmaster' (디젤)
-str_diesel_Liberia_Liberia_Railways_Class_08 :라이베리아 철도 Class 08 (디젤)
-str_diesel_Austria_OBB_2060 :OBB 2060 (디젤)
-str_diesel_Canada_CNR_SW1200 :CNR SW1200 (디젤)
-str_diesel_Canada_VIA_Rail_FP9 :VIA Rail FP9 (디젤)
-str_diesel_Hungary_MAV_M44 :MAV M44 (디젤)
-str_diesel_Hungary_MAV_M28 :MAV M28 (디젤)
-str_diesel_Belgium_NMBS_SNCB_83 :NMBS/SNCB 83 (디젤)
-str_diesel_Germany_DB_220_V200 :DB 220 V200 (디젤)
-str_diesel_USA_Amtrak_FL9 :Amtrak FL9 (디젤)
-str_diesel_Finland_VR_Dr12 :VR Dr12 (디젤)
-str_diesel_Romania_CFR_060_DA :CFR 060-DA (디젤)
-str_diesel_Brasil_BF_EMD_GL8 :BF EMD GL8 (디젤)
-str_diesel_Brasil_EFVM_ML4000 :EFVM ML4000 (디젤)
-str_diesel_Belgium_NMBS_SNCB_67 :NMBS/SNCB 67 (디젤)
-str_diesel_Denmark_DSB_MaK_100 :DSB MaK 100 (디젤)
-str_diesel_India_Indian_Railways_WDM_2 :인도 철도공사 WDM-2 (디젤)
-str_diesel_UK_BR_14 :BR 14 (디젤)
-str_diesel_Argentina_MF_GM_EMD_J16CW_AC :MF GM-EMD-J16CW-AC (디젤)
-str_diesel_Australia_NSWGR_422 :NSWGR 422 (디젤)
-str_diesel_Egypt_ENR_G22W :ENR G22W (디젤)
-str_diesel_USA_UP_EMD_DDA40X :UP EMD DDA40X (디젤)
-str_diesel_Australia_Queensland_Rail_2100 :퀸즈랜드 철도 2100 (디젤)
-str_diesel_Croatia_HZ_2062 :HZ 2062 (디젤)
-str_diesel_Sweden_SJ_V4 :SJ V4 (디젤)
-str_diesel_Canada_CNR_MLW_M420W :CNR MLW M420W (디젤)
-str_diesel_USA_GNR_SDP_40F :GNR SDP-40F (디젤)
-str_diesel_China_China_Railways_DFH3 :중국 철도공사 DFH3 (디젤)
-str_diesel_Panama_Panama_Canal_Railway_EMD_F40PH :파나마 해협 철도 EMD F40PH (디젤)
-str_diesel_Portugal_CP_1900 :CP 1900 (디젤)
-str_diesel_Finland_VR_Dr16 :VR Dr16 (디젤)
-str_diesel_Australia_Australian_National_AN :오스트레일리아 국영 AN (디젤)
-str_diesel_USA_Amtrak_P42DC_Genesis :Amtrak P42DC 'Genesis' (디젤)
-str_diesel_Turkey_TCDD_DH7000 :TCDD DH7000 (디젤)
-str_diesel_Argentina_MF_GE_U20C :MF GE U20C (디젤)
-str_diesel_Belgium_NMBS_SNCB_7800 :NMBS/SNCB 7800 (디젤)
-str_diesel_UK_BR_66 :BR 66 (디젤)
-str_diesel_UK_BR_67 :BR 67 (디젤)
-str_diesel_Iran_RAI_DE43CA_Prima :RAI DE43CA 'Prima' (디젤)
-str_diesel_Germany_DB_253_G2000_3_BB :DB 253 G2000-3 BB (디젤)
-str_diesel_Ukraine_UZ_TEP150 :UZ TEP150 (디젤)
-str_diesel_China_China_Railways_HXN5 :중국 철도공사 HXN5 (디젤)
-str_diesel_Germany_DB_260_Gravita_10BB :DB 260 Gravita 10BB (디젤)
-str_diesel_Russia_RZD_GT1 :RZD GT1 (디젤)
+str_diesel_Germany_DB_310_Kof_II                                                :DB 310 Kof II (디젤)
+str_diesel_USA_CNJ_ALCo_GE_IR_Boxcab                                    :CNJ ALCo-GE-IR Boxcab (디젤)
+str_diesel_Netherlands_NS_200                                                   :NS 200 'Sik' (디젤)
+str_diesel_Germany_DB_270                                                               :DB 270 (디젤)
+str_diesel_Switzerland_SBB_Am_4_6                                               :SBB Am 4/6 (디젤)
+str_diesel_Australia_NSWGR_79                                                   :NSWGR 79 (디젤)
+str_diesel_USA_Western_Pacific_ALCO_S_2                                 :Western Pacific ALCO S-2 (디젤)
+str_diesel_USA_GNR_EMD_F3                                                               :GNR EMD F3 (디젤)
+str_diesel_USA_UP_EMD_E8                                                                :UP EMD E8 (디젤)
+str_diesel_Brasil_EFCB_ALCO_RS_3                                                :EFCB ALCO RS-3 (디젤)
+str_diesel_Netherlands_NS_600                                                   :NS 600 'Bakkie' (디젤)
+str_diesel_USA_Pennsylvania_Railroad_RF_16_Sharknose    :펜실베이니아 철도 RF-16 'Sharknose' (디젤)
+str_diesel_Uruguay_AFE_1500                                                     :AFE 1500 (디젤)
+str_diesel_Canada_CPR_Trainmaster                                               :CPR 'Trainmaster' (디젤)
+str_diesel_Liberia_Liberia_Railways_Class_08                    :라이베리아 철도 Class 08 (디젤)
+str_diesel_Austria_OBB_2060                                                     :OBB 2060 (디젤)
+str_diesel_Canada_CNR_SW1200                                                    :CNR SW1200 (디젤)
+str_diesel_Canada_VIA_Rail_FP9                                                  :VIA Rail FP9 (디젤)
+str_diesel_Hungary_MAV_M44                                                              :MAV M44 (디젤)
+str_diesel_Hungary_MAV_M28                                                              :MAV M28 (디젤)
+str_diesel_Belgium_NMBS_SNCB_83                                                 :NMBS/SNCB 83 (디젤)
+str_diesel_Germany_DB_220_V200                                                  :DB 220 V200 (디젤)
+str_diesel_USA_Amtrak_FL9                                                               :Amtrak FL9 (디젤)
+str_diesel_Finland_VR_Dr12                                                              :VR Dr12 (디젤)
+str_diesel_Romania_CFR_060_DA                                                   :CFR 060-DA (디젤)
+str_diesel_Brasil_BF_EMD_GL8                                                    :BF EMD GL8 (디젤)
+str_diesel_Brasil_EFVM_ML4000                                                   :EFVM ML4000 (디젤)
+str_diesel_Belgium_NMBS_SNCB_67                                                 :NMBS/SNCB 67 (디젤)
+str_diesel_Denmark_DSB_MaK_100                                                  :DSB MaK 100 (디젤)
+str_diesel_India_Indian_Railways_WDM_2                                  :인도 철도공사 WDM-2 (디젤)
+str_diesel_UK_BR_14                                                                     :BR 14 (디젤)
+str_diesel_Argentina_MF_GM_EMD_J16CW_AC                                 :MF GM-EMD-J16CW-AC (디젤)
+str_diesel_Australia_NSWGR_422                                                  :NSWGR 422 (디젤)
+str_diesel_Egypt_ENR_G22W                                                               :ENR G22W (디젤)
+str_diesel_USA_UP_EMD_DDA40X                                                    :UP EMD DDA40X (디젤)
+str_diesel_Australia_Queensland_Rail_2100                               :퀸즈랜드 철도 2100 (디젤)
+str_diesel_Croatia_HZ_2062                                                              :HZ 2062 (디젤)
+str_diesel_Sweden_SJ_V4                                                                 :SJ V4 (디젤)
+str_diesel_Canada_CNR_MLW_M420W                                                 :CNR MLW M420W (디젤)
+str_diesel_USA_GNR_SDP_40F                                                              :GNR SDP-40F (디젤)
+str_diesel_China_China_Railways_DFH3                                    :중국 철도공사 DFH3 (디젤)
+str_diesel_Panama_Panama_Canal_Railway_EMD_F40PH                :파나마 해협 철도 EMD F40PH (디젤)
+str_diesel_Portugal_CP_1900                                                     :CP 1900 (디젤)
+str_diesel_Finland_VR_Dr16                                                              :VR Dr16 (디젤)
+str_diesel_Australia_Australian_National_AN                     :오스트레일리아 국영 AN (디젤)
+str_diesel_USA_Amtrak_P42DC_Genesis                                     :Amtrak P42DC 'Genesis' (디젤)
+str_diesel_Turkey_TCDD_DH7000                                                   :TCDD DH7000 (디젤)
+str_diesel_Argentina_MF_GE_U20C                                                 :MF GE U20C (디젤)
+str_diesel_Belgium_NMBS_SNCB_7800                                               :NMBS/SNCB 7800 (디젤)
+str_diesel_UK_BR_66                                                                     :BR 66 (디젤)
+str_diesel_UK_BR_67                                                                     :BR 67 (디젤)
+str_diesel_Iran_RAI_DE43CA_Prima                                                :RAI DE43CA 'Prima' (디젤)
+str_diesel_Germany_DB_253_G2000_3_BB                                    :DB 253 G2000-3 BB (디젤)
+str_diesel_Ukraine_UZ_TEP150                                                    :UZ TEP150 (디젤)
+str_diesel_China_China_Railways_HXN5                                    :중국 철도공사 HXN5 (디젤)
+str_diesel_Germany_DB_260_Gravita_10BB                                  :DB 260 Gravita 10BB (디젤)
+str_diesel_Russia_RZD_GT1                                                               :RZD GT1 (디젤)
 
 #Electric
-str_electric_Switzerland_RhB_DE_2_2 :RhB DE 2/2 (전기)
-str_electric_Norway_NSB_EL7 :NSB EL7 (전기)
-str_electric_UK_NER_EF1 :NER EF1 (전기)
-str_electric_USA_Milwaukee_Road_ES_2 :Milwaukee Road ES-2 (전기)
-str_electric_USA_Pennsylvania_Railroad_FF_1 :펜실베이니아 철도 FF-1 (전기)
-str_electric_USA_Milwaukee_Road_EP_2_Bipolar :밀워키 Road EP-2 Bipolar (전기)
-str_electric_Chile_EFE_Series_E_28 :EFE E-28계 (전기)
-str_electric_Austria_OBB_1161 :OBB 1161 (전기)
-str_electric_Germany_DB_169 :DB 169 (전기)
-str_electric_Japan_JNR_EB10 :JNR EB10 (전기)
-str_electric_Norway_NSB_EL10 :NSB EL10 (전기)
-str_electric_Germany_DB_104 :DB 104 (전기)
-str_electric_Italy_FS_E428 :FS E428 (전기)
-str_electric_USA_Pennsylvania_Railroad_GG_1 :펜실베이니아 철도 GG-1 (전기)
-str_electric_Japan_JNR_EF55 :JNR EF55 (전기)
-str_electric_South_Africa_SAR_ES_Class :SAR ES Class (전기)
-str_electric_Austria_OBB_1020_Crocodile :OBB 1020 'Crocodile' (전기)
-str_electric_Netherlands_NS_1000 :NS 1000 (전기)
-str_electric_Sweden_MTAB_Dm3 :MTAB Dm3 (전기)
-str_electric_UK_BR_77_Metrovic :BR 77 'Metrovic' (전기)
-str_electric_France_SNCF_BB_9004 :SNCF BB 9004 (전기)
-str_electric_Switzerland_SBB_Ce_4_4 :SBB Ce 4/4 (전기)
-str_electric_Switzerland_SBB_Ae_6_6 :SBB Ae 6/6 (전기)
-str_electric_India_Indian_Railways_WCM_1 :인도 철도공사 WCM-1 (전기)
-str_electric_Italy_FS_E646 :FS E646 (전기)
-str_electric_Japan_JNR_EF64 :JNR EF64 (전기)
-str_electric_Croatia_HZ_1141 :HZ 1141 (전기)
-str_electric_Germany_DB_103 :DB 103 (전기)
-str_electric_South_Africa_SAR_6E :SAR 6E (전기)
-str_electric_Finland_VR_Sr1 :VR Sr1 (전기)
-str_electric_Austria_OBB_1044 :OBB 1044 (전기)
-str_electric_France_SNCF_BB_22200 :SNCF BB 22200 (전기)
-str_electric_Poland_PKP_ET41 :PKP ET41 (전기)
-str_electric_Netherlands_NS_1600 :NS 1600 (전기)
-str_electric_Austria_OBB_1063 :OBB 1063 (전기)
-str_electric_China_China_Railways_6K :중국 철도공사 6K (전기)
-str_electric_France_SNCF_BB_26000 :SNCF BB 26000 (전기)
-str_electric_China_China_Railways_SS6 :중국 철도공사 SS6 (전기)
-str_electric_Switzerland_SBB_Re460_Lok_2000 :SBB Re460 'Lok 2000' (전기)
-str_electric_Spain_RENFE_252 :RENFE 252 (전기)
-str_electric_UK_BR_92 :BR 92 (전기)
-str_electric_Germany_DB_145_TRAXX_F140 :DB 145 TRAXX F140 (전기)
-str_electric_Belgium_NMBS_SNCB_13_HLE :NMBS/SNCB 13 HLE (전기)
-str_electric_Japan_JR_EH500 :JR EH500 (전기)
-str_electric_Turkey_TCDD_E55200 :TCDD E55200 (전기)
-str_electric_Germany_DB_182_ES64U_Taurus :DB 182 ES64U 'Taurus' (전기)
-str_electric_Sweden_MTAB_IORE :MTAB IORE (전기)
-str_electric_South_Korea_Korail_8200 :코레일 8200 (전기)
-str_electric_Ukraine_UZ_DS3 :UZ DS3 (전기)
-str_electric_Kazakhstan_KTZ_KZ4A :KTZ KZ4A (전기)
-str_electric_Switzerland_SBB_Eem_923 :SBB Eem 923 (전기)
+str_electric_Switzerland_RhB_DE_2_2                     :RhB DE 2/2 (전기)
+str_electric_Norway_NSB_EL7                                     :NSB EL7 (전기)
+str_electric_UK_NER_EF1                                                 :NER EF1 (전기)
+str_electric_USA_Milwaukee_Road_ES_2                    :Milwaukee Road ES-2 (전기)
+str_electric_USA_Pennsylvania_Railroad_FF_1     :펜실베이니아 철도 FF-1 (전기)
+str_electric_USA_Milwaukee_Road_EP_2_Bipolar    :밀워키 Road EP-2 Bipolar (전기)
+str_electric_Chile_EFE_Series_E_28                              :EFE E-28계 (전기)
+str_electric_Austria_OBB_1161                                   :OBB 1161 (전기)
+str_electric_Germany_DB_169                                     :DB 169 (전기)
+str_electric_Japan_JNR_EB10                                     :JNR EB10 (전기)
+str_electric_Norway_NSB_EL10                                    :NSB EL10 (전기)
+str_electric_Germany_DB_104                                     :DB 104 (전기)
+str_electric_Italy_FS_E428                                              :FS E428 (전기)
+str_electric_USA_Pennsylvania_Railroad_GG_1     :펜실베이니아 철도 GG-1 (전기)
+str_electric_Japan_JNR_EF55                                     :JNR EF55 (전기)
+str_electric_South_Africa_SAR_ES_Class                  :SAR ES Class (전기)
+str_electric_Austria_OBB_1020_Crocodile                 :OBB 1020 'Crocodile' (전기)
+str_electric_Netherlands_NS_1000                                :NS 1000 (전기)
+str_electric_Sweden_MTAB_Dm3                                    :MTAB Dm3 (전기)
+str_electric_UK_BR_77_Metrovic                                  :BR 77 'Metrovic' (전기)
+str_electric_France_SNCF_BB_9004                                :SNCF BB 9004 (전기)
+str_electric_Switzerland_SBB_Ce_4_4                     :SBB Ce 4/4 (전기)
+str_electric_Switzerland_SBB_Ae_6_6                     :SBB Ae 6/6 (전기)
+str_electric_India_Indian_Railways_WCM_1                :인도 철도공사 WCM-1 (전기)
+str_electric_Italy_FS_E646                                              :FS E646 (전기)
+str_electric_Japan_JNR_EF64                                     :JNR EF64 (전기)
+str_electric_Croatia_HZ_1141                                    :HZ 1141 (전기)
+str_electric_Germany_DB_103                                     :DB 103 (전기)
+str_electric_South_Africa_SAR_6E                                :SAR 6E (전기)
+str_electric_Finland_VR_Sr1                                     :VR Sr1 (전기)
+str_electric_Austria_OBB_1044                                   :OBB 1044 (전기)
+str_electric_France_SNCF_BB_22200                               :SNCF BB 22200 (전기)
+str_electric_Poland_PKP_ET41                                    :PKP ET41 (전기)
+str_electric_Netherlands_NS_1600                                :NS 1600 (전기)
+str_electric_Austria_OBB_1063                                   :OBB 1063 (전기)
+str_electric_China_China_Railways_6K                    :중국 철도공사 6K (전기)
+str_electric_France_SNCF_BB_26000                               :SNCF BB 26000 (전기)
+str_electric_China_China_Railways_SS6                   :중국 철도공사 SS6 (전기)
+str_electric_Switzerland_SBB_Re460_Lok_2000     :SBB Re460 'Lok 2000' (전기)
+str_electric_Spain_RENFE_252                                    :RENFE 252 (전기)
+str_electric_UK_BR_92                                                   :BR 92 (전기)
+str_electric_Germany_DB_145_TRAXX_F140                  :DB 145 TRAXX F140 (전기)
+str_electric_Belgium_NMBS_SNCB_13_HLE                   :NMBS/SNCB 13 HLE (전기)
+str_electric_Japan_JR_EH500                                     :JR EH500 (전기)
+str_electric_Turkey_TCDD_E55200                                 :TCDD E55200 (전기)
+str_electric_Germany_DB_182_ES64U_Taurus                :DB 182 ES64U 'Taurus' (전기)
+str_electric_Sweden_MTAB_IORE                                   :MTAB IORE (전기)
+str_electric_South_Korea_Korail_8200                    :코레일 8200 (전기)
+str_electric_Ukraine_UZ_DS3                                     :UZ DS3 (전기)
+str_electric_Kazakhstan_KTZ_KZ4A                                :KTZ KZ4A (전기)
+str_electric_Switzerland_SBB_Eem_923                    :SBB Eem 923 (전기)
 
 #DMU
-str_dmu_Germany_DB_VT04_Flying_Hamburger :DB VT04 'Flying Hamburger' (DMU)
-str_dmu_Australia_NSWGR_Silver_City_Comet :NSWGR Silver City Comet (DMU)
-str_dmu_Germany_DB_VT08 :DB VT08 (DMU)
-str_dmu_Australia_Queensland_Rail_400 :퀸즈랜드 철도 400 (DMU)
-str_dmu_Italy_FS_ALn668 :FS ALn668 (DMU)
-str_dmu_Germany_DB_601_VT11_TEE :DB 601 VT11 TEE (DMU)
-str_dmu_Netherlands_NS_Plan_U_DE_III :NS Plan U DE-III (DMU)
-str_dmu_Canada_CNR_Turbo_Train :CNR 'Turbo Train' (DMU)
-str_dmu_Serbia_ZS_811 :ZS 811 (DMU)
-str_dmu_UK_BR_43_IC125 :BR 43 IC125 (DMU)
-str_dmu_Canada_VIA_Rail_LRC :VIA Rail LRC (DMU)
-str_dmu_Sweden_SJ_Y2 :SJ Y2 (DMU)
-str_dmu_Spain_RENFE_594_TRD :RENFE 594 TRD (DMU)
-str_dmu_UK_BR_168 :BR 168 (DMU)
-str_dmu_Germany_DB_612_Regio_Swinger :DB 612 'Regio Swinger' (DMU)
-str_dmu_Germany_DB_642_Desiro :DB 642 'Desiro' (DMU)
-str_dmu_Denmark_Arriva_Lint_41 :Arriva Lint 41 (DMU)
-str_dmu_Norway_NSB_BM_93_Talent :NSB BM 93 'Talent' (DMU)
-str_dmu_Australia_Transwa_Prospector :Transwa Prospector (DMU)
-str_dmu_Australia_CityRail_Hunter_Railcar :CityRail Hunter Railcar (DMU)
-str_dmu_Russia_RZD_RA2 :RZD RA2 (DMU)
-str_dmu_Denmark_DSB_IC4 :DSB IC4 (DMU)
-str_dmu_Croatia_HZ_7022 :HZ 7022 (DMU)
+str_dmu_Germany_DB_VT04_Flying_Hamburger        :DB VT04 'Flying Hamburger' (DMU)
+str_dmu_Australia_NSWGR_Silver_City_Comet       :NSWGR Silver City Comet (DMU)
+str_dmu_Germany_DB_VT08                                         :DB VT08 (DMU)
+str_dmu_Australia_Queensland_Rail_400           :퀸즈랜드 철도 400 (DMU)
+str_dmu_Italy_FS_ALn668                                         :FS ALn668 (DMU)
+str_dmu_Germany_DB_601_VT11_TEE                         :DB 601 VT11 TEE (DMU)
+str_dmu_Netherlands_NS_Plan_U_DE_III            :NS Plan U DE-III (DMU)
+str_dmu_Canada_CNR_Turbo_Train                          :CNR 'Turbo Train' (DMU)
+str_dmu_Serbia_ZS_811                                           :ZS 811 (DMU)
+str_dmu_UK_BR_43_IC125                                          :BR 43 IC125 (DMU)
+str_dmu_Canada_VIA_Rail_LRC                             :VIA Rail LRC (DMU)
+str_dmu_Sweden_SJ_Y2                                            :SJ Y2 (DMU)
+str_dmu_Spain_RENFE_594_TRD                             :RENFE 594 TRD (DMU)
+str_dmu_UK_BR_168                                                       :BR 168 (DMU)
+str_dmu_Germany_DB_612_Regio_Swinger            :DB 612 'Regio Swinger' (DMU)
+str_dmu_Germany_DB_642_Desiro                           :DB 642 'Desiro' (DMU)
+str_dmu_Denmark_Arriva_Lint_41                          :Arriva Lint 41 (DMU)
+str_dmu_Norway_NSB_BM_93_Talent                         :NSB BM 93 'Talent' (DMU)
+str_dmu_Australia_Transwa_Prospector            :Transwa Prospector (DMU)
+str_dmu_Australia_CityRail_Hunter_Railcar       :CityRail Hunter Railcar (DMU)
+str_dmu_Russia_RZD_RA2                                          :RZD RA2 (DMU)
+str_dmu_Denmark_DSB_IC4                                         :DSB IC4 (DMU)
+str_dmu_Croatia_HZ_7022                                         :HZ 7022 (DMU)
 
 #EMU
-str_emu_Netherlands_NS_Mat24 :NS Mat'24 (EMU)
-str_emu_Austria_OBB_4041 :OBB 4041 (EMU)
-str_emu_Italy_ATAC_ECD_21_30 :ATAC ECD 21-30 (EMU)
-str_emu_Netherlands_NS_Mat36 :NS Mat'36 (EMU)
-str_emu_Italy_FS_ETR200 :FS ETR200 (EMU)
-str_emu_Norway_NSB_BM65 :NSB BM65 (EMU)
-str_emu_Italy_FS_ETR300_Settebello :FS ETR300 'Settebello' (EMU)
-str_emu_Netherlands_NS_Mat54 :NS Mat'54 (EMU)
-str_emu_Turkey_TCDD_E8000 :TCDD E8000 (EMU)
-str_emu_Switzerland_SBB_Rae_TEE_II :SBB Rae TEE II (EMU)
-str_emu_Japan_Odakyu_3100_Series_Romance :오다큐 3100계 '로망스' (EMU)
-str_emu_Japan_JNR_Shinkansen_Series_0 :JNR 신칸센 0계 (EMU)
-str_emu_Switzerland_SBB_RABDe_510 :SBB RABDe 510 (EMU)
-str_emu_Denmark_DSB_S_Tog_II :DSB S-Tog II (EMU)
-str_emu_Germany_DB_ET420 :DB ET420 (EMU)
-str_emu_Australia_CityRail_V_DDIU :CityRail V DDIU (EMU)
-str_emu_Netherlands_NS_Plan_Y :NS Plan Y (EMU)
-str_emu_Finland_VR_Sm2 :VR Sm2 (EMU)
-str_emu_Netherlands_NS_ICM_4000 :NS ICM 4000 (EMU)
-str_emu_France_SNCF_TGV_Sud_Est :SNCF TGV Sud-Est (EMU)
-str_emu_Switzerland_SBB_RBDe_560 :SBB RBDe 560 (EMU)
-str_emu_Japan_Odakyu_10000_Series_Romance :오다큐 10000 계 '로망스' (EMU)
-str_emu_Hungary_MAV_BDVmot :MAV BDVmot (EMU)
-str_emu_Sweden_SJ_X2000 :SJ X2000 (EMU)
-str_emu_Italy_FS_ETR500 :FS ETR500 (EMU)
-str_emu_Netherlands_NS_DD_IRM_VIRM :NS DD-IRM 'VIRM' (EMU)
-str_emu_France_SNCF_TGV_Duplex :SNCF TGV Duplex (EMU)
-str_emu_France_SNCF_TGV_Thalys :SNCF TGV Thalys (EMU)
-str_emu_Denmark_DSB_S_Tog_IV :DSB S-Tog IV (EMU)
-str_emu_Italy_FS_ALe426 :FS ALe426 (EMU)
-str_emu_Japan_JR_Shinkansen_Series_700 :JR 신칸센 700계 (EMU)
-str_emu_Netherlands_NS_mDDm_390 :NS mDDm 390 (EMU)
-str_emu_Norway_NSB_BM73 :NSB BM73 (EMU)
-str_emu_Czech_Republic_CD_680_Pendolino :CD 680 'Pendolino' (EMU)
-str_emu_Luxembourg_CFL_2200_Coradia_Duplex :CFL 2200 'Coradia Duplex' (EMU)
-str_emu_Finland_VR_Sm4 :VR Sm4 (EMU)
-str_emu_Germany_DB_403_ICE_3 :DB 403 ICE-3 (EMU)
-str_emu_Spain_RENFE_120 :RENFE 120 (EMU)
-str_emu_Switzerland_SBB_RABe_523_Flirt :SBB RABe 523 'Flirt' (EMU)
-str_emu_Bulgaria_BDZ_10_Desiro :BDZ 10 'Desiro' (EMU)
-str_emu_Australia_CityRail_OSCars :CityRail OSCars (EMU)
-str_emu_South_Africa_Gautrain_Electrostar :Gautrain 일렉트로스타 (EMU)
-str_emu_Italy_NTV_AGV :NTV AGV (EMU)
-str_emu_Netherlands_NS_4800_HSA :NS 4800 HSA (EMU)
-str_emu_Italy_NTV_AGV_Duplex :NTV AGV Duplex (EMU)
+str_emu_Netherlands_NS_Mat24                            :NS Mat'24 (EMU)
+str_emu_Austria_OBB_4041                                        :OBB 4041 (EMU)
+str_emu_Italy_ATAC_ECD_21_30                            :ATAC ECD 21-30 (EMU)
+str_emu_Netherlands_NS_Mat36                            :NS Mat'36 (EMU)
+str_emu_Italy_FS_ETR200                                         :FS ETR200 (EMU)
+str_emu_Norway_NSB_BM65                                         :NSB BM65 (EMU)
+str_emu_Italy_FS_ETR300_Settebello                      :FS ETR300 'Settebello' (EMU)
+str_emu_Netherlands_NS_Mat54                            :NS Mat'54 (EMU)
+str_emu_Turkey_TCDD_E8000                                       :TCDD E8000 (EMU)
+str_emu_Switzerland_SBB_Rae_TEE_II                      :SBB Rae TEE II (EMU)
+str_emu_Japan_Odakyu_3100_Series_Romance        :오다큐 3100계 '로망스' (EMU)
+str_emu_Japan_JNR_Shinkansen_Series_0           :JNR 신칸센 0계 (EMU)
+str_emu_Switzerland_SBB_RABDe_510                       :SBB RABDe 510 (EMU)
+str_emu_Denmark_DSB_S_Tog_II                            :DSB S-Tog II (EMU)
+str_emu_Germany_DB_ET420                                        :DB ET420 (EMU)
+str_emu_Australia_CityRail_V_DDIU                       :CityRail V DDIU (EMU)
+str_emu_Netherlands_NS_Plan_Y                           :NS Plan Y (EMU)
+str_emu_Finland_VR_Sm2                                          :VR Sm2 (EMU)
+str_emu_Netherlands_NS_ICM_4000                         :NS ICM 4000 (EMU)
+str_emu_France_SNCF_TGV_Sud_Est                         :SNCF TGV Sud-Est (EMU)
+str_emu_Switzerland_SBB_RBDe_560                        :SBB RBDe 560 (EMU)
+str_emu_Japan_Odakyu_10000_Series_Romance       :오다큐 10000 계 '로망스' (EMU)
+str_emu_Hungary_MAV_BDVmot                                      :MAV BDVmot (EMU)
+str_emu_Sweden_SJ_X2000                                         :SJ X2000 (EMU)
+str_emu_Italy_FS_ETR500                                         :FS ETR500 (EMU)
+str_emu_Netherlands_NS_DD_IRM_VIRM                      :NS DD-IRM 'VIRM' (EMU)
+str_emu_France_SNCF_TGV_Duplex                          :SNCF TGV Duplex (EMU)
+str_emu_France_SNCF_TGV_Thalys                          :SNCF TGV Thalys (EMU)
+str_emu_Denmark_DSB_S_Tog_IV                            :DSB S-Tog IV (EMU)
+str_emu_Italy_FS_ALe426                                         :FS ALe426 (EMU)
+str_emu_Japan_JR_Shinkansen_Series_700          :JR 신칸센 700계 (EMU)
+str_emu_Netherlands_NS_mDDm_390                         :NS mDDm 390 (EMU)
+str_emu_Norway_NSB_BM73                                         :NSB BM73 (EMU)
+str_emu_Czech_Republic_CD_680_Pendolino         :CD 680 'Pendolino' (EMU)
+str_emu_Luxembourg_CFL_2200_Coradia_Duplex      :CFL 2200 'Coradia Duplex' (EMU)
+str_emu_Finland_VR_Sm4                                          :VR Sm4 (EMU)
+str_emu_Germany_DB_403_ICE_3                            :DB 403 ICE-3 (EMU)
+str_emu_Spain_RENFE_120                                         :RENFE 120 (EMU)
+str_emu_Switzerland_SBB_RABe_523_Flirt          :SBB RABe 523 'Flirt' (EMU)
+str_emu_Bulgaria_BDZ_10_Desiro                          :BDZ 10 'Desiro' (EMU)
+str_emu_Australia_CityRail_OSCars                       :CityRail OSCars (EMU)
+str_emu_South_Africa_Gautrain_Electrostar       :Gautrain 일렉트로스타 (EMU)
+str_emu_Italy_NTV_AGV                                           :NTV AGV (EMU)
+str_emu_Netherlands_NS_4800_HSA                         :NS 4800 HSA (EMU)
+str_emu_Italy_NTV_AGV_Duplex                            :NTV AGV Duplex (EMU)
 
 #Single Unit Metro
-str_mtro_USA_Brooklyn_Union_Gate_Car    :Brooklyn Union Gate Car (지하철)
-str_mtro_Hungary_Budapest_1894_Stock    :부다페스트 1894 Stock (지하철)
+str_mtro_USA_Brooklyn_Union_Gate_Car                                    :Brooklyn Union Gate Car (지하철)
+str_mtro_Hungary_Budapest_1894_Stock                                    :부다페스트 1894 Stock (지하철)
 str_mtro_USA_Chicago_L_Northwest_Elevated_1907_Stock    :시카고 L 북서 고가 1907 Stock (지하철)
-str_mtro_Germany_Berlin_U_Bahn_C_II             :베를린 U-반 C II (지하철)
+str_mtro_Germany_Berlin_U_Bahn_C_II                                             :베를린 U-반 C II (지하철)
 
 #Multiple Unit Metro
-str_mtro_UK_London_1903_Stock                   :런던 1903 Stock (지하철)
-str_mtro_Argentina_Le_Brugeoise                 :부에노스아이레스 'Le Brugeoise' (지하철)
-str_mtro_USA_NY_R1                                              :뉴욕 R1 (지하철)
-str_mtro_UK_London_1938_Stock                   :런던 1938 Stock (지하철)
-str_mtro_Germany_DB_ET171                               :DB ET171 (지하철)
-str_mtro_France_Paris_M2_840                    :파리 M2 840 (지하철)
-str_mtro_Portugal_Lisbon_ML7                    :리스본 ML7 (지하철)
-str_mtro_Hungary_Budapest_Ev3_200               :부다페스트 Ev3-200 (지하철)
-str_mtro_Norway_Oslo_T1000                              :오슬로 T1000 (지하철)
-str_mtro_Canada_Toronto_H_series                :토론토 H계 (지하철)
-str_mtro_Germany_Munchen_MVG_A2                 :뮌헨 MVG A2 (지하철)
-str_mtro_USA_NY_R44                                     :뉴욕 R44 (지하철)
-str_mtro_Netherlands_Amsterdam_Type_M1  :암스테르담 M1 (지하철)
-str_mtro_Sweden_Stockholm_C8                    :스톡홀름 C8 (지하철)
-str_mtro_North_Korea_Pyongyang_D_stock  :평양 D stock (지하철)
-str_mtro_Finland_Helsinki_M100                  :헬싱키 M100 (지하철)
-str_mtro_Brasil_Sao_Paulo_Serie_5500    :상파울루 세리에 5500 (지하철)
-str_mtro_Japan_Tokyo_S01                                :도쿄 S01 (지하철)
-str_mtro_Egypt_Cairo_1987_Stock                 :카이로 1987 stock (지하철)
-str_mtro_UK_DLR_P86                                     :DLR P86 (지하철)
-str_mtro_USA_Boston_01800                               :보스턴 01800 (지하철)
-str_mtro_USA_LA_A650                                    :LA A650 (지하철)
-str_mtro_Taiwan_Taipei_C301                     :타이페이 C301 (지하철)
-str_mtro_Netherlands_Amsterdam_CAF_90   :암스테르담 CAF 90 (지하철)
-str_mtro_France_Paris_MP89                              :파리 MP89 (지하철)
-str_mtro_Russia_Moscow_81_740                   :모스크바 81-740 (지하철)
-str_mtro_Singapore_Singapore_C830_Metropolis :싱가포르 C830 'Metropolis' (지하철)
-str_mtro_Norway_Oslo_MX3000                     :오슬로 MX3000 (지하철)
-str_mtro_Japan_Osaka_30000                              :오사카 30000 (지하철)
-str_mtro_Singapore_Singapore_C151A              :싱가포르 C151A (지하철)
-str_mtro_USA_Washington_7000                    :워싱턴7000 (지하철)
-str_mtro_Greece_Thessaloniki_2014               :테살로니키 2014 (지하철)
+str_mtro_UK_London_1903_Stock                                   :런던 1903 Stock (지하철)
+str_mtro_Argentina_Le_Brugeoise                                 :부에노스아이레스 'Le Brugeoise' (지하철)
+str_mtro_USA_NY_R1                                                              :뉴욕 R1 (지하철)
+str_mtro_UK_London_1938_Stock                                   :런던 1938 Stock (지하철)
+str_mtro_Germany_DB_ET171                                               :DB ET171 (지하철)
+str_mtro_France_Paris_M2_840                                    :파리 M2 840 (지하철)
+str_mtro_Portugal_Lisbon_ML7                                    :리스본 ML7 (지하철)
+str_mtro_Hungary_Budapest_Ev3_200                               :부다페스트 Ev3-200 (지하철)
+str_mtro_Norway_Oslo_T1000                                              :오슬로 T1000 (지하철)
+str_mtro_Canada_Toronto_H_series                                :토론토 H계 (지하철)
+str_mtro_Germany_Munchen_MVG_A2                                 :뮌헨 MVG A2 (지하철)
+str_mtro_USA_NY_R44                                                     :뉴욕 R44 (지하철)
+str_mtro_Netherlands_Amsterdam_Type_M1                  :암스테르담 M1 (지하철)
+str_mtro_Sweden_Stockholm_C8                                    :스톡홀름 C8 (지하철)
+str_mtro_North_Korea_Pyongyang_D_stock                  :평양 D stock (지하철)
+str_mtro_Finland_Helsinki_M100                                  :헬싱키 M100 (지하철)
+str_mtro_Brasil_Sao_Paulo_Serie_5500                    :상파울루 세리에 5500 (지하철)
+str_mtro_Japan_Tokyo_S01                                                :도쿄 S01 (지하철)
+str_mtro_Egypt_Cairo_1987_Stock                                 :카이로 1987 stock (지하철)
+str_mtro_UK_DLR_P86                                                     :DLR P86 (지하철)
+str_mtro_USA_Boston_01800                                               :보스턴 01800 (지하철)
+str_mtro_USA_LA_A650                                                    :LA A650 (지하철)
+str_mtro_Taiwan_Taipei_C301                                     :타이페이 C301 (지하철)
+str_mtro_Netherlands_Amsterdam_CAF_90                   :암스테르담 CAF 90 (지하철)
+str_mtro_France_Paris_MP89                                              :파리 MP89 (지하철)
+str_mtro_Russia_Moscow_81_740                                   :모스크바 81-740 (지하철)
+str_mtro_Singapore_Singapore_C830_Metropolis    :싱가포르 C830 'Metropolis' (지하철)
+str_mtro_Norway_Oslo_MX3000                                     :오슬로 MX3000 (지하철)
+str_mtro_Japan_Osaka_30000                                              :오사카 30000 (지하철)
+str_mtro_Singapore_Singapore_C151A                              :싱가포르 C151A (지하철)
+str_mtro_USA_Washington_7000                                    :워싱턴7000 (지하철)
+str_mtro_Greece_Thessaloniki_2014                               :테살로니키 2014 (지하철)
 
 #Maglev
 str_mglv_China_Transrapid       :상하이 트랜스래피드 (자기부상)
 str_mglv_Japan_MLX01_901        :JR MLX01-901 (자기부상)
 
 #wagons
-str_wagon_Gen1_Flat_Wagon :1세대 평판화차
-str_wagon_Gen1_Boxcar :1세대 목제 유개화차
-str_wagon_Gen1_Tanker :1세대 유조차
-str_wagon_Gen1_Open_Wagon :1세대 목제 무개화차
-str_wagon_Gen2_Flat_Wagon :2세대 평판화차
-str_wagon_Gen2_Boxcar :2세대 목제 유개화차
-str_wagon_Gen2_Tanker :2세대 유조차
-str_wagon_Gen2_Open_Wagon :2세대 목재 무개화차
-str_wagon_Gen2_Silo :2세대 곡물화차
-str_wagon_Gen2_Hopper :2세대 목재 호퍼차
-str_wagon_Gen3_Flat_Wagon :3세대 평판화차
-str_wagon_Gen3_Boxcar :3세대 목제 유개화차
-str_wagon_Gen3_Tanker :3세대 유조차
-str_wagon_Gen3_Open_Wagon :3세대 무개화차
-str_wagon_Gen3_Silo :3세대 곡물화차
-str_wagon_Gen3_Hopper :3세대 호퍼차
-str_wagon_Gen4_Flatcar :4세대 평판화차
-str_wagon_Gen4_Heavy_Flatcar :4세대 중량 평판화차
-str_wagon_Gen4_Boxcar :4세대 유개화차
-str_wagon_Gen4_Tanker :4세대 유조차
-str_wagon_Gen4_Gondola :4세대 곤돌라
-str_wagon_Gen4_Silo :4세대 곡물화차
-str_wagon_Gen4_Hopper :4세대 자체방전 호퍼차
-str_wagon_Gen4_Car_Transporter :4세대 자동차 수송차량
-str_wagon_Gen4_Container_Carrier :4세대 컨테이너 화차
-str_wagon_Gen4_Centerbeam :4세대 구획평판화차
-str_wagon_Gen5_Flatcar :5세대 평판화차
-str_wagon_Gen5_Heavy_Flatcar :5세대 중량 평판화차
-str_wagon_Gen5_Boxcar :5세대 유개화차
-str_wagon_Gen5_Tanker :5세대 유조차
-str_wagon_Gen5_Gondola :5세대 무개화차
-str_wagon_Gen5_Silo :5세대 곡물화차
-str_wagon_Gen5_Hopper :5세대 자체방전 호퍼차
-str_wagon_Gen5_Car_Transporter :5세대 차량수송화차
-str_wagon_Gen5_Container_Carrier :5세대 컨테이너 화차
-str_wagon_Gen5_Centerbeam :5세대 구획평판화차
-str_wagon_Gen5_Container_Doublestack :5세대 컨테이너 복화차
-str_wagon_Gen5_Superheavy_Flatcar :5세대 초중량 평판화차
+str_wagon_Gen1_Flat_Wagon                               :1세대 평판화차
+str_wagon_Gen1_Boxcar                                   :1세대 목제 유개화차
+str_wagon_Gen1_Tanker                                   :1세대 유조차
+str_wagon_Gen1_Open_Wagon                               :1세대 목제 무개화차
+str_wagon_Gen2_Flat_Wagon                               :2세대 평판화차
+str_wagon_Gen2_Boxcar                                   :2세대 목제 유개화차
+str_wagon_Gen2_Tanker                                   :2세대 유조차
+str_wagon_Gen2_Open_Wagon                               :2세대 목재 무개화차
+str_wagon_Gen2_Silo                                     :2세대 곡물화차
+str_wagon_Gen2_Hopper                                   :2세대 목재 호퍼차
+str_wagon_Gen3_Flat_Wagon                               :3세대 평판화차
+str_wagon_Gen3_Boxcar                                   :3세대 목제 유개화차
+str_wagon_Gen3_Tanker                                   :3세대 유조차
+str_wagon_Gen3_Open_Wagon                               :3세대 무개화차
+str_wagon_Gen3_Silo                                     :3세대 곡물화차
+str_wagon_Gen3_Hopper                                   :3세대 호퍼차
+str_wagon_Gen4_Flatcar                                  :4세대 평판화차
+str_wagon_Gen4_Heavy_Flatcar                    :4세대 중량 평판화차
+str_wagon_Gen4_Boxcar                                   :4세대 유개화차
+str_wagon_Gen4_Tanker                                   :4세대 유조차
+str_wagon_Gen4_Gondola                                  :4세대 곤돌라
+str_wagon_Gen4_Silo                                     :4세대 곡물화차
+str_wagon_Gen4_Hopper                                   :4세대 자체방전 호퍼차
+str_wagon_Gen4_Car_Transporter                  :4세대 자동차 수송차량
+str_wagon_Gen4_Container_Carrier                :4세대 컨테이너 화차
+str_wagon_Gen4_Centerbeam                               :4세대 구획평판화차
+str_wagon_Gen5_Flatcar                                  :5세대 평판화차
+str_wagon_Gen5_Heavy_Flatcar                    :5세대 중량 평판화차
+str_wagon_Gen5_Boxcar                                   :5세대 유개화차
+str_wagon_Gen5_Tanker                                   :5세대 유조차
+str_wagon_Gen5_Gondola                                  :5세대 무개화차
+str_wagon_Gen5_Silo                                     :5세대 곡물화차
+str_wagon_Gen5_Hopper                                   :5세대 자체방전 호퍼차
+str_wagon_Gen5_Car_Transporter                  :5세대 차량수송화차
+str_wagon_Gen5_Container_Carrier                :5세대 컨테이너 화차
+str_wagon_Gen5_Centerbeam                               :5세대 구획평판화차
+str_wagon_Gen5_Container_Doublestack    :5세대 컨테이너 복화차
+str_wagon_Gen5_Superheavy_Flatcar               :5세대 초중량 평판화차
 
 #coaches
-str_coach_Gen1_Wooden_2_axle_Compartment_Coach :목제 2차축 객차
-str_coach_Gen1_Wooden_2_axle_Regional_Coach :목제 2차축 지역간 객차
-str_coach_Gen1_Wooden_2_axle_Mail_Coach :목제 2차축 우편차
-str_coach_Gen1_Clerestory_Compartment_Coach :통풍 컴파트먼트 객차
-str_coach_Gen1_Clerestory_Regional_Coach :채광창이 있는 지역간 객차
-str_coach_Gen1_Clerestory_Mail_Coach :고측창 우편차
-str_coach_Gen1_Wooden_3_axle_Compartment_Coach :목재 3차축 객차
-str_coach_Gen1_Wooden_3_axle_Regional_Coach :목제 3차축 지역간 객차
-str_coach_Gen1_Wooden_3_axle_Mail_Coach :목재 3차축 우편차
-str_coach_Gen2_Heavyweight_Intercity_Coach :중량 도시간 객차
-str_coach_Gen2_Heavyweight_Mail_Coach :중량 우편차
-str_coach_Gen2_Steel_Intercity_Coach :철제 도시간 객차
-str_coach_Gen2_Steel_Compartment_Coach :철제 컴파트먼트 객차
-str_coach_Gen2_Steel_Regional_Coach :철제 지역간 객차
-str_coach_Gen2_Steel_Mail_Coach :철제 우편차
-str_coach_Gen2_Steel_2_axle_Compartment_Coach :철제 2차축 객차
-str_coach_Gen2_Steel_2_axle_Regional_Coach :철제 2차축 지역간 객차
-str_coach_Gen2_Steel_2_axle_Mail_Coach :철제 2차축 우편차
-str_coach_Gen2_Steel_3_axle_Compartment_Coach :철제 3차축 객차
-str_coach_Gen2_Steel_3_axle_Regional_Coach :철제 3차축 지역간 객차
-str_coach_Gen2_Steel_3_axle_Mail_Coach :철제 3차축 우편차
-str_coach_Gen3_Steel_Lightweight_Intercity_Coach :철제 경량 도시간 객차
-str_coach_Gen3_Steel_Lightweight_Regional_Coach :철제 경량 지역간 객차
-str_coach_Gen3_Steel_Lightweight_Mail_Coach :철제 경량 우편차
-str_coach_Gen3_Aluminium_Lightweight_Intercity_Coach :알루미늄제 경량 도시간 객차
-str_coach_Gen3_Aluminium_Lightweight_Regional_Coach :알루미늄제 경량화 객차
-str_coach_Gen3_Aluminium_Lightweight_Mail_Coach :알루미늄제 경량화 우편차
-str_coach_Gen3_Gallery_Car :전망칸
-str_coach_Gen3_Mk1_Intercity_Coach :Mk1 도시간 객차
-str_coach_Gen3_Mk1_Regional_Coach :Mk1 지역간 객차
-str_coach_Gen3_Mk1_Mail_Coach :Mk1 우편차
-str_coach_Gen3_UIC_X_Intercity_Coach :UIC-X 도시간 객차
-str_coach_Gen3_TEE_Intercity_Coach :TEE 도시간 객차
-str_coach_Gen3_UIC_X_Regional_Coach :UIC-X 지역간 객차
-str_coach_Gen3_Umbauwagen_Local_Coach :'움바우바겐' 지역 객차
-str_coach_Gen3_Doppelstockwagen_Local_Coach :2층객차
-str_coach_Gen3_UIC_X_Mail_Coach :UIC-X 우편차
-str_coach_Gen3_Indian_Intercity_Coach :인도 도시간 객차
-str_coach_Gen3_Indian_Local_Coach :인도 지역 객차
-str_coach_Gen3_Indian_Regional_Coach :인도 지역간 객차
-str_coach_Gen3_Indian_Mail_Coach :인도 우편차
-str_coach_Gen4_Eurofima_Intercity_Coach :유럽 표준 객차
-str_coach_Gen4_InterRegio_Coach :Regio간 객차
-str_coach_Gen4_Silberling_Commuter_Coach :'실버링' 통근 객차
-str_coach_Gen4_Eurofima_Mail_Coach :유럽 표준 우편차
-str_coach_Gen4_Double_Decker_Coach :2층 객차
-str_coach_Gen4_Russian_Intercity_Coach :러시아 도시간 객차
-str_coach_Gen4_Russian_Regional_Coach :러시아 지역간 객차
-str_coach_Gen4_Russian_Mail_Coach :러시아 우편차
-str_coach_Gen4_Superliner_Coach :수퍼라이너 객차
-str_coach_Gen4_Superliner_California :수퍼라이너 캘리포니아
-str_coach_Gen4_Amfleet_Regional_Coach :암플리트 지역간 객차
-str_coach_Gen4_Amfleet_Intercity_Coach :암플릿트 도시간 객차
-str_coach_Gen4_Comet_Commuter_Coach :코멧 통근 객차
-str_coach_Gen4_Horizon_Regional_Coach :호라이즌 지역간 객차
-str_coach_Gen4_Horizon_Baggage_Coach :호라이즌 수화물 객차
-str_coach_Gen4_Bombardier_Bi_level :2단식 설상차
-str_coach_Gen5_High_Speed_Coach :고속형 객차
-str_coach_Gen5_Modern_Regional_Coach :현대식 지역간 객차
-str_coach_Gen5_Modern_Commuter_Coach :현대식 통근 객차
-str_coach_Gen5_Modern_Double_Decker_Coach :현대식 2층객차
-str_coach_Gen5_High_Speed_Double_Decker_IC2000 :고속형 복층객차 (IC2000)
-str_coach_Gen5_High_Speed_Mail_Coach :고속형 우편차
-str_coach_Gen5_Talgo_Pendular :탈고 펜듈러
-str_coach_Gen5_Talgo_Pendular_Mail :Talgo Pendular 우편화차
-str_coach_Gen6_Grand_Voyager_Coach :대형 여객차
-str_coach_Gen6_Grand_Regio_Coach :대형 Regio 객차
-str_coach_Gen6_Metropolis_Coach :Metropolis Coach
-str_coach_Gen6_Speedmail_Coach :특급우편 수송차
-str_coach_Gen6_Super_Regio_Coach :중형 Regio 객차
-str_coach_Gen6_Super_Voyager_Coach :중형 여객차
-
-
+str_coach_Gen1_Wooden_2_axle_Compartment_Coach                  :목제 2차축 객차
+str_coach_Gen1_Wooden_2_axle_Regional_Coach                     :목제 2차축 지역간 객차
+str_coach_Gen1_Wooden_2_axle_Mail_Coach                                 :목제 2차축 우편차
+str_coach_Gen1_Clerestory_Compartment_Coach                     :통풍 컴파트먼트 객차
+str_coach_Gen1_Clerestory_Regional_Coach                                :채광창이 있는 지역간 객차
+str_coach_Gen1_Clerestory_Mail_Coach                                    :고측창 우편차
+str_coach_Gen1_Wooden_3_axle_Compartment_Coach                  :목재 3차축 객차
+str_coach_Gen1_Wooden_3_axle_Regional_Coach                     :목제 3차축 지역간 객차
+str_coach_Gen1_Wooden_3_axle_Mail_Coach                                 :목재 3차축 우편차
+str_coach_Gen2_Heavyweight_Intercity_Coach                              :중량 도시간 객차
+str_coach_Gen2_Heavyweight_Mail_Coach                                   :중량 우편차
+str_coach_Gen2_Steel_Intercity_Coach                                    :철제 도시간 객차
+str_coach_Gen2_Steel_Compartment_Coach                                  :철제 컴파트먼트 객차
+str_coach_Gen2_Steel_Regional_Coach                                     :철제 지역간 객차
+str_coach_Gen2_Steel_Mail_Coach                                                 :철제 우편차
+str_coach_Gen2_Steel_2_axle_Compartment_Coach                   :철제 2차축 객차
+str_coach_Gen2_Steel_2_axle_Regional_Coach                              :철제 2차축 지역간 객차
+str_coach_Gen2_Steel_2_axle_Mail_Coach                                  :철제 2차축 우편차
+str_coach_Gen2_Steel_3_axle_Compartment_Coach                   :철제 3차축 객차
+str_coach_Gen2_Steel_3_axle_Regional_Coach                              :철제 3차축 지역간 객차
+str_coach_Gen2_Steel_3_axle_Mail_Coach                                  :철제 3차축 우편차
+str_coach_Gen3_Steel_Lightweight_Intercity_Coach                :철제 경량 도시간 객차
+str_coach_Gen3_Steel_Lightweight_Regional_Coach                 :철제 경량 지역간 객차
+str_coach_Gen3_Steel_Lightweight_Mail_Coach                     :철제 경량 우편차
+str_coach_Gen3_Aluminium_Lightweight_Intercity_Coach    :알루미늄제 경량 도시간 객차
+str_coach_Gen3_Aluminium_Lightweight_Regional_Coach     :알루미늄제 경량화 객차
+str_coach_Gen3_Aluminium_Lightweight_Mail_Coach                 :알루미늄제 경량화 우편차
+str_coach_Gen3_Gallery_Car                                                              :전망칸
+str_coach_Gen3_Mk1_Intercity_Coach                                              :Mk1 도시간 객차
+str_coach_Gen3_Mk1_Regional_Coach                                               :Mk1 지역간 객차
+str_coach_Gen3_Mk1_Mail_Coach                                                   :Mk1 우편차
+str_coach_Gen3_UIC_X_Intercity_Coach                                    :UIC-X 도시간 객차
+str_coach_Gen3_TEE_Intercity_Coach                                              :TEE 도시간 객차
+str_coach_Gen3_UIC_X_Regional_Coach                                     :UIC-X 지역간 객차
+str_coach_Gen3_Umbauwagen_Local_Coach                                   :'움바우바겐' 지역 객차
+str_coach_Gen3_Doppelstockwagen_Local_Coach                     :2층객차
+str_coach_Gen3_UIC_X_Mail_Coach                                                 :UIC-X 우편차
+str_coach_Gen3_Indian_Intercity_Coach                                   :인도 도시간 객차
+str_coach_Gen3_Indian_Local_Coach                                               :인도 지역 객차
+str_coach_Gen3_Indian_Regional_Coach                                    :인도 지역간 객차
+str_coach_Gen3_Indian_Mail_Coach                                                :인도 우편차
+str_coach_Gen4_Eurofima_Intercity_Coach                                 :유럽 표준 객차
+str_coach_Gen4_InterRegio_Coach                                                 :Regio간 객차
+str_coach_Gen4_Silberling_Commuter_Coach                                :'실버링' 통근 객차
+str_coach_Gen4_Eurofima_Mail_Coach                                              :유럽 표준 우편차
+str_coach_Gen4_Double_Decker_Coach                                              :2층 객차
+str_coach_Gen4_Russian_Intercity_Coach                                  :러시아 도시간 객차
+str_coach_Gen4_Russian_Regional_Coach                                   :러시아 지역간 객차
+str_coach_Gen4_Russian_Mail_Coach                                               :러시아 우편차
+str_coach_Gen4_Superliner_Coach                                                 :수퍼라이너 객차
+str_coach_Gen4_Superliner_California                                    :수퍼라이너 캘리포니아
+str_coach_Gen4_Amfleet_Regional_Coach                                   :암플리트 지역간 객차
+str_coach_Gen4_Amfleet_Intercity_Coach                                  :암플릿트 도시간 객차
+str_coach_Gen4_Comet_Commuter_Coach                                     :코멧 통근 객차
+str_coach_Gen4_Horizon_Regional_Coach                                   :호라이즌 지역간 객차
+str_coach_Gen4_Horizon_Baggage_Coach                                    :호라이즌 수화물 객차
+str_coach_Gen4_Bombardier_Bi_level                                              :2단식 설상차
+str_coach_Gen5_High_Speed_Coach                                                 :고속형 객차
+str_coach_Gen5_Modern_Regional_Coach                                    :현대식 지역간 객차
+str_coach_Gen5_Modern_Commuter_Coach                                    :현대식 통근 객차
+str_coach_Gen5_Modern_Double_Decker_Coach                               :현대식 2층객차
+str_coach_Gen5_High_Speed_Double_Decker_IC2000                  :고속형 복층객차 (IC2000)
+str_coach_Gen5_High_Speed_Mail_Coach                                    :고속형 우편차
+str_coach_Gen5_Talgo_Pendular                                                   :탈고 펜듈러
+str_coach_Gen5_Talgo_Pendular_Mail                                              :Talgo Pendular 우편화차
+str_coach_Gen6_Grand_Voyager_Coach                                              :대형 여객차
+str_coach_Gen6_Grand_Regio_Coach                                                :대형 Regio 객차
+str_coach_Gen6_Metropolis_Coach                                                 :Metropolis Coach
+str_coach_Gen6_Speedmail_Coach                                                  :특급우편 수송차
+str_coach_Gen6_Super_Regio_Coach                                                :중형 Regio 객차
+str_coach_Gen6_Super_Voyager_Coach                                              :중형 여객차
 
 #special wagons
 str_mu_wagon_unpowered          :다중 기본 객차 (동력 공급 안됨)
