@@ -10,9 +10,9 @@
 * ITEM
 */
 
-item(FEAT_TRAINS, item_steam_Argentina_FCNEA_11B_0_8_2) {
+item(FEAT_TRAINS, item_steam_Argentina_FCNEA_11B_2_8_0) {
     property {
-        name: string(str_steam_Argentina_FCNEA_11B_0_8_2);
+        name: string(str_steam_Argentina_FCNEA_11B_2_8_0);
         
         introduction_date: date(1920,1,1);
         model_life: 20;
@@ -46,10 +46,10 @@ item(FEAT_TRAINS, item_steam_Argentina_FCNEA_11B_0_8_2) {
         bitmask_vehicle_info: 0;
 	}
 	graphics {
-		purchase: spriteset_steam_Argentina_FCNEA_11B_0_8_2_purchase;
-		visual_effect_and_powered: switch_steam_Argentina_FCNEA_11B_0_8_2_visual_effect;
-		length: switch_steam_Argentina_FCNEA_11B_0_8_2_length;
-		articulated_part: switch_steam_Argentina_FCNEA_11B_0_8_2_articulated;
-		switch_steam_Argentina_FCNEA_11B_0_8_2_position;
+		purchase: spriteset_steam_Argentina_FCNEA_11B_2_8_0_purchase;
+		visual_effect_and_powered: switch_steam_Argentina_FCNEA_11B_2_8_0_visual_effect;
+		length: switch_steam_Argentina_FCNEA_11B_2_8_0_length;
+		articulated_part: switch_steam_Argentina_FCNEA_11B_2_8_0_articulated;
+		switch_steam_Argentina_FCNEA_11B_2_8_0_position;
 	}
 }
