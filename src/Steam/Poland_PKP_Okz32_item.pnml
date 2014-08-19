@@ -47,6 +47,6 @@ item(FEAT_TRAINS, item_steam_Poland_PKP_Okz32) {
 	}
 	graphics {
 		purchase: spriteset_steam_Poland_PKP_Okz32_purchase;
-		spriteset_steam_Poland_PKP_Okz32;
+		switch_steam_Poland_PKP_Okz32_animation;
 	}
 }

@@ -47,6 +47,6 @@ item(FEAT_TRAINS, item_steam_Belgium_Le_Belge) {
 	}
 	graphics {
 		purchase: spriteset_steam_Belgium_Le_Belge_purchase;
-		spriteset_steam_Belgium_Le_Belge;
+		switch_steam_Belgium_Le_Belge_animation;
 	}
 }

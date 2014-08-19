@@ -11,7 +11,7 @@
 */
 
 spriteset(spriteset_steam_Austria_KkStB_299_purchase, "gfx/Steam/Austria_KkStB_299.png") {
-	template_purchase(1, 64)
+	template_purchase(1, 96)
 }
 
 /*
@@ -19,6 +19,18 @@ spriteset(spriteset_steam_Austria_KkStB_299_purchase, "gfx/Steam/Austria_KkStB_2
 */
 
 //Engine
-spriteset(spriteset_steam_Austria_KkStB_299, "gfx/Steam/Austria_KkStB_299.png") {
+spriteset(spriteset_steam_Austria_KkStB_299_engine1, "gfx/Steam/Austria_KkStB_299.png") {
 	template_2cc_engines_general(1, 1)
 }
+
+
+spriteset(spriteset_steam_Austria_KkStB_299_engine2, "gfx/Steam/Austria_KkStB_299.png") {
+	template_2cc_engines_general(1, 32)
+}
+
+//Animation states
+switch(FEAT_TRAINS, SELF, switch_steam_Austria_KkStB_299_animation, motion_counter % 2){
+	0: spriteset_steam_Austria_KkStB_299_engine1;
+	spriteset_steam_Austria_KkStB_299_engine2;
+}
+

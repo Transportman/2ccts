@@ -47,6 +47,6 @@ item(FEAT_TRAINS, item_steam_Switzerland_SBB_E_3_3) {
 	}
 	graphics {
 		purchase: spriteset_steam_Switzerland_SBB_E_3_3_purchase;
-		spriteset_steam_Switzerland_SBB_E_3_3;
+		switch_steam_Switzerland_SBB_E_3_3_animation;
 	}
 }

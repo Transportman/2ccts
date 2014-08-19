@@ -47,6 +47,6 @@ item(FEAT_TRAINS, item_steam_Croatia_HZ_51) {
 	}
 	graphics {
 		purchase: spriteset_steam_Croatia_HZ_51_purchase;
-		spriteset_steam_Croatia_HZ_51;
+		switch_steam_Croatia_HZ_51_animation;
 	}
 }

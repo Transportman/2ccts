@@ -11,7 +11,7 @@
 */
 
 spriteset(spriteset_steam_UK_LNER_A1_Peppercorn_purchase, "gfx/Steam/UK_LNER_A1_Peppercorn.png") {
-	template_purchase(1, 64)
+	template_purchase(1, 96)
 }
 
 /*
@@ -19,17 +19,27 @@ spriteset(spriteset_steam_UK_LNER_A1_Peppercorn_purchase, "gfx/Steam/UK_LNER_A1_
 */
 
 //Engine
-spriteset(spriteset_steam_UK_LNER_A1_Peppercorn_engine, "gfx/Steam/UK_LNER_A1_Peppercorn.png") {
+spriteset(spriteset_steam_UK_LNER_A1_Peppercorn_engine1, "gfx/Steam/UK_LNER_A1_Peppercorn.png") {
 	template_2cc_engines_general(1, 1)
+}
+
+spriteset(spriteset_steam_UK_LNER_A1_Peppercorn_engine2, "gfx/Steam/UK_LNER_A1_Peppercorn.png") {
+	template_2cc_engines_general(1, 32)
 }
 
 //Tender
 spriteset(spriteset_steam_UK_LNER_A1_Peppercorn_tender, "gfx/Steam/UK_LNER_A1_Peppercorn.png") {
-	template_2cc_engines_general(1, 32)
+	template_2cc_engines_general(1, 64)
+}
+
+//Animation states
+switch(FEAT_TRAINS, SELF, switch_steam_UK_LNER_A1_Peppercorn_animation, motion_counter % 2){
+	0: spriteset_steam_UK_LNER_A1_Peppercorn_engine1;
+	spriteset_steam_UK_LNER_A1_Peppercorn_engine2;
 }
 
 switch(FEAT_TRAINS, SELF, switch_steam_UK_LNER_A1_Peppercorn_position, position_in_vehid_chain % 2) {
-	0: spriteset_steam_UK_LNER_A1_Peppercorn_engine;
+	0: switch_steam_UK_LNER_A1_Peppercorn_animation;
 	spriteset_steam_UK_LNER_A1_Peppercorn_tender;
 }
 

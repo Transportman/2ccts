@@ -11,7 +11,7 @@
 */
 
 spriteset(spriteset_steam_USA_UP_4000_Big_Boy_purchase, "gfx/Steam/USA_UP_4000_Big_Boy.png") {
-	template_purchase(1, 64)
+	template_purchase(1, 96)
 }
 
 /*
@@ -22,17 +22,27 @@ spriteset(spriteset_steam_USA_UP_4000_Big_Boy_purchase, "gfx/Steam/USA_UP_4000_B
 */
 
 //Engine
-spriteset(spriteset_steam_USA_UP_4000_Big_Boy_engine, "gfx/Steam/USA_UP_4000_Big_Boy.png") {
+spriteset(spriteset_steam_USA_UP_4000_Big_Boy_engine1, "gfx/Steam/USA_UP_4000_Big_Boy.png") {
 	template_2cc_L10(1, 1)
+}
+
+spriteset(spriteset_steam_USA_UP_4000_Big_Boy_engine2, "gfx/Steam/USA_UP_4000_Big_Boy.png") {
+	template_2cc_L10(1, 32)
 }
 
 //Tender
 spriteset(spriteset_steam_USA_UP_4000_Big_Boy_tender, "gfx/Steam/USA_UP_4000_Big_Boy.png") {
-	template_2cc_engines_general(1, 32)
+	template_2cc_engines_general(1, 64)
+}
+
+//Animation states
+switch(FEAT_TRAINS, SELF, switch_steam_USA_UP_4000_Big_Boy_animation, motion_counter % 2){
+	0: spriteset_steam_USA_UP_4000_Big_Boy_engine1;
+	spriteset_steam_USA_UP_4000_Big_Boy_engine2;
 }
 
 switch(FEAT_TRAINS, SELF, switch_steam_USA_UP_4000_Big_Boy_position, position_in_vehid_chain % 4) {
-	1: spriteset_steam_USA_UP_4000_Big_Boy_engine;
+	1: switch_steam_USA_UP_4000_Big_Boy_animation;
 	3: spriteset_steam_USA_UP_4000_Big_Boy_tender;
 	EMPTY_SPRITESET
 }

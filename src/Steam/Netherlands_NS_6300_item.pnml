@@ -47,6 +47,6 @@ item(FEAT_TRAINS, item_steam_Netherlands_NS_6300) {
 	}
 	graphics {
 		purchase: spriteset_steam_Netherlands_NS_6300_purchase;
-		spriteset_steam_Netherlands_NS_6300;
+		switch_steam_Netherlands_NS_6300_animation;
 	}
 }

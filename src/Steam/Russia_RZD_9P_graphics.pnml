@@ -11,7 +11,7 @@
 */
 
 spriteset(spriteset_steam_Russia_RZD_9P_purchase, "gfx/Steam/Russia_RZD_9P.png") {
-	template_purchase(1, 64)
+	template_purchase(1, 96)
 }
 
 /*
@@ -19,6 +19,18 @@ spriteset(spriteset_steam_Russia_RZD_9P_purchase, "gfx/Steam/Russia_RZD_9P.png")
 */
 
 //Engine
-spriteset(spriteset_steam_Russia_RZD_9P, "gfx/Steam/Russia_RZD_9P.png") {
+spriteset(spriteset_steam_Russia_RZD_9P_engine1, "gfx/Steam/Russia_RZD_9P.png") {
 	template_2cc_engines_general(1, 1)
 }
+
+
+spriteset(spriteset_steam_Russia_RZD_9P_engine2, "gfx/Steam/Russia_RZD_9P.png") {
+	template_2cc_engines_general(1, 32)
+}
+
+//Animation states
+switch(FEAT_TRAINS, SELF, switch_steam_Russia_RZD_9P_animation, motion_counter % 2){
+	0: spriteset_steam_Russia_RZD_9P_engine1;
+	spriteset_steam_Russia_RZD_9P_engine2;
+}
+

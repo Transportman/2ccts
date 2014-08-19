@@ -47,6 +47,6 @@ item(FEAT_TRAINS, item_steam_UK_GWR_5700) {
 	}
 	graphics {
 		purchase: spriteset_steam_UK_GWR_5700_purchase;
-		spriteset_steam_UK_GWR_5700;
+		switch_steam_UK_GWR_5700_animation;
 	}
 }

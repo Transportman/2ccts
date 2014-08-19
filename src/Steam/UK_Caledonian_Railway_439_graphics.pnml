@@ -11,7 +11,7 @@
 */
 
 spriteset(spriteset_steam_UK_Caledonian_Railway_439_purchase, "gfx/Steam/UK_Caledonian_Railway_439.png") {
-	template_purchase(1, 64)
+	template_purchase(1, 96)
 }
 
 /*
@@ -19,6 +19,17 @@ spriteset(spriteset_steam_UK_Caledonian_Railway_439_purchase, "gfx/Steam/UK_Cale
 */
 
 //Engine
-spriteset(spriteset_steam_UK_Caledonian_Railway_439, "gfx/Steam/UK_Caledonian_Railway_439.png") {
+spriteset(spriteset_steam_UK_Caledonian_Railway_439_engine1, "gfx/Steam/UK_Caledonian_Railway_439.png") {
 	template_2cc_engines_general(1, 1)
 }
+
+spriteset(spriteset_steam_UK_Caledonian_Railway_439_engine2, "gfx/Steam/UK_Caledonian_Railway_439.png") {
+	template_2cc_engines_general(1, 32)
+}
+
+//Animation states
+switch(FEAT_TRAINS, SELF, switch_steam_UK_Caledonian_Railway_439_animation, motion_counter % 2){
+	0: spriteset_steam_UK_Caledonian_Railway_439_engine1;
+	spriteset_steam_UK_Caledonian_Railway_439_engine2;
+}
+

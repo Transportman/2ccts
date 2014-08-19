@@ -11,7 +11,7 @@
 */
 
 spriteset(spriteset_steam_South_Africa_SAR_25_purchase, "gfx/Steam/South_Africa_SAR_25.png") {
-	template_purchase(1, 64)
+	template_purchase(1, 96)
 }
 
 /*
@@ -19,17 +19,27 @@ spriteset(spriteset_steam_South_Africa_SAR_25_purchase, "gfx/Steam/South_Africa_
 */
 
 //Engine
-spriteset(spriteset_steam_South_Africa_SAR_25_engine, "gfx/Steam/South_Africa_SAR_25.png") {
+spriteset(spriteset_steam_South_Africa_SAR_25_engine1, "gfx/Steam/South_Africa_SAR_25.png") {
 	template_2cc_engines_general(1, 1)
+}
+
+spriteset(spriteset_steam_South_Africa_SAR_25_engine2, "gfx/Steam/South_Africa_SAR_25.png") {
+	template_2cc_engines_general(1, 32)
 }
 
 //Tender
 spriteset(spriteset_steam_South_Africa_SAR_25_tender, "gfx/Steam/South_Africa_SAR_25.png") {
-	template_2cc_engines_general(1, 32)
+	template_2cc_engines_general(1, 64)
+}
+
+//Animation states
+switch(FEAT_TRAINS, SELF, switch_steam_South_Africa_SAR_25_animation, motion_counter % 2){
+	0: spriteset_steam_South_Africa_SAR_25_engine1;
+	spriteset_steam_South_Africa_SAR_25_engine2;
 }
 
 switch(FEAT_TRAINS, SELF, switch_steam_South_Africa_SAR_25_position, position_in_vehid_chain % 2) {
-	0: spriteset_steam_South_Africa_SAR_25_engine;
+	0: switch_steam_South_Africa_SAR_25_animation;
 	spriteset_steam_South_Africa_SAR_25_tender;
 }
 

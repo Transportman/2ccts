@@ -47,6 +47,6 @@ item(FEAT_TRAINS, item_steam_Denmark_DSB_E) {
 	}
 	graphics {
 		purchase: spriteset_steam_Denmark_DSB_E_purchase;
-		spriteset_steam_Denmark_DSB_E;
+		switch_steam_Denmark_DSB_E_animation;
 	}
 }

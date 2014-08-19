@@ -47,6 +47,6 @@ item(FEAT_TRAINS, item_steam_UK_Caledonian_Railway_439) {
 	}
 	graphics {
 		purchase: spriteset_steam_UK_Caledonian_Railway_439_purchase;
-		spriteset_steam_UK_Caledonian_Railway_439;
+		switch_steam_UK_Caledonian_Railway_439_animation;
 	}
 }

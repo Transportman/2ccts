@@ -47,6 +47,6 @@ item(FEAT_TRAINS, item_steam_Italy_FS_895) {
 	}
 	graphics {
 		purchase: spriteset_steam_Italy_FS_895_purchase;
-		spriteset_steam_Italy_FS_895;
+		switch_steam_Italy_FS_895_animation;
 	}
 }

@@ -11,7 +11,7 @@
 */
 
 spriteset(spriteset_steam_Italy_FS_895_purchase, "gfx/Steam/Italy_FS_895.png") {
-	template_purchase(1, 64)
+	template_purchase(1, 96)
 }
 
 /*
@@ -19,6 +19,17 @@ spriteset(spriteset_steam_Italy_FS_895_purchase, "gfx/Steam/Italy_FS_895.png") {
 */
 
 //Engine
-spriteset(spriteset_steam_Italy_FS_895, "gfx/Steam/Italy_FS_895.png") {
+spriteset(spriteset_steam_Italy_FS_895_engine1, "gfx/Steam/Italy_FS_895.png") {
 	template_2cc_engines_general(1, 1)
 }
+
+spriteset(spriteset_steam_Italy_FS_895_engine2, "gfx/Steam/Italy_FS_895.png") {
+	template_2cc_engines_general(1, 32)
+}
+
+//Animation states
+switch(FEAT_TRAINS, SELF, switch_steam_Italy_FS_895_animation, motion_counter % 2){
+	0: spriteset_steam_Italy_FS_895_engine1;
+	spriteset_steam_Italy_FS_895_engine2;
+}
+

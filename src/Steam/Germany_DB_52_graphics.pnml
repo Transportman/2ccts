@@ -11,7 +11,7 @@
 */
 
 spriteset(spriteset_steam_Germany_DB_52_purchase, "gfx/Steam/Germany_DB_52.png") {
-	template_purchase(1, 64)
+	template_purchase(1, 96)
 }
 
 /*
@@ -19,17 +19,27 @@ spriteset(spriteset_steam_Germany_DB_52_purchase, "gfx/Steam/Germany_DB_52.png")
 */
 
 //Engine
-spriteset(spriteset_steam_Germany_DB_52_engine, "gfx/Steam/Germany_DB_52.png") {
+spriteset(spriteset_steam_Germany_DB_52_engine1, "gfx/Steam/Germany_DB_52.png") {
 	template_2cc_engines_general(1, 1)
+}
+
+spriteset(spriteset_steam_Germany_DB_52_engine2, "gfx/Steam/Germany_DB_52.png") {
+	template_2cc_engines_general(1, 32)
 }
 
 //Tender
 spriteset(spriteset_steam_Germany_DB_52_tender, "gfx/Steam/Germany_DB_52.png") {
-	template_2cc_engines_general(1, 32)
+	template_2cc_engines_general(1, 64)
+}
+
+//Animation states
+switch(FEAT_TRAINS, SELF, switch_steam_Germany_DB_52_animation, motion_counter % 2){
+	0: spriteset_steam_Germany_DB_52_engine1;
+	spriteset_steam_Germany_DB_52_engine2;
 }
 
 switch(FEAT_TRAINS, SELF, switch_steam_Germany_DB_52_position, position_in_vehid_chain % 2) {
-	0: spriteset_steam_Germany_DB_52_engine;
+	0: switch_steam_Germany_DB_52_animation;
 	spriteset_steam_Germany_DB_52_tender;
 }
 

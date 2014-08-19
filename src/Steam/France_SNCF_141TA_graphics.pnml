@@ -11,7 +11,7 @@
 */
 
 spriteset(spriteset_steam_France_SNCF_141TA_purchase, "gfx/Steam/France_SNCF_141TA.png") {
-	template_purchase(1, 64)
+	template_purchase(1, 96)
 }
 
 /*
@@ -19,6 +19,17 @@ spriteset(spriteset_steam_France_SNCF_141TA_purchase, "gfx/Steam/France_SNCF_141
 */
 
 //Engine
-spriteset(spriteset_steam_France_SNCF_141TA, "gfx/Steam/France_SNCF_141TA.png") {
+spriteset(spriteset_steam_France_SNCF_141TA_engine1, "gfx/Steam/France_SNCF_141TA.png") {
 	template_2cc_engines_general(1, 1)
 }
+
+spriteset(spriteset_steam_France_SNCF_141TA_engine2, "gfx/Steam/France_SNCF_141TA.png") {
+	template_2cc_engines_general(1, 32)
+}
+
+//Animation states
+switch(FEAT_TRAINS, SELF, switch_steam_France_SNCF_141TA_animation, motion_counter % 2){
+	0: spriteset_steam_France_SNCF_141TA_engine1;
+	spriteset_steam_France_SNCF_141TA_engine2;
+}
+

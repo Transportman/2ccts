@@ -11,7 +11,7 @@
 */
 
 spriteset(spriteset_steam_USA_4_6_0_Ten_wheeler_purchase, "gfx/Steam/USA_4_6_0_Ten_wheeler.png") {
-	template_purchase(1, 64)
+	template_purchase(1, 96)
 }
 
 /*
@@ -19,17 +19,27 @@ spriteset(spriteset_steam_USA_4_6_0_Ten_wheeler_purchase, "gfx/Steam/USA_4_6_0_T
 */
 
 //Engine
-spriteset(spriteset_steam_USA_4_6_0_Ten_wheeler_engine, "gfx/Steam/USA_4_6_0_Ten_wheeler.png") {
+spriteset(spriteset_steam_USA_4_6_0_Ten_wheeler_engine1, "gfx/Steam/USA_4_6_0_Ten_wheeler.png") {
 	template_2cc_engines_general(1, 1)
+}
+
+spriteset(spriteset_steam_USA_4_6_0_Ten_wheeler_engine2, "gfx/Steam/USA_4_6_0_Ten_wheeler.png") {
+	template_2cc_engines_general(1, 32)
 }
 
 //Tender
 spriteset(spriteset_steam_USA_4_6_0_Ten_wheeler_tender, "gfx/Steam/USA_4_6_0_Ten_wheeler.png") {
-	template_2cc_engines_general(1, 32)
+	template_2cc_engines_general(1, 64)
+}
+
+//Animation states
+switch(FEAT_TRAINS, SELF, switch_steam_USA_4_6_0_Ten_wheeler_animation, motion_counter % 2){
+	0: spriteset_steam_USA_4_6_0_Ten_wheeler_engine1;
+	spriteset_steam_USA_4_6_0_Ten_wheeler_engine2;
 }
 
 switch(FEAT_TRAINS, SELF, switch_steam_USA_4_6_0_Ten_wheeler_position, position_in_vehid_chain % 2) {
-	0: spriteset_steam_USA_4_6_0_Ten_wheeler_engine;
+	0: switch_steam_USA_4_6_0_Ten_wheeler_animation;
 	spriteset_steam_USA_4_6_0_Ten_wheeler_tender;
 }
 

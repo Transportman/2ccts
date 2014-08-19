@@ -47,6 +47,6 @@ item(FEAT_TRAINS, item_steam_Hungary_MAV_377) {
 	}
 	graphics {
 		purchase: spriteset_steam_Hungary_MAV_377_purchase;
-		spriteset_steam_Hungary_MAV_377;
+		switch_steam_Hungary_MAV_377_animation;
 	}
 }

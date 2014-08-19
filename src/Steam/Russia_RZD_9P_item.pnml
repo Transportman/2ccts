@@ -47,6 +47,6 @@ item(FEAT_TRAINS, item_steam_Russia_RZD_9P) {
 	}
 	graphics {
 		purchase: spriteset_steam_Russia_RZD_9P_purchase;
-		spriteset_steam_Russia_RZD_9P;
+		switch_steam_Russia_RZD_9P_animation;
 	}
 }

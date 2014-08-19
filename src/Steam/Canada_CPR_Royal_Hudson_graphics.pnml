@@ -11,7 +11,7 @@
 */
 
 spriteset(spriteset_steam_Canada_CPR_Royal_Hudson_purchase, "gfx/Steam/Canada_CPR_Royal_Hudson.png") {
-	template_purchase(1, 64)
+	template_purchase(1, 96)
 }
 
 /*
@@ -19,17 +19,27 @@ spriteset(spriteset_steam_Canada_CPR_Royal_Hudson_purchase, "gfx/Steam/Canada_CP
 */
 
 //Engine
-spriteset(spriteset_steam_Canada_CPR_Royal_Hudson_engine, "gfx/Steam/Canada_CPR_Royal_Hudson.png") {
+spriteset(spriteset_steam_Canada_CPR_Royal_Hudson_engine1, "gfx/Steam/Canada_CPR_Royal_Hudson.png") {
 	template_2cc_engines_general(1, 1)
+}
+
+spriteset(spriteset_steam_Canada_CPR_Royal_Hudson_engine2, "gfx/Steam/Canada_CPR_Royal_Hudson.png") {
+	template_2cc_engines_general(1, 32)
 }
 
 //Tender
 spriteset(spriteset_steam_Canada_CPR_Royal_Hudson_tender, "gfx/Steam/Canada_CPR_Royal_Hudson.png") {
-	template_2cc_engines_general(1, 32)
+	template_2cc_engines_general(1, 64)
+}
+
+//Animation states
+switch(FEAT_TRAINS, SELF, switch_steam_Canada_CPR_Royal_Hudson_animation, motion_counter % 2){
+	0: spriteset_steam_Canada_CPR_Royal_Hudson_engine1;
+	spriteset_steam_Canada_CPR_Royal_Hudson_engine2;
 }
 
 switch(FEAT_TRAINS, SELF, switch_steam_Canada_CPR_Royal_Hudson_position, position_in_vehid_chain % 2) {
-	0: spriteset_steam_Canada_CPR_Royal_Hudson_engine;
+	0: switch_steam_Canada_CPR_Royal_Hudson_animation;
 	spriteset_steam_Canada_CPR_Royal_Hudson_tender;
 }
 

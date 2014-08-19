@@ -47,6 +47,6 @@ item(FEAT_TRAINS, item_steam_France_SNCF_141TA) {
 	}
 	graphics {
 		purchase: spriteset_steam_France_SNCF_141TA_purchase;
-		spriteset_steam_France_SNCF_141TA;
+		switch_steam_France_SNCF_141TA_animation;
 	}
 }

@@ -47,6 +47,6 @@ item(FEAT_TRAINS, item_steam_Austria_KkStB_299) {
 	}
 	graphics {
 		purchase: spriteset_steam_Austria_KkStB_299_purchase;
-		spriteset_steam_Austria_KkStB_299;
+		switch_steam_Austria_KkStB_299_animation;
 	}
 }
