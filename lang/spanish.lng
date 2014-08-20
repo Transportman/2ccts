@@ -68,6 +68,7 @@ str_steam_New_Zealand_NZR_X_Class       :NZR X Class (Vapor)
 str_steam_Italy_FS_880                          :FS 880 (Vapor)
 str_steam_France_SNCF_140C                      :SNCF 140C (Vapor)
 str_steam_France_SNCF_141TA             :SNCF 141TA (Vapor)
+str_steam_UK_GWR_4900                           :GWR 4900 (Vapor)
 str_steam_UK_GWR_5700                           :GWR 5700 (Vapor)
 str_steam_Netherlands_NS_6300           :NS 6300 (Vapor)
 str_steam_USA_AT_SF_5000                        :AT&SF 5000 (Vapor)
@@ -363,6 +364,7 @@ str_coach_Gen4_Eurofima_Intercity_Coach                                 :Vagón 
 str_coach_Gen4_InterRegio_Coach                                                 :Vagón InterRegio
 str_coach_Gen4_Eurofima_Mail_Coach                                              :Vagón de correo Eurofima
 str_coach_Gen4_Russian_Intercity_Coach                                  :Vagón InterCity Ruso
+str_coach_Gen4_Russian_Regional_Coach                                   :Vagón Regional Ruso
 str_coach_Gen4_Russian_Mail_Coach                                               :Vagón de correo Ruso
 str_coach_Gen4_Superliner_Coach                                                 :Vagón Superliner
 str_coach_Gen4_Superliner_California                                    :Superliner California
