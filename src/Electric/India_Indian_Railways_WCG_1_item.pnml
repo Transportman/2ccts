@@ -47,6 +47,6 @@ item(FEAT_TRAINS, item_electric_India_Indian_Railways_WCG_1) {
 	}
 	graphics {
 		purchase: spriteset_electric_India_Indian_Railways_WCG_1_purchase;
-		spriteset_electric_India_Indian_Railways_WCG_1;
+		switch_electric_India_Indian_Railways_WCG_1_animation;
 	}
 }

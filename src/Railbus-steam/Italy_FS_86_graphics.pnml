@@ -11,7 +11,7 @@
 */
 
 spriteset(spriteset_rbs_Italy_FS_86_purchase, "gfx/Railbus-steam/Italy_FS_86.png") {
-	template_purchase(1, 32)
+	template_purchase(1, 64)
 }
 
 /*
@@ -19,8 +19,18 @@ spriteset(spriteset_rbs_Italy_FS_86_purchase, "gfx/Railbus-steam/Italy_FS_86.png
 */
 
 //Only one spriteset needed for this set
-spriteset(spriteset_rbs_Italy_FS_86, "gfx/Railbus-steam/Italy_FS_86.png") {
+spriteset(spriteset_rbs_Italy_FS_86_engine1, "gfx/Railbus-steam/Italy_FS_86.png") {
 	template_2cc_engines_general(1, 1) //different from railbus template
+}
+
+spriteset(spriteset_rbs_Italy_FS_86_engine2, "gfx/Railbus-steam/Italy_FS_86.png") {
+	template_2cc_engines_general(1, 32) //different from railbus template
+}
+
+//Animation states
+switch(FEAT_TRAINS, SELF, switch_rbs_Italy_FS_86_animation, motion_counter % 2){
+	0: spriteset_rbs_Italy_FS_86_engine1;
+	spriteset_rbs_Italy_FS_86_engine2;
 }
 
 /*

@@ -19,6 +19,16 @@ spriteset(spriteset_diesel_UK_BR_14_purchase, "gfx/Diesel/UK_BR_14.png") {
 */
 
 //Engine
-spriteset(spriteset_diesel_UK_BR_14, "gfx/Diesel/UK_BR_14.png") {
+spriteset(spriteset_diesel_UK_BR_14_engine1, "gfx/Diesel/UK_BR_14.png") {
 	template_2cc_engines_general(1, 1)
+}
+
+spriteset(spriteset_diesel_UK_BR_14_engine2, "gfx/Diesel/UK_BR_14.png") {
+	template_2cc_engines_general(1, 32)
+}
+
+//Animation states
+switch(FEAT_TRAINS, SELF, switch_diesel_UK_BR_14_animation, motion_counter % 2){
+	0: spriteset_diesel_UK_BR_14_engine1;
+	spriteset_diesel_UK_BR_14_engine2;
 }

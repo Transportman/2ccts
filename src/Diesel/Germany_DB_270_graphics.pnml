@@ -19,6 +19,16 @@ spriteset(spriteset_diesel_Germany_DB_270_purchase, "gfx/Diesel/Germany_DB_270.p
 */
 
 //Engine
-spriteset(spriteset_diesel_Germany_DB_270, "gfx/Diesel/Germany_DB_270.png") {
+spriteset(spriteset_diesel_Germany_DB_270_engine1, "gfx/Diesel/Germany_DB_270.png") {
 	template_2cc_engines_general(1, 1)
+}
+
+spriteset(spriteset_diesel_Germany_DB_270_engine2, "gfx/Diesel/Germany_DB_270.png") {
+	template_2cc_engines_general(1, 32)
+}
+
+//Animation states
+switch(FEAT_TRAINS, SELF, switch_diesel_Germany_DB_270_animation, motion_counter % 2){
+	0: spriteset_diesel_Germany_DB_270_engine1;
+	spriteset_diesel_Germany_DB_270_engine2;
 }

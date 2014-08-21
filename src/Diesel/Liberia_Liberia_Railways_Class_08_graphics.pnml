@@ -19,6 +19,16 @@ spriteset(spriteset_diesel_Liberia_Liberia_Railways_Class_08_purchase, "gfx/Dies
 */
 
 //Engine
-spriteset(spriteset_diesel_Liberia_Liberia_Railways_Class_08, "gfx/Diesel/Liberia_Liberia_Railways_Class_08.png") {
+spriteset(spriteset_diesel_Liberia_Liberia_Railways_Class_08_engine1, "gfx/Diesel/Liberia_Liberia_Railways_Class_08.png") {
 	template_2cc_engines_general(1, 1)
+}
+
+spriteset(spriteset_diesel_Liberia_Liberia_Railways_Class_08_engine2, "gfx/Diesel/Liberia_Liberia_Railways_Class_08.png") {
+	template_2cc_engines_general(1, 32)
+}
+
+//Animation states
+switch(FEAT_TRAINS, SELF, switch_diesel_Liberia_Liberia_Railways_Class_08_animation, motion_counter % 2){
+	0: spriteset_diesel_Liberia_Liberia_Railways_Class_08_engine1;
+	spriteset_diesel_Liberia_Liberia_Railways_Class_08_engine2;
 }

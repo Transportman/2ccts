@@ -47,6 +47,6 @@ item(FEAT_TRAINS, item_diesel_Germany_DB_270) {
 	}
 	graphics {
 		purchase: spriteset_diesel_Germany_DB_270_purchase;
-		spriteset_diesel_Germany_DB_270;
+		switch_diesel_Germany_DB_270_animation;
 	}
 }

@@ -47,6 +47,6 @@ item(FEAT_TRAINS, item_diesel_Belgium_NMBS_SNCB_83) {
 	}
 	graphics {
 		purchase: spriteset_diesel_Belgium_NMBS_SNCB_83_purchase;
-		spriteset_diesel_Belgium_NMBS_SNCB_83;
+		switch_diesel_Belgium_NMBS_SNCB_83_animation;
 	}
 }

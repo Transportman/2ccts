@@ -48,6 +48,6 @@ item(FEAT_TRAINS, item_rbs_Italy_FS_86) {
 	graphics {
 		cargo_capacity: switch_rbs_Italy_FS_86_capacity;
 		purchase: spriteset_rbs_Italy_FS_86_purchase;
-		spriteset_rbs_Italy_FS_86;
+		switch_rbs_Italy_FS_86_animation;
 	}	
 }
