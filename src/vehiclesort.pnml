@@ -28,7 +28,7 @@ item_rbd_Germany_DB_VT98, /*Year: 1953*/ \
 item_rbd_Germany_OHE_520_GDT, /*Year: 1953*/ \
 item_rbd_Netherlands_NS_20_Kameel, /*Year: 1954*/ \
 item_rbd_Finland_VR_Dm7, /*Year: 1955*/ \
-item_rbd_USSR_MPC_ACh2, /*Year: 1984*/ \
+item_rbd_Russia_RZD_ACh2, /*Year: 1984*/ \
 item_rbd_Netherlands_NS_DH1, /*Year: 1984*/ \
 item_rbd_Austria_OBB_5047, /*Year: 1987*/ \
 item_rbd_United_Kingdom_BR_153_Super_Sprinter, /*Year: 1991*/ \
@@ -52,7 +52,7 @@ item_steam_USA_4_6_0_Ten_wheeler, /*Year: 1869*/ \
 item_steam_USA_2_8_0_Consolidation, /*Year: 1875*/ \
 item_steam_Hungary_MAV_377, /*Year: 1885*/ \
 item_steam_Austria_KkStB_99, /*Year: 1897*/ \
-item_steam_United_Kingdom_Caledonian_Railway_439, /*Year: 1899*/ \
+item_steam_UK_Caledonian_Railway_439, /*Year: 1899*/ \
 item_steam_Switzerland_SBB_A_3_5, /*Year: 1902*/ \
 item_steam_Switzerland_SBB_E_3_3, /*Year: 1902*/ \
 item_steam_Austria_KkStB_299, /*Year: 1904*/ \
@@ -64,23 +64,23 @@ item_steam_Italy_FS_880, /*Year: 1916*/ \
 item_steam_Argentina_FCNEA_11B_2_8_0, /*Year: 1920*/ \
 item_steam_France_SNCF_140C, /*Year: 1920*/ \
 item_steam_France_SNCF_141TA, /*Year: 1922*/ \
-item_steam_United_Kingdom_GWR_4900, /*Year: 1924*/ \
-item_steam_United_Kingdom_GWR_5700, /*Year: 1929*/ \
+item_steam_UK_GWR_4900, /*Year: 1924*/ \
+item_steam_UK_GWR_5700, /*Year: 1929*/ \
 item_steam_Netherlands_NS_6300, /*Year: 1930*/ \
 item_steam_USA_AT_SF_5000, /*Year: 1930*/ \
 item_steam_France_SNCF_150B, /*Year: 1933*/ \
 item_steam_Germany_Prussian_S10, /*Year: 1934*/ \
-item_steam_United_Kingdom_LMS_5MT_Black_Five, /*Year: 1934*/ \
-item_steam_USSR_MPC_9P, /*Year: 1934*/ \
+item_steam_UK_LMS_5MT_Black_Five, /*Year: 1934*/ \
+item_steam_Russia_RZD_9P, /*Year: 1934*/ \
 item_steam_Poland_PKP_Okz32, /*Year: 1934*/ \
-item_steam_United_Kingdom_LNER_A4_Gresley, /*Year: 1935*/ \
+item_steam_UK_LNER_A4_Gresley, /*Year: 1935*/ \
 item_steam_Canada_CPR_Royal_Hudson, /*Year: 1937*/ \
 item_steam_Denmark_DSB_E, /*Year: 1937*/ \
 item_steam_Germany_DB_52, /*Year: 1937*/ \
 item_steam_USA_UP_4000_Big_Boy, /*Year: 1941*/ \
-item_steam_United_Kingdom_LNER_A1_Peppercorn, /*Year: 1948*/ \
+item_steam_UK_LNER_A1_Peppercorn, /*Year: 1948*/ \
 item_steam_South_Africa_SAR_25, /*Year: 1953*/ \
-item_steam_USSR_MPC_P36, /*Year: 1953*/
+item_steam_Russia_RZD_P36, /*Year: 1953*/
 
 #define SORTING_DIESEL \
 item_diesel_Germany_DB_310_Kof_II, /*Year: 1930*/ \
@@ -106,19 +106,19 @@ item_diesel_Hungary_MAV_M28, /*Year: 1955*/ \
 item_diesel_Belgium_NMBS_SNCB_83, /*Year: 1956*/ \
 item_diesel_Germany_DB_220_V200, /*Year: 1956*/ \
 item_diesel_USA_Amtrak_FL9, /*Year: 1956*/ \
-item_diesel_Czechoslovakia_CSD_720_ChME2, /*Year: 1958*/ \
+item_diesel_Czech_Republic_CD_720_ChME2, /*Year: 1958*/ \
 item_diesel_Finland_VR_Dr12, /*Year: 1959*/ \
 item_diesel_Romania_CFR_060_DA, /*Year: 1959*/ \
 item_diesel_Brasil_BF_EMD_GL8, /*Year: 1960*/ \
 item_diesel_Brasil_EFVM_ML4000, /*Year: 1960*/ \
-item_diesel_USSR_MPC_TEP60, /*Year: 1960*/ \
+item_diesel_Russia_RZD_TEP60, /*Year: 1960*/ \
 item_diesel_Belgium_NMBS_SNCB_67, /*Year: 1961*/ \
 item_diesel_Denmark_DSB_MaK_100, /*Year: 1962*/ \
 item_diesel_India_Indian_Railways_WDM_2, /*Year: 1963*/ \
-item_diesel_United_Kingdom_BR_14, /*Year: 1964*/ \
-item_diesel_USSR_MPC_ChME3, /*Year: 1964*/ \
+item_diesel_UK_BR_14, /*Year: 1964*/ \
+item_diesel_Russia_RZD_ChME3, /*Year: 1964*/ \
 item_diesel_Argentina_MF_GM_EMD_J16CW_AC, /*Year: 1965*/ \
-item_diesel_USSR_MPC_M62, /*Year: 1965*/ \
+item_diesel_Russia_RZD_M62, /*Year: 1965*/ \
 item_diesel_Australia_NSWGR_422, /*Year: 1969*/ \
 item_diesel_Egypt_ENR_G22W, /*Year: 1969*/ \
 item_diesel_USA_UP_EMD_DDA40X, /*Year: 1969*/ \
@@ -131,14 +131,14 @@ item_diesel_China_China_Railways_DFH3, /*Year: 1976*/ \
 item_diesel_Panama_Panama_Canal_Railway_EMD_F40PH, /*Year: 1977*/ \
 item_diesel_Portugal_CP_1900, /*Year: 1981*/ \
 item_diesel_Finland_VR_Dr16, /*Year: 1985*/ \
-item_diesel_USSR_MPC_TEP80, /*Year: 1988*/ \
+item_diesel_Russia_RZD_TEP80, /*Year: 1988*/ \
 item_diesel_Australia_Australian_National_AN, /*Year: 1992*/ \
 item_diesel_USA_Amtrak_P42DC_Genesis, /*Year: 1992*/ \
 item_diesel_Turkey_TCDD_DH7000, /*Year: 1994*/ \
 item_diesel_Argentina_MF_GE_U20C, /*Year: 1995*/ \
 item_diesel_Belgium_NMBS_SNCB_7800, /*Year: 1997*/ \
-item_diesel_United_Kingdom_BR_66, /*Year: 1998*/ \
-item_diesel_United_Kingdom_BR_67, /*Year: 1999*/ \
+item_diesel_UK_BR_66, /*Year: 1998*/ \
+item_diesel_UK_BR_67, /*Year: 1999*/ \
 item_diesel_Iran_RAI_DE43CA_Prima, /*Year: 2002*/ \
 item_diesel_Germany_DB_253_G2000_3_BB, /*Year: 2003*/ \
 item_diesel_China_MTR_8000, /*Year: 2003*/ \
@@ -151,7 +151,7 @@ item_diesel_Russia_RZD_GT1, /*Year: 2011*/
 #define SORTING_ELECTRIC \
 item_electric_Switzerland_RhB_DE_2_2, /*Year: 1909*/ \
 item_electric_Norway_NSB_EL7, /*Year: 1911*/ \
-item_electric_United_Kingdom_NER_EF1, /*Year: 1914*/ \
+item_electric_UK_NER_EF1, /*Year: 1914*/ \
 item_electric_USA_Milwaukee_Road_ES_2, /*Year: 1916*/ \
 item_electric_USA_Pennsylvania_Railroad_FF_1, /*Year: 1916*/ \
 item_electric_USA_Milwaukee_Road_EP_2_Bipolar, /*Year: 1919*/ \
@@ -167,17 +167,17 @@ item_electric_USA_Pennsylvania_Railroad_GG_1, /*Year: 1935*/ \
 item_electric_Japan_JNR_EF55, /*Year: 1936*/ \
 item_electric_South_Africa_SAR_ES_Class, /*Year: 1936*/ \
 item_electric_Austria_OBB_1020_Crocodile, /*Year: 1940*/ \
-item_electric_USSR_MPC_VL22M, /*Year: 1945*/ \
+item_electric_Russia_RZD_VL22M, /*Year: 1945*/ \
 item_electric_Netherlands_NS_1000, /*Year: 1948*/ \
 item_electric_Sweden_MTAB_Dm3, /*Year: 1953*/ \
-item_electric_United_Kingdom_BR_77_Metrovic, /*Year: 1953*/ \
+item_electric_UK_BR_77_Metrovic, /*Year: 1953*/ \
 item_electric_France_SNCF_BB_9004, /*Year: 1954*/ \
 item_electric_Switzerland_SBB_Ce_4_4, /*Year: 1954*/ \
 item_electric_Switzerland_SBB_Ae_6_6, /*Year: 1955*/ \
 item_electric_Portugal_CP_2500, /*Year: 1956*/ \
 item_electric_India_Indian_Railways_WCM_1, /*Year: 1958*/ \
 item_electric_Italy_FS_E646, /*Year: 1961*/ \
-item_electric_USSR_MPC_VL41, /*Year: 1963*/ \
+item_electric_Russia_RZD_VL41, /*Year: 1963*/ \
 item_electric_Japan_JNR_EF64, /*Year: 1964*/ \
 item_electric_France_SNCF_CC_40100, /*Year: 1964*/ \
 item_electric_Croatia_HZ_1141, /*Year: 1967*/ \
@@ -189,14 +189,14 @@ item_electric_France_SNCF_BB_22200, /*Year: 1976*/ \
 item_electric_Poland_PKP_ET41, /*Year: 1977*/ \
 item_electric_Netherlands_NS_1600, /*Year: 1980*/ \
 item_electric_Austria_OBB_1063, /*Year: 1982*/ \
-item_electric_USSR_MPC_VL85, /*Year: 1983*/ \
-item_electric_USSR_MPC_VL15, /*Year: 1984*/ \
+item_electric_Russia_RZD_VL85, /*Year: 1983*/ \
+item_electric_Russia_RZD_VL15, /*Year: 1984*/ \
 item_electric_China_China_Railways_6K, /*Year: 1986*/ \
 item_electric_France_SNCF_BB_26000, /*Year: 1989*/ \
 item_electric_China_China_Railways_SS6, /*Year: 1991*/ \
 item_electric_Switzerland_SBB_Re460_Lok_2000, /*Year: 1991*/ \
 item_electric_Spain_RENFE_252, /*Year: 1992*/ \
-item_electric_United_Kingdom_BR_92, /*Year: 1993*/ \
+item_electric_UK_BR_92, /*Year: 1993*/ \
 item_electric_India_Indian_Railways_WAP_4, /*Year: 1994*/ \
 item_electric_Germany_DB_145_TRAXX_F140, /*Year: 1996*/ \
 item_electric_Belgium_NMBS_SNCB_13_HLE, /*Year: 1997*/ \
@@ -213,7 +213,7 @@ item_electric_Switzerland_SBB_Eem_923, /*Year: 2012*/
 #define SORTING_DMU \
 item_dmu_Germany_DB_VT04_Flying_Hamburger, /*Year: 1932*/ \
 item_dmu_Australia_NSWGR_Silver_City_Comet, /*Year: 1937*/ \
-item_dmu_Czechoslovakia_CSD_M131, /*Year: 1948*/ \
+item_dmu_Czech_Republic_CD_M131, /*Year: 1948*/ \
 item_dmu_Germany_DB_VT08, /*Year: 1952*/ \
 item_dmu_Australia_Queensland_Rail_400, /*Year: 1955*/ \
 item_dmu_Italy_FS_ALn668, /*Year: 1956*/ \
@@ -221,15 +221,15 @@ item_dmu_Germany_DB_601_VT11_TEE, /*Year: 1957*/ \
 item_dmu_Netherlands_NS_Plan_U_DE_III, /*Year: 1960*/ \
 item_dmu_Canada_CNR_Turbo_Train, /*Year: 1967*/ \
 item_dmu_Serbia_ZS_811, /*Year: 1974*/ \
-item_dmu_United_Kingdom_BR_43_IC125, /*Year: 1976*/ \
+item_dmu_UK_BR_43_IC125, /*Year: 1976*/ \
 item_dmu_Canada_VIA_Rail_LRC, /*Year: 1980*/ \
 item_dmu_Sweden_SJ_Y2, /*Year: 1990*/ \
 item_dmu_Spain_RENFE_594_TRD, /*Year: 1997*/ \
-item_dmu_United_Kingdom_BR_168, /*Year: 1997*/ \
+item_dmu_UK_BR_168, /*Year: 1997*/ \
 item_dmu_Germany_DB_612_Regio_Swinger, /*Year: 1998*/ \
 item_dmu_Germany_DB_642_Desiro, /*Year: 2000*/ \
 item_dmu_Denmark_Arriva_Lint_41, /*Year: 2001*/ \
-item_dmu_Norway_NSB_BM93_Talent, /*Year: 2001*/ \
+item_dmu_Norway_NSB_BM_93_Talent, /*Year: 2001*/ \
 item_dmu_Australia_Transwa_Prospector, /*Year: 2004*/ \
 item_dmu_Australia_CityRail_Hunter_Railcar, /*Year: 2006*/ \
 item_dmu_Russia_RZD_RA2, /*Year: 2006*/ \
@@ -285,13 +285,13 @@ item_emu_Italy_NTV_AGV_Duplex, /*Year: 2015*/
 
 #define SORTING_METRO \
 item_mtro_USA_Brooklyn_Union_Gate_Car, /*Year: 1880*/ \
-item_mtro_Hungary_Budapest_1894_stock, /*Year: 1894*/ \
-item_mtro_United_Kingdom_London_1903_stock, /*Year: 1903*/ \
-item_mtro_USA_Chicago_L_Northwest_Elevated_1907_stock, /*Year: 1907*/ \
-item_mtro_Argentina_Buenos_Aires_Le_Brugeoise, /*Year: 1911*/ \
+item_mtro_Hungary_Budapest_1894_Stock, /*Year: 1894*/ \
+item_mtro_UK_London_1903_Stock, /*Year: 1903*/ \
+item_mtro_USA_Chicago_L_Northwest_Elevated_1907_Stock, /*Year: 1907*/ \
+item_mtro_Argentina_Le_Brugeoise, /*Year: 1911*/ \
 item_mtro_Germany_Berlin_U_Bahn_C_II, /*Year: 1929*/ \
-item_mtro_USA_New_York_R1, /*Year: 1930*/ \
-item_mtro_United_Kingdom_London_1938_stock, /*Year: 1938*/ \
+item_mtro_USA_NY_R1, /*Year: 1930*/ \
+item_mtro_UK_London_1938_Stock, /*Year: 1938*/ \
 item_mtro_Germany_DB_ET171, /*Year: 1942*/ \
 item_mtro_France_Paris_M2_840, /*Year: 1957*/ \
 item_mtro_Portugal_Lisbon_ML7, /*Year: 1959*/ \
@@ -299,17 +299,17 @@ item_mtro_Hungary_Budapest_Ev3_200, /*Year: 1960*/ \
 item_mtro_Norway_Oslo_T1000, /*Year: 1964*/ \
 item_mtro_Canada_Toronto_H_series, /*Year: 1965*/ \
 item_mtro_Germany_Munchen_MVG_A2, /*Year: 1967*/ \
-item_mtro_USA_New_York_R44, /*Year: 1971*/ \
+item_mtro_USA_NY_R44, /*Year: 1971*/ \
 item_mtro_Netherlands_Amsterdam_Type_M1, /*Year: 1973*/ \
 item_mtro_Sweden_Stockholm_C8, /*Year: 1974*/ \
 item_mtro_North_Korea_Pyongyang_D_stock, /*Year: 1975*/ \
 item_mtro_Finland_Helsinki_M100, /*Year: 1977*/ \
 item_mtro_Brasil_Sao_Paulo_Serie_5500, /*Year: 1979*/ \
-item_mtro_USSR_Moscow_81_720, /*Year: 1981*/ \
+item_mtro_Russia_Moscow_81_720, /*Year: 1981*/ \
 item_mtro_Japan_Tokyo_S01, /*Year: 1985*/ \
-item_mtro_Egypt_Cairo_1987_stock, /*Year: 1987*/ \
-item_mtro_United_Kingdom_DLR_P86, /*Year: 1987*/ \
-item_mtro_USSR_Moscow_81_7175M, /*Year: 1987*/ \
+item_mtro_Egypt_Cairo_1987_Stock, /*Year: 1987*/ \
+item_mtro_UK_DLR_P86, /*Year: 1987*/ \
+item_mtro_Russia_Moscow_81_7175M, /*Year: 1987*/ \
 item_mtro_USA_Boston_01800, /*Year: 1993*/ \
 item_mtro_USA_LA_A650, /*Year: 1993*/ \
 item_mtro_Taiwan_Taipei_C301, /*Year: 1996*/ \
@@ -324,8 +324,8 @@ item_mtro_USA_Washington_7000, /*Year: 2013*/ \
 item_mtro_Greece_Thessaloniki_2014, /*Year: 2014*/
 
 #define SORTING_MAGLEV \
-item_mglv_China_Shanghai_Transrapid, /*Year: 2004*/ \
-item_mglv_Japan_JR_MLX01_901, /*Year: 2025*/
+item_mglv_China_Transrapid, /*Year: 2004*/ \
+item_mglv_Japan_MLX01_901, /*Year: 2025*/
 
 #define SORTING_COACHES \
 item_coach_Gen1_Wooden_2_axle_Compartment_Coach, /*Year: 1650*/ \
