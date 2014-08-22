@@ -241,6 +241,7 @@ str_emu_France_SNCF_TGV_Sud_Est                         :SNCF TGV Sud-Est (EMU)
 str_emu_Switzerland_SBB_RBDe_560                        :SBB RBDe 560 (EMU)
 str_emu_Japan_Odakyu_10000_Series_Romance       :Odakyu 10000 Series 'Romance' (EMU)
 str_emu_Hungary_MAV_BDVmot                                      :MAV BDVmot (EMU)
+str_emu_Sweden_SJ_X2000                                         :SJ X2000 (EMU)
 str_emu_Italy_FS_ETR500                                         :FS ETR500 (EMU)
 str_emu_France_SNCF_TGV_Duplex                          :SNCF TGV Duplex (EMU)
 str_emu_France_SNCF_TGV_Thalys                          :SNCF TGV Thalys (EMU)
@@ -363,6 +364,7 @@ str_coach_Gen3_Indian_Mail_Coach                                                
 str_coach_Gen4_Eurofima_Intercity_Coach                                 :Vagón Eurofima
 str_coach_Gen4_InterRegio_Coach                                                 :Vagón InterRegio
 str_coach_Gen4_Eurofima_Mail_Coach                                              :Vagón de correo Eurofima
+str_coach_Gen4_Double_Decker_Coach                                              :Vagón de dos pisos
 str_coach_Gen4_Russian_Intercity_Coach                                  :Vagón InterCity Ruso
 str_coach_Gen4_Russian_Regional_Coach                                   :Vagón Regional Ruso
 str_coach_Gen4_Russian_Mail_Coach                                               :Vagón de correo Ruso
