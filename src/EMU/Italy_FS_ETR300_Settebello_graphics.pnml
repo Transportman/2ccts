@@ -94,9 +94,9 @@ switch(FEAT_TRAINS, SELF, switch_emu_Italy_FS_ETR300_Settebello_middlemail_posit
 */
 
 switch(FEAT_TRAINS, SELF, switch_emu_Italy_FS_ETR300_Settebello_capacity, cargo_classes) {
-	bitmask(CC_MAIL): 45;
-	bitmask(CC_ARMOURED): 30;
-	60;
+	bitmask(CC_MAIL): 21;
+	bitmask(CC_ARMOURED): 14;
+	28;
 }
 
 //Graphics for the unit wagon based on cargo class

@@ -22,7 +22,7 @@ item(FEAT_TRAINS, item_emu_Italy_FS_ETR300_Settebello) {
         running_cost_factor: 13;
         speed: 160 km/h;
         power: 500 hp;
-        cargo_capacity: 60;
+        cargo_capacity: 27;
         weight: 52 ton;
         tractive_effort_coefficient: 0.36;
         air_drag_coefficient: 0;
