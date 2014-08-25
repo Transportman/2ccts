@@ -246,6 +246,7 @@ str_emu_Sweden_SJ_X2000                                         :SJ X2000 (EMU)
 str_emu_Italy_FS_ETR500                                         :FS ETR500 (EMU)
 str_emu_France_SNCF_TGV_Duplex                          :SNCF TGV Duplex (EMU)
 str_emu_France_SNCF_TGV_Thalys                          :SNCF TGV Thalys (EMU)
+str_emu_Denmark_DSB_S_Tog_IV                            :DSB S-Tog IV (EMU)
 str_emu_Japan_JR_Shinkansen_Series_700          :JR Shinkansen Series 700 (EMU)
 str_emu_Netherlands_NS_mDDm_390                         :NS mDDm 390 (EMU)
 str_emu_Norway_NSB_BM73                                         :NSB BM73 (EMU)
@@ -377,6 +378,7 @@ str_coach_Gen4_Horizon_Regional_Coach                                   :Vagón 
 str_coach_Gen4_Horizon_Baggage_Coach                                    :Vagón de equipaje Horizon
 str_coach_Gen4_Bombardier_Bi_level                                              :Bi-nivel Bombardier
 str_coach_Gen5_High_Speed_Coach                                                 :Vagón de alta velocidad
+str_coach_Gen5_Modern_Double_Decker_Coach                               :Vagón de dos pisos moderno
 str_coach_Gen5_High_Speed_Double_Decker_IC2000                  :Vagón de dos pisos de alta velocidad (IC2000)
 str_coach_Gen5_High_Speed_Mail_Coach                                    :Vagón de correo de alta velocidad
 str_coach_Gen5_Talgo_Pendular                                                   :Talgo Pendular
