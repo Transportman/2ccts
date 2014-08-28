@@ -24,7 +24,6 @@
 9   Obtaining the source
 
 
-
 -------
 1 About
 -------
@@ -36,7 +35,6 @@ from all over the world in 2cc.
 MD5Hash:  {{GRF_MD5}}
 Version:  {{REPO_REVISION}}
 GRF ID:   "TM\01\01"
-
 
 
 ---------------------
@@ -83,7 +81,6 @@ Multiple units
 	unpowered wagon.
     
 
-
 --------------
 3 Known issues
 --------------
@@ -92,20 +89,32 @@ Toyland/ECS/FIRS cargo support
 	At this moment these cargoes are not properly supported. This can result in
 	graphical errors and cargoes that can not be transported by a vehicle
 	in this set.
+	
+Cost balancing
+	At this moment costs still need to be balanced. Some vehicles might be 
+	very expensive compared to other vehicles. This will be fixed in a later
+	version.
+	
+Mixing Unit Wagons with non-MU-vehicles
+	If you mix Unit Wagons with normal engines, there will be graphical 
+	glitches and missing properties. Attaching MUs with Unit Wagons
+	to engines and vice versa is possible and will work as intended.
     
 
 ------------------------
 4 Background information
 ------------------------
 
-
+This set is a recode to NML of the original 2cc TrainSet. Future versions will
+include new features.
 
 
 ----------------------------
 5 Frequently Asked Questions
 ----------------------------
-
-
+Q: How do Unit Wagons work?
+A: With MUs you buy both heads, and then you can use the Unit Wagons to make the
+consist longer.
 
 
 ---------
@@ -121,6 +130,8 @@ Graphics from the original 2cc Trainset:
 - trainboy2004
 - uzurpator
 
+New Graphics:
+- Voyager One
 
 Code:
 - Transportman
@@ -130,7 +141,8 @@ Makefile system:
 
 Special thanks to:
 - Juzza1 for help with organizing the vehicle properties from the old set
-
+- All translators
+- #openttdcoop for their work on the DevZone
 
 
 ---------------------
