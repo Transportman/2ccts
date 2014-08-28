@@ -1,0 +1,146 @@
+2cc TrainsInNML changelog
+=========================
+
+1.0-beta2 (28/08/2014)
+----------------------
+- Fix #7046: Vehicle sort order and IDs due to wrong names
+- Fix #7047: Cargo wagon properties
+
+
+1.0-beta1 (28/08/2014)
+----------------------
+- Add: Base .pnml file
+- Add: Code for graphics templates (from the original 2cc Trainset)
+- Add: Code for MU Wagons (not yet active)
+- Add: docs
+- Add: English language file
+- Add: Header
+- Add: Railtypetable, cargotable and cargorefit-file
+- Add: The ability to use a Makefile.local file
+- Change: Filename Unpowered Unit Wagon
+- Cleanup: BR 77 code, vehicle is already included as BR 77 Metrovic (closes #6844)
+- Codechange: Clean-up template.pnml
+- Codechange: Different running cost classes for engines and wagons
+- Codechange: Disable nightly builds, as they are failing and redundant with push builds
+- Codechange: Prepare cargorefits.pnml-file for vehicles that only transport passengers (Metros for example)
+- Codechange: Some filenames were wrong
+- Codechange: Templates for Unit wagons
+- Codechange: The MU-wagons should be in the folders for Coaches
+- Codechange: Unit wagons should be loaded before the engines they are the unit for
+- Doc: Small update on the readme
+- Doc: Small update to the readme.
+- Doc: Some small updates to the readme
+- Doc: Updated Readme
+- Doc: Updated readme
+- Feature #6845: Updated flags and names for vehicles from countries no longer existing
+- Feature: .pnml to set the Vehicle IDs from one file, for future compatibility reasons
+- Feature: 4 early metros (Graphics by Purno and Voyager One)
+- Feature: Afrikaans translation (thanks to telanus)
+- Feature: All metros from the old set (Graphics by Voyager One and Purno)
+- Feature: Cargo wagons (Graphics by Emperor Jake and Voyager One)
+- Feature: Correct TE Coefficient for DMUs (issue #7013)
+- Feature: Correct TE Coefficient for EMUs (issue #7013)
+- Feature: Correct TE Coefficient for engines (issue #7013)
+- Feature: Correct TE Coefficient for Multi-unit Metros (closes #7013)
+- Feature: Correct TE Coefficient for Railbusses (issue #7013)
+- Feature: Correct TE Coefficient for Single Unit Metros (issue #7013)
+- Feature: Cost parameters (Code from the Dutch Train Set)
+- Feature: CPR Royal Hudson steamer (Graphics by DanMacK)
+- Feature: Diesel engines (Graphics by Voyager One, Purno, Emperor Jake, Colossal404, uzurpator, trainboy2004)
+- Feature: Diesel railbuses (Graphics by Voyager One, Purno, Emperor Jake)
+- Feature: DMUs (Graphics by Voyager One, Purno and Emperor Jake)
+- Feature: Electric engines (Graphics by Voyager One, Purno, Emperor Jake, DanMacK, uzurpator)
+- Feature: Electric Railbus vehicles (Graphics by Purno (DB ET479) and Voyager One (others))
+- Feature: EMUs (Graphics by Purno, Voyager One, Emperor Jake, DanMack, trainboy2004)
+- Feature: Maglev and Steam Railbus vehicles (Grapics by Voyager One)
+- Feature: Maglev unit wagon
+- Feature: Make Maglev trains dual headed
+- Feature: More animated vehicles (Graphics by Voyager One) (issue #6980)
+- Feature: Passenger and Mail coaches (Graphics by Emperor Jake (Talgo Pendular) and Voyager One (others))
+- Feature: Powered Unit Wagon code
+- Feature: Powered Unit Wagon livery overrides for Maglev
+- Feature: Purchase template for dual headed trains
+- Feature: Redrawn vehicles from the old set (Graphics by Voyager One) (issue #6957)
+- Feature: Reduce base wagon running costs and close branch
+- Feature: Serbian translation as suggested by Voyager One
+- Feature: Single unit metros (Graphics by Purno)
+- Feature: Some cost rebalancing
+- Feature: Some missing diesel engines from the old set (Graphics by Voyager One) (issue #6957)
+- Feature: Some missing electric engines from the old set (Graphics by Voyager One and Purno) (closes #6957)
+- Feature: Some missing steamers from the old set (Graphics by Voyager One) (issue #6957)
+- Feature: Some more metros (Graphics by Purno and Voyager One)
+- Feature: Some small updates to the readme
+- Feature: Steam engines (Graphics by Voyager One) and code for some engines that cannot be included yet
+- Feature: Steamer animations (issue #6980)
+- Feature: Template for vehicles with Length 10
+- Feature: Unpowered Maglev Unit Wagon
+- Feature: Unpowered Metro Unit Wagon code
+- Feature: Updates to header.pnml: depot window fix, setting some base costs
+- Fix #6736: SSB Cfe 3/3 back lights no longer flash.
+- Fix #6750: Oslo metros were arranged incorrectly, showing incorrect sprites for back end
+- Fix #6934: MPC VL15 power
+- Fix #6937: rename CNR LRC to VIA Rail LRC
+- Fix #6938: Some engines had their cost factor set to 0.
+- Fix #6939: TGV Alignments (also fixes #6940)
+- Fix #6941: AGV and AGV Duplex wagon graphics for the first and last wagon were switched
+- Fix #6942: B-units were not behaving correctly.
+- Fix #6943: MTAB Dm3 articulated parts did not show up properly when buying engine
+- Fix #6944: DB ICE 3 length
+- Fix #6947: Amsterdam Type M1 length
+- Fix #6948: Correct flag for the EFVM ML4000
+- Fix #6949: SNCF BB 26000 length
+- Fix #6950: Amtrak P42 2nd part was flipped
+- Fix #6952: NSB BM73 pantograph was missing
+- Fix #6952: Pantograph for the ETR300 Settebello not showing
+- Fix #6953: Russia 81-740 length
+- Fix #6954: SBB RABe 523 length
+- Fix #6955: Correct introduction dates for Passenger coaches.
+- Fix #6956: Some properties of the Prussian S10 were wrong
+- Fix #6965: Horizon Baggage Coach still carried passengers
+- Fix #6965: Mail wagons carried passengers
+- Fix #7023: Cargo capacity BR Class 168
+- Fix #7036: ETR300 Settebello capacity
+- Fix #7046: Vehicle sort order and IDs due to wrong names
+- Fix r0: missing .hgignore
+- Fix r10: Steam offset for Steam railbus vehicles
+- Fix r11: Wrong offset Maglev Unit Wagon
+- Fix r156: Running costs and engine class were set to Diesel for EMUs
+- Fix r2: Some template fixes
+- Fix r263, r264, r265: Vehicle sort
+- Fix r263: Length-switch for the Big Boy was wrong for the tender part
+- Fix r276: Some white pixels in some graphics
+- Fix r276: Vehicle sort errors due to old/wrong names being used
+- Fix r28 and r29: Metro Unit Wagons should only transports passengers
+- Fix r29: Powered Wagon graphics
+- Fix r295: Also update base costs
+- Fix r332: Also remove those spaces from other files
+- Fix/Change: [Makefile] Executable mode for findversion.sh
+- Fix: Alignment of short vehicles and flashing pixels (closes #6748, #6749 and #6751)
+- Fix: EMU Names contained spaces
+- Fix: Flashing pixels in several sprites (Thanks to juzza1 for converting all sprites)
+- Fix: Gen 4 Centerbeam length
+- Fix: LNER A4 tender length (issue #6985)
+- Fix: MPC P36 tender length
+- Fix: NSB BM65 length
+- Fix: Paris MP89 alignment error
+- Fix: PKP ET41 power (issue #6934)
+- Fix: Small readme fix, this is 2cc Trains in NML, not Dutch Trains for OpenTTD
+- Fix: SNCF 140C lengths were wrong
+- Fix: Typo in the Transrapid name (thanks to RBC for noticing)
+- Fix: UP 4000 'Big Boy' power
+- Merge: Online repo with local branch
+- Merge: Translation update from repo
+- Merge: Translations from eints
+- Merge: Translations from repo (again)
+- Merge: Translations update from repo
+- Release: 1.0-beta1
+- Set up repo
+- Update: .hgignore file still contained some references to the Dutch Trainset
+- Update: Alignments in master language file
+- Update: Compile .bat
+- Update: Dutch translation
+- Update: Makefile and findversion.sh to allow compilation on Windows computers (with the proper software installed)
+- Update: Minimum compatible version, as recent changes broke compatibility
+- Update: Small change in parameter descriptions
+- Update: Some more cost balancing in preparation of Engine and MU inclusion
+- Update: Translations from webtranslator
