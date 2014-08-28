@@ -369,7 +369,7 @@ item_coach_Gen3_Indian_Intercity_Coach, /*Year: 1950*/ \
 item_coach_Gen3_Indian_Local_Coach, /*Year: 1950*/ \
 item_coach_Gen3_Indian_Regional_Coach, /*Year: 1950*/ \
 item_coach_Gen3_Indian_Mail_Coach, /*Year: 1950*/ \
-item_coach_Gen4_Eurofima_Coach, /*Year: 1970*/ \
+item_coach_Gen4_Eurofima_Intercity_Coach, /*Year: 1970*/ \
 item_coach_Gen4_InterRegio_Coach, /*Year: 1970*/ \
 item_coach_Gen4_Silberling_Commuter_Coach, /*Year: 1960*/ \
 item_coach_Gen4_Eurofima_Mail_Coach, /*Year: 1970*/ \
@@ -402,17 +402,17 @@ item_coach_Gen6_Super_Voyager_Coach, /*Year: 2030*/
 
 #define SORTING_WAGONS \
 item_wagon_Gen1_Flat_Wagon, /*Year: 1660*/ \
-item_wagon_Gen1_Wooden_Box_Van, /*Year: 1660*/ \
+item_wagon_Gen1_Boxcar, /*Year: 1660*/ \
 item_wagon_Gen1_Tanker, /*Year: 1660*/ \
-item_wagon_Gen1_Wooden_Open_Wagon, /*Year: 1660*/ \
+item_wagon_Gen1_Open_Wagon, /*Year: 1660*/ \
 item_wagon_Gen2_Flat_Wagon, /*Year: 1900*/ \
-item_wagon_Gen2_Wooden_Box_Van, /*Year: 1890*/ \
+item_wagon_Gen2_Boxcar, /*Year: 1890*/ \
 item_wagon_Gen2_Tanker, /*Year: 1900*/ \
-item_wagon_Gen2_Wooden_Open_Wagon, /*Year: 1890*/ \
+item_wagon_Gen2_Open_Wagon, /*Year: 1890*/ \
 item_wagon_Gen2_Silo, /*Year: 1900*/ \
-item_wagon_Gen2_Wooden_Hopper, /*Year: 1890*/ \
+item_wagon_Gen2_Hopper, /*Year: 1890*/ \
 item_wagon_Gen3_Flat_Wagon, /*Year: 1930*/ \
-item_wagon_Gen3_Wooden_Boxcar, /*Year: 1920*/ \
+item_wagon_Gen3_Boxcar, /*Year: 1920*/ \
 item_wagon_Gen3_Tanker, /*Year: 1930*/ \
 item_wagon_Gen3_Open_Wagon, /*Year: 1920*/ \
 item_wagon_Gen3_Silo, /*Year: 1930*/ \
@@ -423,20 +423,20 @@ item_wagon_Gen4_Boxcar, /*Year: 1950*/ \
 item_wagon_Gen4_Tanker, /*Year: 1950*/ \
 item_wagon_Gen4_Gondola, /*Year: 1950*/ \
 item_wagon_Gen4_Silo, /*Year: 1950*/ \
-item_wagon_Gen4_Self_discharging_Hopper, /*Year: 1960*/ \
+item_wagon_Gen4_Hopper, /*Year: 1960*/ \
 item_wagon_Gen4_Car_Transporter, /*Year: 1960*/ \
 item_wagon_Gen4_Container_Carrier, /*Year: 1960*/ \
-item_wagon_Gen4_Centerbeam_Flatcar, /*Year: 1950*/ \
+item_wagon_Gen4_Centerbeam, /*Year: 1950*/ \
 item_wagon_Gen5_Flatcar, /*Year: 1990*/ \
 item_wagon_Gen5_Heavy_Flatcar, /*Year: 2000*/ \
 item_wagon_Gen5_Boxcar, /*Year: 1990*/ \
 item_wagon_Gen5_Tanker, /*Year: 2000*/ \
 item_wagon_Gen5_Gondola, /*Year: 1990*/ \
 item_wagon_Gen5_Silo, /*Year: 2000*/ \
-item_wagon_Gen5_Self_discharging_Hopper, /*Year: 2000*/ \
+item_wagon_Gen5_Hopper, /*Year: 2000*/ \
 item_wagon_Gen5_Car_Transporter, /*Year: 2000*/ \
 item_wagon_Gen5_Container_Carrier, /*Year: 1990*/ \
-item_wagon_Gen5_Centerbeam_Flatcar, /*Year: 1990*/ \
+item_wagon_Gen5_Centerbeam, /*Year: 1990*/ \
 item_wagon_Gen5_Container_Doublestack, /*Year: 1980*/ \
 item_wagon_Gen5_Superheavy_Flatcar, /*Year: 1990*/
 

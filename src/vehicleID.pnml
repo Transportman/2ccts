@@ -365,7 +365,7 @@ item(FEAT_TRAINS, item_coach_Gen3_Indian_Intercity_Coach, 11037) {}
 item(FEAT_TRAINS, item_coach_Gen3_Indian_Local_Coach, 11038) {}
 item(FEAT_TRAINS, item_coach_Gen3_Indian_Regional_Coach, 11039) {}
 item(FEAT_TRAINS, item_coach_Gen3_Indian_Mail_Coach, 11040) {}
-item(FEAT_TRAINS, item_coach_Gen4_Eurofima_Coach, 11041) {}
+item(FEAT_TRAINS, item_coach_Gen4_Eurofima_Intercity_Coach, 11041) {}
 item(FEAT_TRAINS, item_coach_Gen4_InterRegio_Coach, 11042) {}
 item(FEAT_TRAINS, item_coach_Gen4_Silberling_Commuter_Coach, 11043) {}
 item(FEAT_TRAINS, item_coach_Gen4_Eurofima_Mail_Coach, 11044) {}
@@ -398,17 +398,17 @@ item(FEAT_TRAINS, item_coach_Gen6_Super_Voyager_Coach, 11070) {}
 
 //Wagons, available ID range: 12000-12999
 item(FEAT_TRAINS, item_wagon_Gen1_Flat_Wagon, 12000) {}
-item(FEAT_TRAINS, item_wagon_Gen1_Wooden_Box_Van, 12001) {}
+item(FEAT_TRAINS, item_wagon_Gen1_Box_Car, 12001) {}
 item(FEAT_TRAINS, item_wagon_Gen1_Tanker, 12002) {}
-item(FEAT_TRAINS, item_wagon_Gen1_Wooden_Open_Wagon, 12003) {}
+item(FEAT_TRAINS, item_wagon_Gen1_Open_Wagon, 12003) {}
 item(FEAT_TRAINS, item_wagon_Gen2_Flat_Wagon, 12004) {}
-item(FEAT_TRAINS, item_wagon_Gen2_Wooden_Box_Van, 12005) {}
+item(FEAT_TRAINS, item_wagon_Gen2_Boxcar, 12005) {}
 item(FEAT_TRAINS, item_wagon_Gen2_Tanker, 12006) {}
-item(FEAT_TRAINS, item_wagon_Gen2_Wooden_Open_Wagon, 12007) {}
+item(FEAT_TRAINS, item_wagon_Gen2_Open_Wagon, 12007) {}
 item(FEAT_TRAINS, item_wagon_Gen2_Silo, 12008) {}
-item(FEAT_TRAINS, item_wagon_Gen2_Wooden_Hopper, 12009) {}
+item(FEAT_TRAINS, item_wagon_Gen2_Hopper, 12009) {}
 item(FEAT_TRAINS, item_wagon_Gen3_Flat_Wagon, 12010) {}
-item(FEAT_TRAINS, item_wagon_Gen3_Wooden_Boxcar, 12011) {}
+item(FEAT_TRAINS, item_wagon_Gen3_Boxcar, 12011) {}
 item(FEAT_TRAINS, item_wagon_Gen3_Tanker, 12012) {}
 item(FEAT_TRAINS, item_wagon_Gen3_Open_Wagon, 12013) {}
 item(FEAT_TRAINS, item_wagon_Gen3_Silo, 12014) {}
@@ -419,20 +419,20 @@ item(FEAT_TRAINS, item_wagon_Gen4_Boxcar, 12018) {}
 item(FEAT_TRAINS, item_wagon_Gen4_Tanker, 12019) {}
 item(FEAT_TRAINS, item_wagon_Gen4_Gondola, 12020) {}
 item(FEAT_TRAINS, item_wagon_Gen4_Silo, 12021) {}
-item(FEAT_TRAINS, item_wagon_Gen4_Self_discharging_Hopper, 12022) {}
+item(FEAT_TRAINS, item_wagon_Gen4_Hopper, 12022) {}
 item(FEAT_TRAINS, item_wagon_Gen4_Car_Transporter, 12023) {}
 item(FEAT_TRAINS, item_wagon_Gen4_Container_Carrier, 12024) {}
-item(FEAT_TRAINS, item_wagon_Gen4_Centerbeam_Flatcar, 12025) {}
+item(FEAT_TRAINS, item_wagon_Gen4_Centerbeam, 12025) {}
 item(FEAT_TRAINS, item_wagon_Gen5_Flatcar, 12026) {}
 item(FEAT_TRAINS, item_wagon_Gen5_Heavy_Flatcar, 12027) {}
 item(FEAT_TRAINS, item_wagon_Gen5_Boxcar, 12028) {}
 item(FEAT_TRAINS, item_wagon_Gen5_Tanker, 12029) {}
 item(FEAT_TRAINS, item_wagon_Gen5_Gondola, 12030) {}
 item(FEAT_TRAINS, item_wagon_Gen5_Silo, 12031) {}
-item(FEAT_TRAINS, item_wagon_Gen5_Self_discharging_Hopper, 12032) {}
+item(FEAT_TRAINS, item_wagon_Gen5_Hopper, 12032) {}
 item(FEAT_TRAINS, item_wagon_Gen5_Car_Transporter, 12033) {}
 item(FEAT_TRAINS, item_wagon_Gen5_Container_Carrier, 12034) {}
-item(FEAT_TRAINS, item_wagon_Gen5_Centerbeam_Flatcar, 12035) {}
+item(FEAT_TRAINS, item_wagon_Gen5_Centerbeam, 12035) {}
 item(FEAT_TRAINS, item_wagon_Gen5_Container_Doublestack, 12036) {}
 item(FEAT_TRAINS, item_wagon_Gen5_Superheavy_Flatcar, 12037) {}
 
