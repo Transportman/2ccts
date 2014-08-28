@@ -14,15 +14,15 @@ item(FEAT_TRAINS, item_wagon_Gen4_Centerbeam) {
     property {
         name: string(str_wagon_Gen4_Centerbeam);
         
-        introduction_date: date(1990,1,1);
-        model_life: VEHICLE_NEVER_EXPIRES;
+        introduction_date: date(1950,1,1);
+        model_life: 60;
         vehicle_life: 25;
         loading_speed: 10;
         cost_factor: 56;
         running_cost_factor: 56;
-        speed: 160 km/h;
+        speed: 120 km/h;
         power: 0 hp;
-        cargo_capacity: 60;
+        cargo_capacity: 45;
         weight: 55 ton;
         tractive_effort_coefficient: 0.3;
         air_drag_coefficient: 0;

@@ -23,7 +23,7 @@ item(FEAT_TRAINS, item_wagon_Gen5_Superheavy_Flatcar) {
         speed: 80 km/h;
         power: 0 hp;
         cargo_capacity: 50;
-        weight: 20 ton;
+        weight: 94 ton;
         tractive_effort_coefficient: 0.3;
         air_drag_coefficient: 0;
         
