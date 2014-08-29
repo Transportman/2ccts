@@ -111,6 +111,7 @@ str_diesel_Finland_VR_Dr12                                                      
 str_diesel_Romania_CFR_060_DA                                                   :CFR 060-DA (Diésel)
 str_diesel_Brasil_BF_EMD_GL8                                                    :BF EMD GL8 (Diésel)
 str_diesel_Brasil_EFVM_ML4000                                                   :EFVM ML4000 (Diésel)
+str_diesel_Russia_RZD_TEP60                                                     :RZD TEP60 (Diésel)
 str_diesel_Belgium_NMBS_SNCB_67                                                 :NMBS/SNCB 67 (Diésel)
 str_diesel_Denmark_DSB_MaK_100                                                  :DSB MaK 100 (Diésel)
 str_diesel_India_Indian_Railways_WDM_2                                  :Indian Railways WDM-2 (Diésel)
@@ -144,6 +145,7 @@ str_diesel_China_China_Railways_HXN5                                    :China R
 str_diesel_Germany_DB_260_Gravita_10BB                                  :DB 260 Gravita 10BB (Diésel)
 str_diesel_Russia_RZD_GT1                                                               :RZD GT1 (Diésel)
 str_diesel_China_MTR_8000                                                               :MTR 8000 (Diésel)
+str_diesel_Germany_HVLE_V490                                                    :HVLE V490 (Diésel)
 
 #Electric
 str_electric_Switzerland_RhB_DE_2_2                     :RhB DE 2/2 (Eléctrico)
