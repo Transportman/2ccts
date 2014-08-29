@@ -207,30 +207,30 @@ item(FEAT_TRAINS, item_electric_China_China_Railways_HXD3, 6058) {}
 item(FEAT_TRAINS, item_electric_Switzerland_SBB_Eem_923, 6059) {}
 
 //DMU, available ID range: 7000-7999
-item(FEAT_TRAINS, item_dmu_Germany_DB_VT04_Flying_Hamburger, 7000) {}
-item(FEAT_TRAINS, item_dmu_Australia_NSWGR_Silver_City_Comet, 7001) {}
-item(FEAT_TRAINS, item_dmu_Czech_Republic_CD_M131, 7000) {}
-item(FEAT_TRAINS, item_dmu_Germany_DB_VT08, 7001) {}
-item(FEAT_TRAINS, item_dmu_Australia_Queensland_Rail_400, 7000) {}
-item(FEAT_TRAINS, item_dmu_Italy_FS_ALn668, 7001) {}
-item(FEAT_TRAINS, item_dmu_Germany_DB_601_VT11_TEE, 7000) {}
-item(FEAT_TRAINS, item_dmu_Netherlands_NS_Plan_U_DE_III, 7001) {}
-item(FEAT_TRAINS, item_dmu_Canada_CNR_Turbo_Train, 7000) {}
-item(FEAT_TRAINS, item_dmu_Serbia_ZS_811, 7001) {}
-item(FEAT_TRAINS, item_dmu_UK_BR_43_IC125, 7000) {}
-item(FEAT_TRAINS, item_dmu_Canada_VIA_Rail_LRC, 7001) {}
-item(FEAT_TRAINS, item_dmu_Sweden_SJ_Y2, 7000) {}
-item(FEAT_TRAINS, item_dmu_Spain_RENFE_594_TRD, 7001) {}
-item(FEAT_TRAINS, item_dmu_UK_BR_168, 7000) {}
-item(FEAT_TRAINS, item_dmu_Germany_DB_612_Regio_Swinger, 7001) {}
-item(FEAT_TRAINS, item_dmu_Germany_DB_642_Desiro, 7000) {}
-item(FEAT_TRAINS, item_dmu_Denmark_Arriva_Lint_41, 7001) {}
-item(FEAT_TRAINS, item_dmu_Norway_NSB_BM_93_Talent, 7000) {}
-item(FEAT_TRAINS, item_dmu_Australia_Transwa_Prospector, 7001) {}
-item(FEAT_TRAINS, item_dmu_Australia_CityRail_Hunter_Railcar, 7000) {}
-item(FEAT_TRAINS, item_dmu_Russia_RZD_RA2, 7001) {}
 item(FEAT_TRAINS, item_dmu_Denmark_DSB_IC4, 7000) {}
 item(FEAT_TRAINS, item_dmu_Croatia_HZ_7022, 7001) {}
+item(FEAT_TRAINS, item_dmu_Germany_DB_VT04_Flying_Hamburger, 7002) {}
+item(FEAT_TRAINS, item_dmu_Australia_NSWGR_Silver_City_Comet, 7003) {}
+item(FEAT_TRAINS, item_dmu_Czech_Republic_CD_M131, 7004) {}
+item(FEAT_TRAINS, item_dmu_Germany_DB_VT08, 7005) {}
+item(FEAT_TRAINS, item_dmu_Australia_Queensland_Rail_400, 7006) {}
+item(FEAT_TRAINS, item_dmu_Italy_FS_ALn668, 7007) {}
+item(FEAT_TRAINS, item_dmu_Germany_DB_601_VT11_TEE, 7008) {}
+item(FEAT_TRAINS, item_dmu_Netherlands_NS_Plan_U_DE_III, 7009) {}
+item(FEAT_TRAINS, item_dmu_Canada_CNR_Turbo_Train, 7010) {}
+item(FEAT_TRAINS, item_dmu_Serbia_ZS_811, 7011) {}
+item(FEAT_TRAINS, item_dmu_UK_BR_43_IC125, 7012) {}
+item(FEAT_TRAINS, item_dmu_Canada_VIA_Rail_LRC, 7013) {}
+item(FEAT_TRAINS, item_dmu_Sweden_SJ_Y2, 7014) {}
+item(FEAT_TRAINS, item_dmu_Spain_RENFE_594_TRD, 7015) {}
+item(FEAT_TRAINS, item_dmu_UK_BR_168, 7016) {}
+item(FEAT_TRAINS, item_dmu_Germany_DB_612_Regio_Swinger, 7017) {}
+item(FEAT_TRAINS, item_dmu_Germany_DB_642_Desiro, 7018) {}
+item(FEAT_TRAINS, item_dmu_Denmark_Arriva_Lint_41, 7019) {}
+item(FEAT_TRAINS, item_dmu_Norway_NSB_BM_93_Talent, 7020) {}
+item(FEAT_TRAINS, item_dmu_Australia_Transwa_Prospector, 7021) {}
+item(FEAT_TRAINS, item_dmu_Australia_CityRail_Hunter_Railcar, 7022) {}
+item(FEAT_TRAINS, item_dmu_Russia_RZD_RA2, 7023) {}
 
 //EMU, available ID range: 8000-8999
 item(FEAT_TRAINS, item_emu_Netherlands_NS_Mat24, 8000) {}
