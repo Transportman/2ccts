@@ -461,4 +461,4 @@ str_mtro_wagon_powered		:Metro Unit Wagon (Powered)
 str_mglv_wagon_powered		:Maglev Unit Wagon (Powered)
 
 #PURCHASE MENU TEXTS
-
+str_unit_wagon				:This generic wagon can ONLY be used with MUs to create trains of the desired length
