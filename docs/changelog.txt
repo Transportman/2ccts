@@ -1,5 +1,13 @@
 2cc TrainsInNML changelog
 =========================
+1.0-beta3 (30/08/2014)
+- Feature: Purchase menu text for unit wagons (issue #7057)
+- Fix #7055: FS 895 flag used company color
+- Fix r278: DMU vehicle IDs (issue #7052)
+- Fix: JR EH500 alignment (issue #7056)
+- Fix: RZD VL85 rear engine sprite was reversed (issue #7052)
+- Fix: Talgo purchase sprites
+- Update: Translations from webtranslator
 
 1.0-beta2 (28/08/2014)
 ----------------------
