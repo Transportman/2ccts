@@ -201,6 +201,7 @@ str_electric_South_Korea_Korail_8200                    :Korail 8200 (Eléctrico
 str_electric_Ukraine_UZ_DS3                                     :UZ DS3 (Eléctrico)
 str_electric_Kazakhstan_KTZ_KZ4A                                :KTZ KZ4A (Eléctrico)
 str_electric_Switzerland_SBB_Eem_923                    :SBB Eem 923 (Eléctrico)
+str_electric_China_China_Railways_HXD3                  :China Railways HXD3 (Eléctrico)
 str_electric_Portugal_CP_2500                                   :CP 2500 (Eléctrico)
 
 #DMU
@@ -292,6 +293,7 @@ str_mtro_Canada_Toronto_H_series                                :Toronto H-serie
 str_mtro_Germany_Munchen_MVG_A2                                 :Munchen MVG A2 (Metro)
 str_mtro_USA_NY_R44                                                     :New York R44 (Metro)
 str_mtro_Netherlands_Amsterdam_Type_M1                  :Amsterdam M1 (Metro)
+str_mtro_Sweden_Stockholm_C8                                    :Stockholm C8 (Metro)
 str_mtro_North_Korea_Pyongyang_D_stock                  :Pyongyang D stock (Metro)
 str_mtro_Finland_Helsinki_M100                                  :Helsinki M100 (Metro)
 str_mtro_Brasil_Sao_Paulo_Serie_5500                    :Sao Paulo Serie 5500 (Metro)

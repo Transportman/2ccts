@@ -464,3 +464,4 @@ str_mtro_wagon_powered          :Vagon Metroa (sa pogonom)
 str_mglv_wagon_powered          :Vagon Magleva (sa pogonom)
 
 #PURCHASE MENU TEXTS
+str_unit_wagon                          :Ovaj generički vagon se može koristiti SAMO sa višedjelnim jedinicama (MU) za stvaranje vlakova željene dužine
