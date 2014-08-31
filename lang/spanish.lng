@@ -10,6 +10,7 @@ STR_GRF_URL             :https://dev.openttdcoop.org/projects/2ccts
 #parameter strings
 STR_PARAM_PURCHASE_COST             :Multiplicador del precio de compra
 STR_PARAM_RUNNING_COST              :Multiplicador del coste de funcionamiento
+STR_PARAM_RUNNING_COST_DESC         :Puedes usar este ajuste para aumentar o disminuir el coste de funcionamiento de los vehículos de este set.
 
 STR_PARAM_DIVIDE_16                 :1/16
 STR_PARAM_DIVIDE_8                  :1/8
@@ -81,6 +82,7 @@ str_steam_Germany_DB_52                         :DB 52 (Vapor)
 str_steam_UK_LNER_A1_Peppercorn         :LNER A1 'Peppercorn' (Vapor)
 str_steam_South_Africa_SAR_25           :SAR 25 (Vapor)
 str_steam_Poland_PKP_Okz32                      :PKP Okz32 (Vapor)
+str_steam_Switzerland_SBB_C_5_6         :SBB C 5/6 (Vapor)
 
 #Diesel
 str_diesel_Germany_DB_310_Kof_II                                                :DB 310 Kof II (Diésel)
