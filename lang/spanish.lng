@@ -66,6 +66,7 @@ str_steam_Switzerland_SBB_A_3_5         :SBB A 3/5 (Vapor)
 str_steam_Switzerland_SBB_E_3_3         :SBB E 3/3 (Vapor)
 str_steam_Austria_KkStB_299             :KkStB 299 (Vapor)
 str_steam_New_Zealand_NZR_X_Class       :NZR X Class (Vapor)
+str_steam_Croatia_HZ_51                         :HZ 51 (Vapor)
 str_steam_Italy_FS_880                          :FS 880 (Vapor)
 str_steam_France_SNCF_140C                      :SNCF 140C (Vapor)
 str_steam_France_SNCF_141TA             :SNCF 141TA (Vapor)
@@ -324,6 +325,7 @@ str_wagon_Gen1_Flat_Wagon                               :Vagón plano, 1a genera
 str_wagon_Gen1_Tanker                                   :Cisterna, 1a generación
 str_wagon_Gen2_Flat_Wagon                               :Vagón plano, 2a generación
 str_wagon_Gen2_Tanker                                   :Cisterna, 2a generación
+str_wagon_Gen3_Tanker                                   :Cisterna, 3a generación
 str_wagon_Gen3_Open_Wagon                               :Vagón abierto, 3era Generación
 str_wagon_Gen4_Tanker                                   :Cisterna, 4a generación
 str_wagon_Gen4_Gondola                                  :Góndola, 4a Generación
@@ -346,7 +348,7 @@ str_coach_Gen1_Wooden_3_axle_Regional_Coach                     :Vagón regional
 str_coach_Gen1_Wooden_3_axle_Mail_Coach                                 :Vagón de correos, madera y 3 ejes
 str_coach_Gen2_Heavyweight_Intercity_Coach                              :Vagón pesado Intercity
 str_coach_Gen2_Heavyweight_Mail_Coach                                   :Vagón pesado de correo
-str_coach_Gen2_Steel_Intercity_Coach                                    :Vagón Intercity, acero
+str_coach_Gen2_Steel_Intercity_Coach                                    :Vagón InterCity, acero
 str_coach_Gen2_Steel_Compartment_Coach                                  :Vagón de compartimentos, acero
 str_coach_Gen2_Steel_Regional_Coach                                     :Vagón regional, acero
 str_coach_Gen2_Steel_Mail_Coach                                                 :Vagón de correos, acero
@@ -356,10 +358,10 @@ str_coach_Gen2_Steel_2_axle_Mail_Coach                                  :Vagón 
 str_coach_Gen2_Steel_3_axle_Compartment_Coach                   :Vagón de compartimentos, acero y 3 ejes
 str_coach_Gen2_Steel_3_axle_Regional_Coach                              :Vagón regional, acero y 3 ejes
 str_coach_Gen2_Steel_3_axle_Mail_Coach                                  :Vagón de correos, acero y 3 ejes
-str_coach_Gen3_Steel_Lightweight_Intercity_Coach                :Vagón Intercity ligero, acero
+str_coach_Gen3_Steel_Lightweight_Intercity_Coach                :Vagón InterCity ligero, acero
 str_coach_Gen3_Steel_Lightweight_Regional_Coach                 :Vagón regional ligero, acero
 str_coach_Gen3_Steel_Lightweight_Mail_Coach                     :Vagón de correo ligero, acero
-str_coach_Gen3_Aluminium_Lightweight_Intercity_Coach    :Vagón Intercity ligero, aluminio
+str_coach_Gen3_Aluminium_Lightweight_Intercity_Coach    :Vagón InterCity ligero, aluminio
 str_coach_Gen3_Aluminium_Lightweight_Regional_Coach     :Vagón regional ligero, aluminio
 str_coach_Gen3_Aluminium_Lightweight_Mail_Coach                 :Vagón de correo ligero, aluminio
 str_coach_Gen3_Gallery_Car                                                              :Vagón Galería
