@@ -1,0 +1,1 @@
+This folder contains vehicles that have become obsolete because of changing properties, but for compatibility reasons are not removed from the code.

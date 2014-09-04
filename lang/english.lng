@@ -69,7 +69,7 @@ str_steam_Austria_KkStB_299 		:KkStB 299 (Steam)
 str_steam_New_Zealand_NZR_X_Class 	:NZR X Class (Steam)
 str_steam_Croatia_HZ_51 			:HZ 51 (Steam)
 str_steam_Italy_FS_880 				:FS 880 (Steam)
-str_steam_Argentina_FCNEA_11B_2_8_0	:FCNEA 11B 0-2-8 (Steam)
+str_steam_Argentina_FCNEA_11B_2_8_0	:FCNEA 11B 2-8-0 (Steam)
 str_steam_France_SNCF_140C 			:SNCF 140C (Steam)
 str_steam_France_SNCF_141TA 		:SNCF 141TA (Steam)
 str_steam_UK_GWR_4900 				:GWR 4900 (Steam)
@@ -459,6 +459,9 @@ str_mglv_wagon_unpowered	:Maglev Unit Wagon (Unpowered)
 str_mu_wagon_powered		:Multiple Unit Wagon (Powered)
 str_mtro_wagon_powered		:Metro Unit Wagon (Powered)
 str_mglv_wagon_powered		:Maglev Unit Wagon (Powered)
+
+#obsolete vehicles
+str_steam_USA_4_4_0_American_obsolete1	:Obsolete 4-4-0 'American' (Steam)
 
 #PURCHASE MENU TEXTS
 str_unit_wagon				:This generic wagon can ONLY be used with MUs to create trains of the desired length

@@ -10,9 +10,9 @@
 * ITEM
 */
 
-item(FEAT_TRAINS, item_steam_USA_4_4_0_American) {
+item(FEAT_TRAINS, item_steam_USA_4_4_0_American_obsolete1) {
     property {
-        name: string(str_steam_USA_4_4_0_American);
+        name: string(str_steam_USA_4_4_0_American_obsolete1);
         
         introduction_date: date(1848,1,1);
         model_life: 25;
@@ -38,18 +38,18 @@ item(FEAT_TRAINS, item_steam_USA_4_4_0_American) {
         engine_class: ENGINE_CLASS_STEAM;
         visual_effect_and_powered: visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER); //Set from graphics file
         
-        climates_available: ALL_CLIMATES;
+        climates_available: NO_CLIMATE;
         sprite_id: SPRITE_ID_NEW_TRAIN;
         dual_headed: 0;
-        length: 6;
+        length: 5;
         extra_power_per_wagon: 0;
         bitmask_vehicle_info: 0;
 	}
 	graphics {
-		purchase: spriteset_steam_USA_4_4_0_American_purchase;
-		visual_effect_and_powered: switch_steam_USA_4_4_0_American_visual_effect;
-		length: switch_steam_USA_4_4_0_American_length;
-		articulated_part: switch_steam_USA_4_4_0_American_articulated;
-		switch_steam_USA_4_4_0_American_position;
+		purchase: spriteset_steam_USA_4_4_0_American_obsolete1_purchase;
+		visual_effect_and_powered: switch_steam_USA_4_4_0_American_obsolete1_visual_effect;
+		length: switch_steam_USA_4_4_0_American_obsolete1_length;
+		articulated_part: switch_steam_USA_4_4_0_American_obsolete1_articulated;
+		switch_steam_USA_4_4_0_American_obsolete1_position;
 	}
 }

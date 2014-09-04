@@ -876,5 +876,9 @@
 #include "src/Wagons/Gen5/Gen5_Superheavy_Flatcar_graphics.pnml"
 #include "src/Wagons/Gen5/Gen5_Superheavy_Flatcar_item.pnml"
 
+//Obsolete Vehicles
+#include "src/Obsolete/Steam/USA_4_4_0_American_obsolete1_graphics.pnml"
+#include "src/Obsolete/Steam/USA_4_4_0_American_obsolete1_item.pnml"
+
 //sort vehicles in purchase list
 #include "src/vehiclesort.pnml"
