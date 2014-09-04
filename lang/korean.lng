@@ -434,4 +434,6 @@ str_mu_wagon_powered            :다중 기본 객차 (동력 공급됨)
 str_mtro_wagon_powered          :지하철 기본 객차 (동력 공급됨)
 str_mglv_wagon_powered          :자기부상 기본 객차 (동력 공급됨)
 
+#obsolete vehicles
+
 #PURCHASE MENU TEXTS

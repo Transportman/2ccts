@@ -463,5 +463,7 @@ str_mu_wagon_powered            :Carozza treno articolato (motorizzata)
 str_mtro_wagon_powered          :Carozza metro (motorizzata)
 str_mglv_wagon_powered          :Carozza maglev (motorizzata)
 
+#obsolete vehicles
+
 #PURCHASE MENU TEXTS
 str_unit_wagon                          :Questa carozza generica si puo usare SOLTANTO per la creazione di unitá multiple (MU) di lunghezza desiderata

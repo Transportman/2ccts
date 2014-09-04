@@ -243,4 +243,6 @@ str_mglv_wagon_unpowered        :Vagon Magleva (bez pogona)
 str_mtro_wagon_powered          :Vagon Metroa (sa pogonom)
 str_mglv_wagon_powered          :Vagon Magleva (sa pogonom)
 
+#obsolete vehicles
+
 #PURCHASE MENU TEXTS

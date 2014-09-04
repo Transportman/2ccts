@@ -462,5 +462,7 @@ str_mu_wagon_powered            :Unitat de Vagó de Metro (Alimentat)
 str_mtro_wagon_powered          :Unitat de Vagó de Metro (Amb alimentació)
 str_mglv_wagon_powered          :Unitat de Vagó Maglev (Alimentat)
 
+#obsolete vehicles
+
 #PURCHASE MENU TEXTS
 str_unit_wagon                          :Aquest vagó genèric NOMÉS pot emprar-se amb MUs per a crear trens de la llargada desitjada
