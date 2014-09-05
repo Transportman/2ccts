@@ -47,6 +47,7 @@ item(FEAT_TRAINS, item_electric_France_SNCF_BB_26000) {
 	}
 	graphics {
 		purchase: spriteset_electric_France_SNCF_BB_26000_purchase;
+		can_attach_wagon: switch_can_attach_vehicle;
 		spriteset_electric_France_SNCF_BB_26000;
 	}
 }

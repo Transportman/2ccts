@@ -47,6 +47,7 @@ item(FEAT_TRAINS, item_mtro_USA_NY_R1) {
 	}
 	graphics {
 		purchase: spriteset_mtro_USA_NY_R1_purchase;
+		can_attach_wagon: switch_can_attach_vehicle;
 		switch_mtro_USA_NY_R1_reversed;
 	}	
 	livery_override (item_mtro_wagon_unpowered){

@@ -47,6 +47,7 @@ item(FEAT_TRAINS, item_electric_Switzerland_SBB_Ae_6_6) {
 	}
 	graphics {
 		purchase: spriteset_electric_Switzerland_SBB_Ae_6_6_purchase;
+		can_attach_wagon: switch_can_attach_vehicle;
 		spriteset_electric_Switzerland_SBB_Ae_6_6;
 	}
 }

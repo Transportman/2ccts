@@ -49,6 +49,7 @@ item(FEAT_TRAINS, item_dmu_Australia_CityRail_Hunter_Railcar) {
 		purchase: spriteset_dmu_Australia_CityRail_Hunter_Railcar_purchase;
 		cargo_capacity: switch_dmu_Australia_CityRail_Hunter_Railcar_capacity;
 		visual_effect_and_powered: switch_dmu_Australia_CityRail_Hunter_Railcar_visual_effect_and_powered;
+		can_attach_wagon: switch_can_attach_vehicle;
 		switch_dmu_Australia_CityRail_Hunter_Railcar_reversed;
 	}	
 	livery_override (item_mu_wagon_unpowered){

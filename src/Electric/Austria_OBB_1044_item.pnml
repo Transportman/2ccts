@@ -47,6 +47,7 @@ item(FEAT_TRAINS, item_electric_Austria_OBB_1044) {
 	}
 	graphics {
 		purchase: spriteset_electric_Austria_OBB_1044_purchase;
+		can_attach_wagon: switch_can_attach_vehicle;
 		spriteset_electric_Austria_OBB_1044;
 	}
 }

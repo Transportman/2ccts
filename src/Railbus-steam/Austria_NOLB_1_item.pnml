@@ -48,6 +48,7 @@ item(FEAT_TRAINS, item_rbs_Austria_NOLB_1) {
 	graphics {
 		cargo_capacity: switch_rbs_Austria_NOLB_1_capacity;
 		purchase: spriteset_rbs_Austria_NOLB_1_purchase;
+		can_attach_wagon: switch_can_attach_vehicle;
 		spriteset_rbs_Austria_NOLB_1;
 	}	
 }

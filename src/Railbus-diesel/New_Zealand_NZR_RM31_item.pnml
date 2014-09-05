@@ -48,6 +48,7 @@ item(FEAT_TRAINS, item_rbd_New_Zealand_NZR_RM31) {
 	graphics {
 		cargo_capacity: switch_rbd_New_Zealand_NZR_RM31_capacity;
 		purchase: spriteset_rbd_New_Zealand_NZR_RM31_purchase;
+		can_attach_wagon: switch_can_attach_vehicle;
 		spriteset_rbd_New_Zealand_NZR_RM31;
 	}
 }

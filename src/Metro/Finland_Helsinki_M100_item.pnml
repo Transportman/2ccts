@@ -47,6 +47,7 @@ item(FEAT_TRAINS, item_mtro_Finland_Helsinki_M100) {
 	}
 	graphics {
 		purchase: spriteset_mtro_Finland_Helsinki_M100_purchase;
+		can_attach_wagon: switch_can_attach_vehicle;
 		switch_mtro_Finland_Helsinki_M100_reversed;
 	}	
 	livery_override (item_mtro_wagon_unpowered){

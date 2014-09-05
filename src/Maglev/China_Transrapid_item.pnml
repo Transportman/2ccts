@@ -48,6 +48,7 @@ item(FEAT_TRAINS, item_mglv_China_Transrapid) {
 	graphics {
 		cargo_capacity: switch_mglv_China_Transrapid_capacity;
 		purchase: spriteset_mglv_China_Transrapid_purchase;
+		can_attach_wagon: switch_can_attach_vehicle;
 		switch_mglv_China_Transrapid_reversed;
 	}	
 	livery_override (item_mglv_wagon_unpowered){

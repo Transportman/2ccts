@@ -47,6 +47,7 @@ item(FEAT_TRAINS, item_electric_India_Indian_Railways_WAP_4) {
 	}
 	graphics {
 		purchase: spriteset_electric_India_Indian_Railways_WAP_4_purchase;
+		can_attach_wagon: switch_can_attach_vehicle;
 		spriteset_electric_India_Indian_Railways_WAP_4;
 	}
 }

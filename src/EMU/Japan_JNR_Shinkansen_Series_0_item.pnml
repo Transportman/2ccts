@@ -48,6 +48,7 @@ item(FEAT_TRAINS, item_emu_Japan_JNR_Shinkansen_Series_0) {
 	graphics {
 		purchase: spriteset_emu_Japan_JNR_Shinkansen_Series_0_purchase;
 		cargo_capacity: switch_emu_Japan_JNR_Shinkansen_Series_0_capacity;
+		can_attach_wagon: switch_can_attach_vehicle;
 		switch_emu_Japan_JNR_Shinkansen_Series_0_reversed;
 	}	
 	livery_override (item_mu_wagon_unpowered){

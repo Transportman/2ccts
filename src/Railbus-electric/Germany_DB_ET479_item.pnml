@@ -48,6 +48,7 @@ item(FEAT_TRAINS, item_rbe_Germany_DB_ET479) {
 	graphics {
 		cargo_capacity: switch_rbe_Germany_DB_ET479_capacity;
 		purchase: spriteset_rbe_Germany_DB_ET479_purchase;
+		can_attach_wagon: switch_can_attach_vehicle;
 		spriteset_rbe_Germany_DB_ET479;
 	}	
 }

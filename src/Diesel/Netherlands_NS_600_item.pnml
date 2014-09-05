@@ -47,6 +47,7 @@ item(FEAT_TRAINS, item_diesel_Netherlands_NS_600) {
 	}
 	graphics {
 		purchase: spriteset_diesel_Netherlands_NS_600_purchase;
+		can_attach_wagon: switch_can_attach_vehicle;
 		spriteset_diesel_Netherlands_NS_600;
 	}
 }

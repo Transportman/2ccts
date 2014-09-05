@@ -47,6 +47,7 @@ item(FEAT_TRAINS, item_mtro_France_Paris_MP89) {
 	}
 	graphics {
 		purchase: spriteset_mtro_France_Paris_MP89_purchase;
+		can_attach_wagon: switch_can_attach_vehicle;
 		switch_mtro_France_Paris_MP89_reversed;
 	}	
 	livery_override (item_mtro_wagon_unpowered){

@@ -50,6 +50,7 @@ item(FEAT_TRAINS, item_steam_Switzerland_SBB_A_3_5) {
 		visual_effect_and_powered: switch_steam_Switzerland_SBB_A_3_5_visual_effect;
 		length: switch_steam_Switzerland_SBB_A_3_5_length;
 		articulated_part: switch_steam_Switzerland_SBB_A_3_5_articulated;
+		can_attach_wagon: switch_can_attach_vehicle;
 		switch_steam_Switzerland_SBB_A_3_5_position;
 	}
 }

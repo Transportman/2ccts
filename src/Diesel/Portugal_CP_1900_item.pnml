@@ -47,6 +47,7 @@ item(FEAT_TRAINS, item_diesel_Portugal_CP_1900) {
 	}
 	graphics {
 		purchase: spriteset_diesel_Portugal_CP_1900_purchase;
+		can_attach_wagon: switch_can_attach_vehicle;
 		spriteset_diesel_Portugal_CP_1900;
 	}
 }

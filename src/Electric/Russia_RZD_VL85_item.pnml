@@ -50,6 +50,7 @@ item(FEAT_TRAINS, item_electric_Russia_RZD_VL85) {
 		visual_effect_and_powered: switch_electric_Russia_RZD_VL85_visual_effect;
 		length: switch_electric_Russia_RZD_VL85_length;
 		articulated_part: switch_electric_Russia_RZD_VL85_articulated;
+		can_attach_wagon: switch_can_attach_vehicle;
 		switch_electric_Russia_RZD_VL85_position;
 	}
 }

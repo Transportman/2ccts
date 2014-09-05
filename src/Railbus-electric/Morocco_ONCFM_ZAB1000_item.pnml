@@ -48,6 +48,7 @@ item(FEAT_TRAINS, item_rbe_Morocco_ONCFM_ZAB1000) {
 	graphics {
 		cargo_capacity: switch_rbe_Morocco_ONCFM_ZAB1000_capacity;
 		purchase: spriteset_rbe_Morocco_ONCFM_ZAB1000_purchase;
+		can_attach_wagon: switch_can_attach_vehicle;
 		spriteset_rbe_Morocco_ONCFM_ZAB1000;
 	}	
 }

@@ -47,6 +47,7 @@ item(FEAT_TRAINS, item_electric_Russia_RZD_VL41) {
 	}
 	graphics {
 		purchase: spriteset_electric_Russia_RZD_VL41_purchase;
+		can_attach_wagon: switch_can_attach_vehicle;
 		spriteset_electric_Russia_RZD_VL41;
 	}
 }

@@ -48,6 +48,7 @@ item(FEAT_TRAINS, item_rbd_United_Kingdom_GWR_AEC_Railcar) {
 	graphics {
 		cargo_capacity: switch_rbd_United_Kingdom_GWR_AEC_Railcar_capacity;
 		purchase: spriteset_rbd_United_Kingdom_GWR_AEC_Railcar_purchase;
+		can_attach_wagon: switch_can_attach_vehicle;
 		spriteset_rbd_United_Kingdom_GWR_AEC_Railcar;
 	}
 }

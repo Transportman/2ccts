@@ -47,6 +47,7 @@ item(FEAT_TRAINS, item_mtro_Russia_Moscow_81_7175M) {
 	}
 	graphics {
 		purchase: spriteset_mtro_Russia_Moscow_81_7175M_purchase;
+		can_attach_wagon: switch_can_attach_vehicle;
 		switch_mtro_Russia_Moscow_81_7175M_reversed;
 	}	
 	livery_override (item_mtro_wagon_unpowered){

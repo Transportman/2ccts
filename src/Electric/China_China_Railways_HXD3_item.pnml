@@ -47,6 +47,7 @@ item(FEAT_TRAINS, item_electric_China_China_Railways_HXD3) {
 	}
 	graphics {
 		purchase: spriteset_electric_China_China_Railways_HXD3_purchase;
+		can_attach_wagon: switch_can_attach_vehicle;
 		spriteset_electric_China_China_Railways_HXD3;
 	}
 }

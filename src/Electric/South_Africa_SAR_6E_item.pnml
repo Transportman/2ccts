@@ -47,6 +47,7 @@ item(FEAT_TRAINS, item_electric_South_Africa_SAR_6E) {
 	}
 	graphics {
 		purchase: spriteset_electric_South_Africa_SAR_6E_purchase;
+		can_attach_wagon: switch_can_attach_vehicle;
 		spriteset_electric_South_Africa_SAR_6E;
 	}
 }

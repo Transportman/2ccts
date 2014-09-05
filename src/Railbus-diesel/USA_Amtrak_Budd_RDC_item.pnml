@@ -48,6 +48,7 @@ item(FEAT_TRAINS, item_rbd_USA_Amtrak_Budd_RDC) {
 	graphics {
 		cargo_capacity: switch_rbd_USA_Amtrak_Budd_RDC_capacity;
 		purchase: spriteset_rbd_USA_Amtrak_Budd_RDC_purchase;
+		can_attach_wagon: switch_can_attach_vehicle;
 		spriteset_rbd_USA_Amtrak_Budd_RDC;
 	}
 }

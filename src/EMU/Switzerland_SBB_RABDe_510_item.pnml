@@ -48,6 +48,7 @@ item(FEAT_TRAINS, item_emu_Switzerland_SBB_RABDe_510) {
 	graphics {
 		purchase: spriteset_emu_Switzerland_SBB_RABDe_510_purchase;
 		cargo_capacity: switch_emu_Switzerland_SBB_RABDe_510_capacity;
+		can_attach_wagon: switch_can_attach_vehicle;
 		switch_emu_Switzerland_SBB_RABDe_510_reversed;
 	}	
 	livery_override (item_mu_wagon_unpowered){

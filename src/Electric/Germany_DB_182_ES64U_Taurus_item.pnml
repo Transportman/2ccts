@@ -47,6 +47,7 @@ item(FEAT_TRAINS, item_electric_Germany_DB_182_ES64U_Taurus) {
 	}
 	graphics {
 		purchase: spriteset_electric_Germany_DB_182_ES64U_Taurus_purchase;
+		can_attach_wagon: switch_can_attach_vehicle;
 		spriteset_electric_Germany_DB_182_ES64U_Taurus;
 	}
 }

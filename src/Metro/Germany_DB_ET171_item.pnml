@@ -47,6 +47,7 @@ item(FEAT_TRAINS, item_mtro_Germany_DB_ET171) {
 	}
 	graphics {
 		purchase: spriteset_mtro_Germany_DB_ET171_purchase;
+		can_attach_wagon: switch_can_attach_vehicle;
 		switch_mtro_Germany_DB_ET171_reversed;
 	}	
 	livery_override (item_mtro_wagon_unpowered){

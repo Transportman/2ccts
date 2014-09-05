@@ -47,6 +47,7 @@ item(FEAT_TRAINS, item_electric_Switzerland_RhB_DE_2_2) {
 	}
 	graphics {
 		purchase: spriteset_electric_Switzerland_RhB_DE_2_2_purchase;
+		can_attach_wagon: switch_can_attach_vehicle;
 		spriteset_electric_Switzerland_RhB_DE_2_2;
 	}
 }

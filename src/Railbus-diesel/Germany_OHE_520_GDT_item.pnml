@@ -48,6 +48,7 @@ item(FEAT_TRAINS, item_rbd_Germany_OHE_520_GDT) {
 	graphics {
 		cargo_capacity: switch_rbd_Germany_OHE_520_GDT_capacity;
 		purchase: spriteset_rbd_Germany_OHE_520_GDT_purchase;
+		can_attach_wagon: switch_can_attach_vehicle;
 		spriteset_rbd_Germany_OHE_520_GDT;
 	}
 }

@@ -48,6 +48,7 @@ item(FEAT_TRAINS, item_rbe_Italy_FS_ALe_840) {
 	graphics {
 		cargo_capacity: switch_rbe_Italy_FS_ALe_840_capacity;
 		purchase: spriteset_rbe_Italy_FS_ALe_840_purchase;
+		can_attach_wagon: switch_can_attach_vehicle;
 		spriteset_rbe_Italy_FS_ALe_840;
 	}	
 }

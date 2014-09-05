@@ -50,6 +50,7 @@ item(FEAT_TRAINS, item_steam_USA_2_8_0_Consolidation) {
 		visual_effect_and_powered: switch_steam_USA_2_8_0_Consolidation_visual_effect;
 		length: switch_steam_USA_2_8_0_Consolidation_length;
 		articulated_part: switch_steam_USA_2_8_0_Consolidation_articulated;
+		can_attach_wagon: switch_can_attach_vehicle;
 		switch_steam_USA_2_8_0_Consolidation_position;
 	}
 }

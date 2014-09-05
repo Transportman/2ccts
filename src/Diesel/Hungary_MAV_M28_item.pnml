@@ -47,6 +47,7 @@ item(FEAT_TRAINS, item_diesel_Hungary_MAV_M28) {
 	}
 	graphics {
 		purchase: spriteset_diesel_Hungary_MAV_M28_purchase;
+		can_attach_wagon: switch_can_attach_vehicle;
 		spriteset_diesel_Hungary_MAV_M28;
 	}
 }

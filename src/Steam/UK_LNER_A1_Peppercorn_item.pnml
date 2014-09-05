@@ -50,6 +50,7 @@ item(FEAT_TRAINS, item_steam_UK_LNER_A1_Peppercorn) {
 		visual_effect_and_powered: switch_steam_UK_LNER_A1_Peppercorn_visual_effect;
 		length: switch_steam_UK_LNER_A1_Peppercorn_length;
 		articulated_part: switch_steam_UK_LNER_A1_Peppercorn_articulated;
+		can_attach_wagon: switch_can_attach_vehicle;
 		switch_steam_UK_LNER_A1_Peppercorn_position;
 	}
 }

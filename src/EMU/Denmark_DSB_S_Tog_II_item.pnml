@@ -48,6 +48,7 @@ item(FEAT_TRAINS, item_emu_Denmark_DSB_S_Tog_II) {
 	graphics {
 		purchase: spriteset_emu_Denmark_DSB_S_Tog_II_purchase;
 		cargo_capacity: switch_emu_Denmark_DSB_S_Tog_II_capacity;
+		can_attach_wagon: switch_can_attach_vehicle;
 		switch_emu_Denmark_DSB_S_Tog_II_reversed;
 	}	
 	livery_override (item_mu_wagon_unpowered){

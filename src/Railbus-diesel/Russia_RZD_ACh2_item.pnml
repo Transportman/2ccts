@@ -48,6 +48,7 @@ item(FEAT_TRAINS, item_rbd_Russia_RZD_ACh2) {
 	graphics {
 		cargo_capacity: switch_rbd_Russia_RZD_ACh2_capacity;
 		purchase: spriteset_rbd_Russia_RZD_ACh2_purchase;
+		can_attach_wagon: switch_can_attach_vehicle;
 		spriteset_rbd_Russia_RZD_ACh2;
 	}
 }

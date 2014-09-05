@@ -49,6 +49,7 @@ item(FEAT_TRAINS, item_emu_Italy_ATAC_ECD_21_30) {
 		purchase: spriteset_emu_Italy_ATAC_ECD_21_30_purchase;
 		cargo_capacity: switch_emu_Italy_ATAC_ECD_21_30_capacity;
 		visual_effect_and_powered: switch_emu_Italy_ATAC_ECD_21_30_visual_effect_and_powered;
+		can_attach_wagon: switch_can_attach_vehicle;
 		switch_emu_Italy_ATAC_ECD_21_30_reversed;
 	}	
 	livery_override (item_mu_wagon_unpowered){

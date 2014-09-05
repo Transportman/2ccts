@@ -48,6 +48,7 @@ item(FEAT_TRAINS, item_mglv_Japan_MLX01_901) {
 	graphics {
 		cargo_capacity: switch_mglv_Japan_MLX01_901_capacity;
 		purchase: spriteset_mglv_Japan_MLX01_901_purchase;
+		can_attach_wagon: switch_can_attach_vehicle;
 		switch_mglv_Japan_MLX01_901_reversed;
 	}
 	livery_override (item_mglv_wagon_unpowered){

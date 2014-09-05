@@ -50,6 +50,7 @@ item(FEAT_TRAINS, item_electric_USA_Pennsylvania_Railroad_GG_1) {
 		visual_effect_and_powered: switch_electric_USA_Pennsylvania_Railroad_GG_1_visual_effect;
 		length: switch_electric_USA_Pennsylvania_Railroad_GG_1_length;
 		articulated_part: switch_electric_USA_Pennsylvania_Railroad_GG_1_articulated;
+		can_attach_wagon: switch_can_attach_vehicle;
 		switch_electric_USA_Pennsylvania_Railroad_GG_1_position;
 	}
 }

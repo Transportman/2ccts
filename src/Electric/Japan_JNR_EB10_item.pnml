@@ -47,6 +47,7 @@ item(FEAT_TRAINS, item_electric_Japan_JNR_EB10) {
 	}
 	graphics {
 		purchase: spriteset_electric_Japan_JNR_EB10_purchase;
+		can_attach_wagon: switch_can_attach_vehicle;
 		spriteset_electric_Japan_JNR_EB10;
 	}
 }

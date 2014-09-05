@@ -48,6 +48,7 @@ item(FEAT_TRAINS, item_emu_Norway_NSB_BM73) {
 	graphics {
 		purchase: spriteset_emu_Norway_NSB_BM73_purchase;
 		cargo_capacity: switch_emu_Norway_NSB_BM73_capacity;
+		can_attach_wagon: switch_can_attach_vehicle;
 		switch_emu_Norway_NSB_BM73_reversed;
 	}	
 	livery_override (item_mu_wagon_unpowered){

@@ -47,6 +47,7 @@ item(FEAT_TRAINS, item_mtro_Japan_Osaka_30000) {
 	}
 	graphics {
 		purchase: spriteset_mtro_Japan_Osaka_30000_purchase;
+		can_attach_wagon: switch_can_attach_vehicle;
 		switch_mtro_Japan_Osaka_30000_reversed;
 	}	
 	livery_override (item_mtro_wagon_unpowered){

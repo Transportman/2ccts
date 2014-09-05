@@ -47,6 +47,7 @@ item(FEAT_TRAINS, item_electric_Belgium_NMBS_SNCB_13_HLE) {
 	}
 	graphics {
 		purchase: spriteset_electric_Belgium_NMBS_SNCB_13_HLE_purchase;
+		can_attach_wagon: switch_can_attach_vehicle;
 		spriteset_electric_Belgium_NMBS_SNCB_13_HLE;
 	}
 }

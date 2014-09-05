@@ -47,6 +47,7 @@ item(FEAT_TRAINS, item_steam_Italy_FS_880) {
 	}
 	graphics {
 		purchase: spriteset_steam_Italy_FS_880_purchase;
+		can_attach_wagon: switch_can_attach_vehicle;
 		switch_steam_Italy_FS_880_animation;
 	}
 }

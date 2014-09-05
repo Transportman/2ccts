@@ -47,6 +47,7 @@ item(FEAT_TRAINS, item_diesel_Liberia_Liberia_Railways_Class_08) {
 	}
 	graphics {
 		purchase: spriteset_diesel_Liberia_Liberia_Railways_Class_08_purchase;
+		can_attach_wagon: switch_can_attach_vehicle;
 		switch_diesel_Liberia_Liberia_Railways_Class_08_animation;
 	}
 }

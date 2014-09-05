@@ -48,6 +48,7 @@ item(FEAT_TRAINS, item_rbd_Netherlands_NS_DH1) {
 	graphics {
 		cargo_capacity: switch_rbd_Netherlands_NS_DH1_capacity;
 		purchase: spriteset_rbd_Netherlands_NS_DH1_purchase;
+		can_attach_wagon: switch_can_attach_vehicle;
 		spriteset_rbd_Netherlands_NS_DH1;
 	}
 }

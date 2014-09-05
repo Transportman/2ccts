@@ -49,6 +49,7 @@ item(FEAT_TRAINS, item_emu_Luxembourg_CFL_2200_Coradia_Duplex) {
 		purchase: spriteset_emu_Luxembourg_CFL_2200_Coradia_Duplex_purchase;
 		cargo_capacity: switch_emu_Luxembourg_CFL_2200_Coradia_Duplex_capacity;
 		visual_effect_and_powered: switch_emu_Luxembourg_CFL_2200_Coradia_Duplex_visual_effect_and_powered;
+		can_attach_wagon: switch_can_attach_vehicle;
 		switch_emu_Luxembourg_CFL_2200_Coradia_Duplex_reversed;
 	}	
 	livery_override (item_mu_wagon_unpowered){

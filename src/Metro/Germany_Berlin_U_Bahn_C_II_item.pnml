@@ -47,6 +47,7 @@ item(FEAT_TRAINS, item_mtro_Germany_Berlin_U_Bahn_C_II) {
 	}
 	graphics {
 		purchase: spriteset_mtro_Germany_Berlin_U_Bahn_C_II_purchase;
+		can_attach_wagon: switch_can_attach_vehicle;
 		spriteset_mtro_Germany_Berlin_U_Bahn_C_II;
 	}	
 }

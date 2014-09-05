@@ -48,6 +48,7 @@ item(FEAT_TRAINS, item_rbd_Germany_DB_650_Regio_Shuttle) {
 	graphics {
 		cargo_capacity: switch_rbd_Germany_DB_650_Regio_Shuttle_capacity;
 		purchase: spriteset_rbd_Germany_DB_650_Regio_Shuttle_purchase;
+		can_attach_wagon: switch_can_attach_vehicle;
 		spriteset_rbd_Germany_DB_650_Regio_Shuttle;
 	}
 }

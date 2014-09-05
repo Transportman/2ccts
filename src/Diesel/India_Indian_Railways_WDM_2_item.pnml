@@ -47,6 +47,7 @@ item(FEAT_TRAINS, item_diesel_India_Indian_Railways_WDM_2) {
 	}
 	graphics {
 		purchase: spriteset_diesel_India_Indian_Railways_WDM_2_purchase;
+		can_attach_wagon: switch_can_attach_vehicle;
 		spriteset_diesel_India_Indian_Railways_WDM_2;
 	}
 }

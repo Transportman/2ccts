@@ -47,6 +47,7 @@ item(FEAT_TRAINS, item_diesel_USA_CNJ_ALCo_GE_IR_Boxcab) {
 	}
 	graphics {
 		purchase: spriteset_diesel_USA_CNJ_ALCo_GE_IR_Boxcab_purchase;
+		can_attach_wagon: switch_can_attach_vehicle;
 		spriteset_diesel_USA_CNJ_ALCo_GE_IR_Boxcab;
 	}
 }

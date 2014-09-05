@@ -47,6 +47,7 @@ item(FEAT_TRAINS, item_diesel_Czech_Republic_CD_720_ChME2) {
 	}
 	graphics {
 		purchase: spriteset_diesel_Czech_Republic_CD_720_ChME2_purchase;
+		can_attach_wagon: switch_can_attach_vehicle;
 		spriteset_diesel_Czech_Republic_CD_720_ChME2;
 	}
 }

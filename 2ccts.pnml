@@ -22,6 +22,8 @@
 #include "src/railtypetable.pnml"
 //give unique IDs to vehicles
 #include "src/vehicleID.pnml"
+//Can attach vehcile
+#include "src/wagon_attach.pnml"
 
 /*
 * VEHICLES

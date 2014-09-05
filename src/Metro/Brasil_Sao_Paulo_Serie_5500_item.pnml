@@ -47,6 +47,7 @@ item(FEAT_TRAINS, item_mtro_Brasil_Sao_Paulo_Serie_5500) {
 	}
 	graphics {
 		purchase: spriteset_mtro_Brasil_Sao_Paulo_Serie_5500_purchase;
+		can_attach_wagon: switch_can_attach_vehicle;
 		switch_mtro_Brasil_Sao_Paulo_Serie_5500_reversed;
 	}	
 	livery_override (item_mtro_wagon_unpowered){

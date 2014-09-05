@@ -47,6 +47,7 @@ item(FEAT_TRAINS, item_mtro_Taiwan_Taipei_C301) {
 	}
 	graphics {
 		purchase: spriteset_mtro_Taiwan_Taipei_C301_purchase;
+		can_attach_wagon: switch_can_attach_vehicle;
 		switch_mtro_Taiwan_Taipei_C301_reversed;
 	}	
 	livery_override (item_mtro_wagon_unpowered){

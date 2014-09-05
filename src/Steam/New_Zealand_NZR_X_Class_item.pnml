@@ -50,6 +50,7 @@ item(FEAT_TRAINS, item_steam_New_Zealand_NZR_X_Class) {
 		visual_effect_and_powered: switch_steam_New_Zealand_NZR_X_Class_visual_effect;
 		length: switch_steam_New_Zealand_NZR_X_Class_length;
 		articulated_part: switch_steam_New_Zealand_NZR_X_Class_articulated;
+		can_attach_wagon: switch_can_attach_vehicle;
 		switch_steam_New_Zealand_NZR_X_Class_position;
 	}
 }

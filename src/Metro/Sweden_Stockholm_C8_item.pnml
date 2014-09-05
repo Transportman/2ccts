@@ -47,6 +47,7 @@ item(FEAT_TRAINS, item_mtro_Sweden_Stockholm_C8) {
 	}
 	graphics {
 		purchase: spriteset_mtro_Sweden_Stockholm_C8_purchase;
+		can_attach_wagon: switch_can_attach_vehicle;
 		switch_mtro_Sweden_Stockholm_C8_reversed;
 	}	
 	livery_override (item_mtro_wagon_unpowered){

@@ -47,6 +47,7 @@ item(FEAT_TRAINS, item_mtro_Japan_Tokyo_S01) {
 	}
 	graphics {
 		purchase: spriteset_mtro_Japan_Tokyo_S01_purchase;
+		can_attach_wagon: switch_can_attach_vehicle;
 		switch_mtro_Japan_Tokyo_S01_reversed;
 	}	
 	livery_override (item_mtro_wagon_unpowered){

@@ -47,6 +47,7 @@ item(FEAT_TRAINS, item_mtro_Germany_Munchen_MVG_A2) {
 	}
 	graphics {
 		purchase: spriteset_mtro_Germany_Munchen_MVG_A2_purchase;
+		can_attach_wagon: switch_can_attach_vehicle;
 		switch_mtro_Germany_Munchen_MVG_A2_reversed;
 	}	
 	livery_override (item_mtro_wagon_unpowered){

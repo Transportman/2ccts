@@ -50,6 +50,7 @@ item(FEAT_TRAINS, item_dmu_Canada_VIA_Rail_LRC) {
 		cargo_capacity: 0; //Heads have no capacity
 		purchase_cargo_capacity: 55;
 		visual_effect_and_powered: switch_dmu_Canada_VIA_Rail_LRC_visual_effect_and_powered;
+		can_attach_wagon: switch_can_attach_vehicle;
 		switch_dmu_Canada_VIA_Rail_LRC_reversed;
 	}	
 	livery_override (item_mu_wagon_unpowered){

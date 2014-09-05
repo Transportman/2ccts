@@ -49,6 +49,7 @@ item(FEAT_TRAINS, item_dmu_Germany_DB_VT08) {
 		purchase: spriteset_dmu_Germany_DB_VT08_purchase;
 		cargo_capacity: switch_dmu_Germany_DB_VT08_capacity;
 		visual_effect_and_powered: switch_dmu_Germany_DB_VT08_visual_effect_and_powered;
+		can_attach_wagon: switch_can_attach_vehicle;
 		switch_dmu_Germany_DB_VT08_reversed;
 	}	
 	livery_override (item_mu_wagon_unpowered){

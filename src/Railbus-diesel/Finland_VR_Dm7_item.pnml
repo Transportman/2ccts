@@ -48,6 +48,7 @@ item(FEAT_TRAINS, item_rbd_Finland_VR_Dm7) {
 	graphics {
 		cargo_capacity: switch_rbd_Finland_VR_Dm7_capacity;
 		purchase: spriteset_rbd_Finland_VR_Dm7_purchase;
+		can_attach_wagon: switch_can_attach_vehicle;
 		spriteset_rbd_Finland_VR_Dm7;
 	}
 }

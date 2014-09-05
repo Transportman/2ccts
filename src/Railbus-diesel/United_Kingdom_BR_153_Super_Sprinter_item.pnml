@@ -48,6 +48,7 @@ item(FEAT_TRAINS, item_rbd_United_Kingdom_BR_153_Super_Sprinter) {
 	graphics {
 		cargo_capacity: switch_rbd_United_Kingdom_BR_153_Super_Sprinter_capacity;
 		purchase: spriteset_rbd_United_Kingdom_BR_153_Super_Sprinter_purchase;
+		can_attach_wagon: switch_can_attach_vehicle;
 		spriteset_rbd_United_Kingdom_BR_153_Super_Sprinter;
 	}
 }

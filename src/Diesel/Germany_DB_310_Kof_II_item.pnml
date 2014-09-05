@@ -47,6 +47,7 @@ item(FEAT_TRAINS, item_diesel_Germany_DB_310_Kof_II) {
 	}
 	graphics {
 		purchase: spriteset_diesel_Germany_DB_310_Kof_II_purchase;
+		can_attach_wagon: switch_can_attach_vehicle;
 		spriteset_diesel_Germany_DB_310_Kof_II;
 	}
 }

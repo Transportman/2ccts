@@ -49,6 +49,7 @@ item(FEAT_TRAINS, item_emu_Czech_Republic_CD_680_Pendolino) {
 		purchase: spriteset_emu_Czech_Republic_CD_680_Pendolino_purchase;
 		cargo_capacity: switch_emu_Czech_Republic_CD_680_Pendolino_capacity;
 		visual_effect_and_powered: switch_emu_Czech_Republic_CD_680_Pendolino_visual_effect_and_powered;
+		can_attach_wagon: switch_can_attach_vehicle;
 		switch_emu_Czech_Republic_CD_680_Pendolino_reversed;
 	}	
 	livery_override (item_mu_wagon_unpowered){

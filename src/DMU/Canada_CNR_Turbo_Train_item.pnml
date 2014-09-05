@@ -50,6 +50,7 @@ item(FEAT_TRAINS, item_dmu_Canada_CNR_Turbo_Train) {
 		cargo_capacity: switch_dmu_Canada_CNR_Turbo_Train_Heads_capacity;
 		purchase_cargo_capacity: 50;
 		visual_effect_and_powered: switch_dmu_Canada_CNR_Turbo_Train_visual_effect_and_powered;
+		can_attach_wagon: switch_can_attach_vehicle;
 		switch_dmu_Canada_CNR_Turbo_Train_reversed;
 	}	
 	livery_override (item_mu_wagon_unpowered){

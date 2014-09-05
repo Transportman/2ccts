@@ -49,6 +49,7 @@ item(FEAT_TRAINS, item_emu_Netherlands_NS_Plan_Y) {
 		purchase: spriteset_emu_Netherlands_NS_Plan_Y_purchase;
 		cargo_capacity: switch_emu_Netherlands_NS_Plan_Y_capacity;
 		visual_effect_and_powered: switch_emu_Netherlands_NS_Plan_Y_visual_effect_and_powered;
+		can_attach_wagon: switch_can_attach_vehicle;
 		switch_emu_Netherlands_NS_Plan_Y_reversed;
 	}	
 	livery_override (item_mu_wagon_unpowered){

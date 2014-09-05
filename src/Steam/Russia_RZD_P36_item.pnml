@@ -50,6 +50,7 @@ item(FEAT_TRAINS, item_steam_Russia_RZD_P36) {
 		visual_effect_and_powered: switch_steam_Russia_RZD_P36_visual_effect;
 		length: switch_steam_Russia_RZD_P36_length;
 		articulated_part: switch_steam_Russia_RZD_P36_articulated;
+		can_attach_wagon: switch_can_attach_vehicle;
 		switch_steam_Russia_RZD_P36_position;
 	}
 }

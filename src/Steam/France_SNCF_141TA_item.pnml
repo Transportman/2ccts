@@ -47,6 +47,7 @@ item(FEAT_TRAINS, item_steam_France_SNCF_141TA) {
 	}
 	graphics {
 		purchase: spriteset_steam_France_SNCF_141TA_purchase;
+		can_attach_wagon: switch_can_attach_vehicle;
 		switch_steam_France_SNCF_141TA_animation;
 	}
 }

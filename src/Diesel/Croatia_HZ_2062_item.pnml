@@ -47,6 +47,7 @@ item(FEAT_TRAINS, item_diesel_Croatia_HZ_2062) {
 	}
 	graphics {
 		purchase: spriteset_diesel_Croatia_HZ_2062_purchase;
+		can_attach_wagon: switch_can_attach_vehicle;
 		spriteset_diesel_Croatia_HZ_2062;
 	}
 }

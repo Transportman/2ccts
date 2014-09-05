@@ -50,6 +50,7 @@ item(FEAT_TRAINS, item_electric_Italy_FS_E646) {
 		visual_effect_and_powered: switch_electric_Italy_FS_E646_visual_effect;
 		length: switch_electric_Italy_FS_E646_length;
 		articulated_part: switch_electric_Italy_FS_E646_articulated;
+		can_attach_wagon: switch_can_attach_vehicle;
 		switch_electric_Italy_FS_E646_position;
 	}
 }

@@ -50,6 +50,7 @@ item(FEAT_TRAINS, item_steam_France_SNCF_140C) {
 		visual_effect_and_powered: switch_steam_France_SNCF_140C_visual_effect;
 		length: switch_steam_France_SNCF_140C_length;
 		articulated_part: switch_steam_France_SNCF_140C_articulated;
+		can_attach_wagon: switch_can_attach_vehicle;
 		switch_steam_France_SNCF_140C_position;
 	}
 }

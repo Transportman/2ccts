@@ -48,6 +48,7 @@ item(FEAT_TRAINS, item_rbd_Lithuania_Lithuanian_Railways_AR2) {
 	graphics {
 		cargo_capacity: switch_rbd_Lithuania_Lithuanian_Railways_AR2_capacity;
 		purchase: spriteset_rbd_Lithuania_Lithuanian_Railways_AR2_purchase;
+		can_attach_wagon: switch_can_attach_vehicle;
 		spriteset_rbd_Lithuania_Lithuanian_Railways_AR2;
 	}
 }

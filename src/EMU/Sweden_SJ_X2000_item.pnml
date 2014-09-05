@@ -48,6 +48,7 @@ item(FEAT_TRAINS, item_emu_Sweden_SJ_X2000) {
 	graphics {
 		purchase: spriteset_emu_Sweden_SJ_X2000_purchase;
 		visual_effect_and_powered: switch_emu_Sweden_SJ_X2000_visual_effect_and_powered;
+		can_attach_wagon: switch_can_attach_vehicle;
 		switch_emu_Sweden_SJ_X2000_reversed;
 	}	
 	livery_override (item_mu_wagon_unpowered){

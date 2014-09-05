@@ -48,6 +48,7 @@ item(FEAT_TRAINS, item_emu_Germany_DB_ET420) {
 	graphics {
 		purchase: spriteset_emu_Germany_DB_ET420_purchase;
 		cargo_capacity: switch_emu_Germany_DB_ET420_capacity;
+		can_attach_wagon: switch_can_attach_vehicle;
 		switch_emu_Germany_DB_ET420_reversed;
 	}	
 	livery_override (item_mu_wagon_unpowered){

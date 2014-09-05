@@ -50,6 +50,7 @@ item(FEAT_TRAINS, item_electric_USA_Milwaukee_Road_EP_2_Bipolar) {
 		visual_effect_and_powered: switch_electric_USA_Milwaukee_Road_EP_2_Bipolar_visual_effect;
 		length: switch_electric_USA_Milwaukee_Road_EP_2_Bipolar_length;
 		articulated_part: switch_electric_USA_Milwaukee_Road_EP_2_Bipolar_articulated;
+		can_attach_wagon: switch_can_attach_vehicle;
 		switch_electric_USA_Milwaukee_Road_EP_2_Bipolar_position;
 	}
 }

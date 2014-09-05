@@ -49,6 +49,7 @@ item(FEAT_TRAINS, item_dmu_Sweden_SJ_Y2) {
 		purchase: spriteset_dmu_Sweden_SJ_Y2_purchase;
 		cargo_capacity: switch_dmu_Sweden_SJ_Y2_capacity;
 		visual_effect_and_powered: switch_dmu_Sweden_SJ_Y2_visual_effect_and_powered;
+		can_attach_wagon: switch_can_attach_vehicle;
 		switch_dmu_Sweden_SJ_Y2_reversed;
 	}	
 	livery_override (item_mu_wagon_unpowered){

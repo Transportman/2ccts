@@ -47,6 +47,7 @@ item(FEAT_TRAINS, item_steam_Switzerland_SBB_E_3_3) {
 	}
 	graphics {
 		purchase: spriteset_steam_Switzerland_SBB_E_3_3_purchase;
+		can_attach_wagon: switch_can_attach_vehicle;
 		switch_steam_Switzerland_SBB_E_3_3_animation;
 	}
 }

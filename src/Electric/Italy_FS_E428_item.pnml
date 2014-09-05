@@ -47,6 +47,7 @@ item(FEAT_TRAINS, item_electric_Italy_FS_E428) {
 	}
 	graphics {
 		purchase: spriteset_electric_Italy_FS_E428_purchase;
+		can_attach_wagon: switch_can_attach_vehicle;
 		spriteset_electric_Italy_FS_E428;
 	}
 }

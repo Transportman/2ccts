@@ -50,6 +50,7 @@ item(FEAT_TRAINS, item_steam_UK_LMS_5MT_Black_Five) {
 		visual_effect_and_powered: switch_steam_UK_LMS_5MT_Black_Five_visual_effect;
 		length: switch_steam_UK_LMS_5MT_Black_Five_length;
 		articulated_part: switch_steam_UK_LMS_5MT_Black_Five_articulated;
+		can_attach_wagon: switch_can_attach_vehicle;
 		switch_steam_UK_LMS_5MT_Black_Five_position;
 	}
 }

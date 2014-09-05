@@ -47,6 +47,7 @@ item(FEAT_TRAINS, item_diesel_UK_BR_14) {
 	}
 	graphics {
 		purchase: spriteset_diesel_UK_BR_14_purchase;
+		can_attach_wagon: switch_can_attach_vehicle;
 		switch_diesel_UK_BR_14_animation;
 	}
 }

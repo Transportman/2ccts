@@ -50,6 +50,7 @@ item(FEAT_TRAINS, item_dmu_Australia_NSWGR_Silver_City_Comet) {
 		cargo_capacity: 0; //Heads have no capacity
 		purchase_cargo_capacity: 45;
 		visual_effect_and_powered: switch_dmu_Australia_NSWGR_Silver_City_Comet_visual_effect_and_powered;
+		can_attach_wagon: switch_can_attach_vehicle;
 		switch_dmu_Australia_NSWGR_Silver_City_Comet_reversed;
 	}	
 	livery_override (item_mu_wagon_unpowered){

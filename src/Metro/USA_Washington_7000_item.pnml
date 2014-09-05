@@ -47,6 +47,7 @@ item(FEAT_TRAINS, item_mtro_USA_Washington_7000) {
 	}
 	graphics {
 		purchase: spriteset_mtro_USA_Washington_7000_purchase;
+		can_attach_wagon: switch_can_attach_vehicle;
 		switch_mtro_USA_Washington_7000_reversed;
 	}	
 	livery_override (item_mtro_wagon_unpowered){

@@ -47,6 +47,7 @@ item(FEAT_TRAINS, item_electric_Norway_NSB_EL10) {
 	}
 	graphics {
 		purchase: spriteset_electric_Norway_NSB_EL10_purchase;
+		can_attach_wagon: switch_can_attach_vehicle;
 		spriteset_electric_Norway_NSB_EL10;
 	}
 }

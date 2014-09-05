@@ -47,6 +47,7 @@ item(FEAT_TRAINS, item_diesel_Uruguay_AFE_1500) {
 	}
 	graphics {
 		purchase: spriteset_diesel_Uruguay_AFE_1500_purchase;
+		can_attach_wagon: switch_can_attach_vehicle;
 		spriteset_diesel_Uruguay_AFE_1500;
 	}
 }

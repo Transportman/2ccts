@@ -49,6 +49,7 @@ item(FEAT_TRAINS, item_emu_Austria_OBB_4041) {
 		purchase: spriteset_emu_Austria_OBB_4041_purchase;
 		cargo_capacity: switch_emu_Austria_OBB_4041_capacity;
 		visual_effect_and_powered: switch_emu_Austria_OBB_4041_visual_effect_and_powered;
+		can_attach_wagon: switch_can_attach_vehicle;
 		switch_emu_Austria_OBB_4041_reversed;
 	}	
 	livery_override (item_mu_wagon_unpowered){

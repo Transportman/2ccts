@@ -50,6 +50,7 @@ item(FEAT_TRAINS, item_steam_USA_4_6_0_Ten_wheeler) {
 		visual_effect_and_powered: switch_steam_USA_4_6_0_Ten_wheeler_visual_effect;
 		length: switch_steam_USA_4_6_0_Ten_wheeler_length;
 		articulated_part: switch_steam_USA_4_6_0_Ten_wheeler_articulated;
+		can_attach_wagon: switch_can_attach_vehicle;
 		switch_steam_USA_4_6_0_Ten_wheeler_position;
 	}
 }

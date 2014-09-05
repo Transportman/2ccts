@@ -50,6 +50,7 @@ item(FEAT_TRAINS, item_steam_South_Africa_SAR_25) {
 		visual_effect_and_powered: switch_steam_South_Africa_SAR_25_visual_effect;
 		length: switch_steam_South_Africa_SAR_25_length;
 		articulated_part: switch_steam_South_Africa_SAR_25_articulated;
+		can_attach_wagon: switch_can_attach_vehicle;
 		switch_steam_South_Africa_SAR_25_position;
 	}
 }

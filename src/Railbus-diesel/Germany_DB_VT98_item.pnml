@@ -48,6 +48,7 @@ item(FEAT_TRAINS, item_rbd_Germany_DB_VT98) {
 	graphics {
 		cargo_capacity: switch_rbd_Germany_DB_VT98_capacity;
 		purchase: spriteset_rbd_Germany_DB_VT98_purchase;
+		can_attach_wagon: switch_can_attach_vehicle;
 		spriteset_rbd_Germany_DB_VT98;
 	}
 }

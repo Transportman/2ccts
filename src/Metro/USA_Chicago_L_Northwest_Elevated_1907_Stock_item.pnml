@@ -47,6 +47,7 @@ item(FEAT_TRAINS, item_mtro_USA_Chicago_L_Northwest_Elevated_1907_Stock) {
 	}
 	graphics {
 		purchase: spriteset_mtro_USA_Chicago_L_Northwest_Elevated_1907_Stock_purchase;
+		can_attach_wagon: switch_can_attach_vehicle;
 		spriteset_mtro_USA_Chicago_L_Northwest_Elevated_1907_Stock;
 	}	
 }
