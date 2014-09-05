@@ -464,3 +464,6 @@ str_mglv_wagon_powered          :Maglev-eenheid Wa(Aangedrewe)
 
 #PURCHASE MENU TEXTS
 str_unit_wagon                          :Hierdie generiese wa kan SLEGS gebruik word met MU om treine van die verlangde lengte te skep
+
+
+#Can attach vehicle texts

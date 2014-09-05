@@ -72,7 +72,7 @@ str_steam_Austria_KkStB_299             :KkStB 299 (locomotiva a vapore)
 str_steam_New_Zealand_NZR_X_Class       :NZR X Class (locomotiva a vapore)
 str_steam_Croatia_HZ_51                         :HZ 51 (locomotiva a vapore)
 str_steam_Italy_FS_880                          :FS 880 (locomotiva a vapore)
-str_steam_Argentina_FCNEA_11B_2_8_0     :FCNEA 11B 0-2-8 (locomotiva a vapore)
+str_steam_Argentina_FCNEA_11B_2_8_0     :FCNEA 11B 2-8-0 (locomotiva a vapore)
 str_steam_France_SNCF_140C                      :SNCF 140C (locomotiva a vapore)
 str_steam_France_SNCF_141TA             :SNCF 141TA (locomotiva a vapore)
 str_steam_UK_GWR_4900                           :GWR 4900 (locomotiva a vapore)
@@ -464,6 +464,10 @@ str_mtro_wagon_powered          :Carozza metro (motorizzata)
 str_mglv_wagon_powered          :Carozza maglev (motorizzata)
 
 #obsolete vehicles
+str_steam_USA_4_4_0_American_obsolete1                                                          :4-4-0 'American' antiquata (locomotiva a vapore)
 
 #PURCHASE MENU TEXTS
 str_unit_wagon                          :Questa carozza generica si puo usare SOLTANTO per la creazione di unitá multiple (MU) di lunghezza desiderata
+
+
+#Can attach vehicle texts

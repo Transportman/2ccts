@@ -9,6 +9,7 @@ STR_GRF_URL             :https://dev.openttdcoop.org/projects/2ccts
 
 #parameter strings
 STR_PARAM_PURCHASE_COST             :Multiplicador del precio de compra
+STR_PARAM_PURCHASE_COST_DESC        :Puedes usar este ajuste para aumentar o disminuir el precio de compra de los vehículos de este set.
 STR_PARAM_RUNNING_COST              :Multiplicador del coste de funcionamiento
 STR_PARAM_RUNNING_COST_DESC         :Puedes usar este ajuste para aumentar o disminuir el coste de funcionamiento de los vehículos de este set.
 
@@ -208,6 +209,7 @@ str_electric_Kazakhstan_KTZ_KZ4A                                :KTZ KZ4A (Eléc
 str_electric_Switzerland_SBB_Eem_923                    :SBB Eem 923 (Eléctrico)
 str_electric_China_China_Railways_HXD3                  :China Railways HXD3 (Eléctrico)
 str_electric_France_SNCF_CC_40100                               :SNCF CC 40100 (Eléctrico)
+str_electric_India_Indian_Railways_WAP_4                :Indian Railways WAP-4 (Eléctrico)
 str_electric_Portugal_CP_2500                                   :CP 2500 (Eléctrico)
 
 #DMU
@@ -417,3 +419,6 @@ str_mglv_wagon_powered          :Vagón Maglev (Motorizado)
 #obsolete vehicles
 
 #PURCHASE MENU TEXTS
+
+
+#Can attach vehicle texts

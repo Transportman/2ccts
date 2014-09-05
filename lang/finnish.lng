@@ -465,3 +465,6 @@ str_mglv_wagon_powered          :Maglev-vaunu (moottoroitu)
 
 #PURCHASE MENU TEXTS
 str_unit_wagon                          :Voit käyttää tätä yleisvaunua VAIN pidentämään moottorivaunujunia haluamaasi pituuteen
+
+
+#Can attach vehicle texts
