@@ -283,13 +283,15 @@ item_emu_Italy_NTV_AGV, /*Year: 2011*/ \
 item_emu_Netherlands_NS_4800_HSA, /*Year: 2012*/ \
 item_emu_Italy_NTV_AGV_Duplex, /*Year: 2015*/
 
-#define SORTING_METRO \
+#define SORTING_SINGLE_METRO \
 item_mtro_USA_Brooklyn_Union_Gate_Car, /*Year: 1880*/ \
 item_mtro_Hungary_Budapest_1894_Stock, /*Year: 1894*/ \
-item_mtro_UK_London_1903_Stock, /*Year: 1903*/ \
 item_mtro_USA_Chicago_L_Northwest_Elevated_1907_Stock, /*Year: 1907*/ \
-item_mtro_Argentina_Le_Brugeoise, /*Year: 1911*/ \
 item_mtro_Germany_Berlin_U_Bahn_C_II, /*Year: 1929*/ \
+
+#define SORTING_METRO \
+item_mtro_UK_London_1903_Stock, /*Year: 1903*/ \
+item_mtro_Argentina_Le_Brugeoise, /*Year: 1911*/ \
 item_mtro_USA_NY_R1, /*Year: 1930*/ \
 item_mtro_UK_London_1938_Stock, /*Year: 1938*/ \
 item_mtro_Germany_DB_ET171, /*Year: 1942*/ \
@@ -457,6 +459,7 @@ sort(FEAT_TRAINS, [
 	SORTING_ELECTRIC
 	SORTING_DMU
 	SORTING_EMU
+	SORTING_SINGLE_METRO
 	SORTING_METRO
 	SORTING_MAGLEV
 	SORTING_SPECIAL

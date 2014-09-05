@@ -294,10 +294,10 @@ str_emu_Netherlands_NS_4800_HSA 			:NS 4800 HSA (EMU)
 str_emu_Italy_NTV_AGV_Duplex 				:NTV AGV Duplex (EMU)
 
 #Single Unit Metro
-str_mtro_USA_Brooklyn_Union_Gate_Car					:Brooklyn Union Gate Car (Metro)
-str_mtro_Hungary_Budapest_1894_Stock					:Budapest 1894 Stock (Metro)
-str_mtro_USA_Chicago_L_Northwest_Elevated_1907_Stock	:Chicago L Northwest Elevated 1907 Stock (Metro)
-str_mtro_Germany_Berlin_U_Bahn_C_II						:Berlin U-Bahn C II (Metro)
+str_mtro_USA_Brooklyn_Union_Gate_Car					:Brooklyn Union Gate Car (Single Unit Metro)
+str_mtro_Hungary_Budapest_1894_Stock					:Budapest 1894 Stock (Single Unit Metro)
+str_mtro_USA_Chicago_L_Northwest_Elevated_1907_Stock	:Chicago L Northwest Elevated 1907 Stock (Single Unit Metro)
+str_mtro_Germany_Berlin_U_Bahn_C_II						:Berlin U-Bahn C II (Single Unit Metro)
 
 #Multiple Unit Metro
 str_mtro_UK_London_1903_Stock					:London 1903 Stock (Metro)
@@ -461,7 +461,11 @@ str_mtro_wagon_powered		:Metro Unit Wagon (Powered)
 str_mglv_wagon_powered		:Maglev Unit Wagon (Powered)
 
 #obsolete vehicles
-str_steam_USA_4_4_0_American_obsolete1	:Obsolete 4-4-0 'American' (Steam)
+str_steam_USA_4_4_0_American_obsolete1								:Obsolete 4-4-0 'American' (Steam)
+str_mtro_USA_Brooklyn_Union_Gate_Car_obsolete1						:Obsolete Brooklyn Union Gate Car (Metro)
+str_mtro_Hungary_Budapest_1894_Stock_obsolete1						:Obsolete Budapest 1894 Stock (Metro)
+str_mtro_USA_Chicago_L_Northwest_Elevated_1907_Stock_obsolete1		:Obsolete Chicago L Northwest Elevated 1907 Stock (Metro)
+str_mtro_Germany_Berlin_U_Bahn_C_II_obsolete1						:Obsolete Berlin U-Bahn C II (Metro)
 
 #PURCHASE MENU TEXTS
 str_unit_wagon				:This generic wagon can ONLY be used with MUs to create trains of the desired length

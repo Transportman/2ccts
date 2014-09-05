@@ -281,12 +281,12 @@ item(FEAT_TRAINS, item_emu_Netherlands_NS_4800_HSA, 8043) {}
 item(FEAT_TRAINS, item_emu_Italy_NTV_AGV_Duplex, 8044) {}
 
 //Metro, available ID range: 9000-9999
-item(FEAT_TRAINS, item_mtro_USA_Brooklyn_Union_Gate_Car, 9000) {}
-item(FEAT_TRAINS, item_mtro_Hungary_Budapest_1894_Stock, 9001) {}
+item(FEAT_TRAINS, item_mtro_USA_Brooklyn_Union_Gate_Car_obsolete1, 9000) {} //Obsolete, replaced by ID 14000 in r330
+item(FEAT_TRAINS, item_mtro_Hungary_Budapest_1894_Stock_obsolete1, 9001) {} //Obsolete, replaced by ID 14001 in r330
 item(FEAT_TRAINS, item_mtro_UK_London_1903_Stock, 9002) {}
-item(FEAT_TRAINS, item_mtro_USA_Chicago_L_Northwest_Elevated_1907_Stock, 9003) {}
+item(FEAT_TRAINS, item_mtro_USA_Chicago_L_Northwest_Elevated_1907_Stock_obsolete1, 9003) {} //Obsolete, replaced by ID 14002 in r330
 item(FEAT_TRAINS, item_mtro_Argentina_Le_Brugeoise, 9004) {}
-item(FEAT_TRAINS, item_mtro_Germany_Berlin_U_Bahn_C_II, 9005) {}
+item(FEAT_TRAINS, item_mtro_Germany_Berlin_U_Bahn_C_II_obsolete1, 9005) {} //Obsolete, replaced by ID 14003 in r330
 item(FEAT_TRAINS, item_mtro_USA_NY_R1, 9006) {}
 item(FEAT_TRAINS, item_mtro_UK_London_1938_Stock, 9007) {}
 item(FEAT_TRAINS, item_mtro_Germany_DB_ET171, 9008) {}
@@ -446,7 +446,10 @@ item(FEAT_TRAINS, item_mglv_wagon_unpowered, 13004) {}
 item(FEAT_TRAINS, item_mglv_wagon_powered, 13005) {}
 
 //Single Unit Metros, available ID range: 14000-14999
-
+item(FEAT_TRAINS, item_mtro_USA_Brooklyn_Union_Gate_Car, 14000) {}
+item(FEAT_TRAINS, item_mtro_Hungary_Budapest_1894_Stock, 14001) {}
+item(FEAT_TRAINS, item_mtro_USA_Chicago_L_Northwest_Elevated_1907_Stock, 14002) {}
+item(FEAT_TRAINS, item_mtro_Germany_Berlin_U_Bahn_C_II, 14003) {}
 
 //SMU, available ID range: 15000-15999
 //Currently has no vehicles, range reserved

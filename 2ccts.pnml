@@ -881,6 +881,14 @@
 //Obsolete Vehicles
 #include "src/Obsolete/Steam/USA_4_4_0_American_obsolete1_graphics.pnml"
 #include "src/Obsolete/Steam/USA_4_4_0_American_obsolete1_item.pnml"
+#include "src/Obsolete/Metro/USA_Brooklyn_Union_Gate_Car_obsolete1_graphics.pnml"
+#include "src/Obsolete/Metro/USA_Brooklyn_Union_Gate_Car_obsolete1_item.pnml"
+#include "src/Obsolete/Metro/Hungary_Budapest_1894_Stock_obsolete1_graphics.pnml"
+#include "src/Obsolete/Metro/Hungary_Budapest_1894_Stock_obsolete1_item.pnml"
+#include "src/Obsolete/Metro/USA_Chicago_L_Northwest_Elevated_1907_Stock_obsolete1_graphics.pnml"
+#include "src/Obsolete/Metro/USA_Chicago_L_Northwest_Elevated_1907_Stock_obsolete1_item.pnml"
+#include "src/Obsolete/Metro/Germany_Berlin_U_Bahn_C_II_obsolete1_graphics.pnml"
+#include "src/Obsolete/Metro/Germany_Berlin_U_Bahn_C_II_obsolete1_item.pnml"
 
 //sort vehicles in purchase list
 #include "src/vehiclesort.pnml"
