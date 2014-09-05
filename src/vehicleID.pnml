@@ -44,7 +44,7 @@ item(FEAT_TRAINS, item_rbe_Italy_FS_ALe_840, 3004) {}
 item(FEAT_TRAINS, item_steam_Belgium_Le_Belge, 4000) {}
 item(FEAT_TRAINS, item_steam_USA_4_4_0_American_obsolete1, 4001) {} //Obsolete, replaced by ID 4036 in r328
 item(FEAT_TRAINS, item_steam_Switzerland_SBB_Ec_2_5, 4002) {}
-item(FEAT_TRAINS, item_steam_USA_4_6_0_Ten_wheeler, 4003) {}
+item(FEAT_TRAINS, item_steam_USA_4_6_0_Ten_wheeler_obsolete1, 4003) {} //Obsolete, replaced by ID 4037 in r334
 item(FEAT_TRAINS, item_steam_USA_2_8_0_Consolidation, 4004) {}
 item(FEAT_TRAINS, item_steam_Hungary_MAV_377, 4005) {}
 item(FEAT_TRAINS, item_steam_Austria_KkStB_99, 4006) {}
@@ -78,6 +78,7 @@ item(FEAT_TRAINS, item_steam_UK_LNER_A1_Peppercorn, 4033) {}
 item(FEAT_TRAINS, item_steam_South_Africa_SAR_25, 4034) {}
 item(FEAT_TRAINS, item_steam_Russia_RZD_P36, 4035) {}
 item(FEAT_TRAINS, item_steam_USA_4_4_0_American, 4036) {}
+item(FEAT_TRAINS, item_steam_USA_4_6_0_Ten_wheeler, 4037) {}
 
 //Diesel, available ID range: 5000-5999
 item(FEAT_TRAINS, item_diesel_Germany_DB_310_Kof_II, 5000) {}

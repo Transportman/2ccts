@@ -889,6 +889,8 @@
 #include "src/Obsolete/Metro/USA_Chicago_L_Northwest_Elevated_1907_Stock_obsolete1_item.pnml"
 #include "src/Obsolete/Metro/Germany_Berlin_U_Bahn_C_II_obsolete1_graphics.pnml"
 #include "src/Obsolete/Metro/Germany_Berlin_U_Bahn_C_II_obsolete1_item.pnml"
+#include "src/Obsolete/Steam/USA_4_6_0_Ten_wheeler_obsolete1_graphics.pnml"
+#include "src/Obsolete/Steam/USA_4_6_0_Ten_wheeler_obsolete1_item.pnml"
 
 //sort vehicles in purchase list
 #include "src/vehiclesort.pnml"

@@ -466,6 +466,7 @@ str_mtro_USA_Brooklyn_Union_Gate_Car_obsolete1						:Obsolete Brooklyn Union Gat
 str_mtro_Hungary_Budapest_1894_Stock_obsolete1						:Obsolete Budapest 1894 Stock (Metro)
 str_mtro_USA_Chicago_L_Northwest_Elevated_1907_Stock_obsolete1		:Obsolete Chicago L Northwest Elevated 1907 Stock (Metro)
 str_mtro_Germany_Berlin_U_Bahn_C_II_obsolete1						:Obsolete Berlin U-Bahn C II (Metro)
+str_steam_USA_4_6_0_Ten_wheeler_obsolete1						 	:Obsolete 4-6-0 'Ten-wheeler' (Steam)
 
 #PURCHASE MENU TEXTS
 str_unit_wagon				:This generic wagon can ONLY be used with MUs to create trains of the desired length

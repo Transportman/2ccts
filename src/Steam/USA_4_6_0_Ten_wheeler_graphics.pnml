@@ -53,7 +53,7 @@ switch(FEAT_TRAINS, SELF, switch_steam_USA_4_6_0_Ten_wheeler_visual_effect, posi
 }
 
 switch(FEAT_TRAINS, SELF, switch_steam_USA_4_6_0_Ten_wheeler_length, position_in_vehid_chain % 2) {
-	0: 6;
+	0: 7;
 	4;
 }
 
