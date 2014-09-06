@@ -297,10 +297,10 @@ str_emu_Netherlands_NS_4800_HSA                         :NS 4800 HSA (elektromot
 str_emu_Italy_NTV_AGV_Duplex                            :NTV AGV Duplex (elektromotorni vlak)
 
 #Single Unit Metro
-str_mtro_USA_Brooklyn_Union_Gate_Car                                    :Brooklyn Union Gate (metro)
-str_mtro_Hungary_Budapest_1894_Stock                                    :Budapest 1894 (metro)
-str_mtro_USA_Chicago_L_Northwest_Elevated_1907_Stock    :Chicago L Northwest Elevated 1907 (metro)
-str_mtro_Germany_Berlin_U_Bahn_C_II                                             :Berlin U-Bahn C II (metro)
+str_mtro_USA_Brooklyn_Union_Gate_Car                                    :Brooklyn Union Gate (jednostruki metro)
+str_mtro_Hungary_Budapest_1894_Stock                                    :Budapest 1894 (jednostruki metro)
+str_mtro_USA_Chicago_L_Northwest_Elevated_1907_Stock    :Chicago L Northwest Elevated 1907 (jednostruki metro)
+str_mtro_Germany_Berlin_U_Bahn_C_II                                             :Berlin U-Bahn C II (jednostruki metro)
 
 #Multiple Unit Metro
 str_mtro_UK_London_1903_Stock                                   :London 1903 (metro)
@@ -465,9 +465,18 @@ str_mglv_wagon_powered          :Vagon Magleva (sa pogonom)
 
 #obsolete vehicles
 str_steam_USA_4_4_0_American_obsolete1                                                          :Zastarjela 4-4-0 'American' (parna lokomotiva)
+str_mtro_USA_Brooklyn_Union_Gate_Car_obsolete1                                          :Brooklyn Union Gate zastarjeli (metro)
+str_mtro_Hungary_Budapest_1894_Stock_obsolete1                                          :Budapest 1894 zastarjeli (metro)
+str_mtro_USA_Chicago_L_Northwest_Elevated_1907_Stock_obsolete1          :Chicago L Northwest Elevated 1907 zastarjeli (metro)
+str_mtro_Germany_Berlin_U_Bahn_C_II_obsolete1                                           :Berlin U-Bahn C II zastarjeli (metro)
+str_steam_USA_4_6_0_Ten_wheeler_obsolete1                                                       :Zastarjela 4-6-0 'Ten-wheeler' (parna lokomotiva)
 
 #PURCHASE MENU TEXTS
 str_unit_wagon                          :Ovaj generički vagon se može koristiti SAMO sa višedjelnim jedinicama (MU) za stvaranje vlakova željene dužine
 
 
 #Can attach vehicle texts
+str_cannot_attach_wagon_to_MU                   :Obični vagon se ne može priključiti na lokomotivu višestruke jedinice
+str_cannot_attach_wagon_to_Unit_Wagon   :Obični vagon se ne može priključiti na vagon višestruke jedinice
+str_cannot_attach_Unit_wagon_to_engine  :Vagon višestruke jedinice se ne može priključiti na običnu lokomotivu
+str_cannot_attach_Unit_wagon_to_wagon   :Vagon višestruke jedinice se ne može priključiti na obični vagon
