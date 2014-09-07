@@ -84,6 +84,7 @@ str_steam_Denmark_DSB_E                         :DSB E (Vapor)
 str_steam_Germany_DB_52                         :DB 52 (Vapor)
 str_steam_UK_LNER_A1_Peppercorn         :LNER A1 'Peppercorn' (Vapor)
 str_steam_South_Africa_SAR_25           :SAR 25 (Vapor)
+str_steam_France_SNCF_150B                      :SNCF 150B (Vapor)
 str_steam_Italy_FS_895                          :FS 895 (Vapor)
 str_steam_Poland_PKP_Okz32                      :PKP Okz32 (Vapor)
 str_steam_Switzerland_SBB_C_5_6         :SBB C 5/6 (Vapor)
@@ -287,9 +288,9 @@ str_emu_Italy_NTV_AGV_Duplex                            :NTV AGV Duplex (EMU)
 
 #Single Unit Metro
 str_mtro_USA_Brooklyn_Union_Gate_Car                                    :Brooklyn Union Gate Car (Metro)
-str_mtro_Hungary_Budapest_1894_Stock                                    :Budapest 1894 Stock (Metro)
+str_mtro_Hungary_Budapest_1894_Stock                                    :Budapest 1894 Stock (Unidad de Metro individual)
 str_mtro_USA_Chicago_L_Northwest_Elevated_1907_Stock    :Chicago L Northwest Elevated 1907 Stock (Metro)
-str_mtro_Germany_Berlin_U_Bahn_C_II                                             :Berlin U-Bahn C II (Metro)
+str_mtro_Germany_Berlin_U_Bahn_C_II                                             :Berlin U-Bahn C II (Unidad de Metro individual)
 
 #Multiple Unit Metro
 str_mtro_UK_London_1903_Stock                                   :London 1903 Stock (Metro)
@@ -312,6 +313,7 @@ str_mtro_Brasil_Sao_Paulo_Serie_5500                    :Sao Paulo Serie 5500 (M
 str_mtro_Japan_Tokyo_S01                                                :Tokyo S01 (Metro)
 str_mtro_Egypt_Cairo_1987_Stock                                 :Cairo 1987 stock (Metro)
 str_mtro_UK_DLR_P86                                                     :DLR P86 (Metro)
+str_mtro_Russia_Moscow_81_7175M                                 :Moscow 81-717.5M (Metro)
 str_mtro_USA_Boston_01800                                               :Boston 01800 (Metro)
 str_mtro_USA_LA_A650                                                    :LA A650 (Metro)
 str_mtro_Taiwan_Taipei_C301                                     :Taipei C301 (Metro)

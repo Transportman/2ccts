@@ -69,7 +69,7 @@ str_steam_Austria_KkStB_299             :KkStB 299 (Stoom)
 str_steam_New_Zealand_NZR_X_Class       :NZR X Class (Stoom)
 str_steam_Croatia_HZ_51                         :HZ 51 (Stoom)
 str_steam_Italy_FS_880                          :FS 880 (Stoom)
-str_steam_Argentina_FCNEA_11B_2_8_0     :FCNEA 11B 0-2-8 (Stoom)
+str_steam_Argentina_FCNEA_11B_2_8_0     :FCNEA 11B 2-8-0 (Stoom)
 str_steam_France_SNCF_140C                      :SNCF 140C (Stoom)
 str_steam_France_SNCF_141TA             :SNCF 141TA (Stoom)
 str_steam_UK_GWR_4900                           :GWR 4900 (Stoom)
@@ -294,10 +294,10 @@ str_emu_Netherlands_NS_4800_HSA                         : NS 4800 HSA (EMU)
 str_emu_Italy_NTV_AGV_Duplex                            : NTV AGV Duplex (EMU)
 
 #Single Unit Metro
-str_mtro_USA_Brooklyn_Union_Gate_Car                                    :Brooklyn 'Union Gate' Kar (Metro)
-str_mtro_Hungary_Budapest_1894_Stock                                    :Budapest 1894 Trein (Metro)
-str_mtro_USA_Chicago_L_Northwest_Elevated_1907_Stock    :Chicago L Noordwest Verhoogde 1907 Trein (Metro)
-str_mtro_Germany_Berlin_U_Bahn_C_II                                             :Berlyn U-Bahn C II (Metro)
+str_mtro_USA_Brooklyn_Union_Gate_Car                                    :Brooklyn 'Union Gate' Kar (Enkel Eenheid Metro)
+str_mtro_Hungary_Budapest_1894_Stock                                    :Budapest 1894 Trein (Enkel Eenheid Metro)
+str_mtro_USA_Chicago_L_Northwest_Elevated_1907_Stock    :Chicago L Noordwest Verhoogde 1907 Trein (Enkel Eenheid Metro)
+str_mtro_Germany_Berlin_U_Bahn_C_II                                             :Berlyn U-Bahn C II (Enkel Eenheid Metro)
 
 #Multiple Unit Metro
 str_mtro_UK_London_1903_Stock                                   :London 1903 Trein (Metro)
@@ -461,9 +461,19 @@ str_mtro_wagon_powered          :Metro-eenheid Wa(Aangedrewe)
 str_mglv_wagon_powered          :Maglev-eenheid Wa(Aangedrewe)
 
 #obsolete vehicles
+str_steam_USA_4_4_0_American_obsolete1                                                          :Uitgediende 4-4-0 'American (Stoom)
+str_mtro_USA_Brooklyn_Union_Gate_Car_obsolete1                                          :Uitgediende Brooklyn 'Union Gate' Motor (Metro)
+str_mtro_Hungary_Budapest_1894_Stock_obsolete1                                          :Uitgediende Budapest 1894 Trein (Metro)
+str_mtro_USA_Chicago_L_Northwest_Elevated_1907_Stock_obsolete1          :Uitgediende Chicago L Northwest Elevated 1907 Stock (Metro)
+str_mtro_Germany_Berlin_U_Bahn_C_II_obsolete1                                           :Uitgediende Berlin U-Bahn C II (Metro)
+str_steam_USA_4_6_0_Ten_wheeler_obsolete1                                                       :Uitgediende 4-6-0 'Ten-wheeler' (Stoom)
 
 #PURCHASE MENU TEXTS
 str_unit_wagon                          :Hierdie generiese wa kan SLEGS gebruik word met MU om treine van die verlangde lengte te skep
 
 
 #Can attach vehicle texts
+str_cannot_attach_wagon_to_MU                   :Kan nie die wa aan 'n MU enjin heg nie
+str_cannot_attach_wagon_to_Unit_Wagon   :Kan nie 'n gewone wa aan 'n Unit Wa heg nie
+str_cannot_attach_Unit_wagon_to_engine  :Kan nie 'n Unit Wa aan 'n gewone enjin heg nie
+str_cannot_attach_Unit_wagon_to_wagon   :Kan nie 'n Unit Wa aan 'n gewone wa heg nie
