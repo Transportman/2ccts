@@ -10,21 +10,21 @@
 * ITEM
 */
 
-item(FEAT_TRAINS, item_electric_USA_Pennsylvania_Railroad_FF_1) {
+item(FEAT_TRAINS, item_diesel_USA_UP_EMD_DDA40X_obsolete1) {
     property {
-        name: string(str_electric_USA_Pennsylvania_Railroad_FF_1);
+        name: string(str_diesel_USA_UP_EMD_DDA40X_obsolete1);
         
-        introduction_date: date(1916,1,1);
+        introduction_date: date(1969,1,1);
         model_life: 25;
         vehicle_life: 40;
         loading_speed: 1;
-        cost_factor: 27;
-        running_cost_factor: 33;
-        speed: 40 km/h;
-        power: 4800 hp;
+        cost_factor: 39;
+        running_cost_factor: 123;
+        speed: 144 km/h;
+        power: 6600 hp;
         cargo_capacity: 0;
-        weight: 234 ton;
-        tractive_effort_coefficient: 0.17;
+        weight: 261 ton;
+        tractive_effort_coefficient: 0.19;
         air_drag_coefficient: 0;
         
         reliability_decay: 20;
@@ -35,22 +35,22 @@ item(FEAT_TRAINS, item_electric_USA_Pennsylvania_Railroad_FF_1) {
         track_type: RAIL;
 		ai_special_flag: AI_FLAG_PASSENGER;
         running_cost_base: RUNNING_COST_STEAM;
-        engine_class: ENGINE_CLASS_ELECTRIC;
-        visual_effect_and_powered: visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER); //Set from graphics file
+        engine_class: ENGINE_CLASS_DIESEL;
+        visual_effect_and_powered: visual_effect_and_powered(VISUAL_EFFECT_DIESEL, 0, DISABLE_WAGON_POWER); //Set from graphics file
         
-        climates_available: ALL_CLIMATES;
+        climates_available: NO_CLIMATE;
         sprite_id: SPRITE_ID_NEW_TRAIN;
         dual_headed: 0;
-        length: 8;
+        length: 6;
         extra_power_per_wagon: 0;
         bitmask_vehicle_info: 0;
 	}
 	graphics {
-		purchase: spriteset_electric_USA_Pennsylvania_Railroad_FF_1_purchase;
-		visual_effect_and_powered: switch_electric_USA_Pennsylvania_Railroad_FF_1_visual_effect;
-		length: switch_electric_USA_Pennsylvania_Railroad_FF_1_length;
-		articulated_part: switch_electric_USA_Pennsylvania_Railroad_FF_1_articulated;
+		purchase: spriteset_diesel_USA_UP_EMD_DDA40X_obsolete1_purchase;
+		visual_effect_and_powered: switch_diesel_USA_UP_EMD_DDA40X_obsolete1_visual_effect;
+		length: switch_diesel_USA_UP_EMD_DDA40X_obsolete1_length;
+		articulated_part: switch_diesel_USA_UP_EMD_DDA40X_obsolete1_articulated;
 		can_attach_wagon: switch_can_attach_vehicle;
-		switch_electric_USA_Pennsylvania_Railroad_FF_1_position;
+		switch_diesel_USA_UP_EMD_DDA40X_obsolete1_position;
 	}
 }

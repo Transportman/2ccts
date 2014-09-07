@@ -16,37 +16,36 @@ spriteset(spriteset_diesel_USA_UP_EMD_DDA40X_purchase, "gfx/Diesel/USA_UP_EMD_DD
 
 /*
 * VEHICLE
+* This vehicle uses the template for length 10.
+* The vehicle is built with 3 pieces of length 3+4+3
+* The middle part gets the graphics, the other parts are left blank
 */
 
 //Engine
 spriteset(spriteset_diesel_USA_UP_EMD_DDA40X_engine, "gfx/Diesel/USA_UP_EMD_DDA40X.png") {
-	template_2cc_engines_general(1, 1)
-}
-//Tender
-spriteset(spriteset_diesel_USA_UP_EMD_DDA40X_tender, "gfx/Diesel/USA_UP_EMD_DDA40X.png") {
-	template_2cc_engines_general(1, 32)
+	template_2cc_L10(1, 1)
 }
 
-switch(FEAT_TRAINS, SELF, switch_diesel_USA_UP_EMD_DDA40X_position, position_in_vehid_chain % 2) {
-	0: spriteset_diesel_USA_UP_EMD_DDA40X_engine;
-	spriteset_diesel_USA_UP_EMD_DDA40X_tender;
+switch(FEAT_TRAINS, SELF, switch_diesel_USA_UP_EMD_DDA40X_position, position_in_vehid_chain % 3) {
+	1: spriteset_diesel_USA_UP_EMD_DDA40X_engine;
+	EMPTY_SPRITESET
 }
 
 /*
 * Visual effect
 */
 
-switch(FEAT_TRAINS, SELF, switch_diesel_USA_UP_EMD_DDA40X_visual_effect, position_in_vehid_chain % 2) {
-	0: return visual_effect_and_powered(VISUAL_EFFECT_DIESEL, -3, DISABLE_WAGON_POWER);
+switch(FEAT_TRAINS, SELF, switch_diesel_USA_UP_EMD_DDA40X_visual_effect, position_in_vehid_chain % 3) {
+	1: return visual_effect_and_powered(VISUAL_EFFECT_DIESEL, -3, DISABLE_WAGON_POWER);
 	return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
 }
 
-switch(FEAT_TRAINS, SELF, switch_diesel_USA_UP_EMD_DDA40X_length, position_in_vehid_chain % 2) {
-	0: 6;
-	6;
+switch(FEAT_TRAINS, SELF, switch_diesel_USA_UP_EMD_DDA40X_length, position_in_vehid_chain % 3) {
+	1: 4;
+	3;
 }
 
 switch(FEAT_TRAINS, SELF, switch_diesel_USA_UP_EMD_DDA40X_articulated, extra_callback_info1) {
-	1: return item_diesel_USA_UP_EMD_DDA40X;
+	1..2: return item_diesel_USA_UP_EMD_DDA40X;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
 }

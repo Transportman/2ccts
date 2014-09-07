@@ -41,7 +41,7 @@ item(FEAT_TRAINS, item_electric_USA_Milwaukee_Road_EP_2_Bipolar) {
         climates_available: ALL_CLIMATES;
         sprite_id: SPRITE_ID_NEW_TRAIN;
         dual_headed: 0;
-        length: 5;
+        length: 8;
         extra_power_per_wagon: 0;
         bitmask_vehicle_info: 0;
 	}

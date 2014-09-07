@@ -467,6 +467,10 @@ str_mtro_Hungary_Budapest_1894_Stock_obsolete1						:Obsolete Budapest 1894 Stoc
 str_mtro_USA_Chicago_L_Northwest_Elevated_1907_Stock_obsolete1		:Obsolete Chicago L Northwest Elevated 1907 Stock (Metro)
 str_mtro_Germany_Berlin_U_Bahn_C_II_obsolete1						:Obsolete Berlin U-Bahn C II (Metro)
 str_steam_USA_4_6_0_Ten_wheeler_obsolete1						 	:Obsolete 4-6-0 'Ten-wheeler' (Steam)
+str_diesel_USA_UP_EMD_DDA40X_obsolete1								:Obsolete UP EMD DDA40X (Diesel)
+str_electric_USA_Pennsylvania_Railroad_FF_1_obsolete1				:Obsolete Pennsylvania Railroad FF-1 (Electric)
+str_electric_USA_Milwaukee_Road_EP_2_Bipolar_obsolete1			 	:Obsolete Milwaukee Road EP-2 Bipolar (Electric)
+str_electric_USA_Pennsylvania_Railroad_GG_1_obsolete1				:Obsolete Pennsylvania Railroad FF-1 (Electric)
 
 #PURCHASE MENU TEXTS
 str_unit_wagon				:This generic wagon can ONLY be used with MUs to create trains of the desired length
