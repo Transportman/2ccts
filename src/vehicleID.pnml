@@ -75,7 +75,7 @@ item(FEAT_TRAINS, item_steam_Russia_RZD_9P, 4026) {}
 item(FEAT_TRAINS, item_steam_Poland_PKP_Okz32, 4027) {}
 item(FEAT_TRAINS, item_steam_UK_LNER_A4_Gresley, 4028) {}
 item(FEAT_TRAINS, item_steam_Canada_CPR_Royal_Hudson, 4029) {}
-item(FEAT_TRAINS, item_steam_Denmark_DSB_E, 4030) {}
+item(FEAT_TRAINS, item_steam_Denmark_DSB_E_obsolete1, 4030) {} //Obsolete, replaced by ID 4038 in r349
 item(FEAT_TRAINS, item_steam_Germany_DB_52, 4031) {}
 item(FEAT_TRAINS, item_steam_USA_UP_4000_Big_Boy, 4032) {}
 item(FEAT_TRAINS, item_steam_UK_LNER_A1_Peppercorn, 4033) {}
@@ -83,6 +83,7 @@ item(FEAT_TRAINS, item_steam_South_Africa_SAR_25, 4034) {}
 item(FEAT_TRAINS, item_steam_Russia_RZD_P36, 4035) {}
 item(FEAT_TRAINS, item_steam_USA_4_4_0_American, 4036) {}
 item(FEAT_TRAINS, item_steam_USA_4_6_0_Ten_wheeler, 4037) {}
+item(FEAT_TRAINS, item_steam_Denmark_DSB_E, 4038) {}
 
 //Diesel, available ID range: 5000-5999 (hex 0x1388..0x176F)
 #define ID_RANGE_DIESEL 0x1388..0x176F
