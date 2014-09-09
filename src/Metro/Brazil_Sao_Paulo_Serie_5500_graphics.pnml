@@ -10,7 +10,7 @@
 * PURCHASE
 */
 
-spriteset(spriteset_mtro_Brasil_Sao_Paulo_Serie_5500_purchase, "gfx/Metro/Brasil_Sao_Paulo_Serie_5500.png") {
+spriteset(spriteset_mtro_Brazil_Sao_Paulo_Serie_5500_purchase, "gfx/Metro/Brazil_Sao_Paulo_Serie_5500.png") {
 	template_purchase_dualheaded(1, 96)
 }
 
@@ -19,23 +19,23 @@ spriteset(spriteset_mtro_Brasil_Sao_Paulo_Serie_5500_purchase, "gfx/Metro/Brasil
 */
 
 //Front
-spriteset(spriteset_mtro_Brasil_Sao_Paulo_Serie_5500_front, "gfx/Metro/Brasil_Sao_Paulo_Serie_5500.png") {
+spriteset(spriteset_mtro_Brazil_Sao_Paulo_Serie_5500_front, "gfx/Metro/Brazil_Sao_Paulo_Serie_5500.png") {
 	template_2cc_engines_general(1, 1)
 }
 
 //Back
-spriteset(spriteset_mtro_Brasil_Sao_Paulo_Serie_5500_back, "gfx/Metro/Brasil_Sao_Paulo_Serie_5500.png") {
+spriteset(spriteset_mtro_Brazil_Sao_Paulo_Serie_5500_back, "gfx/Metro/Brazil_Sao_Paulo_Serie_5500.png") {
 	template_2cc_engines_general(1, 32)
 }
 
 //Middle
-spriteset(spriteset_mtro_Brasil_Sao_Paulo_Serie_5500_middle, "gfx/Metro/Brasil_Sao_Paulo_Serie_5500.png") {
+spriteset(spriteset_mtro_Brazil_Sao_Paulo_Serie_5500_middle, "gfx/Metro/Brazil_Sao_Paulo_Serie_5500.png") {
 	template_2cc_engines_general(1, 64)
 }
 
 //Dualheaded engines
-switch(FEAT_TRAINS, SELF, switch_mtro_Brasil_Sao_Paulo_Serie_5500_reversed, var[0xC8]) {
-	0xFE: spriteset_mtro_Brasil_Sao_Paulo_Serie_5500_back;
-    0xFF: spriteset_mtro_Brasil_Sao_Paulo_Serie_5500_back; 
-    spriteset_mtro_Brasil_Sao_Paulo_Serie_5500_front;
+switch(FEAT_TRAINS, SELF, switch_mtro_Brazil_Sao_Paulo_Serie_5500_reversed, var[0xC8]) {
+	0xFE: spriteset_mtro_Brazil_Sao_Paulo_Serie_5500_back;
+    0xFF: spriteset_mtro_Brazil_Sao_Paulo_Serie_5500_back; 
+    spriteset_mtro_Brazil_Sao_Paulo_Serie_5500_front;
 }

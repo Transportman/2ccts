@@ -95,7 +95,7 @@ item(FEAT_TRAINS, item_diesel_Australia_NSWGR_79, 5005) {}
 item(FEAT_TRAINS, item_diesel_USA_Western_Pacific_ALCO_S_2, 5006) {}
 item(FEAT_TRAINS, item_diesel_USA_GNR_EMD_F3, 5007) {}
 item(FEAT_TRAINS, item_diesel_USA_UP_EMD_E8, 5008) {}
-item(FEAT_TRAINS, item_diesel_Brasil_EFCB_ALCO_RS_3, 5009) {}
+item(FEAT_TRAINS, item_diesel_Brazil_EFCB_ALCO_RS_3, 5009) {}
 item(FEAT_TRAINS, item_diesel_Netherlands_NS_600, 5010) {}
 item(FEAT_TRAINS, item_diesel_USA_Pennsylvania_Railroad_RF_16_Sharknose, 5011) {}
 item(FEAT_TRAINS, item_diesel_Uruguay_AFE_1500, 5012) {}
@@ -112,8 +112,8 @@ item(FEAT_TRAINS, item_diesel_USA_Amtrak_FL9, 5022) {}
 item(FEAT_TRAINS, item_diesel_Czech_Republic_CD_720_ChME2, 5023) {}
 item(FEAT_TRAINS, item_diesel_Finland_VR_Dr12, 5024) {}
 item(FEAT_TRAINS, item_diesel_Romania_CFR_060_DA, 5025) {}
-item(FEAT_TRAINS, item_diesel_Brasil_BF_EMD_GL8, 5026) {}
-item(FEAT_TRAINS, item_diesel_Brasil_EFVM_ML4000, 5027) {}
+item(FEAT_TRAINS, item_diesel_Brazil_BF_EMD_GL8, 5026) {}
+item(FEAT_TRAINS, item_diesel_Brazil_EFVM_ML4000, 5027) {}
 item(FEAT_TRAINS, item_diesel_Russia_RZD_TEP60, 5028) {}
 item(FEAT_TRAINS, item_diesel_Belgium_NMBS_SNCB_67, 5029) {}
 item(FEAT_TRAINS, item_diesel_Denmark_DSB_MaK_100, 5030) {}
@@ -315,7 +315,7 @@ item(FEAT_TRAINS, item_mtro_Netherlands_Amsterdam_Type_M1, 9016) {}
 item(FEAT_TRAINS, item_mtro_Sweden_Stockholm_C8, 9017) {}
 item(FEAT_TRAINS, item_mtro_North_Korea_Pyongyang_D_stock, 9018) {}
 item(FEAT_TRAINS, item_mtro_Finland_Helsinki_M100, 9019) {}
-item(FEAT_TRAINS, item_mtro_Brasil_Sao_Paulo_Serie_5500, 9020) {}
+item(FEAT_TRAINS, item_mtro_Brazil_Sao_Paulo_Serie_5500, 9020) {}
 item(FEAT_TRAINS, item_mtro_Russia_Moscow_81_720, 9021) {}
 item(FEAT_TRAINS, item_mtro_Japan_Tokyo_S01, 9022) {}
 item(FEAT_TRAINS, item_mtro_Egypt_Cairo_1987_Stock, 9023) {}

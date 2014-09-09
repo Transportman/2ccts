@@ -92,7 +92,7 @@ item_diesel_Australia_NSWGR_79, /*Year: 1940*/ \
 item_diesel_USA_Western_Pacific_ALCO_S_2, /*Year: 1940*/ \
 item_diesel_USA_GNR_EMD_F3, /*Year: 1946*/ \
 item_diesel_USA_UP_EMD_E8, /*Year: 1949*/ \
-item_diesel_Brasil_EFCB_ALCO_RS_3, /*Year: 1950*/ \
+item_diesel_Brazil_EFCB_ALCO_RS_3, /*Year: 1950*/ \
 item_diesel_Netherlands_NS_600, /*Year: 1950*/ \
 item_diesel_USA_Pennsylvania_Railroad_RF_16_Sharknose, /*Year: 1950*/ \
 item_diesel_Uruguay_AFE_1500, /*Year: 1952*/ \
@@ -109,8 +109,8 @@ item_diesel_USA_Amtrak_FL9, /*Year: 1956*/ \
 item_diesel_Czech_Republic_CD_720_ChME2, /*Year: 1958*/ \
 item_diesel_Finland_VR_Dr12, /*Year: 1959*/ \
 item_diesel_Romania_CFR_060_DA, /*Year: 1959*/ \
-item_diesel_Brasil_BF_EMD_GL8, /*Year: 1960*/ \
-item_diesel_Brasil_EFVM_ML4000, /*Year: 1960*/ \
+item_diesel_Brazil_BF_EMD_GL8, /*Year: 1960*/ \
+item_diesel_Brazil_EFVM_ML4000, /*Year: 1960*/ \
 item_diesel_Russia_RZD_TEP60, /*Year: 1960*/ \
 item_diesel_Belgium_NMBS_SNCB_67, /*Year: 1961*/ \
 item_diesel_Denmark_DSB_MaK_100, /*Year: 1962*/ \
@@ -306,7 +306,7 @@ item_mtro_Netherlands_Amsterdam_Type_M1, /*Year: 1973*/ \
 item_mtro_Sweden_Stockholm_C8, /*Year: 1974*/ \
 item_mtro_North_Korea_Pyongyang_D_stock, /*Year: 1975*/ \
 item_mtro_Finland_Helsinki_M100, /*Year: 1977*/ \
-item_mtro_Brasil_Sao_Paulo_Serie_5500, /*Year: 1979*/ \
+item_mtro_Brazil_Sao_Paulo_Serie_5500, /*Year: 1979*/ \
 item_mtro_Russia_Moscow_81_720, /*Year: 1981*/ \
 item_mtro_Japan_Tokyo_S01, /*Year: 1985*/ \
 item_mtro_Egypt_Cairo_1987_Stock, /*Year: 1987*/ \

@@ -10,21 +10,21 @@
 * ITEM
 */
 
-item(FEAT_TRAINS, item_diesel_Brasil_EFCB_ALCO_RS_3) {
+item(FEAT_TRAINS, item_diesel_Brazil_BF_EMD_GL8) {
     property {
-        name: string(str_diesel_Brasil_EFCB_ALCO_RS_3);
+        name: string(str_diesel_Brazil_BF_EMD_GL8);
         
-        introduction_date: date(1950,1,1);
+        introduction_date: date(1960,1,1);
         model_life: 25;
         vehicle_life: 40;
         loading_speed: 1;
-        cost_factor: 4;
-        running_cost_factor: 53;
-        speed: 104 km/h;
-        power: 1600 hp;
+        cost_factor: 3;
+        running_cost_factor: 63;
+        speed: 124 km/h;
+        power: 875 hp;
         cargo_capacity: 0;
-        weight: 103 ton;
-        tractive_effort_coefficient: 0.1;
+        weight: 64 ton;
+        tractive_effort_coefficient: 0.13;
         air_drag_coefficient: 0;
         
         reliability_decay: 20;
@@ -41,13 +41,13 @@ item(FEAT_TRAINS, item_diesel_Brasil_EFCB_ALCO_RS_3) {
         climates_available: ALL_CLIMATES;
         sprite_id: SPRITE_ID_NEW_TRAIN;
         dual_headed: 0;
-        length: 7;
+        length: 5;
         extra_power_per_wagon: 0;
         bitmask_vehicle_info: 0;
 	}
 	graphics {
-		purchase: spriteset_diesel_Brasil_EFCB_ALCO_RS_3_purchase;
+		purchase: spriteset_diesel_Brazil_BF_EMD_GL8_purchase;
 		can_attach_wagon: switch_can_attach_vehicle;
-		spriteset_diesel_Brasil_EFCB_ALCO_RS_3;
+		spriteset_diesel_Brazil_BF_EMD_GL8;
 	}
 }

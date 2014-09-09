@@ -10,7 +10,7 @@
 * PURCHASE
 */
 
-spriteset(spriteset_diesel_Brasil_EFVM_ML4000_purchase, "gfx/Diesel/Brasil_EFVM_ML4000.png") {
+spriteset(spriteset_diesel_Brazil_EFVM_ML4000_purchase, "gfx/Diesel/Brazil_EFVM_ML4000.png") {
 	template_purchase(1, 64)
 }
 
@@ -19,6 +19,6 @@ spriteset(spriteset_diesel_Brasil_EFVM_ML4000_purchase, "gfx/Diesel/Brasil_EFVM_
 */
 
 //Engine
-spriteset(spriteset_diesel_Brasil_EFVM_ML4000, "gfx/Diesel/Brasil_EFVM_ML4000.png") {
+spriteset(spriteset_diesel_Brazil_EFVM_ML4000, "gfx/Diesel/Brazil_EFVM_ML4000.png") {
 	template_2cc_engines_general(1, 1)
 }

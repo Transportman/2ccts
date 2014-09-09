@@ -10,7 +10,7 @@
 * PURCHASE
 */
 
-spriteset(spriteset_diesel_Brasil_BF_EMD_GL8_purchase, "gfx/Diesel/Brasil_BF_EMD_GL8.png") {
+spriteset(spriteset_diesel_Brazil_BF_EMD_GL8_purchase, "gfx/Diesel/Brazil_BF_EMD_GL8.png") {
 	template_purchase(1, 64)
 }
 
@@ -19,6 +19,6 @@ spriteset(spriteset_diesel_Brasil_BF_EMD_GL8_purchase, "gfx/Diesel/Brasil_BF_EMD
 */
 
 //Engine
-spriteset(spriteset_diesel_Brasil_BF_EMD_GL8, "gfx/Diesel/Brasil_BF_EMD_GL8.png") {
+spriteset(spriteset_diesel_Brazil_BF_EMD_GL8, "gfx/Diesel/Brazil_BF_EMD_GL8.png") {
 	template_2cc_engines_general(1, 1)
 }
