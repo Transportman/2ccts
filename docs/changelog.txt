@@ -1,6 +1,24 @@
 2cc TrainsInNML changelog
 =========================
+1.0-beta4 (09/09/2014)
+----------------------
+- Codechange: ID ranges are now #defined in one file
+- Feature #7054: Vehicles redrawn as 10/8 (Graphics by Voyager One and Emperor Jake)
+- Feature/Fix #7057: Prohibit coupling of Unit Wagons to engines and regular wagons to MUs
+- Fix #7058: MUWAG graphics when depending on location in consist no longer consider other MUWAGS as different vehicle
+- Fix #7082: 4-4-0 Engine length
+- Fix #7084: mDDM alignment
+- Fix #7085: CP 2500 flashing pixels in flag
+- Fix #7086: 4-6-0 Ten wheeler length
+- Fix #7104: Transrapid alignment (Thanks to Digitalfox for fix)
+- Fix r300: ETR300 Settebello capacity was different in item and graphics file
+- Fix r316: Modified sprites for JR EH500 (closes #7056)
+- Fix r330: Fix compatibility
+- Fix r334: Make the old 4-6-0 Ten wheeler unavailable
+- Update: Translations from webtranslator
+
 1.0-beta3 (30/08/2014)
+----------------------
 - Feature: Purchase menu text for unit wagons (issue #7057)
 - Fix #7055: FS 895 flag used company color
 - Fix r278: DMU vehicle IDs (issue #7052)
