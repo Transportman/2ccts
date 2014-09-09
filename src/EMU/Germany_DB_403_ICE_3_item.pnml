@@ -48,7 +48,6 @@ item(FEAT_TRAINS, item_emu_Germany_DB_403_ICE_3) {
 	graphics {
 		purchase: spriteset_emu_Germany_DB_403_ICE_3_purchase;
 		cargo_capacity: switch_emu_Germany_DB_403_ICE_3_capacity;
-		visual_effect_and_powered: switch_emu_Germany_DB_403_ICE_3_visual_effect_and_powered;
 		can_attach_wagon: switch_can_attach_vehicle;
 		switch_emu_Germany_DB_403_ICE_3_reversed;
 	}	
@@ -59,6 +58,7 @@ item(FEAT_TRAINS, item_emu_Germany_DB_403_ICE_3) {
 		weight: 26;
 		cargo_capacity: switch_emu_Germany_DB_403_ICE_3_capacity;
 		length: 8;
+		visual_effect_and_powered: switch_emu_Germany_DB_403_ICE_3_visual_effect_and_powered_position;
 		default: switch_emu_Germany_DB_403_ICE_3_cargo_selection;
 	}
 	livery_override (item_mu_wagon_powered){
@@ -69,6 +69,7 @@ item(FEAT_TRAINS, item_emu_Germany_DB_403_ICE_3) {
 		cargo_capacity: switch_emu_Germany_DB_403_ICE_3_capacity;
         tractive_effort_coefficient: 250;
 		length: 8;
+		visual_effect_and_powered: switch_emu_Germany_DB_403_ICE_3_visual_effect_and_powered_position;
 		default: switch_emu_Germany_DB_403_ICE_3_cargo_selection;
 	}
 }

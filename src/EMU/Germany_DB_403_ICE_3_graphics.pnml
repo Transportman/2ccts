@@ -56,37 +56,37 @@ switch(FEAT_TRAINS, SELF, switch_emu_Germany_DB_403_ICE_3_reversed, var[0xC8]) {
 }
 
 //Visual effect, for EMU this is done on the part with the pantograph
-random_switch(FEAT_TRAINS, SELF, switch_emu_Germany_DB_403_ICE_3_visual_effect_and_powered_livery) {
-	8: visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
+random_switch(FEAT_TRAINS, SELF, switch_emu_Germany_DB_403_ICE_3_visual_effect_and_powered) {
+	9: visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
 	1: visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, -3, DISABLE_WAGON_POWER);
 }
 
-switch(FEAT_TRAINS, SELF, switch_emu_Germany_DB_403_ICE_3_visual_effect_and_powered, position_in_vehid_chain) {
-	0: visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, -3, DISABLE_WAGON_POWER);
-	switch_emu_Germany_DB_403_ICE_3_visual_effect_and_powered_livery;
+switch(FEAT_TRAINS, SELF, switch_emu_Germany_DB_403_ICE_3_visual_effect_and_powered_position, [STORE_TEMP(-1, 0x10F), var[0x61, 0, 0x0000FFFF, 0xC6]]) {
+	ID_RANGE_UNIT_WAGONS: switch_emu_Germany_DB_403_ICE_3_visual_effect_and_powered;
+	visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, -3, DISABLE_WAGON_POWER);
 }
 
-//Livery selection depends on visual effect switch
 random_switch(FEAT_TRAINS, SELF, switch_emu_Germany_DB_403_ICE_3_middlepass_livery) {
-	dependent: switch_emu_Germany_DB_403_ICE_3_visual_effect_and_powered_livery;
-	8: spriteset_emu_Germany_DB_403_ICE_3_middlepass_L1;
+	dependent: switch_emu_Germany_DB_403_ICE_3_visual_effect_and_powered;
+	9: spriteset_emu_Germany_DB_403_ICE_3_middlepass_L1;
 	1: spriteset_emu_Germany_DB_403_ICE_3_middlepass_L2;
 }
 
 random_switch(FEAT_TRAINS, SELF, switch_emu_Germany_DB_403_ICE_3_middlemail_livery) {
-	dependent: switch_emu_Germany_DB_403_ICE_3_visual_effect_and_powered_livery;
-	8: spriteset_emu_Germany_DB_403_ICE_3_middlemail_L1;
+	dependent: switch_emu_Germany_DB_403_ICE_3_visual_effect_and_powered;
+	9: spriteset_emu_Germany_DB_403_ICE_3_middlemail_L1;
 	1: spriteset_emu_Germany_DB_403_ICE_3_middlemail_L2;
 }
 
-switch(FEAT_TRAINS, SELF, switch_emu_Germany_DB_403_ICE_3_middlepass_length, position_in_vehid_chain) {
-	0: spriteset_emu_Germany_DB_403_ICE_3_middlepass_L2;
-	switch_emu_Germany_DB_403_ICE_3_middlepass_livery;
+//First unit wagon always has a pantograph
+switch(FEAT_TRAINS, SELF, switch_emu_Germany_DB_403_ICE_3_middlepass_position, [STORE_TEMP(-1, 0x10F), var[0x61, 0, 0x0000FFFF, 0xC6]]) {
+	ID_RANGE_UNIT_WAGONS: switch_emu_Germany_DB_403_ICE_3_middlepass_livery;
+	spriteset_emu_Germany_DB_403_ICE_3_middlepass_L2;
 }
 
-switch(FEAT_TRAINS, SELF, switch_emu_Germany_DB_403_ICE_3_middlemail_length, position_in_vehid_chain) {
-	0: spriteset_emu_Germany_DB_403_ICE_3_middlemail_L2;
-	switch_emu_Germany_DB_403_ICE_3_middlemail_livery;
+switch(FEAT_TRAINS, SELF, switch_emu_Germany_DB_403_ICE_3_middlemail_position, [STORE_TEMP(-1, 0x10F), var[0x61, 0, 0x0000FFFF, 0xC6]]) {
+	ID_RANGE_UNIT_WAGONS: switch_emu_Germany_DB_403_ICE_3_middlemail_livery;
+	spriteset_emu_Germany_DB_403_ICE_3_middlemail_L2;
 }
 	
 /*
@@ -101,6 +101,6 @@ switch(FEAT_TRAINS, SELF, switch_emu_Germany_DB_403_ICE_3_capacity, cargo_classe
 
 //Graphics for the unit wagon based on cargo class
 switch(FEAT_TRAINS, SELF, switch_emu_Germany_DB_403_ICE_3_cargo_selection, cargo_classes){
-	bitmask(CC_PASSENGERS): switch_emu_Germany_DB_403_ICE_3_middlepass_length;
-	switch_emu_Germany_DB_403_ICE_3_middlemail_length;
+	bitmask(CC_PASSENGERS): switch_emu_Germany_DB_403_ICE_3_middlepass_position;
+	switch_emu_Germany_DB_403_ICE_3_middlemail_position;
 }

@@ -61,9 +61,9 @@ random_switch(FEAT_TRAINS, SELF, switch_emu_Norway_NSB_BM73_visual_effect_and_po
 	1: visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, -3, DISABLE_WAGON_POWER);
 }
 
-switch(FEAT_TRAINS, SELF, switch_emu_Norway_NSB_BM73_visual_effect_and_powered_position, position_in_vehid_chain) {
-	0: visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, -3, DISABLE_WAGON_POWER);
-	switch_emu_Norway_NSB_BM73_visual_effect_and_powered;
+switch(FEAT_TRAINS, SELF, switch_emu_Norway_NSB_BM73_visual_effect_and_powered_position, [STORE_TEMP(-1, 0x10F), var[0x61, 0, 0x0000FFFF, 0xC6]]) {
+	ID_RANGE_UNIT_WAGONS: switch_emu_Norway_NSB_BM73_visual_effect_and_powered;
+	visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, -3, DISABLE_WAGON_POWER);
 }
 
 random_switch(FEAT_TRAINS, SELF, switch_emu_Norway_NSB_BM73_middlepass_livery) {
@@ -79,14 +79,14 @@ random_switch(FEAT_TRAINS, SELF, switch_emu_Norway_NSB_BM73_middlemail_livery) {
 }
 
 //First unit wagon always has a pantograph
-switch(FEAT_TRAINS, SELF, switch_emu_Norway_NSB_BM73_middlepass_position, position_in_vehid_chain) {
-	0: spriteset_emu_Norway_NSB_BM73_middlepass_L2;
-	switch_emu_Norway_NSB_BM73_middlepass_livery;
+switch(FEAT_TRAINS, SELF, switch_emu_Norway_NSB_BM73_middlepass_position, [STORE_TEMP(-1, 0x10F), var[0x61, 0, 0x0000FFFF, 0xC6]]) {
+	ID_RANGE_UNIT_WAGONS: switch_emu_Norway_NSB_BM73_middlepass_livery;
+	spriteset_emu_Norway_NSB_BM73_middlepass_L2;
 }
 
-switch(FEAT_TRAINS, SELF, switch_emu_Norway_NSB_BM73_middlemail_position, position_in_vehid_chain) {
-	0: spriteset_emu_Norway_NSB_BM73_middlemail_L2;
-	switch_emu_Norway_NSB_BM73_middlemail_livery;
+switch(FEAT_TRAINS, SELF, switch_emu_Norway_NSB_BM73_middlemail_position, [STORE_TEMP(-1, 0x10F), var[0x61, 0, 0x0000FFFF, 0xC6]]) {
+	ID_RANGE_UNIT_WAGONS: switch_emu_Norway_NSB_BM73_middlemail_livery;
+	spriteset_emu_Norway_NSB_BM73_middlemail_L2;
 }
 	
 /*

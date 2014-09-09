@@ -48,18 +48,18 @@ spriteset(spriteset_emu_France_SNCF_TGV_Thalys_middlepass_double, "gfx/EMU/Franc
 	template_2cc_engines_general(1, 160)
 }
 
-switch(FEAT_TRAINS, SELF, switch_emu_France_SNCF_TGV_Thalys_middlepass_position_back, position_in_vehid_chain_from_end) {
-	0: spriteset_emu_France_SNCF_TGV_Thalys_middlepass_part2_back;
-	spriteset_emu_France_SNCF_TGV_Thalys_middlepass_regular;
+switch(FEAT_TRAINS, SELF, switch_emu_France_SNCF_TGV_Thalys_middlepass_position_back, [STORE_TEMP(1, 0x10F), var[0x61, 0, 0x0000FFFF, 0xC6]]) {
+	ID_RANGE_UNIT_WAGONS: spriteset_emu_France_SNCF_TGV_Thalys_middlepass_regular;
+	spriteset_emu_France_SNCF_TGV_Thalys_middlepass_part2_back;
 }
 
-switch(FEAT_TRAINS, SELF, switch_emu_France_SNCF_TGV_Thalys_middlepass_position_front, position_in_vehid_chain) {
-	0: spriteset_emu_France_SNCF_TGV_Thalys_middlepass_part2_front;
-	switch_emu_France_SNCF_TGV_Thalys_middlepass_position_back;
+switch(FEAT_TRAINS, SELF, switch_emu_France_SNCF_TGV_Thalys_middlepass_position_front, [STORE_TEMP(1, 0x10F), var[0x61, 0, 0x0000FFFF, 0xC6]]) {
+	ID_RANGE_UNIT_WAGONS: spriteset_emu_France_SNCF_TGV_Thalys_middlepass_part2_front;
+	spriteset_emu_France_SNCF_TGV_Thalys_middlepass_double;
 }
 
-switch(FEAT_TRAINS, SELF, switch_emu_France_SNCF_TGV_Thalys_middlepass_length, num_vehs_in_vehid_chain) {
-	1: spriteset_emu_France_SNCF_TGV_Thalys_middlepass_double;
+switch(FEAT_TRAINS, SELF, switch_emu_France_SNCF_TGV_Thalys_middlepass_length, [STORE_TEMP(-1, 0x10F), var[0x61, 0, 0x0000FFFF, 0xC6]]) {
+	ID_RANGE_UNIT_WAGONS: switch_emu_France_SNCF_TGV_Thalys_middlepass_position_back;
 	switch_emu_France_SNCF_TGV_Thalys_middlepass_position_front;
 }
 
@@ -83,20 +83,21 @@ spriteset(spriteset_emu_France_SNCF_TGV_Thalys_middlemail_double, "gfx/EMU/Franc
 	template_2cc_engines_general(1, 288)
 }
 
-switch(FEAT_TRAINS, SELF, switch_emu_France_SNCF_TGV_Thalys_middlemail_position_back, position_in_vehid_chain_from_end) {
-	0: spriteset_emu_France_SNCF_TGV_Thalys_middlemail_part2_back;
-	spriteset_emu_France_SNCF_TGV_Thalys_middlemail_regular;
+switch(FEAT_TRAINS, SELF, switch_emu_France_SNCF_TGV_Thalys_middlemail_position_back, [STORE_TEMP(1, 0x10F), var[0x61, 0, 0x0000FFFF, 0xC6]]) {
+	ID_RANGE_UNIT_WAGONS: spriteset_emu_France_SNCF_TGV_Thalys_middlemail_regular;
+	spriteset_emu_France_SNCF_TGV_Thalys_middlemail_part2_back;
 }
 
-switch(FEAT_TRAINS, SELF, switch_emu_France_SNCF_TGV_Thalys_middlemail_position_front, position_in_vehid_chain) {
-	0: spriteset_emu_France_SNCF_TGV_Thalys_middlemail_part2_front;
-	switch_emu_France_SNCF_TGV_Thalys_middlemail_position_back;
+switch(FEAT_TRAINS, SELF, switch_emu_France_SNCF_TGV_Thalys_middlemail_position_front, [STORE_TEMP(1, 0x10F), var[0x61, 0, 0x0000FFFF, 0xC6]]) {
+	ID_RANGE_UNIT_WAGONS: spriteset_emu_France_SNCF_TGV_Thalys_middlemail_part2_front;
+	spriteset_emu_France_SNCF_TGV_Thalys_middlemail_double;
 }
 
-switch(FEAT_TRAINS, SELF, switch_emu_France_SNCF_TGV_Thalys_middlemail_length, num_vehs_in_vehid_chain) {
-	1: spriteset_emu_France_SNCF_TGV_Thalys_middlemail_double;
+switch(FEAT_TRAINS, SELF, switch_emu_France_SNCF_TGV_Thalys_middlemail_length, [STORE_TEMP(-1, 0x10F), var[0x61, 0, 0x0000FFFF, 0xC6]]) {
+	ID_RANGE_UNIT_WAGONS: switch_emu_France_SNCF_TGV_Thalys_middlemail_position_back;
 	switch_emu_France_SNCF_TGV_Thalys_middlemail_position_front;
 }
+
 
 //Dualheaded engines
 switch(FEAT_TRAINS, SELF, switch_emu_France_SNCF_TGV_Thalys_reversed, var[0xC8]) {
