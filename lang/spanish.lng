@@ -100,7 +100,6 @@ str_diesel_Australia_NSWGR_79                                                   
 str_diesel_USA_Western_Pacific_ALCO_S_2                                 :Western Pacific ALCO S-2 (Diésel)
 str_diesel_USA_GNR_EMD_F3                                                               :GNR EMD F3 (Diésel)
 str_diesel_USA_UP_EMD_E8                                                                :UP EMD E8 (Diésel)
-str_diesel_Brasil_EFCB_ALCO_RS_3                                                :EFCB ALCO RS-3 (Diésel)
 str_diesel_Netherlands_NS_600                                                   :NS 600 'Bakkie' (Diésel)
 str_diesel_USA_Pennsylvania_Railroad_RF_16_Sharknose    :Pennsylvania Railroad RF-16 'Sharknose' (Diésel)
 str_diesel_Uruguay_AFE_1500                                                     :AFE 1500 (Diésel)
@@ -117,8 +116,6 @@ str_diesel_USA_Amtrak_FL9                                                       
 str_diesel_Czech_Republic_CD_720_ChME2                                  :CD 720 ChME2 (Diésel)
 str_diesel_Finland_VR_Dr12                                                              :VR Dr12 (Diésel)
 str_diesel_Romania_CFR_060_DA                                                   :CFR 060-DA (Diésel)
-str_diesel_Brasil_BF_EMD_GL8                                                    :BF EMD GL8 (Diésel)
-str_diesel_Brasil_EFVM_ML4000                                                   :EFVM ML4000 (Diésel)
 str_diesel_Russia_RZD_TEP60                                                     :RZD TEP60 (Diésel)
 str_diesel_Belgium_NMBS_SNCB_67                                                 :NMBS/SNCB 67 (Diésel)
 str_diesel_Denmark_DSB_MaK_100                                                  :DSB MaK 100 (Diésel)
@@ -289,9 +286,9 @@ str_emu_Netherlands_NS_4800_HSA                         :NS 4800 HSA (EMU)
 str_emu_Italy_NTV_AGV_Duplex                            :NTV AGV Duplex (EMU)
 
 #Single Unit Metro
-str_mtro_USA_Brooklyn_Union_Gate_Car                                    :Brooklyn Union Gate Car (Metro)
+str_mtro_USA_Brooklyn_Union_Gate_Car                                    :Brooklyn Union Gate Car (Unidad de Metro individual)
 str_mtro_Hungary_Budapest_1894_Stock                                    :Budapest 1894 Stock (Unidad de Metro individual)
-str_mtro_USA_Chicago_L_Northwest_Elevated_1907_Stock    :Chicago L Northwest Elevated 1907 Stock (Metro)
+str_mtro_USA_Chicago_L_Northwest_Elevated_1907_Stock    :Chicago L Northwest Elevated 1907 Stock (Unidad de Metro individual)
 str_mtro_Germany_Berlin_U_Bahn_C_II                                             :Berlin U-Bahn C II (Unidad de Metro individual)
 
 #Multiple Unit Metro
@@ -311,7 +308,6 @@ str_mtro_Netherlands_Amsterdam_Type_M1                  :Amsterdam M1 (Metro)
 str_mtro_Sweden_Stockholm_C8                                    :Stockholm C8 (Metro)
 str_mtro_North_Korea_Pyongyang_D_stock                  :Pyongyang D stock (Metro)
 str_mtro_Finland_Helsinki_M100                                  :Helsinki M100 (Metro)
-str_mtro_Brasil_Sao_Paulo_Serie_5500                    :Sao Paulo Serie 5500 (Metro)
 str_mtro_Japan_Tokyo_S01                                                :Tokyo S01 (Metro)
 str_mtro_Egypt_Cairo_1987_Stock                                 :Cairo 1987 stock (Metro)
 str_mtro_UK_DLR_P86                                                     :DLR P86 (Metro)
@@ -340,6 +336,7 @@ str_wagon_Gen2_Flat_Wagon                               :Vagón plano, 2a genera
 str_wagon_Gen2_Tanker                                   :Cisterna, 2a generación
 str_wagon_Gen3_Tanker                                   :Cisterna, 3a generación
 str_wagon_Gen3_Open_Wagon                               :Vagón abierto, 3era Generación
+str_wagon_Gen4_Flatcar                                  :Vagón plano, 4a Generación
 str_wagon_Gen4_Tanker                                   :Cisterna, 4a generación
 str_wagon_Gen4_Gondola                                  :Góndola, 4a Generación
 str_wagon_Gen5_Flatcar                                  :Vagón plano, 5a Generación
@@ -424,6 +421,8 @@ str_mtro_wagon_powered          :Vagón de metro (Motorizado)
 str_mglv_wagon_powered          :Vagón Maglev (Motorizado)
 
 #obsolete vehicles
+str_electric_USA_Pennsylvania_Railroad_FF_1_obsolete1                           :Pennsylvania Railroad FF-1, Obsoleto (Eléctrico)
+str_electric_USA_Milwaukee_Road_EP_2_Bipolar_obsolete1                          :Milwaukee Road EP-2 Bipolar, Obsoleto (Eléctrico)
 
 #PURCHASE MENU TEXTS
 
