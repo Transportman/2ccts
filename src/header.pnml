@@ -97,34 +97,34 @@ grf {
 		}
 	}	
 	param {
-		NORTHEUROPE {
+		NORTHERNEUROPE {
 			type:	bool;
-			name:	string(STR_PARAM_REGION_NORTHEUROPE);
-			desc:	string(STR_PARAM_REGION_NORTHEUROPE_DESC);
+			name:	string(STR_PARAM_REGION_NORTHERNEUROPE);
+			desc:	string(STR_PARAM_REGION_NORTHERNEUROPE_DESC);
 			def_value: 1;
 		}
 	}
 	param {
-		EASTEUROPE {
+		EASTERNEUROPE {
 			type:	bool;
-			name:	string(STR_PARAM_REGION_EASTEUROPE);
-			desc:	string(STR_PARAM_REGION_EASTEUROPE_DESC);
+			name:	string(STR_PARAM_REGION_EASTERNEUROPE);
+			desc:	string(STR_PARAM_REGION_EASTERNEUROPE_DESC);
 			def_value: 1;
 		}
 	}	
 	param {
-		SOUTHEUROPE {
+		SOUTHERNEUROPE {
 			type:	bool;
-			name:	string(STR_PARAM_REGION_SOUTHEUROPE);
-			desc:	string(STR_PARAM_REGION_SOUTHEUROPE_DESC);
+			name:	string(STR_PARAM_REGION_SOUTHERNEUROPE);
+			desc:	string(STR_PARAM_REGION_SOUTHERNEUROPE_DESC);
 			def_value: 1;
 		}
 	}
 	param {
-		WESTEUROPE {
+		WESTERNEUROPE {
 			type:	bool;
-			name:	string(STR_PARAM_REGION_WESTEUROPE);
-			desc:	string(STR_PARAM_REGION_WESTEUROPE_DESC);
+			name:	string(STR_PARAM_REGION_WESTERNEUROPE);
+			desc:	string(STR_PARAM_REGION_WESTERNEUROPE_DESC);
 			def_value: 1;
 		}
 	}
