@@ -13,7 +13,8 @@
 item(FEAT_TRAINS, item_electric_USA_Milwaukee_Road_ES_2) {
     property {
         name: string(str_electric_USA_Milwaukee_Road_ES_2);
-        
+        REGION(NORTHAMERICA,NOREGION,NOCONCEPT)
+		
         introduction_date: date(1916,1,1);
         model_life: 25;
         vehicle_life: 40;
@@ -37,8 +38,7 @@ item(FEAT_TRAINS, item_electric_USA_Milwaukee_Road_ES_2) {
         running_cost_base: RUNNING_COST_STEAM;
         engine_class: ENGINE_CLASS_ELECTRIC;
         visual_effect_and_powered: visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, -3, DISABLE_WAGON_POWER); //Set from graphics file
-        
-        climates_available: ALL_CLIMATES;
+
         sprite_id: SPRITE_ID_NEW_TRAIN;
         dual_headed: 0;
         length: 6;

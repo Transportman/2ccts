@@ -13,7 +13,8 @@
 item(FEAT_TRAINS, item_electric_Switzerland_SBB_Eem_923) {
     property {
         name: string(str_electric_Switzerland_SBB_Eem_923);
-        
+        REGION(WESTERNEUROPE,NOREGION,NOCONCEPT)
+		
         introduction_date: date(2012,1,1);
         model_life: VEHICLE_NEVER_EXPIRES;
         vehicle_life: 40;
@@ -37,8 +38,7 @@ item(FEAT_TRAINS, item_electric_Switzerland_SBB_Eem_923) {
         running_cost_base: RUNNING_COST_STEAM;
         engine_class: ENGINE_CLASS_ELECTRIC;
         visual_effect_and_powered: visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, -3, DISABLE_WAGON_POWER); //Set from graphics file
-        
-        climates_available: ALL_CLIMATES;
+
         sprite_id: SPRITE_ID_NEW_TRAIN;
         dual_headed: 0;
         length: 5;
