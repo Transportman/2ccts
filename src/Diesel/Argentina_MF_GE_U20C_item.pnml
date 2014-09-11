@@ -37,8 +37,7 @@ item(FEAT_TRAINS, item_diesel_Argentina_MF_GE_U20C) {
         running_cost_base: RUNNING_COST_STEAM;
         engine_class: ENGINE_CLASS_DIESEL;
         visual_effect_and_powered: visual_effect_and_powered(VISUAL_EFFECT_DIESEL, 0, DISABLE_WAGON_POWER); //Set from graphics file
-        
-        climates_available: ALL_CLIMATES;
+
         sprite_id: SPRITE_ID_NEW_TRAIN;
         dual_headed: 0;
         length: 8;
