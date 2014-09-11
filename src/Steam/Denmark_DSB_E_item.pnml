@@ -13,7 +13,8 @@
 item(FEAT_TRAINS, item_steam_Denmark_DSB_E) {
     property {
         name: string(str_steam_Denmark_DSB_E);
-        
+        REGION(NORTHERNEUROPE,NOREGION,NOCONCEPT)
+		
         introduction_date: date(1937,1,1);
         model_life: 25;
         vehicle_life: 40;
@@ -38,7 +39,6 @@ item(FEAT_TRAINS, item_steam_Denmark_DSB_E) {
         engine_class: ENGINE_CLASS_STEAM;
         visual_effect_and_powered: visual_effect_and_powered(VISUAL_EFFECT_STEAM, -3, DISABLE_WAGON_POWER);
         
-        climates_available: ALL_CLIMATES;
         sprite_id: SPRITE_ID_NEW_TRAIN;
         dual_headed: 0;
         length: 6;
