@@ -13,7 +13,8 @@
 item(FEAT_TRAINS, item_diesel_Panama_Panama_Canal_Railway_EMD_F40PH) {
     property {
         name: string(str_diesel_Panama_Panama_Canal_Railway_EMD_F40PH);
-        
+        REGION(NORTHAMERICA,NOREGION,NOCONCEPT)
+		
         introduction_date: date(1977,1,1);
         model_life: 25;
         vehicle_life: 40;
@@ -37,8 +38,7 @@ item(FEAT_TRAINS, item_diesel_Panama_Panama_Canal_Railway_EMD_F40PH) {
         running_cost_base: RUNNING_COST_STEAM;
         engine_class: ENGINE_CLASS_DIESEL;
         visual_effect_and_powered: visual_effect_and_powered(VISUAL_EFFECT_DIESEL, 0, DISABLE_WAGON_POWER); //Set from graphics file
-        
-        climates_available: ALL_CLIMATES;
+
         sprite_id: SPRITE_ID_NEW_TRAIN;
         dual_headed: 0;
         length: 7;
