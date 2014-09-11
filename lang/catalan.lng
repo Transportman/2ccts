@@ -8,6 +8,7 @@ STR_GRF_DESCRIPTION             :{SILVER}Trens 2cc del Món en NML{}{}(c)2ccts{}
 STR_GRF_URL             :https://dev.openttdcoop.org/projects/2ccts
 
 #parameter strings
+#cost parameters
 STR_PARAM_PURCHASE_COST             :Multiplicador del cost de compra
 STR_PARAM_PURCHASE_COST_DESC        :Pots emprar aquesta opció per a incrementar o reduir els costos de compra dels vehicles d'aquesta extensió.
 STR_PARAM_RUNNING_COST              :Multiplicador del cost de circulació
@@ -22,6 +23,8 @@ STR_PARAM_TIMES_2                   :2
 STR_PARAM_TIMES_4                   :4
 STR_PARAM_TIMES_8                   :8
 STR_PARAM_TIMES_16                  :16
+
+#region parameters
 
 #VEHICLE NAMES
 #Railbus-steam
@@ -104,6 +107,7 @@ str_diesel_Australia_NSWGR_79                                                   
 str_diesel_USA_Western_Pacific_ALCO_S_2                                 :Western Pacific ALCO S-2 (Dièsel)
 str_diesel_USA_GNR_EMD_F3                                                               :GNR EMD F3 (Dièsel)
 str_diesel_USA_UP_EMD_E8                                                                :UP EMD E8 (Dièsel)
+str_diesel_Brazil_EFCB_ALCO_RS_3                                                :EFCB ALCO RS-3 (Dièsel)
 str_diesel_Netherlands_NS_600                                                   :NS 600 'Bakkie' (Dièsel)
 str_diesel_USA_Pennsylvania_Railroad_RF_16_Sharknose    :Pennsylvania Railroad RF-16 'Sharknose' (Dièsel)
 str_diesel_Uruguay_AFE_1500                                                     :AFE 1500 (Dièsel)
@@ -120,6 +124,8 @@ str_diesel_USA_Amtrak_FL9                                                       
 str_diesel_Czech_Republic_CD_720_ChME2                                  :CD 720 ChME2 (Dièsel)
 str_diesel_Finland_VR_Dr12                                                              :VR Dr12 (Dièsel)
 str_diesel_Romania_CFR_060_DA                                                   :CFR 060-DA (Dièsel)
+str_diesel_Brazil_BF_EMD_GL8                                                    :BF EMD GL8 (Dièsel)
+str_diesel_Brazil_EFVM_ML4000                                                   :EFVM ML4000 (Dièsel)
 str_diesel_Russia_RZD_TEP60                                                     :RZD TEP60 (Dièsel)
 str_diesel_Belgium_NMBS_SNCB_67                                                 :NMBS/SNCB 67 (Dièsel)
 str_diesel_Denmark_DSB_MaK_100                                                  :DSB MaK 100 (Dièsel)
@@ -315,6 +321,7 @@ str_mtro_Netherlands_Amsterdam_Type_M1                  :Amsterdam M1 (Metro)
 str_mtro_Sweden_Stockholm_C8                                    :Stockholm C8 (Metro)
 str_mtro_North_Korea_Pyongyang_D_stock                  :Pyongyang D stock (Metro)
 str_mtro_Finland_Helsinki_M100                                  :Helsinki M100 (Metro)
+str_mtro_Brazil_Sao_Paulo_Serie_5500                    :São Paulo Sèrie 5500 (Metro)
 str_mtro_Russia_Moscow_81_720                                   :Moscow 81-720 (Metro)
 str_mtro_Japan_Tokyo_S01                                                :Tokyo S01 (Metro)
 str_mtro_Egypt_Cairo_1987_Stock                                 :Cairo 1987 stock (Metro)
@@ -469,6 +476,7 @@ str_diesel_USA_UP_EMD_DDA40X_obsolete1                                          
 str_electric_USA_Pennsylvania_Railroad_FF_1_obsolete1                           :Pennsylvania Railroad FF-1 Obsoleta (Elèctrica)
 str_electric_USA_Milwaukee_Road_EP_2_Bipolar_obsolete1                          :Milwaukee Road EP-2 Bipolar Obsoleta (Elèctrica)
 str_electric_USA_Pennsylvania_Railroad_GG_1_obsolete1                           :Pennsylvania Railroad FF-1 Obsoleta (Elèctrica)
+str_steam_Denmark_DSB_E_obsolete1                                                                       :Obsolet DSB E (Vapor)
 
 #PURCHASE MENU TEXTS
 str_unit_wagon                          :Aquest vagó genèric NOMÉS pot emprar-se amb MUs per a crear trens de la llargada desitjada

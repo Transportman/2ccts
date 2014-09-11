@@ -8,6 +8,7 @@ STR_GRF_DESCRIPTION             :{SILVER}NML로 작성한 세계 2cc 열차입�
 STR_GRF_URL             :https://dev.openttdcoop.org/projects/2ccts
 
 #parameter strings
+#cost parameters
 STR_PARAM_PURCHASE_COST             :구입 가격 배수
 STR_PARAM_PURCHASE_COST_DESC        :이 NewGRF에 포함된 차량의 구입 비용을 증가시키거나 감소시키려면 이 설정을 변경하십시오. 이 설정은 기본 차량과 비교했을 때 차량의 구입 비용을 지나치게 불균형하게 만들 수 있음을 염두에 두십시오.
 STR_PARAM_RUNNING_COST              :유지비 조정 배수
@@ -22,6 +23,8 @@ STR_PARAM_TIMES_2                   :2
 STR_PARAM_TIMES_4                   :4
 STR_PARAM_TIMES_8                   :8
 STR_PARAM_TIMES_16                  :16
+
+#region parameters
 
 #VEHICLE NAMES
 #Railbus-steam

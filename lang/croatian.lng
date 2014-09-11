@@ -9,6 +9,7 @@ STR_GRF_DESCRIPTION             :{SILVER}2cc Vlakovi svijeta u NML-u{}{}(c)2ccts
 STR_GRF_URL             :https://dev.openttdcoop.org/projects/2ccts
 
 #parameter strings
+#cost parameters
 STR_PARAM_PURCHASE_COST             :Višekratnik za troškove nabave vozila
 STR_PARAM_PURCHASE_COST_DESC        :Možete koristiti ovu postavku za povećavanje ili smanjivanje troškova nabave vozila u ovom setu.
 STR_PARAM_RUNNING_COST              :Višekratnik za tekuće troškove vozila
@@ -23,6 +24,8 @@ STR_PARAM_TIMES_2                   :2
 STR_PARAM_TIMES_4                   :4
 STR_PARAM_TIMES_8                   :8
 STR_PARAM_TIMES_16                  :16
+
+#region parameters
 
 #VEHICLE NAMES
 #Railbus-steam

@@ -8,6 +8,7 @@ STR_GRF_DESCRIPTION             :{SILVER}Trenes 2cc del Mundo en NML{}{}(c)2ccts
 STR_GRF_URL             :https://dev.openttdcoop.org/projects/2ccts
 
 #parameter strings
+#cost parameters
 STR_PARAM_PURCHASE_COST             :Multiplicador del precio de compra
 STR_PARAM_PURCHASE_COST_DESC        :Puedes usar este ajuste para aumentar o disminuir el precio de compra de los vehículos de este set.
 STR_PARAM_RUNNING_COST              :Multiplicador del coste de funcionamiento
@@ -22,6 +23,8 @@ STR_PARAM_TIMES_2                   :2
 STR_PARAM_TIMES_4                   :4
 STR_PARAM_TIMES_8                   :8
 STR_PARAM_TIMES_16                  :16
+
+#region parameters
 
 #VEHICLE NAMES
 #Railbus-steam
@@ -421,8 +424,10 @@ str_mtro_wagon_powered          :Vagón de metro (Motorizado)
 str_mglv_wagon_powered          :Vagón Maglev (Motorizado)
 
 #obsolete vehicles
+str_diesel_USA_UP_EMD_DDA40X_obsolete1                                                          :UP EMD DDA40X, Obsoleto (Diésel)
 str_electric_USA_Pennsylvania_Railroad_FF_1_obsolete1                           :Pennsylvania Railroad FF-1, Obsoleto (Eléctrico)
 str_electric_USA_Milwaukee_Road_EP_2_Bipolar_obsolete1                          :Milwaukee Road EP-2 Bipolar, Obsoleto (Eléctrico)
+str_electric_USA_Pennsylvania_Railroad_GG_1_obsolete1                           :Pennsylvania Railroad FF-1, Obsoleto (Eléctrico)
 
 #PURCHASE MENU TEXTS
 

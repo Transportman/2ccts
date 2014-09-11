@@ -9,6 +9,7 @@ STR_GRF_DESCRIPTION             :{SILVER}2cc Treni del mondo in NML{}{}(c)2ccts{
 STR_GRF_URL             :https://dev.openttdcoop.org/projects/2ccts
 
 #parameter strings
+#cost parameters
 STR_PARAM_PURCHASE_COST             :Moltiplicatore per i costi d'acquisto
 STR_PARAM_PURCHASE_COST_DESC        :È possibile utilizzare questa impostazione per aumentare o diminuire i costi d'acquisto dei veicoli in questo set.
 STR_PARAM_RUNNING_COST              :Moltiplicatore per i costi d'esercizio
@@ -23,6 +24,8 @@ STR_PARAM_TIMES_2                   :2
 STR_PARAM_TIMES_4                   :4
 STR_PARAM_TIMES_8                   :8
 STR_PARAM_TIMES_16                  :16
+
+#region parameters
 
 #VEHICLE NAMES
 #Railbus-steam

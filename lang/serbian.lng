@@ -9,7 +9,10 @@ STR_GRF_DESCRIPTION             :{SILVER}2cc Vlakovi svijeta u NML-u{}{}(c)2ccts
 STR_GRF_URL             :https://dev.openttdcoop.org/projects/2ccts
 
 #parameter strings
+#cost parameters
 
+
+#region parameters
 
 #VEHICLE NAMES
 #Railbus-steam

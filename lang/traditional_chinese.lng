@@ -7,7 +7,10 @@ STR_GRF_DESCRIPTION             :{SILVER}2cc 世界列車大全，以 NML 開發
 STR_GRF_URL             :https://dev.openttdcoop.org/projects/2ccts
 
 #parameter strings
+#cost parameters
 
+
+#region parameters
 
 #VEHICLE NAMES
 #Railbus-steam

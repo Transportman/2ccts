@@ -6,6 +6,7 @@ STR_GRF_DESCRIPTION             :{SILVER}2cc Treine van die Wêreld in NML{}{}(c
 STR_GRF_URL             :https://dev.openttdcoop.org/projects/2ccts
 
 #parameter strings
+#cost parameters
 STR_PARAM_PURCHASE_COST             :Koop Prys vermenigvuldiger
 STR_PARAM_PURCHASE_COST_DESC        :Jy kan die stellling gebruik om die koop prys van die voertuie in die stel, te verhoog of te verlaag.
 STR_PARAM_RUNNING_COST              :Lopende Koster vermenigvuldiger
@@ -20,6 +21,28 @@ STR_PARAM_TIMES_2                   :2
 STR_PARAM_TIMES_4                   :4
 STR_PARAM_TIMES_8                   :8
 STR_PARAM_TIMES_16                  :16
+
+#region parameters
+STR_PARAM_CONCEPT                                               :Konsep voertuie (toekomstige gebruik, nog nie beskikbaar nie)
+STR_PARAM_CONCEPT_DESC                                  :Gebruik konsep voertuie (Die roster is nog nie beskikbaar nie)
+STR_PARAM_REGION_AFRICA                                 :Afrika
+STR_PARAM_REGION_AFRICA_DESC                    :Gebruik voertuie van Afrika
+STR_PARAM_REGION_NORTHAMERICA                   :Noord Amerika
+STR_PARAM_REGION_NORTHAMERICA_DESC              :Gebruik voertuie van Noord Amerika
+STR_PARAM_REGION_SOUTHAMERICA                   :Suid Amerika
+STR_PARAM_REGION_SOUTHAMERICA_DESC              :Gebruik voertuie van Suid Amerika
+STR_PARAM_REGION_ASIA                                   :Asië
+STR_PARAM_REGION_ASIA_DESC                              :Gebruik voertuie van Asië
+STR_PARAM_REGION_NORTHERNEUROPE                 :Noord Europa
+STR_PARAM_REGION_NORTHERNEUROPE_DESC    :Gebruik voertuie van Noord Europa
+STR_PARAM_REGION_EASTERNEUROPE                  :Oos Europa
+STR_PARAM_REGION_EASTERNEUROPE_DESC             :Gebruik voertuie van Oos Europa
+STR_PARAM_REGION_SOUTHERNEUROPE                 :Suid Europa
+STR_PARAM_REGION_SOUTHERNEUROPE_DESC    :Gebruik voertuie van Suid Europa
+STR_PARAM_REGION_WESTERNEUROPE                  :Wes Europa
+STR_PARAM_REGION_WESTERNEUROPE_DESC             :Gebruik voertuie van Wes Europa
+STR_PARAM_REGION_OCEANIA                                :Oseanië
+STR_PARAM_REGION_OCEANIA_DESC                   :Gebruik voertuie van Oseanië
 
 #VEHICLE NAMES
 #Railbus-steam
@@ -102,6 +125,7 @@ str_diesel_Australia_NSWGR_79                                                   
 str_diesel_USA_Western_Pacific_ALCO_S_2                                 :'Western Pacific' ALCO S-2 (Diesel)
 str_diesel_USA_GNR_EMD_F3                                                               :GNR EMD F3 (Diesel)
 str_diesel_USA_UP_EMD_E8                                                                :UP EMD E8 (Diesel)
+str_diesel_Brazil_EFCB_ALCO_RS_3                                                :EFCB ALCO RS-3 (Diesel)
 str_diesel_Netherlands_NS_600                                                   :NS 600 'Bakkie' (Diesel)
 str_diesel_USA_Pennsylvania_Railroad_RF_16_Sharknose    :Pennsylvania Spoorweg RF-16 'Sharknose' (Diesel)
 str_diesel_Uruguay_AFE_1500                                                     :AFE 1500 (Diesel)
@@ -118,6 +142,8 @@ str_diesel_USA_Amtrak_FL9                                                       
 str_diesel_Czech_Republic_CD_720_ChME2                                  :CD 720 ChME2 (Diesel)
 str_diesel_Finland_VR_Dr12                                                              :VR Dr12 (Diesel)
 str_diesel_Romania_CFR_060_DA                                                   :CFR 060-DA (Diesel)
+str_diesel_Brazil_BF_EMD_GL8                                                    :BF EMD GL8 (Diesel)
+str_diesel_Brazil_EFVM_ML4000                                                   :EFVM ML4000 (Diesel)
 str_diesel_Russia_RZD_TEP60                                                     :RZD TEP60 (Diesel)
 str_diesel_Belgium_NMBS_SNCB_67                                                 :NMBS/SNCB 67 (Diesel)
 str_diesel_Denmark_DSB_MaK_100                                                  :DSB MaK 100 (Diesel)
@@ -313,6 +339,7 @@ str_mtro_Netherlands_Amsterdam_Type_M1                  :Amsterdam M1 (Metro)
 str_mtro_Sweden_Stockholm_C8                                    :Stockholm C8 (Metro)
 str_mtro_North_Korea_Pyongyang_D_stock                  :Pyongyang D Trein (Metro)
 str_mtro_Finland_Helsinki_M100                                  :Helsinki M100 (Metro)
+str_mtro_Brazil_Sao_Paulo_Serie_5500                    :Sao Paulo Serie 5500 (Metro)
 str_mtro_Russia_Moscow_81_720                                   :Moskou 81-720 (Metro)
 str_mtro_Japan_Tokyo_S01                                                :Tokyo S01 (Metro)
 str_mtro_Egypt_Cairo_1987_Stock                                 :Kairo 1987 Trein (Metro)
@@ -463,6 +490,11 @@ str_mtro_Hungary_Budapest_1894_Stock_obsolete1                                  
 str_mtro_USA_Chicago_L_Northwest_Elevated_1907_Stock_obsolete1          :Uitgediende Chicago L Northwest Elevated 1907 Stock (Metro)
 str_mtro_Germany_Berlin_U_Bahn_C_II_obsolete1                                           :Uitgediende Berlin U-Bahn C II (Metro)
 str_steam_USA_4_6_0_Ten_wheeler_obsolete1                                                       :Uitgediende 4-6-0 'Ten-wheeler' (Stoom)
+str_diesel_USA_UP_EMD_DDA40X_obsolete1                                                          :Uitgediende UP EMD DDA40X (Diesel)
+str_electric_USA_Pennsylvania_Railroad_FF_1_obsolete1                           :Uitgediende Pennsylvania Spoorwëe FF-1 (Elektries)
+str_electric_USA_Milwaukee_Road_EP_2_Bipolar_obsolete1                          :Uitgediende Milwaukee Road EP-2 Bipolar (Elektries)
+str_electric_USA_Pennsylvania_Railroad_GG_1_obsolete1                           :Uitgediende Pennsylvania Spoorwëe GG-1 (Elektries)
+str_steam_Denmark_DSB_E_obsolete1                                                                       :Uitgediende DSB E (Stoom)
 
 #PURCHASE MENU TEXTS
 str_unit_wagon                          :Hierdie generiese wa kan SLEGS gebruik word met MU om treine van die verlangde lengte te skep

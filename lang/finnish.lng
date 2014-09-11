@@ -7,6 +7,7 @@ STR_GRF_DESCRIPTION             :{SILVER}2cc Trains of the World in NML{}{}(c)2c
 STR_GRF_URL             :https://dev.openttdcoop.org/projects/2ccts
 
 #parameter strings
+#cost parameters
 STR_PARAM_PURCHASE_COST             :Ostohinnan kerroin
 STR_PARAM_PURCHASE_COST_DESC        :Voit käyttää tätä asetusta nostamaan tai laskemaan tämän valikoiman ajoneuvojen ostohintoja.
 STR_PARAM_RUNNING_COST              :Käyttökustannusten kerroin
@@ -21,6 +22,8 @@ STR_PARAM_TIMES_2                   :2
 STR_PARAM_TIMES_4                   :4
 STR_PARAM_TIMES_8                   :8
 STR_PARAM_TIMES_16                  :16
+
+#region parameters
 
 #VEHICLE NAMES
 #Railbus-steam
