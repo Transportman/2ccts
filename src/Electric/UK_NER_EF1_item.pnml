@@ -13,7 +13,7 @@
 item(FEAT_TRAINS, item_electric_UK_NER_EF1) {
     property {
         name: string(str_electric_UK_NER_EF1);
-        REGION(NORTHERN_EUROPE,NOREGION,NOCONCEPT)
+        REGION(NORTHERNEUROPE,NOREGION,NOCONCEPT)
 		
         introduction_date: date(1914,1,1);
         model_life: 30;
