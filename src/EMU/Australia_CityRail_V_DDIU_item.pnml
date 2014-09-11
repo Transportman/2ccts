@@ -13,7 +13,8 @@
 item(FEAT_TRAINS, item_emu_Australia_CityRail_V_DDIU) {
     property {
         name: string(str_emu_Australia_CityRail_V_DDIU);
-        
+        REGION(OCEANIA,NOREGION,NOCONCEPT)
+		
         introduction_date: date(1972,1,1);
         model_life: 25;
         vehicle_life: 25;
@@ -37,8 +38,7 @@ item(FEAT_TRAINS, item_emu_Australia_CityRail_V_DDIU) {
         running_cost_base: RUNNING_COST_STEAM;
         engine_class: ENGINE_CLASS_ELECTRIC;
         visual_effect_and_powered: visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, -3, DISABLE_WAGON_POWER);
-        
-        climates_available: ALL_CLIMATES;
+
         sprite_id: SPRITE_ID_NEW_TRAIN;
         dual_headed: 1;
         length: 8;
