@@ -10,6 +10,8 @@
 * GRF HEADER
 */
 
+//Region file, defines are used in header, so this file is included before that
+#include "src/regions.pnml"
 //define grf
 #include "src/header.pnml"
 //include sprite templates

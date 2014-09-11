@@ -56,6 +56,86 @@ grf {
             };
         }
     }
+	param {
+		CONCEPT {
+			type:	bool;
+			name:	string(STR_PARAM_CONCEPT);
+			desc:	string(STR_PARAM_CONCEPT_DESC);
+			def_value: 1;
+		}
+	}
+	param {
+		AFRICA {
+			type:	bool;
+			name:	string(STR_PARAM_REGION_AFRICA);
+			desc:	string(STR_PARAM_REGION_AFRICA_DESC);
+			def_value: 1;
+		}
+	}
+	param {
+		NORTHAMERICA {
+			type:	bool;
+			name:	string(STR_PARAM_REGION_NORTHAMERICA);
+			desc:	string(STR_PARAM_REGION_NORTHAMERICA_DESC);
+			def_value: 1;
+		}
+	}
+	param {
+		SOUTHAMERICA {
+			type:	bool;
+			name:	string(STR_PARAM_REGION_SOUTHAMERICA);
+			desc:	string(STR_PARAM_REGION_SOUTHAMERICA_DESC);
+			def_value: 1;
+		}
+	}	
+	param {
+		ASIA {
+			type:	bool;
+			name:	string(STR_PARAM_REGION_ASIA);
+			desc:	string(STR_PARAM_REGION_ASIA_DESC);
+			def_value: 1;
+		}
+	}	
+	param {
+		NORTHEUROPE {
+			type:	bool;
+			name:	string(STR_PARAM_REGION_NORTHEUROPE);
+			desc:	string(STR_PARAM_REGION_NORTHEUROPE_DESC);
+			def_value: 1;
+		}
+	}
+	param {
+		EASTEUROPE {
+			type:	bool;
+			name:	string(STR_PARAM_REGION_EASTEUROPE);
+			desc:	string(STR_PARAM_REGION_EASTEUROPE_DESC);
+			def_value: 1;
+		}
+	}	
+	param {
+		SOUTHEUROPE {
+			type:	bool;
+			name:	string(STR_PARAM_REGION_SOUTHEUROPE);
+			desc:	string(STR_PARAM_REGION_SOUTHEUROPE_DESC);
+			def_value: 1;
+		}
+	}
+	param {
+		WESTEUROPE {
+			type:	bool;
+			name:	string(STR_PARAM_REGION_WESTEUROPE);
+			desc:	string(STR_PARAM_REGION_WESTEUROPE_DESC);
+			def_value: 1;
+		}
+	}
+	param {
+		OCEANIA {
+			type:	bool;
+			name:	string(STR_PARAM_REGION_OCEANIA);
+			desc:	string(STR_PARAM_REGION_OCEANIA_DESC);
+			def_value: 1;
+		}
+	}	
 }
 
 //check for OpenTTD and version

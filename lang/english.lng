@@ -6,6 +6,7 @@ STR_GRF_DESCRIPTION		:{SILVER}2cc Trains of the World in NML {}{}(c)2ccts {}Lice
 STR_GRF_URL             :https://dev.openttdcoop.org/projects/2ccts
 
 #parameter strings
+#cost parameters
 STR_PARAM_PURCHASE_COST             :Purchase cost multiplier
 STR_PARAM_PURCHASE_COST_DESC        :You can use this setting to increase or decrease the purchase costs of the vehicles in this set.
 STR_PARAM_RUNNING_COST              :Running cost multiplier
@@ -20,6 +21,28 @@ STR_PARAM_TIMES_2                   :2
 STR_PARAM_TIMES_4                   :4
 STR_PARAM_TIMES_8                   :8
 STR_PARAM_TIMES_16                  :16
+
+#region parameters
+STR_PARAM_CONCEPT					:Concept vehicles
+STR_PARAM_CONCEPT_DESC				:Use concept vehicles
+STR_PARAM_REGION_AFRICA				:Africa
+STR_PARAM_REGION_AFRICA_DESC		:Use vehicles from Africa
+STR_PARAM_REGION_NORTHAMERICA		:North America
+STR_PARAM_REGION_NORTHAMERICA_DESC	:Use vehicles from North America
+STR_PARAM_REGION_SOUTHAMERICA		:South America
+STR_PARAM_REGION_SOUTHAMERICA_DESC	:Use vehicles from South America
+STR_PARAM_REGION_ASIA				:Asia
+STR_PARAM_REGION_ASIA_DESC			:Use vehicles from Asia
+STR_PARAM_REGION_NORTHEUROPE		:Northern Europe
+STR_PARAM_REGION_NORTHEUROPE_DESC	:Use vehicles from Northern Europe
+STR_PARAM_REGION_EASTEUROPE			:Eastern Europe
+STR_PARAM_REGION_EASTEUROPE_DESC	:Use vehicles from Eastern Europe
+STR_PARAM_REGION_SOUTHEUROPE		:Southern Europe
+STR_PARAM_REGION_SOUTHEUROPE_DESC	:Use vehicles from Southern Europe
+STR_PARAM_REGION_WESTEUROPE			:Western Europe
+STR_PARAM_REGION_WESTEUROPE_DESC	:Use vehicles from Western Europe
+STR_PARAM_REGION_OCEANIA			:Oceania
+STR_PARAM_REGION_OCEANIA_DESC		:Use vehicles from Oceania
 
 #VEHICLE NAMES
 #Railbus-steam
