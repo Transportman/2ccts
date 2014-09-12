@@ -340,6 +340,7 @@ str_wagon_Gen2_Tanker                                   :Cisterna, 2a generació
 str_wagon_Gen3_Tanker                                   :Cisterna, 3a generación
 str_wagon_Gen3_Open_Wagon                               :Vagón abierto, 3era Generación
 str_wagon_Gen4_Flatcar                                  :Vagón plano, 4a Generación
+str_wagon_Gen4_Boxcar                                   :Furgon cerrado, 4a Generación
 str_wagon_Gen4_Tanker                                   :Cisterna, 4a generación
 str_wagon_Gen4_Gondola                                  :Góndola, 4a Generación
 str_wagon_Gen5_Flatcar                                  :Vagón plano, 5a Generación
@@ -427,7 +428,7 @@ str_mglv_wagon_powered          :Vagón Maglev (Motorizado)
 str_diesel_USA_UP_EMD_DDA40X_obsolete1                                                          :UP EMD DDA40X, Obsoleto (Diésel)
 str_electric_USA_Pennsylvania_Railroad_FF_1_obsolete1                           :Pennsylvania Railroad FF-1, Obsoleto (Eléctrico)
 str_electric_USA_Milwaukee_Road_EP_2_Bipolar_obsolete1                          :Milwaukee Road EP-2 Bipolar, Obsoleto (Eléctrico)
-str_electric_USA_Pennsylvania_Railroad_GG_1_obsolete1                           :Pennsylvania Railroad FF-1, Obsoleto (Eléctrico)
+str_electric_USA_Pennsylvania_Railroad_GG_1_obsolete1                           :Pennsylvania Railroad GG-1, Obsoleto (Eléctrico)
 
 #PURCHASE MENU TEXTS
 

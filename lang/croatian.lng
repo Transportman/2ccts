@@ -26,6 +26,26 @@ STR_PARAM_TIMES_8                   :8
 STR_PARAM_TIMES_16                  :16
 
 #region parameters
+STR_PARAM_CONCEPT                                               :Konceptualna vozila (moguće u budućnosti, nije još dostupno)
+STR_PARAM_CONCEPT_DESC                                  :Koristite konceptualna vozila (ovaj parametar trenutno nije u funkciji)
+STR_PARAM_REGION_AFRICA                                 :Afrika
+STR_PARAM_REGION_AFRICA_DESC                    :Koristite vozila iz Afrike
+STR_PARAM_REGION_NORTHAMERICA                   :Sjeverna Amerika
+STR_PARAM_REGION_NORTHAMERICA_DESC              :Koristite vozila iz sjeverne Amerike
+STR_PARAM_REGION_SOUTHAMERICA                   :Južna Amerika
+STR_PARAM_REGION_SOUTHAMERICA_DESC              :Koristite vozila iz južne Amerike
+STR_PARAM_REGION_ASIA                                   :Azija
+STR_PARAM_REGION_ASIA_DESC                              :Koristite vozila iz Azije
+STR_PARAM_REGION_NORTHERNEUROPE                 :Sjeverna Europa
+STR_PARAM_REGION_NORTHERNEUROPE_DESC    :Koristite vozila iz sjeverne Europe
+STR_PARAM_REGION_EASTERNEUROPE                  :Istočna Europa
+STR_PARAM_REGION_EASTERNEUROPE_DESC             :Koristite vozila iz istočne Europe
+STR_PARAM_REGION_SOUTHERNEUROPE                 :Južna Europa
+STR_PARAM_REGION_SOUTHERNEUROPE_DESC    :Koristite vozila iz južne Europe
+STR_PARAM_REGION_WESTERNEUROPE                  :Zapadna Europa
+STR_PARAM_REGION_WESTERNEUROPE_DESC             :Koristite vozila iz zapadne Europe
+STR_PARAM_REGION_OCEANIA                                :Oceanija
+STR_PARAM_REGION_OCEANIA_DESC                   :Koristite vozila iz Oceanije
 
 #VEHICLE NAMES
 #Railbus-steam
@@ -476,7 +496,7 @@ str_steam_USA_4_6_0_Ten_wheeler_obsolete1                                       
 str_diesel_USA_UP_EMD_DDA40X_obsolete1                                                          :Zastarjela UP EMD DDA40X (dizel lokomotiva)
 str_electric_USA_Pennsylvania_Railroad_FF_1_obsolete1                           :Zastarjela Pennsylvania Railroad FF-1 (električna lokomotiva)
 str_electric_USA_Milwaukee_Road_EP_2_Bipolar_obsolete1                          :Zastarjela Milwaukee Road EP-2 Bipolar (električna lokomotiva)
-str_electric_USA_Pennsylvania_Railroad_GG_1_obsolete1                           :Zastarjela Pennsylvania Railroad FF-1 (električna lokomotiva)
+str_electric_USA_Pennsylvania_Railroad_GG_1_obsolete1                           :Zastarjela Pennsylvania Railroad GG-1 (električna lokomotiva)
 str_steam_Denmark_DSB_E_obsolete1                                                                       :Zastarjela DSB E (parna lokomotiva)
 
 #PURCHASE MENU TEXTS

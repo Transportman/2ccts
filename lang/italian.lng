@@ -26,6 +26,26 @@ STR_PARAM_TIMES_8                   :8
 STR_PARAM_TIMES_16                  :16
 
 #region parameters
+STR_PARAM_CONCEPT                                               :Veicoli concettuali (caratteristica futura, non ancora disponibile)
+STR_PARAM_CONCEPT_DESC                                  :Usare veicoli concettuali (questo parametro non funziona al momento)
+STR_PARAM_REGION_AFRICA                                 :Africa
+STR_PARAM_REGION_AFRICA_DESC                    :Usare veicoli dall' Africa
+STR_PARAM_REGION_NORTHAMERICA                   :America del Nord
+STR_PARAM_REGION_NORTHAMERICA_DESC              :Usare veicoli dall' America del Nord
+STR_PARAM_REGION_SOUTHAMERICA                   :America del Sud
+STR_PARAM_REGION_SOUTHAMERICA_DESC              :Usare veicoli dall' America del Sud
+STR_PARAM_REGION_ASIA                                   :Asia
+STR_PARAM_REGION_ASIA_DESC                              :Usare veicoli dall' Asia
+STR_PARAM_REGION_NORTHERNEUROPE                 :Europa del Nord
+STR_PARAM_REGION_NORTHERNEUROPE_DESC    :Usare veicoli dall' Europa del Nord
+STR_PARAM_REGION_EASTERNEUROPE                  :Europa del Est
+STR_PARAM_REGION_EASTERNEUROPE_DESC             :Usare veicoli dall' Europa del Est
+STR_PARAM_REGION_SOUTHERNEUROPE                 :Europa del Sud
+STR_PARAM_REGION_SOUTHERNEUROPE_DESC    :Usare veicoli dall' Europa del Sud
+STR_PARAM_REGION_WESTERNEUROPE                  :Europa del Ovest
+STR_PARAM_REGION_WESTERNEUROPE_DESC             :Usare veicoli dall' Europa del Ovest
+STR_PARAM_REGION_OCEANIA                                :Oceania
+STR_PARAM_REGION_OCEANIA_DESC                   :Usare veicoli dall' Oceania
 
 #VEHICLE NAMES
 #Railbus-steam
@@ -390,7 +410,7 @@ str_coach_Gen1_Wooden_2_axle_Compartment_Coach                  :Carrozza di leg
 str_coach_Gen1_Wooden_2_axle_Regional_Coach                     :Carrozza regionale di legno a 2 assi
 str_coach_Gen1_Wooden_2_axle_Mail_Coach                                 :Carrozza postale di legno a 2 assi
 str_coach_Gen1_Clerestory_Compartment_Coach                     :Carrozza con compartimenti e clerestorio
-str_coach_Gen1_Clerestory_Regional_Coach                                :Carroza regionale con cleristorio
+str_coach_Gen1_Clerestory_Regional_Coach                                :Carroza regionale con clerestorio
 str_coach_Gen1_Clerestory_Mail_Coach                                    :Carrozza postale con clerestorio
 str_coach_Gen1_Wooden_3_axle_Compartment_Coach                  :Carrozza di legno a 3 assi con compartimenti
 str_coach_Gen1_Wooden_3_axle_Regional_Coach                     :Carrozza regionale di legno a 3 assi
@@ -476,7 +496,7 @@ str_steam_USA_4_6_0_Ten_wheeler_obsolete1                                       
 str_diesel_USA_UP_EMD_DDA40X_obsolete1                                                          :UP EMD DDA40X antiquata (locomotiva diesel)
 str_electric_USA_Pennsylvania_Railroad_FF_1_obsolete1                           :Pennsylvania Railroad FF-1 antiquata (locomotiva elettrica)
 str_electric_USA_Milwaukee_Road_EP_2_Bipolar_obsolete1                          :Milwaukee Road EP-2 Bipolar antiquata (locomotiva elettrica)
-str_electric_USA_Pennsylvania_Railroad_GG_1_obsolete1                           :Pennsylvania Railroad FF-1 antiquata (locomotiva elettrica)
+str_electric_USA_Pennsylvania_Railroad_GG_1_obsolete1                           :Pennsylvania Railroad GG-1 antiquata (locomotiva elettrica)
 str_steam_Denmark_DSB_E_obsolete1                                                                       :DSB E antiquata (locomotiva a vapore)
 
 #PURCHASE MENU TEXTS
