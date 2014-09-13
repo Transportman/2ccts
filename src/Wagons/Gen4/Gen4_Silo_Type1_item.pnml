@@ -10,20 +10,20 @@
 * ITEM
 */
 
-item(FEAT_TRAINS, item_wagon_Gen3_Silo) {
+item(FEAT_TRAINS, item_wagon_Gen4_Silo_Type1) {
     property {
-        name: string(str_wagon_Gen3_Silo);
+        name: string(str_wagon_Gen4_Silo_Type1);
         
-        introduction_date: date(1930,1,1);
-        model_life: 40;
+        introduction_date: date(1950,1,1);
+        model_life: 60;
         vehicle_life: 25;
         loading_speed: 10;
-        cost_factor: 32;
-        running_cost_factor: 32;
-        speed: 100 km/h;
+        cost_factor: 62;
+        running_cost_factor: 62;
+        speed: 120 km/h;
         power: 0 hp;
-        cargo_capacity: 40;
-        weight: 47 ton;
+        cargo_capacity: 50;
+        weight: 55 ton;
         tractive_effort_coefficient: 0.3;
         air_drag_coefficient: 0;
         
@@ -41,12 +41,12 @@ item(FEAT_TRAINS, item_wagon_Gen3_Silo) {
         climates_available: ALL_CLIMATES;
         sprite_id: SPRITE_ID_NEW_TRAIN;
         dual_headed: 0;
-        length: 6;
+        length: 7;
         extra_power_per_wagon: 0;
         bitmask_vehicle_info: 0;
 	}
 	graphics {
-		purchase: spriteset_wagon_Gen3_Silo_purchase;
-		switch_wagon_Gen3_Silo_livery;
+		purchase: spriteset_wagon_Gen4_Silo_Type1_purchase;
+		switch_wagon_Gen4_Silo_Type1_livery;
 	}	
 }

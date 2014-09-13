@@ -10,9 +10,9 @@
 * ITEM
 */
 
-item(FEAT_TRAINS, item_wagon_Gen5_Hopper) {
+item(FEAT_TRAINS, item_wagon_Gen5_Hopper_Type1) {
     property {
-        name: string(str_wagon_Gen5_Hopper);
+        name: string(str_wagon_Gen5_Hopper_Type1);
         
         introduction_date: date(2000,1,1);
         model_life: VEHICLE_NEVER_EXPIRES;
@@ -46,7 +46,7 @@ item(FEAT_TRAINS, item_wagon_Gen5_Hopper) {
         bitmask_vehicle_info: 0;
 	}
 	graphics {
-		purchase: spriteset_wagon_Gen5_Hopper_purchase;
-		switch_wagon_Gen5_Hopper_cargo_selection;
+		purchase: spriteset_wagon_Gen5_Hopper_Type1_purchase;
+		switch_wagon_Gen5_Hopper_Type1_cargo_selection;
 	}	
 }

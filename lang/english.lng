@@ -364,11 +364,11 @@ str_mglv_Japan_MLX01_901	:JR MLX01-901 (Maglev)
 
 #wagons
 str_wagon_Gen1_Flat_Wagon 				:1st Gen Flat Wagon
-str_wagon_Gen1_Boxcar 					:1st Gen Wooden Box Van
+str_wagon_Gen1_Boxcar					:1st Gen Wooden Box Van
 str_wagon_Gen1_Tanker 					:1st Gen Tanker
 str_wagon_Gen1_Open_Wagon 				:1st Gen Wooden Open Wagon
 str_wagon_Gen2_Flat_Wagon 				:2nd Gen Flat Wagon
-str_wagon_Gen2_Boxcar 					:2nd Gen Wooden Box Van
+str_wagon_Gen2_Boxcar_Type1				:2nd Gen Wooden Box Van (Type 1)
 str_wagon_Gen2_Tanker 					:2nd Gen Tanker
 str_wagon_Gen2_Open_Wagon 				:2nd Gen Wooden Open Wagon
 str_wagon_Gen2_Silo 					:2nd Gen Silo
@@ -377,25 +377,25 @@ str_wagon_Gen3_Flat_Wagon 				:3rd Gen Flat Wagon
 str_wagon_Gen3_Boxcar 					:3rd Gen Wooden Boxcar
 str_wagon_Gen3_Tanker 					:3rd Gen Tanker
 str_wagon_Gen3_Open_Wagon 				:3rd Gen Open Wagon
-str_wagon_Gen3_Silo 					:3rd Gen Silo
+str_wagon_Gen3_Silo_Type1				:3rd Gen Silo (Type 1)
 str_wagon_Gen3_Hopper 					:3rd Gen Hopper
 str_wagon_Gen4_Flatcar 					:4th Gen Flatcar
 str_wagon_Gen4_Heavy_Flatcar 			:4th Gen Heavy Flatcar
 str_wagon_Gen4_Boxcar 					:4th Gen Boxcar
 str_wagon_Gen4_Tanker 					:4th Gen Tanker
 str_wagon_Gen4_Gondola 					:4th Gen Gondola
-str_wagon_Gen4_Silo 					:4th Gen Silo
-str_wagon_Gen4_Hopper 					:4th Gen Self-discharging Hopper
+str_wagon_Gen4_Silo_Type1				:4th Gen Silo (Type 1)
+str_wagon_Gen4_Hopper_Type1				:4th Gen Self-discharging Hopper (Type 1)
 str_wagon_Gen4_Car_Transporter 			:4th Gen Car Transporter
 str_wagon_Gen4_Container_Carrier 		:4th Gen Container Carrier
 str_wagon_Gen4_Centerbeam 				:4th Gen Centerbeam Flatcar
 str_wagon_Gen5_Flatcar 					:5th Gen Flatcar
 str_wagon_Gen5_Heavy_Flatcar 			:5th Gen Heavy Flatcar
-str_wagon_Gen5_Boxcar 					:5th Gen Boxcar
+str_wagon_Gen5_Boxcar_Type1				:5th Gen Boxcar (Type 1)
 str_wagon_Gen5_Tanker 					:5th Gen Tanker
 str_wagon_Gen5_Gondola 					:5th Gen Gondola
-str_wagon_Gen5_Silo 					:5th Gen Silo
-str_wagon_Gen5_Hopper 					:5th Gen Self-discharging Hopper
+str_wagon_Gen5_Silo_Type1				:5th Gen Silo (Type 1)
+str_wagon_Gen5_Hopper_Type1				:5th Gen Self-discharging Hopper (Type 1)
 str_wagon_Gen5_Car_Transporter 			:5th Gen Car Transporter
 str_wagon_Gen5_Container_Carrier 		:5th Gen Container Carrier
 str_wagon_Gen5_Centerbeam 				:5th Gen Centerbeam Flatcar
