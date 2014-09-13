@@ -425,6 +425,8 @@ str_mtro_wagon_powered          :Vagón de metro (Motorizado)
 str_mglv_wagon_powered          :Vagón Maglev (Motorizado)
 
 #obsolete vehicles
+str_mtro_USA_Chicago_L_Northwest_Elevated_1907_Stock_obsolete1          :Chicago L Northwest Elevated 1907 Stock, Obsoleto (Metro)
+str_mtro_Germany_Berlin_U_Bahn_C_II_obsolete1                                           :Berlin U-Bahn C II, Obsoleto (Metro)
 str_diesel_USA_UP_EMD_DDA40X_obsolete1                                                          :UP EMD DDA40X, Obsoleto (Diésel)
 str_electric_USA_Pennsylvania_Railroad_FF_1_obsolete1                           :Pennsylvania Railroad FF-1, Obsoleto (Eléctrico)
 str_electric_USA_Milwaukee_Road_EP_2_Bipolar_obsolete1                          :Milwaukee Road EP-2 Bipolar, Obsoleto (Eléctrico)
