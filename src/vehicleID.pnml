@@ -454,6 +454,13 @@ item(FEAT_TRAINS, item_wagon_Gen5_Container_Carrier, 12034) {}
 item(FEAT_TRAINS, item_wagon_Gen5_Centerbeam, 12035) {}
 item(FEAT_TRAINS, item_wagon_Gen5_Container_Doublestack, 12036) {}
 item(FEAT_TRAINS, item_wagon_Gen5_Superheavy_Flatcar, 12037) {}
+item(FEAT_TRAINS, item_wagon_Gen2_Boxcar_Type2, 12038) {}
+item(FEAT_TRAINS, item_wagon_Gen3_Silo_Type2, 12039) {}
+item(FEAT_TRAINS, item_wagon_Gen4_Silo_Type2, 12040) {}
+item(FEAT_TRAINS, item_wagon_Gen4_Hopper_Type2, 12041) {}
+item(FEAT_TRAINS, item_wagon_Gen5_Boxcar_Type2, 12042) {}
+item(FEAT_TRAINS, item_wagon_Gen5_Silo_Type2, 12043) {}
+item(FEAT_TRAINS, item_wagon_Gen5_Hopper_Type2, 12044) {}
 
 //Unit Wagons, available ID range: 13000-13999 (hex 0x32C8..0x36AF)
 #define ID_RANGE_UNIT_WAGONS 0x32C8..0x36AF
