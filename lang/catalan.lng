@@ -370,7 +370,8 @@ str_wagon_Gen1_Boxcar                                   :Furgó de Fusta de 1a G
 str_wagon_Gen1_Tanker                                   :Vagó Cisterna de 1a Generació
 str_wagon_Gen1_Open_Wagon                               :Vagó Obert de Fusta de 1a Generació
 str_wagon_Gen2_Flat_Wagon                               :Vagó Plataforma de 2a Generació
-str_wagon_Gen2_Boxcar                                   :Furgó de Fusta de 2a Generació
+str_wagon_Gen2_Boxcar_Type1                             :Furgó de Fusta de 2a Generació (Tipus 1)
+str_wagon_Gen2_Boxcar_Type2                             :Furgó de Fusta de 2a Generació (Tipus 2)
 str_wagon_Gen2_Tanker                                   :Vagó Cisterna de 2a Generació
 str_wagon_Gen2_Open_Wagon                               :Vagó Obert de Fusta de 2a Generació
 str_wagon_Gen2_Silo                                     :Vagó Sitja de 2a Generació
@@ -379,30 +380,39 @@ str_wagon_Gen3_Flat_Wagon                               :Vagó Plataforma de 3a 
 str_wagon_Gen3_Boxcar                                   :Furgó de Fusta de 3a Generació
 str_wagon_Gen3_Tanker                                   :Vagó Cisterna de 3a Generació
 str_wagon_Gen3_Open_Wagon                               :Vagó Obert de 3a Generació
-str_wagon_Gen3_Silo                                     :Vagó Sitja de 3a Generació
+str_wagon_Gen3_Silo_Type1                               :Vagó Sitja de 3a Generació (Tipus 1)
+str_wagon_Gen3_Silo_Type2                               :Vagó Sitja de 3a Generació (Tipus 2)
 str_wagon_Gen3_Hopper                                   :Vagó Tremuja de 3a Generació
 str_wagon_Gen4_Flatcar                                  :Vagó Plataforma de 4a Generació
 str_wagon_Gen4_Heavy_Flatcar                    :Vagó Plataforma Pesant de 4a Generació
 str_wagon_Gen4_Boxcar                                   :Furgó de 4a Generació
 str_wagon_Gen4_Tanker                                   :Vagó Cisterna de 4a Generació
 str_wagon_Gen4_Gondola                                  :Vagó Obert de 4a Generació
-str_wagon_Gen4_Silo                                     :Vagó Sitja de 4a Generació
-str_wagon_Gen4_Hopper                                   :Vagó Tremuja Autodescàrregable de 4a Generació
+str_wagon_Gen4_Silo_Type1                               :Vagó Sitja de 4a Generació (Tipus 1)
+str_wagon_Gen4_Silo_Type2                               :Vagó Sitja de 4a Generació (Tipus 2)
+str_wagon_Gen4_Hopper_Type1                             :Vagó Tremuja amb Autodescàrrega de 4a Generació (Tipus 1)
+str_wagon_Gen4_Hopper_Type2                             :Vagó Tremuja amb Autodescàrrega de 4a Generació (Tipus 2)
 str_wagon_Gen4_Car_Transporter                  :Vagó Portacotxes de 4a Generació
 str_wagon_Gen4_Container_Carrier                :Vagó de Contenidors de 4a Generació
 str_wagon_Gen4_Centerbeam                               :Vagó Plataforma de 4a Generació (Centerbeam)
 str_wagon_Gen5_Flatcar                                  :Vagó Plataforma de 5a Generació
 str_wagon_Gen5_Heavy_Flatcar                    :Vagó Plataforma Pesant de 5a Generació
-str_wagon_Gen5_Boxcar                                   :Furgó de 5a Generació
+str_wagon_Gen5_Boxcar_Type1                             :Furgó de 5a Generació (Tipus 1)
+str_wagon_Gen5_Boxcar_Type2                             :Furgó de 5a Generació (Tipus 2)
 str_wagon_Gen5_Tanker                                   :Vagó Cisterna de 5a Generació
 str_wagon_Gen5_Gondola                                  :Vagó Obert de 5a Generació
-str_wagon_Gen5_Silo                                     :Vagó Sitja de 5a Generació
-str_wagon_Gen5_Hopper                                   :Vagó Tremuja Autodescàrregable de 5a Generació
+str_wagon_Gen5_Silo_Type1                               :Vagó Sitja de 5a Generació (Tipus 1)
+str_wagon_Gen5_Silo_Type2                               :Vagó Sitja de 5a Generació (Tipus 2)
+str_wagon_Gen5_Hopper_Type1                             :Vagó Tremuja amb Autodescàrrega de 5a Generació (Tipus 1)
+str_wagon_Gen5_Hopper_Type2                             :Vagó Tremuja amb Autodescàrrega de 5a Generació (Tipus 2)
 str_wagon_Gen5_Car_Transporter                  :Vagó Portacotxes de 5a Generació
 str_wagon_Gen5_Container_Carrier                :Vagó de Contenidors de 5a Generació
 str_wagon_Gen5_Centerbeam                               :Vagó Plataforma de 5a Generació (Centerbeam)
 str_wagon_Gen5_Container_Doublestack    :Vagó de Contenidors Apilats de 5a Generació
 str_wagon_Gen5_Superheavy_Flatcar               :Vagó Plataforma Superpesant de 5a Generació
+
+str_wagon_Service_Car_Type1                             :Cotxe de Servei (Tipus 1)
+str_wagon_Service_Car_Type2                             :Cotxe de Servei (Tipus 2)
 
 #coaches
 str_coach_Gen1_Wooden_2_axle_Compartment_Coach                  :Vagó amb Compartiments de Fusta amb 2 Eixos

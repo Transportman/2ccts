@@ -318,7 +318,6 @@ str_wagon_Gen1_Boxcar                                   :1세대 목제 유개�
 str_wagon_Gen1_Tanker                                   :1세대 유조차
 str_wagon_Gen1_Open_Wagon                               :1세대 목제 무개화차
 str_wagon_Gen2_Flat_Wagon                               :2세대 평판화차
-str_wagon_Gen2_Boxcar                                   :2세대 목제 유개화차
 str_wagon_Gen2_Tanker                                   :2세대 유조차
 str_wagon_Gen2_Open_Wagon                               :2세대 목재 무개화차
 str_wagon_Gen2_Silo                                     :2세대 곡물화차
@@ -327,30 +326,25 @@ str_wagon_Gen3_Flat_Wagon                               :3세대 평판화차
 str_wagon_Gen3_Boxcar                                   :3세대 목제 유개화차
 str_wagon_Gen3_Tanker                                   :3세대 유조차
 str_wagon_Gen3_Open_Wagon                               :3세대 무개화차
-str_wagon_Gen3_Silo                                     :3세대 곡물화차
 str_wagon_Gen3_Hopper                                   :3세대 호퍼차
 str_wagon_Gen4_Flatcar                                  :4세대 평판화차
 str_wagon_Gen4_Heavy_Flatcar                    :4세대 중량 평판화차
 str_wagon_Gen4_Boxcar                                   :4세대 유개화차
 str_wagon_Gen4_Tanker                                   :4세대 유조차
 str_wagon_Gen4_Gondola                                  :4세대 곤돌라
-str_wagon_Gen4_Silo                                     :4세대 곡물화차
-str_wagon_Gen4_Hopper                                   :4세대 자체방전 호퍼차
 str_wagon_Gen4_Car_Transporter                  :4세대 자동차 수송차량
 str_wagon_Gen4_Container_Carrier                :4세대 컨테이너 화차
 str_wagon_Gen4_Centerbeam                               :4세대 구획평판화차
 str_wagon_Gen5_Flatcar                                  :5세대 평판화차
 str_wagon_Gen5_Heavy_Flatcar                    :5세대 중량 평판화차
-str_wagon_Gen5_Boxcar                                   :5세대 유개화차
 str_wagon_Gen5_Tanker                                   :5세대 유조차
 str_wagon_Gen5_Gondola                                  :5세대 무개화차
-str_wagon_Gen5_Silo                                     :5세대 곡물화차
-str_wagon_Gen5_Hopper                                   :5세대 자체방전 호퍼차
 str_wagon_Gen5_Car_Transporter                  :5세대 차량수송화차
 str_wagon_Gen5_Container_Carrier                :5세대 컨테이너 화차
 str_wagon_Gen5_Centerbeam                               :5세대 구획평판화차
 str_wagon_Gen5_Container_Doublestack    :5세대 컨테이너 복화차
 str_wagon_Gen5_Superheavy_Flatcar               :5세대 초중량 평판화차
+
 
 #coaches
 str_coach_Gen1_Wooden_2_axle_Compartment_Coach                  :목제 2차축 객차

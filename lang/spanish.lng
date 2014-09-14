@@ -25,6 +25,8 @@ STR_PARAM_TIMES_8                   :8
 STR_PARAM_TIMES_16                  :16
 
 #region parameters
+STR_PARAM_REGION_AFRICA_DESC                    :Usar vehículos de África
+STR_PARAM_REGION_ASIA_DESC                              :Usar vehículos de Asia
 
 #VEHICLE NAMES
 #Railbus-steam
@@ -345,10 +347,10 @@ str_wagon_Gen4_Tanker                                   :Cisterna, 4a generació
 str_wagon_Gen4_Gondola                                  :Góndola, 4a Generación
 str_wagon_Gen5_Flatcar                                  :Vagón plano, 5a Generación
 str_wagon_Gen5_Heavy_Flatcar                    :Vagón plano pesado, 5a Generación
-str_wagon_Gen5_Boxcar                                   :Furgon cerrado, 5a Generación
 str_wagon_Gen5_Tanker                                   :Cisterna, 5a generación
 str_wagon_Gen5_Gondola                                  :Góndola, 5a Generación
 str_wagon_Gen5_Superheavy_Flatcar               :Vagón plano superpesado, 5a Generación
+
 
 #coaches
 str_coach_Gen1_Wooden_2_axle_Compartment_Coach                  :Vagón de compartimentos, madera y 2 ejes

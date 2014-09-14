@@ -345,7 +345,6 @@ str_wagon_Gen1_Boxcar                                   :1. sukupolven puinen ka
 str_wagon_Gen1_Tanker                                   :1. sukupolven säiliövaunu
 str_wagon_Gen1_Open_Wagon                               :1. sukupolven puinen lavavaunu
 str_wagon_Gen2_Flat_Wagon                               :2. sukupolven avolavavaunu
-str_wagon_Gen2_Boxcar                                   :2. sukupolven puinen katettu tavaravaunu
 str_wagon_Gen2_Tanker                                   :2. sukupolven säiliövaunu
 str_wagon_Gen2_Open_Wagon                               :2. sukupolven puinen lavavaunu
 str_wagon_Gen2_Silo                                     :2. sukupolven siilovaunu
@@ -354,30 +353,25 @@ str_wagon_Gen3_Flat_Wagon                               :3. sukupolven avolavava
 str_wagon_Gen3_Boxcar                                   :3. sukupolven puinen katettu tavaravaunu
 str_wagon_Gen3_Tanker                                   :3. sukupolven säiliövaunu
 str_wagon_Gen3_Open_Wagon                               :3. sukupolven lavavaunu
-str_wagon_Gen3_Silo                                     :3. sukupolven siilovaunu
 str_wagon_Gen3_Hopper                                   :3. sukupolven suppilovaunu
 str_wagon_Gen4_Flatcar                                  :4. sukupolven avolavavaunu
 str_wagon_Gen4_Heavy_Flatcar                    :4. sukupolven raskas avolavavaunu
 str_wagon_Gen4_Boxcar                                   :4. sukupolven katettu tavaravaunu
 str_wagon_Gen4_Tanker                                   :4. sukupolven säiliövaunu
 str_wagon_Gen4_Gondola                                  :4. sukupolven gondolivaunu
-str_wagon_Gen4_Silo                                     :4. sukupolven siilovaunu
-str_wagon_Gen4_Hopper                                   :4. sukupolven itsestääntyhjentyvä suppilovaunu
 str_wagon_Gen4_Car_Transporter                  :4. sukupolven autonkuljetusvaunu
 str_wagon_Gen4_Container_Carrier                :4. sukupolven konttivaunu
 str_wagon_Gen4_Centerbeam                               :4. sukupolven keskilaitavaunu
 str_wagon_Gen5_Flatcar                                  :5. sukupolven avolavavaunu
 str_wagon_Gen5_Heavy_Flatcar                    :5. sukupolven raskas avolavavaunu
-str_wagon_Gen5_Boxcar                                   :5. sukupolven katettu tavaravaunu
 str_wagon_Gen5_Tanker                                   :5. sukupolven säiliövaunu
 str_wagon_Gen5_Gondola                                  :5. sukupolven gondolivaunu
-str_wagon_Gen5_Silo                                     :5. sukupolven siilovaunu
-str_wagon_Gen5_Hopper                                   :5. sukupolven itsestääntyhjentyvä suppilovaunu
 str_wagon_Gen5_Car_Transporter                  :5. sukupolven autonkuljetusvaunu
 str_wagon_Gen5_Container_Carrier                :5. sukupolven konttivaunu
 str_wagon_Gen5_Centerbeam                               :5. sukupolven keskilaitavaunu
 str_wagon_Gen5_Container_Doublestack    :5. sukupolven kerroskonttivaunu
 str_wagon_Gen5_Superheavy_Flatcar               :5. sukupolven superraskas avolavavaunu
+
 
 #coaches
 str_coach_Gen1_Wooden_2_axle_Compartment_Coach                  :Puinen 2-akselinen osastollinen matkustajavaunu
