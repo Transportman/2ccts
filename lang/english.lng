@@ -409,6 +409,9 @@ str_wagon_Gen5_Centerbeam 				:5th Gen Centerbeam Flatcar
 str_wagon_Gen5_Container_Doublestack 	:5th Gen Container Doublestack
 str_wagon_Gen5_Superheavy_Flatcar 		:5th Gen Superheavy Flatcar
 
+str_wagon_Service_Car_Type1				:Service Car (Type 1)
+str_wagon_Service_Car_Type2				:Service Car (Type 2)
+
 #coaches
 str_coach_Gen1_Wooden_2_axle_Compartment_Coach 			:Wooden 2-axle Compartment Coach
 str_coach_Gen1_Wooden_2_axle_Regional_Coach 			:Wooden 2-axle Regional Coach

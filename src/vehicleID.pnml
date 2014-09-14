@@ -461,6 +461,8 @@ item(FEAT_TRAINS, item_wagon_Gen4_Hopper_Type2, 12041) {}
 item(FEAT_TRAINS, item_wagon_Gen5_Boxcar_Type2, 12042) {}
 item(FEAT_TRAINS, item_wagon_Gen5_Silo_Type2, 12043) {}
 item(FEAT_TRAINS, item_wagon_Gen5_Hopper_Type2, 12044) {}
+item(FEAT_TRAINS, item_wagon_Service_Car_Type1, 12045) {}
+item(FEAT_TRAINS, item_wagon_Service_Car_Type2, 12046) {}
 
 //Unit Wagons, available ID range: 13000-13999 (hex 0x32C8..0x36AF)
 #define ID_RANGE_UNIT_WAGONS 0x32C8..0x36AF

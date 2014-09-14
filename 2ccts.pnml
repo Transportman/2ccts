@@ -894,6 +894,11 @@
 #include "src/Wagons/Gen5/Gen5_Superheavy_Flatcar_graphics.pnml"
 #include "src/Wagons/Gen5/Gen5_Superheavy_Flatcar_item.pnml"
 
+#include "src/Wagons/Service_Car/Service_Car_Type1_graphics.pnml"
+#include "src/Wagons/Service_Car/Service_Car_Type1_item.pnml"
+#include "src/Wagons/Service_Car/Service_Car_Type2_graphics.pnml"
+#include "src/Wagons/Service_Car/Service_Car_Type2_item.pnml"
+
 //Obsolete Vehicles
 #include "src/Obsolete/Steam/USA_4_4_0_American_obsolete1_graphics.pnml"
 #include "src/Obsolete/Steam/USA_4_4_0_American_obsolete1_item.pnml"

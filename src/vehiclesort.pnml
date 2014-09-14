@@ -447,7 +447,9 @@ item_wagon_Gen5_Car_Transporter, /*Year: 2000*/ \
 item_wagon_Gen5_Container_Carrier, /*Year: 1990*/ \
 item_wagon_Gen5_Centerbeam, /*Year: 1990*/ \
 item_wagon_Gen5_Container_Doublestack, /*Year: 1980*/ \
-item_wagon_Gen5_Superheavy_Flatcar, /*Year: 1990*/
+item_wagon_Gen5_Superheavy_Flatcar, /*Year: 1990*/ \
+item_wagon_Service_Car_Type1, /*Year: 1660*/ \
+item_wagon_Service_Car_Type2, /*Year: 1660*/
 
 #define SORTING_SPECIAL \
 item_mu_wagon_unpowered, \
