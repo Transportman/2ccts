@@ -371,6 +371,8 @@ str_wagon_Gen1_Boxcar                                   :Drveni zatvoreni vagon 
 str_wagon_Gen1_Tanker                                   :Vagon cisterna 1. generacije
 str_wagon_Gen1_Open_Wagon                               :Drveni otvoreni vagon 1. generacije
 str_wagon_Gen2_Flat_Wagon                               :Plato-vagon 2. generacije
+str_wagon_Gen2_Boxcar_Type1                             :Drveni zatvoreni vagon 2. generacije (Tip 1)
+str_wagon_Gen2_Boxcar_Type2                             :Drveni zatvoreni vagon 2. generacije (Tip 2)
 str_wagon_Gen2_Tanker                                   :Vagon cisterna 2. generacije
 str_wagon_Gen2_Open_Wagon                               :Drveni otvoreni vagon 2. generacije
 str_wagon_Gen2_Silo                                     :Vagon-silos 2. generacije
@@ -379,25 +381,39 @@ str_wagon_Gen3_Flat_Wagon                               :Plato-vagon 3. generaci
 str_wagon_Gen3_Boxcar                                   :Drveni zatvoreni vagon 3. generacije
 str_wagon_Gen3_Tanker                                   :Vagon cisterna 3. generacije
 str_wagon_Gen3_Open_Wagon                               :Otvoreni vagon 3. generacije
+str_wagon_Gen3_Silo_Type1                               :Vagon-silos 3. generacije (Tip 1)
+str_wagon_Gen3_Silo_Type2                               :Vagon-silos 3. generacije (Tip 2)
 str_wagon_Gen3_Hopper                                   :Vagon za rasuti teret 3. generacije
 str_wagon_Gen4_Flatcar                                  :Plato-vagon 4. generacije
 str_wagon_Gen4_Heavy_Flatcar                    :Teški plato-vagon 4. generacije
 str_wagon_Gen4_Boxcar                                   :Zatvoreni vagon 4. generacije
 str_wagon_Gen4_Tanker                                   :Vagon cisterna 4. generacije
 str_wagon_Gen4_Gondola                                  :Vagon-gondola 4. generacije
+str_wagon_Gen4_Silo_Type1                               :Vagon-silos 4. generacije (Tip 1)
+str_wagon_Gen4_Silo_Type2                               :Vagon-silos 4. generacije (Tip 2)
+str_wagon_Gen4_Hopper_Type1                             :Samoistovarujući vagon za rasuti teret 4. generacije (Tip 1)
+str_wagon_Gen4_Hopper_Type2                             :Samoistovarujući vagon za rasuti teret 4. generacije (Tip 2)
 str_wagon_Gen4_Car_Transporter                  :Nosač automobila 4. generacije
 str_wagon_Gen4_Container_Carrier                :Vagon za kontejnere 4. generacije
 str_wagon_Gen4_Centerbeam                               :Plato-vagon sa središnjim zidom 4. generacije
 str_wagon_Gen5_Flatcar                                  :Plato-vagon 5. generacije
 str_wagon_Gen5_Heavy_Flatcar                    :Teški plato-vagon 5. generacije
+str_wagon_Gen5_Boxcar_Type1                             :Zatvoreni vagon 5. generacije (Tip 1)
+str_wagon_Gen5_Boxcar_Type2                             :Zatvoreni vagon 5. generacije (Tip 2)
 str_wagon_Gen5_Tanker                                   :Vagon cisterna 5. generacije
 str_wagon_Gen5_Gondola                                  :Vagon-gondola 5. generacije
+str_wagon_Gen5_Silo_Type1                               :Vagon-silos 5. generacije (Tip 1)
+str_wagon_Gen5_Silo_Type2                               :Vagon-silos 5. generacije (Tip 2)
+str_wagon_Gen5_Hopper_Type1                             :Samoistovarujući vagon za rasuti teret 5. generacije (Tip 1)
+str_wagon_Gen5_Hopper_Type2                             :Samoistovarujući vagon za rasuti teret 5. generacije (Tip 2)
 str_wagon_Gen5_Car_Transporter                  :Nosač automobila 5. generacije
 str_wagon_Gen5_Container_Carrier                :Vagon za kontejnere 5. generacije
 str_wagon_Gen5_Centerbeam                               :Plato-vagon sa središnjim zidom 5. generacije
 str_wagon_Gen5_Container_Doublestack    :Vagon za kontejnere na kat 5. generacije
 str_wagon_Gen5_Superheavy_Flatcar               :Superteški plato-vagon 5. generacije
 
+str_wagon_Service_Car_Type1                             :Servisni vagon (Tip 1)
+str_wagon_Service_Car_Type2                             :Servisni vagon (Tip 2)
 
 #coaches
 str_coach_Gen1_Wooden_2_axle_Compartment_Coach                  :Drveni dvoosovinski vagon za putnike sa kupeima

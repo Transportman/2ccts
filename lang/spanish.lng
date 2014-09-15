@@ -26,7 +26,9 @@ STR_PARAM_TIMES_16                  :16
 
 #region parameters
 STR_PARAM_REGION_AFRICA_DESC                    :Usar vehículos de África
+STR_PARAM_REGION_NORTHAMERICA_DESC              :Usar vehículos de América del Norte
 STR_PARAM_REGION_ASIA_DESC                              :Usar vehículos de Asia
+STR_PARAM_REGION_EASTERNEUROPE_DESC             :Usar vehículos de Europa del Este
 
 #VEHICLE NAMES
 #Railbus-steam
