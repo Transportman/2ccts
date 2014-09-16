@@ -13,7 +13,8 @@
 item(FEAT_TRAINS, item_coach_Gen2_Steel_3_axle_Compartment_Coach) {
     property {
         name: string(str_coach_Gen2_Steel_3_axle_Compartment_Coach);
-        
+        REGION(REGIONTYPE1,OCEANIA,NOCONCEPT)
+		
         introduction_date: date(1920,1,1);
         model_life: 30;
         vehicle_life: 25;
@@ -38,7 +39,6 @@ item(FEAT_TRAINS, item_coach_Gen2_Steel_3_axle_Compartment_Coach) {
         engine_class: ENGINE_CLASS_DIESEL;
         visual_effect_and_powered: visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
         
-        climates_available: ALL_CLIMATES;
         sprite_id: SPRITE_ID_NEW_TRAIN;
         dual_headed: 0;
         length: 6;

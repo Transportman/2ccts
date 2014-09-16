@@ -13,7 +13,8 @@
 item(FEAT_TRAINS, item_coach_Gen6_Speedmail_Coach) {
     property {
         name: string(str_coach_Gen6_Speedmail_Coach);
-        
+        REGION(ALLREGION,NOREGION,NOCONCEPT)
+		
         introduction_date: date(2030,1,1);
         model_life: VEHICLE_NEVER_EXPIRES;
         vehicle_life: 25;
@@ -37,8 +38,7 @@ item(FEAT_TRAINS, item_coach_Gen6_Speedmail_Coach) {
         running_cost_base: RUNNING_COST_DIESEL;
         engine_class: ENGINE_CLASS_DIESEL;
         visual_effect_and_powered: visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
-        
-        climates_available: ALL_CLIMATES;
+
         sprite_id: SPRITE_ID_NEW_TRAIN;
         dual_headed: 0;
         length: 8;
