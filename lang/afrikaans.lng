@@ -368,6 +368,7 @@ str_wagon_Gen1_Boxcar                                   :1ste Gen Hout Boks Wa
 str_wagon_Gen1_Tanker                                   :1ste Gen Tenkwa
 str_wagon_Gen1_Open_Wagon                               :1ste Gen Hout Oop Wa
 str_wagon_Gen2_Flat_Wagon                               :2de Gen Plat Wa
+str_wagon_Gen2_Boxcar_Type1                             :2de Gen Hout Boks Wa (Type 1)
 str_wagon_Gen2_Tanker                                   :2de Gen Tenkwa
 str_wagon_Gen2_Open_Wagon                               :2de Gen Hout Oop Wa
 str_wagon_Gen2_Silo                                     :2de Gen Silo
@@ -376,25 +377,32 @@ str_wagon_Gen3_Flat_Wagon                               :3de Gen Plat Wa
 str_wagon_Gen3_Boxcar                                   :3de Gen Hout Boks Wa
 str_wagon_Gen3_Tanker                                   :3de Gen Tenkwa
 str_wagon_Gen3_Open_Wagon                               :3de Gen Oop Wa
+str_wagon_Gen3_Silo_Type1                               :3de Gen Silo (Tipe 1)
 str_wagon_Gen3_Hopper                                   :3de Gen Laai Bak
 str_wagon_Gen4_Flatcar                                  :4de Gen Plat Wa
 str_wagon_Gen4_Heavy_Flatcar                    :4de Gen Swaar Plat Wa
 str_wagon_Gen4_Boxcar                                   :4de Gen Boks Wa
 str_wagon_Gen4_Tanker                                   :4de Gen Tenkwa
 str_wagon_Gen4_Gondola                                  :4de Gen Gondola
+str_wagon_Gen4_Silo_Type1                               :4de Gen Silo (Tipe 1)
+str_wagon_Gen4_Silo_Type2                               :4de Gen Silo (Tipe 2)
 str_wagon_Gen4_Car_Transporter                  :4de Gen Motorkar Vervoerder
 str_wagon_Gen4_Container_Carrier                :4de Gen Boks Vervoerder
 str_wagon_Gen4_Centerbeam                               :4de Gen 'Centerbeam' Plat Wa
 str_wagon_Gen5_Flatcar                                  :5de Gen Plat Wa
 str_wagon_Gen5_Heavy_Flatcar                    :5de Gen Swaar Plat Wa
+str_wagon_Gen5_Boxcar_Type1                             :5de Gen Bokskar (Tipe 1)
 str_wagon_Gen5_Tanker                                   :5de Gen Tenkwa
 str_wagon_Gen5_Gondola                                  :5de Gen Gondola
+str_wagon_Gen5_Silo_Type1                               :5de Gen Silo (Tipe 1)
+str_wagon_Gen5_Silo_Type2                               :5de Gen Silo (Tipe 2)
 str_wagon_Gen5_Car_Transporter                  :5de Gen Motorkar Vervoerder
 str_wagon_Gen5_Container_Carrier                :5de Gen Boks Vervoerder
 str_wagon_Gen5_Centerbeam                               :5de Gen 'Centerbeam' Plat Wa
 str_wagon_Gen5_Container_Doublestack    :5de Gen Boks 'Doublestack'
 str_wagon_Gen5_Superheavy_Flatcar               :5de Gen Superheavy Plat Wa
 
+str_wagon_Service_Car_Type2                             :Diens Kar (Tipe 2)
 
 #coaches
 str_coach_Gen1_Wooden_2_axle_Compartment_Coach                  :Hout 2-as Kompartement Rytuig
