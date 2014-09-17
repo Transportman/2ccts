@@ -14,6 +14,8 @@
 #include "src/regions.pnml"
 //define grf
 #include "src/header.pnml"
+//check for valid settings
+#include "src/checks.pnml"
 //include sprite templates
 #include "src/templates.pnml"
 //cargo translation table

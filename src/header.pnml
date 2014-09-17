@@ -138,19 +138,6 @@ grf {
 	}	
 }
 
-//check for OpenTTD and version
-if (ttd_platform != PLATFORM_OPENTTD) {
-    //requires OpenTTD
-    error(FATAL, USED_WITH, "OpenTTD");
-}
-else {
-    //check for OpenTTD version
-    if (openttd_version < version_openttd(1, 2, 0, 23971)) {
-        //requires OpenTTD version
-        error(FATAL, REQUIRES_OPENTTD, "1.2.0-RC1 / r23971");
-    }
-}
-
 //disable original rail vehicles
 disable_item(FEAT_TRAINS, 0, 115);
 
