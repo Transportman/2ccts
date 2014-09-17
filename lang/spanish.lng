@@ -7,6 +7,8 @@ STR_GRF_NAME                    :{TITLE}
 STR_GRF_DESCRIPTION             :{SILVER}Trenes 2cc del Mundo en NML{}{}(c)2ccts{}Licencia:GPLv2 ó superior.{}Para más información ver el readme.
 STR_GRF_URL             :https://dev.openttdcoop.org/projects/2ccts
 
+#General error messages
+
 #parameter strings
 #cost parameters
 STR_PARAM_PURCHASE_COST             :Multiplicador del precio de compra
@@ -25,8 +27,10 @@ STR_PARAM_TIMES_8                   :8
 STR_PARAM_TIMES_16                  :16
 
 #region parameters
+STR_PARAM_REGION_AFRICA                                 :África
 STR_PARAM_REGION_AFRICA_DESC                    :Usar vehículos de África
 STR_PARAM_REGION_NORTHAMERICA_DESC              :Usar vehículos de América del Norte
+STR_PARAM_REGION_ASIA                                   :Asia
 STR_PARAM_REGION_ASIA_DESC                              :Usar vehículos de Asia
 STR_PARAM_REGION_EASTERNEUROPE_DESC             :Usar vehículos de Europa del Este
 

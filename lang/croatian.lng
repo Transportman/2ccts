@@ -8,6 +8,8 @@ STR_GRF_NAME                    :{TITLE}
 STR_GRF_DESCRIPTION             :{SILVER}2cc Vlakovi svijeta u NML-u{}{}(c)2ccts{}Licenca:GPLv2 ili viša.{}Pogledajte readme za detalje.
 STR_GRF_URL             :https://dev.openttdcoop.org/projects/2ccts
 
+#General error messages
+
 #parameter strings
 #cost parameters
 STR_PARAM_PURCHASE_COST             :Višekratnik za troškove nabave vozila

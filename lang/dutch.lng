@@ -6,6 +6,8 @@ STR_GRF_NAME                    :{TITLE}
 STR_GRF_DESCRIPTION             :{SILVER}2cc Treinen van de Wereld in NML{}{}(c)2ccts{}Licentie: GPLv2 of hoger.{}Lees de readme voor details.
 STR_GRF_URL             :https://dev.openttdcoop.org/projects/2ccts
 
+#General error messages
+
 #parameter strings
 #cost parameters
 STR_PARAM_PURCHASE_COST             :Vermenigvuldigingsfactor voor aankoopkosten

@@ -7,6 +7,10 @@ STR_GRF_NAME                    :{TITLE}
 STR_GRF_DESCRIPTION             :{SILVER}Trens 2cc del Món en NML{}{}(c)2ccts{}Llicència:GPLv2 o superior.{}Veure el llegeix-me per a més detalls.
 STR_GRF_URL             :https://dev.openttdcoop.org/projects/2ccts
 
+#General error messages
+str_used_with_dynamic_engines           :dynamic_engines = true (paràmetre en openttd.cfg)
+str_error_region                                        :{STRING}: No s'han activat regions
+
 #parameter strings
 #cost parameters
 STR_PARAM_PURCHASE_COST             :Multiplicador del cost de compra

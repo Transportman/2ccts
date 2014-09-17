@@ -6,6 +6,8 @@ STR_GRF_NAME                    :{TITLE}
 STR_GRF_DESCRIPTION             :{SILVER}2cc 世界列車大全，以 NML 開發{}{}(c)2ccts{}授權認證：GPLv2 或更高版本{}更多資訊請參閱 readme 檔案
 STR_GRF_URL             :https://dev.openttdcoop.org/projects/2ccts
 
+#General error messages
+
 #parameter strings
 #cost parameters
 

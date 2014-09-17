@@ -8,6 +8,8 @@ STR_GRF_NAME                    :{TITLE}
 STR_GRF_DESCRIPTION             :{SILVER}2cc Treni del mondo in NML{}{}(c)2ccts{}Licenza:GPLv2 o superiore.{}Guarda readme per detagli.
 STR_GRF_URL             :https://dev.openttdcoop.org/projects/2ccts
 
+#General error messages
+
 #parameter strings
 #cost parameters
 STR_PARAM_PURCHASE_COST             :Moltiplicatore per i costi d'acquisto

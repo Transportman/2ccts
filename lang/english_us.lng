@@ -6,6 +6,8 @@ STR_GRF_NAME                    :{TITLE}
 STR_GRF_DESCRIPTION             :{SILVER}2cc Trains of the World in NML{}{}(c)2ccts{}License:GPLv2 or higher.{}See readme for details.
 STR_GRF_URL             :https://dev.openttdcoop.org/projects/2ccts
 
+#General error messages
+
 #parameter strings
 #cost parameters
 

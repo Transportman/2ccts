@@ -7,6 +7,8 @@ STR_GRF_NAME                    :{TITLE}
 STR_GRF_DESCRIPTION             :{SILVER}NML로 작성한 세계 2cc 열차입니다.{}{}(c)2ccts{}저작권:GPLv2 이상.{}자세한 정보는 "readme.txt" 파일을 참고하세요.
 STR_GRF_URL             :https://dev.openttdcoop.org/projects/2ccts
 
+#General error messages
+
 #parameter strings
 #cost parameters
 STR_PARAM_PURCHASE_COST             :구입 가격 배수

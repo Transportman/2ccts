@@ -5,6 +5,8 @@ STR_GRF_NAME                    :{TITLE}
 STR_GRF_DESCRIPTION             :{SILVER}2cc Treine van die Wêreld in NML{}{}(c)2ccts{}Lisensie:GPLv2 of hoër.{}Sien readme vir meer inligting.
 STR_GRF_URL             :https://dev.openttdcoop.org/projects/2ccts
 
+#General error messages
+
 #parameter strings
 #cost parameters
 STR_PARAM_PURCHASE_COST             :Koop Prys vermenigvuldiger
