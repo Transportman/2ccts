@@ -33,6 +33,8 @@ STR_PARAM_REGION_NORTHAMERICA_DESC              :Usar vehículos de América del
 STR_PARAM_REGION_ASIA                                   :Asia
 STR_PARAM_REGION_ASIA_DESC                              :Usar vehículos de Asia
 STR_PARAM_REGION_EASTERNEUROPE_DESC             :Usar vehículos de Europa del Este
+STR_PARAM_REGION_OCEANIA                                :Oceanía
+STR_PARAM_REGION_OCEANIA_DESC                   :Usar vehículos de Oceanía
 
 #VEHICLE NAMES
 #Railbus-steam

@@ -9,6 +9,8 @@ STR_GRF_DESCRIPTION             :{SILVER}2cc Treni del mondo in NML{}{}(c)2ccts{
 STR_GRF_URL             :https://dev.openttdcoop.org/projects/2ccts
 
 #General error messages
+str_used_with_dynamic_engines           :dynamic_engines = true (impostazione nel' openttd.cfg)
+str_error_region                                        :{STRING}: Nessuna regione é attivata
 
 #parameter strings
 #cost parameters
