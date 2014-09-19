@@ -29,5 +29,5 @@ if (dynamic_engines == 0) {
 if (ALLREGION == 0) {
 	//No region = no vehicles
 	//Continue loading to allow changing parameters to fix problem
-	error(WARNING, string(str_error_region));
+	error(ERROR, string(str_error_region));
 }
