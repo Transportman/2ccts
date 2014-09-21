@@ -13,7 +13,8 @@
 item(FEAT_TRAINS, item_diesel_USA_Amtrak_P42DC_Genesis) {
     property {
         name: string(str_diesel_USA_Amtrak_P42DC_Genesis);
-        
+        REGION(NORTHAMERICA,NOREGION,NOCONCEPT)
+		
         introduction_date: date(1992,1,1);
         model_life: VEHICLE_NEVER_EXPIRES;
         vehicle_life: 40;

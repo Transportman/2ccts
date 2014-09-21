@@ -13,7 +13,8 @@
 item(FEAT_TRAINS, item_diesel_USA_GNR_EMD_F3) {
     property {
         name: string(str_diesel_USA_GNR_EMD_F3);
-        
+        REGION(NORTHAMERICA,NOREGION,NOCONCEPT)
+		
         introduction_date: date(1946,1,1);
         model_life: 25;
         vehicle_life: 40;

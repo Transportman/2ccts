@@ -13,7 +13,8 @@
 item(FEAT_TRAINS, item_diesel_Uruguay_AFE_1500) {
     property {
         name: string(str_diesel_Uruguay_AFE_1500);
-        
+        REGION(SOUTHAMERICA,NOREGION,NOCONCEPT)
+		
         introduction_date: date(1952,1,1);
         model_life: 25;
         vehicle_life: 40;

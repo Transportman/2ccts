@@ -13,7 +13,8 @@
 item(FEAT_TRAINS, item_diesel_Brazil_BF_EMD_GL8) {
     property {
         name: string(str_diesel_Brazil_BF_EMD_GL8);
-        
+        REGION(SOUTHAMERICA,NOREGION,NOCONCEPT)
+		
         introduction_date: date(1960,1,1);
         model_life: 25;
         vehicle_life: 40;

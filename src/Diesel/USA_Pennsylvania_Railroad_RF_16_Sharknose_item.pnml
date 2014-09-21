@@ -13,7 +13,8 @@
 item(FEAT_TRAINS, item_diesel_USA_Pennsylvania_Railroad_RF_16_Sharknose) {
     property {
         name: string(str_diesel_USA_Pennsylvania_Railroad_RF_16_Sharknose);
-        
+        REGION(NORTHAMERICA,NOREGION,NOCONCEPT)
+		
         introduction_date: date(1950,1,1);
         model_life: 25;
         vehicle_life: 40;

@@ -13,7 +13,8 @@
 item(FEAT_TRAINS, item_diesel_Brazil_EFCB_ALCO_RS_3) {
     property {
         name: string(str_diesel_Brazil_EFCB_ALCO_RS_3);
-        
+        REGION(SOUTHAMERICA,NOREGION,NOCONCEPT)
+		
         introduction_date: date(1950,1,1);
         model_life: 25;
         vehicle_life: 40;
