@@ -24,15 +24,15 @@
 #define OCEANIA param_region_oceania
 
 //Helper regions, which can be used as short hand notation for multiple regions
-#define EUROPE NORTHERNEUROPE || EASTERNEUROPE || SOUTHERNEUROPE || WESTERNEUROPE
-#define AMERICA NORTHAMERICA || SOUTHAMERICA
+#define EUROPE ( NORTHERNEUROPE || EASTERNEUROPE || SOUTHERNEUROPE || WESTERNEUROPE )
+#define AMERICA ( NORTHAMERICA || SOUTHAMERICA )
 
-#define REGIONTYPE1 EUROPE || ASIA || AFRICA
-#define REGIONTYPE2 AMERICA || ASIA || OCEANIA || AFRICA
-#define REGIONTYPE3 ASIA || OCEANIA
+#define REGIONTYPE1 ( EUROPE || ASIA || AFRICA )
+#define REGIONTYPE2 ( AMERICA || ASIA || OCEANIA || AFRICA )
+#define REGIONTYPE3 ( ASIA || OCEANIA )
 
 #define NOREGION 0
-#define ALLREGION AFRICA || AMERICA || ASIA || EUROPE || OCEANIA
+#define ALLREGION ( AFRICA || AMERICA || ASIA || EUROPE || OCEANIA )
 
 //Also allow to disable concept vehicles
 #define ISCONCEPT param_concept
