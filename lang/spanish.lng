@@ -35,6 +35,7 @@ STR_PARAM_REGION_SOUTHAMERICA                   :América del Sur
 STR_PARAM_REGION_SOUTHAMERICA_DESC              :Usar vehículos de América del Sur
 STR_PARAM_REGION_ASIA                                   :Asia
 STR_PARAM_REGION_ASIA_DESC                              :Usar vehículos de Asia
+STR_PARAM_REGION_NORTHERNEUROPE_DESC    :Usar vehículos de Europa del Norte
 STR_PARAM_REGION_EASTERNEUROPE                  :Europa del Este
 STR_PARAM_REGION_EASTERNEUROPE_DESC             :Usar vehículos de Europa del Este
 STR_PARAM_REGION_OCEANIA                                :Oceanía
@@ -349,6 +350,7 @@ str_mglv_Japan_MLX01_901        :JR MLX01-901 (Maglev)
 #wagons
 str_wagon_Gen1_Flat_Wagon                               :Vagón plano, 1a generación
 str_wagon_Gen1_Tanker                                   :Cisterna, 1a generación
+str_wagon_Gen1_Open_Wagon                               :Vagón abierto de madera, 1era Generación
 str_wagon_Gen2_Flat_Wagon                               :Vagón plano, 2a generación
 str_wagon_Gen2_Tanker                                   :Cisterna, 2a generación
 str_wagon_Gen3_Tanker                                   :Cisterna, 3a generación
