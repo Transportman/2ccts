@@ -1,0 +1,94 @@
+##grflangid 0x07
+##plural 6
+##gender m f n p
+##case abl acc dat f gen m n nom p pre
+
+#Main grf title and description
+STR_GRF_NAME                    :{TITLE}
+STR_GRF_DESCRIPTION             :{SILVER}2cc Поезда Мира в NML{}{}(c)2ccts{}Лицензия:GPLv2 или выше.{}Смотрите readme с описанием детальной работы данного NewGRF.
+STR_GRF_URL             :https://dev.openttdcoop.org/projects/2ccts
+
+#General error messages
+
+#parameter strings
+#cost parameters
+STR_PARAM_PURCHASE_COST             :Множитель цены покупки
+
+STR_PARAM_DIVIDE_16                 :1/16
+STR_PARAM_DIVIDE_8                  :1/8
+STR_PARAM_DIVIDE_4                  :1/4
+STR_PARAM_DIVIDE_2                  :1/2
+STR_PARAM_NORMAL                    :1 (по умолчанию)
+STR_PARAM_TIMES_4                   :4
+
+#region parameters
+STR_PARAM_CONCEPT                                               :Консептуальные поезда (из будущего, на данный момент не существующие)
+STR_PARAM_CONCEPT_DESC                                  :Использовать консептуальные поезда (этот параметер на данный момент ничего не делает)
+STR_PARAM_REGION_SOUTHAMERICA_DESC              :Использовать поезда из Южной Америки
+STR_PARAM_REGION_NORTHERNEUROPE_DESC    :Использовать поезда из Северной Европы
+
+#VEHICLE NAMES
+#Railbus-steam
+
+#Diesel Railbus
+str_rbd_United_Kingdom_BR_153_Super_Sprinter    :BR 153 'Super Sprinter' (Дизель Моториса)
+
+#Railbus-electric
+str_rbe_Switzerland_SBB_Cfe_3_3         :SBB Cfe 3/3 (Электро-Моториса)
+str_rbe_Italy_FS_ALe_840                        :FS ALe 840 (Электро-Моториса)
+
+#Steam
+str_steam_Austria_KkStB_299             :KkStB 299 (Пар)
+str_steam_UK_GWR_5700                           :GWR 5700 (Пар)
+str_steam_Germany_Prussian_S10          :Пруссак S.10 (Пар)
+
+#Diesel
+str_diesel_Brazil_EFCB_ALCO_RS_3                                                :EFCB ALCO RS-3 (Дизель)
+str_diesel_Belgium_NMBS_SNCB_83                                                 :NMBS/SNCB 83 (Дизель)
+
+#Electric
+str_electric_UK_NER_EF1                                                 :NER EF1 (Электро)
+str_electric_Germany_DB_104                                     :DB 104 (Электро)
+str_electric_France_SNCF_BB_9004                                :SNCF BB 9004 (Электро)
+str_electric_Austria_OBB_1044                                   :OBB 1044 (Электро)
+str_electric_China_China_Railways_SS6                   :КЖД SS6 (Электро)
+
+#DMU
+
+#EMU
+
+#Single Unit Metro
+
+#Multiple Unit Metro
+str_mtro_Argentina_Le_Brugeoise                                 :Буйнос Айрес 'Le Brugeoise' (Метро)
+str_mtro_North_Korea_Pyongyang_D_stock                  :Пхеньян D серия (Метро)
+str_mtro_Egypt_Cairo_1987_Stock                                 :Каир 1987 серия (Метро)
+str_mtro_Taiwan_Taipei_C301                                     :Тайпей C301 (Метро)
+str_mtro_Singapore_Singapore_C830_Metropolis    :Сингапур C830 'Metropolis' (Метро)
+str_mtro_Greece_Thessaloniki_2014                               :Салоники 2014 (Метро)
+
+#Maglev
+
+#wagons
+str_wagon_Gen1_Tanker                                   :Танкер 1-го Покол.
+str_wagon_Gen2_Flat_Wagon                               :Вагон-Платформа 2-го Покол.
+str_wagon_Gen2_Silo                                     :Хоппер 2-го Покол.
+str_wagon_Gen4_Hopper_Type1                             :Само-разгружающийся Хоппер 4-го Покол. (Тип 1)
+str_wagon_Gen5_Tanker                                   :Танкер 5-го Покол.
+
+
+#coaches
+str_coach_Gen2_Steel_3_axle_Compartment_Coach                   :Металический 3-х осный Купейный Вагон
+str_coach_Gen3_Steel_Lightweight_Intercity_Coach                :Стальной Легкий Междугородний Вагон
+str_coach_Gen3_UIC_X_Intercity_Coach                                    :UIC-X Междугородный Вагон
+str_coach_Gen3_Umbauwagen_Local_Coach                                   :'Umbauwagen' Городской Вагон
+str_coach_Gen4_Superliner_Coach                                                 :Скоростной Спальный Вагон
+
+#special wagons
+
+#obsolete vehicles
+
+#PURCHASE MENU TEXTS
+
+
+#Can attach vehicle texts
