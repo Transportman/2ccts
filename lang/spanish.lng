@@ -39,6 +39,7 @@ STR_PARAM_REGION_NORTHERNEUROPE                 :Europa del Norte
 STR_PARAM_REGION_NORTHERNEUROPE_DESC    :Usar vehículos de Europa del Norte
 STR_PARAM_REGION_EASTERNEUROPE                  :Europa del Este
 STR_PARAM_REGION_EASTERNEUROPE_DESC             :Usar vehículos de Europa del Este
+STR_PARAM_REGION_SOUTHERNEUROPE_DESC    :Usar vehículos de Europa del Sur
 STR_PARAM_REGION_OCEANIA                                :Oceanía
 STR_PARAM_REGION_OCEANIA_DESC                   :Usar vehículos de Oceanía
 
@@ -328,6 +329,7 @@ str_mtro_Netherlands_Amsterdam_Type_M1                  :Amsterdam M1 (Metro)
 str_mtro_Sweden_Stockholm_C8                                    :Stockholm C8 (Metro)
 str_mtro_North_Korea_Pyongyang_D_stock                  :Pyongyang D stock (Metro)
 str_mtro_Finland_Helsinki_M100                                  :Helsinki M100 (Metro)
+str_mtro_Brazil_Sao_Paulo_Serie_5500                    :Sao Paulo Serie 5500 (Metro)
 str_mtro_Japan_Tokyo_S01                                                :Tokyo S01 (Metro)
 str_mtro_Egypt_Cairo_1987_Stock                                 :Cairo 1987 stock (Metro)
 str_mtro_UK_DLR_P86                                                     :DLR P86 (Metro)
