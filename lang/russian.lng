@@ -20,17 +20,23 @@ STR_PARAM_DIVIDE_4                  :1/4
 STR_PARAM_DIVIDE_2                  :1/2
 STR_PARAM_NORMAL                    :1 (по умолчанию)
 STR_PARAM_TIMES_4                   :4
+STR_PARAM_TIMES_16                  :16
 
 #region parameters
 STR_PARAM_CONCEPT                                               :Консептуальные поезда (из будущего, на данный момент не существующие)
 STR_PARAM_CONCEPT_DESC                                  :Использовать консептуальные поезда (этот параметер на данный момент ничего не делает)
+STR_PARAM_REGION_AFRICA                                 :Африка
+STR_PARAM_REGION_AFRICA_DESC                    :Использовать поезда из Африки
 STR_PARAM_REGION_SOUTHAMERICA_DESC              :Использовать поезда из Южной Америки
+STR_PARAM_REGION_ASIA_DESC                              :Использовать поезда из Азии
 STR_PARAM_REGION_NORTHERNEUROPE_DESC    :Использовать поезда из Северной Европы
+STR_PARAM_REGION_SOUTHERNEUROPE                 :Южная Европа
 
 #VEHICLE NAMES
 #Railbus-steam
 
 #Diesel Railbus
+str_rbd_Netherlands_NS_20_Kameel                                :NS 20 'Kameel' (Дизель Моториса)
 str_rbd_United_Kingdom_BR_153_Super_Sprinter    :BR 153 'Super Sprinter' (Дизель Моториса)
 
 #Railbus-electric
@@ -41,16 +47,24 @@ str_rbe_Italy_FS_ALe_840                        :FS ALe 840 (Электро-Мо
 str_steam_Austria_KkStB_299             :KkStB 299 (Пар)
 str_steam_UK_GWR_5700                           :GWR 5700 (Пар)
 str_steam_Germany_Prussian_S10          :Пруссак S.10 (Пар)
+str_steam_UK_LMS_5MT_Black_Five         :LMS 5MT 'Black Five' (Пар)
 
 #Diesel
 str_diesel_Brazil_EFCB_ALCO_RS_3                                                :EFCB ALCO RS-3 (Дизель)
 str_diesel_Belgium_NMBS_SNCB_83                                                 :NMBS/SNCB 83 (Дизель)
+str_diesel_Panama_Panama_Canal_Railway_EMD_F40PH                :EMD F40PH ЖД Панамского Канала (Дизель)
+str_diesel_Belgium_NMBS_SNCB_7800                                               :NMBS/SNCB 7800 (Дизель)
 
 #Electric
+str_electric_Norway_NSB_EL7                                     :NSB EL7 (Электро)
 str_electric_UK_NER_EF1                                                 :NER EF1 (Электро)
 str_electric_Germany_DB_104                                     :DB 104 (Электро)
+str_electric_Italy_FS_E428                                              :FS E428 (Электро)
 str_electric_France_SNCF_BB_9004                                :SNCF BB 9004 (Электро)
+str_electric_Italy_FS_E646                                              :FS E646 (Электро)
 str_electric_Austria_OBB_1044                                   :OBB 1044 (Электро)
+str_electric_Poland_PKP_ET41                                    :PKP ET41 (Электро)
+str_electric_Netherlands_NS_1600                                :NS 1600 (Электро)
 str_electric_China_China_Railways_SS6                   :КЖД SS6 (Электро)
 
 #DMU
@@ -62,9 +76,11 @@ str_electric_China_China_Railways_SS6                   :КЖД SS6 (Элект�
 #Multiple Unit Metro
 str_mtro_Argentina_Le_Brugeoise                                 :Буйнос Айрес 'Le Brugeoise' (Метро)
 str_mtro_North_Korea_Pyongyang_D_stock                  :Пхеньян D серия (Метро)
+str_mtro_Finland_Helsinki_M100                                  :Хельсинки M100 (Метро)
 str_mtro_Egypt_Cairo_1987_Stock                                 :Каир 1987 серия (Метро)
 str_mtro_Taiwan_Taipei_C301                                     :Тайпей C301 (Метро)
 str_mtro_Singapore_Singapore_C830_Metropolis    :Сингапур C830 'Metropolis' (Метро)
+str_mtro_Norway_Oslo_MX3000                                     :Осло MX3000 (Метро)
 str_mtro_Greece_Thessaloniki_2014                               :Салоники 2014 (Метро)
 
 #Maglev
@@ -80,6 +96,8 @@ str_wagon_Gen5_Tanker                                   :Танкер 5-го П�
 #coaches
 str_coach_Gen2_Steel_3_axle_Compartment_Coach                   :Металический 3-х осный Купейный Вагон
 str_coach_Gen3_Steel_Lightweight_Intercity_Coach                :Стальной Легкий Междугородний Вагон
+str_coach_Gen3_Aluminium_Lightweight_Intercity_Coach    :Алюминевый Легкий Междугородний Вагон
+str_coach_Gen3_Aluminium_Lightweight_Mail_Coach                 :Алюминевый Легкий Почтовый Вагон
 str_coach_Gen3_UIC_X_Intercity_Coach                                    :UIC-X Междугородный Вагон
 str_coach_Gen3_Umbauwagen_Local_Coach                                   :'Umbauwagen' Городской Вагон
 str_coach_Gen4_Superliner_Coach                                                 :Скоростной Спальный Вагон
@@ -87,6 +105,7 @@ str_coach_Gen4_Superliner_Coach                                                 
 #special wagons
 
 #obsolete vehicles
+str_electric_USA_Pennsylvania_Railroad_GG_1_obsolete1                           :Устаревший Локомотив Пенсильванской ЖД GG-1 (Электро)
 
 #PURCHASE MENU TEXTS
 
