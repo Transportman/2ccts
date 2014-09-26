@@ -10,7 +10,7 @@ STR_GRF_URL             :https://dev.openttdcoop.org/projects/2ccts
 
 #General error messages
 str_used_with_dynamic_engines           :dynamic_engines = true (postavka u openttd.cfg)
-str_error_region                                        :{STRING}: Nijedna regija nije uključena
+str_error_region                                        :Nijedna regija nije uključena, {STRING} je isključen.
 
 #parameter strings
 #cost parameters
