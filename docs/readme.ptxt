@@ -61,7 +61,16 @@ Cost Parameters
 	With the cost parameters you can set purchase and running costs. You can set
 	the costs to the following values:
 	1/16x, 1/8x, 1/4x, 1/2x, 1x (default), 2x, 4x, 8x, 16x
-  
+	
+Concept Parameter
+	This parameter is currently not active, but will allow you to disable conceptual
+	vehicles when implemented. By default the conceptual vehicles are enabled
+	
+Regional Parameters
+	These parameters allow you to enable/disable vehicles from certain regions. The
+	European subregions follow the EuroVOC subregions. By default, all regions are
+	enabled. Disabling all regions will completely disable this NewGRF.
+	
   
 2.4 Usage
 ---------
@@ -94,11 +103,6 @@ Cost balancing
 	At this moment costs still need to be balanced. Some vehicles might be 
 	very expensive compared to other vehicles. This will be fixed in a later
 	version.
-	
-Mixing Unit Wagons with non-MU-vehicles
-	If you mix Unit Wagons with normal engines, there will be graphical 
-	glitches and missing properties. Attaching MUs with Unit Wagons
-	to engines and vice versa is possible and will work as intended.
     
 
 ------------------------
