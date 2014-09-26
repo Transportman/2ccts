@@ -1,5 +1,48 @@
 2cc TrainsInNML changelog
 =========================
+1.0-beta5 (26/09/2014)
+----------------------
+- Codechange: Also disable all wagons when no region is selected (closes #7159)
+- Codechange: Prepare for inclusion of regional and concept parameter
+- Codechange: Rename some things in preparation of issue #7133
+- Codechange: Some helper regions for Wagon availability in preparation of issue #7133
+- Doc: Updated readme
+- Feature: Additional wagons that depend on active regions (Graphics by Voyager One and Emperor Jake) (issue #7133)
+- Feature: Regional parameter for Diesel Railbusses
+- Feature: Regional parameter for Diesels
+- Feature: Regional parameter for DMUs
+- Feature: Regional parameter for Electric Railbusses
+- Feature: Regional parameter for Electrics
+- Feature: Regional parameter for EMUs
+- Feature: Regional parameter for Maglevs
+- Feature: Regional parameter for Metros
+- Feature: Regional parameter for several cargo wagons (issue #7133)
+- Feature: Regional parameter for Steam Railbusses
+- Feature: Regional parameter for Steamers
+- Feature: Regional parameter now also works for Coaches
+- Feature: Service car/caboose (Graphics by Voyager One) (closes #7133)
+- Feature: Some additional error checking
+- Fix #7108: DSB E tender was missing
+- Fix #7110: Filename caused warnings during compilation
+- Fix #7112: Steamer smoke missing
+- Fix #7138: China Transrapid mail livery fix (Thanks to Digitalfox for fix)
+- Fix #7167: SJ X2000 sprites were inconsistent
+- Fix #7168: No warning was shown when no region was selected
+- Fix #7186: BR Class 67 speed increased to 200 km/h
+- Fix r338: Engine name typo
+- Fix r347: Also update the base .pnml file when changing filenames
+- Fix r354: Rename some things
+- Fix r355: Australian Diesels became unavailable
+- Fix r355: Regional parameter not working for some Diesels because of climates_available still being set to ALL_CLIMATES
+- Fix r357: Typos in files
+- Fix r380: Set disabled itself even with regions enabled because of missing parentheses in #defines
+- Fix r386: Disable NewGRF when no regions are activated and better wording for error message
+- Fix: Brazil is with a z and not with an s
+- Fix: Some vehicles that were not included for no reason (Graphics by Voyager One and Emperor Jake)
+- Fix: TEP150 was no longer available
+- Fix: Various diesels were no longer available
+- Update: Translations from webtranslator
+
 1.0-beta4 (09/09/2014)
 ----------------------
 - Codechange: ID ranges are now #defined in one file
