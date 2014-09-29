@@ -375,28 +375,28 @@ str_wagon_Gen5_Superheavy_Flatcar               :Vagón plano superpesado, 5a Ge
 
 #coaches
 str_coach_Gen1_Wooden_2_axle_Compartment_Coach                  :Vagón de compartimentos, madera y 2 ejes
-str_coach_Gen1_Wooden_2_axle_Regional_Coach                     :Vagón regional, madera y 2 ejes
+str_coach_Gen1_Wooden_2_axle_Regional_Coach                     :Vagón Regional, madera y 2 ejes
 str_coach_Gen1_Wooden_2_axle_Mail_Coach                                 :Vagón de correos, madera y 2 ejes
 str_coach_Gen1_Clerestory_Compartment_Coach                     :Vagón de compartimentos Clerestory
 str_coach_Gen1_Clerestory_Regional_Coach                                :Vagón Regional Clerestory
 str_coach_Gen1_Clerestory_Mail_Coach                                    :Vagón de correo Clerestory
 str_coach_Gen1_Wooden_3_axle_Compartment_Coach                  :Vagón de compartimentos, madera y 3 ejes
-str_coach_Gen1_Wooden_3_axle_Regional_Coach                     :Vagón regional, madera y 3 ejes
+str_coach_Gen1_Wooden_3_axle_Regional_Coach                     :Vagón Regional, madera y 3 ejes
 str_coach_Gen1_Wooden_3_axle_Mail_Coach                                 :Vagón de correos, madera y 3 ejes
 str_coach_Gen2_Heavyweight_Intercity_Coach                              :Vagón pesado Intercity
 str_coach_Gen2_Heavyweight_Mail_Coach                                   :Vagón pesado de correo
 str_coach_Gen2_Steel_Intercity_Coach                                    :Vagón InterCity, acero
 str_coach_Gen2_Steel_Compartment_Coach                                  :Vagón de compartimentos, acero
-str_coach_Gen2_Steel_Regional_Coach                                     :Vagón regional, acero
+str_coach_Gen2_Steel_Regional_Coach                                     :Vagón Regional, acero
 str_coach_Gen2_Steel_Mail_Coach                                                 :Vagón de correos, acero
 str_coach_Gen2_Steel_2_axle_Compartment_Coach                   :Vagón de compartimentos, acero y 2 ejes
-str_coach_Gen2_Steel_2_axle_Regional_Coach                              :Vagón regional, acero y 2 ejes
+str_coach_Gen2_Steel_2_axle_Regional_Coach                              :Vagón Regional, acero y 2 ejes
 str_coach_Gen2_Steel_2_axle_Mail_Coach                                  :Vagón de correos, acero y 2 ejes
 str_coach_Gen2_Steel_3_axle_Compartment_Coach                   :Vagón de compartimentos, acero y 3 ejes
-str_coach_Gen2_Steel_3_axle_Regional_Coach                              :Vagón regional, acero y 3 ejes
+str_coach_Gen2_Steel_3_axle_Regional_Coach                              :Vagón Regional, acero y 3 ejes
 str_coach_Gen2_Steel_3_axle_Mail_Coach                                  :Vagón de correos, acero y 3 ejes
 str_coach_Gen3_Steel_Lightweight_Intercity_Coach                :Vagón InterCity ligero, acero
-str_coach_Gen3_Steel_Lightweight_Regional_Coach                 :Vagón regional ligero, acero
+str_coach_Gen3_Steel_Lightweight_Regional_Coach                 :Vagón Regional ligero, acero
 str_coach_Gen3_Steel_Lightweight_Mail_Coach                     :Vagón de correo ligero, acero
 str_coach_Gen3_Aluminium_Lightweight_Intercity_Coach    :Vagón InterCity ligero, aluminio
 str_coach_Gen3_Aluminium_Lightweight_Regional_Coach     :Vagón regional ligero, aluminio
@@ -413,7 +413,7 @@ str_coach_Gen3_Doppelstockwagen_Local_Coach                     :Vagón local 'D
 str_coach_Gen3_UIC_X_Mail_Coach                                                 :Vagón de correo UIC-X
 str_coach_Gen3_Indian_Intercity_Coach                                   :Vagón InterCity Indio
 str_coach_Gen3_Indian_Local_Coach                                               :Vagón local Indio
-str_coach_Gen3_Indian_Regional_Coach                                    :Vagón regional Indio
+str_coach_Gen3_Indian_Regional_Coach                                    :Vagón Regional Indio
 str_coach_Gen3_Indian_Mail_Coach                                                :Vagón de correo Indio
 str_coach_Gen4_Eurofima_Intercity_Coach                                 :Vagón Eurofima
 str_coach_Gen4_InterRegio_Coach                                                 :Vagón InterRegio
@@ -430,6 +430,7 @@ str_coach_Gen4_Horizon_Regional_Coach                                   :Vagón 
 str_coach_Gen4_Horizon_Baggage_Coach                                    :Vagón de equipaje Horizon
 str_coach_Gen4_Bombardier_Bi_level                                              :Bi-nivel Bombardier
 str_coach_Gen5_High_Speed_Coach                                                 :Vagón de alta velocidad
+str_coach_Gen5_Modern_Regional_Coach                                    :Vagón Regional Moderno
 str_coach_Gen5_Modern_Double_Decker_Coach                               :Vagón de dos pisos moderno
 str_coach_Gen5_High_Speed_Double_Decker_IC2000                  :Vagón de dos pisos de alta velocidad (IC2000)
 str_coach_Gen5_High_Speed_Mail_Coach                                    :Vagón de correo de alta velocidad
