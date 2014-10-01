@@ -41,6 +41,8 @@ STR_PARAM_REGION_EASTERNEUROPE                  :Europa del Este
 STR_PARAM_REGION_EASTERNEUROPE_DESC             :Usar vehículos de Europa del Este
 STR_PARAM_REGION_SOUTHERNEUROPE                 :Europa del Sur
 STR_PARAM_REGION_SOUTHERNEUROPE_DESC    :Usar vehículos de Europa del Sur
+STR_PARAM_REGION_WESTERNEUROPE                  :Europa Occidental (o del Oeste)
+STR_PARAM_REGION_WESTERNEUROPE_DESC             :Usar vehículos de Europa Occidental (o del Oeste)
 STR_PARAM_REGION_OCEANIA                                :Oceanía
 STR_PARAM_REGION_OCEANIA_DESC                   :Usar vehículos de Oceanía
 
