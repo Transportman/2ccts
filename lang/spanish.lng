@@ -8,6 +8,7 @@ STR_GRF_DESCRIPTION             :{SILVER}Trenes 2cc del Mundo en NML{}{}(c)2ccts
 STR_GRF_URL             :https://dev.openttdcoop.org/projects/2ccts
 
 #General error messages
+str_error_region                                        :No hay regiones activas, {STRING} ha sido deshabilitado
 
 #parameter strings
 #cost parameters
@@ -463,3 +464,4 @@ str_electric_USA_Pennsylvania_Railroad_GG_1_obsolete1                           
 
 
 #Can attach vehicle texts
+str_cannot_attach_Unit_wagon_to_wagon   :No se puede conectar un Vagón Unitario a/con un vagón estándar
