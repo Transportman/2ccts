@@ -33,6 +33,7 @@ STR_PARAM_REGION_AFRICA                                 :Африка
 STR_PARAM_REGION_AFRICA_DESC                    :Использовать поезда из Африки
 STR_PARAM_REGION_NORTHAMERICA                   :Северная Америка
 STR_PARAM_REGION_NORTHAMERICA_DESC              :Использовать поезда из Северной Америки
+STR_PARAM_REGION_SOUTHAMERICA                   :Южная Америка
 STR_PARAM_REGION_SOUTHAMERICA_DESC              :Использовать поезда из Южной Америки
 STR_PARAM_REGION_ASIA                                   :Азия
 STR_PARAM_REGION_ASIA_DESC                              :Использовать поезда из Азии
