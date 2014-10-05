@@ -239,6 +239,7 @@ str_electric_Switzerland_SBB_Eem_923                    :SBB Eem 923 (Eléctrico
 str_electric_China_China_Railways_HXD3                  :China Railways HXD3 (Eléctrico)
 str_electric_France_SNCF_CC_40100                               :SNCF CC 40100 (Eléctrico)
 str_electric_India_Indian_Railways_WAP_4                :Indian Railways WAP-4 (Eléctrico)
+str_electric_India_Indian_Railways_WCG_1                :Indian Railways WCG-1 (Eléctrico)
 str_electric_Portugal_CP_2500                                   :CP 2500 (Eléctrico)
 
 #DMU
@@ -375,6 +376,7 @@ str_wagon_Gen5_Tanker                                   :Cisterna, 5a generació
 str_wagon_Gen5_Gondola                                  :Góndola, 5a Generación
 str_wagon_Gen5_Superheavy_Flatcar               :Vagón plano superpesado, 5a Generación
 
+str_wagon_Service_Car_Type1                             :Vagón de servicio (Tipo 1)
 
 #coaches
 str_coach_Gen1_Wooden_2_axle_Compartment_Coach                  :Vagón de compartimentos, madera y 2 ejes
@@ -402,7 +404,7 @@ str_coach_Gen3_Steel_Lightweight_Intercity_Coach                :Vagón InterCit
 str_coach_Gen3_Steel_Lightweight_Regional_Coach                 :Vagón Regional ligero, acero
 str_coach_Gen3_Steel_Lightweight_Mail_Coach                     :Vagón de correo ligero, acero
 str_coach_Gen3_Aluminium_Lightweight_Intercity_Coach    :Vagón InterCity ligero, aluminio
-str_coach_Gen3_Aluminium_Lightweight_Regional_Coach     :Vagón regional ligero, aluminio
+str_coach_Gen3_Aluminium_Lightweight_Regional_Coach     :Vagón Regional ligero, aluminio
 str_coach_Gen3_Aluminium_Lightweight_Mail_Coach                 :Vagón de correo ligero, aluminio
 str_coach_Gen3_Gallery_Car                                                              :Vagón Galería
 str_coach_Gen3_Mk1_Intercity_Coach                                              :Vagón Intercity Mk1
@@ -410,7 +412,7 @@ str_coach_Gen3_Mk1_Regional_Coach                                               
 str_coach_Gen3_Mk1_Mail_Coach                                                   :Vagón de correo Mk1
 str_coach_Gen3_UIC_X_Intercity_Coach                                    :Vagón Intercity UIC-X
 str_coach_Gen3_TEE_Intercity_Coach                                              :Vagón Intercity TEE
-str_coach_Gen3_UIC_X_Regional_Coach                                     :Vagón regional UIC-X
+str_coach_Gen3_UIC_X_Regional_Coach                                     :Vagón Regional UIC-X
 str_coach_Gen3_Umbauwagen_Local_Coach                                   :Vagón local 'Umbauwagen'
 str_coach_Gen3_Doppelstockwagen_Local_Coach                     :Vagón local 'Doppelstockwagen'
 str_coach_Gen3_UIC_X_Mail_Coach                                                 :Vagón de correo UIC-X
@@ -429,7 +431,7 @@ str_coach_Gen4_Superliner_Coach                                                 
 str_coach_Gen4_Superliner_California                                    :Superliner California
 str_coach_Gen4_Amfleet_Regional_Coach                                   :Vagón Regional Amfleet
 str_coach_Gen4_Amfleet_Intercity_Coach                                  :Vagón Intercity Amfleet
-str_coach_Gen4_Horizon_Regional_Coach                                   :Vagón regional Horizon
+str_coach_Gen4_Horizon_Regional_Coach                                   :Vagón Regional Horizon
 str_coach_Gen4_Horizon_Baggage_Coach                                    :Vagón de equipaje Horizon
 str_coach_Gen4_Bombardier_Bi_level                                              :Bi-nivel Bombardier
 str_coach_Gen5_High_Speed_Coach                                                 :Vagón de alta velocidad
