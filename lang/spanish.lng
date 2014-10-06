@@ -454,6 +454,7 @@ str_mtro_wagon_powered          :Vagón de metro (Motorizado)
 str_mglv_wagon_powered          :Vagón Maglev (Motorizado)
 
 #obsolete vehicles
+str_mtro_Hungary_Budapest_1894_Stock_obsolete1                                          :Budapest 1894 Stock, Obsoleto (Metro)
 str_mtro_USA_Chicago_L_Northwest_Elevated_1907_Stock_obsolete1          :Chicago L Northwest Elevated 1907 Stock, Obsoleto (Metro)
 str_mtro_Germany_Berlin_U_Bahn_C_II_obsolete1                                           :Berlin U-Bahn C II, Obsoleto (Metro)
 str_steam_USA_4_6_0_Ten_wheeler_obsolete1                                                       :4-6-0 'Ten-wheeler', Obsoleto (Vapor)
@@ -466,4 +467,5 @@ str_electric_USA_Pennsylvania_Railroad_GG_1_obsolete1                           
 
 
 #Can attach vehicle texts
+str_cannot_attach_Unit_wagon_to_engine  :No se puede conectar un Vagón Unitario a/con una locomotora estándar
 str_cannot_attach_Unit_wagon_to_wagon   :No se puede conectar un Vagón Unitario a/con un vagón estándar
