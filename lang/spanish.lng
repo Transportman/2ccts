@@ -80,6 +80,7 @@ str_rbe_Germany_DB_ET479                        :DB ET479 (Railbus eléctrico)
 str_rbe_Italy_FS_ALe_840                        :FS ALe 840 (Railbus eléctrico)
 
 #Steam
+str_steam_Belgium_Le_Belge                      :Le Belge (Vapor)
 str_steam_USA_4_4_0_American            :4-4-0 'American' (Vapor)
 str_steam_Switzerland_SBB_Ec_2_5        :SBB Ec 2/5 (Vapor)
 str_steam_USA_4_6_0_Ten_wheeler         :4-6-0 'Ten-wheeler' (Vapor)
@@ -467,5 +468,6 @@ str_electric_USA_Pennsylvania_Railroad_GG_1_obsolete1                           
 
 
 #Can attach vehicle texts
+str_cannot_attach_wagon_to_Unit_Wagon   :No se puede conectar un vagón estándar a/con un Vagón Unitario
 str_cannot_attach_Unit_wagon_to_engine  :No se puede conectar un Vagón Unitario a/con una locomotora estándar
 str_cannot_attach_Unit_wagon_to_wagon   :No se puede conectar un Vagón Unitario a/con un vagón estándar
