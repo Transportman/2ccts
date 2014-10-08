@@ -445,6 +445,7 @@ str_coach_Gen5_Talgo_Pendular_Mail                                              
 str_coach_Gen6_Grand_Voyager_Coach                                              :Vagón Grand Voyager
 str_coach_Gen6_Grand_Regio_Coach                                                :Vagón Grand Regio
 str_coach_Gen6_Metropolis_Coach                                                 :Vagón Metropolis
+str_coach_Gen6_Speedmail_Coach                                                  :Vagón de correo Speedmail
 str_coach_Gen6_Super_Regio_Coach                                                :Vagón Super Regio
 str_coach_Gen6_Super_Voyager_Coach                                              :Vagón Super Voyager
 
@@ -463,6 +464,7 @@ str_diesel_USA_UP_EMD_DDA40X_obsolete1                                          
 str_electric_USA_Pennsylvania_Railroad_FF_1_obsolete1                           :Pennsylvania Railroad FF-1, Obsoleto (Eléctrico)
 str_electric_USA_Milwaukee_Road_EP_2_Bipolar_obsolete1                          :Milwaukee Road EP-2 Bipolar, Obsoleto (Eléctrico)
 str_electric_USA_Pennsylvania_Railroad_GG_1_obsolete1                           :Pennsylvania Railroad GG-1, Obsoleto (Eléctrico)
+str_steam_Denmark_DSB_E_obsolete1                                                                       :DSB E, Obsoleto (Vapor)
 
 #PURCHASE MENU TEXTS
 

@@ -26,6 +26,13 @@ STR_PARAM_TIMES_8                   :8
 STR_PARAM_TIMES_16                  :16
 
 #region parameters
+STR_PARAM_REGION_AFRICA_DESC                    :Käytä Afrikkalaisia ajoneuvoja
+STR_PARAM_REGION_SOUTHAMERICA                   :Etelä-Amerikka
+STR_PARAM_REGION_NORTHERNEUROPE                 :Pohjois-Eurooppa
+STR_PARAM_REGION_NORTHERNEUROPE_DESC    :Käytä Pohjois-Eurooppalaisia ajoneuvoja
+STR_PARAM_REGION_WESTERNEUROPE_DESC             :Käytä Länsi-Eurooppalaisia ajoneuvoja
+STR_PARAM_REGION_OCEANIA                                :Oseania
+STR_PARAM_REGION_OCEANIA_DESC                   :Käytä Oseanialaisia ajoneuvoja
 
 #VEHICLE NAMES
 #Railbus-steam
@@ -124,6 +131,7 @@ str_diesel_USA_Amtrak_FL9                                                       
 str_diesel_Czech_Republic_CD_720_ChME2                                  :CD 720 ChME2 (Diesel)
 str_diesel_Finland_VR_Dr12                                                              :VR Dr12 (Diesel)
 str_diesel_Romania_CFR_060_DA                                                   :CFR 060-DA (Diesel)
+str_diesel_Brazil_BF_EMD_GL8                                                    :BF EMD GL8 (Diesel)
 str_diesel_Russia_RZD_TEP60                                                     :RZD TEP60 (Diesel)
 str_diesel_Belgium_NMBS_SNCB_67                                                 :NMBS/SNCB 67 (Diesel)
 str_diesel_Denmark_DSB_MaK_100                                                  :DSB MaK 100 (Diesel)
@@ -319,6 +327,7 @@ str_mtro_Netherlands_Amsterdam_Type_M1                  :Amsterdam M1 (Metro)
 str_mtro_Sweden_Stockholm_C8                                    :Tukholma C8 (Metro)
 str_mtro_North_Korea_Pyongyang_D_stock                  :Pjongjang D-sarja (Metro)
 str_mtro_Finland_Helsinki_M100                                  :Helsinki M100 (Metro)
+str_mtro_Brazil_Sao_Paulo_Serie_5500                    :Sao Paulo 5500-sarja (Metro)
 str_mtro_Russia_Moscow_81_720                                   :Moskova 81-720 (Metro)
 str_mtro_Japan_Tokyo_S01                                                :Tokio S01 (Metro)
 str_mtro_Egypt_Cairo_1987_Stock                                 :Kairo vuoden 1987 kalusto (Metro)
@@ -347,6 +356,7 @@ str_wagon_Gen1_Boxcar                                   :1. sukupolven puinen ka
 str_wagon_Gen1_Tanker                                   :1. sukupolven säiliövaunu
 str_wagon_Gen1_Open_Wagon                               :1. sukupolven puinen lavavaunu
 str_wagon_Gen2_Flat_Wagon                               :2. sukupolven avolavavaunu
+str_wagon_Gen2_Boxcar_Type2                             :2. sukupolven katettu puinen rahtivaunu (Tyyppi 2)
 str_wagon_Gen2_Tanker                                   :2. sukupolven säiliövaunu
 str_wagon_Gen2_Open_Wagon                               :2. sukupolven puinen lavavaunu
 str_wagon_Gen2_Silo                                     :2. sukupolven siilovaunu
@@ -366,6 +376,8 @@ str_wagon_Gen4_Container_Carrier                :4. sukupolven konttivaunu
 str_wagon_Gen4_Centerbeam                               :4. sukupolven keskilaitavaunu
 str_wagon_Gen5_Flatcar                                  :5. sukupolven avolavavaunu
 str_wagon_Gen5_Heavy_Flatcar                    :5. sukupolven raskas avolavavaunu
+str_wagon_Gen5_Boxcar_Type1                             :5. sukupolven katettu rahtivaunu (Tyyppi 1)
+str_wagon_Gen5_Boxcar_Type2                             :5. sukupolven katettu rahtivaunu (Tyyppi 2)
 str_wagon_Gen5_Tanker                                   :5. sukupolven säiliövaunu
 str_wagon_Gen5_Gondola                                  :5. sukupolven gondolivaunu
 str_wagon_Gen5_Car_Transporter                  :5. sukupolven autonkuljetusvaunu
@@ -374,6 +386,7 @@ str_wagon_Gen5_Centerbeam                               :5. sukupolven keskilait
 str_wagon_Gen5_Container_Doublestack    :5. sukupolven kerroskonttivaunu
 str_wagon_Gen5_Superheavy_Flatcar               :5. sukupolven superraskas avolavavaunu
 
+str_wagon_Service_Car_Type2                             :Huoltovaunu (Tyyppi 2)
 
 #coaches
 str_coach_Gen1_Wooden_2_axle_Compartment_Coach                  :Puinen 2-akselinen osastollinen matkustajavaunu
@@ -457,6 +470,9 @@ str_mtro_wagon_powered          :Metrovaunu (moottoroitu)
 str_mglv_wagon_powered          :Maglev-vaunu (moottoroitu)
 
 #obsolete vehicles
+str_mtro_Hungary_Budapest_1894_Stock_obsolete1                                          :Vanhentunut Budapest vuoden 1894 kalusto (Metro)
+str_diesel_USA_UP_EMD_DDA40X_obsolete1                                                          :Vanhentunut UP EMD DDA40X (Diesel)
+str_electric_USA_Pennsylvania_Railroad_GG_1_obsolete1                           :Vanhentunut Pennsylvania Railroad GG-1 (Sähkö)
 
 #PURCHASE MENU TEXTS
 str_unit_wagon                          :Voit käyttää tätä yleisvaunua VAIN pidentämään moottorivaunujunia haluamaasi pituuteen
