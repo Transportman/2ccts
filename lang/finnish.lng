@@ -7,6 +7,8 @@ STR_GRF_DESCRIPTION             :{SILVER}2cc Trains of the World in NML{}{}(c)2c
 STR_GRF_URL             :https://dev.openttdcoop.org/projects/2ccts
 
 #General error messages
+str_used_with_dynamic_engines           :dynamic_engines = true (asetus openttd.cfg -tiedostossa)
+str_error_region                                        :Yhtään aluetta ei ole sallittu, {STRING} on poistettu käytöstä
 
 #parameter strings
 #cost parameters
@@ -26,10 +28,23 @@ STR_PARAM_TIMES_8                   :8
 STR_PARAM_TIMES_16                  :16
 
 #region parameters
+STR_PARAM_CONCEPT                                               :Konseptiajoneuvot (suunniteltu ominaisuus, ei vielä käytössä)
+STR_PARAM_CONCEPT_DESC                                  :Käytä konseptiajoneuvoja (tällä asetuksella ei ole tällä hetkellä merkitystä)
+STR_PARAM_REGION_AFRICA                                 :Afrikka
 STR_PARAM_REGION_AFRICA_DESC                    :Käytä Afrikkalaisia ajoneuvoja
+STR_PARAM_REGION_NORTHAMERICA                   :Pohjois-Amerikka
+STR_PARAM_REGION_NORTHAMERICA_DESC              :Käytä Pohjois-Amerikkalaisia ajoneuvoja
 STR_PARAM_REGION_SOUTHAMERICA                   :Etelä-Amerikka
+STR_PARAM_REGION_SOUTHAMERICA_DESC              :Käytä Etelä-Amerikkalaisia ajoneuvoja
+STR_PARAM_REGION_ASIA                                   :Aasia
+STR_PARAM_REGION_ASIA_DESC                              :Käytä Aasialaisia ajoneuvoja
 STR_PARAM_REGION_NORTHERNEUROPE                 :Pohjois-Eurooppa
 STR_PARAM_REGION_NORTHERNEUROPE_DESC    :Käytä Pohjois-Eurooppalaisia ajoneuvoja
+STR_PARAM_REGION_EASTERNEUROPE                  :Itä-Eurooppa
+STR_PARAM_REGION_EASTERNEUROPE_DESC             :Käytä Itä-Eurooppalaisia ajoneuvoja
+STR_PARAM_REGION_SOUTHERNEUROPE                 :Etelä-Eurooppa
+STR_PARAM_REGION_SOUTHERNEUROPE_DESC    :Käytä Etelä-Eurooppalaisia ajoneuvoja
+STR_PARAM_REGION_WESTERNEUROPE                  :Länsi-Eurooppa
 STR_PARAM_REGION_WESTERNEUROPE_DESC             :Käytä Länsi-Eurooppalaisia ajoneuvoja
 STR_PARAM_REGION_OCEANIA                                :Oseania
 STR_PARAM_REGION_OCEANIA_DESC                   :Käytä Oseanialaisia ajoneuvoja
@@ -82,7 +97,7 @@ str_steam_Austria_KkStB_299             :KkStB 299 (Höyry)
 str_steam_New_Zealand_NZR_X_Class       :NZR X-sarja (Höyry)
 str_steam_Croatia_HZ_51                         :HZ 51 (Höyry)
 str_steam_Italy_FS_880                          :FS 880 (Höyry)
-str_steam_Argentina_FCNEA_11B_2_8_0     :FCNEA 11B 0-2-8 (Höyry)
+str_steam_Argentina_FCNEA_11B_2_8_0     :FCNEA 11B 2-8-0 (Höyry)
 str_steam_France_SNCF_140C                      :SNCF 140C (Höyry)
 str_steam_France_SNCF_141TA             :SNCF 141TA (Höyry)
 str_steam_UK_GWR_4900                           :GWR 4900 (Höyry)
@@ -115,6 +130,7 @@ str_diesel_Australia_NSWGR_79                                                   
 str_diesel_USA_Western_Pacific_ALCO_S_2                                 :Western Pacific ALCO S-2 (Diesel)
 str_diesel_USA_GNR_EMD_F3                                                               :GNR EMD F3 (Diesel)
 str_diesel_USA_UP_EMD_E8                                                                :UP EMD E8 (Diesel)
+str_diesel_Brazil_EFCB_ALCO_RS_3                                                :EFCB ALCO RS-3 (Diesel)
 str_diesel_Netherlands_NS_600                                                   :NS 600 'Bakkie' (Diesel)
 str_diesel_USA_Pennsylvania_Railroad_RF_16_Sharknose    :Pennsylvania Railroad RF-16 'Sharknose' (Diesel)
 str_diesel_Uruguay_AFE_1500                                                     :AFE 1500 (Diesel)
@@ -132,6 +148,7 @@ str_diesel_Czech_Republic_CD_720_ChME2                                  :CD 720 
 str_diesel_Finland_VR_Dr12                                                              :VR Dr12 (Diesel)
 str_diesel_Romania_CFR_060_DA                                                   :CFR 060-DA (Diesel)
 str_diesel_Brazil_BF_EMD_GL8                                                    :BF EMD GL8 (Diesel)
+str_diesel_Brazil_EFVM_ML4000                                                   :EFVM ML4000 (Diesel)
 str_diesel_Russia_RZD_TEP60                                                     :RZD TEP60 (Diesel)
 str_diesel_Belgium_NMBS_SNCB_67                                                 :NMBS/SNCB 67 (Diesel)
 str_diesel_Denmark_DSB_MaK_100                                                  :DSB MaK 100 (Diesel)
@@ -305,10 +322,10 @@ str_emu_Netherlands_NS_4800_HSA                         :NS 4800 HSA (Sähkömoo
 str_emu_Italy_NTV_AGV_Duplex                            :NTV AGV Duplex (Sähkömoottorivaunu)
 
 #Single Unit Metro
-str_mtro_USA_Brooklyn_Union_Gate_Car                                    :Brooklyn Union Gate Car (Metro)
-str_mtro_Hungary_Budapest_1894_Stock                                    :Budapest vuoden 1894 kalusto (Metro)
-str_mtro_USA_Chicago_L_Northwest_Elevated_1907_Stock    :Chicago L Northwest Elevated vuoden 1907 kalusto (Metro)
-str_mtro_Germany_Berlin_U_Bahn_C_II                                             :Berliini U-Bahn C II (Metro)
+str_mtro_USA_Brooklyn_Union_Gate_Car                                    :Brooklyn Union Gate Car (Yhden yksikön metro)
+str_mtro_Hungary_Budapest_1894_Stock                                    :Budapest vuoden 1894 kalusto (Yhden yksiön metro)
+str_mtro_USA_Chicago_L_Northwest_Elevated_1907_Stock    :Chicago L Northwest Elevated vuoden 1907 kalusto (Yhden yksikön metro)
+str_mtro_Germany_Berlin_U_Bahn_C_II                                             :Berliini U-Bahn C II (Yhden yksikön metro)
 
 #Multiple Unit Metro
 str_mtro_UK_London_1903_Stock                                   :Lontoo vuoden 1903 kalusto (Metro)
@@ -356,6 +373,7 @@ str_wagon_Gen1_Boxcar                                   :1. sukupolven puinen ka
 str_wagon_Gen1_Tanker                                   :1. sukupolven säiliövaunu
 str_wagon_Gen1_Open_Wagon                               :1. sukupolven puinen lavavaunu
 str_wagon_Gen2_Flat_Wagon                               :2. sukupolven avolavavaunu
+str_wagon_Gen2_Boxcar_Type1                             :2. sukupolven katettu puinen rahtivaunu (Tyyppi 1)
 str_wagon_Gen2_Boxcar_Type2                             :2. sukupolven katettu puinen rahtivaunu (Tyyppi 2)
 str_wagon_Gen2_Tanker                                   :2. sukupolven säiliövaunu
 str_wagon_Gen2_Open_Wagon                               :2. sukupolven puinen lavavaunu
@@ -365,12 +383,18 @@ str_wagon_Gen3_Flat_Wagon                               :3. sukupolven avolavava
 str_wagon_Gen3_Boxcar                                   :3. sukupolven puinen katettu tavaravaunu
 str_wagon_Gen3_Tanker                                   :3. sukupolven säiliövaunu
 str_wagon_Gen3_Open_Wagon                               :3. sukupolven lavavaunu
+str_wagon_Gen3_Silo_Type1                               :3. sukupolven siilovaunu (Tyyppi 1)
+str_wagon_Gen3_Silo_Type2                               :3. sukupolven siilovaunu (Tyyppi 2)
 str_wagon_Gen3_Hopper                                   :3. sukupolven suppilovaunu
 str_wagon_Gen4_Flatcar                                  :4. sukupolven avolavavaunu
 str_wagon_Gen4_Heavy_Flatcar                    :4. sukupolven raskas avolavavaunu
 str_wagon_Gen4_Boxcar                                   :4. sukupolven katettu tavaravaunu
 str_wagon_Gen4_Tanker                                   :4. sukupolven säiliövaunu
 str_wagon_Gen4_Gondola                                  :4. sukupolven gondolivaunu
+str_wagon_Gen4_Silo_Type1                               :4. sukupolven siilovaunu (Tyyppi 1)
+str_wagon_Gen4_Silo_Type2                               :4. sukupolven siilovaunu (Tyyppi 2)
+str_wagon_Gen4_Hopper_Type1                             :4. sukupolven itsestäntyhjentyvä suppilovaunu (Tyyppi 1)
+str_wagon_Gen4_Hopper_Type2                             :4. sukupolven itsestääntyhjentyvä suppilovaunu (Tyyppi 2)
 str_wagon_Gen4_Car_Transporter                  :4. sukupolven autonkuljetusvaunu
 str_wagon_Gen4_Container_Carrier                :4. sukupolven konttivaunu
 str_wagon_Gen4_Centerbeam                               :4. sukupolven keskilaitavaunu
@@ -380,12 +404,17 @@ str_wagon_Gen5_Boxcar_Type1                             :5. sukupolven katettu r
 str_wagon_Gen5_Boxcar_Type2                             :5. sukupolven katettu rahtivaunu (Tyyppi 2)
 str_wagon_Gen5_Tanker                                   :5. sukupolven säiliövaunu
 str_wagon_Gen5_Gondola                                  :5. sukupolven gondolivaunu
+str_wagon_Gen5_Silo_Type1                               :5. sukupolven siilovaunu (Tyyppi 1)
+str_wagon_Gen5_Silo_Type2                               :5. sukupolven siilovaunu (Tyyppi 2)
+str_wagon_Gen5_Hopper_Type1                             :5. sukupolven itsestääntyhjentyvä suppilovaunu (Tyyppi 1)
+str_wagon_Gen5_Hopper_Type2                             :5. sukupolven itsestääntyhjentyvä suppilovaunu (Tyyppi 2)
 str_wagon_Gen5_Car_Transporter                  :5. sukupolven autonkuljetusvaunu
 str_wagon_Gen5_Container_Carrier                :5. sukupolven konttivaunu
 str_wagon_Gen5_Centerbeam                               :5. sukupolven keskilaitavaunu
 str_wagon_Gen5_Container_Doublestack    :5. sukupolven kerroskonttivaunu
 str_wagon_Gen5_Superheavy_Flatcar               :5. sukupolven superraskas avolavavaunu
 
+str_wagon_Service_Car_Type1                             :Huoltovaunu (Tyyppi 1)
 str_wagon_Service_Car_Type2                             :Huoltovaunu (Tyyppi 2)
 
 #coaches
@@ -470,12 +499,24 @@ str_mtro_wagon_powered          :Metrovaunu (moottoroitu)
 str_mglv_wagon_powered          :Maglev-vaunu (moottoroitu)
 
 #obsolete vehicles
+str_steam_USA_4_4_0_American_obsolete1                                                          :Vanhentunut 4-4-0 'American' (Höyry)
+str_mtro_USA_Brooklyn_Union_Gate_Car_obsolete1                                          :Vanhentunut Brooklyn Union Gate Car (Metro)
 str_mtro_Hungary_Budapest_1894_Stock_obsolete1                                          :Vanhentunut Budapest vuoden 1894 kalusto (Metro)
+str_mtro_USA_Chicago_L_Northwest_Elevated_1907_Stock_obsolete1          :Vanhentunut Chicago L Northwest Elevated vuoden 1907 kalusto (Metro)
+str_mtro_Germany_Berlin_U_Bahn_C_II_obsolete1                                           :Vanhentunut Berliini U-Bahn C II (Metro)
+str_steam_USA_4_6_0_Ten_wheeler_obsolete1                                                       :Vanhentunut 4-6-0 'Ten-wheeler' (Höyry)
 str_diesel_USA_UP_EMD_DDA40X_obsolete1                                                          :Vanhentunut UP EMD DDA40X (Diesel)
+str_electric_USA_Pennsylvania_Railroad_FF_1_obsolete1                           :Vanhentunut Pennsylvania Railroad FF-1 (Sähkö)
+str_electric_USA_Milwaukee_Road_EP_2_Bipolar_obsolete1                          :Vanhentunut Milwaukee Road EP-2 Bipolar (Sähkö)
 str_electric_USA_Pennsylvania_Railroad_GG_1_obsolete1                           :Vanhentunut Pennsylvania Railroad GG-1 (Sähkö)
+str_steam_Denmark_DSB_E_obsolete1                                                                       :Vanhentunut DSB E (Höyry)
 
 #PURCHASE MENU TEXTS
 str_unit_wagon                          :Voit käyttää tätä yleisvaunua VAIN pidentämään moottorivaunujunia haluamaasi pituuteen
 
 
 #Can attach vehicle texts
+str_cannot_attach_wagon_to_MU                   :Tavallista vaunua ei voi liittää moottorivaunuun
+str_cannot_attach_wagon_to_Unit_Wagon   :Tavallista vaunua ei voi liittää vaunuyksikköön
+str_cannot_attach_Unit_wagon_to_engine  :Vaunuyksikköä ei voi liittää tavalliseen veturiin
+str_cannot_attach_Unit_wagon_to_wagon   :Vaunuyksikköä ei voi liittää tavalliseen vaunuun
