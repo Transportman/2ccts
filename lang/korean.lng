@@ -27,6 +27,7 @@ STR_PARAM_TIMES_8                   :8
 STR_PARAM_TIMES_16                  :16
 
 #region parameters
+STR_PARAM_REGION_OCEANIA                                :오세아니아
 
 #VEHICLE NAMES
 #Railbus-steam
@@ -115,6 +116,7 @@ str_diesel_Germany_DB_220_V200                                                  
 str_diesel_USA_Amtrak_FL9                                                               :Amtrak FL9 (디젤)
 str_diesel_Finland_VR_Dr12                                                              :VR Dr12 (디젤)
 str_diesel_Romania_CFR_060_DA                                                   :CFR 060-DA (디젤)
+str_diesel_Brazil_EFVM_ML4000                                                   :EFVM ML4000 (디젤)
 str_diesel_Belgium_NMBS_SNCB_67                                                 :NMBS/SNCB 67 (디젤)
 str_diesel_Denmark_DSB_MaK_100                                                  :DSB MaK 100 (디젤)
 str_diesel_India_Indian_Railways_WDM_2                                  :인도 철도공사 WDM-2 (디젤)
@@ -295,9 +297,11 @@ str_mtro_Netherlands_Amsterdam_Type_M1                  :암스테르담 M1 (지
 str_mtro_Sweden_Stockholm_C8                                    :스톡홀름 C8 (지하철)
 str_mtro_North_Korea_Pyongyang_D_stock                  :평양 D stock (지하철)
 str_mtro_Finland_Helsinki_M100                                  :헬싱키 M100 (지하철)
+str_mtro_Brazil_Sao_Paulo_Serie_5500                    :상파울루 5500계 (지하철)
 str_mtro_Japan_Tokyo_S01                                                :도쿄 S01 (지하철)
 str_mtro_Egypt_Cairo_1987_Stock                                 :카이로 1987 stock (지하철)
 str_mtro_UK_DLR_P86                                                     :DLR P86 (지하철)
+str_mtro_Russia_Moscow_81_7175M                                 :모스크바 81-717.5M (지하철)
 str_mtro_USA_Boston_01800                                               :보스턴 01800 (지하철)
 str_mtro_USA_LA_A650                                                    :LA A650 (지하철)
 str_mtro_Taiwan_Taipei_C301                                     :타이페이 C301 (지하철)
