@@ -382,7 +382,6 @@ str_wagon_Gen2_Open_Wagon                               :Drveni otvoreni vagon 2
 str_wagon_Gen2_Silo                                     :Vagon-silos 2. generacije
 str_wagon_Gen2_Hopper                                   :Drveni vagon za rasuti teret 2. generacije
 str_wagon_Gen3_Flat_Wagon                               :Plato-vagon 3. generacije
-str_wagon_Gen3_Boxcar                                   :Drveni zatvoreni vagon 3. generacije
 str_wagon_Gen3_Tanker                                   :Vagon cisterna 3. generacije
 str_wagon_Gen3_Open_Wagon                               :Otvoreni vagon 3. generacije
 str_wagon_Gen3_Silo_Type1                               :Vagon-silos 3. generacije (Tip 1)
@@ -390,7 +389,6 @@ str_wagon_Gen3_Silo_Type2                               :Vagon-silos 3. generaci
 str_wagon_Gen3_Hopper                                   :Vagon za rasuti teret 3. generacije
 str_wagon_Gen4_Flatcar                                  :Plato-vagon 4. generacije
 str_wagon_Gen4_Heavy_Flatcar                    :Teški plato-vagon 4. generacije
-str_wagon_Gen4_Boxcar                                   :Zatvoreni vagon 4. generacije
 str_wagon_Gen4_Tanker                                   :Vagon cisterna 4. generacije
 str_wagon_Gen4_Gondola                                  :Vagon-gondola 4. generacije
 str_wagon_Gen4_Silo_Type1                               :Vagon-silos 4. generacije (Tip 1)

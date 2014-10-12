@@ -382,7 +382,6 @@ str_wagon_Gen2_Open_Wagon                               :Carro merci aperto di l
 str_wagon_Gen2_Silo                                     :Carro silo di 2a generazione
 str_wagon_Gen2_Hopper                                   :Carro a tramoggio di legno di 2a generazione
 str_wagon_Gen3_Flat_Wagon                               :Carro per merce lunga di 3a generazione
-str_wagon_Gen3_Boxcar                                   :Carro merci coperto di legno di 3a generazione
 str_wagon_Gen3_Tanker                                   :Carro cisterna di 3a generazione
 str_wagon_Gen3_Open_Wagon                               :Carro merci aperto di 3a generazione
 str_wagon_Gen3_Silo_Type1                               :Carro silo di 3a generazione (Tipo 1)
@@ -390,7 +389,6 @@ str_wagon_Gen3_Silo_Type2                               :Carro silo di 3a genera
 str_wagon_Gen3_Hopper                                   :Carro a tramoggia di 3a generazione
 str_wagon_Gen4_Flatcar                                  :Carro per merci lunge di 4a generazione
 str_wagon_Gen4_Heavy_Flatcar                    :Carro pesante per merci lunge di 4a generazione
-str_wagon_Gen4_Boxcar                                   :Carro merci coperto di 4a generazione
 str_wagon_Gen4_Tanker                                   :Carro cisterna di 4a generazione
 str_wagon_Gen4_Gondola                                  :Carro gondola di 4a generazione
 str_wagon_Gen4_Silo_Type1                               :Carro silo di 4a generazione (Tipo 1)

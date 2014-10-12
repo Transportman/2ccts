@@ -381,7 +381,8 @@ str_wagon_Gen2_Open_Wagon                               :Vagó Obert de Fusta de
 str_wagon_Gen2_Silo                                     :Vagó Sitja de 2a Generació
 str_wagon_Gen2_Hopper                                   :Vagó Tremuja de 2a Generació
 str_wagon_Gen3_Flat_Wagon                               :Vagó Plataforma de 3a Generació
-str_wagon_Gen3_Boxcar                                   :Furgó de Fusta de 3a Generació
+str_wagon_Gen3_Boxcar_Type1                     :Furgó de Fusta de 3a Generació (Tipus 1)
+str_wagon_Gen3_Boxcar_Type2                     :Furgó de Fusta de 3a Generació (Tipus 2)
 str_wagon_Gen3_Tanker                                   :Vagó Cisterna de 3a Generació
 str_wagon_Gen3_Open_Wagon                               :Vagó Obert de 3a Generació
 str_wagon_Gen3_Silo_Type1                               :Vagó Sitja de 3a Generació (Tipus 1)
@@ -389,7 +390,8 @@ str_wagon_Gen3_Silo_Type2                               :Vagó Sitja de 3a Gener
 str_wagon_Gen3_Hopper                                   :Vagó Tremuja de 3a Generació
 str_wagon_Gen4_Flatcar                                  :Vagó Plataforma de 4a Generació
 str_wagon_Gen4_Heavy_Flatcar                    :Vagó Plataforma Pesant de 4a Generació
-str_wagon_Gen4_Boxcar                                   :Furgó de 4a Generació
+str_wagon_Gen4_Boxcar_Type1                             :Furgó de 4a Generació (Tipus 1)
+str_wagon_Gen4_Boxcar_Type2                             :Furgó de 4a Generació (Tipus 2)
 str_wagon_Gen4_Tanker                                   :Vagó Cisterna de 4a Generació
 str_wagon_Gen4_Gondola                                  :Vagó Obert de 4a Generació
 str_wagon_Gen4_Silo_Type1                               :Vagó Sitja de 4a Generació (Tipus 1)

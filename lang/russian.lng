@@ -191,7 +191,6 @@ str_wagon_Gen2_Boxcar_Type2                             :Деревянный Т
 str_wagon_Gen2_Silo                                     :Хоппер 2-го Покол.
 str_wagon_Gen2_Hopper                                   :Деревянный Вагон-Хопер 2-го Покол.
 str_wagon_Gen3_Silo_Type1                               :Силос Вагон 3-го Поколения (Тип 1)
-str_wagon_Gen4_Boxcar                                   :Товарный Вагон 4-го Покол.
 str_wagon_Gen4_Silo_Type2                               :Силос Вагон 4-го Поколения (Тип 2)
 str_wagon_Gen4_Hopper_Type1                             :Само-разгружающийся Хоппер 4-го Покол. (Тип 1)
 str_wagon_Gen4_Hopper_Type2                             :Само-разгружающийся Хоппер 4-го Покол. (Тип 2)

@@ -380,7 +380,6 @@ str_wagon_Gen2_Open_Wagon                               :2. sukupolven puinen la
 str_wagon_Gen2_Silo                                     :2. sukupolven siilovaunu
 str_wagon_Gen2_Hopper                                   :2. sukupolven puinen suppilovaunu
 str_wagon_Gen3_Flat_Wagon                               :3. sukupolven avolavavaunu
-str_wagon_Gen3_Boxcar                                   :3. sukupolven puinen katettu tavaravaunu
 str_wagon_Gen3_Tanker                                   :3. sukupolven säiliövaunu
 str_wagon_Gen3_Open_Wagon                               :3. sukupolven lavavaunu
 str_wagon_Gen3_Silo_Type1                               :3. sukupolven siilovaunu (Tyyppi 1)
@@ -388,7 +387,6 @@ str_wagon_Gen3_Silo_Type2                               :3. sukupolven siilovaun
 str_wagon_Gen3_Hopper                                   :3. sukupolven suppilovaunu
 str_wagon_Gen4_Flatcar                                  :4. sukupolven avolavavaunu
 str_wagon_Gen4_Heavy_Flatcar                    :4. sukupolven raskas avolavavaunu
-str_wagon_Gen4_Boxcar                                   :4. sukupolven katettu tavaravaunu
 str_wagon_Gen4_Tanker                                   :4. sukupolven säiliövaunu
 str_wagon_Gen4_Gondola                                  :4. sukupolven gondolivaunu
 str_wagon_Gen4_Silo_Type1                               :4. sukupolven siilovaunu (Tyyppi 1)

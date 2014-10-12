@@ -330,13 +330,11 @@ str_wagon_Gen2_Open_Wagon                               :2세대 목재 무개�
 str_wagon_Gen2_Silo                                     :2세대 곡물화차
 str_wagon_Gen2_Hopper                                   :2세대 목재 호퍼차
 str_wagon_Gen3_Flat_Wagon                               :3세대 평판화차
-str_wagon_Gen3_Boxcar                                   :3세대 목제 유개화차
 str_wagon_Gen3_Tanker                                   :3세대 유조차
 str_wagon_Gen3_Open_Wagon                               :3세대 무개화차
 str_wagon_Gen3_Hopper                                   :3세대 호퍼차
 str_wagon_Gen4_Flatcar                                  :4세대 평판화차
 str_wagon_Gen4_Heavy_Flatcar                    :4세대 중량 평판화차
-str_wagon_Gen4_Boxcar                                   :4세대 유개화차
 str_wagon_Gen4_Tanker                                   :4세대 유조차
 str_wagon_Gen4_Gondola                                  :4세대 곤돌라
 str_wagon_Gen4_Car_Transporter                  :4세대 자동차 수송차량

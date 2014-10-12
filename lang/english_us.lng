@@ -85,10 +85,10 @@ str_steam_South_Africa_SAR_25           :SAR 25 (Steam)
 #EMU
 
 #Single Unit Metro
-str_mtro_USA_Brooklyn_Union_Gate_Car                                    :Brooklyn Union Gate Car (Metro)
-str_mtro_Hungary_Budapest_1894_Stock                                    :Budapest 1894 Stock (Metro)
-str_mtro_USA_Chicago_L_Northwest_Elevated_1907_Stock    :Chicago L Northwest Elevated 1907 Stock (Metro)
-str_mtro_Germany_Berlin_U_Bahn_C_II                                             :Berlin U-Bahn C II (Metro)
+str_mtro_USA_Brooklyn_Union_Gate_Car                                    :Brooklyn Union Gate Car (Single Unit Metro)
+str_mtro_Hungary_Budapest_1894_Stock                                    :Budapest 1894 Stock (Single Unit Metro)
+str_mtro_USA_Chicago_L_Northwest_Elevated_1907_Stock    :Chicago L Northwest Elevated 1907 Stock (Single Unit Metro)
+str_mtro_Germany_Berlin_U_Bahn_C_II                                             :Berlin U-Bahn C II (Single Unit Metro)
 
 #Multiple Unit Metro
 str_mtro_UK_London_1903_Stock                                   :London 1903 Stock (Metro)
