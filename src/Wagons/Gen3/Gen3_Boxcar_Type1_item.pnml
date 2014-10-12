@@ -10,21 +10,21 @@
 * ITEM
 */
 
-item(FEAT_TRAINS, item_wagon_Gen4_Boxcar) {
+item(FEAT_TRAINS, item_wagon_Gen3_Boxcar_Type1) {
     property {
-        name: string(str_wagon_Gen4_Boxcar);
-        REGION(ALLREGION,NOREGION,NOCONCEPT)
+        name: string(str_wagon_Gen3_Boxcar_Type1);
+        REGION(REGIONTYPE1,NOREGION,NOCONCEPT)
 		
-        introduction_date: date(1950,1,1);
-        model_life: 60;
+        introduction_date: date(1920,1,1);
+        model_life: 50;
         vehicle_life: 25;
         loading_speed: 10;
-        cost_factor: 71;
-        running_cost_factor: 71;
-        speed: 140 km/h;
+        cost_factor: 34;
+        running_cost_factor: 34;
+        speed: 110 km/h;
         power: 0 hp;
-        cargo_capacity: 50;
-        weight: 55 ton;
+        cargo_capacity: 40;
+        weight: 47 ton;
         tractive_effort_coefficient: 0.3;
         air_drag_coefficient: 0;
         
@@ -41,12 +41,12 @@ item(FEAT_TRAINS, item_wagon_Gen4_Boxcar) {
 
         sprite_id: SPRITE_ID_NEW_TRAIN;
         dual_headed: 0;
-        length: 7;
+        length: 6;
         extra_power_per_wagon: 0;
         bitmask_vehicle_info: 0;
 	}
 	graphics {
-		purchase: spriteset_wagon_Gen4_Boxcar_purchase;
-		switch_wagon_Gen4_Boxcar_cargo_selection;
+		purchase: spriteset_wagon_Gen3_Boxcar_Type1_purchase;
+		switch_wagon_Gen3_Boxcar_Type1_cargo_selection;
 	}	
 }

@@ -379,7 +379,8 @@ str_wagon_Gen2_Open_Wagon 				:2nd Gen Wooden Open Wagon
 str_wagon_Gen2_Silo 					:2nd Gen Silo
 str_wagon_Gen2_Hopper 					:2nd Gen Wooden Hopper
 str_wagon_Gen3_Flat_Wagon 				:3rd Gen Flat Wagon
-str_wagon_Gen3_Boxcar 					:3rd Gen Wooden Boxcar
+str_wagon_Gen3_Boxcar_Type1 			:3rd Gen Wooden Boxcar (Type 1)
+str_wagon_Gen3_Boxcar_Type2 			:3rd Gen Wooden Boxcar (Type 2)
 str_wagon_Gen3_Tanker 					:3rd Gen Tanker
 str_wagon_Gen3_Open_Wagon 				:3rd Gen Open Wagon
 str_wagon_Gen3_Silo_Type1				:3rd Gen Silo (Type 1)
@@ -387,7 +388,8 @@ str_wagon_Gen3_Silo_Type2				:3rd Gen Silo (Type 2)
 str_wagon_Gen3_Hopper 					:3rd Gen Hopper
 str_wagon_Gen4_Flatcar 					:4th Gen Flatcar
 str_wagon_Gen4_Heavy_Flatcar 			:4th Gen Heavy Flatcar
-str_wagon_Gen4_Boxcar 					:4th Gen Boxcar
+str_wagon_Gen4_Boxcar_Type1				:4th Gen Boxcar (Type1)
+str_wagon_Gen4_Boxcar_Type2				:4th Gen Boxcar (Type2)
 str_wagon_Gen4_Tanker 					:4th Gen Tanker
 str_wagon_Gen4_Gondola 					:4th Gen Gondola
 str_wagon_Gen4_Silo_Type1				:4th Gen Silo (Type 1)

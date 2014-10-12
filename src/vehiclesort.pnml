@@ -415,7 +415,8 @@ item_wagon_Gen2_Open_Wagon, /*Year: 1890*/ \
 item_wagon_Gen2_Silo, /*Year: 1900*/ \
 item_wagon_Gen2_Hopper, /*Year: 1890*/ \
 item_wagon_Gen3_Flat_Wagon, /*Year: 1930*/ \
-item_wagon_Gen3_Boxcar, /*Year: 1920*/ \
+item_wagon_Gen3_Boxcar_Type1, /*Year: 1920*/ \
+item_wagon_Gen3_Boxcar_Type2, /*Year: 1920*/ \
 item_wagon_Gen3_Tanker, /*Year: 1930*/ \
 item_wagon_Gen3_Open_Wagon, /*Year: 1920*/ \
 item_wagon_Gen3_Silo_Type1, /*Year: 1930*/ \
@@ -423,7 +424,8 @@ item_wagon_Gen3_Silo_Type2, /*Year: 1930*/ \
 item_wagon_Gen3_Hopper, /*Year: 1920*/ \
 item_wagon_Gen4_Flatcar, /*Year: 1960*/ \
 item_wagon_Gen4_Heavy_Flatcar, /*Year: 1960*/ \
-item_wagon_Gen4_Boxcar, /*Year: 1950*/ \
+item_wagon_Gen4_Boxcar_Type1, /*Year: 1950*/ \
+item_wagon_Gen4_Boxcar_Type2, /*Year: 1950*/ \
 item_wagon_Gen4_Tanker, /*Year: 1950*/ \
 item_wagon_Gen4_Gondola, /*Year: 1950*/ \
 item_wagon_Gen4_Silo_Type1, /*Year: 1950*/ \

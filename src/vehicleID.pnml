@@ -427,14 +427,14 @@ item(FEAT_TRAINS, item_wagon_Gen2_Open_Wagon, 12007) {}
 item(FEAT_TRAINS, item_wagon_Gen2_Silo, 12008) {}
 item(FEAT_TRAINS, item_wagon_Gen2_Hopper, 12009) {}
 item(FEAT_TRAINS, item_wagon_Gen3_Flat_Wagon, 12010) {}
-item(FEAT_TRAINS, item_wagon_Gen3_Boxcar, 12011) {}
+item(FEAT_TRAINS, item_wagon_Gen3_Boxcar_Type1, 12011) {}
 item(FEAT_TRAINS, item_wagon_Gen3_Tanker, 12012) {}
 item(FEAT_TRAINS, item_wagon_Gen3_Open_Wagon, 12013) {}
 item(FEAT_TRAINS, item_wagon_Gen3_Silo_Type1, 12014) {}
 item(FEAT_TRAINS, item_wagon_Gen3_Hopper, 12015) {}
 item(FEAT_TRAINS, item_wagon_Gen4_Flatcar, 12016) {}
 item(FEAT_TRAINS, item_wagon_Gen4_Heavy_Flatcar, 12017) {}
-item(FEAT_TRAINS, item_wagon_Gen4_Boxcar, 12018) {}
+item(FEAT_TRAINS, item_wagon_Gen4_Boxcar_Type1, 12018) {}
 item(FEAT_TRAINS, item_wagon_Gen4_Tanker, 12019) {}
 item(FEAT_TRAINS, item_wagon_Gen4_Gondola, 12020) {}
 item(FEAT_TRAINS, item_wagon_Gen4_Silo_Type1, 12021) {}
@@ -463,6 +463,8 @@ item(FEAT_TRAINS, item_wagon_Gen5_Silo_Type2, 12043) {}
 item(FEAT_TRAINS, item_wagon_Gen5_Hopper_Type2, 12044) {}
 item(FEAT_TRAINS, item_wagon_Service_Car_Type1, 12045) {}
 item(FEAT_TRAINS, item_wagon_Service_Car_Type2, 12046) {}
+item(FEAT_TRAINS, item_wagon_Gen3_Boxcar_Type2, 12047) {}
+item(FEAT_TRAINS, item_wagon_Gen4_Boxcar_Type2, 12048) {}
 
 //Unit Wagons, available ID range: 13000-13999 (hex 0x32C8..0x36AF)
 #define ID_RANGE_UNIT_WAGONS 0x32C8..0x36AF
