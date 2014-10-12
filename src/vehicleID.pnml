@@ -417,7 +417,7 @@ item(FEAT_TRAINS, item_coach_Gen6_Super_Voyager_Coach, 11070) {}
 //Wagons, available ID range: 12000-12999 (hex 0x2EE0..0x32C7)
 #define ID_RANGE_WAGONS 0x2EE0..0x32C7
 item(FEAT_TRAINS, item_wagon_Gen1_Flat_Wagon, 12000) {}
-item(FEAT_TRAINS, item_wagon_Gen1_Box_Car, 12001) {}
+item(FEAT_TRAINS, item_wagon_Gen1_BoxCar, 12001) {}
 item(FEAT_TRAINS, item_wagon_Gen1_Tanker, 12002) {}
 item(FEAT_TRAINS, item_wagon_Gen1_Open_Wagon, 12003) {}
 item(FEAT_TRAINS, item_wagon_Gen2_Flat_Wagon, 12004) {}
