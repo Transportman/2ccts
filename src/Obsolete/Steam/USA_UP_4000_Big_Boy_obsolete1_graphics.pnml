@@ -10,7 +10,7 @@
 * PURCHASE
 */
 
-spriteset(spriteset_steam_USA_UP_4000_Big_Boy_purchase, "gfx/Steam/USA_UP_4000_Big_Boy.png") {
+spriteset(spriteset_steam_USA_UP_4000_Big_Boy_obsolete1_purchase, "gfx/Steam/USA_UP_4000_Big_Boy.png") {
 	template_purchase(1, 96)
 }
 
@@ -22,28 +22,28 @@ spriteset(spriteset_steam_USA_UP_4000_Big_Boy_purchase, "gfx/Steam/USA_UP_4000_B
 */
 
 //Engine
-spriteset(spriteset_steam_USA_UP_4000_Big_Boy_engine1, "gfx/Steam/USA_UP_4000_Big_Boy.png") {
+spriteset(spriteset_steam_USA_UP_4000_Big_Boy_obsolete1_engine1, "gfx/Steam/USA_UP_4000_Big_Boy.png") {
 	template_2cc_L10(1, 1)
 }
 
-spriteset(spriteset_steam_USA_UP_4000_Big_Boy_engine2, "gfx/Steam/USA_UP_4000_Big_Boy.png") {
+spriteset(spriteset_steam_USA_UP_4000_Big_Boy_obsolete1_engine2, "gfx/Steam/USA_UP_4000_Big_Boy.png") {
 	template_2cc_L10(1, 32)
 }
 
 //Tender
-spriteset(spriteset_steam_USA_UP_4000_Big_Boy_tender, "gfx/Steam/USA_UP_4000_Big_Boy.png") {
+spriteset(spriteset_steam_USA_UP_4000_Big_Boy_obsolete1_tender, "gfx/Steam/USA_UP_4000_Big_Boy.png") {
 	template_2cc_engines_general(1, 64)
 }
 
 //Animation states
-switch(FEAT_TRAINS, SELF, switch_steam_USA_UP_4000_Big_Boy_animation, motion_counter % 2){
-	0: spriteset_steam_USA_UP_4000_Big_Boy_engine1;
-	spriteset_steam_USA_UP_4000_Big_Boy_engine2;
+switch(FEAT_TRAINS, SELF, switch_steam_USA_UP_4000_Big_Boy_obsolete1_animation, motion_counter % 2){
+	0: spriteset_steam_USA_UP_4000_Big_Boy_obsolete1_engine1;
+	spriteset_steam_USA_UP_4000_Big_Boy_obsolete1_engine2;
 }
 
-switch(FEAT_TRAINS, SELF, switch_steam_USA_UP_4000_Big_Boy_position, position_in_vehid_chain % 3) {
-	0: switch_steam_USA_UP_4000_Big_Boy_animation;
-	2: spriteset_steam_USA_UP_4000_Big_Boy_tender;
+switch(FEAT_TRAINS, SELF, switch_steam_USA_UP_4000_Big_Boy_obsolete1_position, position_in_vehid_chain % 4) {
+	1: switch_steam_USA_UP_4000_Big_Boy_obsolete1_animation;
+	3: spriteset_steam_USA_UP_4000_Big_Boy_obsolete1_tender;
 	EMPTY_SPRITESET
 }
 
@@ -51,18 +51,18 @@ switch(FEAT_TRAINS, SELF, switch_steam_USA_UP_4000_Big_Boy_position, position_in
 * Visual effect
 */
 
-switch(FEAT_TRAINS, SELF, switch_steam_USA_UP_4000_Big_Boy_visual_effect, position_in_vehid_chain % 3) {
+switch(FEAT_TRAINS, SELF, switch_steam_USA_UP_4000_Big_Boy_obsolete1_visual_effect, position_in_vehid_chain % 4) {
 	0: return visual_effect_and_powered(VISUAL_EFFECT_STEAM, -3, DISABLE_WAGON_POWER);
 	return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
 }
 
-switch(FEAT_TRAINS, SELF, switch_steam_USA_UP_4000_Big_Boy_length, position_in_vehid_chain % 3) {
-	0: 8;
-	2: 7;
-	2;
+switch(FEAT_TRAINS, SELF, switch_steam_USA_UP_4000_Big_Boy_obsolete1_length, position_in_vehid_chain % 4) {
+	1: 4;
+	3: 7;
+	3;
 }
 
-switch(FEAT_TRAINS, SELF, switch_steam_USA_UP_4000_Big_Boy_articulated, extra_callback_info1) {
-	1..2: return item_steam_USA_UP_4000_Big_Boy;
+switch(FEAT_TRAINS, SELF, switch_steam_USA_UP_4000_Big_Boy_obsolete1_articulated, extra_callback_info1) {
+	1..3: return item_steam_USA_UP_4000_Big_Boy_obsolete1;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
 }

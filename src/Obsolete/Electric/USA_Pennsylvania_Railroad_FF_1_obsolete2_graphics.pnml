@@ -10,7 +10,7 @@
 * PURCHASE
 */
 
-spriteset(spriteset_diesel_USA_UP_EMD_DDA40X_purchase, "gfx/Diesel/USA_UP_EMD_DDA40X.png") {
+spriteset(spriteset_electric_USA_Pennsylvania_Railroad_FF_1_obsolete2_purchase, "gfx/Electric/USA_Pennsylvania_Railroad_FF_1.png") {
 	template_purchase(1, 64)
 }
 
@@ -22,12 +22,12 @@ spriteset(spriteset_diesel_USA_UP_EMD_DDA40X_purchase, "gfx/Diesel/USA_UP_EMD_DD
 */
 
 //Engine
-spriteset(spriteset_diesel_USA_UP_EMD_DDA40X_engine, "gfx/Diesel/USA_UP_EMD_DDA40X.png") {
+spriteset(spriteset_electric_USA_Pennsylvania_Railroad_FF_1_obsolete2_engine, "gfx/Electric/USA_Pennsylvania_Railroad_FF_1.png") {
 	template_2cc_L10(1, 1)
 }
 
-switch(FEAT_TRAINS, SELF, switch_diesel_USA_UP_EMD_DDA40X_position, position_in_vehid_chain % 2) {
-	0: spriteset_diesel_USA_UP_EMD_DDA40X_engine;
+switch(FEAT_TRAINS, SELF, switch_electric_USA_Pennsylvania_Railroad_FF_1_obsolete2_position, position_in_vehid_chain % 3) {
+	1: spriteset_electric_USA_Pennsylvania_Railroad_FF_1_obsolete2_engine;
 	EMPTY_SPRITESET
 }
 
@@ -35,17 +35,17 @@ switch(FEAT_TRAINS, SELF, switch_diesel_USA_UP_EMD_DDA40X_position, position_in_
 * Visual effect
 */
 
-switch(FEAT_TRAINS, SELF, switch_diesel_USA_UP_EMD_DDA40X_visual_effect, position_in_vehid_chain % 2) {
-	0: return visual_effect_and_powered(VISUAL_EFFECT_DIESEL, -3, DISABLE_WAGON_POWER);
+switch(FEAT_TRAINS, SELF, switch_electric_USA_Pennsylvania_Railroad_FF_1_obsolete2_visual_effect, position_in_vehid_chain % 3) {
+	1: return visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, -3, DISABLE_WAGON_POWER);
 	return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
 }
 
-switch(FEAT_TRAINS, SELF, switch_diesel_USA_UP_EMD_DDA40X_length, position_in_vehid_chain % 2) {
-	0: 8;
-	2;
+switch(FEAT_TRAINS, SELF, switch_electric_USA_Pennsylvania_Railroad_FF_1_obsolete2_length, position_in_vehid_chain % 3) {
+	1: 4;
+	3;
 }
 
-switch(FEAT_TRAINS, SELF, switch_diesel_USA_UP_EMD_DDA40X_articulated, extra_callback_info1) {
-	1: return item_diesel_USA_UP_EMD_DDA40X;
+switch(FEAT_TRAINS, SELF, switch_electric_USA_Pennsylvania_Railroad_FF_1_obsolete2_articulated, extra_callback_info1) {
+	1..2: return item_electric_USA_Pennsylvania_Railroad_FF_1_obsolete2;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
 }

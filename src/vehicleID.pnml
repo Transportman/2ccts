@@ -77,13 +77,14 @@ item(FEAT_TRAINS, item_steam_UK_LNER_A4_Gresley, 4028) {}
 item(FEAT_TRAINS, item_steam_Canada_CPR_Royal_Hudson, 4029) {}
 item(FEAT_TRAINS, item_steam_Denmark_DSB_E_obsolete1, 4030) {} //Obsolete, replaced by ID 4038 in r349
 item(FEAT_TRAINS, item_steam_Germany_DB_52, 4031) {}
-item(FEAT_TRAINS, item_steam_USA_UP_4000_Big_Boy, 4032) {}
+item(FEAT_TRAINS, item_steam_USA_UP_4000_Big_Boy_obsolete1, 4032) {} //Obsolete, replaced by ID 4039 in r422
 item(FEAT_TRAINS, item_steam_UK_LNER_A1_Peppercorn, 4033) {}
 item(FEAT_TRAINS, item_steam_South_Africa_SAR_25, 4034) {}
 item(FEAT_TRAINS, item_steam_Russia_RZD_P36, 4035) {}
 item(FEAT_TRAINS, item_steam_USA_4_4_0_American, 4036) {}
 item(FEAT_TRAINS, item_steam_USA_4_6_0_Ten_wheeler, 4037) {}
 item(FEAT_TRAINS, item_steam_Denmark_DSB_E, 4038) {}
+item(FEAT_TRAINS, item_steam_USA_UP_4000_Big_Boy, 4039) {}
 
 //Diesel, available ID range: 5000-5999 (hex 0x1388..0x176F)
 #define ID_RANGE_DIESEL 0x1388..0x176F
@@ -151,7 +152,8 @@ item(FEAT_TRAINS, item_diesel_China_China_Railways_HXN5, 5060) {}
 item(FEAT_TRAINS, item_diesel_Germany_DB_260_Gravita_10BB, 5061) {}
 item(FEAT_TRAINS, item_diesel_Germany_HVLE_V490, 5062) {}
 item(FEAT_TRAINS, item_diesel_Russia_RZD_GT1, 5063) {}
-item(FEAT_TRAINS, item_diesel_USA_UP_EMD_DDA40X, 5064) {}
+item(FEAT_TRAINS, item_diesel_USA_UP_EMD_DDA40X_obsolete2, 5064) {} //Obsolete, replaced by ID 5065 in r422
+item(FEAT_TRAINS, item_diesel_USA_UP_EMD_DDA40X, 5065) {}
 
 //Electric, available ID range: 6000-6999 (hex 0x1770..0x1B57)
 #define ID_RANGE_ELECTRIC 0x1770..0x1B57
@@ -215,9 +217,12 @@ item(FEAT_TRAINS, item_electric_Ukraine_UZ_DS3, 6056) {}
 item(FEAT_TRAINS, item_electric_Kazakhstan_KTZ_KZ4A, 6057) {}
 item(FEAT_TRAINS, item_electric_China_China_Railways_HXD3, 6058) {}
 item(FEAT_TRAINS, item_electric_Switzerland_SBB_Eem_923, 6059) {}
-item(FEAT_TRAINS, item_electric_USA_Pennsylvania_Railroad_FF_1, 6060) {}
-item(FEAT_TRAINS, item_electric_USA_Milwaukee_Road_EP_2_Bipolar, 6061) {}
-item(FEAT_TRAINS, item_electric_USA_Pennsylvania_Railroad_GG_1, 6062) {}
+item(FEAT_TRAINS, item_electric_USA_Pennsylvania_Railroad_FF_1_obsolete2, 6060) {} //Obsolete, replaced by ID 6063 in r422 
+item(FEAT_TRAINS, item_electric_USA_Milwaukee_Road_EP_2_Bipolar_obsolete2, 6061) {} //Obsolete, replaced by ID 6064 in r422
+item(FEAT_TRAINS, item_electric_USA_Pennsylvania_Railroad_GG_1_obsolete2, 6062) {} //Obsolete, replaced by ID 6065 in r422
+item(FEAT_TRAINS, item_electric_USA_Pennsylvania_Railroad_FF_1, 6063) {}
+item(FEAT_TRAINS, item_electric_USA_Milwaukee_Road_EP_2_Bipolar, 6064) {}
+item(FEAT_TRAINS, item_electric_USA_Pennsylvania_Railroad_GG_1, 6065) {}
 
 //DMU, available ID range: 7000-7999 (hex 0x1B58..0x1F3F)
 #define ID_RANGE_DMU 0x1B58..0x1F3F

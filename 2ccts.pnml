@@ -928,6 +928,16 @@
 #include "src/Obsolete/Electric/USA_Pennsylvania_Railroad_GG_1_obsolete1_item.pnml"
 #include "src/Obsolete/Steam/Denmark_DSB_E_obsolete1_graphics.pnml"
 #include "src/Obsolete/Steam/Denmark_DSB_E_obsolete1_item.pnml"
+#include "src/Obsolete/Steam/USA_UP_4000_Big_Boy_obsolete1_graphics.pnml"
+#include "src/Obsolete/Steam/USA_UP_4000_Big_Boy_obsolete1_item.pnml"
+#include "src/Obsolete/Diesel/USA_UP_EMD_DDA40X_obsolete2_graphics.pnml"
+#include "src/Obsolete/Diesel/USA_UP_EMD_DDA40X_obsolete2_item.pnml"
+#include "src/Obsolete/Electric/USA_Pennsylvania_Railroad_FF_1_obsolete2_graphics.pnml"
+#include "src/Obsolete/Electric/USA_Pennsylvania_Railroad_FF_1_obsolete2_item.pnml"
+#include "src/Obsolete/Electric/USA_Milwaukee_Road_EP_2_Bipolar_obsolete2_graphics.pnml"
+#include "src/Obsolete/Electric/USA_Milwaukee_Road_EP_2_Bipolar_obsolete2_item.pnml"
+#include "src/Obsolete/Electric/USA_Pennsylvania_Railroad_GG_1_obsolete2_graphics.pnml"
+#include "src/Obsolete/Electric/USA_Pennsylvania_Railroad_GG_1_obsolete2_item.pnml"
 
 //sort vehicles in purchase list
 #include "src/vehiclesort.pnml"
