@@ -513,6 +513,11 @@ str_electric_USA_Pennsylvania_Railroad_FF_1_obsolete1                           
 str_electric_USA_Milwaukee_Road_EP_2_Bipolar_obsolete1                          :Milwaukee Road EP-2 Bipolar Obsoleta (Elèctrica)
 str_electric_USA_Pennsylvania_Railroad_GG_1_obsolete1                           :Pennsylvania Railroad GG-1 Obsoleta (Elèctrica)
 str_steam_Denmark_DSB_E_obsolete1                                                                       :Obsolet DSB E (Vapor)
+str_steam_USA_UP_4000_Big_Boy_obsolete1                                                         :UP 4000 'Big Boy' Obsoleta (Vapor)
+str_diesel_USA_UP_EMD_DDA40X_obsolete2                                                          :UP EMD DDA40X Obsoleta (Dièsel)
+str_electric_USA_Pennsylvania_Railroad_FF_1_obsolete2                           :Pennsylvania Railroad FF-1 Obsoleta (Elèctrica)
+str_electric_USA_Milwaukee_Road_EP_2_Bipolar_obsolete2                          :Milwaukee Road EP-2 Bipolar Obsoleta (Elèctrica)
+str_electric_USA_Pennsylvania_Railroad_GG_1_obsolete2                           :Pennsylvania Railroad GG-1 Obsoleta (Elèctrica)
 
 #PURCHASE MENU TEXTS
 str_unit_wagon                          :Aquest vagó genèric NOMÉS pot emprar-se amb MUs per a crear trens de la llargada desitjada
