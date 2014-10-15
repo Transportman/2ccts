@@ -378,6 +378,7 @@ str_wagon_Gen5_Flatcar                                  :Vagón plano, 5a Genera
 str_wagon_Gen5_Heavy_Flatcar                    :Vagón plano pesado, 5a Generación
 str_wagon_Gen5_Tanker                                   :Cisterna, 5a generación
 str_wagon_Gen5_Gondola                                  :Góndola, 5a Generación
+str_wagon_Gen5_Silo_Type2                               :Vagón silo, 5a generación (Tipo 2)
 str_wagon_Gen5_Superheavy_Flatcar               :Vagón plano superpesado, 5a Generación
 
 str_wagon_Service_Car_Type1                             :Vagón de servicio (Tipo 1)
@@ -473,6 +474,7 @@ str_steam_Denmark_DSB_E_obsolete1                                               
 
 
 #Can attach vehicle texts
+str_cannot_attach_wagon_to_MU                   :No se puede conectar un Vagón a/con una Unidad Múltiple motora
 str_cannot_attach_wagon_to_Unit_Wagon   :No se puede conectar un vagón estándar a/con un Vagón Unitario
 str_cannot_attach_Unit_wagon_to_engine  :No se puede conectar un Vagón Unitario a/con una locomotora estándar
 str_cannot_attach_Unit_wagon_to_wagon   :No se puede conectar un Vagón Unitario a/con un vagón estándar
