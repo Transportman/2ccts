@@ -511,6 +511,11 @@ str_electric_USA_Pennsylvania_Railroad_FF_1_obsolete1                           
 str_electric_USA_Milwaukee_Road_EP_2_Bipolar_obsolete1                          :Uitgediende Milwaukee Road EP-2 Bipolar (Elektries)
 str_electric_USA_Pennsylvania_Railroad_GG_1_obsolete1                           :Uitgediende Pennsylvania Spoorwëe GG-1 (Elektries)
 str_steam_Denmark_DSB_E_obsolete1                                                                       :Uitgediende DSB E (Stoom)
+str_steam_USA_UP_4000_Big_Boy_obsolete1                                                         :Uitgediende UP 4000 'Big Boy' (Stoom)
+str_diesel_USA_UP_EMD_DDA40X_obsolete2                                                          :Uitgediende UP EMD DDA40X (Diesel)
+str_electric_USA_Pennsylvania_Railroad_FF_1_obsolete2                           :Uitgediende Pennsylvania Spoorwëe FF-1 (Elektries)
+str_electric_USA_Milwaukee_Road_EP_2_Bipolar_obsolete2                          :Uitgediende Milwaukee Road EP-2 Bipolar (Elektries)
+str_electric_USA_Pennsylvania_Railroad_GG_1_obsolete2                           :Uitgediende Pennsylvania Spoorwëe GG-1 (Elektries)
 
 #PURCHASE MENU TEXTS
 str_unit_wagon                          :Hierdie generiese wa kan SLEGS gebruik word met MU om treine van die verlangde lengte te skep
