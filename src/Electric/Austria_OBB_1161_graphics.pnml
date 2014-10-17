@@ -10,7 +10,7 @@
 * PURCHASE
 */
 
-spriteset(spriteset_electric_Austria_OBB_1161_purchase, "gfx/Electric/Austria_OBB_1161.png") {
+spriteset(spriteset_electric_Austria_OBB_1161_purchase, "gfx/Diesel/Netherlands_NS_600.png") {
 	template_purchase(1, 64)
 }
 
@@ -19,6 +19,16 @@ spriteset(spriteset_electric_Austria_OBB_1161_purchase, "gfx/Electric/Austria_OB
 */
 
 //Engine
-spriteset(spriteset_electric_Austria_OBB_1161, "gfx/Electric/Austria_OBB_1161.png") {
+spriteset(spriteset_electric_Austria_OBB_1161_engine1, "gfx/Diesel/Netherlands_NS_600.png") {
 	template_2cc_engines_general(1, 1)
+}
+
+spriteset(spriteset_electric_Austria_OBB_1161_engine2, "gfx/Diesel/Netherlands_NS_600.png") {
+	template_2cc_engines_general(1, 32)
+}
+
+//Animation states
+switch(FEAT_TRAINS, SELF, switch_electric_Austria_OBB_1161_animation, motion_counter % 2){
+	0: spriteset_electric_Austria_OBB_1161_engine1;
+	spriteset_electric_Austria_OBB_1161_engine2;
 }

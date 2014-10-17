@@ -11,30 +11,62 @@
 */
 
 spriteset(spriteset_electric_Sweden_MTAB_Dm3_purchase, "gfx/Electric/Sweden_MTAB_Dm3.png") {
-	template_purchase(1, 96)
+	template_purchase(1, 192)
 }
 
 /*
 * VEHICLE
 */
 
-//Engine
-spriteset(spriteset_electric_Sweden_MTAB_Dm3_engine, "gfx/Electric/Sweden_MTAB_Dm3.png") {
+//Front
+spriteset(spriteset_electric_Sweden_MTAB_Dm3_front1, "gfx/Electric/Sweden_MTAB_Dm3.png") {
 	template_2cc_engines_general(1, 1)
 }
-//Middle
-spriteset(spriteset_electric_Sweden_MTAB_Dm3_middle, "gfx/Electric/Sweden_MTAB_Dm3.png") {
+
+spriteset(spriteset_electric_Sweden_MTAB_Dm3_front2, "gfx/Electric/Sweden_MTAB_Dm3.png") {
 	template_2cc_engines_general(1, 32)
 }
-//Tender
-spriteset(spriteset_electric_Sweden_MTAB_Dm3_tender, "gfx/Electric/Sweden_MTAB_Dm3.png") {
+
+//Animation states Front
+switch(FEAT_TRAINS, SELF, switch_electric_Sweden_MTAB_Dm3_front_animation, motion_counter % 2){
+	0: spriteset_electric_Sweden_MTAB_Dm3_front1;
+	spriteset_electric_Sweden_MTAB_Dm3_front2;
+}
+
+//Middle
+spriteset(spriteset_electric_Sweden_MTAB_Dm3_middle1, "gfx/Electric/Sweden_MTAB_Dm3.png") {
 	template_2cc_engines_general(1, 64)
 }
 
+spriteset(spriteset_electric_Sweden_MTAB_Dm3_middle2, "gfx/Electric/Sweden_MTAB_Dm3.png") {
+	template_2cc_engines_general(1, 96)
+}
+
+//Animation states Middle
+switch(FEAT_TRAINS, SELF, switch_electric_Sweden_MTAB_Dm3_middle_animation, motion_counter % 2){
+	0: spriteset_electric_Sweden_MTAB_Dm3_middle1;
+	spriteset_electric_Sweden_MTAB_Dm3_middle2;
+}
+
+//Back
+spriteset(spriteset_electric_Sweden_MTAB_Dm3_back1, "gfx/Electric/Sweden_MTAB_Dm3.png") {
+	template_2cc_engines_general(1, 128)
+}
+
+spriteset(spriteset_electric_Sweden_MTAB_Dm3_back2, "gfx/Electric/Sweden_MTAB_Dm3.png") {
+	template_2cc_engines_general(1, 160)
+}
+
+//Animation states Back
+switch(FEAT_TRAINS, SELF, switch_electric_Sweden_MTAB_Dm3_back_animation, motion_counter % 2){
+	0: spriteset_electric_Sweden_MTAB_Dm3_back1;
+	spriteset_electric_Sweden_MTAB_Dm3_back2;
+}
+
 switch(FEAT_TRAINS, SELF, switch_electric_Sweden_MTAB_Dm3_position, position_in_vehid_chain % 3) {
-	0: spriteset_electric_Sweden_MTAB_Dm3_engine;
-	1: spriteset_electric_Sweden_MTAB_Dm3_middle;
-	spriteset_electric_Sweden_MTAB_Dm3_tender;
+	0: switch_electric_Sweden_MTAB_Dm3_front_animation;
+	1: switch_electric_Sweden_MTAB_Dm3_middle_animation;
+	switch_electric_Sweden_MTAB_Dm3_back_animation;
 }
 
 /*

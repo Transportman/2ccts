@@ -19,6 +19,16 @@ spriteset(spriteset_diesel_Netherlands_NS_600_purchase, "gfx/Diesel/Netherlands_
 */
 
 //Engine
-spriteset(spriteset_diesel_Netherlands_NS_600, "gfx/Diesel/Netherlands_NS_600.png") {
+spriteset(spriteset_diesel_Netherlands_NS_600_engine1, "gfx/Diesel/Netherlands_NS_600.png") {
 	template_2cc_engines_general(1, 1)
+}
+
+spriteset(spriteset_diesel_Netherlands_NS_600_engine2, "gfx/Diesel/Netherlands_NS_600.png") {
+	template_2cc_engines_general(1, 32)
+}
+
+//Animation states
+switch(FEAT_TRAINS, SELF, switch_diesel_Netherlands_NS_600_animation, motion_counter % 2){
+	0: spriteset_diesel_Netherlands_NS_600_engine1;
+	spriteset_diesel_Netherlands_NS_600_engine2;
 }

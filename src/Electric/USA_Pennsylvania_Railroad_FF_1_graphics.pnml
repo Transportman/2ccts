@@ -22,12 +22,23 @@ spriteset(spriteset_electric_USA_Pennsylvania_Railroad_FF_1_purchase, "gfx/Elect
 */
 
 //Engine
-spriteset(spriteset_electric_USA_Pennsylvania_Railroad_FF_1_engine, "gfx/Electric/USA_Pennsylvania_Railroad_FF_1.png") {
+spriteset(spriteset_electric_USA_Pennsylvania_Railroad_FF_1_engine1, "gfx/Electric/USA_Pennsylvania_Railroad_FF_1.png") {
 	template_2cc_L10(1, 1)
 }
 
+//Engine
+spriteset(spriteset_electric_USA_Pennsylvania_Railroad_FF_1_engine2, "gfx/Electric/USA_Pennsylvania_Railroad_FF_1.png") {
+	template_2cc_L10(1, 32)
+}
+
+//Animation states
+switch(FEAT_TRAINS, SELF, switch_electric_USA_Pennsylvania_Railroad_FF_1_animation, motion_counter % 2){
+	0: spriteset_electric_USA_Pennsylvania_Railroad_FF_1_engine1;
+	spriteset_electric_USA_Pennsylvania_Railroad_FF_1_engine2;
+}
+
 switch(FEAT_TRAINS, SELF, switch_electric_USA_Pennsylvania_Railroad_FF_1_position, position_in_vehid_chain % 2) {
-	0: spriteset_electric_USA_Pennsylvania_Railroad_FF_1_engine;
+	0: switch_electric_USA_Pennsylvania_Railroad_FF_1_animation;
 	EMPTY_SPRITESET
 }
 
