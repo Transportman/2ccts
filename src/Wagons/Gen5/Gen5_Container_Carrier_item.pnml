@@ -47,6 +47,7 @@ item(FEAT_TRAINS, item_wagon_Gen5_Container_Carrier) {
 	}
 	graphics {
 		purchase: spriteset_wagon_Gen5_Container_Carrier_purchase;
+		cargo_capacity: 60;
 		switch_wagon_Gen5_Container_Carrier_cargo_selection;
 	}	
 }

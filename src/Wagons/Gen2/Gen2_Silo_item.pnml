@@ -47,6 +47,7 @@ item(FEAT_TRAINS, item_wagon_Gen2_Silo) {
 	}
 	graphics {
 		purchase: spriteset_wagon_Gen2_Silo_purchase;
+		cargo_capacity: 25;
 		switch_wagon_Gen2_Silo_livery;
 	}	
 }

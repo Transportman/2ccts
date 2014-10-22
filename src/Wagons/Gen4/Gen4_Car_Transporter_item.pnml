@@ -47,6 +47,7 @@ item(FEAT_TRAINS, item_wagon_Gen4_Car_Transporter) {
 	}
 	graphics {
 		purchase: spriteset_wagon_Gen4_Car_Transporter_purchase;
+		cargo_capacity: 40;
 		switch_wagon_Gen4_Car_Transporter_livery;
 	}	
 }

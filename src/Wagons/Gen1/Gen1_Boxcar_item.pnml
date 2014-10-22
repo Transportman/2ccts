@@ -47,6 +47,7 @@ item(FEAT_TRAINS, item_wagon_Gen1_Boxcar) {
 	}
 	graphics {
 		purchase: spriteset_wagon_Gen1_Boxcar_purchase;
+		cargo_capacity: 20;
 		switch_wagon_Gen1_Boxcar_cargo_selection;
 	}	
 }

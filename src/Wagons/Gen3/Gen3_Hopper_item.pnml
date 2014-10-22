@@ -47,6 +47,7 @@ item(FEAT_TRAINS, item_wagon_Gen3_Hopper) {
 	}
 	graphics {
 		purchase: spriteset_wagon_Gen3_Hopper_purchase;
+		cargo_capacity: 40;
 		switch_wagon_Gen3_Hopper_cargo_selection;
 	}	
 }

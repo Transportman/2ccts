@@ -47,6 +47,7 @@ item(FEAT_TRAINS, item_wagon_Gen2_Open_Wagon) {
 	}
 	graphics {
 		purchase: spriteset_wagon_Gen2_Open_Wagon_purchase;
+		cargo_capacity: 26;
 		switch_wagon_Gen2_Open_Wagon_cargo_selection;
 	}	
 }
