@@ -21,9 +21,9 @@ item(FEAT_TRAINS, item_coach_Gen6_Metropolis_Coach) {
         loading_speed: 20;
         cost_factor: 158;
         running_cost_factor: 158;
-        speed: 0 km/h;
+        speed: 180 km/h;
         power: 0 hp;
-        cargo_capacity: 100;
+        cargo_capacity: 115;
         weight: 62 ton;
         tractive_effort_coefficient: 0.3;
         air_drag_coefficient: 0;

@@ -23,7 +23,7 @@ item(FEAT_TRAINS, item_coach_Gen3_Indian_Regional_Coach) {
         running_cost_factor: 46;
         speed: 110 km/h;
         power: 0 hp;
-        cargo_capacity: 60;
+        cargo_capacity: 80;
         weight: 62 ton;
         tractive_effort_coefficient: 0.3;
         air_drag_coefficient: 0;

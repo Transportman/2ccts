@@ -23,7 +23,7 @@ item(FEAT_TRAINS, item_coach_Gen6_Super_Voyager_Coach) {
         running_cost_factor: 168;
         speed: 0 km/h;
         power: 0 hp;
-        cargo_capacity: 90;
+        cargo_capacity: 130;
         weight: 62 ton;
         tractive_effort_coefficient: 0.3;
         air_drag_coefficient: 0;

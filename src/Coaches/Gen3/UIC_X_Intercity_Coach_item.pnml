@@ -21,9 +21,9 @@ item(FEAT_TRAINS, item_coach_Gen3_UIC_X_Intercity_Coach) {
         loading_speed: 8;
         cost_factor: 67;
         running_cost_factor: 67;
-        speed: 160 km/h;
+        speed: 120 km/h;
         power: 0 hp;
-        cargo_capacity: 40;
+        cargo_capacity: 80;
         weight: 62 ton;
         tractive_effort_coefficient: 0.3;
         air_drag_coefficient: 0;

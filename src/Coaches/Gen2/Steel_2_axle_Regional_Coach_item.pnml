@@ -23,7 +23,7 @@ item(FEAT_TRAINS, item_coach_Gen2_Steel_2_axle_Regional_Coach) {
         running_cost_factor: 23;
         speed: 100 km/h;
         power: 0 hp;
-        cargo_capacity: 30;
+        cargo_capacity: 40;
         weight: 39 ton;
         tractive_effort_coefficient: 0.3;
         air_drag_coefficient: 0;

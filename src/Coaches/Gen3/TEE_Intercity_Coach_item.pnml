@@ -23,7 +23,7 @@ item(FEAT_TRAINS, item_coach_Gen3_TEE_Intercity_Coach) {
         running_cost_factor: 93;
         speed: 240 km/h;
         power: 0 hp;
-        cargo_capacity: 38;
+        cargo_capacity: 48;
         weight: 62 ton;
         tractive_effort_coefficient: 0.3;
         air_drag_coefficient: 0;

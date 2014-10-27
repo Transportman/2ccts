@@ -23,7 +23,7 @@ item(FEAT_TRAINS, item_coach_Gen5_High_Speed_Double_Decker_IC2000) {
         running_cost_factor: 126;
         speed: 200 km/h;
         power: 0 hp;
-        cargo_capacity: 80;
+        cargo_capacity: 115;
         weight: 62 ton;
         tractive_effort_coefficient: 0.3;
         air_drag_coefficient: 0;

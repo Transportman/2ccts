@@ -23,7 +23,7 @@ item(FEAT_TRAINS, item_coach_Gen4_Bombardier_Bi_level) {
         running_cost_factor: 75;
         speed: 160 km/h;
         power: 0 hp;
-        cargo_capacity: 90;
+        cargo_capacity: 150;
         weight: 62 ton;
         tractive_effort_coefficient: 0.3;
         air_drag_coefficient: 0;

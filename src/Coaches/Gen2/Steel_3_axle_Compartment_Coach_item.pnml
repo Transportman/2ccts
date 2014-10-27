@@ -15,7 +15,7 @@ item(FEAT_TRAINS, item_coach_Gen2_Steel_3_axle_Compartment_Coach) {
         name: string(str_coach_Gen2_Steel_3_axle_Compartment_Coach);
         REGION(REGIONTYPE1,OCEANIA,NOCONCEPT)
 		
-        introduction_date: date(1920,1,1);
+        introduction_date: date(1900,1,1);
         model_life: 30;
         vehicle_life: 25;
         loading_speed: 20;

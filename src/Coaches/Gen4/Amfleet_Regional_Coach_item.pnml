@@ -23,7 +23,7 @@ item(FEAT_TRAINS, item_coach_Gen4_Amfleet_Regional_Coach) {
         running_cost_factor: 98;
         speed: 200 km/h;
         power: 0 hp;
-        cargo_capacity: 65;
+        cargo_capacity: 84;
         weight: 62 ton;
         tractive_effort_coefficient: 0.3;
         air_drag_coefficient: 0;

@@ -21,9 +21,9 @@ item(FEAT_TRAINS, item_coach_Gen2_Heavyweight_Intercity_Coach) {
         loading_speed: 8;
         cost_factor: 40;
         running_cost_factor: 40;
-        speed: 120 km/h;
+        speed: 160 km/h;
         power: 0 hp;
-        cargo_capacity: 35;
+        cargo_capacity: 60;
         weight: 62 ton;
         tractive_effort_coefficient: 0.3;
         air_drag_coefficient: 0;

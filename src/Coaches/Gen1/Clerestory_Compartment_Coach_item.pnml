@@ -21,7 +21,7 @@ item(FEAT_TRAINS, item_coach_Gen1_Clerestory_Compartment_Coach) {
         loading_speed: 20;
         cost_factor: 12;
         running_cost_factor: 12;
-        speed: 90 km/h;
+        speed: 100 km/h;
         power: 0 hp;
         cargo_capacity: 30;
         weight: 47 ton;

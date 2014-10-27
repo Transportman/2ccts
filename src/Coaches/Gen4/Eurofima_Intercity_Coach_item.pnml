@@ -23,7 +23,7 @@ item(FEAT_TRAINS, item_coach_Gen4_Eurofima_Intercity_Coach) {
         running_cost_factor: 103;
         speed: 200 km/h;
         power: 0 hp;
-        cargo_capacity: 45;
+        cargo_capacity: 60;
         weight: 62 ton;
         tractive_effort_coefficient: 0.3;
         air_drag_coefficient: 0;

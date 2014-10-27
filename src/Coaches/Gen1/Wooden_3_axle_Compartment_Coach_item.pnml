@@ -23,7 +23,7 @@ item(FEAT_TRAINS, item_coach_Gen1_Wooden_3_axle_Compartment_Coach) {
         running_cost_factor: 9;
         speed: 70 km/h;
         power: 0 hp;
-        cargo_capacity: 20;
+        cargo_capacity: 50;
         weight: 39 ton;
         tractive_effort_coefficient: 0.3;
         air_drag_coefficient: 0;

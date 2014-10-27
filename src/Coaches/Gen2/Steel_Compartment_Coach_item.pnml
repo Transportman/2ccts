@@ -23,7 +23,7 @@ item(FEAT_TRAINS, item_coach_Gen2_Steel_Compartment_Coach) {
         running_cost_factor: 25;
         speed: 110 km/h;
         power: 0 hp;
-        cargo_capacity: 40;
+        cargo_capacity: 75;
         weight: 55 ton;
         tractive_effort_coefficient: 0.3;
         air_drag_coefficient: 0;
