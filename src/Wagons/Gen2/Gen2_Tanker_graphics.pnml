@@ -299,8 +299,26 @@ random_switch(FEAT_TRAINS, SELF, switch_wagon_Gen2_Tanker_Water_livery) {
 	1: spritegroup_wagon_Gen2_Tanker_Water_L4;
 }
 
+//Goods can have multiple liveries
+random_switch(FEAT_TRAINS, SELF, switch_wagon_Gen2_Tanker_Goods_livery) {
+	1: switch_wagon_Gen2_Tanker_Oil_livery;
+	1: switch_wagon_Gen2_Tanker_Rubber_livery;
+	1: switch_wagon_Gen2_Tanker_Water_livery;
+}
+
+//Plastic can have multiple liveries
+random_switch(FEAT_TRAINS, SELF, switch_wagon_Gen2_Tanker_Plastic_livery) {
+	1: switch_wagon_Gen2_Tanker_Oil_livery;
+	1: switch_wagon_Gen2_Tanker_Rubber_livery;
+}
+
 switch(FEAT_TRAINS, SELF, switch_wagon_Gen2_Tanker_cargo_selection, cargo_type_in_veh) {
 	OIL_: switch_wagon_Gen2_Tanker_Oil_livery;
+	GOOD: switch_wagon_Gen2_Tanker_Goods_livery;
 	RUBR: switch_wagon_Gen2_Tanker_Rubber_livery;
-	switch_wagon_Gen2_Tanker_Water_livery;
+	PLST: switch_wagon_Gen2_Tanker_Plastic_livery;
+	PETR: switch_wagon_Gen2_Tanker_Oil_livery;
+	PLAS: switch_wagon_Gen2_Tanker_Plastic_livery;
+	RFPR: switch_wagon_Gen2_Tanker_Oil_livery;
+	switch_wagon_Gen2_Tanker_Water_livery; //WATR, COLA, BEER, DYES, MILK
 }

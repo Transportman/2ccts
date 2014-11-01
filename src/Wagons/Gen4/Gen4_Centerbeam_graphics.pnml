@@ -197,7 +197,7 @@ spritegroup spritegroup_wagon_Gen4_Centerbeam_Planks_L4 {
 	loaded: [spriteset_wagon_Gen4_Centerbeam_Planks_L4_S1, spriteset_wagon_Gen4_Centerbeam_Planks_L4_S2, spriteset_wagon_Gen4_Centerbeam_Planks_L4_S3];	
 }
 
-random_switch(FEAT_TRAINS, SELF, switch_gen4_Centerbeam_Planks_livery) {
+random_switch(FEAT_TRAINS, SELF, switch_wagon_Gen4_Centerbeam_Planks_livery) {
 	7: spritegroup_wagon_Gen4_Centerbeam_Planks_L1;
 	1: spritegroup_wagon_Gen4_Centerbeam_Planks_L2;
 	1: spritegroup_wagon_Gen4_Centerbeam_Planks_L3;
@@ -299,8 +299,16 @@ random_switch(FEAT_TRAINS, SELF, switch_wagon_Gen4_Centerbeam_Steel_livery) {
 	1: spritegroup_wagon_Gen4_Centerbeam_Steel_L4;
 }
 
+random_switch(FEAT_TRAINS, SELF, switch_wagon_Gen4_Centerbeam_Supplies_livery) {
+	1: switch_wagon_Gen4_Centerbeam_Crates_livery;
+	1: switch_wagon_Gen4_Centerbeam_Planks_livery;
+	1: switch_wagon_Gen4_Centerbeam_Steel_livery;
+}
+
 switch(FEAT_TRAINS, SELF, switch_wagon_Gen4_Centerbeam_cargo_selection, cargo_type_in_veh) {
 	STEL: switch_wagon_Gen4_Centerbeam_Steel_livery;
-	WDPR: switch_gen4_Centerbeam_Planks_livery;
+	BDMT: switch_wagon_Gen4_Centerbeam_Supplies_livery;
+	MNSP: switch_wagon_Gen4_Centerbeam_Supplies_livery;
+	WDPR: switch_wagon_Gen4_Centerbeam_Planks_livery;
 	switch_wagon_Gen4_Centerbeam_Crates_livery; //Goods, Paper
 }

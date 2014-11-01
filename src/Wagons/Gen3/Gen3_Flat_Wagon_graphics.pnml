@@ -489,10 +489,120 @@ random_switch(FEAT_TRAINS, SELF, switch_wagon_Gen3_Flat_Wagon_Machinery_livery) 
 	1: spritegroup_wagon_Gen3_Flat_Wagon_Machinery_L4;
 }
 
+/*
+* YETI
+*/
+
+//Livery 1 - Loading State 1 - YETI
+spriteset(spriteset_wagon_Gen3_Flat_Wagon_YETI_L1_S1, "gfx/Wagons/Gen3/Gen3_Flat_Wagon_YETI.png") {
+	template_2cc_wagons(1, 1)
+}
+
+//Livery 1 - Loading State 2 - YETI
+spriteset(spriteset_wagon_Gen3_Flat_Wagon_YETI_L1_S2, "gfx/Wagons/Gen3/Gen3_Flat_Wagon_YETI.png") {
+	template_2cc_wagons(1, 32)
+}
+
+//Livery 1 - Loading State 3 - YETI
+spriteset(spriteset_wagon_Gen3_Flat_Wagon_YETI_L1_S3, "gfx/Wagons/Gen3/Gen3_Flat_Wagon_YETI.png") {
+	template_2cc_wagons(1, 64)
+}
+
+//Livery 1 Spritegroup - YETI
+spritegroup spritegroup_wagon_Gen3_Flat_Wagon_YETI_L1 {
+	loading: [spriteset_wagon_Gen3_Flat_Wagon_YETI_L1_S1, spriteset_wagon_Gen3_Flat_Wagon_YETI_L1_S2, spriteset_wagon_Gen3_Flat_Wagon_YETI_L1_S3];
+	loaded: [spriteset_wagon_Gen3_Flat_Wagon_YETI_L1_S1, spriteset_wagon_Gen3_Flat_Wagon_YETI_L1_S2, spriteset_wagon_Gen3_Flat_Wagon_YETI_L1_S3];
+}
+
+//Livery 2 - Loading State 1 - YETI
+spriteset(spriteset_wagon_Gen3_Flat_Wagon_YETI_L2_S1, "gfx/Wagons/Gen3/Gen3_Flat_Wagon_YETI.png") {
+	template_2cc_wagons(179, 1)
+}
+
+//Livery 2 - Loading State 2 - YETI
+spriteset(spriteset_wagon_Gen3_Flat_Wagon_YETI_L2_S2, "gfx/Wagons/Gen3/Gen3_Flat_Wagon_YETI.png") {
+	template_2cc_wagons(179, 32)
+}
+
+//Livery 2 - Loading State 3 - YETI
+spriteset(spriteset_wagon_Gen3_Flat_Wagon_YETI_L2_S3, "gfx/Wagons/Gen3/Gen3_Flat_Wagon_YETI.png") {
+	template_2cc_wagons(179, 64)
+}
+
+//Livery 2 Spritegroup - YETI
+spritegroup spritegroup_wagon_Gen3_Flat_Wagon_YETI_L2 {
+	loading: [spriteset_wagon_Gen3_Flat_Wagon_YETI_L2_S1, spriteset_wagon_Gen3_Flat_Wagon_YETI_L2_S2, spriteset_wagon_Gen3_Flat_Wagon_YETI_L2_S3];
+	loaded: [spriteset_wagon_Gen3_Flat_Wagon_YETI_L2_S1, spriteset_wagon_Gen3_Flat_Wagon_YETI_L2_S2, spriteset_wagon_Gen3_Flat_Wagon_YETI_L2_S3];	
+}
+
+//Livery 3 - Loading State 1 - YETI
+spriteset(spriteset_wagon_Gen3_Flat_Wagon_YETI_L3_S1, "gfx/Wagons/Gen3/Gen3_Flat_Wagon_YETI.png") {
+	template_2cc_wagons(357, 1)
+}
+
+//Livery 3 - Loading State 2 - YETI
+spriteset(spriteset_wagon_Gen3_Flat_Wagon_YETI_L3_S2, "gfx/Wagons/Gen3/Gen3_Flat_Wagon_YETI.png") {
+	template_2cc_wagons(357, 32)
+}
+
+//Livery 3 - Loading State 3 - YETI
+spriteset(spriteset_wagon_Gen3_Flat_Wagon_YETI_L3_S3, "gfx/Wagons/Gen3/Gen3_Flat_Wagon_YETI.png") {
+	template_2cc_wagons(357, 64)
+}
+
+//Livery 3 Spritegroup - YETI
+spritegroup spritegroup_wagon_Gen3_Flat_Wagon_YETI_L3 {
+	loading: [spriteset_wagon_Gen3_Flat_Wagon_YETI_L3_S1, spriteset_wagon_Gen3_Flat_Wagon_YETI_L3_S2, spriteset_wagon_Gen3_Flat_Wagon_YETI_L3_S3];
+	loaded: [spriteset_wagon_Gen3_Flat_Wagon_YETI_L3_S1, spriteset_wagon_Gen3_Flat_Wagon_YETI_L3_S2, spriteset_wagon_Gen3_Flat_Wagon_YETI_L3_S3];	
+}
+
+//Livery 4 - Loading State 1 - YETI
+spriteset(spriteset_wagon_Gen3_Flat_Wagon_YETI_L4_S1, "gfx/Wagons/Gen3/Gen3_Flat_Wagon_YETI.png") {
+	template_2cc_wagons(535, 1)
+}
+
+//Livery 4 - Loading State 2 - YETI
+spriteset(spriteset_wagon_Gen3_Flat_Wagon_YETI_L4_S2, "gfx/Wagons/Gen3/Gen3_Flat_Wagon_YETI.png") {
+	template_2cc_wagons(535, 32)
+}
+
+//Livery 4 - Loading State 3 - YETI
+spriteset(spriteset_wagon_Gen3_Flat_Wagon_YETI_L4_S3, "gfx/Wagons/Gen3/Gen3_Flat_Wagon_YETI.png") {
+	template_2cc_wagons(535, 64)
+}
+
+//Livery 4 Spritegroup - YETI
+spritegroup spritegroup_wagon_Gen3_Flat_Wagon_YETI_L4 {
+	loading: [spriteset_wagon_Gen3_Flat_Wagon_YETI_L4_S1, spriteset_wagon_Gen3_Flat_Wagon_YETI_L4_S2, spriteset_wagon_Gen3_Flat_Wagon_YETI_L4_S3];
+	loaded: [spriteset_wagon_Gen3_Flat_Wagon_YETI_L4_S1, spriteset_wagon_Gen3_Flat_Wagon_YETI_L4_S2, spriteset_wagon_Gen3_Flat_Wagon_YETI_L4_S3];	
+}
+
+random_switch(FEAT_TRAINS, SELF, switch_wagon_Gen3_Flat_Wagon_YETI_livery) {
+	7: spritegroup_wagon_Gen3_Flat_Wagon_YETI_L1;
+	1: spritegroup_wagon_Gen3_Flat_Wagon_YETI_L2;
+	1: spritegroup_wagon_Gen3_Flat_Wagon_YETI_L3;
+	1: spritegroup_wagon_Gen3_Flat_Wagon_YETI_L4;
+}
+
+//Goods and Engineering Supplies have multiple liveries
+random_switch(FEAT_TRAINS, SELF, switch_wagon_Gen3_Flat_Wagon_Goods_livery) {
+	7: switch_wagon_Gen3_Flat_Wagon_Crates_livery;
+	3: switch_wagon_Gen3_Flat_Wagon_Machinery_livery;
+}
+
+//Building materials can be planks or steel rolls
+random_switch(FEAT_TRAINS, SELF, switch_wagon_Gen3_Flat_Wagon_Building_Materials_livery) {
+	1: switch_wagon_Gen3_Flat_Wagon_Planks_livery;
+	1: switch_wagon_Gen3_Flat_Wagon_Steel_livery;
+}
+
 switch(FEAT_TRAINS, SELF, switch_wagon_Gen3_Flat_Wagon_cargo_selection, cargo_type_in_veh) {
+	GOOD: switch_wagon_Gen3_Flat_Wagon_Goods_livery;
 	WOOD: switch_wagon_Gen3_Flat_Wagon_Wood_livery;
 	STEL: switch_wagon_Gen3_Flat_Wagon_Steel_livery;
+	BDMT: switch_wagon_Gen3_Flat_Wagon_Building_Materials_livery;
+	ENSP: switch_wagon_Gen3_Flat_Wagon_Goods_livery;
 	WDPR: switch_wagon_Gen3_Flat_Wagon_Planks_livery;
-	ENSP: switch_wagon_Gen3_Flat_Wagon_Machinery_livery;
-	switch_wagon_Gen3_Flat_Wagon_Crates_livery;
+	YETI: switch_wagon_Gen3_Flat_Wagon_YETI_livery;
+	switch_wagon_Gen3_Flat_Wagon_Crates_livery; //TOYS, BATT, SWET, BUBL, FZDR, BRCK, CERA, CERE, COPR, FICR, FMSP, JAVA, MNSP, WOOL
 }

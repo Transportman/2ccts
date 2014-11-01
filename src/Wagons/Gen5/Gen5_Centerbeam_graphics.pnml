@@ -299,8 +299,16 @@ random_switch(FEAT_TRAINS, SELF, switch_wagon_Gen5_Centerbeam_Steel_livery) {
 	1: spritegroup_wagon_Gen5_Centerbeam_Steel_L4;
 }
 
+random_switch(FEAT_TRAINS, SELF, switch_wagon_Gen5_Centerbeam_Supplies_livery) {
+	1: switch_wagon_Gen5_Centerbeam_Crates_livery;
+	1: switch_wagon_Gen5_Centerbeam_Planks_livery;
+	1: switch_wagon_Gen5_Centerbeam_Steel_livery;
+}
+
 switch(FEAT_TRAINS, SELF, switch_wagon_Gen5_Centerbeam_cargo_selection, cargo_type_in_veh) {
 	STEL: switch_wagon_Gen5_Centerbeam_Steel_livery;
+	BDMT: switch_wagon_Gen5_Centerbeam_Supplies_livery;
+	MNSP: switch_wagon_Gen5_Centerbeam_Supplies_livery;
 	WDPR: switch_wagon_Gen5_Centerbeam_Planks_livery;
 	switch_wagon_Gen5_Centerbeam_Crates_livery; //Goods, Paper
 }

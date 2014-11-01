@@ -33,15 +33,10 @@ spriteset(spriteset_wagon_Gen5_Hopper_Type1_Coal_L1_S3, "gfx/Wagons/Gen5/Gen5_Ho
 	template_2cc_wagons(1, 64)
 }
 
-//Livery 1 - Driving State 4 - Coal
-spriteset(spriteset_wagon_Gen5_Hopper_Type1_Coal_L1_S4, "gfx/Wagons/Gen5/Gen5_Hopper_Type1_Coal.png") {
-	template_2cc_wagons(1, 96)
-}
-
 //Livery 1 Spritegroup - Coal
 spritegroup spritegroup_wagon_Gen5_Hopper_Type1_Coal_L1 {
 	loading: [spriteset_wagon_Gen5_Hopper_Type1_Coal_L1_S1, spriteset_wagon_Gen5_Hopper_Type1_Coal_L1_S2, spriteset_wagon_Gen5_Hopper_Type1_Coal_L1_S3];
-	loaded: [spriteset_wagon_Gen5_Hopper_Type1_Coal_L1_S1, spriteset_wagon_Gen5_Hopper_Type1_Coal_L1_S4, spriteset_wagon_Gen5_Hopper_Type1_Coal_L1_S4];
+	loaded: [spriteset_wagon_Gen5_Hopper_Type1_Coal_L1_S1, spriteset_wagon_Gen5_Hopper_Type1_Coal_L1_S2, spriteset_wagon_Gen5_Hopper_Type1_Coal_L1_S3];
 }
 
 //Livery 2 - Loading State 1 - Coal
@@ -59,15 +54,10 @@ spriteset(spriteset_wagon_Gen5_Hopper_Type1_Coal_L2_S3, "gfx/Wagons/Gen5/Gen5_Ho
 	template_2cc_wagons(179, 64)
 }
 
-//Livery 2 - Driving State 4 - Coal
-spriteset(spriteset_wagon_Gen5_Hopper_Type1_Coal_L2_S4, "gfx/Wagons/Gen5/Gen5_Hopper_Type1_Coal.png") {
-	template_2cc_wagons(179, 96)
-}
-
 //Livery 2 Spritegroup - Coal
 spritegroup spritegroup_wagon_Gen5_Hopper_Type1_Coal_L2 {
 	loading: [spriteset_wagon_Gen5_Hopper_Type1_Coal_L2_S1, spriteset_wagon_Gen5_Hopper_Type1_Coal_L2_S2, spriteset_wagon_Gen5_Hopper_Type1_Coal_L2_S3];
-	loaded: [spriteset_wagon_Gen5_Hopper_Type1_Coal_L2_S1, spriteset_wagon_Gen5_Hopper_Type1_Coal_L2_S4, spriteset_wagon_Gen5_Hopper_Type1_Coal_L2_S4];	
+	loaded: [spriteset_wagon_Gen5_Hopper_Type1_Coal_L2_S1, spriteset_wagon_Gen5_Hopper_Type1_Coal_L2_S2, spriteset_wagon_Gen5_Hopper_Type1_Coal_L2_S3];	
 }
 
 //Livery 3 - Loading State 1 - Coal
@@ -85,15 +75,10 @@ spriteset(spriteset_wagon_Gen5_Hopper_Type1_Coal_L3_S3, "gfx/Wagons/Gen5/Gen5_Ho
 	template_2cc_wagons(357, 64)
 }
 
-//Livery 3 - Driving State 4 - Coal
-spriteset(spriteset_wagon_Gen5_Hopper_Type1_Coal_L3_S4, "gfx/Wagons/Gen5/Gen5_Hopper_Type1_Coal.png") {
-	template_2cc_wagons(357, 96)
-}
-
 //Livery 3 Spritegroup - Coal
 spritegroup spritegroup_wagon_Gen5_Hopper_Type1_Coal_L3 {
 	loading: [spriteset_wagon_Gen5_Hopper_Type1_Coal_L3_S1, spriteset_wagon_Gen5_Hopper_Type1_Coal_L3_S2, spriteset_wagon_Gen5_Hopper_Type1_Coal_L3_S3];
-	loaded: [spriteset_wagon_Gen5_Hopper_Type1_Coal_L3_S1, spriteset_wagon_Gen5_Hopper_Type1_Coal_L3_S4, spriteset_wagon_Gen5_Hopper_Type1_Coal_L3_S4];	
+	loaded: [spriteset_wagon_Gen5_Hopper_Type1_Coal_L3_S1, spriteset_wagon_Gen5_Hopper_Type1_Coal_L3_S2, spriteset_wagon_Gen5_Hopper_Type1_Coal_L3_S3];	
 }
 
 //Livery 4 - Loading State 1 - Coal
@@ -111,15 +96,10 @@ spriteset(spriteset_wagon_Gen5_Hopper_Type1_Coal_L4_S3, "gfx/Wagons/Gen5/Gen5_Ho
 	template_2cc_wagons(535, 64)
 }
 
-//Livery 4 - Driving State 4 - Coal
-spriteset(spriteset_wagon_Gen5_Hopper_Type1_Coal_L4_S4, "gfx/Wagons/Gen5/Gen5_Hopper_Type1_Coal.png") {
-	template_2cc_wagons(535, 96)
-}
-
 //Livery 4 Spritegroup - Coal
 spritegroup spritegroup_wagon_Gen5_Hopper_Type1_Coal_L4 {
 	loading: [spriteset_wagon_Gen5_Hopper_Type1_Coal_L4_S1, spriteset_wagon_Gen5_Hopper_Type1_Coal_L4_S2, spriteset_wagon_Gen5_Hopper_Type1_Coal_L4_S3];
-	loaded: [spriteset_wagon_Gen5_Hopper_Type1_Coal_L4_S1, spriteset_wagon_Gen5_Hopper_Type1_Coal_L4_S4, spriteset_wagon_Gen5_Hopper_Type1_Coal_L4_S4];	
+	loaded: [spriteset_wagon_Gen5_Hopper_Type1_Coal_L4_S1, spriteset_wagon_Gen5_Hopper_Type1_Coal_L4_S2, spriteset_wagon_Gen5_Hopper_Type1_Coal_L4_S3];	
 }
 
 random_switch(FEAT_TRAINS, SELF, switch_wagon_Gen5_Hopper_Type1_Coal_livery) {
@@ -148,15 +128,10 @@ spriteset(spriteset_wagon_Gen5_Hopper_Type1_Ore_L1_S3, "gfx/Wagons/Gen5/Gen5_Hop
 	template_2cc_wagons(1, 64)
 }
 
-//Livery 1 - Driving State 4 - Ore
-spriteset(spriteset_wagon_Gen5_Hopper_Type1_Ore_L1_S4, "gfx/Wagons/Gen5/Gen5_Hopper_Type1_Ore.png") {
-	template_2cc_wagons(1, 96)
-}
-
 //Livery 1 Spritegroup - Ore
 spritegroup spritegroup_wagon_Gen5_Hopper_Type1_Ore_L1 {
 	loading: [spriteset_wagon_Gen5_Hopper_Type1_Ore_L1_S1, spriteset_wagon_Gen5_Hopper_Type1_Ore_L1_S2, spriteset_wagon_Gen5_Hopper_Type1_Ore_L1_S3];
-	loaded: [spriteset_wagon_Gen5_Hopper_Type1_Ore_L1_S1, spriteset_wagon_Gen5_Hopper_Type1_Ore_L1_S4, spriteset_wagon_Gen5_Hopper_Type1_Ore_L1_S4];
+	loaded: [spriteset_wagon_Gen5_Hopper_Type1_Ore_L1_S1, spriteset_wagon_Gen5_Hopper_Type1_Ore_L1_S2, spriteset_wagon_Gen5_Hopper_Type1_Ore_L1_S3];
 }
 
 //Livery 2 - Loading State 1 - Ore
@@ -174,15 +149,10 @@ spriteset(spriteset_wagon_Gen5_Hopper_Type1_Ore_L2_S3, "gfx/Wagons/Gen5/Gen5_Hop
 	template_2cc_wagons(179, 64)
 }
 
-//Livery 2 - Driving State 4 - Ore
-spriteset(spriteset_wagon_Gen5_Hopper_Type1_Ore_L2_S4, "gfx/Wagons/Gen5/Gen5_Hopper_Type1_Ore.png") {
-	template_2cc_wagons(179, 96)
-}
-
 //Livery 2 Spritegroup - Ore
 spritegroup spritegroup_wagon_Gen5_Hopper_Type1_Ore_L2 {
 	loading: [spriteset_wagon_Gen5_Hopper_Type1_Ore_L2_S1, spriteset_wagon_Gen5_Hopper_Type1_Ore_L2_S2, spriteset_wagon_Gen5_Hopper_Type1_Ore_L2_S3];
-	loaded: [spriteset_wagon_Gen5_Hopper_Type1_Ore_L2_S1, spriteset_wagon_Gen5_Hopper_Type1_Ore_L2_S4, spriteset_wagon_Gen5_Hopper_Type1_Ore_L2_S4];	
+	loaded: [spriteset_wagon_Gen5_Hopper_Type1_Ore_L2_S1, spriteset_wagon_Gen5_Hopper_Type1_Ore_L2_S2, spriteset_wagon_Gen5_Hopper_Type1_Ore_L2_S3];	
 }
 
 //Livery 3 - Loading State 1 - Ore
@@ -200,15 +170,10 @@ spriteset(spriteset_wagon_Gen5_Hopper_Type1_Ore_L3_S3, "gfx/Wagons/Gen5/Gen5_Hop
 	template_2cc_wagons(357, 64)
 }
 
-//Livery 3 - Driving State 4 - Ore
-spriteset(spriteset_wagon_Gen5_Hopper_Type1_Ore_L3_S4, "gfx/Wagons/Gen5/Gen5_Hopper_Type1_Ore.png") {
-	template_2cc_wagons(357, 96)
-}
-
 //Livery 3 Spritegroup - Ore
 spritegroup spritegroup_wagon_Gen5_Hopper_Type1_Ore_L3 {
 	loading: [spriteset_wagon_Gen5_Hopper_Type1_Ore_L3_S1, spriteset_wagon_Gen5_Hopper_Type1_Ore_L3_S2, spriteset_wagon_Gen5_Hopper_Type1_Ore_L3_S3];
-	loaded: [spriteset_wagon_Gen5_Hopper_Type1_Ore_L3_S1, spriteset_wagon_Gen5_Hopper_Type1_Ore_L3_S4, spriteset_wagon_Gen5_Hopper_Type1_Ore_L3_S4];	
+	loaded: [spriteset_wagon_Gen5_Hopper_Type1_Ore_L3_S1, spriteset_wagon_Gen5_Hopper_Type1_Ore_L3_S2, spriteset_wagon_Gen5_Hopper_Type1_Ore_L3_S3];	
 }
 
 //Livery 4 - Loading State 1 - Ore
@@ -226,15 +191,10 @@ spriteset(spriteset_wagon_Gen5_Hopper_Type1_Ore_L4_S3, "gfx/Wagons/Gen5/Gen5_Hop
 	template_2cc_wagons(535, 64)
 }
 
-//Livery 4 - Driving State 4 - Ore
-spriteset(spriteset_wagon_Gen5_Hopper_Type1_Ore_L4_S4, "gfx/Wagons/Gen5/Gen5_Hopper_Type1_Ore.png") {
-	template_2cc_wagons(535, 96)
-}
-
 //Livery 4 Spritegroup - Ore
 spritegroup spritegroup_wagon_Gen5_Hopper_Type1_Ore_L4 {
 	loading: [spriteset_wagon_Gen5_Hopper_Type1_Ore_L4_S1, spriteset_wagon_Gen5_Hopper_Type1_Ore_L4_S2, spriteset_wagon_Gen5_Hopper_Type1_Ore_L4_S3];
-	loaded: [spriteset_wagon_Gen5_Hopper_Type1_Ore_L4_S1, spriteset_wagon_Gen5_Hopper_Type1_Ore_L4_S4, spriteset_wagon_Gen5_Hopper_Type1_Ore_L4_S4];	
+	loaded: [spriteset_wagon_Gen5_Hopper_Type1_Ore_L4_S1, spriteset_wagon_Gen5_Hopper_Type1_Ore_L4_S2, spriteset_wagon_Gen5_Hopper_Type1_Ore_L4_S3];	
 }
 
 random_switch(FEAT_TRAINS, SELF, switch_wagon_Gen5_Hopper_Type1_Ore_livery) {
@@ -244,7 +204,203 @@ random_switch(FEAT_TRAINS, SELF, switch_wagon_Gen5_Hopper_Type1_Ore_livery) {
 	1: spritegroup_wagon_Gen5_Hopper_Type1_Ore_L4;
 }
 
+/*
+* Sand
+*/
+
+//Livery 1 - Loading State 1 - Sand
+spriteset(spriteset_wagon_Gen5_Hopper_Type1_Sand_L1_S1, "gfx/Wagons/Gen5/Gen5_Hopper_Type1_Sand.png") {
+	template_2cc_wagons(1, 1)
+}
+
+//Livery 1 - Loading State 2 - Sand
+spriteset(spriteset_wagon_Gen5_Hopper_Type1_Sand_L1_S2, "gfx/Wagons/Gen5/Gen5_Hopper_Type1_Sand.png") {
+	template_2cc_wagons(1, 32)
+}
+
+//Livery 1 - Loading State 3 - Sand
+spriteset(spriteset_wagon_Gen5_Hopper_Type1_Sand_L1_S3, "gfx/Wagons/Gen5/Gen5_Hopper_Type1_Sand.png") {
+	template_2cc_wagons(1, 64)
+}
+
+//Livery 1 Spritegroup - Sand
+spritegroup spritegroup_wagon_Gen5_Hopper_Type1_Sand_L1 {
+	loading: [spriteset_wagon_Gen5_Hopper_Type1_Sand_L1_S1, spriteset_wagon_Gen5_Hopper_Type1_Sand_L1_S2, spriteset_wagon_Gen5_Hopper_Type1_Sand_L1_S3];
+	loaded: [spriteset_wagon_Gen5_Hopper_Type1_Sand_L1_S1, spriteset_wagon_Gen5_Hopper_Type1_Sand_L1_S2, spriteset_wagon_Gen5_Hopper_Type1_Sand_L1_S3];
+}
+
+//Livery 2 - Loading State 1 - Sand
+spriteset(spriteset_wagon_Gen5_Hopper_Type1_Sand_L2_S1, "gfx/Wagons/Gen5/Gen5_Hopper_Type1_Sand.png") {
+	template_2cc_wagons(179, 1)
+}
+
+//Livery 2 - Loading State 2 - Sand
+spriteset(spriteset_wagon_Gen5_Hopper_Type1_Sand_L2_S2, "gfx/Wagons/Gen5/Gen5_Hopper_Type1_Sand.png") {
+	template_2cc_wagons(179, 32)
+}
+
+//Livery 2 - Loading State 3 - Sand
+spriteset(spriteset_wagon_Gen5_Hopper_Type1_Sand_L2_S3, "gfx/Wagons/Gen5/Gen5_Hopper_Type1_Sand.png") {
+	template_2cc_wagons(179, 64)
+}
+
+//Livery 2 Spritegroup - Sand
+spritegroup spritegroup_wagon_Gen5_Hopper_Type1_Sand_L2 {
+	loading: [spriteset_wagon_Gen5_Hopper_Type1_Sand_L2_S1, spriteset_wagon_Gen5_Hopper_Type1_Sand_L2_S2, spriteset_wagon_Gen5_Hopper_Type1_Sand_L2_S3];
+	loaded: [spriteset_wagon_Gen5_Hopper_Type1_Sand_L2_S1, spriteset_wagon_Gen5_Hopper_Type1_Sand_L2_S2, spriteset_wagon_Gen5_Hopper_Type1_Sand_L2_S3];	
+}
+
+//Livery 3 - Loading State 1 - Sand
+spriteset(spriteset_wagon_Gen5_Hopper_Type1_Sand_L3_S1, "gfx/Wagons/Gen5/Gen5_Hopper_Type1_Sand.png") {
+	template_2cc_wagons(357, 1)
+}
+
+//Livery 3 - Loading State 2 - Sand
+spriteset(spriteset_wagon_Gen5_Hopper_Type1_Sand_L3_S2, "gfx/Wagons/Gen5/Gen5_Hopper_Type1_Sand.png") {
+	template_2cc_wagons(357, 32)
+}
+
+//Livery 3 - Loading State 3 - Sand
+spriteset(spriteset_wagon_Gen5_Hopper_Type1_Sand_L3_S3, "gfx/Wagons/Gen5/Gen5_Hopper_Type1_Sand.png") {
+	template_2cc_wagons(357, 64)
+}
+
+//Livery 3 Spritegroup - Sand
+spritegroup spritegroup_wagon_Gen5_Hopper_Type1_Sand_L3 {
+	loading: [spriteset_wagon_Gen5_Hopper_Type1_Sand_L3_S1, spriteset_wagon_Gen5_Hopper_Type1_Sand_L3_S2, spriteset_wagon_Gen5_Hopper_Type1_Sand_L3_S3];
+	loaded: [spriteset_wagon_Gen5_Hopper_Type1_Sand_L3_S1, spriteset_wagon_Gen5_Hopper_Type1_Sand_L3_S2, spriteset_wagon_Gen5_Hopper_Type1_Sand_L3_S3];	
+}
+
+//Livery 4 - Loading State 1 - Sand
+spriteset(spriteset_wagon_Gen5_Hopper_Type1_Sand_L4_S1, "gfx/Wagons/Gen5/Gen5_Hopper_Type1_Sand.png") {
+	template_2cc_wagons(535, 1)
+}
+
+//Livery 4 - Loading State 2 - Sand
+spriteset(spriteset_wagon_Gen5_Hopper_Type1_Sand_L4_S2, "gfx/Wagons/Gen5/Gen5_Hopper_Type1_Sand.png") {
+	template_2cc_wagons(535, 32)
+}
+
+//Livery 4 - Loading State 3 - Sand
+spriteset(spriteset_wagon_Gen5_Hopper_Type1_Sand_L4_S3, "gfx/Wagons/Gen5/Gen5_Hopper_Type1_Sand.png") {
+	template_2cc_wagons(535, 64)
+}
+
+//Livery 4 Spritegroup - Sand
+spritegroup spritegroup_wagon_Gen5_Hopper_Type1_Sand_L4 {
+	loading: [spriteset_wagon_Gen5_Hopper_Type1_Sand_L4_S1, spriteset_wagon_Gen5_Hopper_Type1_Sand_L4_S2, spriteset_wagon_Gen5_Hopper_Type1_Sand_L4_S3];
+	loaded: [spriteset_wagon_Gen5_Hopper_Type1_Sand_L4_S1, spriteset_wagon_Gen5_Hopper_Type1_Sand_L4_S2, spriteset_wagon_Gen5_Hopper_Type1_Sand_L4_S3];	
+}
+
+random_switch(FEAT_TRAINS, SELF, switch_wagon_Gen5_Hopper_Type1_Sand_livery) {
+	7: spritegroup_wagon_Gen5_Hopper_Type1_Sand_L1;
+	1: spritegroup_wagon_Gen5_Hopper_Type1_Sand_L2;
+	1: spritegroup_wagon_Gen5_Hopper_Type1_Sand_L3;
+	1: spritegroup_wagon_Gen5_Hopper_Type1_Sand_L4;
+}
+
+/*
+* Gray
+*/
+
+//Livery 1 - Loading State 1 - Gray
+spriteset(spriteset_wagon_Gen5_Hopper_Type1_Gray_L1_S1, "gfx/Wagons/Gen5/Gen5_Hopper_Type1_Gray.png") {
+	template_2cc_wagons(1, 1)
+}
+
+//Livery 1 - Loading State 2 - Gray
+spriteset(spriteset_wagon_Gen5_Hopper_Type1_Gray_L1_S2, "gfx/Wagons/Gen5/Gen5_Hopper_Type1_Gray.png") {
+	template_2cc_wagons(1, 32)
+}
+
+//Livery 1 - Loading State 3 - Gray
+spriteset(spriteset_wagon_Gen5_Hopper_Type1_Gray_L1_S3, "gfx/Wagons/Gen5/Gen5_Hopper_Type1_Gray.png") {
+	template_2cc_wagons(1, 64)
+}
+
+//Livery 1 Spritegroup - Gray
+spritegroup spritegroup_wagon_Gen5_Hopper_Type1_Gray_L1 {
+	loading: [spriteset_wagon_Gen5_Hopper_Type1_Gray_L1_S1, spriteset_wagon_Gen5_Hopper_Type1_Gray_L1_S2, spriteset_wagon_Gen5_Hopper_Type1_Gray_L1_S3];
+	loaded: [spriteset_wagon_Gen5_Hopper_Type1_Gray_L1_S1, spriteset_wagon_Gen5_Hopper_Type1_Gray_L1_S2, spriteset_wagon_Gen5_Hopper_Type1_Gray_L1_S3];
+}
+
+//Livery 2 - Loading State 1 - Gray
+spriteset(spriteset_wagon_Gen5_Hopper_Type1_Gray_L2_S1, "gfx/Wagons/Gen5/Gen5_Hopper_Type1_Gray.png") {
+	template_2cc_wagons(179, 1)
+}
+
+//Livery 2 - Loading State 2 - Gray
+spriteset(spriteset_wagon_Gen5_Hopper_Type1_Gray_L2_S2, "gfx/Wagons/Gen5/Gen5_Hopper_Type1_Gray.png") {
+	template_2cc_wagons(179, 32)
+}
+
+//Livery 2 - Loading State 3 - Gray
+spriteset(spriteset_wagon_Gen5_Hopper_Type1_Gray_L2_S3, "gfx/Wagons/Gen5/Gen5_Hopper_Type1_Gray.png") {
+	template_2cc_wagons(179, 64)
+}
+
+//Livery 2 Spritegroup - Gray
+spritegroup spritegroup_wagon_Gen5_Hopper_Type1_Gray_L2 {
+	loading: [spriteset_wagon_Gen5_Hopper_Type1_Gray_L2_S1, spriteset_wagon_Gen5_Hopper_Type1_Gray_L2_S2, spriteset_wagon_Gen5_Hopper_Type1_Gray_L2_S3];
+	loaded: [spriteset_wagon_Gen5_Hopper_Type1_Gray_L2_S1, spriteset_wagon_Gen5_Hopper_Type1_Gray_L2_S2, spriteset_wagon_Gen5_Hopper_Type1_Gray_L2_S3];	
+}
+
+//Livery 3 - Loading State 1 - Gray
+spriteset(spriteset_wagon_Gen5_Hopper_Type1_Gray_L3_S1, "gfx/Wagons/Gen5/Gen5_Hopper_Type1_Gray.png") {
+	template_2cc_wagons(357, 1)
+}
+
+//Livery 3 - Loading State 2 - Gray
+spriteset(spriteset_wagon_Gen5_Hopper_Type1_Gray_L3_S2, "gfx/Wagons/Gen5/Gen5_Hopper_Type1_Gray.png") {
+	template_2cc_wagons(357, 32)
+}
+
+//Livery 3 - Loading State 3 - Gray
+spriteset(spriteset_wagon_Gen5_Hopper_Type1_Gray_L3_S3, "gfx/Wagons/Gen5/Gen5_Hopper_Type1_Gray.png") {
+	template_2cc_wagons(357, 64)
+}
+
+//Livery 3 Spritegroup - Gray
+spritegroup spritegroup_wagon_Gen5_Hopper_Type1_Gray_L3 {
+	loading: [spriteset_wagon_Gen5_Hopper_Type1_Gray_L3_S1, spriteset_wagon_Gen5_Hopper_Type1_Gray_L3_S2, spriteset_wagon_Gen5_Hopper_Type1_Gray_L3_S3];
+	loaded: [spriteset_wagon_Gen5_Hopper_Type1_Gray_L3_S1, spriteset_wagon_Gen5_Hopper_Type1_Gray_L3_S2, spriteset_wagon_Gen5_Hopper_Type1_Gray_L3_S3];	
+}
+
+//Livery 4 - Loading State 1 - Gray
+spriteset(spriteset_wagon_Gen5_Hopper_Type1_Gray_L4_S1, "gfx/Wagons/Gen5/Gen5_Hopper_Type1_Gray.png") {
+	template_2cc_wagons(535, 1)
+}
+
+//Livery 4 - Loading State 2 - Gray
+spriteset(spriteset_wagon_Gen5_Hopper_Type1_Gray_L4_S2, "gfx/Wagons/Gen5/Gen5_Hopper_Type1_Gray.png") {
+	template_2cc_wagons(535, 32)
+}
+
+//Livery 4 - Loading State 3 - Gray
+spriteset(spriteset_wagon_Gen5_Hopper_Type1_Gray_L4_S3, "gfx/Wagons/Gen5/Gen5_Hopper_Type1_Gray.png") {
+	template_2cc_wagons(535, 64)
+}
+
+//Livery 4 Spritegroup - Gray
+spritegroup spritegroup_wagon_Gen5_Hopper_Type1_Gray_L4 {
+	loading: [spriteset_wagon_Gen5_Hopper_Type1_Gray_L4_S1, spriteset_wagon_Gen5_Hopper_Type1_Gray_L4_S2, spriteset_wagon_Gen5_Hopper_Type1_Gray_L4_S3];
+	loaded: [spriteset_wagon_Gen5_Hopper_Type1_Gray_L4_S1, spriteset_wagon_Gen5_Hopper_Type1_Gray_L4_S2, spriteset_wagon_Gen5_Hopper_Type1_Gray_L4_S3];	
+}
+
+random_switch(FEAT_TRAINS, SELF, switch_wagon_Gen5_Hopper_Type1_Gray_livery) {
+	7: spritegroup_wagon_Gen5_Hopper_Type1_Gray_L1;
+	1: spritegroup_wagon_Gen5_Hopper_Type1_Gray_L2;
+	1: spritegroup_wagon_Gen5_Hopper_Type1_Gray_L3;
+	1: spritegroup_wagon_Gen5_Hopper_Type1_Gray_L4;
+}
+
 switch(FEAT_TRAINS, SELF, switch_wagon_Gen5_Hopper_Type1_cargo_selection, cargo_type_in_veh) {
 	COAL: switch_wagon_Gen5_Hopper_Type1_Coal_livery;
-	switch_wagon_Gen5_Hopper_Type1_Ore_livery; //Grain, Paper, Wheat, Maize
+	CLAY: switch_wagon_Gen5_Hopper_Type1_Gray_livery;
+	CMNT: switch_wagon_Gen5_Hopper_Type1_Gray_livery;
+	GRVL: switch_wagon_Gen5_Hopper_Type1_Sand_livery;
+	LIME: switch_wagon_Gen5_Hopper_Type1_Sand_livery;
+	SAND: switch_wagon_Gen5_Hopper_Type1_Sand_livery;
+	SGBT: switch_wagon_Gen5_Hopper_Type1_Sand_livery; //Use Sand livery for Sugar Beets
+	switch_wagon_Gen5_Hopper_Type1_Ore_livery; //IORE, CORE, AORE
 }

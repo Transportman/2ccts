@@ -312,5 +312,14 @@ switch(FEAT_TRAINS, SELF, switch_wagon_Gen4_Container_Carrier_cargo_selection, c
 	RUBR: switch_wagon_Gen4_Container_Carrier_Tanktainer_livery;
 	FRUT: switch_wagon_Gen4_Container_Carrier_Refrigerated_livery;
 	WATR: switch_wagon_Gen4_Container_Carrier_Tanktainer_livery;
-	switch_wagon_Gen4_Container_Carrier_Container_livery; //Paper
+	COLA: switch_wagon_Gen4_Container_Carrier_Tanktainer_livery;
+	PLST: switch_wagon_Gen4_Container_Carrier_Tanktainer_livery;
+	FZDR: switch_wagon_Gen4_Container_Carrier_Refrigerated_livery;
+	BEER: switch_wagon_Gen4_Container_Carrier_Tanktainer_livery;
+	DYES: switch_wagon_Gen4_Container_Carrier_Tanktainer_livery;
+	FISH: switch_wagon_Gen4_Container_Carrier_Refrigerated_livery;
+	PETR: switch_wagon_Gen4_Container_Carrier_Tanktainer_livery;
+	PLAS: switch_wagon_Gen4_Container_Carrier_Tanktainer_livery;
+	RFPR: switch_wagon_Gen4_Container_Carrier_Tanktainer_livery;
+	switch_wagon_Gen4_Container_Carrier_Container_livery;
 }

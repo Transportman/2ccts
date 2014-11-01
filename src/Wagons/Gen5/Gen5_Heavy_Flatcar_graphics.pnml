@@ -110,6 +110,101 @@ random_switch(FEAT_TRAINS, SELF, switch_wagon_Gen5_Heavy_Flatcar_Crates_livery) 
 }
 
 /*
+* Cars
+*/
+
+//Livery 1 - Loading State 1 - Cars
+spriteset(spriteset_wagon_Gen5_Heavy_Flatcar_Cars_L1_S1, "gfx/Wagons/Gen5/Gen5_Heavy_Flatcar_Cars.png") {
+	template_2cc_wagons(1, 1)
+}
+
+//Livery 1 - Loading State 2 - Cars
+spriteset(spriteset_wagon_Gen5_Heavy_Flatcar_Cars_L1_S2, "gfx/Wagons/Gen5/Gen5_Heavy_Flatcar_Cars.png") {
+	template_2cc_wagons(1, 32)
+}
+
+//Livery 1 - Loading State 3 - Cars
+spriteset(spriteset_wagon_Gen5_Heavy_Flatcar_Cars_L1_S3, "gfx/Wagons/Gen5/Gen5_Heavy_Flatcar_Cars.png") {
+	template_2cc_wagons(1, 64)
+}
+
+//Livery 1 Spritegroup - Cars
+spritegroup spritegroup_wagon_Gen5_Heavy_Flatcar_Cars_L1 {
+	loading: [spriteset_wagon_Gen5_Heavy_Flatcar_Cars_L1_S1, spriteset_wagon_Gen5_Heavy_Flatcar_Cars_L1_S2, spriteset_wagon_Gen5_Heavy_Flatcar_Cars_L1_S3];
+	loaded: [spriteset_wagon_Gen5_Heavy_Flatcar_Cars_L1_S1, spriteset_wagon_Gen5_Heavy_Flatcar_Cars_L1_S2, spriteset_wagon_Gen5_Heavy_Flatcar_Cars_L1_S3];
+}
+
+//Livery 2 - Loading State 1 - Cars
+spriteset(spriteset_wagon_Gen5_Heavy_Flatcar_Cars_L2_S1, "gfx/Wagons/Gen5/Gen5_Heavy_Flatcar_Cars.png") {
+	template_2cc_wagons(179, 1)
+}
+
+//Livery 2 - Loading State 2 - Cars
+spriteset(spriteset_wagon_Gen5_Heavy_Flatcar_Cars_L2_S2, "gfx/Wagons/Gen5/Gen5_Heavy_Flatcar_Cars.png") {
+	template_2cc_wagons(179, 32)
+}
+
+//Livery 2 - Loading State 3 - Cars
+spriteset(spriteset_wagon_Gen5_Heavy_Flatcar_Cars_L2_S3, "gfx/Wagons/Gen5/Gen5_Heavy_Flatcar_Cars.png") {
+	template_2cc_wagons(179, 64)
+}
+
+//Livery 2 Spritegroup - Cars
+spritegroup spritegroup_wagon_Gen5_Heavy_Flatcar_Cars_L2 {
+	loading: [spriteset_wagon_Gen5_Heavy_Flatcar_Cars_L2_S1, spriteset_wagon_Gen5_Heavy_Flatcar_Cars_L2_S2, spriteset_wagon_Gen5_Heavy_Flatcar_Cars_L2_S3];
+	loaded: [spriteset_wagon_Gen5_Heavy_Flatcar_Cars_L2_S1, spriteset_wagon_Gen5_Heavy_Flatcar_Cars_L2_S2, spriteset_wagon_Gen5_Heavy_Flatcar_Cars_L2_S3];	
+}
+
+//Livery 3 - Loading State 1 - Cars
+spriteset(spriteset_wagon_Gen5_Heavy_Flatcar_Cars_L3_S1, "gfx/Wagons/Gen5/Gen5_Heavy_Flatcar_Cars.png") {
+	template_2cc_wagons(357, 1)
+}
+
+//Livery 3 - Loading State 2 - Cars
+spriteset(spriteset_wagon_Gen5_Heavy_Flatcar_Cars_L3_S2, "gfx/Wagons/Gen5/Gen5_Heavy_Flatcar_Cars.png") {
+	template_2cc_wagons(357, 32)
+}
+
+//Livery 3 - Loading State 3 - Cars
+spriteset(spriteset_wagon_Gen5_Heavy_Flatcar_Cars_L3_S3, "gfx/Wagons/Gen5/Gen5_Heavy_Flatcar_Cars.png") {
+	template_2cc_wagons(357, 64)
+}
+
+//Livery 3 Spritegroup - Cars
+spritegroup spritegroup_wagon_Gen5_Heavy_Flatcar_Cars_L3 {
+	loading: [spriteset_wagon_Gen5_Heavy_Flatcar_Cars_L3_S1, spriteset_wagon_Gen5_Heavy_Flatcar_Cars_L3_S2, spriteset_wagon_Gen5_Heavy_Flatcar_Cars_L3_S3];
+	loaded: [spriteset_wagon_Gen5_Heavy_Flatcar_Cars_L3_S1, spriteset_wagon_Gen5_Heavy_Flatcar_Cars_L3_S2, spriteset_wagon_Gen5_Heavy_Flatcar_Cars_L3_S3];	
+}
+
+//Livery 4 - Loading State 1 - Cars
+spriteset(spriteset_wagon_Gen5_Heavy_Flatcar_Cars_L4_S1, "gfx/Wagons/Gen5/Gen5_Heavy_Flatcar_Cars.png") {
+	template_2cc_wagons(535, 1)
+}
+
+//Livery 4 - Loading State 2 - Cars
+spriteset(spriteset_wagon_Gen5_Heavy_Flatcar_Cars_L4_S2, "gfx/Wagons/Gen5/Gen5_Heavy_Flatcar_Cars.png") {
+	template_2cc_wagons(535, 32)
+}
+
+//Livery 4 - Loading State 3 - Cars
+spriteset(spriteset_wagon_Gen5_Heavy_Flatcar_Cars_L4_S3, "gfx/Wagons/Gen5/Gen5_Heavy_Flatcar_Cars.png") {
+	template_2cc_wagons(535, 64)
+}
+
+//Livery 4 Spritegroup - Cars
+spritegroup spritegroup_wagon_Gen5_Heavy_Flatcar_Cars_L4 {
+	loading: [spriteset_wagon_Gen5_Heavy_Flatcar_Cars_L4_S1, spriteset_wagon_Gen5_Heavy_Flatcar_Cars_L4_S2, spriteset_wagon_Gen5_Heavy_Flatcar_Cars_L4_S3];
+	loaded: [spriteset_wagon_Gen5_Heavy_Flatcar_Cars_L4_S1, spriteset_wagon_Gen5_Heavy_Flatcar_Cars_L4_S2, spriteset_wagon_Gen5_Heavy_Flatcar_Cars_L4_S3];	
+}
+
+random_switch(FEAT_TRAINS, SELF, switch_wagon_Gen5_Heavy_Flatcar_Cars_livery) {
+	7: spritegroup_wagon_Gen5_Heavy_Flatcar_Cars_L1;
+	1: spritegroup_wagon_Gen5_Heavy_Flatcar_Cars_L2;
+	1: spritegroup_wagon_Gen5_Heavy_Flatcar_Cars_L3;
+	1: spritegroup_wagon_Gen5_Heavy_Flatcar_Cars_L4;
+}
+
+/*
 * Machinery
 */
 
@@ -299,14 +394,118 @@ random_switch(FEAT_TRAINS, SELF, switch_wagon_Gen5_Heavy_Flatcar_Steel_livery) {
 	1: spritegroup_wagon_Gen5_Heavy_Flatcar_Steel_L4;
 }
 
-random_switch(FEAT_TRAINS, SELF, switch_wagon_Gen5_Heavy_Flatcar_Goods_livery_selection) {
-	7: switch_wagon_Gen5_Heavy_Flatcar_Crates_livery;
-	2: switch_wagon_Gen5_Heavy_Flatcar_Machinery_livery;
-	1: switch_wagon_Gen5_Heavy_Flatcar_Steel_livery;
+/*
+* YETI
+*/
+
+//Livery 1 - Loading State 1 - YETI
+spriteset(spriteset_wagon_Gen5_Heavy_Flatcar_YETI_L1_S1, "gfx/Wagons/Gen5/Gen5_Heavy_Flatcar_YETI.png") {
+	template_2cc_wagons(1, 1)
 }
 
+//Livery 1 - Loading State 2 - YETI
+spriteset(spriteset_wagon_Gen5_Heavy_Flatcar_YETI_L1_S2, "gfx/Wagons/Gen5/Gen5_Heavy_Flatcar_YETI.png") {
+	template_2cc_wagons(1, 32)
+}
+
+//Livery 1 - Loading State 3 - YETI
+spriteset(spriteset_wagon_Gen5_Heavy_Flatcar_YETI_L1_S3, "gfx/Wagons/Gen5/Gen5_Heavy_Flatcar_YETI.png") {
+	template_2cc_wagons(1, 64)
+}
+
+//Livery 1 Spritegroup - YETI
+spritegroup spritegroup_wagon_Gen5_Heavy_Flatcar_YETI_L1 {
+	loading: [spriteset_wagon_Gen5_Heavy_Flatcar_YETI_L1_S1, spriteset_wagon_Gen5_Heavy_Flatcar_YETI_L1_S2, spriteset_wagon_Gen5_Heavy_Flatcar_YETI_L1_S3];
+	loaded: [spriteset_wagon_Gen5_Heavy_Flatcar_YETI_L1_S1, spriteset_wagon_Gen5_Heavy_Flatcar_YETI_L1_S2, spriteset_wagon_Gen5_Heavy_Flatcar_YETI_L1_S3];
+}
+
+//Livery 2 - Loading State 1 - YETI
+spriteset(spriteset_wagon_Gen5_Heavy_Flatcar_YETI_L2_S1, "gfx/Wagons/Gen5/Gen5_Heavy_Flatcar_YETI.png") {
+	template_2cc_wagons(179, 1)
+}
+
+//Livery 2 - Loading State 2 - YETI
+spriteset(spriteset_wagon_Gen5_Heavy_Flatcar_YETI_L2_S2, "gfx/Wagons/Gen5/Gen5_Heavy_Flatcar_YETI.png") {
+	template_2cc_wagons(179, 32)
+}
+
+//Livery 2 - Loading State 3 - YETI
+spriteset(spriteset_wagon_Gen5_Heavy_Flatcar_YETI_L2_S3, "gfx/Wagons/Gen5/Gen5_Heavy_Flatcar_YETI.png") {
+	template_2cc_wagons(179, 64)
+}
+
+//Livery 2 Spritegroup - YETI
+spritegroup spritegroup_wagon_Gen5_Heavy_Flatcar_YETI_L2 {
+	loading: [spriteset_wagon_Gen5_Heavy_Flatcar_YETI_L2_S1, spriteset_wagon_Gen5_Heavy_Flatcar_YETI_L2_S2, spriteset_wagon_Gen5_Heavy_Flatcar_YETI_L2_S3];
+	loaded: [spriteset_wagon_Gen5_Heavy_Flatcar_YETI_L2_S1, spriteset_wagon_Gen5_Heavy_Flatcar_YETI_L2_S2, spriteset_wagon_Gen5_Heavy_Flatcar_YETI_L2_S3];	
+}
+
+//Livery 3 - Loading State 1 - YETI
+spriteset(spriteset_wagon_Gen5_Heavy_Flatcar_YETI_L3_S1, "gfx/Wagons/Gen5/Gen5_Heavy_Flatcar_YETI.png") {
+	template_2cc_wagons(357, 1)
+}
+
+//Livery 3 - Loading State 2 - YETI
+spriteset(spriteset_wagon_Gen5_Heavy_Flatcar_YETI_L3_S2, "gfx/Wagons/Gen5/Gen5_Heavy_Flatcar_YETI.png") {
+	template_2cc_wagons(357, 32)
+}
+
+//Livery 3 - Loading State 3 - YETI
+spriteset(spriteset_wagon_Gen5_Heavy_Flatcar_YETI_L3_S3, "gfx/Wagons/Gen5/Gen5_Heavy_Flatcar_YETI.png") {
+	template_2cc_wagons(357, 64)
+}
+
+//Livery 3 Spritegroup - YETI
+spritegroup spritegroup_wagon_Gen5_Heavy_Flatcar_YETI_L3 {
+	loading: [spriteset_wagon_Gen5_Heavy_Flatcar_YETI_L3_S1, spriteset_wagon_Gen5_Heavy_Flatcar_YETI_L3_S2, spriteset_wagon_Gen5_Heavy_Flatcar_YETI_L3_S3];
+	loaded: [spriteset_wagon_Gen5_Heavy_Flatcar_YETI_L3_S1, spriteset_wagon_Gen5_Heavy_Flatcar_YETI_L3_S2, spriteset_wagon_Gen5_Heavy_Flatcar_YETI_L3_S3];	
+}
+
+//Livery 4 - Loading State 1 - YETI
+spriteset(spriteset_wagon_Gen5_Heavy_Flatcar_YETI_L4_S1, "gfx/Wagons/Gen5/Gen5_Heavy_Flatcar_YETI.png") {
+	template_2cc_wagons(535, 1)
+}
+
+//Livery 4 - Loading State 2 - YETI
+spriteset(spriteset_wagon_Gen5_Heavy_Flatcar_YETI_L4_S2, "gfx/Wagons/Gen5/Gen5_Heavy_Flatcar_YETI.png") {
+	template_2cc_wagons(535, 32)
+}
+
+//Livery 4 - Loading State 3 - YETI
+spriteset(spriteset_wagon_Gen5_Heavy_Flatcar_YETI_L4_S3, "gfx/Wagons/Gen5/Gen5_Heavy_Flatcar_YETI.png") {
+	template_2cc_wagons(535, 64)
+}
+
+//Livery 4 Spritegroup - YETI
+spritegroup spritegroup_wagon_Gen5_Heavy_Flatcar_YETI_L4 {
+	loading: [spriteset_wagon_Gen5_Heavy_Flatcar_YETI_L4_S1, spriteset_wagon_Gen5_Heavy_Flatcar_YETI_L4_S2, spriteset_wagon_Gen5_Heavy_Flatcar_YETI_L4_S3];
+	loaded: [spriteset_wagon_Gen5_Heavy_Flatcar_YETI_L4_S1, spriteset_wagon_Gen5_Heavy_Flatcar_YETI_L4_S2, spriteset_wagon_Gen5_Heavy_Flatcar_YETI_L4_S3];	
+}
+
+random_switch(FEAT_TRAINS, SELF, switch_wagon_Gen5_Heavy_Flatcar_YETI_livery) {
+	7: spritegroup_wagon_Gen5_Heavy_Flatcar_YETI_L1;
+	1: spritegroup_wagon_Gen5_Heavy_Flatcar_YETI_L2;
+	1: spritegroup_wagon_Gen5_Heavy_Flatcar_YETI_L3;
+	1: spritegroup_wagon_Gen5_Heavy_Flatcar_YETI_L4;
+}
+
+random_switch(FEAT_TRAINS, SELF, switch_wagon_Gen5_Heavy_Flatcar_Goods_livery) {
+	7: switch_wagon_Gen5_Heavy_Flatcar_Crates_livery;
+	2: switch_wagon_Gen5_Heavy_Flatcar_Cars_livery;
+	1: switch_wagon_Gen5_Heavy_Flatcar_Machinery_livery;
+}
+
+random_switch(FEAT_TRAINS, SELF, switch_wagon_Gen5_Heavy_Flatcar_Supplies_livery) {
+	7: switch_wagon_Gen5_Heavy_Flatcar_Crates_livery;
+	3: switch_wagon_Gen5_Heavy_Flatcar_Machinery_livery;
+}
 switch(FEAT_TRAINS, SELF, switch_wagon_Gen5_Heavy_Flatcar_cargo_selection, cargo_type_in_veh) {
-	GOOD: switch_wagon_Gen5_Heavy_Flatcar_Goods_livery_selection;
+	GOOD: switch_wagon_Gen5_Heavy_Flatcar_Goods_livery;
 	STEL: switch_wagon_Gen5_Heavy_Flatcar_Steel_livery;
+	BDMT: switch_wagon_Gen5_Heavy_Flatcar_Goods_livery;
+	ENSP: switch_wagon_Gen5_Heavy_Flatcar_Supplies_livery;
+	FMSP: switch_wagon_Gen5_Heavy_Flatcar_Supplies_livery;
+	VEHI: switch_wagon_Gen5_Heavy_Flatcar_Cars_livery;
+	YETI: switch_wagon_Gen5_Heavy_Flatcar_YETI_livery;
 	switch_wagon_Gen5_Heavy_Flatcar_Crates_livery;
 }
