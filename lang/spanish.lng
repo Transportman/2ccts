@@ -469,6 +469,8 @@ str_electric_USA_Pennsylvania_Railroad_FF_1_obsolete1                           
 str_electric_USA_Milwaukee_Road_EP_2_Bipolar_obsolete1                          :Milwaukee Road EP-2 Bipolar, Obsoleto (Eléctrico)
 str_electric_USA_Pennsylvania_Railroad_GG_1_obsolete1                           :Pennsylvania Railroad GG-1, Obsoleto (Eléctrico)
 str_steam_Denmark_DSB_E_obsolete1                                                                       :DSB E, Obsoleto (Vapor)
+str_steam_USA_UP_4000_Big_Boy_obsolete1                                                         :UP 4000 'Big Boy', Obsoleto (Vapor)
+str_electric_USA_Pennsylvania_Railroad_GG_1_obsolete2                           :Pennsylvania Railroad GG-1, Obsoleto (Eléctrico)
 
 #PURCHASE MENU TEXTS
 
