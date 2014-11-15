@@ -19,8 +19,8 @@ item(FEAT_TRAINS, item_emu_Switzerland_SBB_Rae_TEE_II) {
         model_life: 25;
         vehicle_life: 25;
         loading_speed: 8;
-        cost_factor: 7;
-        running_cost_factor: 13;
+        cost_factor: 30;
+        running_cost_factor: 26;
         speed: 160 km/h;
         power: 425 hp;
         cargo_capacity: 60;
@@ -53,7 +53,7 @@ item(FEAT_TRAINS, item_emu_Switzerland_SBB_Rae_TEE_II) {
 	}	
 	livery_override (item_mu_wagon_unpowered){
 		loading_speed: 8;
-		running_cost_factor: 7;
+		running_cost_factor: 13;
 		power: 0;
 		weight: 24;
 		cargo_capacity: switch_emu_Switzerland_SBB_Rae_TEE_II_capacity;
@@ -63,7 +63,7 @@ item(FEAT_TRAINS, item_emu_Switzerland_SBB_Rae_TEE_II) {
 	}
 	livery_override (item_mu_wagon_powered){
 		loading_speed: 8;
-		running_cost_factor: 10;
+		running_cost_factor: 20;
 		power: 213;
 		weight: 35;
 		cargo_capacity: switch_emu_Switzerland_SBB_Rae_TEE_II_capacity;

@@ -19,8 +19,8 @@ item(FEAT_TRAINS, item_emu_France_SNCF_TGV_Duplex) {
         model_life: VEHICLE_NEVER_EXPIRES;
         vehicle_life: 25;
         loading_speed: 8;
-        cost_factor: 88;
-        running_cost_factor: 250;
+        cost_factor: 123;
+        running_cost_factor: 121;
         speed: 320 km/h;
         power: 12800 hp;
         cargo_capacity: 0;
@@ -52,7 +52,7 @@ item(FEAT_TRAINS, item_emu_France_SNCF_TGV_Duplex) {
 	}	
 	livery_override (item_mu_wagon_unpowered){
 		loading_speed: 8;
-		running_cost_factor: 175;
+		running_cost_factor: 61;
 		power: 0;
 		weight: 22;
 		cargo_capacity: switch_emu_France_SNCF_TGV_Duplex_capacity;
@@ -61,7 +61,7 @@ item(FEAT_TRAINS, item_emu_France_SNCF_TGV_Duplex) {
 	}
 	livery_override (item_mu_wagon_powered){
 		loading_speed: 8;
-		running_cost_factor: 262;
+		running_cost_factor: 91;
 		power: 6400;
 		weight: 32;
 		cargo_capacity: switch_emu_France_SNCF_TGV_Duplex_capacity;

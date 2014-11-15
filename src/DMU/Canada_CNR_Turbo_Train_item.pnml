@@ -19,8 +19,8 @@ item(FEAT_TRAINS, item_dmu_Canada_CNR_Turbo_Train) {
         model_life: 25;
         vehicle_life: 25;
         loading_speed: 8;
-        cost_factor: 14;
-        running_cost_factor: 185;
+        cost_factor: 58;
+        running_cost_factor: 55;
         speed: 225 km/h;
         power: 2400 hp;
         cargo_capacity: 44;
@@ -55,7 +55,7 @@ item(FEAT_TRAINS, item_dmu_Canada_CNR_Turbo_Train) {
 	}	
 	livery_override (item_mu_wagon_unpowered){
 		loading_speed: 8;
-		running_cost_factor: 93;
+		running_cost_factor: 27;
 		power: 0;
 		weight: 20;
 		cargo_capacity: switch_dmu_Canada_CNR_Turbo_Train_capacity;
@@ -64,7 +64,7 @@ item(FEAT_TRAINS, item_dmu_Canada_CNR_Turbo_Train) {
 	}
 	livery_override (item_mu_wagon_powered){
 		loading_speed: 8;
-		running_cost_factor: 139;
+		running_cost_factor: 41;
 		power: 1200;
 		weight: 30;
 		cargo_capacity: switch_dmu_Canada_CNR_Turbo_Train_capacity;

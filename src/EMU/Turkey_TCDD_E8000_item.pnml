@@ -19,8 +19,8 @@ item(FEAT_TRAINS, item_emu_Turkey_TCDD_E8000) {
         model_life: 25;
         vehicle_life: 25;
         loading_speed: 20;
-        cost_factor: 4;
-        running_cost_factor: 7;
+        cost_factor: 33;
+        running_cost_factor: 29;
         speed: 110 km/h;
         power: 550 hp;
         cargo_capacity: 81;
@@ -54,7 +54,7 @@ item(FEAT_TRAINS, item_emu_Turkey_TCDD_E8000) {
 	}	
 	livery_override (item_mu_wagon_unpowered){
 		loading_speed: 20;
-		running_cost_factor: 4;
+		running_cost_factor: 15;
 		power: 0;
 		weight: 20;
 		cargo_capacity: switch_emu_Turkey_TCDD_E8000_capacity;
@@ -63,7 +63,7 @@ item(FEAT_TRAINS, item_emu_Turkey_TCDD_E8000) {
 	}
 	livery_override (item_mu_wagon_powered){
 		loading_speed: 20;
-		running_cost_factor: 5;
+		running_cost_factor: 22;
 		power: 275;
 		weight: 30;
 		cargo_capacity: switch_emu_Turkey_TCDD_E8000_capacity;

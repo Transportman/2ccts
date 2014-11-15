@@ -19,8 +19,8 @@ item(FEAT_TRAINS, item_dmu_Germany_DB_612_Regio_Swinger) {
         model_life: 15;
         vehicle_life: 20;
         loading_speed: 20;
-        cost_factor: 20;
-        running_cost_factor: 15;
+        cost_factor: 50;
+        running_cost_factor: 45;
         speed: 160 km/h;
         power: 1520 hp;
         cargo_capacity: 73;
@@ -54,7 +54,7 @@ item(FEAT_TRAINS, item_dmu_Germany_DB_612_Regio_Swinger) {
 	}	
 	livery_override (item_mu_wagon_unpowered){
 		loading_speed: 20;
-		running_cost_factor: 8;
+		running_cost_factor: 22;
 		power: 0;
 		weight: 29;
 		cargo_capacity: switch_dmu_Germany_DB_612_Regio_Swinger_capacity;
@@ -63,7 +63,7 @@ item(FEAT_TRAINS, item_dmu_Germany_DB_612_Regio_Swinger) {
 	}
 	livery_override (item_mu_wagon_powered){
 		loading_speed: 20;
-		running_cost_factor: 11;
+		running_cost_factor: 34;
 		power: 760;
 		weight: 44;
 		cargo_capacity: switch_dmu_Germany_DB_612_Regio_Swinger_capacity;

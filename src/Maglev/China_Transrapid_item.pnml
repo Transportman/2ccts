@@ -19,8 +19,8 @@ item(FEAT_TRAINS, item_mglv_China_Transrapid) {
         model_life: VEHICLE_NEVER_EXPIRES;
         vehicle_life: 25;
         loading_speed: 8;
-        cost_factor: 109;
-        running_cost_factor: 44;
+        cost_factor: 160;
+        running_cost_factor: 160;
         speed: 433 km/h;
         power: 2028 hp;
         cargo_capacity: 50;
@@ -53,7 +53,7 @@ item(FEAT_TRAINS, item_mglv_China_Transrapid) {
 	}	
 	livery_override (item_mglv_wagon_unpowered){
 		loading_speed: 8;
-		running_cost_factor: 22;
+		running_cost_factor: 80;
 		power: 0;
 		cargo_capacity: switch_mglv_China_Transrapid_capacity;
 		weight: 15;
@@ -61,7 +61,7 @@ item(FEAT_TRAINS, item_mglv_China_Transrapid) {
 	}
 	livery_override (item_mglv_wagon_powered){
 		loading_speed: 8;
-		running_cost_factor: 33;
+		running_cost_factor: 120;
 		power: 1014;
 		cargo_capacity: switch_mglv_China_Transrapid_capacity;
 		weight: 23;

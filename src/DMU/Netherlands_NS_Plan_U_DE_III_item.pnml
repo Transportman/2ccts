@@ -19,8 +19,8 @@ item(FEAT_TRAINS, item_dmu_Netherlands_NS_Plan_U_DE_III) {
         model_life: 25;
         vehicle_life: 25;
         loading_speed: 20;
-        cost_factor: 9;
-        running_cost_factor: 10;
+        cost_factor: 43;
+        running_cost_factor: 37;
         speed: 125 km/h;
         power: 987 hp;
         cargo_capacity: 64;
@@ -54,7 +54,7 @@ item(FEAT_TRAINS, item_dmu_Netherlands_NS_Plan_U_DE_III) {
 	}	
 	livery_override (item_mu_wagon_unpowered){
 		loading_speed: 20;
-		running_cost_factor: 5;
+		running_cost_factor: 18;
 		power: 0;
 		weight: 32;
 		cargo_capacity: switch_dmu_Netherlands_NS_Plan_U_DE_III_capacity;
@@ -63,7 +63,7 @@ item(FEAT_TRAINS, item_dmu_Netherlands_NS_Plan_U_DE_III) {
 	}
 	livery_override (item_mu_wagon_powered){
 		loading_speed: 20;
-		running_cost_factor: 8;
+		running_cost_factor: 28;
 		power: 494;
 		weight: 48;
 		cargo_capacity: switch_dmu_Netherlands_NS_Plan_U_DE_III_capacity;

@@ -19,8 +19,8 @@ item(FEAT_TRAINS, item_emu_Germany_DB_ET420) {
         model_life: 20;
         vehicle_life: 25;
         loading_speed: 20;
-        cost_factor: 11;
-        running_cost_factor: 9;
+        cost_factor: 41;
+        running_cost_factor: 38;
         speed: 125 km/h;
         power: 1000 hp;
         cargo_capacity: 76;
@@ -53,7 +53,7 @@ item(FEAT_TRAINS, item_emu_Germany_DB_ET420) {
 	}	
 	livery_override (item_mu_wagon_unpowered){
 		loading_speed: 20;
-		running_cost_factor: 5;
+		running_cost_factor: 19;
 		power: 0;
 		weight: 23;
 		cargo_capacity: switch_emu_Germany_DB_ET420_capacity;
@@ -63,7 +63,7 @@ item(FEAT_TRAINS, item_emu_Germany_DB_ET420) {
 	}
 	livery_override (item_mu_wagon_powered){
 		loading_speed: 20;
-		running_cost_factor: 7;
+		running_cost_factor: 29;
 		power: 500;
 		weight: 35;
 		cargo_capacity: switch_emu_Germany_DB_ET420_capacity;

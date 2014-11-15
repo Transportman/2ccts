@@ -19,8 +19,8 @@ item(FEAT_TRAINS, item_dmu_Australia_Queensland_Rail_400) {
         model_life: 25;
         vehicle_life: 25;
         loading_speed: 8;
-        cost_factor: 3;
-        running_cost_factor: 5;
+        cost_factor: 24;
+        running_cost_factor: 20;
         speed: 90 km/h;
         power: 220 hp;
         cargo_capacity: 80;
@@ -54,7 +54,7 @@ item(FEAT_TRAINS, item_dmu_Australia_Queensland_Rail_400) {
 	}	
 	livery_override (item_mu_wagon_unpowered){
 		loading_speed: 8;
-		running_cost_factor: 3;
+		running_cost_factor: 10;
 		power: 0;
 		weight: 22;
 		cargo_capacity: switch_dmu_Australia_Queensland_Rail_400_capacity;
@@ -63,7 +63,7 @@ item(FEAT_TRAINS, item_dmu_Australia_Queensland_Rail_400) {
 	}
 	livery_override (item_mu_wagon_powered){
 		loading_speed: 8;
-		running_cost_factor: 4;
+		running_cost_factor: 15;
 		power: 110;
 		weight: 32;
 		cargo_capacity: switch_dmu_Australia_Queensland_Rail_400_capacity;

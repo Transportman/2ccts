@@ -19,8 +19,8 @@ item(FEAT_TRAINS, item_emu_Sweden_SJ_X2000) {
         model_life: 30;
         vehicle_life: 25;
         loading_speed: 8;
-        cost_factor: 19;
-        running_cost_factor: 155;
+        cost_factor: 76;
+        running_cost_factor: 72;
         speed: 210 km/h;
         power: 4400 hp;
         cargo_capacity: 0;
@@ -53,7 +53,7 @@ item(FEAT_TRAINS, item_emu_Sweden_SJ_X2000) {
 	}	
 	livery_override (item_mu_wagon_unpowered){
 		loading_speed: 8;
-		running_cost_factor: 78;
+		running_cost_factor: 36;
 		power: 0;
 		weight: 25;
 		cargo_capacity: switch_emu_Sweden_SJ_X2000_capacity;
@@ -62,7 +62,7 @@ item(FEAT_TRAINS, item_emu_Sweden_SJ_X2000) {
 	}
 	livery_override (item_mu_wagon_powered){
 		loading_speed: 8;
-		running_cost_factor: 116;
+		running_cost_factor: 54;
 		power: 2200;
 		weight: 38;
 		cargo_capacity: switch_emu_Sweden_SJ_X2000_capacity;

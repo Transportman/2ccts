@@ -19,8 +19,8 @@ item(FEAT_TRAINS, item_emu_Italy_ATAC_ECD_21_30) {
         model_life: 25;
         vehicle_life: 25;
         loading_speed: 20;
-        cost_factor: 3;
-        running_cost_factor: 4;
+        cost_factor: 32;
+        running_cost_factor: 29;
         speed: 72 km/h;
         power: 650 hp;
         cargo_capacity: 34;
@@ -54,7 +54,7 @@ item(FEAT_TRAINS, item_emu_Italy_ATAC_ECD_21_30) {
 	}	
 	livery_override (item_mu_wagon_unpowered){
 		loading_speed: 20;
-		running_cost_factor: 2;
+		running_cost_factor: 15;
 		power: 0;
 		weight: 16;
 		cargo_capacity: switch_emu_Italy_ATAC_ECD_21_30_capacity;
@@ -63,7 +63,7 @@ item(FEAT_TRAINS, item_emu_Italy_ATAC_ECD_21_30) {
 	}
 	livery_override (item_mu_wagon_powered){
 		loading_speed: 20;
-		running_cost_factor: 3;
+		running_cost_factor: 23;
 		power: 325;
 		weight: 23;
 		cargo_capacity: switch_emu_Italy_ATAC_ECD_21_30_capacity;

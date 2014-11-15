@@ -19,8 +19,8 @@ item(FEAT_TRAINS, item_dmu_Sweden_SJ_Y2) {
         model_life: VEHICLE_NEVER_EXPIRES;
         vehicle_life: 25;
         loading_speed: 8;
-        cost_factor: 9;
-        running_cost_factor: 17;
+        cost_factor: 32;
+        running_cost_factor: 30;
         speed: 180 km/h;
         power: 600 hp;
         cargo_capacity: 48;
@@ -54,7 +54,7 @@ item(FEAT_TRAINS, item_dmu_Sweden_SJ_Y2) {
 	}	
 	livery_override (item_mu_wagon_unpowered){
 		loading_speed: 8;
-		running_cost_factor: 9;
+		running_cost_factor: 15;
 		power: 0;
 		weight: 16;
 		cargo_capacity: switch_dmu_Sweden_SJ_Y2_capacity;
@@ -63,7 +63,7 @@ item(FEAT_TRAINS, item_dmu_Sweden_SJ_Y2) {
 	}
 	livery_override (item_mu_wagon_powered){
 		loading_speed: 8;
-		running_cost_factor: 13;
+		running_cost_factor: 23;
 		power: 300;
 		weight: 24;
 		cargo_capacity: switch_dmu_Sweden_SJ_Y2_capacity;

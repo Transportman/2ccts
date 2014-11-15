@@ -19,8 +19,8 @@ item(FEAT_TRAINS, item_dmu_Canada_VIA_Rail_LRC) {
         model_life: 15;
         vehicle_life: 25;
         loading_speed: 8;
-        cost_factor: 15;
-        running_cost_factor: 147;
+        cost_factor: 84;
+        running_cost_factor: 80;
         speed: 180 km/h;
         power: 5400 hp;
         cargo_capacity: 0;
@@ -55,7 +55,7 @@ item(FEAT_TRAINS, item_dmu_Canada_VIA_Rail_LRC) {
 	}	
 	livery_override (item_mu_wagon_unpowered){
 		loading_speed: 8;
-		running_cost_factor: 74;
+		running_cost_factor: 40;
 		power: 0;
 		weight: 33;
 		cargo_capacity: switch_dmu_Canada_VIA_Rail_LRC_capacity;
@@ -64,7 +64,7 @@ item(FEAT_TRAINS, item_dmu_Canada_VIA_Rail_LRC) {
 	}
 	livery_override (item_mu_wagon_powered){
 		loading_speed: 8;
-		running_cost_factor: 110;
+		running_cost_factor: 60;
 		power: 2700;
 		weight: 49;
 		cargo_capacity: switch_dmu_Canada_VIA_Rail_LRC_capacity;

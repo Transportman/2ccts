@@ -19,8 +19,8 @@ item(FEAT_TRAINS, item_dmu_Australia_NSWGR_Silver_City_Comet) {
         model_life: 25;
         vehicle_life: 25;
         loading_speed: 8;
-        cost_factor: 5;
-        running_cost_factor: 96;
+        cost_factor: 35;
+        running_cost_factor: 31;
         speed: 160 km/h;
         power: 660 hp;
         cargo_capacity: 0;
@@ -55,7 +55,7 @@ item(FEAT_TRAINS, item_dmu_Australia_NSWGR_Silver_City_Comet) {
 	}	
 	livery_override (item_mu_wagon_unpowered){
 		loading_speed: 8;
-		running_cost_factor: 48;
+		running_cost_factor: 16;
 		power: 0;
 		weight: 28;
 		cargo_capacity: switch_dmu_Australia_NSWGR_Silver_City_Comet_capacity;
@@ -64,7 +64,7 @@ item(FEAT_TRAINS, item_dmu_Australia_NSWGR_Silver_City_Comet) {
 	}
 	livery_override (item_mu_wagon_powered){
 		loading_speed: 8;
-		running_cost_factor: 72;
+		running_cost_factor: 23;
 		power: 330;
 		weight: 41;
 		cargo_capacity: switch_dmu_Australia_NSWGR_Silver_City_Comet_capacity;

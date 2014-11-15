@@ -19,8 +19,8 @@ item(FEAT_TRAINS, item_dmu_UK_BR_43_IC125) {
         model_life: 20;
         vehicle_life: 25;
         loading_speed: 8;
-        cost_factor: 16;
-        running_cost_factor: 168;
+        cost_factor: 79;
+        running_cost_factor: 73;
         speed: 201 km/h;
         power: 4500 hp;
         cargo_capacity: 52;
@@ -54,7 +54,7 @@ item(FEAT_TRAINS, item_dmu_UK_BR_43_IC125) {
 	}	
 	livery_override (item_mu_wagon_unpowered){
 		loading_speed: 8;
-		running_cost_factor: 84;
+		running_cost_factor: 37;
 		power: 0;
 		weight: 35;
 		cargo_capacity: switch_dmu_UK_BR_43_IC125_capacity;
@@ -63,7 +63,7 @@ item(FEAT_TRAINS, item_dmu_UK_BR_43_IC125) {
 	}
 	livery_override (item_mu_wagon_powered){
 		loading_speed: 8;
-		running_cost_factor: 126;
+		running_cost_factor: 55;
 		power: 2250;
 		weight: 53;
 		cargo_capacity: switch_dmu_UK_BR_43_IC125_capacity;

@@ -19,8 +19,8 @@ item(FEAT_TRAINS, item_rbs_Austria_NOLB_1) {
         model_life: 35;
         vehicle_life: 15;
         loading_speed: 20;
-        cost_factor: 1;
-        running_cost_factor: 1;
+        cost_factor: 10;
+        running_cost_factor: 9;
         speed: 35 km/h;
         power: 39 hp;
         cargo_capacity: 22;

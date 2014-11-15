@@ -19,8 +19,8 @@ item(FEAT_TRAINS, item_emu_Austria_OBB_4041) {
         model_life: 20;
         vehicle_life: 25;
         loading_speed: 20;
-        cost_factor: 2;
-        running_cost_factor: 5;
+        cost_factor: 35;
+        running_cost_factor: 28;
         speed: 80 km/h;
         power: 555 hp;
         cargo_capacity: 40;
@@ -54,7 +54,7 @@ item(FEAT_TRAINS, item_emu_Austria_OBB_4041) {
 	}	
 	livery_override (item_mu_wagon_unpowered){
 		loading_speed: 20;
-		running_cost_factor: 3;
+		running_cost_factor: 14;
 		power: 0;
 		weight: 37;
 		cargo_capacity: switch_emu_Austria_OBB_4041_capacity;
@@ -63,7 +63,7 @@ item(FEAT_TRAINS, item_emu_Austria_OBB_4041) {
 	}
 	livery_override (item_mu_wagon_powered){
 		loading_speed: 20;
-		running_cost_factor: 4;
+		running_cost_factor: 21;
 		power: 278;
 		weight: 55;
 		cargo_capacity: switch_emu_Austria_OBB_4041_capacity;

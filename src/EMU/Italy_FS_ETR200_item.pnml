@@ -19,8 +19,8 @@ item(FEAT_TRAINS, item_emu_Italy_FS_ETR200) {
         model_life: 25;
         vehicle_life: 25;
         loading_speed: 8;
-        cost_factor: 6;
-        running_cost_factor: 13;
+        cost_factor: 28;
+        running_cost_factor: 25;
         speed: 160 km/h;
         power: 420 hp;
         cargo_capacity: 35;
@@ -54,7 +54,7 @@ item(FEAT_TRAINS, item_emu_Italy_FS_ETR200) {
 	}	
 	livery_override (item_mu_wagon_unpowered){
 		loading_speed: 8;
-		running_cost_factor: 7;
+		running_cost_factor: 13;
 		power: 0;
 		weight: 21;
 		cargo_capacity: switch_emu_Italy_FS_ETR200_capacity;
@@ -65,7 +65,7 @@ item(FEAT_TRAINS, item_emu_Italy_FS_ETR200) {
 		loading_speed: 8;
 		running_cost_factor: 10;
 		power: 210;
-		weight: 31;
+		weight: 20;
 		cargo_capacity: switch_emu_Italy_FS_ETR200_capacity;
         tractive_effort_coefficient: 38;
 		length: 8;

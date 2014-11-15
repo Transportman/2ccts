@@ -19,8 +19,8 @@ item(FEAT_TRAINS, item_emu_Netherlands_NS_mDDm_390) {
         model_life: VEHICLE_NEVER_EXPIRES;
         vehicle_life: 25;
         loading_speed: 20;
-        cost_factor: 9;
-        running_cost_factor: 106;
+        cost_factor: 70;
+        running_cost_factor: 64;
         speed: 160 km/h;
         power: 3219 hp;
         cargo_capacity: 48;
@@ -54,7 +54,7 @@ item(FEAT_TRAINS, item_emu_Netherlands_NS_mDDm_390) {
 	}	
 	livery_override (item_mu_wagon_unpowered){
 		loading_speed: 20;
-		running_cost_factor: 53;
+		running_cost_factor: 32;
 		power: 0;
 		weight: 38;
 		cargo_capacity: switch_emu_Netherlands_NS_mDDm_390_capacity_wagon;
@@ -63,7 +63,7 @@ item(FEAT_TRAINS, item_emu_Netherlands_NS_mDDm_390) {
 	}
 	livery_override (item_mu_wagon_powered){
 		loading_speed: 20;
-		running_cost_factor: 80;
+		running_cost_factor: 48;
 		power: 1610;
 		weight: 57;
 		cargo_capacity: switch_emu_Netherlands_NS_mDDm_390_capacity_wagon;

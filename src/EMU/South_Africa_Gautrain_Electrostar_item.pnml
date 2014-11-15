@@ -19,8 +19,8 @@ item(FEAT_TRAINS, item_emu_South_Africa_Gautrain_Electrostar) {
         model_life: VEHICLE_NEVER_EXPIRES;
         vehicle_life: 25;
         loading_speed: 8;
-        cost_factor: 7;
-        running_cost_factor: 13;
+        cost_factor: 32;
+        running_cost_factor: 29;
         speed: 160 km/h;
         power: 553 hp;
         cargo_capacity: 52;
@@ -54,7 +54,7 @@ item(FEAT_TRAINS, item_emu_South_Africa_Gautrain_Electrostar) {
 	}	
 	livery_override (item_mu_wagon_unpowered){
 		loading_speed: 8;
-		running_cost_factor: 7;
+		running_cost_factor: 15;
 		power: 0;
 		weight: 21;
 		cargo_capacity: switch_emu_South_Africa_Gautrain_Electrostar_capacity;
@@ -63,7 +63,7 @@ item(FEAT_TRAINS, item_emu_South_Africa_Gautrain_Electrostar) {
 	}
 	livery_override (item_mu_wagon_powered){
 		loading_speed: 8;
-		running_cost_factor: 10;
+		running_cost_factor: 22;
 		power: 277;
 		weight: 32;
 		cargo_capacity: switch_emu_South_Africa_Gautrain_Electrostar_capacity;

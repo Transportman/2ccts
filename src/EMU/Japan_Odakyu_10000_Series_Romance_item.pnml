@@ -19,8 +19,8 @@ item(FEAT_TRAINS, item_emu_Japan_Odakyu_10000_Series_Romance) {
         model_life: 25;
         vehicle_life: 25;
         loading_speed: 20;
-        cost_factor: 18;
-        running_cost_factor: 7;
+        cost_factor: 47;
+        running_cost_factor: 44;
         speed: 110 km/h;
         power: 1550 hp;
         cargo_capacity: 40;
@@ -53,7 +53,7 @@ item(FEAT_TRAINS, item_emu_Japan_Odakyu_10000_Series_Romance) {
 	}	
 	livery_override (item_mu_wagon_unpowered){
 		loading_speed: 20;
-		running_cost_factor: 4;
+		running_cost_factor: 22;
 		power: 0;
 		weight: 18;
 		cargo_capacity: switch_emu_Japan_Odakyu_10000_Series_Romance_capacity;
@@ -63,7 +63,7 @@ item(FEAT_TRAINS, item_emu_Japan_Odakyu_10000_Series_Romance) {
 	}
 	livery_override (item_mu_wagon_powered){
 		loading_speed: 20;
-		running_cost_factor: 5;
+		running_cost_factor: 33;
 		power: 775;
 		weight: 26;
 		cargo_capacity: switch_emu_Japan_Odakyu_10000_Series_Romance_capacity;

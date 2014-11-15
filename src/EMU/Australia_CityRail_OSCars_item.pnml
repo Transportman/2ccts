@@ -19,8 +19,8 @@ item(FEAT_TRAINS, item_emu_Australia_CityRail_OSCars) {
         model_life: VEHICLE_NEVER_EXPIRES;
         vehicle_life: 25;
         loading_speed: 20;
-        cost_factor: 13;
-        running_cost_factor: 9;
+        cost_factor: 42;
+        running_cost_factor: 38;
         speed: 130 km/h;
         power: 950 hp;
         cargo_capacity: 120;
@@ -54,7 +54,7 @@ item(FEAT_TRAINS, item_emu_Australia_CityRail_OSCars) {
 	}	
 	livery_override (item_mu_wagon_unpowered){
 		loading_speed: 20;
-		running_cost_factor: 5;
+		running_cost_factor: 19;
 		power: 0;
 		weight: 24;
 		cargo_capacity: switch_emu_Australia_CityRail_OSCars_capacity;
@@ -63,7 +63,7 @@ item(FEAT_TRAINS, item_emu_Australia_CityRail_OSCars) {
 	}
 	livery_override (item_mu_wagon_powered){
 		loading_speed: 20;
-		running_cost_factor: 7;
+		running_cost_factor: 29;
 		power: 475;
 		weight: 35;
 		cargo_capacity: switch_emu_Australia_CityRail_OSCars_capacity;

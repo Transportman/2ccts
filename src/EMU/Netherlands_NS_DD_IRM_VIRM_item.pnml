@@ -19,8 +19,8 @@ item(FEAT_TRAINS, item_emu_Netherlands_NS_DD_IRM_VIRM) {
         model_life: VEHICLE_NEVER_EXPIRES;
         vehicle_life: 25;
         loading_speed: 20;
-        cost_factor: 11;
-        running_cost_factor: 13;
+        cost_factor: 38;
+        running_cost_factor: 33;
         speed: 160 km/h;
         power: 718 hp;
         cargo_capacity: 91;
@@ -54,7 +54,7 @@ item(FEAT_TRAINS, item_emu_Netherlands_NS_DD_IRM_VIRM) {
 	}	
 	livery_override (item_mu_wagon_unpowered){
 		loading_speed: 20;
-		running_cost_factor: 7;
+		running_cost_factor: 17;
 		power: 0;
 		weight: 30;
 		cargo_capacity: switch_emu_Netherlands_NS_DD_IRM_VIRM_capacity;
@@ -63,7 +63,7 @@ item(FEAT_TRAINS, item_emu_Netherlands_NS_DD_IRM_VIRM) {
 	}
 	livery_override (item_mu_wagon_powered){
 		loading_speed: 20;
-		running_cost_factor: 10;
+		running_cost_factor: 25;
 		power: 359;
 		weight: 44;
 		cargo_capacity: switch_emu_Netherlands_NS_DD_IRM_VIRM_capacity;

@@ -19,8 +19,8 @@ item(FEAT_TRAINS, item_emu_Italy_NTV_AGV) {
         model_life: VEHICLE_NEVER_EXPIRES;
         vehicle_life: 25;
         loading_speed: 8;
-        cost_factor: 68;
-        running_cost_factor: 52;
+        cost_factor: 52;
+        running_cost_factor: 50;
         speed: 360 km/h;
         power: 1150 hp;
         cargo_capacity: 42;
@@ -54,7 +54,7 @@ item(FEAT_TRAINS, item_emu_Italy_NTV_AGV) {
 	}	
 	livery_override (item_mu_wagon_unpowered){
 		loading_speed: 8;
-		running_cost_factor: 26;
+		running_cost_factor: 25;
 		power: 0;
 		weight: 15;
 		cargo_capacity: switch_emu_Italy_NTV_AGV_capacity;
@@ -63,7 +63,7 @@ item(FEAT_TRAINS, item_emu_Italy_NTV_AGV) {
 	}
 	livery_override (item_mu_wagon_powered){
 		loading_speed: 8;
-		running_cost_factor: 39;
+		running_cost_factor: 38;
 		power: 575;
 		weight: 23;
 		cargo_capacity: switch_emu_Italy_NTV_AGV_capacity;

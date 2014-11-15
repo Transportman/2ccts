@@ -19,8 +19,8 @@ item(FEAT_TRAINS, item_emu_Denmark_DSB_S_Tog_II) {
         model_life: 25;
         vehicle_life: 25;
         loading_speed: 20;
-        cost_factor: 3;
-        running_cost_factor: 6;
+        cost_factor: 23;
+        running_cost_factor: 19;
         speed: 100 km/h;
         power: 200 hp;
         cargo_capacity: 56;
@@ -53,7 +53,7 @@ item(FEAT_TRAINS, item_emu_Denmark_DSB_S_Tog_II) {
 	}	
 	livery_override (item_mu_wagon_unpowered){
 		loading_speed: 20;
-		running_cost_factor: 3;
+		running_cost_factor: 10;
 		power: 0;
 		weight: 23;
 		cargo_capacity: switch_emu_Denmark_DSB_S_Tog_II_capacity;
@@ -63,7 +63,7 @@ item(FEAT_TRAINS, item_emu_Denmark_DSB_S_Tog_II) {
 	}
 	livery_override (item_mu_wagon_powered){
 		loading_speed: 20;
-		running_cost_factor: 5;
+		running_cost_factor: 15;
 		power: 100;
 		weight: 34;
 		cargo_capacity: switch_emu_Denmark_DSB_S_Tog_II_capacity;

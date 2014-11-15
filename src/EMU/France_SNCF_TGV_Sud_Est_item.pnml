@@ -19,8 +19,8 @@ item(FEAT_TRAINS, item_emu_France_SNCF_TGV_Sud_Est) {
         model_life: 20;
         vehicle_life: 25;
         loading_speed: 8;
-        cost_factor: 44;
-        running_cost_factor: 214;
+        cost_factor: 104;
+        running_cost_factor: 101;
         speed: 240 km/h;
         power: 9000 hp;
         cargo_capacity: 0;
@@ -54,7 +54,7 @@ item(FEAT_TRAINS, item_emu_France_SNCF_TGV_Sud_Est) {
 	}	
 	livery_override (item_mu_wagon_unpowered){
 		loading_speed: 8;
-		running_cost_factor: 107;
+		running_cost_factor: 51;
 		power: 0;
 		weight: 19;
 		cargo_capacity: switch_emu_France_SNCF_TGV_Sud_Est_capacity;
@@ -63,7 +63,7 @@ item(FEAT_TRAINS, item_emu_France_SNCF_TGV_Sud_Est) {
 	}
 	livery_override (item_mu_wagon_powered){
 		loading_speed: 8;
-		running_cost_factor: 161;
+		running_cost_factor: 76;
 		power: 4500;
 		weight: 29;
 		cargo_capacity: switch_emu_France_SNCF_TGV_Sud_Est_capacity;

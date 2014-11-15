@@ -19,8 +19,8 @@ item(FEAT_TRAINS, item_emu_Netherlands_NS_Mat54) {
         model_life: 25;
         vehicle_life: 25;
         loading_speed: 20;
-        cost_factor: 10;
-        running_cost_factor: 11;
+        cost_factor: 40;
+        running_cost_factor: 36;
         speed: 140 km/h;
         power: 910 hp;
         cargo_capacity: 60;
@@ -54,7 +54,7 @@ item(FEAT_TRAINS, item_emu_Netherlands_NS_Mat54) {
 	}	
 	livery_override (item_mu_wagon_unpowered){
 		loading_speed: 20;
-		running_cost_factor: 6;
+		running_cost_factor: 18;
 		power: 0;
 		weight: 28;
 		cargo_capacity: switch_emu_Netherlands_NS_Mat54_capacity;
@@ -63,7 +63,7 @@ item(FEAT_TRAINS, item_emu_Netherlands_NS_Mat54) {
 	}
 	livery_override (item_mu_wagon_powered){
 		loading_speed: 20;
-		running_cost_factor: 8;
+		running_cost_factor: 27;
 		power: 455;
 		weight: 41;
 		cargo_capacity: switch_emu_Netherlands_NS_Mat54_capacity;

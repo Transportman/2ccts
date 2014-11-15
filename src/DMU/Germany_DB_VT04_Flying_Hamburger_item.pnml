@@ -19,8 +19,8 @@ item(FEAT_TRAINS, item_dmu_Germany_DB_VT04_Flying_Hamburger) {
         model_life: 25;
         vehicle_life: 25;
         loading_speed: 8;
-        cost_factor: 5;
-        running_cost_factor: 14;
+        cost_factor: 28;
+        running_cost_factor: 25;
         speed: 160 km/h;
         power: 400 hp;
         cargo_capacity: 50;
@@ -54,7 +54,7 @@ item(FEAT_TRAINS, item_dmu_Germany_DB_VT04_Flying_Hamburger) {
 	}	
 	livery_override (item_mu_wagon_unpowered){
 		loading_speed: 8;
-		running_cost_factor: 7;
+		running_cost_factor: 13;
 		power: 0;
 		weight: 20;
 		cargo_capacity: switch_dmu_Germany_DB_VT04_Flying_Hamburger_capacity;
@@ -63,7 +63,7 @@ item(FEAT_TRAINS, item_dmu_Germany_DB_VT04_Flying_Hamburger) {
 	}
 	livery_override (item_mu_wagon_powered){
 		loading_speed: 8;
-		running_cost_factor: 11;
+		running_cost_factor: 18;
 		power: 200;
 		weight: 29;
 		cargo_capacity: switch_dmu_Germany_DB_VT04_Flying_Hamburger_capacity;

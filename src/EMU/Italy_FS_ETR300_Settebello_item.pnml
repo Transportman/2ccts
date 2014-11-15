@@ -19,8 +19,8 @@ item(FEAT_TRAINS, item_emu_Italy_FS_ETR300_Settebello) {
         model_life: 25;
         vehicle_life: 25;
         loading_speed: 8;
-        cost_factor: 8;
-        running_cost_factor: 13;
+        cost_factor: 31;
+        running_cost_factor: 27;
         speed: 160 km/h;
         power: 500 hp;
         cargo_capacity: 28;
@@ -53,7 +53,7 @@ item(FEAT_TRAINS, item_emu_Italy_FS_ETR300_Settebello) {
 	}	
 	livery_override (item_mu_wagon_unpowered){
 		loading_speed: 8;
-		running_cost_factor: 7;
+		running_cost_factor: 14;
 		power: 0;
 		weight: 26;
 		cargo_capacity: switch_emu_Italy_FS_ETR300_Settebello_capacity;
@@ -63,7 +63,7 @@ item(FEAT_TRAINS, item_emu_Italy_FS_ETR300_Settebello) {
 	}
 	livery_override (item_mu_wagon_powered){
 		loading_speed: 8;
-		running_cost_factor: 10;
+		running_cost_factor: 21;
 		power: 250;
 		weight: 39;
 		cargo_capacity: switch_emu_Italy_FS_ETR300_Settebello_capacity;

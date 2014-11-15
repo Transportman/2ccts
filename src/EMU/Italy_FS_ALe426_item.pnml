@@ -19,8 +19,8 @@ item(FEAT_TRAINS, item_emu_Italy_FS_ALe426) {
         model_life: 25;
         vehicle_life: 25;
         loading_speed: 20;
-        cost_factor: 18;
-        running_cost_factor: 11;
+        cost_factor: 48;
+        running_cost_factor: 42;
         speed: 140 km/h;
         power: 1219 hp;
         cargo_capacity: 115;
@@ -54,7 +54,7 @@ item(FEAT_TRAINS, item_emu_Italy_FS_ALe426) {
 	}	
 	livery_override (item_mu_wagon_unpowered){
 		loading_speed: 20;
-		running_cost_factor: 6;
+		running_cost_factor: 21;
 		power: 0;
 		weight: 34;
 		cargo_capacity: switch_emu_Italy_FS_ALe426_capacity;
@@ -63,7 +63,7 @@ item(FEAT_TRAINS, item_emu_Italy_FS_ALe426) {
 	}
 	livery_override (item_mu_wagon_powered){
 		loading_speed: 20;
-		running_cost_factor: 8;
+		running_cost_factor: 32;
 		power: 610;
 		weight: 51;
 		cargo_capacity: switch_emu_Italy_FS_ALe426_capacity;

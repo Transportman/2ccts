@@ -19,8 +19,8 @@ item(FEAT_TRAINS, item_emu_Italy_FS_ETR500) {
         model_life: VEHICLE_NEVER_EXPIRES;
         vehicle_life: 25;
         loading_speed: 8;
-        cost_factor: 60;
-        running_cost_factor: 243;
+        cost_factor: 119;
+        running_cost_factor: 115;
         speed: 250 km/h;
         power: 11800 hp;
         cargo_capacity: 0;
@@ -53,7 +53,7 @@ item(FEAT_TRAINS, item_emu_Italy_FS_ETR500) {
 	}	
 	livery_override (item_mu_wagon_unpowered){
 		loading_speed: 8;
-		running_cost_factor: 122;
+		running_cost_factor: 58;
 		power: 0;
 		weight: 27;
 		cargo_capacity: switch_emu_Italy_FS_ETR500_capacity;
@@ -62,7 +62,7 @@ item(FEAT_TRAINS, item_emu_Italy_FS_ETR500) {
 	}
 	livery_override (item_mu_wagon_powered){
 		loading_speed: 8;
-		running_cost_factor: 182;
+		running_cost_factor: 87;
 		power: 5900;
 		weight: 41;
 		cargo_capacity: switch_emu_Italy_FS_ETR500_capacity;

@@ -19,8 +19,8 @@ item(FEAT_TRAINS, item_emu_Australia_CityRail_V_DDIU) {
         model_life: 25;
         vehicle_life: 25;
         loading_speed: 20;
-        cost_factor: 9;
-        running_cost_factor: 8;
+        cost_factor: 41;
+        running_cost_factor: 35;
         speed: 115 km/h;
         power: 800 hp;
         cargo_capacity: 112;
@@ -53,7 +53,7 @@ item(FEAT_TRAINS, item_emu_Australia_CityRail_V_DDIU) {
 	}	
 	livery_override (item_mu_wagon_unpowered){
 		loading_speed: 20;
-		running_cost_factor: 4;
+		running_cost_factor: 18;
 		power: 0;
 		weight: 34;
 		cargo_capacity: switch_emu_Australia_CityRail_V_DDIU_capacity;
@@ -62,7 +62,7 @@ item(FEAT_TRAINS, item_emu_Australia_CityRail_V_DDIU) {
 	}
 	livery_override (item_mu_wagon_powered){
 		loading_speed: 20;
-		running_cost_factor: 6;
+		running_cost_factor: 26;
 		power: 400;
 		weight: 51;
 		cargo_capacity: switch_emu_Australia_CityRail_V_DDIU_capacity;

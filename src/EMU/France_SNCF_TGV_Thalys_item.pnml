@@ -19,8 +19,8 @@ item(FEAT_TRAINS, item_emu_France_SNCF_TGV_Thalys) {
         model_life: VEHICLE_NEVER_EXPIRES;
         vehicle_life: 25;
         loading_speed: 8;
-        cost_factor: 77;
-        running_cost_factor: 230;
+        cost_factor: 119;
+        running_cost_factor: 117;
         speed: 300 km/h;
         power: 12000 hp;
         cargo_capacity: 0;
@@ -53,7 +53,7 @@ item(FEAT_TRAINS, item_emu_France_SNCF_TGV_Thalys) {
 	}	
 	livery_override (item_mu_wagon_unpowered){
 		loading_speed: 8;
-		running_cost_factor: 157;
+		running_cost_factor: 58;
 		power: 0;
 		weight: 21;
 		cargo_capacity: switch_emu_France_SNCF_TGV_Thalys_capacity;
@@ -62,7 +62,7 @@ item(FEAT_TRAINS, item_emu_France_SNCF_TGV_Thalys) {
 	}
 	livery_override (item_mu_wagon_powered){
 		loading_speed: 8;
-		running_cost_factor: 236;
+		running_cost_factor: 87;
 		power: 6000;
 		weight: 31;
 		cargo_capacity: switch_emu_France_SNCF_TGV_Thalys_capacity;

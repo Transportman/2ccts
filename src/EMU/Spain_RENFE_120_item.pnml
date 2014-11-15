@@ -19,8 +19,8 @@ item(FEAT_TRAINS, item_emu_Spain_RENFE_120) {
         model_life: VEHICLE_NEVER_EXPIRES;
         vehicle_life: 25;
         loading_speed: 20;
-        cost_factor: 36;
-        running_cost_factor: 28;
+        cost_factor: 47;
+        running_cost_factor: 43;
         speed: 250 km/h;
         power: 1340 hp;
         cargo_capacity: 60;
@@ -54,7 +54,7 @@ item(FEAT_TRAINS, item_emu_Spain_RENFE_120) {
 	}	
 	livery_override (item_mu_wagon_unpowered){
 		loading_speed: 20;
-		running_cost_factor: 14;
+		running_cost_factor: 22;
 		power: 0;
 		weight: 28;
 		cargo_capacity: switch_emu_Spain_RENFE_120_capacity;
@@ -63,7 +63,7 @@ item(FEAT_TRAINS, item_emu_Spain_RENFE_120) {
 	}
 	livery_override (item_mu_wagon_powered){
 		loading_speed: 20;
-		running_cost_factor: 21;
+		running_cost_factor: 33;
 		power: 670;
 		weight: 42;
 		cargo_capacity: switch_emu_Spain_RENFE_120_capacity;

@@ -19,8 +19,8 @@ item(FEAT_TRAINS, item_rbd_Russia_RZD_ACh2) {
         model_life: 35;
         vehicle_life: 15;
         loading_speed: 20;
-        cost_factor: 4;
-        running_cost_factor: 6;
+        cost_factor: 42;
+        running_cost_factor: 37;
         speed: 120 km/h;
         power: 990 hp;
         cargo_capacity: 67;

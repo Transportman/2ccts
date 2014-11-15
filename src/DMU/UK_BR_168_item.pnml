@@ -19,8 +19,8 @@ item(FEAT_TRAINS, item_dmu_UK_BR_168) {
         model_life: 15;
         vehicle_life: 20;
         loading_speed: 20;
-        cost_factor: 15;
-        running_cost_factor: 15;
+        cost_factor: 45;
+        running_cost_factor: 41;
         speed: 160 km/h;
         power: 1300 hp;
         cargo_capacity: 42;
@@ -55,7 +55,7 @@ item(FEAT_TRAINS, item_dmu_UK_BR_168) {
 	}	
 	livery_override (item_mu_wagon_unpowered){
 		loading_speed: 20;
-		running_cost_factor: 8;
+		running_cost_factor: 21;
 		power: 0;
 		weight: 25;
 		cargo_capacity: switch_dmu_UK_BR_168_capacity;
@@ -64,7 +64,7 @@ item(FEAT_TRAINS, item_dmu_UK_BR_168) {
 	}
 	livery_override (item_mu_wagon_powered){
 		loading_speed: 20;
-		running_cost_factor: 11;
+		running_cost_factor: 31;
 		power: 650;
 		weight: 38;
 		cargo_capacity: switch_dmu_UK_BR_168_capacity;

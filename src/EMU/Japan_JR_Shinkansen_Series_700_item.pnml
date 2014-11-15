@@ -19,8 +19,8 @@ item(FEAT_TRAINS, item_emu_Japan_JR_Shinkansen_Series_700) {
         model_life: VEHICLE_NEVER_EXPIRES;
         vehicle_life: 25;
         loading_speed: 8;
-        cost_factor: 45;
-        running_cost_factor: 32;
+        cost_factor: 48;
+        running_cost_factor: 46;
         speed: 270 km/h;
         power: 1441 hp;
         cargo_capacity: 83;
@@ -53,7 +53,7 @@ item(FEAT_TRAINS, item_emu_Japan_JR_Shinkansen_Series_700) {
 	}	
 	livery_override (item_mu_wagon_unpowered){
 		loading_speed: 8;
-		running_cost_factor: 16;
+		running_cost_factor: 23;
 		power: 0;
 		weight: 23;
 		cargo_capacity: switch_emu_Japan_JR_Shinkansen_Series_700_capacity;
@@ -63,7 +63,7 @@ item(FEAT_TRAINS, item_emu_Japan_JR_Shinkansen_Series_700) {
 	}
 	livery_override (item_mu_wagon_powered){
 		loading_speed: 8;
-		running_cost_factor: 24;
+		running_cost_factor: 35;
 		power: 721;
 		weight: 34;
 		cargo_capacity: switch_emu_Japan_JR_Shinkansen_Series_700_capacity;

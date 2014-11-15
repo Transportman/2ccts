@@ -19,8 +19,8 @@ item(FEAT_TRAINS, item_emu_Finland_VR_Sm4) {
         model_life: VEHICLE_NEVER_EXPIRES;
         vehicle_life: 25;
         loading_speed: 20;
-        cost_factor: 12;
-        running_cost_factor: 13;
+        cost_factor: 40;
+        running_cost_factor: 35;
         speed: 160 km/h;
         power: 800 hp;
         cargo_capacity: 100;
@@ -54,7 +54,7 @@ item(FEAT_TRAINS, item_emu_Finland_VR_Sm4) {
 	}	
 	livery_override (item_mu_wagon_unpowered){
 		loading_speed: 20;
-		running_cost_factor: 7;
+		running_cost_factor: 18;
 		power: 0;
 		weight: 29;
 		cargo_capacity: switch_emu_Finland_VR_Sm4_capacity;
@@ -63,7 +63,7 @@ item(FEAT_TRAINS, item_emu_Finland_VR_Sm4) {
 	}
 	livery_override (item_mu_wagon_powered){
 		loading_speed: 20;
-		running_cost_factor: 10;
+		running_cost_factor: 27;
 		power: 400;
 		weight: 43;
 		cargo_capacity: switch_emu_Finland_VR_Sm4_capacity;

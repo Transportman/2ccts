@@ -19,8 +19,8 @@ item(FEAT_TRAINS, item_emu_Czech_Republic_CD_680_Pendolino) {
         model_life: VEHICLE_NEVER_EXPIRES;
         vehicle_life: 25;
         loading_speed: 8;
-        cost_factor: 23;
-        running_cost_factor: 24;
+        cost_factor: 38;
+        running_cost_factor: 34;
         speed: 230 km/h;
         power: 750 hp;
         cargo_capacity: 47;
@@ -54,7 +54,7 @@ item(FEAT_TRAINS, item_emu_Czech_Republic_CD_680_Pendolino) {
 	}	
 	livery_override (item_mu_wagon_unpowered){
 		loading_speed: 8;
-		running_cost_factor: 12;
+		running_cost_factor: 17;
 		power: 0;
 		weight: 28;
 		cargo_capacity: switch_emu_Czech_Republic_CD_680_Pendolino_capacity;
@@ -63,7 +63,7 @@ item(FEAT_TRAINS, item_emu_Czech_Republic_CD_680_Pendolino) {
 	}
 	livery_override (item_mu_wagon_powered){
 		loading_speed: 8;
-		running_cost_factor: 18;
+		running_cost_factor: 26;
 		power: 375;
 		weight: 41;
 		cargo_capacity: switch_emu_Czech_Republic_CD_680_Pendolino_capacity;
