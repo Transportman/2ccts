@@ -27,6 +27,8 @@ STR_PARAM_TIMES_8                   :8
 STR_PARAM_TIMES_16                  :16
 
 #region parameters
+STR_PARAM_CONCEPT                                               :콘셉트 차량 (미래 기능, 현재 사용 불가)
+STR_PARAM_CONCEPT_DESC                                  :콘셉트 차량을 사용합니다. (현재 아무 기능도 하지 않음)
 STR_PARAM_REGION_OCEANIA                                :오세아니아
 
 #VEHICLE NAMES
