@@ -23,7 +23,7 @@ item(FEAT_TRAINS, item_wagon_Service_Car_Type1) {
         running_cost_factor: 1;
         speed: 0 km/h;
         power: 0 hp;
-        cargo_capacity: 20;
+        cargo_capacity: 0;
         weight: 15 ton;
         tractive_effort_coefficient: 0.3;
         air_drag_coefficient: 0;
