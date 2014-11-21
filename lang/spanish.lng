@@ -370,6 +370,7 @@ str_wagon_Gen1_Open_Wagon                               :Vagón abierto de mader
 str_wagon_Gen2_Flat_Wagon                               :Vagón plano, 2a generación
 str_wagon_Gen2_Tanker                                   :Cisterna, 2a generación
 str_wagon_Gen2_Open_Wagon                               :Vagón abierto de madera, 2a Generación
+str_wagon_Gen3_Flat_Wagon                               :Vagón plano, 3a generación
 str_wagon_Gen3_Tanker                                   :Cisterna, 3a generación
 str_wagon_Gen3_Open_Wagon                               :Vagón abierto, 3era Generación
 str_wagon_Gen4_Flatcar                                  :Vagón plano, 4a Generación
@@ -383,6 +384,7 @@ str_wagon_Gen5_Silo_Type2                               :Vagón silo, 5a generac
 str_wagon_Gen5_Superheavy_Flatcar               :Vagón plano superpesado, 5a Generación
 
 str_wagon_Service_Car_Type1                             :Vagón de servicio (Tipo 1)
+str_wagon_Service_Car_Type2                             :Vagón de servicio (Tipo 2)
 
 #coaches
 str_coach_Gen1_Wooden_2_axle_Compartment_Coach                  :Vagón de compartimentos, madera y 2 ejes
