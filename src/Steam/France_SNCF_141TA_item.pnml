@@ -19,8 +19,8 @@ item(FEAT_TRAINS, item_steam_France_SNCF_141TA) {
         model_life: 20;
         vehicle_life: 40;
         loading_speed: 1;
-        cost_factor: 3;
-        running_cost_factor: 35;
+        cost_factor: 47;
+        running_cost_factor: 39;
         speed: 70 km/h;
         power: 1360 hp;
         cargo_capacity: 0;

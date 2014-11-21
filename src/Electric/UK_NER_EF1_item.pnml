@@ -19,8 +19,8 @@ item(FEAT_TRAINS, item_electric_UK_NER_EF1) {
         model_life: 30;
         vehicle_life: 40;
         loading_speed: 1;
-        cost_factor: 2;
-        running_cost_factor: 13;
+        cost_factor: 41;
+        running_cost_factor: 34;
         speed: 40 km/h;
         power: 1100 hp;
         cargo_capacity: 0;

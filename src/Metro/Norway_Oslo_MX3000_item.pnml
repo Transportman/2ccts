@@ -19,8 +19,8 @@ item(FEAT_TRAINS, item_mtro_Norway_Oslo_MX3000) {
         model_life: VEHICLE_NEVER_EXPIRES;
         vehicle_life: 60;
         loading_speed: 60;
-        cost_factor: 7;
-        running_cost_factor: 13;
+        cost_factor: 38;
+        running_cost_factor: 35;
         speed: 80 km/h;
         power: 760 hp;
         cargo_capacity: 164;
@@ -52,7 +52,7 @@ item(FEAT_TRAINS, item_mtro_Norway_Oslo_MX3000) {
 	}	
 	livery_override (item_mtro_wagon_unpowered){
 		loading_speed: 60;
-		running_cost_factor: 7;
+		running_cost_factor: 18;
 		power: 0;
 		weight: 17;
 		cargo_capacity: 164;
@@ -61,7 +61,7 @@ item(FEAT_TRAINS, item_mtro_Norway_Oslo_MX3000) {
 	}
 	livery_override (item_mtro_wagon_powered){
 		loading_speed: 60;
-		running_cost_factor: 10;
+		running_cost_factor: 27;
 		power: 380;
 		weight: 25;
 		cargo_capacity: 164;

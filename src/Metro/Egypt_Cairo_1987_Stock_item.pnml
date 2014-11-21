@@ -19,8 +19,8 @@ item(FEAT_TRAINS, item_mtro_Egypt_Cairo_1987_Stock) {
         model_life: 50;
         vehicle_life: 60;
         loading_speed: 60;
-        cost_factor: 12;
-        running_cost_factor: 16;
+        cost_factor: 37;
+        running_cost_factor: 34;
         speed: 90 km/h;
         power: 590 hp;
         cargo_capacity: 250;
@@ -52,7 +52,7 @@ item(FEAT_TRAINS, item_mtro_Egypt_Cairo_1987_Stock) {
 	}	
 	livery_override (item_mtro_wagon_unpowered){
 		loading_speed: 60;
-		running_cost_factor: 8;
+		running_cost_factor: 17;
 		power: 0;
 		weight: 17;
 		cargo_capacity: 250;
@@ -61,7 +61,7 @@ item(FEAT_TRAINS, item_mtro_Egypt_Cairo_1987_Stock) {
 	}
 	livery_override (item_mtro_wagon_powered){
 		loading_speed: 60;
-		running_cost_factor: 12;
+		running_cost_factor: 26;
 		power: 295;
 		weight: 26;
 		cargo_capacity: 250;

@@ -19,8 +19,8 @@ item(FEAT_TRAINS, item_diesel_Finland_VR_Dr12) {
         model_life: 25;
         vehicle_life: 40;
         loading_speed: 1;
-        cost_factor: 7;
-        running_cost_factor: 68;
+        cost_factor: 56;
+        running_cost_factor: 45;
         speed: 120 km/h;
         power: 1900 hp;
         cargo_capacity: 0;

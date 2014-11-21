@@ -19,8 +19,8 @@ item(FEAT_TRAINS, item_electric_Russia_RZD_VL85) {
         model_life: 25;
         vehicle_life: 40;
         loading_speed: 1;
-        cost_factor: 86;
-        running_cost_factor: 112;
+        cost_factor: 141;
+        running_cost_factor: 113;
         speed: 110 km/h;
         power: 12500 hp;
         cargo_capacity: 0;

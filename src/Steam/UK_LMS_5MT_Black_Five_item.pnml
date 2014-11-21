@@ -19,8 +19,8 @@ item(FEAT_TRAINS, item_steam_UK_LMS_5MT_Black_Five) {
         model_life: 25;
         vehicle_life: 40;
         loading_speed: 1;
-        cost_factor: 3;
-        running_cost_factor: 68;
+        cost_factor: 48;
+        running_cost_factor: 41;
         speed: 115 km/h;
         power: 1600 hp;
         cargo_capacity: 0;

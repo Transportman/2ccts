@@ -19,8 +19,8 @@ item(FEAT_TRAINS, item_diesel_Germany_DB_220_V200) {
         model_life: 25;
         vehicle_life: 40;
         loading_speed: 1;
-        cost_factor: 4;
-        running_cost_factor: 85;
+        cost_factor: 56;
+        running_cost_factor: 48;
         speed: 140 km/h;
         power: 2169 hp;
         cargo_capacity: 0;

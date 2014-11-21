@@ -19,8 +19,8 @@ item(FEAT_TRAINS, item_steam_Russia_RZD_P36) {
         model_life: 25;
         vehicle_life: 40;
         loading_speed: 1;
-        cost_factor: 16;
-        running_cost_factor: 96;
+        cost_factor: 81;
+        running_cost_factor: 57;
         speed: 125 km/h;
         power: 3125 hp;
         cargo_capacity: 0;

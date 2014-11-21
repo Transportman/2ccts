@@ -19,8 +19,8 @@ item(FEAT_TRAINS, item_steam_USA_AT_SF_5000) {
         model_life: 25;
         vehicle_life: 40;
         loading_speed: 1;
-        cost_factor: 59;
-        running_cost_factor: 99;
+        cost_factor: 116;
+        running_cost_factor: 77;
         speed: 100 km/h;
         power: 5700 hp;
         cargo_capacity: 0;

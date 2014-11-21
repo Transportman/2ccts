@@ -19,8 +19,8 @@ item(FEAT_TRAINS, item_steam_USA_4_6_0_Ten_wheeler) {
         model_life: 25;
         vehicle_life: 40;
         loading_speed: 1;
-        cost_factor: 1;
-        running_cost_factor: 47;
+        cost_factor: 34;
+        running_cost_factor: 27;
         speed: 96 km/h;
         power: 700 hp;
         cargo_capacity: 0;

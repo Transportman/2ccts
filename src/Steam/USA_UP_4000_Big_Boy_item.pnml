@@ -19,8 +19,8 @@ item(FEAT_TRAINS, item_steam_USA_UP_4000_Big_Boy) {
         model_life: 20;
         vehicle_life: 40;
         loading_speed: 1;
-        cost_factor: 152;
-        running_cost_factor: 143;
+        cost_factor: 140;
+        running_cost_factor: 81;
         speed: 128 km/h;
         power: 6290 hp;
         cargo_capacity: 0;

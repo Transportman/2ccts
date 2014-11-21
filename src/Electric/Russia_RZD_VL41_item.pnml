@@ -19,8 +19,8 @@ item(FEAT_TRAINS, item_electric_Russia_RZD_VL41) {
         model_life: 25;
         vehicle_life: 40;
         loading_speed: 1;
-        cost_factor: 2;
-        running_cost_factor: 30;
+        cost_factor: 58;
+        running_cost_factor: 49;
         speed: 70 km/h;
         power: 2280 hp;
         cargo_capacity: 0;

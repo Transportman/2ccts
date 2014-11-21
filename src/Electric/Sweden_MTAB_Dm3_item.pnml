@@ -19,8 +19,8 @@ item(FEAT_TRAINS, item_electric_Sweden_MTAB_Dm3) {
         model_life: 50;
         vehicle_life: 40;
         loading_speed: 1;
-        cost_factor: 70;
-        running_cost_factor: 75;
+        cost_factor: 126;
+        running_cost_factor: 99;
         speed: 75 km/h;
         power: 9648 hp;
         cargo_capacity: 0;

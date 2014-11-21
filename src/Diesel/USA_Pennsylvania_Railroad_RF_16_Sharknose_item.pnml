@@ -19,8 +19,8 @@ item(FEAT_TRAINS, item_diesel_USA_Pennsylvania_Railroad_RF_16_Sharknose) {
         model_life: 25;
         vehicle_life: 40;
         loading_speed: 1;
-        cost_factor: 7;
-        running_cost_factor: 84;
+        cost_factor: 53;
+        running_cost_factor: 42;
         speed: 140 km/h;
         power: 1600 hp;
         cargo_capacity: 0;

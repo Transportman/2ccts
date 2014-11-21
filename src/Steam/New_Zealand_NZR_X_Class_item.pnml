@@ -19,8 +19,8 @@ item(FEAT_TRAINS, item_steam_New_Zealand_NZR_X_Class) {
         model_life: 25;
         vehicle_life: 40;
         loading_speed: 1;
-        cost_factor: 2;
-        running_cost_factor: 24;
+        cost_factor: 49;
+        running_cost_factor: 39;
         speed: 50 km/h;
         power: 1500 hp;
         cargo_capacity: 0;

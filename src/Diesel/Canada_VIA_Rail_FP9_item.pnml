@@ -19,8 +19,8 @@ item(FEAT_TRAINS, item_diesel_Canada_VIA_Rail_FP9) {
         model_life: 25;
         vehicle_life: 40;
         loading_speed: 1;
-        cost_factor: 7;
-        running_cost_factor: 87;
+        cost_factor: 53;
+        running_cost_factor: 43;
         speed: 144 km/h;
         power: 1750 hp;
         cargo_capacity: 0;

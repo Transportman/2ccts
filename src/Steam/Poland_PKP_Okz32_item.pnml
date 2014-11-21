@@ -19,8 +19,8 @@ item(FEAT_TRAINS, item_steam_Poland_PKP_Okz32) {
         model_life: 20;
         vehicle_life: 40;
         loading_speed: 1;
-        cost_factor: 3;
-        running_cost_factor: 41;
+        cost_factor: 55;
+        running_cost_factor: 44;
         speed: 75 km/h;
         power: 1868 hp;
         cargo_capacity: 0;

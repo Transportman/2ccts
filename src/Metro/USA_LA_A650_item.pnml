@@ -19,8 +19,8 @@ item(FEAT_TRAINS, item_mtro_USA_LA_A650) {
         model_life: VEHICLE_NEVER_EXPIRES;
         vehicle_life: 60;
         loading_speed: 60;
-        cost_factor: 8;
-        running_cost_factor: 23;
+        cost_factor: 34;
+        running_cost_factor: 31;
         speed: 112 km/h;
         power: 530 hp;
         cargo_capacity: 170;
@@ -52,7 +52,7 @@ item(FEAT_TRAINS, item_mtro_USA_LA_A650) {
 	}	
 	livery_override (item_mtro_wagon_unpowered){
 		loading_speed: 60;
-		running_cost_factor: 12;
+		running_cost_factor: 16;
 		power: 0;
 		weight: 19;
 		cargo_capacity: 170;
@@ -61,7 +61,7 @@ item(FEAT_TRAINS, item_mtro_USA_LA_A650) {
 	}
 	livery_override (item_mtro_wagon_powered){
 		loading_speed: 60;
-		running_cost_factor: 17;
+		running_cost_factor: 24;
 		power: 265;
 		weight: 28;
 		cargo_capacity: 170;

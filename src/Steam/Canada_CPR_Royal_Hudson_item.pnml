@@ -19,8 +19,8 @@ item(FEAT_TRAINS, item_steam_Canada_CPR_Royal_Hudson) {
         model_life: 20;
         vehicle_life: 40;
         loading_speed: 1;
-        cost_factor: 29;
-        running_cost_factor: 128;
+        cost_factor: 97;
+        running_cost_factor: 69;
         speed: 144 km/h;
         power: 4500 hp;
         cargo_capacity: 0;

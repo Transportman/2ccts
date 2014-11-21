@@ -19,8 +19,8 @@ item(FEAT_TRAINS, item_steam_UK_LNER_A1_Peppercorn) {
         model_life: 25;
         vehicle_life: 40;
         loading_speed: 1;
-        cost_factor: 9;
-        running_cost_factor: 127;
+        cost_factor: 69;
+        running_cost_factor: 53;
         speed: 160 km/h;
         power: 2680 hp;
         cargo_capacity: 0;

@@ -19,8 +19,8 @@ item(FEAT_TRAINS, item_electric_Italy_FS_E646) {
         model_life: 25;
         vehicle_life: 40;
         loading_speed: 1;
-        cost_factor: 18;
-        running_cost_factor: 97;
+        cost_factor: 93;
+        running_cost_factor: 83;
         speed: 140 km/h;
         power: 6610 hp;
         cargo_capacity: 0;

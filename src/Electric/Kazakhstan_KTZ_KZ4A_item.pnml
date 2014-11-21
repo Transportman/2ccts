@@ -19,8 +19,8 @@ item(FEAT_TRAINS, item_electric_Kazakhstan_KTZ_KZ4A) {
         model_life: VEHICLE_NEVER_EXPIRES;
         vehicle_life: 40;
         loading_speed: 1;
-        cost_factor: 26;
-        running_cost_factor: 165;
+        cost_factor: 90;
+        running_cost_factor: 83;
         speed: 210 km/h;
         power: 6500 hp;
         cargo_capacity: 0;

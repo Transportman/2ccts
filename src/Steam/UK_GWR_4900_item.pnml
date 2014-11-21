@@ -19,8 +19,8 @@ item(FEAT_TRAINS, item_steam_UK_GWR_4900) {
         model_life: 25;
         vehicle_life: 40;
         loading_speed: 1;
-        cost_factor: 4;
-        running_cost_factor: 56;
+        cost_factor: 55;
+        running_cost_factor: 43;
         speed: 96 km/h;
         power: 1750 hp;
         cargo_capacity: 0;

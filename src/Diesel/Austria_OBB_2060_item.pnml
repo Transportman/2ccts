@@ -19,8 +19,8 @@ item(FEAT_TRAINS, item_diesel_Austria_OBB_2060) {
         model_life: 25;
         vehicle_life: 40;
         loading_speed: 1;
-        cost_factor: 1;
-        running_cost_factor: 17;
+        cost_factor: 18;
+        running_cost_factor: 15;
         speed: 60 km/h;
         power: 200 hp;
         cargo_capacity: 0;

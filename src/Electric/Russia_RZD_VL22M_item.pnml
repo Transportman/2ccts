@@ -19,8 +19,8 @@ item(FEAT_TRAINS, item_electric_Russia_RZD_VL22M) {
         model_life: 25;
         vehicle_life: 40;
         loading_speed: 1;
-        cost_factor: 6;
-        running_cost_factor: 52;
+        cost_factor: 67;
+        running_cost_factor: 58;
         speed: 100 km/h;
         power: 3220 hp;
         cargo_capacity: 0;

@@ -19,8 +19,8 @@ item(FEAT_TRAINS, item_steam_USA_2_8_0_Consolidation) {
         model_life: 25;
         vehicle_life: 40;
         loading_speed: 1;
-        cost_factor: 3;
-        running_cost_factor: 41;
+        cost_factor: 45;
+        running_cost_factor: 33;
         speed: 80 km/h;
         power: 1000 hp;
         cargo_capacity: 0;

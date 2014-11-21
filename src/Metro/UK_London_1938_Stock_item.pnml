@@ -19,8 +19,8 @@ item(FEAT_TRAINS, item_mtro_UK_London_1938_Stock) {
         model_life: 50;
         vehicle_life: 60;
         loading_speed: 60;
-        cost_factor: 5;
-        running_cost_factor: 11;
+        cost_factor: 34;
+        running_cost_factor: 31;
         speed: 70 km/h;
         power: 600 hp;
         cargo_capacity: 120;
@@ -52,7 +52,7 @@ item(FEAT_TRAINS, item_mtro_UK_London_1938_Stock) {
 	}	
 	livery_override (item_mtro_wagon_unpowered){
 		loading_speed: 60;
-		running_cost_factor: 6;
+		running_cost_factor: 16;
 		power: 0;
 		weight: 13;
 		cargo_capacity: 120;
@@ -61,7 +61,7 @@ item(FEAT_TRAINS, item_mtro_UK_London_1938_Stock) {
 	}
 	livery_override (item_mtro_wagon_powered){
 		loading_speed: 60;
-		running_cost_factor: 8;
+		running_cost_factor: 24;
 		power: 300;
 		weight: 20;
 		cargo_capacity: 120;

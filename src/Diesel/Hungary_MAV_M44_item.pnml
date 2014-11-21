@@ -19,8 +19,8 @@ item(FEAT_TRAINS, item_diesel_Hungary_MAV_M44) {
         model_life: 25;
         vehicle_life: 40;
         loading_speed: 1;
-        cost_factor: 1;
-        running_cost_factor: 31;
+        cost_factor: 31;
+        running_cost_factor: 25;
         speed: 80 km/h;
         power: 590 hp;
         cargo_capacity: 0;

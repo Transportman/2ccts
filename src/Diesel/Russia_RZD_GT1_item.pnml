@@ -19,8 +19,8 @@ item(FEAT_TRAINS, item_diesel_Russia_RZD_GT1) {
         model_life: VEHICLE_NEVER_EXPIRES;
         vehicle_life: 40;
         loading_speed: 1;
-        cost_factor: 66;
-        running_cost_factor: 111;
+        cost_factor: 136;
+        running_cost_factor: 107;
         speed: 100 km/h;
         power: 11130 hp;
         cargo_capacity: 0;

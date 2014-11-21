@@ -19,8 +19,8 @@ item(FEAT_TRAINS, item_electric_USA_Pennsylvania_Railroad_FF_1) {
         model_life: 25;
         vehicle_life: 40;
         loading_speed: 1;
-        cost_factor: 27;
-        running_cost_factor: 33;
+        cost_factor: 93;
+        running_cost_factor: 70;
         speed: 40 km/h;
         power: 4800 hp;
         cargo_capacity: 0;

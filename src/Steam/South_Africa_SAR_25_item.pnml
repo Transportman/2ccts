@@ -19,8 +19,8 @@ item(FEAT_TRAINS, item_steam_South_Africa_SAR_25) {
         model_life: 25;
         vehicle_life: 40;
         loading_speed: 1;
-        cost_factor: 18;
-        running_cost_factor: 93;
+        cost_factor: 96;
+        running_cost_factor: 73;
         speed: 110 km/h;
         power: 5100 hp;
         cargo_capacity: 0;

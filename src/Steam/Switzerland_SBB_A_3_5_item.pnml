@@ -19,8 +19,8 @@ item(FEAT_TRAINS, item_steam_Switzerland_SBB_A_3_5) {
         model_life: 25;
         vehicle_life: 40;
         loading_speed: 1;
-        cost_factor: 3;
-        running_cost_factor: 56;
+        cost_factor: 48;
+        running_cost_factor: 38;
         speed: 100 km/h;
         power: 1340 hp;
         cargo_capacity: 0;

@@ -19,8 +19,8 @@ item(FEAT_TRAINS, item_diesel_USA_UP_EMD_DDA40X) {
         model_life: 25;
         vehicle_life: 40;
         loading_speed: 1;
-        cost_factor: 39;
-        running_cost_factor: 123;
+        cost_factor: 108;
+        running_cost_factor: 83;
         speed: 144 km/h;
         power: 6600 hp;
         cargo_capacity: 0;

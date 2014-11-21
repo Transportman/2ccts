@@ -19,8 +19,8 @@ item(FEAT_TRAINS, item_electric_Portugal_CP_2500) {
         model_life: 25;
         vehicle_life: 40;
         loading_speed: 1;
-        cost_factor: 4;
-        running_cost_factor: 62;
+        cost_factor: 61;
+        running_cost_factor: 54;
         speed: 120 km/h;
         power: 2790 hp;
         cargo_capacity: 0;

@@ -19,8 +19,8 @@ item(FEAT_TRAINS, item_steam_Argentina_FCNEA_11B_2_8_0) {
         model_life: 20;
         vehicle_life: 40;
         loading_speed: 1;
-        cost_factor: 2;
-        running_cost_factor: 28;
+        cost_factor: 41;
+        running_cost_factor: 31;
         speed: 64 km/h;
         power: 930 hp;
         cargo_capacity: 0;

@@ -19,8 +19,8 @@ item(FEAT_TRAINS, item_diesel_Portugal_CP_1900) {
         model_life: 25;
         vehicle_life: 40;
         loading_speed: 1;
-        cost_factor: 5;
-        running_cost_factor: 55;
+        cost_factor: 60;
+        running_cost_factor: 49;
         speed: 100 km/h;
         power: 2260 hp;
         cargo_capacity: 0;

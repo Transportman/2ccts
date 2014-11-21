@@ -19,8 +19,8 @@ item(FEAT_TRAINS, item_electric_Japan_JNR_EF64) {
         model_life: 25;
         vehicle_life: 40;
         loading_speed: 1;
-        cost_factor: 5;
-        running_cost_factor: 53;
+        cost_factor: 69;
+        running_cost_factor: 60;
         speed: 100 km/h;
         power: 3420 hp;
         cargo_capacity: 0;

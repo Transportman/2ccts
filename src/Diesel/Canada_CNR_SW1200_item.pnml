@@ -19,8 +19,8 @@ item(FEAT_TRAINS, item_diesel_Canada_CNR_SW1200) {
         model_life: 25;
         vehicle_life: 40;
         loading_speed: 1;
-        cost_factor: 4;
-        running_cost_factor: 51;
+        cost_factor: 46;
+        running_cost_factor: 36;
         speed: 104 km/h;
         power: 1200 hp;
         cargo_capacity: 0;

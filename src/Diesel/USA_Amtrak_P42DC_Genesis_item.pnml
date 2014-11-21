@@ -19,8 +19,8 @@ item(FEAT_TRAINS, item_diesel_USA_Amtrak_P42DC_Genesis) {
         model_life: VEHICLE_NEVER_EXPIRES;
         vehicle_life: 40;
         loading_speed: 1;
-        cost_factor: 14;
-        running_cost_factor: 136;
+        cost_factor: 79;
+        running_cost_factor: 67;
         speed: 177 km/h;
         power: 4250 hp;
         cargo_capacity: 0;

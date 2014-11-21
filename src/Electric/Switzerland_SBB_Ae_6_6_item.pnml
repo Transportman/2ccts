@@ -19,8 +19,8 @@ item(FEAT_TRAINS, item_electric_Switzerland_SBB_Ae_6_6) {
         model_life: 25;
         vehicle_life: 40;
         loading_speed: 1;
-        cost_factor: 17;
-        running_cost_factor: 83;
+        cost_factor: 89;
+        running_cost_factor: 78;
         speed: 125 km/h;
         power: 5842 hp;
         cargo_capacity: 0;

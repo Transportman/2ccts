@@ -19,8 +19,8 @@ item(FEAT_TRAINS, item_electric_Switzerland_SBB_Re460_Lok_2000) {
         model_life: VEHICLE_NEVER_EXPIRES;
         vehicle_life: 40;
         loading_speed: 1;
-        cost_factor: 38;
-        running_cost_factor: 197;
+        cost_factor: 100;
+        running_cost_factor: 93;
         speed: 230 km/h;
         power: 8174 hp;
         cargo_capacity: 0;

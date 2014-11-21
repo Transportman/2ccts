@@ -19,8 +19,8 @@ item(FEAT_TRAINS, item_diesel_Australia_Australian_National_AN) {
         model_life: 25;
         vehicle_life: 40;
         loading_speed: 1;
-        cost_factor: 11;
-        running_cost_factor: 107;
+        cost_factor: 78;
+        running_cost_factor: 66;
         speed: 150 km/h;
         power: 4120 hp;
         cargo_capacity: 0;

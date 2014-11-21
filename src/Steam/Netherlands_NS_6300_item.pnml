@@ -19,8 +19,8 @@ item(FEAT_TRAINS, item_steam_Netherlands_NS_6300) {
         model_life: 20;
         vehicle_life: 40;
         loading_speed: 1;
-        cost_factor: 4;
-        running_cost_factor: 51;
+        cost_factor: 53;
+        running_cost_factor: 41;
         speed: 90 km/h;
         power: 1609 hp;
         cargo_capacity: 0;

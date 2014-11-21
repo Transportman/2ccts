@@ -19,8 +19,8 @@ item(FEAT_TRAINS, item_electric_Austria_OBB_1044) {
         model_life: 25;
         vehicle_life: 40;
         loading_speed: 1;
-        cost_factor: 22;
-        running_cost_factor: 116;
+        cost_factor: 93;
+        running_cost_factor: 86;
         speed: 160 km/h;
         power: 7000 hp;
         cargo_capacity: 0;

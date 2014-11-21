@@ -19,8 +19,8 @@ item(FEAT_TRAINS, item_electric_China_China_Railways_SS6) {
         model_life: VEHICLE_NEVER_EXPIRES;
         vehicle_life: 40;
         loading_speed: 1;
-        cost_factor: 20;
-        running_cost_factor: 68;
+        cost_factor: 95;
+        running_cost_factor: 82;
         speed: 100 km/h;
         power: 6432 hp;
         cargo_capacity: 0;

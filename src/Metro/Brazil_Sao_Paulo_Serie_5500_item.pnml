@@ -19,8 +19,8 @@ item(FEAT_TRAINS, item_mtro_Brazil_Sao_Paulo_Serie_5500) {
         model_life: 50;
         vehicle_life: 60;
         loading_speed: 60;
-        cost_factor: 11;
-        running_cost_factor: 15;
+        cost_factor: 28;
+        running_cost_factor: 25;
         speed: 90 km/h;
         power: 250 hp;
         cargo_capacity: 230;
@@ -52,7 +52,7 @@ item(FEAT_TRAINS, item_mtro_Brazil_Sao_Paulo_Serie_5500) {
 	}	
 	livery_override (item_mtro_wagon_unpowered){
 		loading_speed: 60;
-		running_cost_factor: 8;
+		running_cost_factor: 13;
 		power: 0;
 		weight: 19;
 		cargo_capacity: 230;
@@ -61,7 +61,7 @@ item(FEAT_TRAINS, item_mtro_Brazil_Sao_Paulo_Serie_5500) {
 	}
 	livery_override (item_mtro_wagon_powered){
 		loading_speed: 60;
-		running_cost_factor: 11;
+		running_cost_factor: 19;
 		power: 125;
 		weight: 28;
 		cargo_capacity: 230;

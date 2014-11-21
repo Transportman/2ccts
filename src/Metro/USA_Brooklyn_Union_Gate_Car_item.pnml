@@ -19,8 +19,8 @@ item(FEAT_TRAINS, item_mtro_USA_Brooklyn_Union_Gate_Car) {
         model_life: 50;
         vehicle_life: 60;
         loading_speed: 60;
-        cost_factor: 2;
-        running_cost_factor: 3;
+        cost_factor: 21;
+        running_cost_factor: 19;
         speed: 60 km/h;
         power: 200 hp;
         cargo_capacity: 60;

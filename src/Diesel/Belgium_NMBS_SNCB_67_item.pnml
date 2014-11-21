@@ -19,8 +19,8 @@ item(FEAT_TRAINS, item_diesel_Belgium_NMBS_SNCB_67) {
         model_life: 25;
         vehicle_life: 40;
         loading_speed: 1;
-        cost_factor: 4;
-        running_cost_factor: 63;
+        cost_factor: 46;
+        running_cost_factor: 39;
         speed: 120 km/h;
         power: 1408 hp;
         cargo_capacity: 0;

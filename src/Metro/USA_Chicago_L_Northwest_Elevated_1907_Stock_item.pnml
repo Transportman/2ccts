@@ -19,8 +19,8 @@ item(FEAT_TRAINS, item_mtro_USA_Chicago_L_Northwest_Elevated_1907_Stock) {
         model_life: 40;
         vehicle_life: 60;
         loading_speed: 60;
-        cost_factor: 4;
-        running_cost_factor: 4;
+        cost_factor: 27;
+        running_cost_factor: 22;
         speed: 70 km/h;
         power: 250 hp;
         cargo_capacity: 130;

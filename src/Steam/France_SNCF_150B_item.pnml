@@ -19,8 +19,8 @@ item(FEAT_TRAINS, item_steam_France_SNCF_150B) {
         model_life: 20;
         vehicle_life: 40;
         loading_speed: 1;
-        cost_factor: 3;
-        running_cost_factor: 66;
+        cost_factor: 60;
+        running_cost_factor: 49;
         speed: 105 km/h;
         power: 2260 hp;
         cargo_capacity: 0;

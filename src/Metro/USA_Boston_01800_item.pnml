@@ -19,8 +19,8 @@ item(FEAT_TRAINS, item_mtro_USA_Boston_01800) {
         model_life: 50;
         vehicle_life: 60;
         loading_speed: 60;
-        cost_factor: 6;
-        running_cost_factor: 13;
+        cost_factor: 37;
+        running_cost_factor: 34;
         speed: 80 km/h;
         power: 700 hp;
         cargo_capacity: 150;
@@ -52,7 +52,7 @@ item(FEAT_TRAINS, item_mtro_USA_Boston_01800) {
 	}	
 	livery_override (item_mtro_wagon_unpowered){
 		loading_speed: 60;
-		running_cost_factor: 7;
+		running_cost_factor: 17;
 		power: 0;
 		weight: 16;
 		cargo_capacity: 150;
@@ -61,7 +61,7 @@ item(FEAT_TRAINS, item_mtro_USA_Boston_01800) {
 	}
 	livery_override (item_mtro_wagon_powered){
 		loading_speed: 60;
-		running_cost_factor: 10;
+		running_cost_factor: 26;
 		power: 350;
 		weight: 23;
 		cargo_capacity: 150;

@@ -19,8 +19,8 @@ item(FEAT_TRAINS, item_electric_Netherlands_NS_1600) {
         model_life: 25;
         vehicle_life: 40;
         loading_speed: 1;
-        cost_factor: 15;
-        running_cost_factor: 123;
+        cost_factor: 77;
+        running_cost_factor: 69;
         speed: 180 km/h;
         power: 4539 hp;
         cargo_capacity: 0;

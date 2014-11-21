@@ -19,8 +19,8 @@ item(FEAT_TRAINS, item_electric_Italy_FS_E428) {
         model_life: 25;
         vehicle_life: 40;
         loading_speed: 1;
-        cost_factor: 9;
-        running_cost_factor: 77;
+        cost_factor: 75;
+        running_cost_factor: 63;
         speed: 130 km/h;
         power: 3750 hp;
         cargo_capacity: 0;

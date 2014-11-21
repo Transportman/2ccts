@@ -19,8 +19,8 @@ item(FEAT_TRAINS, item_diesel_Denmark_DSB_MaK_100) {
         model_life: 25;
         vehicle_life: 40;
         loading_speed: 1;
-        cost_factor: 1;
-        running_cost_factor: 27;
+        cost_factor: 31;
+        running_cost_factor: 26;
         speed: 75 km/h;
         power: 650 hp;
         cargo_capacity: 0;

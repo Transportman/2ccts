@@ -18,8 +18,8 @@ item(FEAT_TRAINS, item_electric_India_Indian_Railways_WCG_1) {
         introduction_date: date(1928,1,1);
         model_life: 25;
         vehicle_life: 40;
-        loading_speed: 4;
-        cost_factor: 41;
+        loading_speed: 58;
+        cost_factor: 53;
         running_cost_factor: 58;
         speed: 90 km/h;
         power: 2610 hp;

@@ -19,8 +19,8 @@ item(FEAT_TRAINS, item_diesel_Romania_CFR_060_DA) {
         model_life: 25;
         vehicle_life: 40;
         loading_speed: 1;
-        cost_factor: 4;
-        running_cost_factor: 54;
+        cost_factor: 58;
+        running_cost_factor: 47;
         speed: 100 km/h;
         power: 2070 hp;
         cargo_capacity: 0;

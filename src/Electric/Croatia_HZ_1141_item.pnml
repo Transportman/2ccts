@@ -19,8 +19,8 @@ item(FEAT_TRAINS, item_electric_Croatia_HZ_1141) {
         model_life: 25;
         vehicle_life: 40;
         loading_speed: 1;
-        cost_factor: 12;
-        running_cost_factor: 75;
+        cost_factor: 84;
+        running_cost_factor: 73;
         speed: 120 km/h;
         power: 5170 hp;
         cargo_capacity: 0;

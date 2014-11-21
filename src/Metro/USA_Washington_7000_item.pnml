@@ -19,8 +19,8 @@ item(FEAT_TRAINS, item_mtro_USA_Washington_7000) {
         model_life: VEHICLE_NEVER_EXPIRES;
         vehicle_life: 60;
         loading_speed: 60;
-        cost_factor: 11;
-        running_cost_factor: 28;
+        cost_factor: 38;
+        running_cost_factor: 36;
         speed: 126 km/h;
         power: 720 hp;
         cargo_capacity: 184;
@@ -52,7 +52,7 @@ item(FEAT_TRAINS, item_mtro_USA_Washington_7000) {
 	}	
 	livery_override (item_mtro_wagon_unpowered){
 		loading_speed: 60;
-		running_cost_factor: 14;
+		running_cost_factor: 18;
 		power: 0;
 		weight: 18;
 		cargo_capacity: 184;
@@ -61,7 +61,7 @@ item(FEAT_TRAINS, item_mtro_USA_Washington_7000) {
 	}
 	livery_override (item_mtro_wagon_powered){
 		loading_speed: 60;
-		running_cost_factor: 21;
+		running_cost_factor: 27;
 		power: 360;
 		weight: 27;
 		cargo_capacity: 184;

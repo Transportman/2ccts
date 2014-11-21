@@ -19,8 +19,8 @@ item(FEAT_TRAINS, item_mtro_Argentina_Le_Brugeoise) {
         model_life: 40;
         vehicle_life: 60;
         loading_speed: 60;
-        cost_factor: 5;
-        running_cost_factor: 6;
+        cost_factor: 27;
+        running_cost_factor: 22;
         speed: 50 km/h;
         power: 230 hp;
         cargo_capacity: 142;
@@ -52,7 +52,7 @@ item(FEAT_TRAINS, item_mtro_Argentina_Le_Brugeoise) {
 	}	
 	livery_override (item_mtro_wagon_unpowered){
 		loading_speed: 60;
-		running_cost_factor: 3;
+		running_cost_factor: 11;
 		power: 0;
 		weight: 25;
 		cargo_capacity: 142;
@@ -61,7 +61,7 @@ item(FEAT_TRAINS, item_mtro_Argentina_Le_Brugeoise) {
 	}
 	livery_override (item_mtro_wagon_powered){
 		loading_speed: 60;
-		running_cost_factor: 5;
+		running_cost_factor: 17;
 		power: 115;
 		weight: 38;
 		cargo_capacity: 142;

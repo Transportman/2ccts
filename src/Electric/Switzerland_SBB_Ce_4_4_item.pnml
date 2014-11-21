@@ -19,8 +19,8 @@ item(FEAT_TRAINS, item_electric_Switzerland_SBB_Ce_4_4) {
         model_life: 25;
         vehicle_life: 40;
         loading_speed: 1;
-        cost_factor: 2;
-        running_cost_factor: 22;
+        cost_factor: 39;
+        running_cost_factor: 32;
         speed: 65 km/h;
         power: 1001 hp;
         cargo_capacity: 0;

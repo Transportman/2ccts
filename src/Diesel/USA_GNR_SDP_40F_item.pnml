@@ -19,8 +19,8 @@ item(FEAT_TRAINS, item_diesel_USA_GNR_SDP_40F) {
         model_life: 25;
         vehicle_life: 40;
         loading_speed: 1;
-        cost_factor: 8;
-        running_cost_factor: 104;
+        cost_factor: 69;
+        running_cost_factor: 56;
         speed: 153 km/h;
         power: 3000 hp;
         cargo_capacity: 0;

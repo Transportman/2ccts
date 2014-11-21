@@ -19,8 +19,8 @@ item(FEAT_TRAINS, item_electric_Belgium_NMBS_SNCB_13_HLE) {
         model_life: VEHICLE_NEVER_EXPIRES;
         vehicle_life: 40;
         loading_speed: 1;
-        cost_factor: 27;
-        running_cost_factor: 157;
+        cost_factor: 94;
+        running_cost_factor: 86;
         speed: 200 km/h;
         power: 6968 hp;
         cargo_capacity: 0;

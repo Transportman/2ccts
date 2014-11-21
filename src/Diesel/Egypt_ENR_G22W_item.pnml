@@ -19,8 +19,8 @@ item(FEAT_TRAINS, item_diesel_Egypt_ENR_G22W) {
         model_life: 25;
         vehicle_life: 40;
         loading_speed: 1;
-        cost_factor: 7;
-        running_cost_factor: 100;
+        cost_factor: 49;
+        running_cost_factor: 42;
         speed: 160 km/h;
         power: 1650 hp;
         cargo_capacity: 0;

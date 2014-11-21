@@ -19,8 +19,8 @@ item(FEAT_TRAINS, item_mtro_Taiwan_Taipei_C301) {
         model_life: VEHICLE_NEVER_EXPIRES;
         vehicle_life: 60;
         loading_speed: 60;
-        cost_factor: 11;
-        running_cost_factor: 15;
+        cost_factor: 27;
+        running_cost_factor: 23;
         speed: 90 km/h;
         power: 200 hp;
         cargo_capacity: 250;
@@ -52,7 +52,7 @@ item(FEAT_TRAINS, item_mtro_Taiwan_Taipei_C301) {
 	}	
 	livery_override (item_mtro_wagon_unpowered){
 		loading_speed: 60;
-		running_cost_factor: 8;
+		running_cost_factor: 12;
 		power: 0;
 		weight: 20;
 		cargo_capacity: 250;
@@ -61,7 +61,7 @@ item(FEAT_TRAINS, item_mtro_Taiwan_Taipei_C301) {
 	}
 	livery_override (item_mtro_wagon_powered){
 		loading_speed: 60;
-		running_cost_factor: 11;
+		running_cost_factor: 18;
 		power: 100;
 		weight: 29;
 		cargo_capacity: 250;

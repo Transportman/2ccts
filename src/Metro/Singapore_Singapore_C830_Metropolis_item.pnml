@@ -19,8 +19,8 @@ item(FEAT_TRAINS, item_mtro_Singapore_Singapore_C830_Metropolis) {
         model_life: VEHICLE_NEVER_EXPIRES;
         vehicle_life: 60;
         loading_speed: 60;
-        cost_factor: 14;
-        running_cost_factor: 19;
+        cost_factor: 40;
+        running_cost_factor: 37;
         speed: 100 km/h;
         power: 740 hp;
         cargo_capacity: 250;
@@ -52,7 +52,7 @@ item(FEAT_TRAINS, item_mtro_Singapore_Singapore_C830_Metropolis) {
 	}	
 	livery_override (item_mtro_wagon_unpowered){
 		loading_speed: 60;
-		running_cost_factor: 10;
+		running_cost_factor: 19;
 		power: 0;
 		weight: 18;
 		cargo_capacity: 250;
@@ -61,7 +61,7 @@ item(FEAT_TRAINS, item_mtro_Singapore_Singapore_C830_Metropolis) {
 	}
 	livery_override (item_mtro_wagon_powered){
 		loading_speed: 60;
-		running_cost_factor: 14;
+		running_cost_factor: 28;
 		power: 370;
 		weight: 26;
 		cargo_capacity: 250;

@@ -19,8 +19,8 @@ item(FEAT_TRAINS, item_diesel_Brazil_EFVM_ML4000) {
         model_life: 25;
         vehicle_life: 40;
         loading_speed: 1;
-        cost_factor: 12;
-        running_cost_factor: 73;
+        cost_factor: 80;
+        running_cost_factor: 65;
         speed: 110 km/h;
         power: 4000 hp;
         cargo_capacity: 0;

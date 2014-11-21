@@ -19,8 +19,8 @@ item(FEAT_TRAINS, item_electric_Switzerland_RhB_DE_2_2) {
         model_life: 25;
         vehicle_life: 40;
         loading_speed: 1;
-        cost_factor: 1;
-        running_cost_factor: 9;
+        cost_factor: 16;
+        running_cost_factor: 15;
         speed: 45 km/h;
         power: 200 hp;
         cargo_capacity: 0;

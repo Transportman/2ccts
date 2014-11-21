@@ -19,8 +19,8 @@ item(FEAT_TRAINS, item_electric_Germany_DB_104) {
         model_life: 25;
         vehicle_life: 40;
         loading_speed: 1;
-        cost_factor: 4;
-        running_cost_factor: 56;
+        cost_factor: 64;
+        running_cost_factor: 55;
         speed: 110 km/h;
         power: 2935 hp;
         cargo_capacity: 0;

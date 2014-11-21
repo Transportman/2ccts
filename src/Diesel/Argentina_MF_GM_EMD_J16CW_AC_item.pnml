@@ -19,8 +19,8 @@ item(FEAT_TRAINS, item_diesel_Argentina_MF_GM_EMD_J16CW_AC) {
         model_life: 25;
         vehicle_life: 40;
         loading_speed: 1;
-        cost_factor: 6;
-        running_cost_factor: 67;
+        cost_factor: 55;
+        running_cost_factor: 45;
         speed: 120 km/h;
         power: 1870 hp;
         cargo_capacity: 0;

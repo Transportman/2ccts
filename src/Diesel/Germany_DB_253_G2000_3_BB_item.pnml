@@ -19,8 +19,8 @@ item(FEAT_TRAINS, item_diesel_Germany_DB_253_G2000_3_BB) {
         model_life: VEHICLE_NEVER_EXPIRES;
         vehicle_life: 40;
         loading_speed: 1;
-        cost_factor: 4;
-        running_cost_factor: 72;
+        cost_factor: 64;
+        running_cost_factor: 56;
         speed: 120 km/h;
         power: 3000 hp;
         cargo_capacity: 0;

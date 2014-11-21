@@ -19,8 +19,8 @@ item(FEAT_TRAINS, item_steam_UK_Caledonian_Railway_439) {
         model_life: 25;
         vehicle_life: 40;
         loading_speed: 1;
-        cost_factor: 1;
-        running_cost_factor: 34;
+        cost_factor: 29;
+        running_cost_factor: 24;
         speed: 80 km/h;
         power: 540 hp;
         cargo_capacity: 0;

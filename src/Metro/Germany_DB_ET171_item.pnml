@@ -19,8 +19,8 @@ item(FEAT_TRAINS, item_mtro_Germany_DB_ET171) {
         model_life: 50;
         vehicle_life: 60;
         loading_speed: 60;
-        cost_factor: 7;
-        running_cost_factor: 13;
+        cost_factor: 34;
+        running_cost_factor: 30;
         speed: 80 km/h;
         power: 520 hp;
         cargo_capacity: 160;
@@ -52,7 +52,7 @@ item(FEAT_TRAINS, item_mtro_Germany_DB_ET171) {
 	}	
 	livery_override (item_mtro_wagon_unpowered){
 		loading_speed: 60;
-		running_cost_factor: 7;
+		running_cost_factor: 15;
 		power: 0;
 		weight: 22;
 		cargo_capacity: 160;
@@ -61,7 +61,7 @@ item(FEAT_TRAINS, item_mtro_Germany_DB_ET171) {
 	}
 	livery_override (item_mtro_wagon_powered){
 		loading_speed: 60;
-		running_cost_factor: 10;
+		running_cost_factor: 23;
 		power: 260;
 		weight: 33;
 		cargo_capacity: 160;

@@ -19,8 +19,8 @@ item(FEAT_TRAINS, item_diesel_Russia_RZD_TEP80) {
         model_life: VEHICLE_NEVER_EXPIRES;
         vehicle_life: 40;
         loading_speed: 1;
-        cost_factor: 21;
-        running_cost_factor: 130;
+        cost_factor: 96;
+        running_cost_factor: 79;
         speed: 160 km/h;
         power: 6000 hp;
         cargo_capacity: 0;

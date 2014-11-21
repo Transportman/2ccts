@@ -19,8 +19,8 @@ item(FEAT_TRAINS, item_electric_India_Indian_Railways_WCM_1) {
         model_life: 25;
         vehicle_life: 40;
         loading_speed: 1;
-        cost_factor: 8;
-        running_cost_factor: 58;
+        cost_factor: 74;
+        running_cost_factor: 62;
         speed: 104 km/h;
         power: 3700 hp;
         cargo_capacity: 0;

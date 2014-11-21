@@ -19,8 +19,8 @@ item(FEAT_TRAINS, item_electric_UK_BR_92) {
         model_life: 25;
         vehicle_life: 40;
         loading_speed: 1;
-        cost_factor: 21;
-        running_cost_factor: 99;
+        cost_factor: 96;
+        running_cost_factor: 84;
         speed: 140 km/h;
         power: 6760 hp;
         cargo_capacity: 0;

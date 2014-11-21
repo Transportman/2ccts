@@ -19,8 +19,8 @@ item(FEAT_TRAINS, item_steam_Russia_RZD_9P) {
         model_life: 25;
         vehicle_life: 40;
         loading_speed: 1;
-        cost_factor: 1;
-        running_cost_factor: 10;
+        cost_factor: 24;
+        running_cost_factor: 18;
         speed: 35 km/h;
         power: 320 hp;
         cargo_capacity: 0;

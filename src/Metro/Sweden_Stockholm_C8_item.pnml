@@ -19,8 +19,8 @@ item(FEAT_TRAINS, item_mtro_Sweden_Stockholm_C8) {
         model_life: 50;
         vehicle_life: 60;
         loading_speed: 60;
-        cost_factor: 6;
-        running_cost_factor: 15;
+        cost_factor: 31;
+        running_cost_factor: 29;
         speed: 90 km/h;
         power: 470 hp;
         cargo_capacity: 158;
@@ -52,7 +52,7 @@ item(FEAT_TRAINS, item_mtro_Sweden_Stockholm_C8) {
 	}	
 	livery_override (item_mtro_wagon_unpowered){
 		loading_speed: 60;
-		running_cost_factor: 8;
+		running_cost_factor: 15;
 		power: 0;
 		weight: 12;
 		cargo_capacity: 158;
@@ -61,7 +61,7 @@ item(FEAT_TRAINS, item_mtro_Sweden_Stockholm_C8) {
 	}
 	livery_override (item_mtro_wagon_powered){
 		loading_speed: 60;
-		running_cost_factor: 11;
+		running_cost_factor: 22;
 		power: 235;
 		weight: 17;
 		cargo_capacity: 158;

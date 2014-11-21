@@ -19,8 +19,8 @@ item(FEAT_TRAINS, item_electric_Ukraine_UZ_DS3) {
         model_life: VEHICLE_NEVER_EXPIRES;
         vehicle_life: 40;
         loading_speed: 1;
-        cost_factor: 19;
-        running_cost_factor: 114;
+        cost_factor: 90;
+        running_cost_factor: 82;
         speed: 160 km/h;
         power: 6450 hp;
         cargo_capacity: 0;

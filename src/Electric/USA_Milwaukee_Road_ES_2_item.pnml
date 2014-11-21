@@ -19,8 +19,8 @@ item(FEAT_TRAINS, item_electric_USA_Milwaukee_Road_ES_2) {
         model_life: 25;
         vehicle_life: 40;
         loading_speed: 1;
-        cost_factor: 2;
-        running_cost_factor: 24;
+        cost_factor: 34;
+        running_cost_factor: 26;
         speed: 72 km/h;
         power: 670 hp;
         cargo_capacity: 0;
