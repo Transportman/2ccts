@@ -19,8 +19,8 @@ item(FEAT_TRAINS, item_wagon_Gen4_Silo_Type1) {
         model_life: 60;
         vehicle_life: 25;
         loading_speed: 10;
-        cost_factor: 62;
-        running_cost_factor: 62;
+        cost_factor: 28;
+        running_cost_factor: 26;
         speed: 120 km/h;
         power: 0 hp;
         cargo_capacity: 50;

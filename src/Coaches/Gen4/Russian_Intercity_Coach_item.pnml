@@ -19,8 +19,8 @@ item(FEAT_TRAINS, item_coach_Gen4_Russian_Intercity_Coach) {
         model_life: 50;
         vehicle_life: 25;
         loading_speed: 8;
-        cost_factor: 76;
-        running_cost_factor: 76;
+        cost_factor: 28;
+        running_cost_factor: 26;
         speed: 140 km/h;
         power: 0 hp;
         cargo_capacity: 50;

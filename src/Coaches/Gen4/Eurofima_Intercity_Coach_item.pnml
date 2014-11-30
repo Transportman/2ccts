@@ -19,8 +19,8 @@ item(FEAT_TRAINS, item_coach_Gen4_Eurofima_Intercity_Coach) {
         model_life: 50;
         vehicle_life: 25;
         loading_speed: 8;
-        cost_factor: 103;
-        running_cost_factor: 103;
+        cost_factor: 33;
+        running_cost_factor: 31;
         speed: 200 km/h;
         power: 0 hp;
         cargo_capacity: 60;

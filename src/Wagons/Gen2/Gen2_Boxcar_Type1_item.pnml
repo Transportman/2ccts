@@ -19,7 +19,7 @@ item(FEAT_TRAINS, item_wagon_Gen2_Boxcar_Type1) {
         model_life: 50;
         vehicle_life: 25;
         loading_speed: 10;
-        cost_factor: 13;
+        cost_factor: 15;
         running_cost_factor: 13;
         speed: 90 km/h;
         power: 0 hp;

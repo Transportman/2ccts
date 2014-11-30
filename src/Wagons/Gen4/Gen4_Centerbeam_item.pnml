@@ -19,8 +19,8 @@ item(FEAT_TRAINS, item_wagon_Gen4_Centerbeam) {
         model_life: 60;
         vehicle_life: 25;
         loading_speed: 10;
-        cost_factor: 56;
-        running_cost_factor: 56;
+        cost_factor: 26;
+        running_cost_factor: 23;
         speed: 120 km/h;
         power: 0 hp;
         cargo_capacity: 45;

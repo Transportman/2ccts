@@ -19,8 +19,8 @@ item(FEAT_TRAINS, item_coach_Gen5_High_Speed_Double_Decker_IC2000) {
         model_life: VEHICLE_NEVER_EXPIRES;
         vehicle_life: 25;
         loading_speed: 8;
-        cost_factor: 126;
-        running_cost_factor: 126;
+        cost_factor: 61;
+        running_cost_factor: 59;
         speed: 200 km/h;
         power: 0 hp;
         cargo_capacity: 115;

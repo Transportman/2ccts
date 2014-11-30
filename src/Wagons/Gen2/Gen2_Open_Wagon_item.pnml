@@ -19,8 +19,8 @@ item(FEAT_TRAINS, item_wagon_Gen2_Open_Wagon) {
         model_life: 50;
         vehicle_life: 25;
         loading_speed: 10;
-        cost_factor: 10;
-        running_cost_factor: 10;
+        cost_factor: 15;
+        running_cost_factor: 13;
         speed: 70 km/h;
         power: 0 hp;
         cargo_capacity: 26;

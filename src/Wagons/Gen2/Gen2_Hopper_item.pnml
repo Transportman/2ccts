@@ -19,8 +19,8 @@ item(FEAT_TRAINS, item_wagon_Gen2_Hopper) {
         model_life: 50;
         vehicle_life: 25;
         loading_speed: 10;
-        cost_factor: 13;
-        running_cost_factor: 13;
+        cost_factor: 17;
+        running_cost_factor: 15;
         speed: 80 km/h;
         power: 0 hp;
         cargo_capacity: 30;

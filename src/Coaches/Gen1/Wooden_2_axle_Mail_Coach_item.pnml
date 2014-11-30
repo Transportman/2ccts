@@ -19,8 +19,8 @@ item(FEAT_TRAINS, item_coach_Gen1_Wooden_2_axle_Mail_Coach) {
         model_life: 70;
         vehicle_life: 25;
         loading_speed: 15;
-        cost_factor: 8;
-        running_cost_factor: 8;
+        cost_factor: 7;
+        running_cost_factor: 5;
         speed: 50 km/h;
         power: 0 hp;
         cargo_capacity: 10;

@@ -19,8 +19,8 @@ item(FEAT_TRAINS, item_coach_Gen1_Wooden_2_axle_Regional_Coach) {
         model_life: 70;
         vehicle_life: 25;
         loading_speed: 8;
-        cost_factor: 13;
-        running_cost_factor: 13;
+        cost_factor: 7;
+        running_cost_factor: 5;
         speed: 65 km/h;
         power: 0 hp;
         cargo_capacity: 10;

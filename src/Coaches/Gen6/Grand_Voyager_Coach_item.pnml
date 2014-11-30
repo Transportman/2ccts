@@ -19,8 +19,8 @@ item(FEAT_TRAINS, item_coach_Gen6_Grand_Voyager_Coach) {
         model_life: VEHICLE_NEVER_EXPIRES;
         vehicle_life: 25;
         loading_speed: 8;
-        cost_factor: 168;
-        running_cost_factor: 168;
+        cost_factor: 44;
+        running_cost_factor: 42;
         speed: 0 km/h;
         power: 0 hp;
         cargo_capacity: 80;
