@@ -46,9 +46,9 @@ item(FEAT_TRAINS, item_rbe_Italy_FS_ALe_840, 3004) {}
 //Steam, available ID range: 4000-4999 (hex 0x0FA0..0x1387)
 #define ID_RANGE_STEAM 0x0FA0..0x1387
 item(FEAT_TRAINS, item_steam_Belgium_Le_Belge, 4000) {}
-item(FEAT_TRAINS, item_steam_USA_4_4_0_American_obsolete1, 4001) {} //Obsolete, replaced by ID 4036 in r328
+//4001 free
 item(FEAT_TRAINS, item_steam_Switzerland_SBB_Ec_2_5, 4002) {}
-item(FEAT_TRAINS, item_steam_USA_4_6_0_Ten_wheeler_obsolete1, 4003) {} //Obsolete, replaced by ID 4037 in r334
+//4003 free
 item(FEAT_TRAINS, item_steam_USA_2_8_0_Consolidation, 4004) {}
 item(FEAT_TRAINS, item_steam_Hungary_MAV_377, 4005) {}
 item(FEAT_TRAINS, item_steam_Austria_KkStB_99, 4006) {}
@@ -75,9 +75,9 @@ item(FEAT_TRAINS, item_steam_Russia_RZD_9P, 4026) {}
 item(FEAT_TRAINS, item_steam_Poland_PKP_Okz32, 4027) {}
 item(FEAT_TRAINS, item_steam_UK_LNER_A4_Gresley, 4028) {}
 item(FEAT_TRAINS, item_steam_Canada_CPR_Royal_Hudson, 4029) {}
-item(FEAT_TRAINS, item_steam_Denmark_DSB_E_obsolete1, 4030) {} //Obsolete, replaced by ID 4038 in r349
+//4030 free
 item(FEAT_TRAINS, item_steam_Germany_DB_52, 4031) {}
-item(FEAT_TRAINS, item_steam_USA_UP_4000_Big_Boy_obsolete1, 4032) {} //Obsolete, replaced by ID 4039 in r422
+//4032 free
 item(FEAT_TRAINS, item_steam_UK_LNER_A1_Peppercorn, 4033) {}
 item(FEAT_TRAINS, item_steam_South_Africa_SAR_25, 4034) {}
 item(FEAT_TRAINS, item_steam_Russia_RZD_P36, 4035) {}
@@ -126,7 +126,7 @@ item(FEAT_TRAINS, item_diesel_Argentina_MF_GM_EMD_J16CW_AC, 5034) {}
 item(FEAT_TRAINS, item_diesel_Russia_RZD_M62, 5035) {}
 item(FEAT_TRAINS, item_diesel_Australia_NSWGR_422, 5036) {}
 item(FEAT_TRAINS, item_diesel_Egypt_ENR_G22W, 5037) {}
-item(FEAT_TRAINS, item_diesel_USA_UP_EMD_DDA40X_obsolete1, 5038) {} //Obsolete, replaced by ID 5064 in r337
+//5038 free
 item(FEAT_TRAINS, item_diesel_Australia_Queensland_Rail_2100, 5039) {}
 item(FEAT_TRAINS, item_diesel_Croatia_HZ_2062, 5040) {}
 item(FEAT_TRAINS, item_diesel_Sweden_SJ_V4, 5041) {}
@@ -152,7 +152,7 @@ item(FEAT_TRAINS, item_diesel_China_China_Railways_HXN5, 5060) {}
 item(FEAT_TRAINS, item_diesel_Germany_DB_260_Gravita_10BB, 5061) {}
 item(FEAT_TRAINS, item_diesel_Germany_HVLE_V490, 5062) {}
 item(FEAT_TRAINS, item_diesel_Russia_RZD_GT1, 5063) {}
-item(FEAT_TRAINS, item_diesel_USA_UP_EMD_DDA40X_obsolete2, 5064) {} //Obsolete, replaced by ID 5065 in r422
+//5064 free
 item(FEAT_TRAINS, item_diesel_USA_UP_EMD_DDA40X, 5065) {}
 
 //Electric, available ID range: 6000-6999 (hex 0x1770..0x1B57)
@@ -161,8 +161,8 @@ item(FEAT_TRAINS, item_electric_Switzerland_RhB_DE_2_2, 6000) {}
 item(FEAT_TRAINS, item_electric_Norway_NSB_EL7, 6001) {}
 item(FEAT_TRAINS, item_electric_UK_NER_EF1, 6002) {}
 item(FEAT_TRAINS, item_electric_USA_Milwaukee_Road_ES_2, 6003) {}
-item(FEAT_TRAINS, item_electric_USA_Pennsylvania_Railroad_FF_1_obsolete1, 6004) {} //Obsolete, replaced by ID 6060 in r337
-item(FEAT_TRAINS, item_electric_USA_Milwaukee_Road_EP_2_Bipolar_obsolete1, 6005) {} //Obsolete, replaced by ID 6061 in r337
+//6004 free
+//6005 free
 item(FEAT_TRAINS, item_electric_Chile_EFE_Series_E_28, 6006) {}
 item(FEAT_TRAINS, item_electric_Austria_OBB_1161, 6007) {}
 item(FEAT_TRAINS, item_electric_India_Indian_Railways_WCG_1, 6008) {}
@@ -171,7 +171,7 @@ item(FEAT_TRAINS, item_electric_Japan_JNR_EB10, 6010) {}
 item(FEAT_TRAINS, item_electric_Norway_NSB_EL10, 6011) {}
 item(FEAT_TRAINS, item_electric_Germany_DB_104, 6012) {}
 item(FEAT_TRAINS, item_electric_Italy_FS_E428, 6013) {}
-item(FEAT_TRAINS, item_electric_USA_Pennsylvania_Railroad_GG_1_obsolete1, 6014) {} //Obsolete, replaced by ID 6062 in r337
+//6014 free
 item(FEAT_TRAINS, item_electric_Japan_JNR_EF55, 6015) {}
 item(FEAT_TRAINS, item_electric_South_Africa_SAR_ES_Class, 6016) {}
 item(FEAT_TRAINS, item_electric_Austria_OBB_1020_Crocodile, 6017) {}
@@ -217,9 +217,9 @@ item(FEAT_TRAINS, item_electric_Ukraine_UZ_DS3, 6056) {}
 item(FEAT_TRAINS, item_electric_Kazakhstan_KTZ_KZ4A, 6057) {}
 item(FEAT_TRAINS, item_electric_China_China_Railways_HXD3, 6058) {}
 item(FEAT_TRAINS, item_electric_Switzerland_SBB_Eem_923, 6059) {}
-item(FEAT_TRAINS, item_electric_USA_Pennsylvania_Railroad_FF_1_obsolete2, 6060) {} //Obsolete, replaced by ID 6063 in r422 
-item(FEAT_TRAINS, item_electric_USA_Milwaukee_Road_EP_2_Bipolar_obsolete2, 6061) {} //Obsolete, replaced by ID 6064 in r422
-item(FEAT_TRAINS, item_electric_USA_Pennsylvania_Railroad_GG_1_obsolete2, 6062) {} //Obsolete, replaced by ID 6065 in r422
+//6060 free
+//6061 free
+//6062 free
 item(FEAT_TRAINS, item_electric_USA_Pennsylvania_Railroad_FF_1, 6063) {}
 item(FEAT_TRAINS, item_electric_USA_Milwaukee_Road_EP_2_Bipolar, 6064) {}
 item(FEAT_TRAINS, item_electric_USA_Pennsylvania_Railroad_GG_1, 6065) {}
@@ -301,12 +301,12 @@ item(FEAT_TRAINS, item_emu_Italy_NTV_AGV_Duplex, 8044) {}
 
 //Multi Unit Metro, available ID range: 9000-9999 (hex 0x2328..0x270F)
 #define ID_RANGE_MULTIMETRO 0x2328..0x270F
-item(FEAT_TRAINS, item_mtro_USA_Brooklyn_Union_Gate_Car_obsolete1, 9000) {} //Obsolete, replaced by ID 14000 in r330
-item(FEAT_TRAINS, item_mtro_Hungary_Budapest_1894_Stock_obsolete1, 9001) {} //Obsolete, replaced by ID 14001 in r330
+//9000 free
+//9001 free
 item(FEAT_TRAINS, item_mtro_UK_London_1903_Stock, 9002) {}
-item(FEAT_TRAINS, item_mtro_USA_Chicago_L_Northwest_Elevated_1907_Stock_obsolete1, 9003) {} //Obsolete, replaced by ID 14002 in r330
+//9003 free
 item(FEAT_TRAINS, item_mtro_Argentina_Le_Brugeoise, 9004) {}
-item(FEAT_TRAINS, item_mtro_Germany_Berlin_U_Bahn_C_II_obsolete1, 9005) {} //Obsolete, replaced by ID 14003 in r330
+//9005 free
 item(FEAT_TRAINS, item_mtro_USA_NY_R1, 9006) {}
 item(FEAT_TRAINS, item_mtro_UK_London_1938_Stock, 9007) {}
 item(FEAT_TRAINS, item_mtro_Germany_DB_ET171, 9008) {}
