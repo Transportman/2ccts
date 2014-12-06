@@ -1,5 +1,30 @@
 2cc TrainsInNML changelog
 =========================
+1.0-RC1 (06/12/2014)
+----------------------
+- Change: File rename and Generation 1 Open Wagon with gray cargo (closes #7253)
+- Change: Vehicles with length 10 are now defined as 8-2 instead of 3-4-3, as there were graphical issues in depots (closes #7206)
+- Codechange: Add SAB3 railtype label to Metro railtypetable-entry (closes #7262)
+- Codechange: Remove obsolete vehicles
+- Codechange: Updated cargotable
+- Feature #7164: Support for Toyland, FIRS, ECS and YETI (also closes #7268)
+- Feature #7194: Changed costs for engines and metros
+- Feature #7194: Changed costs for wagons and coaches
+- Feature #7207: Enable auto-refitting at stations (closes #7207)
+- Feature: Changed costs for all vehicles excluding coaches and wagons (issue #7194)
+- Feature: Different graphics for the Russia RZD M62 (grapics by Colossal404)
+- Feature: Modified properties for most passenger coaches (issue #7040)
+- Feature: More animated vehicles (Graphics by Emperor Jake and Voyager One) (issue #6980)
+- Feature: Type 2 boxcars for Gen2, Gen3 and Gen4 (graphics by Emperor Jake) (closes #7133)
+- Fix #7233: AGV sprite order was switched for N and S driving vehicles.
+- Fix #7252: Cargo capacity callback for cargo wagons to prevent capacity from changing depending on cargo.
+- Fix #7308: Set service car capacity to 0 as it resulted in the car carrying passengers (also closes #7310)
+- Fix: Alignments of several vehicles (closes #7231 and #7232)
+- Fix: Electric vehicle track type was not set to ELRL
+- Fix: Template for vehicles with length 10 was wrong
+- Fix: Vehicle ID for Gen1 Boxcar was not properly set
+- Update: Translations from webtranslator
+
 1.0-beta5 (26/09/2014)
 ----------------------
 - Codechange: Also disable all wagons when no region is selected (closes #7159)
