@@ -499,27 +499,8 @@ str_mu_wagon_powered            :Veelvoudige-eenheid Wa(Aangedrewe)
 str_mtro_wagon_powered          :Metro-eenheid Wa(Aangedrewe)
 str_mglv_wagon_powered          :Maglev-eenheid Wa(Aangedrewe)
 
-#obsolete vehicles
-str_steam_USA_4_4_0_American_obsolete1                                                          :Uitgediende 4-4-0 'American (Stoom)
-str_mtro_USA_Brooklyn_Union_Gate_Car_obsolete1                                          :Uitgediende Brooklyn 'Union Gate' Motor (Metro)
-str_mtro_Hungary_Budapest_1894_Stock_obsolete1                                          :Uitgediende Budapest 1894 Trein (Metro)
-str_mtro_USA_Chicago_L_Northwest_Elevated_1907_Stock_obsolete1          :Uitgediende Chicago L Northwest Elevated 1907 Stock (Metro)
-str_mtro_Germany_Berlin_U_Bahn_C_II_obsolete1                                           :Uitgediende Berlin U-Bahn C II (Metro)
-str_steam_USA_4_6_0_Ten_wheeler_obsolete1                                                       :Uitgediende 4-6-0 'Ten-wheeler' (Stoom)
-str_diesel_USA_UP_EMD_DDA40X_obsolete1                                                          :Uitgediende UP EMD DDA40X (Diesel)
-str_electric_USA_Pennsylvania_Railroad_FF_1_obsolete1                           :Uitgediende Pennsylvania Spoorwëe FF-1 (Elektries)
-str_electric_USA_Milwaukee_Road_EP_2_Bipolar_obsolete1                          :Uitgediende Milwaukee Road EP-2 Bipolar (Elektries)
-str_electric_USA_Pennsylvania_Railroad_GG_1_obsolete1                           :Uitgediende Pennsylvania Spoorwëe GG-1 (Elektries)
-str_steam_Denmark_DSB_E_obsolete1                                                                       :Uitgediende DSB E (Stoom)
-str_steam_USA_UP_4000_Big_Boy_obsolete1                                                         :Uitgediende UP 4000 'Big Boy' (Stoom)
-str_diesel_USA_UP_EMD_DDA40X_obsolete2                                                          :Uitgediende UP EMD DDA40X (Diesel)
-str_electric_USA_Pennsylvania_Railroad_FF_1_obsolete2                           :Uitgediende Pennsylvania Spoorwëe FF-1 (Elektries)
-str_electric_USA_Milwaukee_Road_EP_2_Bipolar_obsolete2                          :Uitgediende Milwaukee Road EP-2 Bipolar (Elektries)
-str_electric_USA_Pennsylvania_Railroad_GG_1_obsolete2                           :Uitgediende Pennsylvania Spoorwëe GG-1 (Elektries)
-
 #PURCHASE MENU TEXTS
 str_unit_wagon                          :Hierdie generiese wa kan SLEGS gebruik word met MU om treine van die verlangde lengte te skep
-
 
 #Can attach vehicle texts
 str_cannot_attach_wagon_to_MU                   :Kan nie die wa aan 'n MU enjin heg nie

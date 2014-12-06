@@ -496,22 +496,8 @@ str_mu_wagon_powered            :Moottorijunan vaunu (moottoroitu)
 str_mtro_wagon_powered          :Metrovaunu (moottoroitu)
 str_mglv_wagon_powered          :Maglev-vaunu (moottoroitu)
 
-#obsolete vehicles
-str_steam_USA_4_4_0_American_obsolete1                                                          :Vanhentunut 4-4-0 'American' (Höyry)
-str_mtro_USA_Brooklyn_Union_Gate_Car_obsolete1                                          :Vanhentunut Brooklyn Union Gate Car (Metro)
-str_mtro_Hungary_Budapest_1894_Stock_obsolete1                                          :Vanhentunut Budapest vuoden 1894 kalusto (Metro)
-str_mtro_USA_Chicago_L_Northwest_Elevated_1907_Stock_obsolete1          :Vanhentunut Chicago L Northwest Elevated vuoden 1907 kalusto (Metro)
-str_mtro_Germany_Berlin_U_Bahn_C_II_obsolete1                                           :Vanhentunut Berliini U-Bahn C II (Metro)
-str_steam_USA_4_6_0_Ten_wheeler_obsolete1                                                       :Vanhentunut 4-6-0 'Ten-wheeler' (Höyry)
-str_diesel_USA_UP_EMD_DDA40X_obsolete1                                                          :Vanhentunut UP EMD DDA40X (Diesel)
-str_electric_USA_Pennsylvania_Railroad_FF_1_obsolete1                           :Vanhentunut Pennsylvania Railroad FF-1 (Sähkö)
-str_electric_USA_Milwaukee_Road_EP_2_Bipolar_obsolete1                          :Vanhentunut Milwaukee Road EP-2 Bipolar (Sähkö)
-str_electric_USA_Pennsylvania_Railroad_GG_1_obsolete1                           :Vanhentunut Pennsylvania Railroad GG-1 (Sähkö)
-str_steam_Denmark_DSB_E_obsolete1                                                                       :Vanhentunut DSB E (Höyry)
-
 #PURCHASE MENU TEXTS
 str_unit_wagon                          :Voit käyttää tätä yleisvaunua VAIN pidentämään moottorivaunujunia haluamaasi pituuteen
-
 
 #Can attach vehicle texts
 str_cannot_attach_wagon_to_MU                   :Tavallista vaunua ei voi liittää moottorivaunuun

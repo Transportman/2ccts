@@ -241,13 +241,6 @@ str_coach_Gen6_Metropolis_Coach                                                 
 #special wagons
 str_mglv_wagon_powered          :Вагон Состава на Магнитной Подушке (Моторный)
 
-#obsolete vehicles
-str_mtro_USA_Chicago_L_Northwest_Elevated_1907_Stock_obsolete1          :Устаревший Поезд Чикагского Метро "L" Северозападной Надземной ветки 1907 Серии (Метро)
-str_diesel_USA_UP_EMD_DDA40X_obsolete1                                                          :Устаревший UP EMD DDA40X (Дизель)
-str_electric_USA_Milwaukee_Road_EP_2_Bipolar_obsolete1                          :Устаревший Локомотив Милуокской ЖД EP-2 "Двойняшка" (Электро)
-str_electric_USA_Pennsylvania_Railroad_GG_1_obsolete1                           :Устаревший Локомотив Пенсильванской ЖД GG-1 (Электро)
-
 #PURCHASE MENU TEXTS
-
 
 #Can attach vehicle texts

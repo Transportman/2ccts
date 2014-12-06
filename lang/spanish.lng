@@ -462,22 +462,7 @@ str_mglv_wagon_unpowered        :Vagón Maglev (Sin motorización)
 str_mtro_wagon_powered          :Vagón de metro (Motorizado)
 str_mglv_wagon_powered          :Vagón Maglev (Motorizado)
 
-#obsolete vehicles
-str_mtro_Hungary_Budapest_1894_Stock_obsolete1                                          :Budapest 1894 Stock, Obsoleto (Metro)
-str_mtro_USA_Chicago_L_Northwest_Elevated_1907_Stock_obsolete1          :Chicago L Northwest Elevated 1907 Stock, Obsoleto (Metro)
-str_mtro_Germany_Berlin_U_Bahn_C_II_obsolete1                                           :Berlin U-Bahn C II, Obsoleto (Metro)
-str_steam_USA_4_6_0_Ten_wheeler_obsolete1                                                       :4-6-0 'Ten-wheeler', Obsoleto (Vapor)
-str_diesel_USA_UP_EMD_DDA40X_obsolete1                                                          :UP EMD DDA40X, Obsoleto (Diésel)
-str_electric_USA_Pennsylvania_Railroad_FF_1_obsolete1                           :Pennsylvania Railroad FF-1, Obsoleto (Eléctrico)
-str_electric_USA_Milwaukee_Road_EP_2_Bipolar_obsolete1                          :Milwaukee Road EP-2 Bipolar, Obsoleto (Eléctrico)
-str_electric_USA_Pennsylvania_Railroad_GG_1_obsolete1                           :Pennsylvania Railroad GG-1, Obsoleto (Eléctrico)
-str_steam_Denmark_DSB_E_obsolete1                                                                       :DSB E, Obsoleto (Vapor)
-str_steam_USA_UP_4000_Big_Boy_obsolete1                                                         :UP 4000 'Big Boy', Obsoleto (Vapor)
-str_diesel_USA_UP_EMD_DDA40X_obsolete2                                                          :UP EMD DDA40X, Obsoleto (Diésel)
-str_electric_USA_Pennsylvania_Railroad_GG_1_obsolete2                           :Pennsylvania Railroad GG-1, Obsoleto (Eléctrico)
-
 #PURCHASE MENU TEXTS
-
 
 #Can attach vehicle texts
 str_cannot_attach_wagon_to_MU                   :No se puede conectar un Vagón a/con una Unidad Múltiple motora

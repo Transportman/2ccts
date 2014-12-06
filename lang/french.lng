@@ -104,7 +104,7 @@ str_steam_France_SNCF_141TA             :SNCF 141TA (Vapeur)
 str_steam_UK_GWR_4900                           :GWR 4900 (Vapeur)
 str_steam_UK_GWR_5700                           :GWR 5700 (Vapeur)
 str_steam_Netherlands_NS_6300           :NS 6300 (Vapeur)
-str_steam_USA_AT_SF_5000                        :AT&amp;SF 5000 (Vapeur)
+str_steam_USA_AT_SF_5000                        :AT&SF 5000 (Vapeur)
 str_steam_Germany_Prussian_S10          :Prussian S.10 (Vapeur)
 str_steam_UK_LMS_5MT_Black_Five         :LMS 5MT 'Black Five' (Vapeur)
 str_steam_Russia_RZD_9P                         :RZD 9P (Vapeur)
@@ -323,10 +323,10 @@ str_emu_Netherlands_NS_4800_HSA                         :NS 4800 HSA (Rame Élec
 str_emu_Italy_NTV_AGV_Duplex                            :NTV AGV Duplex (Rame Électrique)
 
 #Single Unit Metro
-str_mtro_USA_Brooklyn_Union_Gate_Car                                    :Brooklyn Union Gate Car (Métro Simple Unité)
-str_mtro_Hungary_Budapest_1894_Stock                                    :Budapest 1894 (Métro Simple Unité)
-str_mtro_USA_Chicago_L_Northwest_Elevated_1907_Stock    :Chicago L Northwest Elevated 1907 (Métro Simple Unité)
-str_mtro_Germany_Berlin_U_Bahn_C_II                                             :Berlin U-Bahn C II (Métro Simple Unité)
+str_mtro_USA_Brooklyn_Union_Gate_Car                                    :Brooklyn Union Gate Car (Métro Unité Autonome)
+str_mtro_Hungary_Budapest_1894_Stock                                    :Budapest 1894 (Métro Unité Autonome)
+str_mtro_USA_Chicago_L_Northwest_Elevated_1907_Stock    :Chicago L Northwest Elevated 1907 (Métro Unité Autonome)
+str_mtro_Germany_Berlin_U_Bahn_C_II                                             :Berlin U-Bahn C II (Métro Unité Autonome)
 
 #Multiple Unit Metro
 str_mtro_UK_London_1903_Stock                                   :Londres 1903 (Métro)
@@ -339,7 +339,7 @@ str_mtro_Portugal_Lisbon_ML7                                    :Lisbonne ML7 (M
 str_mtro_Hungary_Budapest_Ev3_200                               :Budapest Ev3-200 (Métro)
 str_mtro_Norway_Oslo_T1000                                              :Oslo T1000 (Métro)
 str_mtro_Canada_Toronto_H_series                                :Toronto série H (Métro)
-str_mtro_Germany_Munchen_MVG_A2                                 :Munchen MVG A2 (Métro)
+str_mtro_Germany_Munchen_MVG_A2                                 :München MVG A2 (Métro)
 str_mtro_USA_NY_R44                                                     :New York R44 (Métro)
 str_mtro_Netherlands_Amsterdam_Type_M1                  :Amsterdam M1 (Métro)
 str_mtro_Sweden_Stockholm_C8                                    :Stockholm C8 (Métro)
@@ -494,34 +494,15 @@ str_coach_Gen6_Super_Regio_Coach                                                
 str_coach_Gen6_Super_Voyager_Coach                                              :Voiture Super Voyager
 
 #special wagons
-str_mu_wagon_unpowered          :Wagon de Rame (non-électrifié)
-str_mtro_wagon_unpowered        :Wagon de Métro (non-électrifié)
+str_mu_wagon_unpowered          :Wagon de Rame (non-motorisé)
+str_mtro_wagon_unpowered        :Wagon de Métro (non-motorisé)
 str_mglv_wagon_unpowered        :Wagon de Maglev (non-motorisé)
-str_mu_wagon_powered            :Wagon de Rame (électrifié)
-str_mtro_wagon_powered          :Wagon de Métro (électrifié)
+str_mu_wagon_powered            :Wagon de Rame (motorisé)
+str_mtro_wagon_powered          :Wagon de Métro (motorisé)
 str_mglv_wagon_powered          :Wagon de Maglev (motorisé)
 
-#obsolete vehicles
-str_steam_USA_4_4_0_American_obsolete1                                                          :4-4-0 'American' obsolète (Vapeur)
-str_mtro_USA_Brooklyn_Union_Gate_Car_obsolete1                                          :Brooklyn Union Gate Car obsolète (Métro)
-str_mtro_Hungary_Budapest_1894_Stock_obsolete1                                          :Budapest 1894 obsolète (Métro)
-str_mtro_USA_Chicago_L_Northwest_Elevated_1907_Stock_obsolete1          :Chicago L Northwest Elevated 1907 obsolète (Métro)
-str_mtro_Germany_Berlin_U_Bahn_C_II_obsolete1                                           :Berlin U-Bahn C II obsolète (Métro)
-str_steam_USA_4_6_0_Ten_wheeler_obsolete1                                                       :4-6-0 'Ten-wheeler' obsolète (Vapeur)
-str_diesel_USA_UP_EMD_DDA40X_obsolete1                                                          :UP EMD DDA40X obsolète (Diesel)
-str_electric_USA_Pennsylvania_Railroad_FF_1_obsolete1                           :Pennsylvania Railroad FF-1 obsolète (Électrique)
-str_electric_USA_Milwaukee_Road_EP_2_Bipolar_obsolete1                          :Milwaukee Road EP-2 Bipolar obsolète (Électrique)
-str_electric_USA_Pennsylvania_Railroad_GG_1_obsolete1                           :Pennsylvania Railroad GG-1 obsolète (Électrique)
-str_steam_Denmark_DSB_E_obsolete1                                                                       :DSB E obsolète (Vapeur)
-str_steam_USA_UP_4000_Big_Boy_obsolete1                                                         :UP 4000 'Big Boy' obsolète (Vapeur)
-str_diesel_USA_UP_EMD_DDA40X_obsolete2                                                          :UP EMD DDA40X obsolète (Diesel)
-str_electric_USA_Pennsylvania_Railroad_FF_1_obsolete2                           :Pennsylvania Railroad FF-1 obsolète (Électrique)
-str_electric_USA_Milwaukee_Road_EP_2_Bipolar_obsolete2                          :Milwaukee Road EP-2 Bipolar obsolète (Électrique)
-str_electric_USA_Pennsylvania_Railroad_GG_1_obsolete2                           :Pennsylvania Railroad GG-1 obsolète (Électrique)
-
 #PURCHASE MENU TEXTS
-str_unit_wagon                          :Ce wagon génériqueest utilisé SEULEMENT avec des rames pour obtenir des trains de longueur variable
-
+str_unit_wagon                          :Ce wagon générique est utilisé SEULEMENT avec des Rames pour obtenir des trains de longueur variable
 
 #Can attach vehicle texts
 str_cannot_attach_wagon_to_MU                   :Impossible d'atteler ce wagon à une Rame

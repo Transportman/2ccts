@@ -44,10 +44,6 @@ str_coach_Gen3_Steel_Lightweight_Intercity_Coach                :城际轻轨客
 
 #special wagons
 
-#obsolete vehicles
-str_mtro_USA_Chicago_L_Northwest_Elevated_1907_Stock_obsolete1          :废弃的芝加哥捷运（地铁）
-
 #PURCHASE MENU TEXTS
-
 
 #Can attach vehicle texts

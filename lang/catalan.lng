@@ -501,27 +501,8 @@ str_mu_wagon_powered            :Unitat de Vagó de Metro (Alimentat)
 str_mtro_wagon_powered          :Unitat de Vagó de Metro (Amb alimentació)
 str_mglv_wagon_powered          :Unitat de Vagó Maglev (Alimentat)
 
-#obsolete vehicles
-str_steam_USA_4_4_0_American_obsolete1                                                          :4-4-0 'American' Obsoleta (Vapor)
-str_mtro_USA_Brooklyn_Union_Gate_Car_obsolete1                                          :Cotxe Brooklyn Union Gate Obsolet (Metro)
-str_mtro_Hungary_Budapest_1894_Stock_obsolete1                                          :Budapest 1894 Stock Obsolet (Metro)
-str_mtro_USA_Chicago_L_Northwest_Elevated_1907_Stock_obsolete1          :Chicago L Northwest Elevated 1907 Stock Obsolet (Metro)
-str_mtro_Germany_Berlin_U_Bahn_C_II_obsolete1                                           :Berlin U-Bahn C II Obsolet (Metro)
-str_steam_USA_4_6_0_Ten_wheeler_obsolete1                                                       :4-6-0 'Ten-wheeler' Obsoleta (Vapor)
-str_diesel_USA_UP_EMD_DDA40X_obsolete1                                                          :UP EMD DDA40X Obsoleta (Dièsel)
-str_electric_USA_Pennsylvania_Railroad_FF_1_obsolete1                           :Pennsylvania Railroad FF-1 Obsoleta (Elèctrica)
-str_electric_USA_Milwaukee_Road_EP_2_Bipolar_obsolete1                          :Milwaukee Road EP-2 Bipolar Obsoleta (Elèctrica)
-str_electric_USA_Pennsylvania_Railroad_GG_1_obsolete1                           :Pennsylvania Railroad GG-1 Obsoleta (Elèctrica)
-str_steam_Denmark_DSB_E_obsolete1                                                                       :Obsolet DSB E (Vapor)
-str_steam_USA_UP_4000_Big_Boy_obsolete1                                                         :UP 4000 'Big Boy' Obsoleta (Vapor)
-str_diesel_USA_UP_EMD_DDA40X_obsolete2                                                          :UP EMD DDA40X Obsoleta (Dièsel)
-str_electric_USA_Pennsylvania_Railroad_FF_1_obsolete2                           :Pennsylvania Railroad FF-1 Obsoleta (Elèctrica)
-str_electric_USA_Milwaukee_Road_EP_2_Bipolar_obsolete2                          :Milwaukee Road EP-2 Bipolar Obsoleta (Elèctrica)
-str_electric_USA_Pennsylvania_Railroad_GG_1_obsolete2                           :Pennsylvania Railroad GG-1 Obsoleta (Elèctrica)
-
 #PURCHASE MENU TEXTS
 str_unit_wagon                          :Aquest vagó genèric NOMÉS pot emprar-se amb MUs per a crear trens de la llargada desitjada
-
 
 #Can attach vehicle texts
 str_cannot_attach_wagon_to_MU                   :No es pot afegir el vagó a la Unitat Múltiple

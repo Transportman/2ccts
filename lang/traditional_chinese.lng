@@ -116,9 +116,6 @@ str_mglv_wagon_unpowered        :磁浮車廂 (無動力)
 str_mtro_wagon_powered          :捷運車廂 (有動力)
 str_mglv_wagon_powered          :磁浮車廂 (有動力)
 
-#obsolete vehicles
-
 #PURCHASE MENU TEXTS
-
 
 #Can attach vehicle texts
