@@ -457,8 +457,10 @@ str_coach_Gen6_Super_Regio_Coach                                                
 str_coach_Gen6_Super_Voyager_Coach                                              :Vagón Super Voyager
 
 #special wagons
+str_mu_wagon_unpowered          :MUW - Unidad de Vagón Múltiple (Sin motorización)
 str_mtro_wagon_unpowered        :Vagón de metro (Sin motorización)
 str_mglv_wagon_unpowered        :Vagón Maglev (Sin motorización)
+str_mu_wagon_powered            :MUW - Unidad de Vagón Múltiple (Motorizado)
 str_mtro_wagon_powered          :Vagón de metro (Motorizado)
 str_mglv_wagon_powered          :Vagón Maglev (Motorizado)
 
