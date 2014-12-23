@@ -28,6 +28,8 @@ STR_PARAM_TIMES_8                   :8
 STR_PARAM_TIMES_16                  :16
 
 #region parameters
+STR_PARAM_CONCEPT                                               :Vehículos conceptuales (Función próximamente disponible - Seguimos trabajando en ello)
+STR_PARAM_CONCEPT_DESC                                  :Usar vehículos conceptuales (Este parametro, por ahora, tiene función nula, 0).
 STR_PARAM_REGION_AFRICA                                 :África
 STR_PARAM_REGION_AFRICA_DESC                    :Usar vehículos de África
 STR_PARAM_REGION_NORTHAMERICA                   :América del Norte
