@@ -376,6 +376,7 @@ str_wagon_Gen2_Boxcar_Type2                             :Vagón cerrado de mader
 str_wagon_Gen2_Tanker                                   :Cisterna, 2a generación
 str_wagon_Gen2_Open_Wagon                               :Vagón abierto de madera, 2a Generación
 str_wagon_Gen3_Flat_Wagon                               :Vagón plano, 3a generación
+str_wagon_Gen3_Boxcar_Type2                     :Vagón cerrado de madera (Tipo 2), 3a Generación
 str_wagon_Gen3_Tanker                                   :Cisterna, 3a generación
 str_wagon_Gen3_Open_Wagon                               :Vagón abierto, 3era Generación
 str_wagon_Gen4_Flatcar                                  :Vagón plano, 4a Generación
@@ -471,6 +472,7 @@ str_mtro_wagon_powered          :Vagón de metro (Motorizado)
 str_mglv_wagon_powered          :Vagón Maglev (Motorizado)
 
 #PURCHASE MENU TEXTS
+str_unit_wagon                          :Este vagón genérico SOLO se puede usar con MUs para crear trenes de la longitud deseada
 
 #Can attach vehicle texts
 str_cannot_attach_wagon_to_MU                   :No se puede conectar un Vagón a/con una Unidad Múltiple motora
