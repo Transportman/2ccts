@@ -63,19 +63,19 @@ switch(FEAT_TRAINS, SELF, switch_emu_Italy_NTV_AGV_Duplex_middlepass_length, [ST
 	switch_emu_Italy_NTV_AGV_Duplex_middlepass_position_front;
 }
 
-//Middle - MAIL - Regular
+//Middle - MAIL - Part 2 regular
 spriteset(spriteset_emu_Italy_NTV_AGV_Duplex_middlemail_regular, "gfx/EMU/Italy_NTV_AGV_Duplex.png") {
 	template_2cc_engines_general(1, 192)
 }
 
-//Middle - MAIL - Part 2 back
+//Middle - MAIL - Part 2 Front
 spriteset(spriteset_emu_Italy_NTV_AGV_Duplex_middlemail_part2_front, "gfx/EMU/Italy_NTV_AGV_Duplex.png") {
 	template_2cc_engines_general(1, 224)
 }
 
-//Middle - MAIL - Part 2 front
+//Middle - MAIL - Part 2 Back
 spriteset(spriteset_emu_Italy_NTV_AGV_Duplex_middlemail_part2_back, "gfx/EMU/Italy_NTV_AGV_Duplex.png") {
-	template_2cc_engines_back(1, 256)
+	template_2cc_engines_general(1, 256)
 }
 
 //Middle - MAIL - Double
