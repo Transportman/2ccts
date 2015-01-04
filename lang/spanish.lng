@@ -384,8 +384,10 @@ str_wagon_Gen4_Flatcar                                  :Vagón plano, 4a Genera
 str_wagon_Gen4_Tanker                                   :Cisterna, 4a generación
 str_wagon_Gen4_Gondola                                  :Góndola, 4a Generación
 str_wagon_Gen4_Silo_Type2                               :Vagón silo, 4a generación (Tipo 2)
+str_wagon_Gen4_Container_Carrier                :Vagón portacontenedores, 4a Generación
 str_wagon_Gen5_Flatcar                                  :Vagón plano, 5a Generación
 str_wagon_Gen5_Heavy_Flatcar                    :Vagón plano pesado, 5a Generación
+str_wagon_Gen5_Boxcar_Type2                             :Vagón cerrado (Tipo 2), 5a Generación
 str_wagon_Gen5_Tanker                                   :Cisterna, 5a generación
 str_wagon_Gen5_Gondola                                  :Góndola, 5a Generación
 str_wagon_Gen5_Silo_Type2                               :Vagón silo, 5a generación (Tipo 2)
