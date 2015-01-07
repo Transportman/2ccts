@@ -376,11 +376,13 @@ str_wagon_Gen2_Boxcar_Type1                             :Vagón cerrado de mader
 str_wagon_Gen2_Boxcar_Type2                             :Vagón cerrado de madera (Tipo 2), 2a Generación
 str_wagon_Gen2_Tanker                                   :Cisterna, 2a generación
 str_wagon_Gen2_Open_Wagon                               :Vagón abierto de madera, 2a Generación
+str_wagon_Gen2_Silo                                     :Vagón silo, 2a generación
 str_wagon_Gen3_Flat_Wagon                               :Vagón plano, 3a generación
 str_wagon_Gen3_Boxcar_Type1                     :Vagón cerrado de madera (Tipo 1), 3a Generación
 str_wagon_Gen3_Boxcar_Type2                     :Vagón cerrado de madera (Tipo 2), 3a Generación
 str_wagon_Gen3_Tanker                                   :Cisterna, 3a generación
 str_wagon_Gen3_Open_Wagon                               :Vagón abierto, 3era Generación
+str_wagon_Gen3_Silo_Type1                               :Vagón silo, 3a generación (Tipo 1)
 str_wagon_Gen4_Flatcar                                  :Vagón plano, 4a Generación
 str_wagon_Gen4_Boxcar_Type1                             :Vagón cerrado (Tipo 1), 4a Generación
 str_wagon_Gen4_Boxcar_Type2                             :Vagón cerrado (Tipo 2), 4a Generación
