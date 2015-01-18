@@ -206,7 +206,7 @@ item(FEAT_TRAINS, item_electric_Switzerland_SBB_Re460_Lok_2000, 6045) {}
 item(FEAT_TRAINS, item_electric_Spain_RENFE_252, 6046) {}
 item(FEAT_TRAINS, item_electric_UK_BR_92, 6047) {}
 item(FEAT_TRAINS, item_electric_India_Indian_Railways_WAP_4, 6048) {}
-item(FEAT_TRAINS, item_electric_Germany_DB_145_TRAXX_F140, 6049) {}
+item(FEAT_TRAINS, item_electric_Germany_DB_185_TRAXX_F140, 6049) {}
 item(FEAT_TRAINS, item_electric_Belgium_NMBS_SNCB_13_HLE, 6050) {}
 item(FEAT_TRAINS, item_electric_Japan_JR_EH500, 6051) {}
 item(FEAT_TRAINS, item_electric_Turkey_TCDD_E55200, 6052) {}
