@@ -1,9 +1,9 @@
 /*
  *  Copyright (C) 2014 Transportman
  *  This file is part of the 2cc Trains In NML and is based on The Dutch Trainset 2.0 by Jasper Vries
- *  This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
- *  This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
- *  You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+ *  This program is free software; you can redistribute it and/or modify it under the terms of the GNU Gen2eral Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
+ *  This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Gen2eral Public License for more details.
+ *  You should have received a copy of the GNU Gen2eral Public License along with this program; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
 */
 
 /*
@@ -19,26 +19,26 @@ item(FEAT_TRAINS, item_wagon_Gen2_Silo) {
         model_life: 40;
         vehicle_life: 25;
         loading_speed: 10;
-        cost_factor: 15;
+        cost_factor: 13;
         running_cost_factor: 13;
-        speed: 80 km/h;
+        speed: 70 km/h;
         power: 0 hp;
         cargo_capacity: 25;
-        weight: 39 ton;
+        weight: 14 ton;
         tractive_effort_coefficient: 0.3;
         air_drag_coefficient: 0;
         
         reliability_decay: 20;
         CARGODEF_SILO
         cargo_age_period: 185;
-        misc_flags: bitmask(TRAIN_FLAG_2CC, TRAIN_FLAG_AUTOREFIT);
+        misc_flags: bitmask(TRAIN_FLAG_2CC);
         refit_cost: 0;
         track_type: RAIL;
-		ai_special_flag: AI_FLAG_CARGO;
+		ai_special_flag: AI_FLAG_PASSENGER;
         running_cost_base: RUNNING_COST_DIESEL;
         engine_class: ENGINE_CLASS_DIESEL;
         visual_effect_and_powered: visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
-
+        
         sprite_id: SPRITE_ID_NEW_TRAIN;
         dual_headed: 0;
         length: 5;
@@ -49,5 +49,5 @@ item(FEAT_TRAINS, item_wagon_Gen2_Silo) {
 		purchase: spriteset_wagon_Gen2_Silo_purchase;
 		cargo_capacity: 25;
 		switch_wagon_Gen2_Silo_livery;
-	}	
+	}
 }
