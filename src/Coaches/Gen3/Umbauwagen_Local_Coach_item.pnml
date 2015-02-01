@@ -19,12 +19,12 @@ item(FEAT_TRAINS, item_coach_Gen3_Umbauwagen_Local_Coach) {
         model_life: 30;
         vehicle_life: 25;
         loading_speed: 20;
-        cost_factor: 38;
+        cost_factor: 37;
         running_cost_factor: 36;
         speed: 120 km/h;
         power: 0 hp;
         cargo_capacity: 70;
-        weight: 55 ton;
+        weight: 29 ton;
         tractive_effort_coefficient: 0.3;
         air_drag_coefficient: 0;
         

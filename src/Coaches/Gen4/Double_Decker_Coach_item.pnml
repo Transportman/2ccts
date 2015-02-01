@@ -20,11 +20,11 @@ item(FEAT_TRAINS, item_coach_Gen4_Double_Decker_Coach) {
         vehicle_life: 25;
         loading_speed: 15;
         cost_factor: 78;
-        running_cost_factor: 75;
+        running_cost_factor: 76;
         speed: 140 km/h;
         power: 0 hp;
         cargo_capacity: 150;
-        weight: 62 ton;
+        weight: 48 ton;
         tractive_effort_coefficient: 0.3;
         air_drag_coefficient: 0;
         

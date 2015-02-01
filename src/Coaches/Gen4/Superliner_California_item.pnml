@@ -19,12 +19,12 @@ item(FEAT_TRAINS, item_coach_Gen4_Superliner_California) {
         model_life: 50;
         vehicle_life: 25;
         loading_speed: 15;
-        cost_factor: 43;
+        cost_factor: 44;
         running_cost_factor: 41;
         speed: 200 km/h;
         power: 0 hp;
         cargo_capacity: 80;
-        weight: 62 ton;
+        weight: 67 ton;
         tractive_effort_coefficient: 0.3;
         air_drag_coefficient: 0;
         

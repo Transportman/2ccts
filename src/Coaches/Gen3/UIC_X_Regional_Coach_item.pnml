@@ -19,12 +19,12 @@ item(FEAT_TRAINS, item_coach_Gen3_UIC_X_Regional_Coach) {
         model_life: 40;
         vehicle_life: 25;
         loading_speed: 15;
-        cost_factor: 43;
+        cost_factor: 42;
         running_cost_factor: 41;
         speed: 120 km/h;
         power: 0 hp;
         cargo_capacity: 80;
-        weight: 62 ton;
+        weight: 35 ton;
         tractive_effort_coefficient: 0.3;
         air_drag_coefficient: 0;
         

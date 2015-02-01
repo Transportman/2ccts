@@ -19,12 +19,12 @@ item(FEAT_TRAINS, item_coach_Gen2_Steel_2_axle_Compartment_Coach) {
         model_life: 20;
         vehicle_life: 25;
         loading_speed: 20;
-        cost_factor: 20;
-        running_cost_factor: 18;
+        cost_factor: 21;
+        running_cost_factor: 21;
         speed: 100 km/h;
         power: 0 hp;
-        cargo_capacity: 35;
-        weight: 39 ton;
+        cargo_capacity: 40;
+        weight: 20 ton;
         tractive_effort_coefficient: 0.3;
         air_drag_coefficient: 0;
         

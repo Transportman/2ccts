@@ -19,12 +19,12 @@ item(FEAT_TRAINS, item_coach_Gen4_Superliner_Coach) {
         model_life: 50;
         vehicle_life: 25;
         loading_speed: 8;
-        cost_factor: 51;
+        cost_factor: 52;
         running_cost_factor: 49;
         speed: 160 km/h;
         power: 0 hp;
         cargo_capacity: 96;
-        weight: 62 ton;
+        weight: 67 ton;
         tractive_effort_coefficient: 0.3;
         air_drag_coefficient: 0;
         

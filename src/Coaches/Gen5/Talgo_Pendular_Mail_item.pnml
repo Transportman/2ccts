@@ -19,12 +19,12 @@ item(FEAT_TRAINS, item_coach_Gen5_Talgo_Pendular_Mail) {
         model_life: VEHICLE_NEVER_EXPIRES;
         vehicle_life: 25;
         loading_speed: 15;
-        cost_factor: 23;
+        cost_factor: 21;
         running_cost_factor: 21;
         speed: 250 km/h;
         power: 0 hp;
         cargo_capacity: 40;
-        weight: 47 ton;
+        weight: 15 ton;
         tractive_effort_coefficient: 0.3;
         air_drag_coefficient: 0;
         

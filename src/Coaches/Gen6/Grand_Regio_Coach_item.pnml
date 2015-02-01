@@ -24,7 +24,7 @@ item(FEAT_TRAINS, item_coach_Gen6_Grand_Regio_Coach) {
         speed: 200 km/h;
         power: 0 hp;
         cargo_capacity: 100;
-        weight: 62 ton;
+        weight: 45 ton;
         tractive_effort_coefficient: 0.3;
         air_drag_coefficient: 0;
         

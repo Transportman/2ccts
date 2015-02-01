@@ -24,7 +24,7 @@ item(FEAT_TRAINS, item_coach_Gen4_Amfleet_Intercity_Coach) {
         speed: 200 km/h;
         power: 0 hp;
         cargo_capacity: 60;
-        weight: 62 ton;
+        weight: 50 ton;
         tractive_effort_coefficient: 0.3;
         air_drag_coefficient: 0;
         

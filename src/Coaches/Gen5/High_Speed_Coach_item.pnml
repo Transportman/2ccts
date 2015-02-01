@@ -24,7 +24,7 @@ item(FEAT_TRAINS, item_coach_Gen5_High_Speed_Coach) {
         speed: 230 km/h;
         power: 0 hp;
         cargo_capacity: 70;
-        weight: 62 ton;
+        weight: 47 ton;
         tractive_effort_coefficient: 0.3;
         air_drag_coefficient: 0;
         

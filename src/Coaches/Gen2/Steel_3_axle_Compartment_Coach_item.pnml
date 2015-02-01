@@ -16,15 +16,15 @@ item(FEAT_TRAINS, item_coach_Gen2_Steel_3_axle_Compartment_Coach) {
         REGION(REGIONTYPE1,OCEANIA,NOCONCEPT)
 		
         introduction_date: date(1900,1,1);
-        model_life: 30;
+        model_life: 50;
         vehicle_life: 25;
         loading_speed: 20;
-        cost_factor: 23;
+        cost_factor: 21;
         running_cost_factor: 21;
         speed: 110 km/h;
         power: 0 hp;
         cargo_capacity: 40;
-        weight: 47 ton;
+        weight: 21 ton;
         tractive_effort_coefficient: 0.3;
         air_drag_coefficient: 0;
         

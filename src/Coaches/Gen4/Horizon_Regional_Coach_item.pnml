@@ -24,7 +24,7 @@ item(FEAT_TRAINS, item_coach_Gen4_Horizon_Regional_Coach) {
         speed: 177 km/h;
         power: 0 hp;
         cargo_capacity: 70;
-        weight: 62 ton;
+        weight: 51 ton;
         tractive_effort_coefficient: 0.3;
         air_drag_coefficient: 0;
         
