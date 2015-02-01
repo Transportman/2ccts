@@ -473,6 +473,9 @@ item(FEAT_TRAINS, item_wagon_Gen4_Boxcar_Type2, 12048) {}
 
 //Unit Wagons, available ID range: 13000-13999 (hex 0x32C8..0x36AF)
 #define ID_RANGE_UNIT_WAGONS 0x32C8..0x36AF
+#define ID_RANGE_UNIT_WAGONS_RAIL 0x32C8..0x32C9
+#define ID_RANGE_UNIT_WAGONS_MTRO 0x32CA..0x32CB
+#define ID_RANGE_UNIT_WAGONS_MGLV 0x32CC..0x32CD
 item(FEAT_TRAINS, item_mu_wagon_unpowered, 13000) {}
 item(FEAT_TRAINS, item_mu_wagon_powered, 13001) {}
 item(FEAT_TRAINS, item_mtro_wagon_unpowered, 13002) {}
