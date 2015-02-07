@@ -1,6 +1,6 @@
 2cc TrainsInNML changelog
 =========================
-1.0-RC2 (08/02/2015)
+1.0-RC2 (07/02/2015)
 --------------------
 - Change: DB 145 changed to DB 185 TRAXX (closes #7375)
 - Doc: Someone deserves a thank you
