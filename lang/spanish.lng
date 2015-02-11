@@ -392,6 +392,7 @@ str_wagon_Gen4_Gondola                                  :Góndola, 4a Generació
 str_wagon_Gen4_Silo_Type1                               :Vagón silo (Tipo 1), 4a generación
 str_wagon_Gen4_Silo_Type2                               :Vagón silo (Tipo 2), 4a generación
 str_wagon_Gen4_Hopper_Type1                             :Vagón tolva con auto-descarga (Tipo 1), 4a generación
+str_wagon_Gen4_Hopper_Type2                             :Vagón tolva con auto-descarga (Tipo 2), 4a generación
 str_wagon_Gen4_Container_Carrier                :Vagón portacontenedores, 4a Generación
 str_wagon_Gen5_Flatcar                                  :Vagón plano, 5a Generación
 str_wagon_Gen5_Heavy_Flatcar                    :Vagón plano pesado, 5a Generación
@@ -402,6 +403,7 @@ str_wagon_Gen5_Gondola                                  :Góndola, 5a Generació
 str_wagon_Gen5_Silo_Type1                               :Vagón silo (Tipo 1), 5a generación
 str_wagon_Gen5_Silo_Type2                               :Vagón silo (Tipo 2), 5a generación
 str_wagon_Gen5_Hopper_Type1                             :Vagón tolva con auto-descarga (Tipo 1), 5a generación
+str_wagon_Gen5_Hopper_Type2                             :Vagón tolva con auto-descarga (Tipo 2), 5a generación
 str_wagon_Gen5_Container_Carrier                :Vagón portacontenedores, 5a Generación
 str_wagon_Gen5_Superheavy_Flatcar               :Vagón plano superpesado, 5a Generación
 
