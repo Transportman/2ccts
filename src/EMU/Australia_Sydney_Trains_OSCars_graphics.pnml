@@ -10,7 +10,7 @@
 * PURCHASE
 */
 
-spriteset(spriteset_emu_Australia_CityRail_OSCars_purchase, "gfx/EMU/Australia_CityRail_OSCars.png") {
+spriteset(spriteset_emu_Australia_Sydney_Trains_OSCars_purchase, "gfx/EMU/Australia_Sydney_Trains_OSCars.png") {
 	template_purchase_dualheaded(1, 128)
 }
 
@@ -19,33 +19,33 @@ spriteset(spriteset_emu_Australia_CityRail_OSCars_purchase, "gfx/EMU/Australia_C
 */
 
 //Front
-spriteset(spriteset_emu_Australia_CityRail_OSCars_front, "gfx/EMU/Australia_CityRail_OSCars.png") {
+spriteset(spriteset_emu_Australia_Sydney_Trains_OSCars_front, "gfx/EMU/Australia_Sydney_Trains_OSCars.png") {
 	template_2cc_engines_general(1, 1)
 }
 
 //Back
-spriteset(spriteset_emu_Australia_CityRail_OSCars_back, "gfx/EMU/Australia_CityRail_OSCars.png") {
+spriteset(spriteset_emu_Australia_Sydney_Trains_OSCars_back, "gfx/EMU/Australia_Sydney_Trains_OSCars.png") {
 	template_2cc_engines_general(1, 32)
 }
 
 //Middle - PAX
-spriteset(spriteset_emu_Australia_CityRail_OSCars_middlepass, "gfx/EMU/Australia_CityRail_OSCars.png") {
+spriteset(spriteset_emu_Australia_Sydney_Trains_OSCars_middlepass, "gfx/EMU/Australia_Sydney_Trains_OSCars.png") {
 	template_2cc_engines_general(1, 64)
 }
 //Middle - MAIL
-spriteset(spriteset_emu_Australia_CityRail_OSCars_middlemail, "gfx/EMU/Australia_CityRail_OSCars.png") {
+spriteset(spriteset_emu_Australia_Sydney_Trains_OSCars_middlemail, "gfx/EMU/Australia_Sydney_Trains_OSCars.png") {
 	template_2cc_engines_general(1, 96)
 }
 
 //Dualheaded engines
-switch(FEAT_TRAINS, SELF, switch_emu_Australia_CityRail_OSCars_reversed, var[0xC8]) {
-	0xFE: spriteset_emu_Australia_CityRail_OSCars_back;
-    0xFF: spriteset_emu_Australia_CityRail_OSCars_back; 
-    spriteset_emu_Australia_CityRail_OSCars_front;
+switch(FEAT_TRAINS, SELF, switch_emu_Australia_Sydney_Trains_OSCars_reversed, var[0xC8]) {
+	0xFE: spriteset_emu_Australia_Sydney_Trains_OSCars_back;
+    0xFF: spriteset_emu_Australia_Sydney_Trains_OSCars_back; 
+    spriteset_emu_Australia_Sydney_Trains_OSCars_front;
 }
 
 //Visual effect, for EMU this is done on the part with the pantograph
-switch(FEAT_TRAINS, SELF, switch_emu_Australia_CityRail_OSCars_visual_effect_and_powered, var[0xC8]) {
+switch(FEAT_TRAINS, SELF, switch_emu_Australia_Sydney_Trains_OSCars_visual_effect_and_powered, var[0xC8]) {
 	0xFE: visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
 	0xFF: visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
 	visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, -3, DISABLE_WAGON_POWER);
@@ -55,14 +55,14 @@ switch(FEAT_TRAINS, SELF, switch_emu_Australia_CityRail_OSCars_visual_effect_and
 * Cargo capacity
 */
 
-switch(FEAT_TRAINS, SELF, switch_emu_Australia_CityRail_OSCars_capacity, cargo_classes) {
+switch(FEAT_TRAINS, SELF, switch_emu_Australia_Sydney_Trains_OSCars_capacity, cargo_classes) {
 	bitmask(CC_MAIL): 90;
 	bitmask(CC_ARMOURED): 60;
 	120;
 }
 
 //Graphics for the unit wagon based on cargo class
-switch(FEAT_TRAINS, SELF, switch_emu_Australia_CityRail_OSCars_cargo_selection, cargo_classes){
-	bitmask(CC_PASSENGERS): spriteset_emu_Australia_CityRail_OSCars_middlepass;
-	spriteset_emu_Australia_CityRail_OSCars_middlemail;
+switch(FEAT_TRAINS, SELF, switch_emu_Australia_Sydney_Trains_OSCars_cargo_selection, cargo_classes){
+	bitmask(CC_PASSENGERS): spriteset_emu_Australia_Sydney_Trains_OSCars_middlepass;
+	spriteset_emu_Australia_Sydney_Trains_OSCars_middlemail;
 }

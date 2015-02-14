@@ -10,22 +10,22 @@
 * ITEM
 */
 
-item(FEAT_TRAINS, item_diesel_Belgium_NMBS_SNCB_67) {
+item(FEAT_TRAINS, item_diesel_USA_Amtrack_SDP_40F) {
     property {
-        name: string(str_diesel_Belgium_NMBS_SNCB_67);
-        REGION(WESTERNEUROPE,NOREGION,NOCONCEPT)
+        name: string(str_diesel_USA_Amtrack_SDP_40F);
+        REGION(NORTHAMERICA,NOREGION,NOCONCEPT)
 		
-        introduction_date: date(1961,1,1);
+        introduction_date: date(1973,1,1);
         model_life: 25;
         vehicle_life: 40;
         loading_speed: 1;
-        cost_factor: 46;
-        running_cost_factor: 39;
-        speed: 120 km/h;
-        power: 1408 hp;
+        cost_factor: 69;
+        running_cost_factor: 56;
+        speed: 153 km/h;
+        power: 3000 hp;
         cargo_capacity: 0;
-        weight: 80 ton;
-        tractive_effort_coefficient: 0.27;
+        weight: 131 ton;
+        tractive_effort_coefficient: 0.15;
         air_drag_coefficient: 0;
         
         reliability_decay: 20;
@@ -37,8 +37,8 @@ item(FEAT_TRAINS, item_diesel_Belgium_NMBS_SNCB_67) {
 		ai_special_flag: AI_FLAG_PASSENGER;
         running_cost_base: RUNNING_COST_STEAM;
         engine_class: ENGINE_CLASS_DIESEL;
-        visual_effect_and_powered: visual_effect_and_powered(VISUAL_EFFECT_DIESEL, 0, DISABLE_WAGON_POWER); //Set from graphics file
-        
+        visual_effect_and_powered: visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER); //Set from graphics file
+
         sprite_id: SPRITE_ID_NEW_TRAIN;
         dual_headed: 0;
         length: 8;
@@ -46,8 +46,9 @@ item(FEAT_TRAINS, item_diesel_Belgium_NMBS_SNCB_67) {
         bitmask_vehicle_info: 0;
 	}
 	graphics {
-		purchase: spriteset_diesel_Belgium_NMBS_SNCB_67_purchase;
+		purchase: spriteset_diesel_USA_Amtrack_SDP_40F_purchase;
+		visual_effect_and_powered: switch_diesel_USA_Amtrack_SDP_40F_visual_effect;
 		can_attach_wagon: switch_can_attach_vehicle;
-		spriteset_diesel_Belgium_NMBS_SNCB_67;
+		switch_diesel_USA_Amtrack_SDP_40F_position;
 	}
 }

@@ -10,9 +10,9 @@
 * ITEM
 */
 
-item(FEAT_TRAINS, item_emu_Australia_CityRail_V_DDIU) {
+item(FEAT_TRAINS, item_emu_Australia_Sydney_Trains_S_Set) {
     property {
-        name: string(str_emu_Australia_CityRail_V_DDIU);
+        name: string(str_emu_Australia_Sydney_Trains_S_Set);
         REGION(OCEANIA,NOREGION,NOCONCEPT)
 		
         introduction_date: date(1972,1,1);
@@ -46,28 +46,28 @@ item(FEAT_TRAINS, item_emu_Australia_CityRail_V_DDIU) {
         bitmask_vehicle_info: 0;
 	}
 	graphics {
-		purchase: spriteset_emu_Australia_CityRail_V_DDIU_purchase;
-		cargo_capacity: switch_emu_Australia_CityRail_V_DDIU_capacity;
+		purchase: spriteset_emu_Australia_Sydney_Trains_S_Set_purchase;
+		cargo_capacity: switch_emu_Australia_Sydney_Trains_S_Set_capacity;
 		can_attach_wagon: switch_can_attach_vehicle;
-		switch_emu_Australia_CityRail_V_DDIU_reversed;
+		switch_emu_Australia_Sydney_Trains_S_Set_reversed;
 	}	
 	livery_override (item_mu_wagon_unpowered){
 		loading_speed: 20;
 		running_cost_factor: 18;
 		power: 0;
 		weight: 34;
-		cargo_capacity: switch_emu_Australia_CityRail_V_DDIU_capacity;
+		cargo_capacity: switch_emu_Australia_Sydney_Trains_S_Set_capacity;
 		length: 8;
-		default: switch_emu_Australia_CityRail_V_DDIU_cargo_selection;
+		default: switch_emu_Australia_Sydney_Trains_S_Set_cargo_selection;
 	}
 	livery_override (item_mu_wagon_powered){
 		loading_speed: 20;
 		running_cost_factor: 26;
 		power: 400;
 		weight: 51;
-		cargo_capacity: switch_emu_Australia_CityRail_V_DDIU_capacity;
+		cargo_capacity: switch_emu_Australia_Sydney_Trains_S_Set_capacity;
         tractive_effort_coefficient: 106;
 		length: 8;
-		default: switch_emu_Australia_CityRail_V_DDIU_cargo_selection;
+		default: switch_emu_Australia_Sydney_Trains_S_Set_cargo_selection;
 	}
 }

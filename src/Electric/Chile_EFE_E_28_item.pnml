@@ -10,22 +10,22 @@
 * ITEM
 */
 
-item(FEAT_TRAINS, item_diesel_USA_GNR_SDP_40F) {
+item(FEAT_TRAINS, item_electric_Chile_EFE_E_28) {
     property {
-        name: string(str_diesel_USA_GNR_SDP_40F);
-        REGION(NORTHAMERICA,NOREGION,NOCONCEPT)
+        name: string(str_electric_Chile_EFE_E_28);
+        REGION(SOUTHAMERICA,NOREGION,NOCONCEPT)
 		
-        introduction_date: date(1973,1,1);
+        introduction_date: date(1922,1,1);
         model_life: 25;
         vehicle_life: 40;
         loading_speed: 1;
-        cost_factor: 69;
-        running_cost_factor: 56;
-        speed: 153 km/h;
-        power: 3000 hp;
+        cost_factor: 60;
+        running_cost_factor: 49;
+        speed: 110 km/h;
+        power: 2250 hp;
         cargo_capacity: 0;
-        weight: 131 ton;
-        tractive_effort_coefficient: 0.15;
+        weight: 115 ton;
+        tractive_effort_coefficient: 0.19;
         air_drag_coefficient: 0;
         
         reliability_decay: 20;
@@ -33,11 +33,11 @@ item(FEAT_TRAINS, item_diesel_USA_GNR_SDP_40F) {
         cargo_age_period: 185;
         misc_flags: bitmask(TRAIN_FLAG_2CC);
         refit_cost: 0;
-        track_type: RAIL;
+        track_type: ELRL;
 		ai_special_flag: AI_FLAG_PASSENGER;
         running_cost_base: RUNNING_COST_STEAM;
-        engine_class: ENGINE_CLASS_DIESEL;
-        visual_effect_and_powered: visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER); //Set from graphics file
+        engine_class: ENGINE_CLASS_ELECTRIC;
+        visual_effect_and_powered: visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, -3, DISABLE_WAGON_POWER); //Set from graphics file
 
         sprite_id: SPRITE_ID_NEW_TRAIN;
         dual_headed: 0;
@@ -46,9 +46,8 @@ item(FEAT_TRAINS, item_diesel_USA_GNR_SDP_40F) {
         bitmask_vehicle_info: 0;
 	}
 	graphics {
-		purchase: spriteset_diesel_USA_GNR_SDP_40F_purchase;
-		visual_effect_and_powered: switch_diesel_USA_GNR_SDP_40F_visual_effect;
+		purchase: spriteset_electric_Chile_EFE_E_28_purchase;
 		can_attach_wagon: switch_can_attach_vehicle;
-		switch_diesel_USA_GNR_SDP_40F_position;
+		spriteset_electric_Chile_EFE_E_28;
 	}
 }

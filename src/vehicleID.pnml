@@ -117,7 +117,7 @@ item(FEAT_TRAINS, item_diesel_Romania_CFR_060_DA, 5025) {}
 item(FEAT_TRAINS, item_diesel_Brazil_BF_EMD_GL8, 5026) {}
 item(FEAT_TRAINS, item_diesel_Brazil_EFVM_ML4000, 5027) {}
 item(FEAT_TRAINS, item_diesel_Russia_RZD_TEP60, 5028) {}
-item(FEAT_TRAINS, item_diesel_Belgium_NMBS_SNCB_67, 5029) {}
+item(FEAT_TRAINS, item_diesel_Belgium_NMBS_SNCB_62, 5029) {}
 item(FEAT_TRAINS, item_diesel_Denmark_DSB_MaK_100, 5030) {}
 item(FEAT_TRAINS, item_diesel_India_Indian_Railways_WDM_2, 5031) {}
 item(FEAT_TRAINS, item_diesel_UK_BR_14, 5032) {}
@@ -268,7 +268,7 @@ item(FEAT_TRAINS, item_emu_Japan_JNR_Shinkansen_Series_0, 8011) {}
 item(FEAT_TRAINS, item_emu_Switzerland_SBB_RABDe_510, 8012) {}
 item(FEAT_TRAINS, item_emu_Denmark_DSB_S_Tog_II, 8013) {}
 item(FEAT_TRAINS, item_emu_Germany_DB_ET420, 8014) {}
-item(FEAT_TRAINS, item_emu_Australia_CityRail_V_DDIU, 8015) {}
+item(FEAT_TRAINS, item_emu_Australia_Sydney_Trains_S_Set, 8015) {}
 item(FEAT_TRAINS, item_emu_Finland_VR_Sm2, 8016) {}
 item(FEAT_TRAINS, item_emu_Netherlands_NS_Plan_Y, 8017) {}
 item(FEAT_TRAINS, item_emu_Netherlands_NS_ICM_4000, 8018) {}
@@ -280,7 +280,7 @@ item(FEAT_TRAINS, item_emu_Sweden_SJ_X2000, 8023) {}
 item(FEAT_TRAINS, item_emu_Italy_FS_ETR500, 8024) {}
 item(FEAT_TRAINS, item_emu_Netherlands_NS_DD_IRM_VIRM, 8025) {}
 item(FEAT_TRAINS, item_emu_France_SNCF_TGV_Duplex, 8026) {}
-item(FEAT_TRAINS, item_emu_France_SNCF_TGV_Thalys, 8027) {}
+item(FEAT_TRAINS, item_emu_France_Thalys_PBKA, 8027) {}
 item(FEAT_TRAINS, item_emu_Denmark_DSB_S_Tog_IV, 8028) {}
 item(FEAT_TRAINS, item_emu_Italy_FS_ALe426, 8029) {}
 item(FEAT_TRAINS, item_emu_Japan_JR_Shinkansen_Series_700, 8030) {}
@@ -293,7 +293,7 @@ item(FEAT_TRAINS, item_emu_Germany_DB_403_ICE_3, 8036) {}
 item(FEAT_TRAINS, item_emu_Spain_RENFE_120, 8037) {}
 item(FEAT_TRAINS, item_emu_Switzerland_SBB_RABe_523_Flirt, 8038) {}
 item(FEAT_TRAINS, item_emu_Bulgaria_BDZ_10_Desiro, 8039) {}
-item(FEAT_TRAINS, item_emu_Australia_CityRail_OSCars, 8040) {}
+item(FEAT_TRAINS, item_emu_Australia_Sydney_Trains_OSCars, 8040) {}
 item(FEAT_TRAINS, item_emu_South_Africa_Gautrain_Electrostar, 8041) {}
 item(FEAT_TRAINS, item_emu_Italy_NTV_AGV, 8042) {}
 item(FEAT_TRAINS, item_emu_Netherlands_NS_4800_HSA, 8043) {}
