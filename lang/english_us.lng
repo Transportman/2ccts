@@ -138,6 +138,8 @@ str_mglv_wagon_unpowered        :Maglev Unit Wagon (Unpowered)
 str_mtro_wagon_powered          :Metro Unit Wagon (Powered)
 str_mglv_wagon_powered          :Maglev Unit Wagon (Powered)
 
+#Obsolete vehicles
+
 #PURCHASE MENU TEXTS
 
 #Can attach vehicle texts

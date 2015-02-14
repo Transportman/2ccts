@@ -103,7 +103,6 @@ str_diesel_Germany_DB_220_V200                                                  
 str_diesel_USA_Amtrak_FL9                                                               :Amtrak FL9 (dizel lokomotiva)
 str_diesel_Finland_VR_Dr12                                                              :VR Dr12 (dizel lokomotiva)
 str_diesel_Romania_CFR_060_DA                                                   :CFR 060-DA (dizel lokomotiva)
-str_diesel_Belgium_NMBS_SNCB_67                                                 :NMBS/SNCB 67 (dizel lokomotiva)
 str_diesel_Denmark_DSB_MaK_100                                                  :DSB MaK 100 (dizel lokomotiva)
 str_diesel_India_Indian_Railways_WDM_2                                  :Indian Railways WDM-2 (dizel lokomotiva)
 str_diesel_UK_BR_14                                                                     :BR 14 (dizel lokomotiva)
@@ -115,7 +114,6 @@ str_diesel_Australia_Queensland_Rail_2100                               :Queensl
 str_diesel_Croatia_HZ_2062                                                              :HZ 2062 (dizel lokomotiva)
 str_diesel_Sweden_SJ_V4                                                                 :SJ V4 (dizel lokomotiva)
 str_diesel_Canada_CNR_MLW_M420W                                                 :CNR MLW M420W (dizel lokomotiva)
-str_diesel_USA_GNR_SDP_40F                                                              :GNR SDP-40F (dizel lokomotiva)
 str_diesel_China_China_Railways_DFH3                                    :China Railways DFH3 (dizel lokomotiva)
 str_diesel_Panama_Panama_Canal_Railway_EMD_F40PH                :Panama Canal Railway EMD F40PH (dizel lokomotiva)
 str_diesel_Portugal_CP_1900                                                     :CP 1900 (dizel lokomotiva)
@@ -141,7 +139,6 @@ str_electric_UK_NER_EF1                                                 :NER EF1
 str_electric_USA_Milwaukee_Road_ES_2                    :Milwaukee Road ES-2 (električna lokomotiva)
 str_electric_USA_Pennsylvania_Railroad_FF_1     :Pennsylvania Railroad FF-1 (električna lokomotiva)
 str_electric_USA_Milwaukee_Road_EP_2_Bipolar    :Milwaukee Road EP-2 Bipolar (električna lokomotiva)
-str_electric_Chile_EFE_Series_E_28                              :EFE Series E-28 (električna lokomotiva)
 str_electric_Austria_OBB_1161                                   :OBB 1161 (električna lokomotiva)
 str_electric_Germany_DB_169                                     :DB 169 (električna lokomotiva)
 str_electric_Japan_JNR_EB10                                     :JNR EB10 (električna lokomotiva)
@@ -178,7 +175,6 @@ str_electric_Spain_RENFE_252                                    :RENFE 252 (elek
 str_electric_UK_BR_92                                                   :BR 92 (električna lokomotiva)
 str_electric_Belgium_NMBS_SNCB_13_HLE                   :NMBS/SNCB 13 HLE (električna lokomotiva)
 str_electric_Japan_JR_EH500                                     :JR EH500 (električna lokomotiva)
-str_electric_Turkey_TCDD_E55200                                 :TCDD E55200 (električna lokomotiva)
 str_electric_Germany_DB_182_ES64U_Taurus                :DB 182 ES64U 'Taurus' (električna lokomotiva)
 str_electric_Sweden_MTAB_IORE                                   :MTAB IORE (električna lokomotiva)
 str_electric_South_Korea_Korail_8200                    :Korail 8200 (električna lokomotiva)
@@ -243,6 +239,8 @@ str_mtro_wagon_unpowered        :Vagon Metroa (bez pogona)
 str_mglv_wagon_unpowered        :Vagon Magleva (bez pogona)
 str_mtro_wagon_powered          :Vagon Metroa (sa pogonom)
 str_mglv_wagon_powered          :Vagon Magleva (sa pogonom)
+
+#Obsolete vehicles
 
 #PURCHASE MENU TEXTS
 

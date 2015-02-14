@@ -60,7 +60,6 @@ str_diesel_China_China_Railways_HXN5                                    :中國�
 #Electric
 str_electric_Switzerland_RhB_DE_2_2                     :RhB DE 2/2 (電力)
 str_electric_USA_Milwaukee_Road_ES_2                    :密爾沃基鐵路ES-2型 (電力)
-str_electric_Chile_EFE_Series_E_28                              :智利鐵路 E-28 型 (電力)
 str_electric_Austria_OBB_1161                                   :奧鐵1161型 (電力)
 str_electric_Germany_DB_169                                     :德鐵 169 型 (電力)
 str_electric_Japan_JNR_EB10                                     :日本國鐵 EB10 系 (電力)
@@ -115,6 +114,8 @@ str_mtro_wagon_unpowered        :捷運車廂 (無動力)
 str_mglv_wagon_unpowered        :磁浮車廂 (無動力)
 str_mtro_wagon_powered          :捷運車廂 (有動力)
 str_mglv_wagon_powered          :磁浮車廂 (有動力)
+
+#Obsolete vehicles
 
 #PURCHASE MENU TEXTS
 

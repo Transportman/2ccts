@@ -96,11 +96,9 @@ str_diesel_Hungary_MAV_M44                                                      
 str_diesel_Belgium_NMBS_SNCB_83                                                 :NMBS/SNCB 83 (Дизель)
 str_diesel_Brazil_BF_EMD_GL8                                                    :BF EMD GL8 (Дизель)
 str_diesel_Russia_RZD_TEP60                                                     :РЖД ТЕП60 (Дизель)
-str_diesel_Belgium_NMBS_SNCB_67                                                 :NMBS/SNCB 67 (Дизель)
 str_diesel_India_Indian_Railways_WDM_2                                  :ИЖД WDM-2 (Дизель)
 str_diesel_Australia_NSWGR_422                                                  :NSWGR 422 (Дизель)
 str_diesel_Egypt_ENR_G22W                                                               :ENR G22W (Дизель)
-str_diesel_USA_GNR_SDP_40F                                                              :GNR SDP-40F (Дизель)
 str_diesel_Panama_Panama_Canal_Railway_EMD_F40PH                :EMD F40PH ЖД Панамского Канала (Дизель)
 str_diesel_USA_Amtrak_P42DC_Genesis                                     :Амтрак P42DC 'Genesis' (Дизель)
 str_diesel_Argentina_MF_GE_U20C                                                 :MF GE U20C (Дизель)
@@ -136,7 +134,6 @@ str_electric_Poland_PKP_ET41                                    :PKP ET41 (Эл�
 str_electric_Netherlands_NS_1600                                :NS 1600 (Электро)
 str_electric_China_China_Railways_SS6                   :КЖД SS6 (Электро)
 str_electric_Belgium_NMBS_SNCB_13_HLE                   :NMBS/SNCB 13 HLE (Электрик)
-str_electric_Turkey_TCDD_E55200                                 :TCDD E55200 (Электро)
 str_electric_Ukraine_UZ_DS3                                     :УЗ ДС3 (Электро)
 str_electric_Kazakhstan_KTZ_KZ4A                                :КТЖ КЗ4A (Электро)
 str_electric_France_SNCF_CC_40100                               :SNCF CC 40100 (Электро)
@@ -240,6 +237,8 @@ str_coach_Gen6_Metropolis_Coach                                                 
 
 #special wagons
 str_mglv_wagon_powered          :Вагон Состава на Магнитной Подушке (Моторный)
+
+#Obsolete vehicles
 
 #PURCHASE MENU TEXTS
 
