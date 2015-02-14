@@ -1,0 +1,175 @@
+##grflangid 0x02
+##plural 0
+##gender m w n p
+
+#Main grf title and description
+STR_GRF_NAME                    :{TITLE}
+STR_GRF_DESCRIPTION             :{SILVER}2cc Eisenbahnen der Welt in NML{}{}(c)2ccts{}Lizenz:GPLv2 oder höher.{}Einzelheiten sind in der Readme zu lesen.
+STR_GRF_URL             :https://dev.openttdcoop.org/projects/2ccts
+
+#General error messages
+str_error_region                                        :Es wurden keine Regionen aktiviert, {STRING} wurde deaktiviert.
+
+#parameter strings
+#cost parameters
+STR_PARAM_PURCHASE_COST             :Multiplikator für Anschaffungskosten
+STR_PARAM_PURCHASE_COST_DESC        :Du kannst diesen Parameter benutzen, um die Anschaffungskosten der Fahrzeuge dieses Sets zu erhöhen oder zu verringern.
+STR_PARAM_RUNNING_COST              :Multiplikator für Betriebskosten
+STR_PARAM_RUNNING_COST_DESC         :Du kannst diesen Parameter benutzen, um die Betriebskosten der Fahrzeuge dieses Sets zu erhöhen oder zu verringern.
+
+STR_PARAM_DIVIDE_16                 :1/16
+STR_PARAM_DIVIDE_8                  :1/8
+STR_PARAM_DIVIDE_4                  :1/4
+STR_PARAM_DIVIDE_2                  :1/2
+STR_PARAM_NORMAL                    :1 (standard)
+STR_PARAM_TIMES_2                   :2
+STR_PARAM_TIMES_4                   :4
+STR_PARAM_TIMES_8                   :8
+STR_PARAM_TIMES_16                  :16
+
+#region parameters
+STR_PARAM_CONCEPT                                               :Konzeptfahrzeuge (zukünftige Funktion, gegenwärtig nicht vorhanden)
+STR_PARAM_CONCEPT_DESC                                  :Benutze Konzeptfahrzeuge (dieser Parameter ist gegenwärtig funktionslos)
+STR_PARAM_REGION_AFRICA                                 :Afrika
+STR_PARAM_REGION_AFRICA_DESC                    :Benutze die Fahrzeuge aus Afrika.
+STR_PARAM_REGION_NORTHAMERICA                   :Nordamerika
+STR_PARAM_REGION_NORTHAMERICA_DESC              :Benutze die Fahrzeuge aus Nordamerika.
+STR_PARAM_REGION_SOUTHAMERICA                   :Südamerika
+STR_PARAM_REGION_SOUTHAMERICA_DESC              :Benutze die Fahrzeuge aus Südamerika
+STR_PARAM_REGION_ASIA                                   :Asien
+STR_PARAM_REGION_ASIA_DESC                              :Benutze die Fahrzeuge aus Asien.
+STR_PARAM_REGION_NORTHERNEUROPE                 :Nordeuropa
+STR_PARAM_REGION_NORTHERNEUROPE_DESC    :Benutze die Fahrzeuge aus Nordeuropa
+STR_PARAM_REGION_EASTERNEUROPE                  :Osteuropa
+STR_PARAM_REGION_EASTERNEUROPE_DESC             :Benutze die Fahrzeuge aus Osteuropa
+STR_PARAM_REGION_SOUTHERNEUROPE                 :Südeuropa
+STR_PARAM_REGION_SOUTHERNEUROPE_DESC    :Benutze die Fahrzeuge aus Südeuropa
+STR_PARAM_REGION_WESTERNEUROPE                  :Westeuropa
+STR_PARAM_REGION_WESTERNEUROPE_DESC             :Benutze die Fahrzeuge aus Westeuropa
+STR_PARAM_REGION_OCEANIA                                :Ozeanien
+STR_PARAM_REGION_OCEANIA_DESC                   :Benutze die Fahrzeuge aus Ozeanien
+
+#VEHICLE NAMES
+#Railbus-steam
+str_rbs_Austria_NOLB_1          :NOLB 1 (Dampf-Schienenbus)
+
+#Diesel Railbus
+str_rbd_New_Zealand_NZR_RM31                                    :NZR RM31 (Diesel-Schienenbus)
+str_rbd_Germany_DB_VT98                                                 :DB VT98 (Diesel-Schienenbus)
+
+#Railbus-electric
+str_rbe_Germany_DB_ET85                         :DB ET85 (Elektro-Schienenbus)
+str_rbe_Germany_DB_ET479                        :DB ET479 (Elektro-Schienenbus)
+
+#Steam
+str_steam_Belgium_Le_Belge                      :Le Belge (Dampf)
+str_steam_USA_4_4_0_American            :4-4-0 'American' (Dampf)
+str_steam_Switzerland_SBB_Ec_2_5        :SBB Ec 2/5 (Dampf)
+str_steam_USA_4_6_0_Ten_wheeler         :4-6-0 'Ten-Wheeler' (Dampf)
+str_steam_USA_2_8_0_Consolidation       :2-8-0 'Consolidation' (Dampf)
+str_steam_Austria_KkStB_99                      :KkStB 99 (Dampf)
+str_steam_UK_Caledonian_Railway_439     :Caledonian Railway 439 (Dampf)
+str_steam_Switzerland_SBB_A_3_5         :SBB A 3/5 (Dampf)
+str_steam_Switzerland_SBB_E_3_3         :SBB E 3/3 (Dampf)
+str_steam_Austria_KkStB_299             :KkStB 299 (Dampf)
+str_steam_Argentina_FCNEA_11B_2_8_0     :FCNEA 11B 2-8-0 (Dampf)
+str_steam_UK_GWR_5700                           :GWR 5700 (Dampf)
+str_steam_USA_AT_SF_5000                        :AT&SF 5000 (Dampf)
+str_steam_Germany_Prussian_S10          :Preussische S 10 (Dampf)
+str_steam_UK_LMS_5MT_Black_Five         :LMS 5MT 'Black Five' (Dampf)
+str_steam_UK_LNER_A4_Gresley            :LNER A4 'Gresley' (Dampf)
+str_steam_Germany_DB_52                         :DB BR 52 (Dampf)
+str_steam_UK_LNER_A1_Peppercorn         :LNER A1 'Peppercorn' (Dampf)
+str_steam_France_SNCF_150B                      :SNCF 150B (Dampf)
+str_steam_Italy_FS_895                          :FS 895 (Dampf)
+str_steam_Switzerland_SBB_C_5_6         :SBB C 5/6 (Dampf)
+str_steam_USA_UP_4000_Big_Boy           :UP 4000 'Big Boy' (Dampf)
+
+#Diesel
+str_diesel_Switzerland_SBB_Am_4_6                                               :SBB Am 4/6 (Diesel)
+str_diesel_Uruguay_AFE_1500                                                     :AFE 1500 (Diesel)
+str_diesel_Argentina_MF_GM_EMD_J16CW_AC                                 :MF GM-EMD-J16CW-AC (Diesel)
+str_diesel_Egypt_ENR_G22W                                                               :ENR G22W (Diesel)
+str_diesel_USA_UP_EMD_DDA40X                                                    :UP EMD DDA40X (Diesel)
+str_diesel_Belgium_NMBS_SNCB_7800                                               :NMBS/SNCB 7800 (Diesel)
+str_diesel_Germany_DB_253_G2000_3_BB                                    :DB 253 G2000-3 BB (Diesel)
+str_diesel_China_MTR_8000                                                               :MTR 8000 (Diesel)
+
+#Electric
+str_electric_South_Africa_SAR_ES_Class                  :SAR ES-Klasse (Elektrisch)
+str_electric_Germany_DB_103                                     :DB 103 (Elektrisch)
+str_electric_South_Africa_SAR_6E                                :SAR 6E (Elektrisch)
+str_electric_Austria_OBB_1063                                   :OBB 1063 (Elektrisch)
+str_electric_Spain_RENFE_252                                    :RENFE 252 (Elektrisch)
+str_electric_UK_BR_92                                                   :BR 92 (Elektrisch)
+str_electric_Germany_DB_185_TRAXX_F140                  :DB 145 TRAXX F140 (Elektrisch)
+str_electric_Turkey_TCDD_E55200                                 :TCDD E55200 (Elektrisch)
+
+#DMU
+str_dmu_Germany_DB_VT04_Flying_Hamburger        :DB VT04 'Fliegender Hamburger' (Dieseltriebwagen)
+
+#EMU
+
+#Single Unit Metro
+
+#Multiple Unit Metro
+str_mtro_UK_London_1903_Stock                                   :London 1903-er Baureihe (U-Bahn)
+str_mtro_Argentina_Le_Brugeoise                                 :Buenos Aires 'Le Brugeoise' (U-Bahn)
+str_mtro_USA_NY_R1                                                              :New York R1 (U-Bahn)
+str_mtro_UK_London_1938_Stock                                   :London 1938-er Baureihe (U-Bahn)
+str_mtro_Germany_DB_ET171                                               :DB ET171 (S-Bahn)
+str_mtro_France_Paris_M2_840                                    :Paris M2 840 (U-Bahn)
+str_mtro_Portugal_Lisbon_ML7                                    :Lissabon ML7 (U-Bahn)
+str_mtro_Hungary_Budapest_Ev3_200                               :Budapest Ev3-200 (U-Bahn)
+str_mtro_Norway_Oslo_T1000                                              :Oslo T1000 (U-Bahn)
+str_mtro_Canada_Toronto_H_series                                :Toronto H-Serie (U-Bahn)
+str_mtro_Germany_Munchen_MVG_A2                                 :München MVG A2 (U-Bahn)
+str_mtro_USA_NY_R44                                                     :New York R44 (U-Bahn)
+str_mtro_Netherlands_Amsterdam_Type_M1                  :Amsterdam M1 (U-Bahn)
+str_mtro_Sweden_Stockholm_C8                                    :Stockholm C8 (U-Bahn)
+str_mtro_North_Korea_Pyongyang_D_stock                  :Pjöngjang Baureihe D (U-Bahn)
+str_mtro_Finland_Helsinki_M100                                  :Helsinki M100 (U-Bahn)
+str_mtro_Brazil_Sao_Paulo_Serie_5500                    :Sao Paulo Serie 5500 (U-Bahn)
+str_mtro_Russia_Moscow_81_720                                   :Moskau 81-720 (U-Bahn)
+str_mtro_Japan_Tokyo_S01                                                :Tokio S01 (U-Bahn)
+str_mtro_Egypt_Cairo_1987_Stock                                 :Kairo 1987-er Baureihe (U-Bahn)
+str_mtro_Russia_Moscow_81_7175M                                 :Moskau 81-717.5M (U-Bahn)
+str_mtro_USA_Boston_01800                                               :Boston 01800 (U-Bahn)
+str_mtro_USA_LA_A650                                                    :LA A650 (U-Bahn)
+str_mtro_Taiwan_Taipei_C301                                     :Taipei C301 (U-Bahn)
+str_mtro_Netherlands_Amsterdam_CAF_90                   :Amsterdam CAF 90 (U-Bahn)
+str_mtro_France_Paris_MP89                                              :Paris MP89 (U-Bahn)
+str_mtro_Russia_Moscow_81_740                                   :Moscow 81-740 (U-Bahn)
+str_mtro_Singapore_Singapore_C830_Metropolis    :Singapore C830 'Metropolis' (U-Bahn)
+str_mtro_Norway_Oslo_MX3000                                     :Oslo MX3000 (U-Bahn)
+str_mtro_Japan_Osaka_30000                                              :Osaka 30000 (U-Bahn)
+str_mtro_Singapore_Singapore_C151A                              :Singapore C151A (U-Bahn)
+str_mtro_USA_Washington_7000                                    :Washington 7000 (U-Bahn)
+str_mtro_Greece_Thessaloniki_2014                               :Thessaloniki 2014 (U-Bahn)
+
+#Maglev
+str_mglv_China_Transrapid       :Shanghai Transrapid (Maglev)
+
+#wagons
+
+
+#coaches
+str_coach_Gen2_Heavyweight_Intercity_Coach                              :Schwerer Fernverkehrswagen
+str_coach_Gen2_Steel_Intercity_Coach                                    :Stahl-Fernverkehrswagen
+str_coach_Gen2_Steel_3_axle_Regional_Coach                              :3-achsiger Regionalbahnwage, Stahl
+str_coach_Gen3_Steel_Lightweight_Intercity_Coach                :Stahl-Leichtbau-Fernverkehrswagen
+str_coach_Gen3_Aluminium_Lightweight_Intercity_Coach    :Aluminium-Leichtbau-Fernverkehrswagen
+str_coach_Gen3_Mk1_Intercity_Coach                                              :Mk1 Fernverkehrswagen
+str_coach_Gen3_UIC_X_Intercity_Coach                                    :UIC-X Fernverkehrswagen
+str_coach_Gen3_TEE_Intercity_Coach                                              :TEE-Fernverkehrswagen
+str_coach_Gen3_Indian_Intercity_Coach                                   :Indischer Fernverkehrswagen
+str_coach_Gen4_Eurofima_Intercity_Coach                                 :Eurofima Fernverkehrswagen
+str_coach_Gen4_Russian_Intercity_Coach                                  :Russischer Fernverkehrswagen
+str_coach_Gen4_Amfleet_Intercity_Coach                                  :Amfleet Fernverkehrswagen
+
+#special wagons
+str_mtro_wagon_unpowered        :U-Bahn-Beiwagen (nicht angetrieben)
+
+#PURCHASE MENU TEXTS
+
+#Can attach vehicle texts
