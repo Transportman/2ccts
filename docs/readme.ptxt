@@ -94,16 +94,7 @@ Multiple units
 3 Known issues
 --------------
 
-Toyland/ECS/FIRS cargo support
-	At this moment these cargoes are not properly supported. This can result in
-	graphical errors and cargoes that can not be transported by a vehicle
-	in this set.
-	
-Cost balancing
-	At this moment costs still need to be balanced. Some vehicles might be 
-	very expensive compared to other vehicles. This will be fixed in a later
-	version.
-    
+   
 
 ------------------------
 4 Background information
