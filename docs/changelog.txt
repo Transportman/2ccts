@@ -1,5 +1,18 @@
 2cc TrainsInNML changelog
 =========================
+1.0 (14/02/2015)
+----------------
+- Doc: Dates are really difficult for changelogs
+- Doc: Update to readme
+- Fix #7461: HZ 1141 properties
+- Fix #7462: HZ 1141 and TCD E52500 were the same, removed TCD and used graphics for HZ
+- Fix #7465: Some trains were mislabeled
+- Fix r483: Also set the climate availability to none for the obsolete TCDD 52500
+- Fix: Changelog should have 2015 of course
+- Fix: DB 185 TRAXX naming
+- Merge: Some unpushed changes caused branching
+- Update: Translations from webtranslator
+
 1.0-RC2 (07/02/2015)
 --------------------
 - Change: DB 145 changed to DB 185 TRAXX (closes #7375)
