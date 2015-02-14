@@ -406,8 +406,7 @@
 #include "src/Electric/Belgium_NMBS_SNCB_13_HLE_item.pnml"
 #include "src/Electric/Japan_JR_EH500_graphics.pnml"
 #include "src/Electric/Japan_JR_EH500_item.pnml"
-#include "src/Electric/Turkey_TCDD_E55200_graphics.pnml"
-#include "src/Electric/Turkey_TCDD_E55200_item.pnml"
+
 #include "src/Electric/Germany_DB_182_ES64U_Taurus_graphics.pnml"
 #include "src/Electric/Germany_DB_182_ES64U_Taurus_item.pnml"
 #include "src/Electric/Sweden_MTAB_IORE_graphics.pnml"
@@ -904,6 +903,11 @@
 #include "src/Wagons/Service_Car/Service_Car_Type1_item.pnml"
 #include "src/Wagons/Service_Car/Service_Car_Type2_graphics.pnml"
 #include "src/Wagons/Service_Car/Service_Car_Type2_item.pnml"
+
+
+//obsolete vehicles
+#include "src/Obsolete/Turkey_TCDD_E55200_obsolete_graphics.pnml"
+#include "src/Obsolete/Turkey_TCDD_E55200_obsolete_item.pnml"
 
 //sort vehicles in purchase list
 #include "src/vehiclesort.pnml"

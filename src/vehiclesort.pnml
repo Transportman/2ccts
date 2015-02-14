@@ -200,7 +200,7 @@ item_electric_UK_BR_92, /*Year: 1993*/ \
 item_electric_India_Indian_Railways_WAP_4, /*Year: 1994*/ \
 item_electric_Belgium_NMBS_SNCB_13_HLE, /*Year: 1997*/ \
 item_electric_Japan_JR_EH500, /*Year: 1997*/ \
-item_electric_Turkey_TCDD_E55200, /*Year: 1998*/ \
+item_electric_Turkey_TCDD_E55200_obsolete, /*Year: 1998*/ \
 item_electric_Germany_DB_182_ES64U_Taurus, /*Year: 2000*/ \
 item_electric_Germany_DB_185_TRAXX_F140, /*Year: 2000*/ \
 item_electric_Sweden_MTAB_IORE, /*Year: 2000*/ \

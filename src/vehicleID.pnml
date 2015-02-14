@@ -209,7 +209,7 @@ item(FEAT_TRAINS, item_electric_India_Indian_Railways_WAP_4, 6048) {}
 item(FEAT_TRAINS, item_electric_Germany_DB_185_TRAXX_F140, 6049) {}
 item(FEAT_TRAINS, item_electric_Belgium_NMBS_SNCB_13_HLE, 6050) {}
 item(FEAT_TRAINS, item_electric_Japan_JR_EH500, 6051) {}
-item(FEAT_TRAINS, item_electric_Turkey_TCDD_E55200, 6052) {}
+item(FEAT_TRAINS, item_electric_Turkey_TCDD_E55200_obsolete, 6052) {} // obsoleted in 1.0
 item(FEAT_TRAINS, item_electric_Germany_DB_182_ES64U_Taurus, 6053) {}
 item(FEAT_TRAINS, item_electric_Sweden_MTAB_IORE, 6054) {}
 item(FEAT_TRAINS, item_electric_South_Korea_Korail_8200, 6055) {}

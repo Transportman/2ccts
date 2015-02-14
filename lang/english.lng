@@ -234,7 +234,7 @@ str_electric_UK_BR_92 							:BR 92 (Electric)
 str_electric_Germany_DB_185_TRAXX_F140 			:DB 185 TRAXX F140 (Electric)
 str_electric_Belgium_NMBS_SNCB_13_HLE 			:NMBS/SNCB 13 HLE (Electric)
 str_electric_Japan_JR_EH500 					:JR EH500 (Electric)
-str_electric_Turkey_TCDD_E55200 				:TCDD E55200 (Electric)
+
 str_electric_Germany_DB_182_ES64U_Taurus 		:DB 182 ES64U 'Taurus' (Electric)
 str_electric_Sweden_MTAB_IORE 					:MTAB IORE (Electric)
 str_electric_South_Korea_Korail_8200 			:Korail 8200 (Electric)
@@ -498,6 +498,9 @@ str_mglv_wagon_unpowered	:Maglev Unit Wagon (Unpowered)
 str_mu_wagon_powered		:Multiple Unit Wagon (Powered)
 str_mtro_wagon_powered		:Metro Unit Wagon (Powered)
 str_mglv_wagon_powered		:Maglev Unit Wagon (Powered)
+
+#Obsolete vehicles
+str_electric_Turkey_TCDD_E55200_obsolete 				:TCDD E55200 (Obsoleted)
 
 #PURCHASE MENU TEXTS
 str_unit_wagon				:This generic wagon can ONLY be used with MUs to create trains of the desired length

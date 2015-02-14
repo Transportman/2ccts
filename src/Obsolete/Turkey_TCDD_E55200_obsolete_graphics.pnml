@@ -10,7 +10,7 @@
 * PURCHASE
 */
 
-spriteset(spriteset_electric_Turkey_TCDD_E55200_purchase, "gfx/Electric/Turkey_TCDD_E55200.png") {
+spriteset(spriteset_electric_Turkey_TCDD_E55200_obsolete_purchase, "gfx/Obsolete/Turkey_TCDD_E55200_obsolete.png") {
 	template_purchase(1, 64)
 }
 
@@ -19,6 +19,6 @@ spriteset(spriteset_electric_Turkey_TCDD_E55200_purchase, "gfx/Electric/Turkey_T
 */
 
 //Engine
-spriteset(spriteset_electric_Turkey_TCDD_E55200, "gfx/Electric/Turkey_TCDD_E55200.png") {
+spriteset(spriteset_electric_Turkey_TCDD_E55200_obsolete, "gfx/Obsolete/Turkey_TCDD_E55200_obsolete.png") {
 	template_2cc_engines_general(1, 1)
 }
