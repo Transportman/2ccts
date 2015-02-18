@@ -5,11 +5,11 @@
 
 #Main grf title and description
 STR_GRF_NAME                    :{TITLE}
-STR_GRF_DESCRIPTION             :{SILVER}2cc Treni del mondo in NML{}{}(c)2ccts{}Licenza:GPLv2 o superiore.{}Guarda readme per detagli.
+STR_GRF_DESCRIPTION             :{SILVER}2cc Treni del mondo in NML{}{}(c)2ccts{}Licenza:GPLv2 o superiore.{}Leggere il file "readme" per dettagli.
 STR_GRF_URL             :https://dev.openttdcoop.org/projects/2ccts
 
 #General error messages
-str_used_with_dynamic_engines           :dynamic_engines = true (impostazione nel' openttd.cfg)
+str_used_with_dynamic_engines           :dynamic_engines = true (impostazione nel file "openttd.cfg")
 str_error_region                                        :Nessuna regione é attivata, {STRING} e disattivato.
 
 #parameter strings
@@ -17,7 +17,7 @@ str_error_region                                        :Nessuna regione é atti
 STR_PARAM_PURCHASE_COST             :Moltiplicatore per i costi d'acquisto
 STR_PARAM_PURCHASE_COST_DESC        :È possibile utilizzare questa impostazione per aumentare o diminuire i costi d'acquisto dei veicoli in questo set.
 STR_PARAM_RUNNING_COST              :Moltiplicatore per i costi d'esercizio
-STR_PARAM_RUNNING_COST_DESC         :È possibile utilizzare questa impostazione per aumentare o diminuire i costi d'esercizio dei veicoli in questo set.
+STR_PARAM_RUNNING_COST_DESC         :Aumenta o diminuisce i costi d'esercizio dei veicoli di questo set.
 
 STR_PARAM_DIVIDE_16                 :1/16
 STR_PARAM_DIVIDE_8                  :1/8
@@ -30,26 +30,26 @@ STR_PARAM_TIMES_8                   :8
 STR_PARAM_TIMES_16                  :16
 
 #region parameters
-STR_PARAM_CONCEPT                                               :Veicoli concettuali (caratteristica futura, non ancora disponibile)
-STR_PARAM_CONCEPT_DESC                                  :Usare veicoli concettuali (questo parametro non funziona al momento)
+STR_PARAM_CONCEPT                                               :Veicoli prototipo (caratteristica futura, non ancora disponibile)
+STR_PARAM_CONCEPT_DESC                                  :Attiva i veicoli "concept", allo stadio di prototipo (questo parametro non è ancora stato implementato)
 STR_PARAM_REGION_AFRICA                                 :Africa
-STR_PARAM_REGION_AFRICA_DESC                    :Usare veicoli dall' Africa
+STR_PARAM_REGION_AFRICA_DESC                    :Attiva i veicoli africani
 STR_PARAM_REGION_NORTHAMERICA                   :America del Nord
-STR_PARAM_REGION_NORTHAMERICA_DESC              :Usare veicoli dall' America del Nord
+STR_PARAM_REGION_NORTHAMERICA_DESC              :Attiva i veicoli nordamericani
 STR_PARAM_REGION_SOUTHAMERICA                   :America del Sud
-STR_PARAM_REGION_SOUTHAMERICA_DESC              :Usare veicoli dall' America del Sud
+STR_PARAM_REGION_SOUTHAMERICA_DESC              :Attiva i veicoli sudamericani
 STR_PARAM_REGION_ASIA                                   :Asia
-STR_PARAM_REGION_ASIA_DESC                              :Usare veicoli dall' Asia
+STR_PARAM_REGION_ASIA_DESC                              :Attiva i veicoli asiatici
 STR_PARAM_REGION_NORTHERNEUROPE                 :Europa del Nord
-STR_PARAM_REGION_NORTHERNEUROPE_DESC    :Usare veicoli dall' Europa del Nord
+STR_PARAM_REGION_NORTHERNEUROPE_DESC    :Attiva i veicoli nordeuropei
 STR_PARAM_REGION_EASTERNEUROPE                  :Europa del Est
-STR_PARAM_REGION_EASTERNEUROPE_DESC             :Usare veicoli dall' Europa del Est
+STR_PARAM_REGION_EASTERNEUROPE_DESC             :Attiva i veicoli dell'Est europeo
 STR_PARAM_REGION_SOUTHERNEUROPE                 :Europa del Sud
-STR_PARAM_REGION_SOUTHERNEUROPE_DESC    :Usare veicoli dall' Europa del Sud
+STR_PARAM_REGION_SOUTHERNEUROPE_DESC    :Attiva i veicoli dell'Europa del Sud
 STR_PARAM_REGION_WESTERNEUROPE                  :Europa del Ovest
-STR_PARAM_REGION_WESTERNEUROPE_DESC             :Usare veicoli dall' Europa del Ovest
+STR_PARAM_REGION_WESTERNEUROPE_DESC             :Attiva i veicoli dell'Europa dell'Ovest
 STR_PARAM_REGION_OCEANIA                                :Oceania
-STR_PARAM_REGION_OCEANIA_DESC                   :Usare veicoli dall' Oceania
+STR_PARAM_REGION_OCEANIA_DESC                   :Attiva i veicoli dell'Oceania
 
 #VEHICLE NAMES
 #Railbus-steam
@@ -98,7 +98,7 @@ str_steam_Switzerland_SBB_E_3_3         :SBB E 3/3 (locomotiva a vapore)
 str_steam_Austria_KkStB_299             :KkStB 299 (locomotiva a vapore)
 str_steam_New_Zealand_NZR_X_Class       :NZR X Class (locomotiva a vapore)
 str_steam_Croatia_HZ_51                         :HZ 51 (locomotiva a vapore)
-str_steam_Italy_FS_880                          :FS 880 (locomotiva a vapore)
+str_steam_Italy_FS_880                          :FS Gruppo 880 (locomotiva a vapore)
 str_steam_Argentina_FCNEA_11B_2_8_0     :FCNEA 11B 2-8-0 (locomotiva a vapore)
 str_steam_France_SNCF_140C                      :SNCF 140C (locomotiva a vapore)
 str_steam_France_SNCF_141TA             :SNCF 141TA (locomotiva a vapore)
@@ -117,7 +117,7 @@ str_steam_UK_LNER_A1_Peppercorn         :LNER A1 'Peppercorn' (locomotiva a vapo
 str_steam_South_Africa_SAR_25           :SAR 25 (locomotiva a vapore)
 str_steam_Russia_RZD_P36                        :RZD P36 (locomotiva a vapore)
 str_steam_France_SNCF_150B                      :SNCF 150B (locomotiva a vapore)
-str_steam_Italy_FS_895                          :FS 895 (locomotiva a vapore)
+str_steam_Italy_FS_895                          :FS Gruppo 895 (locomotiva a vapore)
 str_steam_Poland_PKP_Okz32                      :PKP Okz32 (locomotiva a vapore)
 str_steam_Switzerland_SBB_C_5_6         :SBB C 5/6 (locomotiva a vapore)
 str_steam_USA_UP_4000_Big_Boy           :UP 4000 'Big Boy' (locomotiva a vapore)
@@ -166,7 +166,7 @@ str_diesel_Australia_Queensland_Rail_2100                               :Queensl
 str_diesel_Croatia_HZ_2062                                                              :HZ 2062 (locomotiva diesel)
 str_diesel_Sweden_SJ_V4                                                                 :SJ V4 (locomotiva diesel)
 str_diesel_Canada_CNR_MLW_M420W                                                 :CNR MLW M420W (locomotiva diesel)
-str_diesel_USA_Amtrack_SDP_40F                                                  :Amtrack SDP-40F (locomotiva diesel)
+str_diesel_USA_Amtrack_SDP_40F                                                  :Amtrak SDP-40F (locomotiva diesel)
 str_diesel_China_China_Railways_DFH3                                    :China Railways DFH3 (locomotiva diesel)
 str_diesel_Panama_Panama_Canal_Railway_EMD_F40PH                :Panama Canal Railway EMD F40PH (locomotiva diesel)
 str_diesel_Portugal_CP_1900                                                     :CP 1900 (locomotiva diesel)
@@ -205,7 +205,7 @@ str_electric_Italy_FS_E428                                              :FS E428
 str_electric_USA_Pennsylvania_Railroad_GG_1     :Pennsylvania Railroad GG-1 (locomotiva elettrica)
 str_electric_Japan_JNR_EF55                                     :JNR EF55 (locomotiva elettrica)
 str_electric_South_Africa_SAR_ES_Class                  :SAR ES Class (locomotiva elettrica)
-str_electric_Austria_OBB_1020_Crocodile                 :OBB 1020 'Crocodile' (locomotiva elettrica)
+str_electric_Austria_OBB_1020_Crocodile                 :OBB 1020 'Coccodrillo' (locomotiva elettrica)
 str_electric_Russia_RZD_VL22M                                   :RZD VL22M (locomotiva elettrica)
 str_electric_Netherlands_NS_1000                                :NS 1000 (locomotiva elettrica)
 str_electric_Sweden_MTAB_Dm3                                    :MTAB Dm3 (locomotiva elettrica)
@@ -250,30 +250,30 @@ str_electric_India_Indian_Railways_WCG_1                :Indian Railways WCG-1 (
 str_electric_Portugal_CP_2500                                   :CP 2500 (locomotiva elettrica)
 
 #DMU
-str_dmu_Germany_DB_VT04_Flying_Hamburger        :DB VT04 'Flying Hamburger' (autotreno)
-str_dmu_Australia_NSWGR_Silver_City_Comet       :NSWGR Silver City Comet (autotreno)
-str_dmu_Czech_Republic_CD_M131                          :CD M131 (autotreno)
-str_dmu_Germany_DB_VT08                                         :DB VT08 (autotreno)
-str_dmu_Australia_Queensland_Rail_400           :Queensland Rail 400 (autotreno)
-str_dmu_Italy_FS_ALn668                                         :FS ALn668 (autotreno)
-str_dmu_Germany_DB_601_VT11_TEE                         :DB 601 VT11 TEE (autotreno)
-str_dmu_Netherlands_NS_Plan_U_DE_III            :NS Plan U DE-III (autotreno)
-str_dmu_Canada_CNR_Turbo_Train                          :CNR 'Turbo Train' (autotreno)
-str_dmu_Serbia_ZS_811                                           :ZS 811 (autotreno)
-str_dmu_UK_BR_43_IC125                                          :BR 43 IC125 (autotreno)
-str_dmu_Canada_VIA_Rail_LRC                             :VIA Rail LRC (autotreno)
-str_dmu_Sweden_SJ_Y2                                            :SJ Y2 (autotreno)
-str_dmu_Spain_RENFE_594_TRD                             :RENFE 594 TRD (autotreno)
-str_dmu_UK_BR_168                                                       :BR 168 (autotreno)
-str_dmu_Germany_DB_612_Regio_Swinger            :DB 612 'Regio Swinger' (autotreno)
-str_dmu_Germany_DB_642_Desiro                           :DB 642 'Desiro' (autotreno)
-str_dmu_Denmark_Arriva_Lint_41                          :Arriva Lint 41 (autotreno)
-str_dmu_Norway_NSB_BM_93_Talent                         :NSB BM 93 'Talent' (autotreno)
-str_dmu_Australia_Transwa_Prospector            :Transwa Prospector (autotreno)
-str_dmu_Australia_CityRail_Hunter_Railcar       :CityRail Hunter Railcar (autotreno)
-str_dmu_Russia_RZD_RA2                                          :RZD RA2 (autotreno)
-str_dmu_Denmark_DSB_IC4                                         :DSB IC4 (autotreno)
-str_dmu_Croatia_HZ_7022                                         :HZ 7022 (autotreno)
+str_dmu_Germany_DB_VT04_Flying_Hamburger        :DB VT04 'Flying Hamburger' (automotrice diesel)
+str_dmu_Australia_NSWGR_Silver_City_Comet       :NSWGR Silver City Comet (automotrice diesel)
+str_dmu_Czech_Republic_CD_M131                          :CD M131 (automotrice diesel)
+str_dmu_Germany_DB_VT08                                         :DB VT08 (automotrice diesel)
+str_dmu_Australia_Queensland_Rail_400           :Queensland Rail 400 (automotrice diesel)
+str_dmu_Italy_FS_ALn668                                         :FS ALn668 (automotrice diesel)
+str_dmu_Germany_DB_601_VT11_TEE                         :DB 601 VT11 TEE (automotrice diesel)
+str_dmu_Netherlands_NS_Plan_U_DE_III            :NS Plan U DE-III (automotrice diesel)
+str_dmu_Canada_CNR_Turbo_Train                          :CNR 'Turbo Train' (automotrice diesel)
+str_dmu_Serbia_ZS_811                                           :ZS 811 (automotrice diesel)
+str_dmu_UK_BR_43_IC125                                          :BR 43 IC125 (automotrice diesel)
+str_dmu_Canada_VIA_Rail_LRC                             :VIA Rail LRC (automotrice diesel)
+str_dmu_Sweden_SJ_Y2                                            :SJ Y2 (automotrice diesel)
+str_dmu_Spain_RENFE_594_TRD                             :RENFE 594 TRD (automotrice diesel)
+str_dmu_UK_BR_168                                                       :BR 168 (automotrice diesel)
+str_dmu_Germany_DB_612_Regio_Swinger            :DB 612 'Regio Swinger' (automotrice diesel)
+str_dmu_Germany_DB_642_Desiro                           :DB 642 'Desiro' (automotrice diesel)
+str_dmu_Denmark_Arriva_Lint_41                          :Arriva Lint 41 (automotrice diesel)
+str_dmu_Norway_NSB_BM_93_Talent                         :NSB BM 93 'Talent' (automotrice diesel)
+str_dmu_Australia_Transwa_Prospector            :Transwa Prospector (automotrice diesel)
+str_dmu_Australia_CityRail_Hunter_Railcar       :CityRail Hunter Railcar (automotrice diesel)
+str_dmu_Russia_RZD_RA2                                          :RZD RA2 (automotrice diesel)
+str_dmu_Denmark_DSB_IC4                                         :DSB IC4 (automotrice diesel)
+str_dmu_Croatia_HZ_7022                                         :HZ 7022 (automotrice diesel)
 
 #EMU
 str_emu_Netherlands_NS_Mat24                            :NS Mat'24 (elettrotreno)
@@ -323,192 +323,192 @@ str_emu_Netherlands_NS_4800_HSA                         :NS 4800 HSA (elettrotre
 str_emu_Italy_NTV_AGV_Duplex                            :NTV AGV Duplex (elettrotreno)
 
 #Single Unit Metro
-str_mtro_USA_Brooklyn_Union_Gate_Car                                    :Brooklyn Union Gate Car (Metro unitá singola)
-str_mtro_Hungary_Budapest_1894_Stock                                    :Budapest 1894 Stock (Metro unitá singola)
-str_mtro_USA_Chicago_L_Northwest_Elevated_1907_Stock    :Chicago L Northwest Elevated 1907 Stock (Metro unitá singola)
-str_mtro_Germany_Berlin_U_Bahn_C_II                                             :Berlin U-Bahn C II (Metro unitá singola)
+str_mtro_USA_Brooklyn_Union_Gate_Car                                    :Brooklyn Union Gate (Metro unità singola)
+str_mtro_Hungary_Budapest_1894_Stock                                    :Budapest Materiale del 1894 (Metro unità singola)
+str_mtro_USA_Chicago_L_Northwest_Elevated_1907_Stock    :Chicago Materiale del 1907 per L Northwest Elevated (Metro unità singola)
+str_mtro_Germany_Berlin_U_Bahn_C_II                                             :Berlino U-Bahn C II (Metro unità singola)
 
 #Multiple Unit Metro
-str_mtro_UK_London_1903_Stock                                   :London 1903 Stock (Metro)
+str_mtro_UK_London_1903_Stock                                   :Londra Materiale del 1903 (Metro)
 str_mtro_Argentina_Le_Brugeoise                                 :Buenos Aires 'Le Brugeoise' (Metro)
 str_mtro_USA_NY_R1                                                              :New York R1 (Metro)
-str_mtro_UK_London_1938_Stock                                   :London 1938 Stock (Metro)
+str_mtro_UK_London_1938_Stock                                   :Londra Materiale del 1938 (Metro)
 str_mtro_Germany_DB_ET171                                               :DB ET171 (Metro)
-str_mtro_France_Paris_M2_840                                    :Paris M2 840 (Metro)
-str_mtro_Portugal_Lisbon_ML7                                    :Lisbon ML7 (Metro)
+str_mtro_France_Paris_M2_840                                    :Parigi M2 840 (Metro)
+str_mtro_Portugal_Lisbon_ML7                                    :Lisbona ML7 (Metro)
 str_mtro_Hungary_Budapest_Ev3_200                               :Budapest Ev3-200 (Metro)
 str_mtro_Norway_Oslo_T1000                                              :Oslo T1000 (Metro)
 str_mtro_Canada_Toronto_H_series                                :Toronto H-series (Metro)
-str_mtro_Germany_Munchen_MVG_A2                                 :Munchen MVG A2 (Metro)
+str_mtro_Germany_Munchen_MVG_A2                                 :Monaco MVG A2 (Metro)
 str_mtro_USA_NY_R44                                                     :New York R44 (Metro)
 str_mtro_Netherlands_Amsterdam_Type_M1                  :Amsterdam M1 (Metro)
-str_mtro_Sweden_Stockholm_C8                                    :Stockholm C8 (Metro)
+str_mtro_Sweden_Stockholm_C8                                    :Stoccolma C8 (Metro)
 str_mtro_North_Korea_Pyongyang_D_stock                  :Pyongyang D stock (Metro)
 str_mtro_Finland_Helsinki_M100                                  :Helsinki M100 (Metro)
 str_mtro_Brazil_Sao_Paulo_Serie_5500                    :Sao Paulo Serie 5500 (Metro)
-str_mtro_Russia_Moscow_81_720                                   :Moscow 81-720 (Metro)
+str_mtro_Russia_Moscow_81_720                                   :Mosca 81-720 (Metro)
 str_mtro_Japan_Tokyo_S01                                                :Tokyo S01 (Metro)
 str_mtro_Egypt_Cairo_1987_Stock                                 :Cairo 1987 stock (Metro)
 str_mtro_UK_DLR_P86                                                     :DLR P86 (Metro)
-str_mtro_Russia_Moscow_81_7175M                                 :Moscow 81-717.5M (Metro)
+str_mtro_Russia_Moscow_81_7175M                                 :Mosca 81-717.5M (Metro)
 str_mtro_USA_Boston_01800                                               :Boston 01800 (Metro)
 str_mtro_USA_LA_A650                                                    :LA A650 (Metro)
 str_mtro_Taiwan_Taipei_C301                                     :Taipei C301 (Metro)
 str_mtro_Netherlands_Amsterdam_CAF_90                   :Amsterdam CAF 90 (Metro)
-str_mtro_France_Paris_MP89                                              :Paris MP89 (Metro)
-str_mtro_Russia_Moscow_81_740                                   :Moscow 81-740 (Metro)
+str_mtro_France_Paris_MP89                                              :Parigi MP89 (Metro)
+str_mtro_Russia_Moscow_81_740                                   :Mosca 81-740 (Metro)
 str_mtro_Singapore_Singapore_C830_Metropolis    :Singapore C830 'Metropolis' (Metro)
 str_mtro_Norway_Oslo_MX3000                                     :Oslo MX3000 (Metro)
 str_mtro_Japan_Osaka_30000                                              :Osaka 30000 (Metro)
 str_mtro_Singapore_Singapore_C151A                              :Singapore C151A (Metro)
 str_mtro_USA_Washington_7000                                    :Washington 7000 (Metro)
-str_mtro_Greece_Thessaloniki_2014                               :Thessaloniki 2014 (Metro)
+str_mtro_Greece_Thessaloniki_2014                               :Tessalonica 2014 (Metro)
 
 #Maglev
 str_mglv_China_Transrapid       :Shanghai Transrapid (Maglev)
 str_mglv_Japan_MLX01_901        :JR MLX01-901 (Maglev)
 
 #wagons
-str_wagon_Gen1_Flat_Wagon                               :Carro per merce lunga di 1a generazione
-str_wagon_Gen1_Boxcar                                   :Carro merci coperto di 1a generazione
-str_wagon_Gen1_Tanker                                   :Carro cisterna di 1a generazione
-str_wagon_Gen1_Open_Wagon                               :Carro merci aperto di legno di 1a generazione
-str_wagon_Gen2_Flat_Wagon                               :Carro per merce lunga di 2a generazione
-str_wagon_Gen2_Boxcar_Type1                             :Carro merci coperto di legno di 2a generazione (Tipo 1)
-str_wagon_Gen2_Boxcar_Type2                             :Carro merci coperto di legno di 2a generazione (Tipo 2)
-str_wagon_Gen2_Tanker                                   :Carro cisterna di 2a generazione
-str_wagon_Gen2_Open_Wagon                               :Carro merci aperto di legno di 2a generazione
-str_wagon_Gen2_Silo                                     :Carro silo di 2a generazione
-str_wagon_Gen2_Hopper                                   :Carro a tramoggio di legno di 2a generazione
-str_wagon_Gen3_Flat_Wagon                               :Carro per merce lunga di 3a generazione
-str_wagon_Gen3_Boxcar_Type1                     :Carro merci coperto di legno di 3a generazione (Tipo 1)
-str_wagon_Gen3_Boxcar_Type2                     :Carro merci coperto di legno di 3a generazione (Tipo 2)
-str_wagon_Gen3_Tanker                                   :Carro cisterna di 3a generazione
-str_wagon_Gen3_Open_Wagon                               :Carro merci aperto di 3a generazione
-str_wagon_Gen3_Silo_Type1                               :Carro silo di 3a generazione (Tipo 1)
-str_wagon_Gen3_Silo_Type2                               :Carro silo di 3a generazione (Tipo 2)
-str_wagon_Gen3_Hopper                                   :Carro a tramoggia di 3a generazione
-str_wagon_Gen4_Flatcar                                  :Carro per merci lunge di 4a generazione
-str_wagon_Gen4_Heavy_Flatcar                    :Carro pesante per merci lunge di 4a generazione
-str_wagon_Gen4_Boxcar_Type1                             :Carro merci coperto di 4a generazione (Tipo 1)
-str_wagon_Gen4_Boxcar_Type2                             :Carro merci coperto di 4a generazione (Tipo 2)
-str_wagon_Gen4_Tanker                                   :Carro cisterna di 4a generazione
-str_wagon_Gen4_Gondola                                  :Carro gondola di 4a generazione
-str_wagon_Gen4_Silo_Type1                               :Carro silo di 4a generazione (Tipo 1)
-str_wagon_Gen4_Silo_Type2                               :Carro silo di 4a generazione (Tipo 2)
-str_wagon_Gen4_Hopper_Type1                             :Carro a tramoggia con auto-scarica di 4a generazione (Tipo 1)
-str_wagon_Gen4_Hopper_Type2                             :Carro a tramoggia con auto-scarica di 4a generazione (Tipo 2)
-str_wagon_Gen4_Car_Transporter                  :Carro porta-automobili di 4a generazione
-str_wagon_Gen4_Container_Carrier                :Carro porta-container di 4a generazione
-str_wagon_Gen4_Centerbeam                               :Carro per merci lunge con trave centrale di 4a generazione
-str_wagon_Gen5_Flatcar                                  :Carro per merci lunge di 5a generazione
-str_wagon_Gen5_Heavy_Flatcar                    :Carro pesante per merci lunge di 5a generazione
-str_wagon_Gen5_Boxcar_Type1                             :Carro merci coperto di 5a generazione (Tipo 1)
-str_wagon_Gen5_Boxcar_Type2                             :Carro merci coperto di 5a generazione (Tipo 2)
-str_wagon_Gen5_Tanker                                   :Carro cisterna di 5a generazione
-str_wagon_Gen5_Gondola                                  :Carro gondola di 5a generazione
-str_wagon_Gen5_Silo_Type1                               :Carro silo di 5a generazione (Tipo 1)
-str_wagon_Gen5_Silo_Type2                               :Carro silo di 5a generazione (Tipo 2)
-str_wagon_Gen5_Hopper_Type1                             :Carro a tramoggia con auto-scarica di 5a generazione (Tipo 1)
-str_wagon_Gen5_Hopper_Type2                             :Carro a tramoggia con auto-scarica di 5a generazione (Tipo 2)
-str_wagon_Gen5_Car_Transporter                  :Carro porta-automobili di 5a generazione
-str_wagon_Gen5_Container_Carrier                :Carro porta-container di 5a generazione
-str_wagon_Gen5_Centerbeam                               :Carro per merci lunge con trave centrale di 5a generazione
-str_wagon_Gen5_Container_Doublestack    :Carro porta-container doppio di 5a generazione
-str_wagon_Gen5_Superheavy_Flatcar               :Carro superpesante per merci lunge di 5a generazione
+str_wagon_Gen1_Flat_Wagon                               :Carro piatto di prima generazione
+str_wagon_Gen1_Boxcar                                   :Carro chiuso di prima generazione
+str_wagon_Gen1_Tanker                                   :Carro cisterna di prima generazione
+str_wagon_Gen1_Open_Wagon                               :Carro aperto in legno di prima generazione
+str_wagon_Gen2_Flat_Wagon                               :Carro piatto di seconda generazione
+str_wagon_Gen2_Boxcar_Type1                             :Carro chiuso in legno di seconda generazione (Tipo 1)
+str_wagon_Gen2_Boxcar_Type2                             :Carro chiuso in legno di seconda generazione (Tipo 2)
+str_wagon_Gen2_Tanker                                   :Carro cisterna di seconda generazione
+str_wagon_Gen2_Open_Wagon                               :Carro aperto in legno di seconda generazione
+str_wagon_Gen2_Silo                                     :Carro silo di seconda generazione
+str_wagon_Gen2_Hopper                                   :Carro tramoggia in legno di seconda generazione
+str_wagon_Gen3_Flat_Wagon                               :Carro piatto di terza generazione
+str_wagon_Gen3_Boxcar_Type1                     :Carro chiuso in legno di terza generazione (Tipo 1)
+str_wagon_Gen3_Boxcar_Type2                     :Carro chiuso in legno di terza generazione (Tipo 2)
+str_wagon_Gen3_Tanker                                   :Carro cisterna di terza generazione
+str_wagon_Gen3_Open_Wagon                               :Carro aperto di terza generazione
+str_wagon_Gen3_Silo_Type1                               :Carro silo di terza generazione (Tipo 1)
+str_wagon_Gen3_Silo_Type2                               :Carro silo di terza generazione (Tipo 2)
+str_wagon_Gen3_Hopper                                   :Carro tramoggia di terza generazione
+str_wagon_Gen4_Flatcar                                  :Carro piatto di quarta generazione
+str_wagon_Gen4_Heavy_Flatcar                    :Carro piatto ad alta capacità di quarta generazione
+str_wagon_Gen4_Boxcar_Type1                             :Carro chiuso di quarta generazione (Tipo 1)
+str_wagon_Gen4_Boxcar_Type2                             :Carro chiuso di quarta generazione (Tipo 2)
+str_wagon_Gen4_Tanker                                   :Carro cisterna di quarta generazione
+str_wagon_Gen4_Gondola                                  :Carro aperto a sponde alte di quarta generazione
+str_wagon_Gen4_Silo_Type1                               :Carro silo di quarta generazione (Tipo 1)
+str_wagon_Gen4_Silo_Type2                               :Carro silo di quarta generazione (Tipo 2)
+str_wagon_Gen4_Hopper_Type1                             :Carro tramoggia a scarico automatico di quarta generazione (Tipo 1)
+str_wagon_Gen4_Hopper_Type2                             :Carro tramoggia a scarico automatico di quarta generazione (Tipo 2)
+str_wagon_Gen4_Car_Transporter                  :Carro per trasporto auto di quarta generazione
+str_wagon_Gen4_Container_Carrier                :Carro porta-container di quarta generazione
+str_wagon_Gen4_Centerbeam                               :Carro piatto con trave centrale di quarta generazione
+str_wagon_Gen5_Flatcar                                  :Carro piatto di quinta generazione
+str_wagon_Gen5_Heavy_Flatcar                    :Carro piatto ad alta capacità di quinta generazione
+str_wagon_Gen5_Boxcar_Type1                             :Carro chiuso di quinta generazione (Tipo 1)
+str_wagon_Gen5_Boxcar_Type2                             :Carro chiuso di quinta generazione (Tipo 2)
+str_wagon_Gen5_Tanker                                   :Carro cisterna di quinta generazione
+str_wagon_Gen5_Gondola                                  :Carro aperto a sponde alte di quinta generazione
+str_wagon_Gen5_Silo_Type1                               :Carro silo di quinta generazione (Tipo 1)
+str_wagon_Gen5_Silo_Type2                               :Carro silo di quinta generazione (Tipo 2)
+str_wagon_Gen5_Hopper_Type1                             :Carro tramoggia a scarico automatico di quinta generazione (Tipo 1)
+str_wagon_Gen5_Hopper_Type2                             :Carro tramoggia a scarico automatico di quinta generazione (Tipo 2)
+str_wagon_Gen5_Car_Transporter                  :Carro per trasporto auto di quinta generazione
+str_wagon_Gen5_Container_Carrier                :Carro porta-container di quinta generazione
+str_wagon_Gen5_Centerbeam                               :Carro piatto con trave centrale di quinta generazione
+str_wagon_Gen5_Container_Doublestack    :Carro porta-container doppio di quinta generazione
+str_wagon_Gen5_Superheavy_Flatcar               :Carro piatto per carichi pesanti di quinta generazione
 
 str_wagon_Service_Car_Type1                             :Carro di servizio (Tipo 1)
 str_wagon_Service_Car_Type2                             :Carro di servizio (Tipo 2)
 
 #coaches
-str_coach_Gen1_Wooden_2_axle_Compartment_Coach                  :Carrozza di legno a 2 assi con compartimenti
-str_coach_Gen1_Wooden_2_axle_Regional_Coach                     :Carrozza regionale di legno a 2 assi
-str_coach_Gen1_Wooden_2_axle_Mail_Coach                                 :Carrozza postale di legno a 2 assi
-str_coach_Gen1_Clerestory_Compartment_Coach                     :Carrozza con compartimenti e clerestorio
-str_coach_Gen1_Clerestory_Regional_Coach                                :Carroza regionale con clerestorio
-str_coach_Gen1_Clerestory_Mail_Coach                                    :Carrozza postale con clerestorio
-str_coach_Gen1_Wooden_3_axle_Compartment_Coach                  :Carrozza di legno a 3 assi con compartimenti
-str_coach_Gen1_Wooden_3_axle_Regional_Coach                     :Carrozza regionale di legno a 3 assi
-str_coach_Gen1_Wooden_3_axle_Mail_Coach                                 :Carrozza postale di legno a 3 assi
-str_coach_Gen2_Heavyweight_Intercity_Coach                              :Carrozza Intercity pesante
+str_coach_Gen1_Wooden_2_axle_Compartment_Coach                  :Carrozza in legno a 2 assi a scompartimenti
+str_coach_Gen1_Wooden_2_axle_Regional_Coach                     :Carrozza medie distanze in legno a 2 assi
+str_coach_Gen1_Wooden_2_axle_Mail_Coach                                 :Carrozza postale in legno a 2 assi
+str_coach_Gen1_Clerestory_Compartment_Coach                     :Carrozza a scompartimenti con lucernaio
+str_coach_Gen1_Clerestory_Regional_Coach                                :Carrozza medie distanze con lucernaio
+str_coach_Gen1_Clerestory_Mail_Coach                                    :Carrozza postale con lucernaio
+str_coach_Gen1_Wooden_3_axle_Compartment_Coach                  :Carrozza in legno a 3 assi a scompartimenti
+str_coach_Gen1_Wooden_3_axle_Regional_Coach                     :Carrozza medie distanze in legno a 3 assi
+str_coach_Gen1_Wooden_3_axle_Mail_Coach                                 :Carrozza postale in legno a 3 assi
+str_coach_Gen2_Heavyweight_Intercity_Coach                              :Carrozza Intercity
 str_coach_Gen2_Heavyweight_Mail_Coach                                   :Carrozza postale pesante
-str_coach_Gen2_Steel_Intercity_Coach                                    :Carrozza Intercity d'acciaio
-str_coach_Gen2_Steel_Compartment_Coach                                  :Carrozza d'acciaio con compartimenti
-str_coach_Gen2_Steel_Regional_Coach                                     :Carrozza regionale d'acciaio
-str_coach_Gen2_Steel_Mail_Coach                                                 :Carrozza postale d'acciaio
-str_coach_Gen2_Steel_2_axle_Compartment_Coach                   :Carrozza d'acciaio a 2 assi con compartimenti
-str_coach_Gen2_Steel_2_axle_Regional_Coach                              :Carrozza regionale d'acciaio a 2 assi
-str_coach_Gen2_Steel_2_axle_Mail_Coach                                  :Carrozza postale d'acciaio a 2 assi
-str_coach_Gen2_Steel_3_axle_Compartment_Coach                   :Carrozza d'acciaio a 3 assi con compartimenti
-str_coach_Gen2_Steel_3_axle_Regional_Coach                              :Carrozza regionale d'acciaio a 3 assi
-str_coach_Gen2_Steel_3_axle_Mail_Coach                                  :Carrozza postale d'acciaio a 3 assi
-str_coach_Gen3_Steel_Lightweight_Intercity_Coach                :Carrozza Intercity d'acciaio leggera
-str_coach_Gen3_Steel_Lightweight_Regional_Coach                 :Carrozza regionale d'acciaio leggera
-str_coach_Gen3_Steel_Lightweight_Mail_Coach                     :Carrozza postale d'acciaio leggera
-str_coach_Gen3_Aluminium_Lightweight_Intercity_Coach    :Carrozza Intercity d'aluminio leggera
-str_coach_Gen3_Aluminium_Lightweight_Regional_Coach     :Carrozza regionale d'aluminio leggera
-str_coach_Gen3_Aluminium_Lightweight_Mail_Coach                 :Carrozza postale d'aluminio leggera
-str_coach_Gen3_Gallery_Car                                                              :Carrozza panorama
+str_coach_Gen2_Steel_Intercity_Coach                                    :Carrozza Intercity in acciaio
+str_coach_Gen2_Steel_Compartment_Coach                                  :Carrozza in acciaio a scompartimenti
+str_coach_Gen2_Steel_Regional_Coach                                     :Carrozza medie distanze in acciaio
+str_coach_Gen2_Steel_Mail_Coach                                                 :Carrozza postale in acciaio
+str_coach_Gen2_Steel_2_axle_Compartment_Coach                   :Carrozza in acciaio a 2 assi a scompartimenti
+str_coach_Gen2_Steel_2_axle_Regional_Coach                              :Carrozza medie distanze in acciaio a 2 assi
+str_coach_Gen2_Steel_2_axle_Mail_Coach                                  :Carrozza postale in acciaio a 2 assi
+str_coach_Gen2_Steel_3_axle_Compartment_Coach                   :Carrozza in acciaio a 3 assi a scompartimenti
+str_coach_Gen2_Steel_3_axle_Regional_Coach                              :Carrozza medie distanze in acciaio a 3 assi
+str_coach_Gen2_Steel_3_axle_Mail_Coach                                  :Carrozza postale in acciaio a 3 assi
+str_coach_Gen3_Steel_Lightweight_Intercity_Coach                :Carrozza Intercity leggera in acciaio
+str_coach_Gen3_Steel_Lightweight_Regional_Coach                 :Carrozza medie distanze leggera in acciaio
+str_coach_Gen3_Steel_Lightweight_Mail_Coach                     :Carrozza postale leggera in acciaio
+str_coach_Gen3_Aluminium_Lightweight_Intercity_Coach    :Carrozza Intercity in alluminio
+str_coach_Gen3_Aluminium_Lightweight_Regional_Coach     :Carrozza medie distanze in alluminio
+str_coach_Gen3_Aluminium_Lightweight_Mail_Coach                 :Carrozza postale in alluminio
+str_coach_Gen3_Gallery_Car                                                              :Carrozza panoramica
 str_coach_Gen3_Mk1_Intercity_Coach                                              :Carrozza Intercity Mk1
 str_coach_Gen3_Mk1_Regional_Coach                                               :Carrozza regionale Mk1
 str_coach_Gen3_Mk1_Mail_Coach                                                   :Carrozza postale Mk1
-str_coach_Gen3_UIC_X_Intercity_Coach                                    :UIC-X carozza Intercity
-str_coach_Gen3_TEE_Intercity_Coach                                              :TEE carroza Intercity
-str_coach_Gen3_UIC_X_Regional_Coach                                     :Carrozza regionale UIC-X
-str_coach_Gen3_Umbauwagen_Local_Coach                                   :'Umbauwagen' carrozza locale
-str_coach_Gen3_Doppelstockwagen_Local_Coach                     :'Doppelstockwagen' carrozza locale
-str_coach_Gen3_UIC_X_Mail_Coach                                                 :UIC-X carrozza postale
+str_coach_Gen3_UIC_X_Intercity_Coach                                    :Carrozza Intercity UIC-X
+str_coach_Gen3_TEE_Intercity_Coach                                              :Carrozza Intercity tipo "TEE"
+str_coach_Gen3_UIC_X_Regional_Coach                                     :Carrozza medie distanze UIC-X
+str_coach_Gen3_Umbauwagen_Local_Coach                                   :Carrozza locale tipo 'Umbauwagen'
+str_coach_Gen3_Doppelstockwagen_Local_Coach                     :Carrozza locale tipo 'Doppelstockwagen'
+str_coach_Gen3_UIC_X_Mail_Coach                                                 :Carrozza postale UIC-X
 str_coach_Gen3_Indian_Intercity_Coach                                   :Carrozza Intercity indiana
 str_coach_Gen3_Indian_Local_Coach                                               :Carrozza locale indiana
 str_coach_Gen3_Indian_Regional_Coach                                    :Carrozza regionale indiana
 str_coach_Gen3_Indian_Mail_Coach                                                :Carrozza postale indiana
-str_coach_Gen4_Eurofima_Intercity_Coach                                 :Carrozza Eurofima
-str_coach_Gen4_InterRegio_Coach                                                 :Carrozza InterRegio
-str_coach_Gen4_Silberling_Commuter_Coach                                :'Silberling' carrozza pendolare
-str_coach_Gen4_Eurofima_Mail_Coach                                              :Carrozza postale Eurofima
-str_coach_Gen4_Double_Decker_Coach                                              :Carrozza Double Decker
+str_coach_Gen4_Eurofima_Intercity_Coach                                 :Carrozza tipo "Eurofima"
+str_coach_Gen4_InterRegio_Coach                                                 :Carrozza tipo "InterRegio"
+str_coach_Gen4_Silberling_Commuter_Coach                                :Carrozza pendolare tipo 'Silberling'
+str_coach_Gen4_Eurofima_Mail_Coach                                              :Carrozza postale tipo "Eurofima"
+str_coach_Gen4_Double_Decker_Coach                                              :Carrozza a due piani
 str_coach_Gen4_Russian_Intercity_Coach                                  :Carrozza Intercity russa
 str_coach_Gen4_Russian_Regional_Coach                                   :Carrozza regionale russa
 str_coach_Gen4_Russian_Mail_Coach                                               :Carrozza postale russa
-str_coach_Gen4_Superliner_Coach                                                 :Carrozza Superliner
-str_coach_Gen4_Superliner_California                                    :Superliner California
-str_coach_Gen4_Amfleet_Regional_Coach                                   :Amfleet carrozza regionale
-str_coach_Gen4_Amfleet_Intercity_Coach                                  :Amfleet carroza Intercity
-str_coach_Gen4_Comet_Commuter_Coach                                     :Carrozza pendolare Comet
-str_coach_Gen4_Horizon_Regional_Coach                                   :Carrozza regionale Horizon
-str_coach_Gen4_Horizon_Baggage_Coach                                    :Horizon carrozza bagagli
-str_coach_Gen4_Bombardier_Bi_level                                              :Bombardier Bi-livello
-str_coach_Gen5_High_Speed_Coach                                                 :Carrozza ad alta velocità
-str_coach_Gen5_Modern_Regional_Coach                                    :Carozza regionale moderna
-str_coach_Gen5_Modern_Commuter_Coach                                    :Carozza pendolare moderna
-str_coach_Gen5_Modern_Double_Decker_Coach                               :Carrozza Double Decker moderna
-str_coach_Gen5_High_Speed_Double_Decker_IC2000                  :Carrozza Double Decker ad alta velocità (IC2000)
-str_coach_Gen5_High_Speed_Mail_Coach                                    :Carrozza postale ad alta velocità
+str_coach_Gen4_Superliner_Coach                                                 :Carrozza tipo "Superliner"
+str_coach_Gen4_Superliner_California                                    :Carrozza tipo "Superliner California"
+str_coach_Gen4_Amfleet_Regional_Coach                                   :Carrozza medie distanze tipo "Amfleet"
+str_coach_Gen4_Amfleet_Intercity_Coach                                  :Carrozza Intercity tipo "Amfleet"
+str_coach_Gen4_Comet_Commuter_Coach                                     :Carrozza pendolare tipo "Comet"
+str_coach_Gen4_Horizon_Regional_Coach                                   :Carrozza medie distanze  tipo "Horizon"
+str_coach_Gen4_Horizon_Baggage_Coach                                    :Carrozza bagagli tipo "Horizon"
+str_coach_Gen4_Bombardier_Bi_level                                              :Carrozza Bombardier a due piani
+str_coach_Gen5_High_Speed_Coach                                                 :Carrozza per treni ad alta velocità
+str_coach_Gen5_Modern_Regional_Coach                                    :Carozza medie distanze moderna
+str_coach_Gen5_Modern_Commuter_Coach                                    :Carrozza pendolare moderna
+str_coach_Gen5_Modern_Double_Decker_Coach                               :Carrozza a due piani moderna
+str_coach_Gen5_High_Speed_Double_Decker_IC2000                  :Carrozza a due piani per alta velocità (IC2000)
+str_coach_Gen5_High_Speed_Mail_Coach                                    :Carrozza postale per alta velocità
 str_coach_Gen5_Talgo_Pendular                                                   :Carrozza Talgo Pendular
 str_coach_Gen5_Talgo_Pendular_Mail                                              :Carrozza postale Talgo Pendular
-str_coach_Gen6_Grand_Voyager_Coach                                              :Carrozza Grand Voyager
-str_coach_Gen6_Grand_Regio_Coach                                                :Carrozza Grand Regio
+str_coach_Gen6_Grand_Voyager_Coach                                              :Carrozza tipo "Grand Voyager"
+str_coach_Gen6_Grand_Regio_Coach                                                :Carrozza tipo "Grand Regio"
 str_coach_Gen6_Metropolis_Coach                                                 :Carrozza Metropolis
 str_coach_Gen6_Speedmail_Coach                                                  :Carrozza postale Speedmail
-str_coach_Gen6_Super_Regio_Coach                                                :Carrozza Super Regio
-str_coach_Gen6_Super_Voyager_Coach                                              :Carrozza Super Voyager
+str_coach_Gen6_Super_Regio_Coach                                                :Carrozza tipo "Super Regio"
+str_coach_Gen6_Super_Voyager_Coach                                              :Carrozza tipo "Super Voyager"
 
 #special wagons
-str_mu_wagon_unpowered          :Carozza treno articolato (non motorizzata)
-str_mtro_wagon_unpowered        :Carozza metro (non motorizzata)
+str_mu_wagon_unpowered          :Carrozza per treno articolato (non motorizzata)
+str_mtro_wagon_unpowered        :Carrozza della metropolitana (non motorizzata)
 str_mglv_wagon_unpowered        :Carozza maglev (non motorizzata)
-str_mu_wagon_powered            :Carozza treno articolato (motorizzata)
-str_mtro_wagon_powered          :Carozza metro (motorizzata)
-str_mglv_wagon_powered          :Carozza maglev (motorizzata)
+str_mu_wagon_powered            :Carrozza per treno articolato (motorizzata)
+str_mtro_wagon_powered          :Carrozza della metropolitana (motorizzata)
+str_mglv_wagon_powered          :Carrozza maglev (motorizzata)
 
 #Obsolete vehicles
 str_electric_Turkey_TCDD_E55200_obsolete                                :TCDD E55200 (antiquata)
 
 #PURCHASE MENU TEXTS
-str_unit_wagon                          :Questa carozza generica si puo usare SOLTANTO per la creazione di unitá multiple (MU) di lunghezza desiderata
+str_unit_wagon                          :Questa carozza generica può essere usata SOLO per comporre unità multiple di lunghezza desiderata
 
 #Can attach vehicle texts
-str_cannot_attach_wagon_to_MU                   :Carozze normali non possono attaccarsi a locomotive di unitá multiple
-str_cannot_attach_wagon_to_Unit_Wagon   :Carozze normali non possono attaccarsi a carrozze di unitá multiple
-str_cannot_attach_Unit_wagon_to_engine  :Carozze di unitá multiple non possono attaccarsi a locomotive normali
-str_cannot_attach_Unit_wagon_to_wagon   :Carozze di unitá multiple non possono attaccarsi a carozze normali
+str_cannot_attach_wagon_to_MU                   :Non è possibile agganciare carrozze normali a parti di unità multiple
+str_cannot_attach_wagon_to_Unit_Wagon   :Non è possibile agganciare carrozze normali a parti di unità multiple
+str_cannot_attach_Unit_wagon_to_engine  :Non è possibile agganciare parti di unità multiple a una locomotiva normale
+str_cannot_attach_Unit_wagon_to_wagon   :Non è possibile agganciare parti di unità multiple a carrozze normali
