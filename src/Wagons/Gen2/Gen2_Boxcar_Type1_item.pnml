@@ -31,7 +31,7 @@ item(FEAT_TRAINS, item_wagon_Gen2_Boxcar_Type1) {
         reliability_decay: 20;
         CARGODEF_BOXCAR
         cargo_age_period: 185;
-        misc_flags: bitmask(TRAIN_FLAG_2CC);
+        misc_flags: bitmask(TRAIN_FLAG_2CC, TRAIN_FLAG_AUTOREFIT);
         refit_cost: 0;
         track_type: RAIL;
 		ai_special_flag: AI_FLAG_PASSENGER;
