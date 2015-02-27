@@ -2,50 +2,195 @@
 ##plural 1
 
 #Main grf title and description
+STR_GRF_DESCRIPTION             :{SILVER}2cc世界列车组(NML版){}{}(c)2ccts{}License:GPLv2 or higher.{}See readme for details.
 
 #General error messages
+str_error_region                                        :未激活地区, {STRING} 已禁用
 
 #parameter strings
 #cost parameters
 
+STR_PARAM_DIVIDE_2                  :1/2
+STR_PARAM_NORMAL                    :1 (默认)
+STR_PARAM_TIMES_8                   :8
 
 #region parameters
+STR_PARAM_CONCEPT_DESC                                  :使用概念车辆(该参数当前尚未生效)
+STR_PARAM_REGION_NORTHAMERICA_DESC              :使用来自北美的车辆
+STR_PARAM_REGION_SOUTHAMERICA                   :南美
+STR_PARAM_REGION_NORTHERNEUROPE                 :北欧
+STR_PARAM_REGION_EASTERNEUROPE                  :东欧
+STR_PARAM_REGION_SOUTHERNEUROPE_DESC    :使用来自南欧的车辆
+STR_PARAM_REGION_WESTERNEUROPE                  :西欧
+STR_PARAM_REGION_WESTERNEUROPE_DESC             :使用来自西欧的车辆
 
 #VEHICLE NAMES
 #Railbus-steam
+str_rbs_Italy_FS_86                     :FS 86 (蒸汽铁路巴士)
 
 #Diesel Railbus
+str_rbd_New_Zealand_NZR_RM31                                    :NZR RM31 (柴油铁路巴士)
+str_rbd_Portugal_CP_0100                                                :CP 0100 (柴油铁路巴士)
 str_rbd_USA_Amtrak_Budd_RDC                                     :美铁Budd RDC (柴油铁路巴士)
+str_rbd_Germany_DB_VT98                                                 :DB VT98 (柴油铁路巴士)
+str_rbd_Germany_OHE_520_GDT                                     :OHE 520 GDT (柴油铁路巴士)
+str_rbd_Netherlands_NS_20_Kameel                                :NS 20 'Kameel' (柴油铁路巴士)
+str_rbd_Russia_RZD_ACh2                                                 :RZD ACh2 (柴油铁路巴士)
+str_rbd_Netherlands_NS_DH1                                              :NS DH1 (柴油铁路巴士)
+str_rbd_Austria_OBB_5047                                                :OBB 5047 (柴油铁路巴士)
+str_rbd_United_Kingdom_BR_153_Super_Sprinter    :BR 153 'Super Sprinter' (柴油铁路巴士)
+str_rbd_Germany_DB_650_Regio_Shuttle                    :DB 650 'Regio Shuttle' (柴油铁路巴士)
+str_rbd_Germany_DB_670                                                  :DB 670 (柴油铁路巴士)
 
 #Railbus-electric
+str_rbe_Switzerland_SBB_Cfe_3_3         :SBB Cfe 3/3 (电力铁路巴士)
 
 #Steam
+str_steam_Switzerland_SBB_Ec_2_5        :SBB Ec 2/5 (蒸汽)
+str_steam_USA_2_8_0_Consolidation       :2-8-0 'Consolidation' (蒸汽)
+str_steam_Austria_KkStB_99                      :KkStB 99 (蒸汽)
+str_steam_Switzerland_SBB_E_3_3         :SBB E 3/3 (蒸汽)
+str_steam_Croatia_HZ_51                         :HZ 51 (蒸汽)
+str_steam_France_SNCF_140C                      :SNCF 140C (蒸汽)
+str_steam_UK_GWR_5700                           :GWR 5700 (蒸汽)
+str_steam_Germany_Prussian_S10          :Prussian S.10 (蒸汽)
+str_steam_France_SNCF_150B                      :SNCF 150B (蒸汽)
+str_steam_Poland_PKP_Okz32                      :PKP Okz32 (蒸汽)
 
 #Diesel
+str_diesel_Germany_DB_270                                                               :DB 270 (柴油)
+str_diesel_USA_UP_EMD_E8                                                                :UP EMD E8 (柴油)
+str_diesel_Brazil_EFCB_ALCO_RS_3                                                :EFCB ALCO RS-3 (柴油)
+str_diesel_USA_Pennsylvania_Railroad_RF_16_Sharknose    :Pennsylvania Railroad RF-16 'Sharknose' (柴油)
+str_diesel_Austria_OBB_2060                                                     :OBB 2060 (柴油)
+str_diesel_Hungary_MAV_M44                                                              :MAV M44 (柴油)
+str_diesel_Belgium_NMBS_SNCB_62                                                 :NMBS/SNCB 62 (柴油)
+str_diesel_India_Indian_Railways_WDM_2                                  :Indian Railways WDM-2 (柴油)
+str_diesel_Russia_RZD_M62                                                               :RZD M62 (柴油)
+str_diesel_USA_UP_EMD_DDA40X                                                    :UP EMD DDA40X (柴油)
+str_diesel_Australia_Queensland_Rail_2100                               :Queensland Rail 2100 (柴油)
+str_diesel_Turkey_TCDD_DH7000                                                   :TCDD DH7000 (柴油)
+str_diesel_Belgium_NMBS_SNCB_7800                                               :NMBS/SNCB 7800 (柴油)
 str_diesel_UK_BR_66                                                                     :BR 66 (柴油机车)
+str_diesel_Iran_RAI_DE43CA_Prima                                                :RAI DE43CA 'Prima' (柴油)
+str_diesel_Germany_DB_260_Gravita_10BB                                  :DB 260 Gravita 10BB (柴油)
+str_diesel_Germany_HVLE_V490                                                    :HVLE V490 (柴油)
 
 #Electric
+str_electric_Norway_NSB_EL7                                     :NSB EL7 (电力)
+str_electric_USA_Milwaukee_Road_ES_2                    :Milwaukee Road ES-2 (电力)
+str_electric_Chile_EFE_E_28                                     :EFE E-28 (电力)
+str_electric_Germany_DB_104                                     :DB 104 (电力)
+str_electric_Italy_FS_E428                                              :FS E428 (电力)
+str_electric_Austria_OBB_1020_Crocodile                 :OBB 1020 'Crocodile' (电力)
+str_electric_Netherlands_NS_1000                                :NS 1000 (电力)
+str_electric_France_SNCF_BB_9004                                :SNCF BB 9004 (电力)
+str_electric_Italy_FS_E646                                              :FS E646 (电力)
+str_electric_Russia_RZD_VL41                                    :RZD VL41 (电力)
+str_electric_Finland_VR_Sr1                                     :VR Sr1 (电力)
+str_electric_France_SNCF_BB_22200                               :SNCF BB 22200 (电力)
+str_electric_Austria_OBB_1063                                   :OBB 1063 (电力)
+str_electric_Russia_RZD_VL85                                    :RZD VL85 (电力)
+str_electric_Switzerland_SBB_Re460_Lok_2000     :SBB Re460 'Lok 2000' (电力)
+str_electric_UK_BR_92                                                   :BR 92 (电力)
+str_electric_Germany_DB_185_TRAXX_F140                  :DB 185 TRAXX F140 (电力)
+str_electric_Sweden_MTAB_IORE                                   :MTAB IORE (电力)
+str_electric_India_Indian_Railways_WAP_4                :Indian Railways WAP-4 (电力)
+str_electric_India_Indian_Railways_WCG_1                :Indian Railways WCG-1 (电力)
 
 #DMU
+str_dmu_Australia_NSWGR_Silver_City_Comet       :NSWGR Silver City Comet (柴油动车)
+str_dmu_Czech_Republic_CD_M131                          :CD M131 (柴油动车)
+str_dmu_Germany_DB_VT08                                         :DB VT08 (柴油动车)
+str_dmu_Australia_Queensland_Rail_400           :Queensland Rail 400 (柴油动车)
+str_dmu_Germany_DB_601_VT11_TEE                         :DB 601 VT11 TEE (柴油动车)
+str_dmu_Netherlands_NS_Plan_U_DE_III            :NS Plan U DE-III (柴油动车)
+str_dmu_Canada_CNR_Turbo_Train                          :CNR 'Turbo Train' (柴油动车)
+str_dmu_Spain_RENFE_594_TRD                             :RENFE 594 TRD (柴油动车)
+str_dmu_Germany_DB_612_Regio_Swinger            :DB 612 'Regio Swinger' (柴油动车)
+str_dmu_Australia_CityRail_Hunter_Railcar       :CityRail Hunter Railcar (柴油动车)
+str_dmu_Denmark_DSB_IC4                                         :DSB IC4 (柴油动车)
 
 #EMU
+str_emu_Italy_ATAC_ECD_21_30                            :ATAC ECD 21-30 (电力动车)
+str_emu_Netherlands_NS_Mat54                            :NS Mat'54 (电力动车)
+str_emu_Switzerland_SBB_Rae_TEE_II                      :SBB Rae TEE II (电力动车)
+str_emu_Japan_Odakyu_10000_Series_Romance       :Odakyu 10000 Series 'Romance' (电力动车)
+str_emu_Italy_FS_ETR500                                         :FS ETR500 (电力动车)
+str_emu_Netherlands_NS_mDDm_390                         :NS mDDm 390 (电力动车)
+str_emu_Norway_NSB_BM73                                         :NSB BM73 (电力动车)
+str_emu_Luxembourg_CFL_2200_Coradia_Duplex      :CFL 2200 'Coradia Duplex' (电力动车)
 
 #Single Unit Metro
 
 #Multiple Unit Metro
+str_mtro_USA_NY_R1                                                              :New York R1 (地铁)
+str_mtro_Portugal_Lisbon_ML7                                    :Lisbon ML7 (地铁)
+str_mtro_Hungary_Budapest_Ev3_200                               :Budapest Ev3-200 (地铁)
+str_mtro_Germany_Munchen_MVG_A2                                 :Munchen MVG A2 (地铁)
+str_mtro_USA_NY_R44                                                     :New York R44 (地铁)
+str_mtro_Netherlands_Amsterdam_Type_M1                  :Amsterdam M1 (地铁)
+str_mtro_North_Korea_Pyongyang_D_stock                  :Pyongyang D stock (地铁)
+str_mtro_Brazil_Sao_Paulo_Serie_5500                    :Sao Paulo Serie 5500 (地铁)
+str_mtro_Japan_Tokyo_S01                                                :Tokyo S01 (地铁)
+str_mtro_Singapore_Singapore_C830_Metropolis    :Singapore C830 'Metropolis' (地铁)
+str_mtro_Norway_Oslo_MX3000                                     :Oslo MX3000 (地铁)
+str_mtro_USA_Washington_7000                                    :Washington 7000 (地铁)
 
 #Maglev
+str_mglv_Japan_MLX01_901        :JR MLX01-901 (磁浮)
 
 #wagons
+str_wagon_Gen1_Flat_Wagon                               :1st Gen Flat Wagon
+str_wagon_Gen2_Flat_Wagon                               :2nd Gen Flat Wagon
+str_wagon_Gen2_Open_Wagon                               :2nd Gen Wooden Open Wagon
+str_wagon_Gen3_Flat_Wagon                               :3rd Gen Flat Wagon
+str_wagon_Gen3_Boxcar_Type1                     :3rd Gen Wooden Boxcar (Type 1)
+str_wagon_Gen3_Boxcar_Type2                     :3rd Gen Wooden Boxcar (Type 2)
+str_wagon_Gen3_Tanker                                   :3rd Gen Tanker
+str_wagon_Gen4_Tanker                                   :4th Gen Tanker
+str_wagon_Gen4_Hopper_Type2                             :4th Gen Self-discharging Hopper (Type 2)
+str_wagon_Gen4_Car_Transporter                  :4th Gen Car Transporter
+str_wagon_Gen4_Centerbeam                               :4th Gen Centerbeam Flatcar
+str_wagon_Gen5_Heavy_Flatcar                    :5th Gen Heavy Flatcar
+str_wagon_Gen5_Superheavy_Flatcar               :5th Gen Superheavy Flatcar
 
 
 #coaches
+str_coach_Gen1_Wooden_2_axle_Regional_Coach                     :Wooden 2-axle Regional Coach
+str_coach_Gen1_Wooden_2_axle_Mail_Coach                                 :Wooden 2-axle Mail Coach
+str_coach_Gen1_Wooden_3_axle_Mail_Coach                                 :Wooden 3-axle Mail Coach
+str_coach_Gen2_Steel_Compartment_Coach                                  :Steel Compartment Coach
+str_coach_Gen2_Steel_2_axle_Compartment_Coach                   :Steel 2-axle Compartment Coach
+str_coach_Gen2_Steel_2_axle_Mail_Coach                                  :Steel 2-axle Mail Coach
+str_coach_Gen2_Steel_3_axle_Compartment_Coach                   :Steel 3-axle Compartment Coach
+str_coach_Gen2_Steel_3_axle_Mail_Coach                                  :Steel 3-axle Mail Coach
 str_coach_Gen3_Steel_Lightweight_Intercity_Coach                :城际轻轨客车
+str_coach_Gen3_Steel_Lightweight_Mail_Coach                     :Steel Lightweight Mail Coach
+str_coach_Gen3_Aluminium_Lightweight_Mail_Coach                 :Aluminium Lightweight Mail Coach
+str_coach_Gen3_Gallery_Car                                                              :Gallery Car
+str_coach_Gen3_UIC_X_Intercity_Coach                                    :UIC-X Intercity Coach
+str_coach_Gen3_Doppelstockwagen_Local_Coach                     :'Doppelstockwagen' Local Coach
+str_coach_Gen3_Indian_Mail_Coach                                                :Indian Mail Coach
+str_coach_Gen4_Superliner_California                                    :Superliner California
+str_coach_Gen4_Horizon_Regional_Coach                                   :Horizon Regional Coach
+str_coach_Gen4_Horizon_Baggage_Coach                                    :Horizon Baggage Coach
+str_coach_Gen4_Bombardier_Bi_level                                              :Bombardier Bi-level
+str_coach_Gen5_Modern_Commuter_Coach                                    :Modern Commuter Coach
+str_coach_Gen5_High_Speed_Mail_Coach                                    :High Speed Mail Coach
+str_coach_Gen5_Talgo_Pendular                                                   :Talgo Pendular
+str_coach_Gen6_Speedmail_Coach                                                  :Speedmail Coach
 
 #special wagons
+str_mu_wagon_unpowered          :动车复合列车厢 (无动力)
+str_mtro_wagon_powered          :Metro Unit Wagon (带动力)
 
 #Obsolete vehicles
 
 #PURCHASE MENU TEXTS
+str_unit_wagon                          :该通用车厢只能与动车共用来组成期望长度的列车
 
 #Can attach vehicle texts
+str_cannot_attach_wagon_to_MU                   :不可将车厢挂载在动车上
+str_cannot_attach_wagon_to_Unit_Wagon   :不可挂载常规车厢到动车车厢
+str_cannot_attach_Unit_wagon_to_wagon   :不可挂载动力车厢到常规车厢上
