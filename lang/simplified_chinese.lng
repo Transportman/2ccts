@@ -2,195 +2,512 @@
 ##plural 1
 
 #Main grf title and description
+STR_GRF_NAME                    :{TITLE}
 STR_GRF_DESCRIPTION             :{SILVER}2cc世界列车组(NML版){}{}(c)2ccts{}License:GPLv2 or higher.{}See readme for details.
+STR_GRF_URL             :https://dev.openttdcoop.org/projects/2ccts
 
 #General error messages
-str_error_region                                        :未激活地区, {STRING} 已禁用
+str_used_with_dynamic_engines           :dynamic_engines = true (在openttd.cfg内设置)
+str_error_region                                        :未激活地区分区, {STRING} 已禁用
 
 #parameter strings
 #cost parameters
+STR_PARAM_PURCHASE_COST             :采购费用加倍
+STR_PARAM_PURCHASE_COST_DESC        :此参数可以提高或降低车辆采购费用。
+STR_PARAM_RUNNING_COST              :营运费用加倍
+STR_PARAM_RUNNING_COST_DESC         :此参数可以提高或降低车辆营运费用。
 
+STR_PARAM_DIVIDE_16                 :1/16
+STR_PARAM_DIVIDE_8                  :1/8
+STR_PARAM_DIVIDE_4                  :1/4
 STR_PARAM_DIVIDE_2                  :1/2
 STR_PARAM_NORMAL                    :1 (默认)
+STR_PARAM_TIMES_2                   :2
+STR_PARAM_TIMES_4                   :4
 STR_PARAM_TIMES_8                   :8
+STR_PARAM_TIMES_16                  :16
 
 #region parameters
-STR_PARAM_CONCEPT_DESC                                  :使用概念车辆(该参数当前尚未生效)
-STR_PARAM_REGION_NORTHAMERICA_DESC              :使用来自北美的车辆
+STR_PARAM_CONCEPT                                               :概念车型 (未来的功能, 尚未实现)
+STR_PARAM_CONCEPT_DESC                                  :使用概念车型 (此参数尚未生效)
+STR_PARAM_REGION_AFRICA                                 :非洲
+STR_PARAM_REGION_AFRICA_DESC                    :使用非洲车辆
+STR_PARAM_REGION_NORTHAMERICA                   :北美
+STR_PARAM_REGION_NORTHAMERICA_DESC              :使用北美车辆
 STR_PARAM_REGION_SOUTHAMERICA                   :南美
+STR_PARAM_REGION_SOUTHAMERICA_DESC              :使用南美车辆
+STR_PARAM_REGION_ASIA                                   :亚洲
+STR_PARAM_REGION_ASIA_DESC                              :使用亚洲车辆
 STR_PARAM_REGION_NORTHERNEUROPE                 :北欧
+STR_PARAM_REGION_NORTHERNEUROPE_DESC    :使用北欧车辆
 STR_PARAM_REGION_EASTERNEUROPE                  :东欧
-STR_PARAM_REGION_SOUTHERNEUROPE_DESC    :使用来自南欧的车辆
+STR_PARAM_REGION_EASTERNEUROPE_DESC             :使用东欧车辆
+STR_PARAM_REGION_SOUTHERNEUROPE                 :南欧
+STR_PARAM_REGION_SOUTHERNEUROPE_DESC    :使用南欧车辆
 STR_PARAM_REGION_WESTERNEUROPE                  :西欧
-STR_PARAM_REGION_WESTERNEUROPE_DESC             :使用来自西欧的车辆
+STR_PARAM_REGION_WESTERNEUROPE_DESC             :使用西欧车辆
+STR_PARAM_REGION_OCEANIA                                :大洋洲
+STR_PARAM_REGION_OCEANIA_DESC                   :使用大洋洲车辆
 
 #VEHICLE NAMES
 #Railbus-steam
-str_rbs_Italy_FS_86                     :FS 86 (蒸汽铁路巴士)
+str_rbs_Austria_NOLB_1          :下奥地利铁路NOLB 1 (蒸汽铁路巴士)
+str_rbs_Italy_FS_86                     :意铁FS 86 (蒸汽铁路巴士)
 
 #Diesel Railbus
-str_rbd_New_Zealand_NZR_RM31                                    :NZR RM31 (柴油铁路巴士)
-str_rbd_Portugal_CP_0100                                                :CP 0100 (柴油铁路巴士)
-str_rbd_USA_Amtrak_Budd_RDC                                     :美铁Budd RDC (柴油铁路巴士)
-str_rbd_Germany_DB_VT98                                                 :DB VT98 (柴油铁路巴士)
-str_rbd_Germany_OHE_520_GDT                                     :OHE 520 GDT (柴油铁路巴士)
-str_rbd_Netherlands_NS_20_Kameel                                :NS 20 'Kameel' (柴油铁路巴士)
-str_rbd_Russia_RZD_ACh2                                                 :RZD ACh2 (柴油铁路巴士)
-str_rbd_Netherlands_NS_DH1                                              :NS DH1 (柴油铁路巴士)
-str_rbd_Austria_OBB_5047                                                :OBB 5047 (柴油铁路巴士)
-str_rbd_United_Kingdom_BR_153_Super_Sprinter    :BR 153 'Super Sprinter' (柴油铁路巴士)
-str_rbd_Germany_DB_650_Regio_Shuttle                    :DB 650 'Regio Shuttle' (柴油铁路巴士)
-str_rbd_Germany_DB_670                                                  :DB 670 (柴油铁路巴士)
+str_rbd_Australia_Victorian_Railways_AEC_RM1    :维多利亚铁路(澳) AEC RM1 (内燃铁路巴士)
+str_rbd_Germany_DB_VT133                                                :德铁DB VT133 (内燃铁路巴士)
+str_rbd_United_Kingdom_GWR_AEC_Railcar                  :大西部铁路(英)GWR AEC Railcar (内燃铁路巴士)
+str_rbd_Germany_DB_VT42                                                 :德铁DB VT42 (内燃铁路巴士)
+str_rbd_New_Zealand_NZR_RM31                                    :新西兰铁路NZR RM31 (内燃铁路巴士)
+str_rbd_Portugal_CP_0100                                                :葡铁CP 0100 (内燃铁路巴士)
+str_rbd_USA_Amtrak_Budd_RDC                                     :美铁Amtrak Budd RDC (内燃铁路巴士)
+str_rbd_Germany_DB_VT98                                                 :德铁DB VT98 (内燃铁路巴士)
+str_rbd_Germany_OHE_520_GDT                                     :东汉诺威铁路(德)OHE 520 GDT (内燃铁路巴士)
+str_rbd_Netherlands_NS_20_Kameel                                :荷铁NS 20 'Kameel' (内燃铁路巴士)
+str_rbd_Finland_VR_Dm7                                                  :芬铁VR Dm7 (内燃铁路巴士)
+str_rbd_Russia_RZD_ACh2                                                 :俄铁RZD ACh2 (内燃铁路巴士)
+str_rbd_Netherlands_NS_DH1                                              :荷铁NS DH1 (内燃铁路巴士)
+str_rbd_Austria_OBB_5047                                                :奥铁OBB 5047 (内燃铁路巴士)
+str_rbd_United_Kingdom_BR_153_Super_Sprinter    :英铁BR 153 'Super Sprinter' (内燃铁路巴士)
+str_rbd_Czech_Republic_CD_809                                   :捷克铁路CD 809 (内燃铁路巴士)
+str_rbd_Germany_DB_650_Regio_Shuttle                    :德铁DB 650 'Regio Shuttle' (内燃铁路巴士)
+str_rbd_Germany_DB_670                                                  :德铁DB 670 (内燃铁路巴士)
+str_rbd_Lithuania_Lithuanian_Railways_AR2               :立陶宛铁路 AR2 (内燃铁路巴士)
 
 #Railbus-electric
-str_rbe_Switzerland_SBB_Cfe_3_3         :SBB Cfe 3/3 (电力铁路巴士)
+str_rbe_Switzerland_SBB_Cfe_3_3         :瑞铁SBB Cfe 3/3 (电力铁路巴士)
+str_rbe_Morocco_ONCFM_ZAB1000           :摩洛哥铁路ONCFM ZAB1000 (电力铁路巴士)
+str_rbe_Germany_DB_ET85                         :德铁DB ET85 (电力铁路巴士)
+str_rbe_Germany_DB_ET479                        :德铁DB ET479 (电力铁路巴士)
+str_rbe_Italy_FS_ALe_840                        :意铁FS ALe 840 (电力铁路巴士)
 
 #Steam
-str_steam_Switzerland_SBB_Ec_2_5        :SBB Ec 2/5 (蒸汽)
-str_steam_USA_2_8_0_Consolidation       :2-8-0 'Consolidation' (蒸汽)
-str_steam_Austria_KkStB_99                      :KkStB 99 (蒸汽)
-str_steam_Switzerland_SBB_E_3_3         :SBB E 3/3 (蒸汽)
-str_steam_Croatia_HZ_51                         :HZ 51 (蒸汽)
-str_steam_France_SNCF_140C                      :SNCF 140C (蒸汽)
-str_steam_UK_GWR_5700                           :GWR 5700 (蒸汽)
-str_steam_Germany_Prussian_S10          :Prussian S.10 (蒸汽)
-str_steam_France_SNCF_150B                      :SNCF 150B (蒸汽)
-str_steam_Poland_PKP_Okz32                      :PKP Okz32 (蒸汽)
+str_steam_Belgium_Le_Belge                      :(比)Le Belge (蒸汽)
+str_steam_USA_4_4_0_American            :(美)4-4-0 'American' (蒸汽)
+str_steam_Switzerland_SBB_Ec_2_5        :瑞铁SBB Ec 2/5 (蒸汽)
+str_steam_USA_4_6_0_Ten_wheeler         :(美)4-6-0 'Ten-wheeler' (蒸汽)
+str_steam_USA_2_8_0_Consolidation       :(美)2-8-0 'Consolidation' (蒸汽)
+str_steam_Hungary_MAV_377                       :匈铁MAV 377 (蒸汽)
+str_steam_Austria_KkStB_99                      :帝国皇家铁路(奥)KkStB 99 (蒸汽)
+str_steam_UK_Caledonian_Railway_439     :苏格兰铁路 439 (蒸汽)
+str_steam_Switzerland_SBB_A_3_5         :瑞铁SBB A 3/5 (蒸汽)
+str_steam_Switzerland_SBB_E_3_3         :瑞铁SBB E 3/3 (蒸汽)
+str_steam_Austria_KkStB_299             :帝国皇家铁路(奥)KkStB 299 (蒸汽)
+str_steam_New_Zealand_NZR_X_Class       :新西兰铁NZR X Class (蒸汽)
+str_steam_Croatia_HZ_51                         :克铁HZ 51 (蒸汽)
+str_steam_Italy_FS_880                          :意铁FS 880 (蒸汽)
+str_steam_Argentina_FCNEA_11B_2_8_0     :阿根廷东北铁路FCNEA 11B 2-8-0 (蒸汽)
+str_steam_France_SNCF_140C                      :法铁SNCF 140C (蒸汽)
+str_steam_France_SNCF_141TA             :法铁SNCF 141TA (蒸汽)
+str_steam_UK_GWR_4900                           :大西部铁路(英)GWR 4900 (蒸汽)
+str_steam_UK_GWR_5700                           :大西部铁路(英)GWR 5700 (蒸汽)
+str_steam_Netherlands_NS_6300           :荷铁NS 6300 (蒸汽)
+str_steam_USA_AT_SF_5000                        :圣塔菲铁路(美)AT&SF 5000 (蒸汽)
+str_steam_Germany_Prussian_S10          :(德)Prussian S.10 (蒸汽)
+str_steam_UK_LMS_5MT_Black_Five         :伦敦米德兰苏格兰铁路LMS 5MT 'Black Five' (蒸汽)
+str_steam_Russia_RZD_9P                         :俄铁RZD 9P (蒸汽)
+str_steam_UK_LNER_A4_Gresley            :伦敦东北铁路LNER A4 'Gresley' (蒸汽)
+str_steam_Canada_CPR_Royal_Hudson       :加拿大太平洋铁路CPR Royal Hudson (蒸汽)
+str_steam_Denmark_DSB_E                         :丹铁DSB E (蒸汽)
+str_steam_Germany_DB_52                         :德铁DB 52 (蒸汽)
+str_steam_UK_LNER_A1_Peppercorn         :伦敦东北铁路LNER A1 'Peppercorn' (蒸汽)
+str_steam_South_Africa_SAR_25           :南非铁SAR 25 (蒸汽)
+str_steam_Russia_RZD_P36                        :俄铁RZD P36 (蒸汽)
+str_steam_France_SNCF_150B                      :法铁SNCF 150B (蒸汽)
+str_steam_Italy_FS_895                          :意铁FS 895 (蒸汽)
+str_steam_Poland_PKP_Okz32                      :波铁PKP Okz32 (蒸汽)
+str_steam_Switzerland_SBB_C_5_6         :瑞铁SBB C 5/6 (蒸汽)
+str_steam_USA_UP_4000_Big_Boy           :联合太平洋铁路(美)UP 4000 'Big Boy' (蒸汽)
 
 #Diesel
-str_diesel_Germany_DB_270                                                               :DB 270 (柴油)
-str_diesel_USA_UP_EMD_E8                                                                :UP EMD E8 (柴油)
-str_diesel_Brazil_EFCB_ALCO_RS_3                                                :EFCB ALCO RS-3 (柴油)
-str_diesel_USA_Pennsylvania_Railroad_RF_16_Sharknose    :Pennsylvania Railroad RF-16 'Sharknose' (柴油)
-str_diesel_Austria_OBB_2060                                                     :OBB 2060 (柴油)
-str_diesel_Hungary_MAV_M44                                                              :MAV M44 (柴油)
-str_diesel_Belgium_NMBS_SNCB_62                                                 :NMBS/SNCB 62 (柴油)
-str_diesel_India_Indian_Railways_WDM_2                                  :Indian Railways WDM-2 (柴油)
-str_diesel_Russia_RZD_M62                                                               :RZD M62 (柴油)
-str_diesel_USA_UP_EMD_DDA40X                                                    :UP EMD DDA40X (柴油)
-str_diesel_Australia_Queensland_Rail_2100                               :Queensland Rail 2100 (柴油)
-str_diesel_Turkey_TCDD_DH7000                                                   :TCDD DH7000 (柴油)
-str_diesel_Belgium_NMBS_SNCB_7800                                               :NMBS/SNCB 7800 (柴油)
-str_diesel_UK_BR_66                                                                     :BR 66 (柴油机车)
-str_diesel_Iran_RAI_DE43CA_Prima                                                :RAI DE43CA 'Prima' (柴油)
-str_diesel_Germany_DB_260_Gravita_10BB                                  :DB 260 Gravita 10BB (柴油)
-str_diesel_Germany_HVLE_V490                                                    :HVLE V490 (柴油)
+str_diesel_Germany_DB_310_Kof_II                                                :德铁DB 310 Kof II (内燃)
+str_diesel_USA_CNJ_ALCo_GE_IR_Boxcab                                    :新泽西中央铁路CNJ ALCo-GE-IR Boxcab (内燃)
+str_diesel_Netherlands_NS_200                                                   :荷铁NS 200 'Sik' (内燃)
+str_diesel_Germany_DB_270                                                               :德铁DB 270 (内燃)
+str_diesel_Switzerland_SBB_Am_4_6                                               :瑞铁SBB Am 4/6 (内燃)
+str_diesel_Australia_NSWGR_79                                                   :新南威尔士铁路(澳)NSWGR 79 (内燃)
+str_diesel_USA_Western_Pacific_ALCO_S_2                                 :西太平洋铁路(美) ALCO S-2 (内燃)
+str_diesel_USA_GNR_EMD_F3                                                               :大北方铁路(美)GNR EMD F3 (内燃)
+str_diesel_USA_UP_EMD_E8                                                                :联合太平洋铁路(美)UP EMD E8 (内燃)
+str_diesel_Brazil_EFCB_ALCO_RS_3                                                :巴西中央铁路EFCB ALCO RS-3 (内燃)
+str_diesel_Netherlands_NS_600                                                   :荷铁NS 600 'Bakkie' (内燃)
+str_diesel_USA_Pennsylvania_Railroad_RF_16_Sharknose    :宾州铁路(美) RF-16 'Sharknose' (内燃)
+str_diesel_Uruguay_AFE_1500                                                     :乌拉圭国家铁路局AFE 1500 (内燃)
+str_diesel_Canada_CPR_Trainmaster                                               :加拿大太平洋铁路CPR 'Trainmaster' (内燃)
+str_diesel_Liberia_Liberia_Railways_Class_08                    :利比里亚铁路 Class 08 (内燃)
+str_diesel_Austria_OBB_2060                                                     :奥铁OBB 2060 (内燃)
+str_diesel_Canada_CNR_SW1200                                                    :加国铁CNR SW1200 (内燃)
+str_diesel_Canada_VIA_Rail_FP9                                                  :维亚铁路(加)VIA Rail FP9 (内燃)
+str_diesel_Hungary_MAV_M44                                                              :匈铁MAV M44 (内燃)
+str_diesel_Hungary_MAV_M28                                                              :匈铁MAV M28 (内燃)
+str_diesel_Belgium_NMBS_SNCB_83                                                 :比铁NMBS/SNCB 83 (内燃)
+str_diesel_Germany_DB_220_V200                                                  :德铁DB 220 V200 (内燃)
+str_diesel_USA_Amtrak_FL9                                                               :美铁Amtrak FL9 (内燃)
+str_diesel_Czech_Republic_CD_720_ChME2                                  :捷克铁路CD 720 ChME2 (内燃)
+str_diesel_Finland_VR_Dr12                                                              :芬铁VR Dr12 (内燃)
+str_diesel_Romania_CFR_060_DA                                                   :罗铁CFR 060-DA (内燃)
+str_diesel_Brazil_BF_EMD_GL8                                                    :巴西铁路？(巴)BF EMD GL8 (内燃)
+str_diesel_Brazil_EFVM_ML4000                                                   :胜利煤矿铁路(巴)EFVM ML4000 (内燃)
+str_diesel_Russia_RZD_TEP60                                                     :俄铁RZD TEP60 (内燃)
+str_diesel_Belgium_NMBS_SNCB_62                                                 :比铁NMBS/SNCB 62 (内燃)
+str_diesel_Denmark_DSB_MaK_100                                                  :丹铁DSB MaK 100 (内燃)
+str_diesel_India_Indian_Railways_WDM_2                                  :印铁IR  WDM-2 (内燃)
+str_diesel_UK_BR_14                                                                     :英铁BR 14 (内燃)
+str_diesel_Russia_RZD_ChME3                                                     :俄铁RZD ChME3 (内燃)
+str_diesel_Argentina_MF_GM_EMD_J16CW_AC                                 :地中海铁路工业(阿)MF GM-EMD-J16CW-AC (内燃)
+str_diesel_Russia_RZD_M62                                                               :俄铁RZD M62 (内燃)
+str_diesel_Australia_NSWGR_422                                                  :新南威尔士铁路(澳)NSWGR 422 (内燃)
+str_diesel_Egypt_ENR_G22W                                                               :埃及国铁ENR G22W (内燃)
+str_diesel_USA_UP_EMD_DDA40X                                                    :联合太平洋铁路(美)UP EMD DDA40X (内燃)
+str_diesel_Australia_Queensland_Rail_2100                               :昆士兰铁路(澳) 2100 (内燃)
+str_diesel_Croatia_HZ_2062                                                              :克铁HZ 2062 (内燃)
+str_diesel_Sweden_SJ_V4                                                                 :瑞典国铁SJ V4 (内燃)
+str_diesel_Canada_CNR_MLW_M420W                                                 :加国铁CNR MLW M420W (内燃)
+str_diesel_USA_Amtrack_SDP_40F                                                  :美铁Amtrack SDP-40F (内燃)
+str_diesel_China_China_Railways_DFH3                                    :中铁CR DFH3 (内燃)
+str_diesel_Panama_Panama_Canal_Railway_EMD_F40PH                :巴拿马运河铁路 EMD F40PH (内燃)
+str_diesel_Portugal_CP_1900                                                     :葡铁CP 1900 (内燃)
+str_diesel_Finland_VR_Dr16                                                              :芬铁VR Dr16 (内燃)
+str_diesel_Russia_RZD_TEP80                                                     :俄铁RZD TEP80 (内燃)
+str_diesel_Australia_Australian_National_AN                     :澳铁 AN (内燃)
+str_diesel_USA_Amtrak_P42DC_Genesis                                     :美铁Amtrak P42DC 'Genesis' (内燃)
+str_diesel_Turkey_TCDD_DH7000                                                   :土铁DH7000 (内燃)
+str_diesel_Argentina_MF_GE_U20C                                                 :地中海铁路工业(阿)MF GE U20C (内燃)
+str_diesel_Belgium_NMBS_SNCB_7800                                               :比铁NMBS/SNCB 7800 (内燃)
+str_diesel_UK_BR_66                                                                     :英铁BR 66 (内燃)
+str_diesel_UK_BR_67                                                                     :英铁BR 67 (内燃)
+str_diesel_Iran_RAI_DE43CA_Prima                                                :伊朗铁路RAI DE43CA 'Prima' (内燃)
+str_diesel_Germany_DB_253_G2000_3_BB                                    :德铁DB 253 G2000-3 BB (内燃)
+str_diesel_Ukraine_UZ_TEP150                                                    :乌克兰铁路UZ TEP150 (内燃)
+str_diesel_China_China_Railways_HXN5                                    :中铁CR HXN5 (内燃)
+str_diesel_Germany_DB_260_Gravita_10BB                                  :德铁DB 260 Gravita 10BB (内燃)
+str_diesel_Russia_RZD_GT1                                                               :俄铁RZD GT1 (内燃)
+str_diesel_China_MTR_8000                                                               :港铁(中)MTR 8000 (内燃)
+str_diesel_Germany_HVLE_V490                                                    :哈维铁路(德)HVLE V490 (内燃)
 
 #Electric
-str_electric_Norway_NSB_EL7                                     :NSB EL7 (电力)
-str_electric_USA_Milwaukee_Road_ES_2                    :Milwaukee Road ES-2 (电力)
-str_electric_Chile_EFE_E_28                                     :EFE E-28 (电力)
-str_electric_Germany_DB_104                                     :DB 104 (电力)
-str_electric_Italy_FS_E428                                              :FS E428 (电力)
-str_electric_Austria_OBB_1020_Crocodile                 :OBB 1020 'Crocodile' (电力)
-str_electric_Netherlands_NS_1000                                :NS 1000 (电力)
-str_electric_France_SNCF_BB_9004                                :SNCF BB 9004 (电力)
-str_electric_Italy_FS_E646                                              :FS E646 (电力)
-str_electric_Russia_RZD_VL41                                    :RZD VL41 (电力)
-str_electric_Finland_VR_Sr1                                     :VR Sr1 (电力)
-str_electric_France_SNCF_BB_22200                               :SNCF BB 22200 (电力)
-str_electric_Austria_OBB_1063                                   :OBB 1063 (电力)
-str_electric_Russia_RZD_VL85                                    :RZD VL85 (电力)
-str_electric_Switzerland_SBB_Re460_Lok_2000     :SBB Re460 'Lok 2000' (电力)
-str_electric_UK_BR_92                                                   :BR 92 (电力)
-str_electric_Germany_DB_185_TRAXX_F140                  :DB 185 TRAXX F140 (电力)
-str_electric_Sweden_MTAB_IORE                                   :MTAB IORE (电力)
-str_electric_India_Indian_Railways_WAP_4                :Indian Railways WAP-4 (电力)
-str_electric_India_Indian_Railways_WCG_1                :Indian Railways WCG-1 (电力)
+str_electric_Switzerland_RhB_DE_2_2                     :雷蒂亚铁路(瑞士-世遗线路)RhB DE 2/2 (电力)
+str_electric_Norway_NSB_EL7                                     :挪铁NSB EL7 (电力)
+str_electric_UK_NER_EF1                                                 :东北铁路(英)NER EF1 (电力)
+str_electric_USA_Milwaukee_Road_ES_2                    :密尔沃基铁路(美) ES-2 (电力)
+str_electric_USA_Pennsylvania_Railroad_FF_1     :宾州铁路(美) FF-1 (电力)
+str_electric_USA_Milwaukee_Road_EP_2_Bipolar    :密尔沃基铁路(美) EP-2 Bipolar (电力)
+str_electric_Chile_EFE_E_28                                     :智铁EFE E-28 (电力)
+str_electric_Austria_OBB_1161                                   :奥铁OBB 1161 (电力)
+str_electric_Germany_DB_169                                     :德铁DB 169 (电力)
+str_electric_Japan_JNR_EB10                                     :日国铁JNR EB10 (电力)
+str_electric_Norway_NSB_EL10                                    :挪铁NSB EL10 (电力)
+str_electric_Germany_DB_104                                     :德铁DB 104 (电力)
+str_electric_Italy_FS_E428                                              :意铁FS E428 (电力)
+str_electric_USA_Pennsylvania_Railroad_GG_1     :宾州铁路(美) GG-1 (电力)
+str_electric_Japan_JNR_EF55                                     :日国铁JNR EF55 (电力)
+str_electric_South_Africa_SAR_ES_Class                  :南非铁SAR ES Class (电力)
+str_electric_Austria_OBB_1020_Crocodile                 :奥铁OBB 1020 'Crocodile' (电力)
+str_electric_Russia_RZD_VL22M                                   :俄铁RZD VL22M (电力)
+str_electric_Netherlands_NS_1000                                :荷铁NS 1000 (电力)
+str_electric_Sweden_MTAB_Dm3                                    :卢卡矿业MTAB Dm3 (电力)
+str_electric_UK_BR_77_Metrovic                                  :英铁BR 77 'Metrovic' (电力)
+str_electric_France_SNCF_BB_9004                                :法铁SNCF BB 9004 (电力)
+str_electric_Switzerland_SBB_Ce_4_4                     :瑞铁SBB Ce 4/4 (电力)
+str_electric_Switzerland_SBB_Ae_6_6                     :瑞铁SBB Ae 6/6 (电力)
+str_electric_India_Indian_Railways_WCM_1                :印铁IR  WCM-1 (电力)
+str_electric_Italy_FS_E646                                              :意铁FS E646 (电力)
+str_electric_Russia_RZD_VL41                                    :俄铁RZD VL41 (电力)
+str_electric_Japan_JNR_EF64                                     :日国铁JNR EF64 (电力)
+str_electric_Croatia_HZ_1141                                    :克铁HZ 1141 (电力)
+str_electric_Germany_DB_103                                     :德铁DB 103 (电力)
+str_electric_South_Africa_SAR_6E                                :南非铁SAR 6E (电力)
+str_electric_Finland_VR_Sr1                                     :芬铁VR Sr1 (电力)
+str_electric_Austria_OBB_1044                                   :奥铁OBB 1044 (电力)
+str_electric_France_SNCF_BB_22200                               :法铁SNCF BB 22200 (电力)
+str_electric_Poland_PKP_ET41                                    :波铁PKP ET41 (电力)
+str_electric_Netherlands_NS_1600                                :荷铁NS 1600 (电力)
+str_electric_Austria_OBB_1063                                   :奥铁OBB 1063 (电力)
+str_electric_Russia_RZD_VL85                                    :俄铁RZD VL85 (电力)
+str_electric_Russia_RZD_VL15                                    :俄铁RZD VL15 (电力)
+str_electric_China_China_Railways_6K                    :中铁CR 6K (电力)
+str_electric_France_SNCF_BB_26000                               :法铁SNCF BB 26000 (电力)
+str_electric_China_China_Railways_SS6                   :中铁CR SS6 (电力)
+str_electric_Switzerland_SBB_Re460_Lok_2000     :瑞铁SBB Re460 'Lok 2000' (电力)
+str_electric_Spain_RENFE_252                                    :西铁RENFE 252 (电力)
+str_electric_UK_BR_92                                                   :英铁BR 92 (电力)
+str_electric_Germany_DB_185_TRAXX_F140                  :德铁DB 185 TRAXX F140 (电力)
+str_electric_Belgium_NMBS_SNCB_13_HLE                   :比铁NMBS/SNCB 13 HLE (电力)
+str_electric_Japan_JR_EH500                                     :日铁JR EH500 (电力)
+str_electric_Germany_DB_182_ES64U_Taurus                :德铁DB 182 ES64U 'Taurus' (电力)
+str_electric_Sweden_MTAB_IORE                                   :卢卡矿业MTAB IORE(->HXD3B) (电力)
+str_electric_South_Korea_Korail_8200                    :韩铁Korail 8200 (电力)
+str_electric_Ukraine_UZ_DS3                                     :乌克兰铁路UZ DS3 (电力)
+str_electric_Kazakhstan_KTZ_KZ4A                                :哈萨克铁路KTZ KZ4A (电力)
+str_electric_Switzerland_SBB_Eem_923                    :瑞铁SBB Eem 923 (电力)
+str_electric_China_China_Railways_HXD3                  :中铁CR HXD3 (电力)
+str_electric_France_SNCF_CC_40100                               :法铁SNCF CC 40100 (电力)
+str_electric_India_Indian_Railways_WAP_4                :印铁IR  WAP-4 (电力)
+str_electric_India_Indian_Railways_WCG_1                :印铁IR  WCG-1 (电力)
+str_electric_Portugal_CP_2500                                   :葡铁CP 2500 (电力)
 
 #DMU
-str_dmu_Australia_NSWGR_Silver_City_Comet       :NSWGR Silver City Comet (柴油动车)
-str_dmu_Czech_Republic_CD_M131                          :CD M131 (柴油动车)
-str_dmu_Germany_DB_VT08                                         :DB VT08 (柴油动车)
-str_dmu_Australia_Queensland_Rail_400           :Queensland Rail 400 (柴油动车)
-str_dmu_Germany_DB_601_VT11_TEE                         :DB 601 VT11 TEE (柴油动车)
-str_dmu_Netherlands_NS_Plan_U_DE_III            :NS Plan U DE-III (柴油动车)
-str_dmu_Canada_CNR_Turbo_Train                          :CNR 'Turbo Train' (柴油动车)
-str_dmu_Spain_RENFE_594_TRD                             :RENFE 594 TRD (柴油动车)
-str_dmu_Germany_DB_612_Regio_Swinger            :DB 612 'Regio Swinger' (柴油动车)
-str_dmu_Australia_CityRail_Hunter_Railcar       :CityRail Hunter Railcar (柴油动车)
-str_dmu_Denmark_DSB_IC4                                         :DSB IC4 (柴油动车)
+str_dmu_Germany_DB_VT04_Flying_Hamburger        :德铁DB VT04 'Flying Hamburger' (内燃动车)
+str_dmu_Australia_NSWGR_Silver_City_Comet       :新南威尔士铁路(澳)NSWGR Silver City Comet (内燃动车)
+str_dmu_Czech_Republic_CD_M131                          :捷克铁路CD M131 (内燃动车)
+str_dmu_Germany_DB_VT08                                         :德铁DB VT08 (内燃动车)
+str_dmu_Australia_Queensland_Rail_400           :昆士兰铁路(澳) 400 (内燃动车)
+str_dmu_Italy_FS_ALn668                                         :意铁FS ALn668 (内燃动车)
+str_dmu_Germany_DB_601_VT11_TEE                         :德铁DB 601 VT11 TEE (内燃动车)
+str_dmu_Netherlands_NS_Plan_U_DE_III            :荷铁NS Plan U DE-III (内燃动车)
+str_dmu_Canada_CNR_Turbo_Train                          :加国铁CNR 'Turbo Train' (内燃动车)
+str_dmu_Serbia_ZS_811                                           :塞尔维亚铁路ZS 811 (内燃动车)
+str_dmu_UK_BR_43_IC125                                          :英铁BR 43 IC125 (内燃动车)
+str_dmu_Canada_VIA_Rail_LRC                             :维亚铁路(加)VIA Rail LRC (内燃动车)
+str_dmu_Sweden_SJ_Y2                                            :瑞典国铁SJ Y2 (内燃动车)
+str_dmu_Spain_RENFE_594_TRD                             :西铁RENFE 594 TRD (内燃动车)
+str_dmu_UK_BR_168                                                       :英铁BR 168 (内燃动车)
+str_dmu_Germany_DB_612_Regio_Swinger            :德铁DB 612 'Regio Swinger' (内燃动车)
+str_dmu_Germany_DB_642_Desiro                           :德铁DB 642 'Desiro' (内燃动车)
+str_dmu_Denmark_Arriva_Lint_41                          :Arriva Lint 41 (内燃动车)
+str_dmu_Norway_NSB_BM_93_Talent                         :挪铁NSB BM 93 'Talent' (内燃动车)
+str_dmu_Australia_Transwa_Prospector            :西澳通Transwa Prospector (内燃动车)
+str_dmu_Australia_CityRail_Hunter_Railcar       :城市铁路(澳NSW)CityRail Hunter Railcar (内燃动车)
+str_dmu_Russia_RZD_RA2                                          :俄铁RZD RA2 (内燃动车)
+str_dmu_Denmark_DSB_IC4                                         :丹铁DSB IC4 (内燃动车)
+str_dmu_Croatia_HZ_7022                                         :克铁HZ 7022 (内燃动车)
 
 #EMU
-str_emu_Italy_ATAC_ECD_21_30                            :ATAC ECD 21-30 (电力动车)
-str_emu_Netherlands_NS_Mat54                            :NS Mat'54 (电力动车)
-str_emu_Switzerland_SBB_Rae_TEE_II                      :SBB Rae TEE II (电力动车)
-str_emu_Japan_Odakyu_10000_Series_Romance       :Odakyu 10000 Series 'Romance' (电力动车)
-str_emu_Italy_FS_ETR500                                         :FS ETR500 (电力动车)
-str_emu_Netherlands_NS_mDDm_390                         :NS mDDm 390 (电力动车)
-str_emu_Norway_NSB_BM73                                         :NSB BM73 (电力动车)
-str_emu_Luxembourg_CFL_2200_Coradia_Duplex      :CFL 2200 'Coradia Duplex' (电力动车)
+str_emu_Netherlands_NS_Mat24                            :荷铁NS Mat'24 (电力动车)
+str_emu_Austria_OBB_4041                                        :奥铁OBB 4041 (电力动车)
+str_emu_Italy_ATAC_ECD_21_30                            :罗马交通ATAC ECD 21-30 (电力动车)
+str_emu_Netherlands_NS_Mat36                            :荷铁NS Mat'36 (电力动车)
+str_emu_Italy_FS_ETR200                                         :意铁FS ETR200 (电力动车)
+str_emu_Norway_NSB_BM65                                         :挪铁NSB BM65 (电力动车)
+str_emu_Italy_FS_ETR300_Settebello                      :意铁FS ETR300 'Settebello' (电力动车)
+str_emu_Netherlands_NS_Mat54                            :荷铁NS Mat'54 (电力动车)
+str_emu_Turkey_TCDD_E8000                                       :土铁E8000 (电力动车)
+str_emu_Switzerland_SBB_Rae_TEE_II                      :瑞铁SBB Rae TEE II (电力动车)
+str_emu_Japan_Odakyu_3100_Series_Romance        :小田急铁(日)Odakyu 3100 Series 'Romance' (电力动车)
+str_emu_Japan_JNR_Shinkansen_Series_0           :日国铁JNR 新干线 Series 0 (电力动车)
+str_emu_Switzerland_SBB_RABDe_510                       :瑞铁SBB RABDe 510 (电力动车)
+str_emu_Denmark_DSB_S_Tog_II                            :丹铁DSB S-Tog II (电力动车)
+str_emu_Germany_DB_ET420                                        :德铁DB ET420 (电力动车)
+str_emu_Australia_Sydney_Trains_S_Set           :悉尼列车Sydney Trains S-set (电力动车)
+str_emu_Netherlands_NS_Plan_Y                           :荷铁NS Plan Y (电力动车)
+str_emu_Finland_VR_Sm2                                          :芬铁VR Sm2 (电力动车)
+str_emu_Netherlands_NS_ICM_4000                         :荷铁NS ICM 4000 (电力动车)
+str_emu_France_SNCF_TGV_Sud_Est                         :法铁SNCF TGV Sud-Est (电力动车)
+str_emu_Switzerland_SBB_RBDe_560                        :瑞铁SBB RBDe 560 (电力动车)
+str_emu_Japan_Odakyu_10000_Series_Romance       :小田急铁(日)Odakyu 10000 Series 'Romance' (电力动车)
+str_emu_Hungary_MAV_BDVmot                                      :匈铁MAV BDVmot (电力动车)
+str_emu_Sweden_SJ_X2000                                         :瑞典国铁SJ X2000 (电力动车)
+str_emu_Italy_FS_ETR500                                         :意铁FS ETR500 (电力动车)
+str_emu_Netherlands_NS_DD_IRM_VIRM                      :荷铁NS DD-IRM 'VIRM' (电力动车)
+str_emu_France_SNCF_TGV_Duplex                          :法铁SNCF TGV Duplex (电力动车)
+str_emu_France_Thalys_PBKA                                      :标枪女神高铁(法)Thalys PBKA (电力动车)
+str_emu_Denmark_DSB_S_Tog_IV                            :丹铁DSB S-Tog IV (电力动车)
+str_emu_Italy_FS_ALe426                                         :意铁FS ALe426 (电力动车)
+str_emu_Japan_JR_Shinkansen_Series_700          :日铁JR 新干线 Series 700 (电力动车)
+str_emu_Netherlands_NS_mDDm_390                         :荷铁NS mDDm 390 (电力动车)
+str_emu_Norway_NSB_BM73                                         :挪铁NSB BM73 (电力动车)
+str_emu_Czech_Republic_CD_680_Pendolino         :捷克铁路CD 680 'Pendolino' (电力动车)
+str_emu_Luxembourg_CFL_2200_Coradia_Duplex      :卢国铁CFL 2200 'Coradia Duplex' (电力动车)
+str_emu_Finland_VR_Sm4                                          :芬铁VR Sm4 (电力动车)
+str_emu_Germany_DB_403_ICE_3                            :德铁DB 403 ICE-3 (电力动车)
+str_emu_Spain_RENFE_120                                         :西铁RENFE 120 (电力动车)
+str_emu_Switzerland_SBB_RABe_523_Flirt          :瑞铁SBB RABe 523 'Flirt' (电力动车)
+str_emu_Bulgaria_BDZ_10_Desiro                          :保加利亚铁路BDZ 10 'Desiro' (电力动车)
+str_emu_Australia_Sydney_Trains_OSCars          :悉尼列车(澳)Sydney Trains OSCars (电力动车)
+str_emu_South_Africa_Gautrain_Electrostar       :豪登列车(南非)Gautrain Electrostar (电力动车)
+str_emu_Italy_NTV_AGV                                           :新客运(意)NTV AGV (电力动车)
+str_emu_Netherlands_NS_4800_HSA                         :荷铁NS 4800 HSA (电力动车)
+str_emu_Italy_NTV_AGV_Duplex                            :新客运(意)NTV AGV Duplex (电力动车)
 
 #Single Unit Metro
+str_mtro_USA_Brooklyn_Union_Gate_Car                                    :布鲁克林联合高架铁BRT Gate Car (单机城轨)
+str_mtro_Hungary_Budapest_1894_Stock                                    :布达佩斯 1894 Stock (单机城轨)
+str_mtro_USA_Chicago_L_Northwest_Elevated_1907_Stock    :芝加哥L东北高架铁路CLNE 1907 Stock (单机城轨)
+str_mtro_Germany_Berlin_U_Bahn_C_II                                             :柏林地铁 U-Bahn C II (单机城轨)
 
 #Multiple Unit Metro
-str_mtro_USA_NY_R1                                                              :New York R1 (地铁)
-str_mtro_Portugal_Lisbon_ML7                                    :Lisbon ML7 (地铁)
-str_mtro_Hungary_Budapest_Ev3_200                               :Budapest Ev3-200 (地铁)
-str_mtro_Germany_Munchen_MVG_A2                                 :Munchen MVG A2 (地铁)
-str_mtro_USA_NY_R44                                                     :New York R44 (地铁)
-str_mtro_Netherlands_Amsterdam_Type_M1                  :Amsterdam M1 (地铁)
-str_mtro_North_Korea_Pyongyang_D_stock                  :Pyongyang D stock (地铁)
-str_mtro_Brazil_Sao_Paulo_Serie_5500                    :Sao Paulo Serie 5500 (地铁)
-str_mtro_Japan_Tokyo_S01                                                :Tokyo S01 (地铁)
-str_mtro_Singapore_Singapore_C830_Metropolis    :Singapore C830 'Metropolis' (地铁)
-str_mtro_Norway_Oslo_MX3000                                     :Oslo MX3000 (地铁)
-str_mtro_USA_Washington_7000                                    :Washington 7000 (地铁)
+str_mtro_UK_London_1903_Stock                                   :伦敦 1903 Stock (城轨)
+str_mtro_Argentina_Le_Brugeoise                                 :布宜诺斯 'Le Brugeoise' (城轨)
+str_mtro_USA_NY_R1                                                              :纽约 R1 (城轨)
+str_mtro_UK_London_1938_Stock                                   :伦敦 1938 Stock (城轨)
+str_mtro_Germany_DB_ET171                                               :德铁DB ET171 (城轨)
+str_mtro_France_Paris_M2_840                                    :巴黎 M2 840 (城轨)
+str_mtro_Portugal_Lisbon_ML7                                    :里斯本 ML7 (城轨)
+str_mtro_Hungary_Budapest_Ev3_200                               :布达佩斯 Ev3-200 (城轨)
+str_mtro_Norway_Oslo_T1000                                              :奥斯陆 T1000 (城轨)
+str_mtro_Canada_Toronto_H_series                                :多伦多 H-series (城轨)
+str_mtro_Germany_Munchen_MVG_A2                                 :慕尼黑 MVG A2 (城轨)
+str_mtro_USA_NY_R44                                                     :纽约 R44 (城轨)
+str_mtro_Netherlands_Amsterdam_Type_M1                  :阿姆斯特丹 M1 (城轨)
+str_mtro_Sweden_Stockholm_C8                                    :斯德哥尔摩 C8 (城轨)
+str_mtro_North_Korea_Pyongyang_D_stock                  :平壤 D stock (城轨)
+str_mtro_Finland_Helsinki_M100                                  :赫尔辛斯 M100 (城轨)
+str_mtro_Brazil_Sao_Paulo_Serie_5500                    :圣保罗 Serie 5500 (城轨)
+str_mtro_Russia_Moscow_81_720                                   :莫斯科 81-720 (城轨)
+str_mtro_Japan_Tokyo_S01                                                :东京 S01 (城轨)
+str_mtro_Egypt_Cairo_1987_Stock                                 :开罗 1987 stock (城轨)
+str_mtro_UK_DLR_P86                                                     :道克兰轻轨(英) P86 (城轨)
+str_mtro_Russia_Moscow_81_7175M                                 :莫斯科 81-717.5M (城轨)
+str_mtro_USA_Boston_01800                                               :波士顿 01800 (城轨)
+str_mtro_USA_LA_A650                                                    :洛杉矶 A650 (城轨)
+str_mtro_Taiwan_Taipei_C301                                     :台北 C301 (城轨)
+str_mtro_Netherlands_Amsterdam_CAF_90                   :阿姆斯特丹 CAF 90 (城轨)
+str_mtro_France_Paris_MP89                                              :巴黎 MP89 (城轨)
+str_mtro_Russia_Moscow_81_740                                   :莫斯科 81-740 (城轨)
+str_mtro_Singapore_Singapore_C830_Metropolis    :新加坡 C830 'Metropolis' (城轨)
+str_mtro_Norway_Oslo_MX3000                                     :奥斯陆 MX3000 (城轨)
+str_mtro_Japan_Osaka_30000                                              :大阪 30000 (城轨)
+str_mtro_Singapore_Singapore_C151A                              :新加坡 C151A (城轨)
+str_mtro_USA_Washington_7000                                    :华盛顿 7000 (城轨)
+str_mtro_Greece_Thessaloniki_2014                               :塞萨洛尼基(希) 2014 (城轨)
 
 #Maglev
-str_mglv_Japan_MLX01_901        :JR MLX01-901 (磁浮)
+str_mglv_China_Transrapid       :上海磁浮 (磁浮)
+str_mglv_Japan_MLX01_901        :日铁MLX01-901 (磁浮)
 
 #wagons
-str_wagon_Gen1_Flat_Wagon                               :1st Gen Flat Wagon
-str_wagon_Gen2_Flat_Wagon                               :2nd Gen Flat Wagon
-str_wagon_Gen2_Open_Wagon                               :2nd Gen Wooden Open Wagon
-str_wagon_Gen3_Flat_Wagon                               :3rd Gen Flat Wagon
-str_wagon_Gen3_Boxcar_Type1                     :3rd Gen Wooden Boxcar (Type 1)
-str_wagon_Gen3_Boxcar_Type2                     :3rd Gen Wooden Boxcar (Type 2)
-str_wagon_Gen3_Tanker                                   :3rd Gen Tanker
-str_wagon_Gen4_Tanker                                   :4th Gen Tanker
-str_wagon_Gen4_Hopper_Type2                             :4th Gen Self-discharging Hopper (Type 2)
-str_wagon_Gen4_Car_Transporter                  :4th Gen Car Transporter
-str_wagon_Gen4_Centerbeam                               :4th Gen Centerbeam Flatcar
-str_wagon_Gen5_Heavy_Flatcar                    :5th Gen Heavy Flatcar
-str_wagon_Gen5_Superheavy_Flatcar               :5th Gen Superheavy Flatcar
+str_wagon_Gen1_Flat_Wagon                               :1代平板车(英)
+str_wagon_Gen1_Boxcar                                   :1代木制棚车
+str_wagon_Gen1_Tanker                                   :1代油罐车
+str_wagon_Gen1_Open_Wagon                               :1代木制敞篷车
+str_wagon_Gen2_Flat_Wagon                               :2代平板车
+str_wagon_Gen2_Boxcar_Type1                             :2代木制棚车 (I型)
+str_wagon_Gen2_Boxcar_Type2                             :2代木制棚车 (II型)
+str_wagon_Gen2_Tanker                                   :2代油罐车
+str_wagon_Gen2_Open_Wagon                               :2代木制敞篷车
+str_wagon_Gen2_Silo                                     :2代筒仓车
+str_wagon_Gen2_Hopper                                   :2代木制料斗
+str_wagon_Gen3_Flat_Wagon                               :3代平板车
+str_wagon_Gen3_Boxcar_Type1                     :3代木制棚车 (I型)
+str_wagon_Gen3_Boxcar_Type2                     :3代木制棚车 (II型)
+str_wagon_Gen3_Tanker                                   :3代油罐车
+str_wagon_Gen3_Open_Wagon                               :3代敞篷车
+str_wagon_Gen3_Silo_Type1                               :3代筒仓车 (I型)
+str_wagon_Gen3_Silo_Type2                               :3代筒仓车 (II型)
+str_wagon_Gen3_Hopper                                   :3代料斗车
+str_wagon_Gen4_Flatcar                                  :4代平板车(美)
+str_wagon_Gen4_Heavy_Flatcar                    :4代重型平板车
+str_wagon_Gen4_Boxcar_Type1                             :4代棚车 (I型)
+str_wagon_Gen4_Boxcar_Type2                             :4代棚车 (II型)
+str_wagon_Gen4_Tanker                                   :4代油罐车
+str_wagon_Gen4_Gondola                                  :4代敞篷车(美)
+str_wagon_Gen4_Silo_Type1                               :4代筒仓车 (I型)
+str_wagon_Gen4_Silo_Type2                               :4代筒仓车 (II型)
+str_wagon_Gen4_Hopper_Type1                             :4代自卸料斗车 (I型)
+str_wagon_Gen4_Hopper_Type2                             :4代自卸料斗车 (II型)
+str_wagon_Gen4_Car_Transporter                  :4代转运车
+str_wagon_Gen4_Container_Carrier                :4代集装箱车
+str_wagon_Gen4_Centerbeam                               :4代桁架平板车
+str_wagon_Gen5_Flatcar                                  :5代平板车
+str_wagon_Gen5_Heavy_Flatcar                    :5代重型平板车
+str_wagon_Gen5_Boxcar_Type1                             :5代棚车 (I型)
+str_wagon_Gen5_Boxcar_Type2                             :5代棚车 (II型)
+str_wagon_Gen5_Tanker                                   :5代油罐车
+str_wagon_Gen5_Gondola                                  :5代敞篷车(美)
+str_wagon_Gen5_Silo_Type1                               :5代筒仓车 (I型)
+str_wagon_Gen5_Silo_Type2                               :5代筒仓车 (II型)
+str_wagon_Gen5_Hopper_Type1                             :5代自卸料斗车 (I型)
+str_wagon_Gen5_Hopper_Type2                             :5代自卸料斗车 (II型)
+str_wagon_Gen5_Car_Transporter                  :5代转运车
+str_wagon_Gen5_Container_Carrier                :5代集装箱车
+str_wagon_Gen5_Centerbeam                               :5代桁架平板车
+str_wagon_Gen5_Container_Doublestack    :5代双层集装箱车(美)
+str_wagon_Gen5_Superheavy_Flatcar               :5代超级重型平板车
+
+str_wagon_Service_Car_Type1                             :路务车 (I型)
+str_wagon_Service_Car_Type2                             :路务车 (II型)
 
 
 #coaches
-str_coach_Gen1_Wooden_2_axle_Regional_Coach                     :Wooden 2-axle Regional Coach
-str_coach_Gen1_Wooden_2_axle_Mail_Coach                                 :Wooden 2-axle Mail Coach
-str_coach_Gen1_Wooden_3_axle_Mail_Coach                                 :Wooden 3-axle Mail Coach
-str_coach_Gen2_Steel_Compartment_Coach                                  :Steel Compartment Coach
-str_coach_Gen2_Steel_2_axle_Compartment_Coach                   :Steel 2-axle Compartment Coach
-str_coach_Gen2_Steel_2_axle_Mail_Coach                                  :Steel 2-axle Mail Coach
-str_coach_Gen2_Steel_3_axle_Compartment_Coach                   :Steel 3-axle Compartment Coach
-str_coach_Gen2_Steel_3_axle_Mail_Coach                                  :Steel 3-axle Mail Coach
-str_coach_Gen3_Steel_Lightweight_Intercity_Coach                :城际轻轨客车
-str_coach_Gen3_Steel_Lightweight_Mail_Coach                     :Steel Lightweight Mail Coach
-str_coach_Gen3_Aluminium_Lightweight_Mail_Coach                 :Aluminium Lightweight Mail Coach
-str_coach_Gen3_Gallery_Car                                                              :Gallery Car
-str_coach_Gen3_UIC_X_Intercity_Coach                                    :UIC-X Intercity Coach
-str_coach_Gen3_Doppelstockwagen_Local_Coach                     :'Doppelstockwagen' Local Coach
-str_coach_Gen3_Indian_Mail_Coach                                                :Indian Mail Coach
-str_coach_Gen4_Superliner_California                                    :Superliner California
-str_coach_Gen4_Horizon_Regional_Coach                                   :Horizon Regional Coach
-str_coach_Gen4_Horizon_Baggage_Coach                                    :Horizon Baggage Coach
-str_coach_Gen4_Bombardier_Bi_level                                              :Bombardier Bi-level
-str_coach_Gen5_Modern_Commuter_Coach                                    :Modern Commuter Coach
-str_coach_Gen5_High_Speed_Mail_Coach                                    :High Speed Mail Coach
-str_coach_Gen5_Talgo_Pendular                                                   :Talgo Pendular
-str_coach_Gen6_Speedmail_Coach                                                  :Speedmail Coach
+str_coach_Gen1_Wooden_2_axle_Compartment_Coach                  :木制2轴隔间客车
+str_coach_Gen1_Wooden_2_axle_Regional_Coach                     :木制2轴地区客车
+str_coach_Gen1_Wooden_2_axle_Mail_Coach                                 :2轴木制邮车
+str_coach_Gen1_Clerestory_Compartment_Coach                     :带天窗隔间客车
+str_coach_Gen1_Clerestory_Regional_Coach                                :带天窗地区客车
+str_coach_Gen1_Clerestory_Mail_Coach                                    :带天窗邮车
+str_coach_Gen1_Wooden_3_axle_Compartment_Coach                  :木制3轴隔间客车
+str_coach_Gen1_Wooden_3_axle_Regional_Coach                     :木制3轴地区客车
+str_coach_Gen1_Wooden_3_axle_Mail_Coach                                 :3轴木制邮车
+str_coach_Gen2_Heavyweight_Intercity_Coach                              :重型城际客车
+str_coach_Gen2_Heavyweight_Mail_Coach                                   :重型邮车
+str_coach_Gen2_Steel_Intercity_Coach                                    :钢制城际客车
+str_coach_Gen2_Steel_Compartment_Coach                                  :钢制隔间客车
+str_coach_Gen2_Steel_Regional_Coach                                     :钢制地区客车
+str_coach_Gen2_Steel_Mail_Coach                                                 :钢制邮车
+str_coach_Gen2_Steel_2_axle_Compartment_Coach                   :钢制2轴隔间客车
+str_coach_Gen2_Steel_2_axle_Regional_Coach                              :钢制2轴地区客车
+str_coach_Gen2_Steel_2_axle_Mail_Coach                                  :钢制2轴邮车
+str_coach_Gen2_Steel_3_axle_Compartment_Coach                   :钢制3轴隔间客车
+str_coach_Gen2_Steel_3_axle_Regional_Coach                              :钢制3轴地区客车
+str_coach_Gen2_Steel_3_axle_Mail_Coach                                  :钢制3轴邮车
+str_coach_Gen3_Steel_Lightweight_Intercity_Coach                :钢制轻型城际客车
+str_coach_Gen3_Steel_Lightweight_Regional_Coach                 :钢制轻型地区客车
+str_coach_Gen3_Steel_Lightweight_Mail_Coach                     :钢制轻型邮车
+str_coach_Gen3_Aluminium_Lightweight_Intercity_Coach    :铝制轻型城际客车
+str_coach_Gen3_Aluminium_Lightweight_Regional_Coach     :铝制轻型地区客车
+str_coach_Gen3_Aluminium_Lightweight_Mail_Coach                 :铝制轻型邮车
+str_coach_Gen3_Gallery_Car                                                              :双层廊座客车
+str_coach_Gen3_Mk1_Intercity_Coach                                              :Mk1城际客车(英)
+str_coach_Gen3_Mk1_Regional_Coach                                               :Mk1地区客车(英)
+str_coach_Gen3_Mk1_Mail_Coach                                                   :Mk1邮车(英)
+str_coach_Gen3_UIC_X_Intercity_Coach                                    :UIC-X城际客车(德铁DB)
+str_coach_Gen3_TEE_Intercity_Coach                                              :全欧快车(TEE)城际客车
+str_coach_Gen3_UIC_X_Regional_Coach                                     :UIC-X地区客车(德铁DB)
+str_coach_Gen3_Umbauwagen_Local_Coach                                   :'Umbauwagen'本地客车(德铁DB)
+str_coach_Gen3_Doppelstockwagen_Local_Coach                     :'Doppelstockwagen'本地客车(双层廊座)
+str_coach_Gen3_UIC_X_Mail_Coach                                                 :UIC-X邮车(德铁DB)
+str_coach_Gen3_Indian_Intercity_Coach                                   :印度城际客车
+str_coach_Gen3_Indian_Local_Coach                                               :印度本地客车
+str_coach_Gen3_Indian_Regional_Coach                                    :印度地区客车
+str_coach_Gen3_Indian_Mail_Coach                                                :印度邮车
+str_coach_Gen4_Eurofima_Intercity_Coach                                 :欧铁(Eurofima)客车
+str_coach_Gen4_InterRegio_Coach                                                 :区间(IR)客车
+str_coach_Gen4_Silberling_Commuter_Coach                                :'西柏林'通勤客车
+str_coach_Gen4_Eurofima_Mail_Coach                                              :欧铁(Eurofima)邮车
+str_coach_Gen4_Double_Decker_Coach                                              :双层客车
+str_coach_Gen4_Russian_Intercity_Coach                                  :俄罗斯城际客车
+str_coach_Gen4_Russian_Regional_Coach                                   :俄罗斯地区客车
+str_coach_Gen4_Russian_Mail_Coach                                               :俄罗斯邮车
+str_coach_Gen4_Superliner_Coach                                                 :超级班轮客车(双层)(美铁)
+str_coach_Gen4_Superliner_California                                    :超级班轮-加利福尼亚(美铁)
+str_coach_Gen4_Amfleet_Regional_Coach                                   :Amfleet型地区客车(美铁)
+str_coach_Gen4_Amfleet_Intercity_Coach                                  :Amfleet型城际客车(美铁)
+str_coach_Gen4_Comet_Commuter_Coach                                     :'彗星'通勤客车(新泽西公交)
+str_coach_Gen4_Horizon_Regional_Coach                                   :'地平线'地区客车(美铁)
+str_coach_Gen4_Horizon_Baggage_Coach                                    :'地平线'行李车厢
+str_coach_Gen4_Bombardier_Bi_level                                              :庞巴迪双层
+str_coach_Gen5_High_Speed_Coach                                                 :高速客车
+str_coach_Gen5_Modern_Regional_Coach                                    :现代地区客车
+str_coach_Gen5_Modern_Commuter_Coach                                    :现代通勤客车
+str_coach_Gen5_Modern_Double_Decker_Coach                               :现代双层客车
+str_coach_Gen5_High_Speed_Double_Decker_IC2000                  :高速双层客车(IC2000)
+str_coach_Gen5_High_Speed_Mail_Coach                                    :高速邮车
+str_coach_Gen5_Talgo_Pendular                                                   :塔尔高摆式客车
+str_coach_Gen5_Talgo_Pendular_Mail                                              :塔尔高摆式邮车
+str_coach_Gen6_Grand_Voyager_Coach                                              :大航海家客车(英铁220型)
+str_coach_Gen6_Grand_Regio_Coach                                                :大型区域客车
+str_coach_Gen6_Metropolis_Coach                                                 :大都会城市铁路巴士
+str_coach_Gen6_Speedmail_Coach                                                  :快邮邮车
+str_coach_Gen6_Super_Regio_Coach                                                :超级区域客车
+str_coach_Gen6_Super_Voyager_Coach                                              :超级航海家客车(英铁221型)
 
 #special wagons
-str_mu_wagon_unpowered          :动车复合列车厢 (无动力)
-str_mtro_wagon_powered          :Metro Unit Wagon (带动力)
+str_mu_wagon_unpowered          :动车车厢 (无动力)
+str_mtro_wagon_unpowered        :城轨车厢 (无动力)
+str_mglv_wagon_unpowered        :磁浮车厢 (无动力)
+str_mu_wagon_powered            :动车车厢 (有动力)
+str_mtro_wagon_powered          :城轨车厢 (有动力)
+str_mglv_wagon_powered          :磁浮车厢 (有动力)
 
 #Obsolete vehicles
+str_electric_Turkey_TCDD_E55200_obsolete                                :土铁E55200 (废弃)
 
 #PURCHASE MENU TEXTS
-str_unit_wagon                          :该通用车厢只能与动车共用来组成期望长度的列车
+str_unit_wagon                          :本通用车厢只能与动车组合成相应长度的列车
 
 #Can attach vehicle texts
-str_cannot_attach_wagon_to_MU                   :不可将车厢挂载在动车上
-str_cannot_attach_wagon_to_Unit_Wagon   :不可挂载常规车厢到动车车厢
-str_cannot_attach_Unit_wagon_to_wagon   :不可挂载动力车厢到常规车厢上
+str_cannot_attach_wagon_to_MU                   :不可将车厢挂载到动车引擎
+str_cannot_attach_wagon_to_Unit_Wagon   :不可将常规车厢挂载到动力车厢
+str_cannot_attach_Unit_wagon_to_engine  :不可将动力车厢挂载到常规引擎
+str_cannot_attach_Unit_wagon_to_wagon   :不可将动力车厢挂载到常规车厢
