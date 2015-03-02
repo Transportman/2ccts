@@ -3,7 +3,7 @@
 
 #Main grf title and description
 STR_GRF_NAME                    :{TITLE}
-STR_GRF_DESCRIPTION             :{SILVER}2cc世界列车组(NML版){}{}(c)2ccts{}License:GPLv2 or higher.{}See readme for details.
+STR_GRF_DESCRIPTION             :{SILVER}2cc世界列车组(NML版){}{}(c)2ccts{}License:GPLv2 or higher.{}参见readme获取更多信息.
 STR_GRF_URL             :https://dev.openttdcoop.org/projects/2ccts
 
 #General error messages
@@ -396,7 +396,7 @@ str_wagon_Gen4_Silo_Type1                               :4代筒仓车 (I型)
 str_wagon_Gen4_Silo_Type2                               :4代筒仓车 (II型)
 str_wagon_Gen4_Hopper_Type1                             :4代自卸料斗车 (I型)
 str_wagon_Gen4_Hopper_Type2                             :4代自卸料斗车 (II型)
-str_wagon_Gen4_Car_Transporter                  :4代转运车
+str_wagon_Gen4_Car_Transporter                  :4代转轨车
 str_wagon_Gen4_Container_Carrier                :4代集装箱车
 str_wagon_Gen4_Centerbeam                               :4代桁架平板车
 str_wagon_Gen5_Flatcar                                  :5代平板车
@@ -409,7 +409,7 @@ str_wagon_Gen5_Silo_Type1                               :5代筒仓车 (I型)
 str_wagon_Gen5_Silo_Type2                               :5代筒仓车 (II型)
 str_wagon_Gen5_Hopper_Type1                             :5代自卸料斗车 (I型)
 str_wagon_Gen5_Hopper_Type2                             :5代自卸料斗车 (II型)
-str_wagon_Gen5_Car_Transporter                  :5代转运车
+str_wagon_Gen5_Car_Transporter                  :5代转轨车
 str_wagon_Gen5_Container_Carrier                :5代集装箱车
 str_wagon_Gen5_Centerbeam                               :5代桁架平板车
 str_wagon_Gen5_Container_Doublestack    :5代双层集装箱车(美)
