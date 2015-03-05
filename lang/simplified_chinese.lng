@@ -3,7 +3,7 @@
 
 #Main grf title and description
 STR_GRF_NAME                    :{TITLE}
-STR_GRF_DESCRIPTION             :{SILVER}2cc世界列车组(NML版){}{}(c)2ccts{}License:GPLv2 or higher.{}参见readme获取更多信息.
+STR_GRF_DESCRIPTION             :{SILVER}2cc世界列车扩展包(NML版){}{}(c)2ccts{}License:GPLv2 or higher.{}参见readme获取更多信息.
 STR_GRF_URL             :https://dev.openttdcoop.org/projects/2ccts
 
 #General error messages
@@ -506,7 +506,7 @@ str_electric_Turkey_TCDD_E55200_obsolete                                :土铁E
 str_unit_wagon                          :本通用车厢只能与动车组合成相应长度的列车
 
 #Can attach vehicle texts
-str_cannot_attach_wagon_to_MU                   :不可将车厢挂载到动车引擎
+str_cannot_attach_wagon_to_MU                   :不可将普通车厢与动车混编
 str_cannot_attach_wagon_to_Unit_Wagon   :不可将常规车厢挂载到动力车厢
-str_cannot_attach_Unit_wagon_to_engine  :不可将动力车厢挂载到常规引擎
-str_cannot_attach_Unit_wagon_to_wagon   :不可将动力车厢挂载到常规车厢
+str_cannot_attach_Unit_wagon_to_engine  :不可将动车组车厢和常规机车混编
+str_cannot_attach_Unit_wagon_to_wagon   :不可将动车组车厢和常规车厢混编
