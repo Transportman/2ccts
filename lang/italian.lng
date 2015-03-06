@@ -10,7 +10,7 @@ STR_GRF_URL             :https://dev.openttdcoop.org/projects/2ccts
 
 #General error messages
 str_used_with_dynamic_engines           :dynamic_engines = true (impostazione nel file "openttd.cfg")
-str_error_region                                        :Nessuna regione é attivata, {STRING} e disattivato.
+str_error_region                                        :Nessuna regione attiva, {STRING} disabilitato.
 
 #parameter strings
 #cost parameters
@@ -42,11 +42,11 @@ STR_PARAM_REGION_ASIA                                   :Asia
 STR_PARAM_REGION_ASIA_DESC                              :Attiva i veicoli asiatici
 STR_PARAM_REGION_NORTHERNEUROPE                 :Europa del Nord
 STR_PARAM_REGION_NORTHERNEUROPE_DESC    :Attiva i veicoli nordeuropei
-STR_PARAM_REGION_EASTERNEUROPE                  :Europa del Est
+STR_PARAM_REGION_EASTERNEUROPE                  :Europa dell'Est
 STR_PARAM_REGION_EASTERNEUROPE_DESC             :Attiva i veicoli dell'Est europeo
 STR_PARAM_REGION_SOUTHERNEUROPE                 :Europa del Sud
 STR_PARAM_REGION_SOUTHERNEUROPE_DESC    :Attiva i veicoli dell'Europa del Sud
-STR_PARAM_REGION_WESTERNEUROPE                  :Europa del Ovest
+STR_PARAM_REGION_WESTERNEUROPE                  :Europa dell'Ovest
 STR_PARAM_REGION_WESTERNEUROPE_DESC             :Attiva i veicoli dell'Europa dell'Ovest
 STR_PARAM_REGION_OCEANIA                                :Oceania
 STR_PARAM_REGION_OCEANIA_DESC                   :Attiva i veicoli dell'Oceania
@@ -505,7 +505,7 @@ str_mglv_wagon_powered          :Carrozza maglev (motorizzata)
 str_electric_Turkey_TCDD_E55200_obsolete                                :TCDD E55200 (antiquata)
 
 #PURCHASE MENU TEXTS
-str_unit_wagon                          :Questa carozza generica può essere usata SOLO per comporre unità multiple di lunghezza desiderata
+str_unit_wagon                          :Questa carrozza generica può solo essere usata per comporre unità multiple della lunghezza desiderata
 
 #Can attach vehicle texts
 str_cannot_attach_wagon_to_MU                   :Non è possibile agganciare carrozze normali a parti di unità multiple
