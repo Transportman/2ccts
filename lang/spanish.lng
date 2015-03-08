@@ -163,6 +163,7 @@ str_diesel_Australia_Queensland_Rail_2100                               :Queensl
 str_diesel_Croatia_HZ_2062                                                              :HZ 2062 (Diésel)
 str_diesel_Sweden_SJ_V4                                                                 :SJ V4 (Diésel)
 str_diesel_Canada_CNR_MLW_M420W                                                 :CNR MLW M420W (Diésel)
+str_diesel_USA_Amtrack_SDP_40F                                                  :Amtrack SDP-40F (Diésel)
 str_diesel_China_China_Railways_DFH3                                    :China Railways DFH3 (Diésel)
 str_diesel_Panama_Panama_Canal_Railway_EMD_F40PH                :Panama Canal Railway EMD F40PH (Diésel)
 str_diesel_Portugal_CP_1900                                                     :CP 1900 (Diésel)
@@ -369,6 +370,7 @@ str_wagon_Gen2_Boxcar_Type2                             :Vagón cerrado de mader
 str_wagon_Gen2_Tanker                                   :Cisterna, 2a generación
 str_wagon_Gen2_Open_Wagon                               :Vagón abierto de madera, 2a Generación
 str_wagon_Gen2_Silo                                     :Vagón silo, 2a generación
+str_wagon_Gen2_Hopper                                   :Vagón tolva de madera, 2a Generación
 str_wagon_Gen3_Flat_Wagon                               :Vagón plano, 3a generación
 str_wagon_Gen3_Boxcar_Type1                     :Vagón cerrado de madera (Tipo 1), 3a Generación
 str_wagon_Gen3_Boxcar_Type2                     :Vagón cerrado de madera (Tipo 2), 3a Generación
@@ -376,6 +378,7 @@ str_wagon_Gen3_Tanker                                   :Cisterna, 3a generació
 str_wagon_Gen3_Open_Wagon                               :Vagón abierto, 3era Generación
 str_wagon_Gen3_Silo_Type1                               :Vagón silo (Tipo 1), 3a generación
 str_wagon_Gen3_Silo_Type2                               :Vagón silo (Tipo 2), 3a generación
+str_wagon_Gen3_Hopper                                   :Vagón tolva, 3a Generación
 str_wagon_Gen4_Flatcar                                  :Vagón plano, 4a Generación
 str_wagon_Gen4_Heavy_Flatcar                    :Vagón plano pesado, 4a Generación
 str_wagon_Gen4_Boxcar_Type1                             :Vagón cerrado (Tipo 1), 4a Generación
