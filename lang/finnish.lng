@@ -150,6 +150,7 @@ str_diesel_Romania_CFR_060_DA                                                   
 str_diesel_Brazil_BF_EMD_GL8                                                    :BF EMD GL8 (Diesel)
 str_diesel_Brazil_EFVM_ML4000                                                   :EFVM ML4000 (Diesel)
 str_diesel_Russia_RZD_TEP60                                                     :RZD TEP60 (Diesel)
+str_diesel_Belgium_NMBS_SNCB_62                                                 :NMBS/SNCB 62 (Diesel)
 str_diesel_Denmark_DSB_MaK_100                                                  :DSB MaK 100 (Diesel)
 str_diesel_India_Indian_Railways_WDM_2                                  :Indian Railways WDM-2 (Diesel)
 str_diesel_UK_BR_14                                                                     :BR 14 (Diesel)
@@ -163,6 +164,7 @@ str_diesel_Australia_Queensland_Rail_2100                               :Queensl
 str_diesel_Croatia_HZ_2062                                                              :HZ 2062 (Diesel)
 str_diesel_Sweden_SJ_V4                                                                 :SJ V4 (Diesel)
 str_diesel_Canada_CNR_MLW_M420W                                                 :CNR MLW M420W (Diesel)
+str_diesel_USA_Amtrack_SDP_40F                                                  :Amtrack SDP-40F (Diesel)
 str_diesel_China_China_Railways_DFH3                                    :China Railways DFH3 (Diesel)
 str_diesel_Panama_Panama_Canal_Railway_EMD_F40PH                :Panama Canal Railway EMD F40PH (Diesel)
 str_diesel_Portugal_CP_1900                                                     :CP 1900 (Diesel)
@@ -191,6 +193,7 @@ str_electric_UK_NER_EF1                                                 :NER EF1
 str_electric_USA_Milwaukee_Road_ES_2                    :Milwaukee Road ES-2 (Sähkö)
 str_electric_USA_Pennsylvania_Railroad_FF_1     :Pennsylvania Railroad FF-1 (Sähkö)
 str_electric_USA_Milwaukee_Road_EP_2_Bipolar    :Milwaukee Road EP-2 Bipolar (Sähkö)
+str_electric_Chile_EFE_E_28                                     :EFE E-28 (Sähkö)
 str_electric_Austria_OBB_1161                                   :OBB 1161 (Sähkö)
 str_electric_Germany_DB_169                                     :DB 169 (Sähkö)
 str_electric_Japan_JNR_EB10                                     :JNR EB10 (Sähkö)
@@ -229,6 +232,7 @@ str_electric_China_China_Railways_SS6                   :China Railways SS6 (Sä
 str_electric_Switzerland_SBB_Re460_Lok_2000     :SBB Re460 'Lok 2000' (Sähkö)
 str_electric_Spain_RENFE_252                                    :RENFE 252 (Sähkö)
 str_electric_UK_BR_92                                                   :BR 92 (Sähkö)
+str_electric_Germany_DB_185_TRAXX_F140                  :DB 185 TRAXX F140 (Sähkö)
 str_electric_Belgium_NMBS_SNCB_13_HLE                   :NMBS/SNCB 13 HLE (Sähkö)
 str_electric_Japan_JR_EH500                                     :JR EH500 (Sähkö)
 str_electric_Germany_DB_182_ES64U_Taurus                :DB 182 ES64U 'Taurus' (Sähkö)
@@ -285,6 +289,7 @@ str_emu_Japan_JNR_Shinkansen_Series_0           :JNR Shinkansen Series 0 (Sähk�
 str_emu_Switzerland_SBB_RABDe_510                       :SBB RABDe 510 (Sähkömoottorivaunu)
 str_emu_Denmark_DSB_S_Tog_II                            :DSB S-Tog II (Sähkömoottorivaunu)
 str_emu_Germany_DB_ET420                                        :DB ET420 (Sähkömoottorivaunu)
+str_emu_Australia_Sydney_Trains_S_Set           :Sydney Trains S-set (Sähkömoottorijuna)
 str_emu_Netherlands_NS_Plan_Y                           :NS Plan Y (Sähkömoottorivaunu)
 str_emu_Finland_VR_Sm2                                          :VR Sm2 (Sähkömoottorivaunu)
 str_emu_Netherlands_NS_ICM_4000                         :NS ICM 4000 (Sähkömoottorivaunu)
@@ -296,6 +301,7 @@ str_emu_Sweden_SJ_X2000                                         :SJ X2000 (Sähk
 str_emu_Italy_FS_ETR500                                         :FS ETR500 (Sähkömoottorivaunu)
 str_emu_Netherlands_NS_DD_IRM_VIRM                      :NS DD-IRM 'VIRM' (Sähkömoottorivaunu)
 str_emu_France_SNCF_TGV_Duplex                          :SNCF TGV Duplex (Sähkömoottorivaunu)
+str_emu_France_Thalys_PBKA                                      :Thalys PBKA (Sähkömoottorijuna)
 str_emu_Denmark_DSB_S_Tog_IV                            :DSB S-Tog IV (Sähkömoottorivaunu)
 str_emu_Italy_FS_ALe426                                         :FS ALe426 (Sähkömoottorivaunu)
 str_emu_Japan_JR_Shinkansen_Series_700          :JR Shinkansen Series 700 (Sähkömoottorivaunu)
@@ -308,6 +314,7 @@ str_emu_Germany_DB_403_ICE_3                            :DB 403 ICE-3 (Sähkömo
 str_emu_Spain_RENFE_120                                         :RENFE 120 (Sähkömoottorivaunu)
 str_emu_Switzerland_SBB_RABe_523_Flirt          :SBB RAVe 523 'Flirt' (Sähkömoottorivaunu)
 str_emu_Bulgaria_BDZ_10_Desiro                          :BDZ 10 'Desiro' (Sähkömoottorivaunu)
+str_emu_Australia_Sydney_Trains_OSCars          :Sydney Trains OSCars (Sähkömoottorijuna)
 str_emu_South_Africa_Gautrain_Electrostar       :Gautrain Electrostar (Sähkömoottorivaunu)
 str_emu_Italy_NTV_AGV                                           :NTV AGV (Sähkömoottorivaunu)
 str_emu_Netherlands_NS_4800_HSA                         :NS 4800 HSA (Sähkömoottorivaunu)
@@ -372,6 +379,8 @@ str_wagon_Gen2_Open_Wagon                               :2. sukupolven puinen la
 str_wagon_Gen2_Silo                                     :2. sukupolven siilovaunu
 str_wagon_Gen2_Hopper                                   :2. sukupolven puinen suppilovaunu
 str_wagon_Gen3_Flat_Wagon                               :3. sukupolven avolavavaunu
+str_wagon_Gen3_Boxcar_Type1                     :3. sukupolven katettu puinen rahtivaunu (Tyyppi 1)
+str_wagon_Gen3_Boxcar_Type2                     :3. sukupolven katettu puinen rahtivaunu (Tyyppi 2)
 str_wagon_Gen3_Tanker                                   :3. sukupolven säiliövaunu
 str_wagon_Gen3_Open_Wagon                               :3. sukupolven lavavaunu
 str_wagon_Gen3_Silo_Type1                               :3. sukupolven siilovaunu (Tyyppi 1)
@@ -379,6 +388,8 @@ str_wagon_Gen3_Silo_Type2                               :3. sukupolven siilovaun
 str_wagon_Gen3_Hopper                                   :3. sukupolven suppilovaunu
 str_wagon_Gen4_Flatcar                                  :4. sukupolven avolavavaunu
 str_wagon_Gen4_Heavy_Flatcar                    :4. sukupolven raskas avolavavaunu
+str_wagon_Gen4_Boxcar_Type1                             :4. sukupolven katettu rahtivaunu (Tyyppi 1)
+str_wagon_Gen4_Boxcar_Type2                             :4. sukupolven katettu rahtivaunu (Tyyppi 2)
 str_wagon_Gen4_Tanker                                   :4. sukupolven säiliövaunu
 str_wagon_Gen4_Gondola                                  :4. sukupolven gondolivaunu
 str_wagon_Gen4_Silo_Type1                               :4. sukupolven siilovaunu (Tyyppi 1)
@@ -489,6 +500,7 @@ str_mtro_wagon_powered          :Metrovaunu (moottoroitu)
 str_mglv_wagon_powered          :Maglev-vaunu (moottoroitu)
 
 #Obsolete vehicles
+str_electric_Turkey_TCDD_E55200_obsolete                                :TCDD E55200 (Vanhentunut)
 
 #PURCHASE MENU TEXTS
 str_unit_wagon                          :Voit käyttää tätä yleisvaunua VAIN pidentämään moottorivaunujunia haluamaasi pituuteen

@@ -487,6 +487,7 @@ str_mtro_wagon_powered          :Vagón de metro (Motorizado)
 str_mglv_wagon_powered          :Vagón Maglev (Motorizado)
 
 #Obsolete vehicles
+str_electric_Turkey_TCDD_E55200_obsolete                                :TCDD E55200 (Obsoleto)
 
 #PURCHASE MENU TEXTS
 str_unit_wagon                          :Este vagón genérico SOLO se puede usar con MUs para crear trenes de la longitud deseada
