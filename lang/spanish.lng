@@ -192,6 +192,7 @@ str_electric_UK_NER_EF1                                                 :NER EF1
 str_electric_USA_Milwaukee_Road_ES_2                    :Milwaukee Road ES-2 (Eléctrico)
 str_electric_USA_Pennsylvania_Railroad_FF_1     :Pennsylvania Railroad FF-1 (Eléctrico)
 str_electric_USA_Milwaukee_Road_EP_2_Bipolar    :Milwaukee Road EP-2 Bipolar (Eléctrico)
+str_electric_Chile_EFE_E_28                                     :EFE E-28 (Eléctrico)
 str_electric_Austria_OBB_1161                                   :OBB 1161 (Eléctrico)
 str_electric_Germany_DB_169                                     :DB 169 (Eléctrico)
 str_electric_Japan_JNR_EB10                                     :JNR EB10 (Eléctrico)
