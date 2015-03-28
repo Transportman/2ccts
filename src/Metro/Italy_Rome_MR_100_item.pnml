@@ -1,0 +1,71 @@
+/*
+ *  Copyright (C) 2014 Transportman
+ *  This file is part of the 2cc Trains In NML and is based on The Dutch Trainset 2.0 by Jasper Vries
+ *  This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
+ *  This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+ *  You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+*/
+
+/*
+* ITEM
+*/
+
+item(FEAT_TRAINS, item_mtro_Italy_Rome_MR_100) {
+    property {
+        name: string(str_mtro_Italy_Rome_MR_100);
+        REGION(SOUTHERNEUROPE,NOREGION,NOCONCEPT)
+        
+        introduction_date: date(1954,1,1);
+        model_life: 50;
+        vehicle_life: 60;
+        loading_speed: 60;
+        cost_factor: 26;
+        running_cost_factor: 23;
+        speed: 100 km/h;
+        power: 237 hp;
+        cargo_capacity: 156;
+        weight: 40 ton;
+        tractive_effort_coefficient: 0.15;
+        air_drag_coefficient: 0;
+        
+        reliability_decay: 20;
+        CARGODEF_PASSENGERS_ONLY
+        cargo_age_period: 185;
+        misc_flags: bitmask(TRAIN_FLAG_MU,TRAIN_FLAG_2CC);
+        refit_cost: 0;
+        track_type: MTRO;
+		ai_special_flag: AI_FLAG_PASSENGER;
+        running_cost_base: RUNNING_COST_STEAM;
+        engine_class: ENGINE_CLASS_ELECTRIC;
+        visual_effect_and_powered: visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
+
+        sprite_id: SPRITE_ID_NEW_TRAIN;
+        dual_headed: 1;
+        length: 7;
+        extra_power_per_wagon: 0;
+        bitmask_vehicle_info: 0;
+	}
+	graphics {
+		purchase: spriteset_mtro_Italy_Rome_MR_100_purchase;
+		can_attach_wagon: switch_can_attach_vehicle;
+		switch_mtro_Italy_Rome_MR_100_reversed;
+	}	
+	livery_override (item_mtro_wagon_unpowered){
+		loading_speed: 60;
+		running_cost_factor: 11;
+		power: 0;
+		weight: 20;
+		cargo_capacity: 156;
+		length: 7;
+		spriteset_mtro_Italy_Rome_MR_100_middle;
+	}
+	livery_override (item_mtro_wagon_powered){
+		loading_speed: 60;
+		running_cost_factor: 17;
+		power: 119;
+		weight: 30;
+		cargo_capacity: 156;
+		length: 7;
+		spriteset_mtro_Italy_Rome_MR_100_middle;
+	}
+}

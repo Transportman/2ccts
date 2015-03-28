@@ -1,0 +1,56 @@
+/*
+ *  Copyright (C) 2014 Transportman
+ *  This file is part of the 2cc Trains In NML and is based on The Dutch Trainset 2.0 by Jasper Vries
+ *  This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
+ *  This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+ *  You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+*/
+
+/*
+* ITEM
+*/
+
+item(FEAT_TRAINS, item_steam_South_Africa_SAR_MD_Class) {
+    property {
+        name: string(str_steam_South_Africa_SAR_MD_Class);
+        REGION(AFRICA,NOREGION,NOCONCEPT)
+		
+        introduction_date: date(1910,1,1);
+        model_life: 25;
+        vehicle_life: 40;
+        loading_speed: 1;
+        cost_factor: 48;
+        running_cost_factor: 38;
+        speed: 65 km/h;
+        power: 1360 hp;
+        cargo_capacity: 0;
+        weight: 102 ton;
+        tractive_effort_coefficient: 0.2;
+        air_drag_coefficient: 0;
+        
+        reliability_decay: 20;
+        CARGODEF_PASSENGERS
+        cargo_age_period: 185;
+        misc_flags: bitmask(TRAIN_FLAG_2CC);
+        refit_cost: 0;
+        track_type: RAIL;
+		ai_special_flag: AI_FLAG_PASSENGER;
+        running_cost_base: RUNNING_COST_STEAM;
+        engine_class: ENGINE_CLASS_STEAM;
+        visual_effect_and_powered: visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER); //Set from graphics file
+
+        sprite_id: SPRITE_ID_NEW_TRAIN;
+        dual_headed: 0;
+        length: 8;
+        extra_power_per_wagon: 0;
+        bitmask_vehicle_info: 0;
+	}
+	graphics {
+		purchase: spriteset_steam_South_Africa_SAR_MD_Class_purchase;
+		visual_effect_and_powered: switch_steam_South_Africa_SAR_MD_Class_visual_effect;
+		length: switch_steam_South_Africa_SAR_MD_Class_length;
+		articulated_part: switch_steam_South_Africa_SAR_MD_Class_articulated;
+		can_attach_wagon: switch_can_attach_vehicle;
+		switch_steam_South_Africa_SAR_MD_Class_position;
+	}
+}
