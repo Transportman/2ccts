@@ -54,7 +54,8 @@ STR_PARAM_REGION_OCEANIA_DESC                   :Benotz Gefierer aus Ozeanien
 str_rbs_Austria_NOLB_1          :NOLB 1 (Dampschinnebus)
 str_rbs_Italy_FS_86                     :FS 86 (Dampschinnebus)
 
-#Diesel Railbus
+
+#Railbus-diesel
 str_rbd_Australia_Victorian_Railways_AEC_RM1    :Victorian Railways AEC RM1 (Diesel Schinnebus)
 str_rbd_Germany_DB_VT133                                                :DB VT133 (Diesel Schinnebus)
 str_rbd_United_Kingdom_GWR_AEC_Railcar                  :GWR AEC Railcar (Diesel Schinnebus)

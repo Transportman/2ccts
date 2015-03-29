@@ -55,8 +55,11 @@ STR_PARAM_REGION_OCEANIA_DESC                   :Koristite vozila iz Oceanije
 #Railbus-steam
 str_rbs_Austria_NOLB_1          :NOLB 1 (parni šinobus)
 str_rbs_Italy_FS_86                     :FS 86 (parni šinobus)
+str_rbs_South_Africa_CSAR_Railmotor :CSAR Railmotor (parni šinobus)
+str_rbs_Australia_Victorian_Railways_Motor_Car_3 :Victorian Railways Motor Car 3 (parni šinobus)
 
-#Diesel Railbus
+
+#Railbus-diesel
 str_rbd_Australia_Victorian_Railways_AEC_RM1    :Victorian Railways AEC RM1 (dizel šinobus)
 str_rbd_Germany_DB_VT133                                                :DB VT133 (dizel šinobus)
 str_rbd_United_Kingdom_GWR_AEC_Railcar                  :GWR AEC Railcar (dizel šinobus)
@@ -76,6 +79,18 @@ str_rbd_Czech_Republic_CD_809                                   :CD 809 (dizel �
 str_rbd_Germany_DB_650_Regio_Shuttle                    :DB 650 'Regio Shuttle' (dizel šinobus)
 str_rbd_Germany_DB_670                                                  :DB 670 (dizel šinobus)
 str_rbd_Lithuania_Lithuanian_Railways_AR2               :Lithuanian Railways AR2 (dizel šinobus)
+str_rbd_Austria_kkStB_19 :kkStB 19 (dizel šinobus)
+str_rbd_USA_Virginia_Truckee_Motor_Car_22 :Virginia & Truckee Motor Car 22 (dizel šinobus)
+str_rbd_Germany_Saxon_DET_1_2 :Saxon DET 1-2 (dizel šinobus)
+str_rbd_UK_WC_PR_Drewry_Railcar :WC_PR Drewry Railcar (dizel šinobus)
+str_rbd_Germany_Schienenzeppelin :Schienenzeppelin (dizel šinobus)
+str_rbd_Czech_Republic_CD_M290 :CD M290 (dizel šinobus)
+str_rbd_Portugal_CP_USD_9050 :CP USD 9050 (dizel šinobus)
+str_rbd_Belgium_SNCB_Class_42 :SNCB Class 42 (dizel šinobus)
+str_rbd_Bulgaria_BDZ_19 :BDZ 19 (dizel šinobus)
+str_rbd_Finland_VR_Dm12 :VR Dm12 (dizel šinobus)
+str_rbd_Japan_JR_KiHa_E120 :JR KiHa E120 (dizel šinobus)
+str_rbd_Czech_Republic_CD_840 :CD 840 (dizel šinobus)
 
 #Railbus-electric
 str_rbe_Switzerland_SBB_Cfe_3_3         :SBB Cfe 3/3 (električni šinobus)
@@ -83,6 +98,11 @@ str_rbe_Morocco_ONCFM_ZAB1000           :ONCFM ZAB1000 (električni šinobus)
 str_rbe_Germany_DB_ET85                         :DB ET85 (električni šinobus)
 str_rbe_Germany_DB_ET479                        :DB ET479 (električni šinobus)
 str_rbe_Italy_FS_ALe_840                        :FS ALe 840 (električni šinobus)
+str_rbe_Spain_Ferrocarril_de_Soller_1_3 :Ferrocarril de Soller 1-3 (električni šinobus)
+str_rbe_USA_Pennsylvania_Railroad_Silverliner_II :Pennsylvania Railroad Silverliner II (električni šinobus)
+str_rbe_Austria_OBB_4855 :OBB 4855 (električni šinobus)
+str_rbe_Switzerland_MVR_Beh_2_4 :MVR Beh 2/4 (električni šinobus)
+str_rbe_USA_SEPTA_Silverliner_V :SEPTA Silverliner V (električni šinobus)
 
 #Steam
 str_steam_Belgium_Le_Belge                      :Le Belge (parna lokomotiva)
@@ -121,6 +141,11 @@ str_steam_Italy_FS_895                          :FS 895 (parna lokomotiva)
 str_steam_Poland_PKP_Okz32                      :PKP Okz32 (parna lokomotiva)
 str_steam_Switzerland_SBB_C_5_6         :SBB C 5/6 (parna lokomotiva)
 str_steam_USA_UP_4000_Big_Boy           :UP 4000 'Big Boy' (parna lokomotiva)
+str_steam_Canada_Canadian_Pacific_374 :Canadian Pacific 374 (parna lokomotiva)
+str_steam_Spain_RENFE_Class_040 :RENFE Class 040 (parna lokomotiva)
+str_steam_Germany_Saxon_IV_K :Saxon IV K (parna lokomotiva)
+str_steam_Angola_South_West_African_2_8_0 :South West African 2-8-0 (parna lokomotiva)
+str_steam_Canada_CN_U_1_Class :CN U-1 Class (parna lokomotiva)
 
 #Diesel
 str_diesel_Germany_DB_310_Kof_II                                                :DB 310 Kof II (dizel lokomotiva)
@@ -187,6 +212,11 @@ str_diesel_Germany_DB_260_Gravita_10BB                                  :DB 260 
 str_diesel_Russia_RZD_GT1                                                               :RZD GT1 (dizel lokomotiva)
 str_diesel_China_MTR_8000                                                               :MTR 8000 (dizel lokomotiva)
 str_diesel_Germany_HVLE_V490                                                    :HVLE V490 (dizel lokomotiva)
+str_diesel_Australia_Queensland_Railways_DL_Class :Queensland Railways DL Class (dizel lokomotiva)
+str_diesel_Algeria_SNTF_Baldwin_DRS6_4_1000 :SNTF Baldwin DRS6-4-1000 (dizel lokomotiva)
+str_diesel_Brazil_EFC_3300_Baldwin_AS_616 :EFC 3300 Baldwin AS-616 (dizel lokomotiva)
+str_diesel_Mexico_CHP_500_FM_H_16_44 :CHP 500 FM H-16-44 (dizel lokomotiva)
+str_diesel_Spain_RENFE_Class_334 :RENFE Class 334 (dizel lokomotiva)
 
 #Electric
 str_electric_Switzerland_RhB_DE_2_2                     :RhB DE 2/2 (električna lokomotiva)
@@ -248,6 +278,14 @@ str_electric_France_SNCF_CC_40100                               :SNCF CC 40100 (
 str_electric_India_Indian_Railways_WAP_4                :Indian Railways WAP-4 (električna lokomotiva)
 str_electric_India_Indian_Railways_WCG_1                :Indian Railways WCG-1 (električna lokomotiva)
 str_electric_Portugal_CP_2500                                   :CP 2500 (električna lokomotiva)
+str_electric_UK_NER_ES1 :NER ES1 (električna lokomotiva)
+str_electric_Italy_FS_E550 :FS E.550 (električna lokomotiva)
+str_electric_UK_NER_EE1 :NER EE1 (električna lokomotiva)
+str_electric_Australia_Victorian_Railways_E_Class :Victorian Railways E Class (električna lokomotiva)
+str_electric_New_Zealand_NZR_EO_Class :NZR EO Class (električna lokomotiva)
+str_electric_Australia_NSWGR_71 :NSWGR 71 (električna lokomotiva)
+str_electric_Belgium_NMBS_Class_255 :NMBS Class 25.5 (električna lokomotiva)
+str_electric_Russia_RZD_ChS3 :RZD ChS3 (električna lokomotiva)
 
 #DMU
 str_dmu_Germany_DB_VT04_Flying_Hamburger        :DB VT04 'Flying Hamburger' (dizelmotorni vlak)
@@ -274,6 +312,8 @@ str_dmu_Australia_CityRail_Hunter_Railcar       :CityRail Hunter Railcar (dizelm
 str_dmu_Russia_RZD_RA2                                          :RZD RA2 (dizelmotorni vlak)
 str_dmu_Denmark_DSB_IC4                                         :DSB IC4 (dizelmotorni vlak)
 str_dmu_Croatia_HZ_7022                                         :HZ 7022 (dizelmotorni vlak)
+str_dmu_Czech_Republic_CD_814 :CD 814 (dizelmotorni vlak)
+str_dmu_Australia_TransAdelaide_3100 :TransAdelaide 3100 (dizelmotorni vlak)
 
 #EMU
 str_emu_Netherlands_NS_Mat24                            :NS Mat'24 (elektromotorni vlak)
@@ -321,6 +361,7 @@ str_emu_South_Africa_Gautrain_Electrostar       :Gautrain Electrostar (elektromo
 str_emu_Italy_NTV_AGV                                           :NTV AGV (elektromotorni vlak)
 str_emu_Netherlands_NS_4800_HSA                         :NS 4800 HSA (elektromotorni vlak)
 str_emu_Italy_NTV_AGV_Duplex                            :NTV AGV Duplex (elektromotorni vlak)
+str_emu_Italy_FS_ALe_801 :FS ALe 801 (elektromotorni vlak)
 
 #Single Unit Metro
 str_mtro_USA_Brooklyn_Union_Gate_Car                                    :Brooklyn Union Gate (jednostruki metro)

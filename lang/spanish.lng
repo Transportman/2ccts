@@ -54,7 +54,8 @@ STR_PARAM_REGION_OCEANIA_DESC                   :Usar vehículos de Oceanía
 str_rbs_Austria_NOLB_1          :NOLB 1 (Railbus a vapor)
 str_rbs_Italy_FS_86                     :FS 86 (Railbus a vapor)
 
-#Diesel Railbus
+
+#Railbus-diesel
 str_rbd_Australia_Victorian_Railways_AEC_RM1    :Victorian Railways AEC RM1 (Railbus diésel)
 str_rbd_Germany_DB_VT133                                                :DB VT133 (Railbus diésel)
 str_rbd_United_Kingdom_GWR_AEC_Railcar                  :GWR AEC Railcar (Railbus diésel)
@@ -81,6 +82,7 @@ str_rbe_Morocco_ONCFM_ZAB1000           :ONCFM ZAB1000 (Railbus eléctrico)
 str_rbe_Germany_DB_ET85                         :DB ET85 (Railbus eléctrico)
 str_rbe_Germany_DB_ET479                        :DB ET479 (Railbus eléctrico)
 str_rbe_Italy_FS_ALe_840                        :FS ALe 840 (Railbus eléctrico)
+str_rbe_Poland_PKP_EN81 :PKP EN81 (Railbus eléctrico)
 
 #Steam
 str_steam_Belgium_Le_Belge                      :Le Belge (Vapor)
@@ -184,6 +186,7 @@ str_diesel_Germany_DB_260_Gravita_10BB                                  :DB 260 
 str_diesel_Russia_RZD_GT1                                                               :RZD GT1 (Diésel)
 str_diesel_China_MTR_8000                                                               :MTR 8000 (Diésel)
 str_diesel_Germany_HVLE_V490                                                    :HVLE V490 (Diésel)
+str_diesel_Australia_Pacific_National_G_Class :Pacific National G Class (Diésel)
 
 #Electric
 str_electric_Switzerland_RhB_DE_2_2                     :RhB DE 2/2 (Eléctrico)

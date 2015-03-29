@@ -49,7 +49,8 @@ STR_PARAM_REGION_OCEANIA                                :Океания
 str_rbs_Austria_NOLB_1          :NOLB 1 (Паровая Моториса)
 str_rbs_Italy_FS_86                     :FS 86 (Паровая Моториса)
 
-#Diesel Railbus
+
+#Railbus-diesel
 str_rbd_United_Kingdom_GWR_AEC_Railcar                  :GWR AEC (Дизель Моториса)
 str_rbd_Germany_DB_VT42                                                 :DB VT42 (Дизель Моториса)
 str_rbd_Portugal_CP_0100                                                :CP 0100 (Дизель Моториса)

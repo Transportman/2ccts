@@ -19,7 +19,8 @@ STR_GRF_URL             :https://dev.openttdcoop.org/projects/2ccts
 str_rbs_Austria_NOLB_1          :下奧地利國家鐵路1型 (蒸汽輕軌車廂)
 str_rbs_Italy_FS_86                     :意鐵86型 (蒸汽輕軌車廂)
 
-#Diesel Railbus
+
+#Railbus-diesel
 str_rbd_Germany_DB_VT133                                                :德鐵 VT133 型 (柴油輕軌車廂)
 str_rbd_United_Kingdom_GWR_AEC_Railcar                  :GWR AEC 車廂 (柴油輕軌車廂)
 str_rbd_New_Zealand_NZR_RM31                                    :新西蘭鐵路RM31型 (柴油輕軌車廂)

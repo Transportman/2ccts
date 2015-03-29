@@ -53,7 +53,8 @@ STR_PARAM_REGION_OCEANIA_DESC                   :Benutze die Fahrzeuge aus Ozean
 #Railbus-steam
 str_rbs_Austria_NOLB_1          :NOLB 1 (Dampf-Schienenbus)
 
-#Diesel Railbus
+
+#Railbus-diesel
 str_rbd_New_Zealand_NZR_RM31                                    :NZR RM31 (Diesel-Schienenbus)
 str_rbd_Germany_DB_VT98                                                 :DB VT98 (Diesel-Schienenbus)
 
