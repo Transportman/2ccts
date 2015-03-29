@@ -36,7 +36,7 @@ item(FEAT_TRAINS, item_emu_Australia_Victorian_Railways_Swing_Door) {
         track_type: RAIL;
 		ai_special_flag: AI_FLAG_PASSENGER;
         running_cost_base: RUNNING_COST_STEAM;
-        engine_class: ENGINE_CLASS_DIESEL;
+        engine_class: ENGINE_CLASS_ELECTRIC;
         visual_effect_and_powered: visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
 
         sprite_id: SPRITE_ID_NEW_TRAIN;
