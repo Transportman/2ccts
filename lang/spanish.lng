@@ -75,6 +75,7 @@ str_rbd_Czech_Republic_CD_809                                   :CD 809 (Railbus
 str_rbd_Germany_DB_650_Regio_Shuttle                    :DB 650 'Regio Shuttle' (Railbus diésel)
 str_rbd_Germany_DB_670                                                  :DB 670 (Railbus diésel)
 str_rbd_Lithuania_Lithuanian_Railways_AR2               :Lithuanian Railways AR2 (Railbus diésel)
+str_rbd_Greece_OSE_AA71 :OSE AA.71 (Railbus diésel)
 
 #Railbus-electric
 str_rbe_Switzerland_SBB_Cfe_3_3         :SBB Cfe 3/3 (Railbus eléctrico)
@@ -152,6 +153,7 @@ str_diesel_Romania_CFR_060_DA                                                   
 str_diesel_Brazil_BF_EMD_GL8                                                    :BF EMD GL8 (Diésel)
 str_diesel_Brazil_EFVM_ML4000                                                   :EFVM ML4000 (Diésel)
 str_diesel_Russia_RZD_TEP60                                                     :RZD TEP60 (Diésel)
+str_diesel_Belgium_NMBS_SNCB_62                                                 :NMBS/SNCB 62 (Diésel)
 str_diesel_Denmark_DSB_MaK_100                                                  :DSB MaK 100 (Diésel)
 str_diesel_India_Indian_Railways_WDM_2                                  :Indian Railways WDM-2 (Diésel)
 str_diesel_UK_BR_14                                                                     :BR 14 (Diésel)
@@ -186,7 +188,10 @@ str_diesel_Germany_DB_260_Gravita_10BB                                  :DB 260 
 str_diesel_Russia_RZD_GT1                                                               :RZD GT1 (Diésel)
 str_diesel_China_MTR_8000                                                               :MTR 8000 (Diésel)
 str_diesel_Germany_HVLE_V490                                                    :HVLE V490 (Diésel)
+str_diesel_Russia_RZD_Emch_3            :RZD Emch-3 (Diésel)
+str_diesel_Italy_FS_D345 :FS D.345 (Diésel)
 str_diesel_Australia_Pacific_National_G_Class :Pacific National G Class (Diésel)
+str_diesel_France_SNCF_461000 :SNCF 461000 (Diésel)
 
 #Electric
 str_electric_Switzerland_RhB_DE_2_2                     :RhB DE 2/2 (Eléctrico)
@@ -248,6 +253,8 @@ str_electric_France_SNCF_CC_40100                               :SNCF CC 40100 (
 str_electric_India_Indian_Railways_WAP_4                :Indian Railways WAP-4 (Eléctrico)
 str_electric_India_Indian_Railways_WCG_1                :Indian Railways WCG-1 (Eléctrico)
 str_electric_Portugal_CP_2500                                   :CP 2500 (Eléctrico)
+str_electric_UK_NER_EE1 :NER EE1 (Eléctrico)
+str_electric_Belgium_NMBS_Class_255 :NMBS Class 25.5 (Eléctrico)
 
 #DMU
 str_dmu_Germany_DB_VT04_Flying_Hamburger        :DB VT04 'Flying Hamburger' (DMU)
@@ -317,6 +324,7 @@ str_emu_South_Africa_Gautrain_Electrostar       :Gautrain Electrostar (EMU)
 str_emu_Italy_NTV_AGV                                           :NTV AGV (EMU)
 str_emu_Netherlands_NS_4800_HSA                         :NS 4800 HSA (EMU)
 str_emu_Italy_NTV_AGV_Duplex                            :NTV AGV Duplex (EMU)
+str_emu_Austria_OBB_4030 :OBB 4030 (EMU)
 
 #Single Unit Metro
 str_mtro_USA_Brooklyn_Union_Gate_Car                                    :Brooklyn Union Gate Car (Unidad de Metro individual)
