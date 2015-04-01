@@ -54,7 +54,9 @@ STR_PARAM_REGION_OCEANIA_DESC                   :Attiva i veicoli dell'Oceania
 #VEHICLE NAMES
 #Railbus-steam
 str_rbs_Austria_NOLB_1          :NOLB 1 (automotrice a vapore)
-str_rbs_Italy_FS_86                     :FS 86 (automotrice a vapore)
+str_rbs_Italy_FS_86                     :FS Gruppo 86 (automotrice a vapore)
+str_rbs_Germany_Bavarian_MCCi :MCCi delle Ferrovie Bavaresi (automotrice a vapore)
+str_rbs_Australia_Victorian_Railways_Motor_Car_3 :Victorian Railways Motor Car 3 (automotrice a vapore)
 
 
 #Railbus-diesel
@@ -78,8 +80,16 @@ str_rbd_Germany_DB_650_Regio_Shuttle                    :DB 650 'Regio Shuttle' 
 str_rbd_Germany_DB_670                                                  :DB 670 (automotrice diesel)
 str_rbd_Lithuania_Lithuanian_Railways_AR2               :Lithuanian Railways AR2 (automotrice diesel)
 str_rbd_Australia_Victorian_Railways_DERM :Victorian Railways DERM (automotrice diesel)
+str_rbd_Czech_Republic_CD_M120 :CD M120 (automotrice diesel)
+str_rbd_Germany_Schienenzeppelin :Schienenzeppelin (automotrice diesel)
 str_rbd_Denmark_DSB_MO :DSB MO (automotrice diesel)
+str_rbd_Norway_NSB_Cmb_17 :NSB Cmb 17 (automotrice diesel)
+str_rbd_Czech_Republic_CD_M290 :CD M290 (automotrice diesel)
+str_rbd_Bulgaria_BDZ_19 :BDZ 19 (automotrice diesel)
 str_rbd_Greece_OSE_AA71 :OSE AA.71 (automotrice diesel)
+str_rbd_Tunisia_SNCFT_Z431 :SNCFT Z431 (automotrice diesel)
+str_rbd_Finland_VR_Dm12 :VR Dm12 (automotrice diesel)
+str_rbd_Japan_JR_KiHa_E120 :JR KiHa E120 (automotrice diesel)
 
 #Railbus-electric
 str_rbe_Switzerland_SBB_Cfe_3_3         :SBB Cfe 3/3 (automotrice elettrica)
@@ -87,7 +97,12 @@ str_rbe_Morocco_ONCFM_ZAB1000           :ONCFM ZAB1000 (automotrice elettrica)
 str_rbe_Germany_DB_ET85                         :DB ET85 (automotrice elettrica)
 str_rbe_Germany_DB_ET479                        :DB ET479 (automotrice elettrica)
 str_rbe_Italy_FS_ALe_840                        :FS ALe 840 (automotrice elettrica)
+str_rbe_Spain_Ferrocarril_de_Soller_1_3 :Ferrocarril de Soller 1-3 (automotrice elettrica)
+str_rbe_Italy_FS_E623 :FS E.623 (automotrice elettrica)
+str_rbe_Japan_Choshi_DeHa_1000 :Choshi DeHa 1000 (automotrice elettrica)
 str_rbe_Austria_OBB_4855 :OBB 4855 (automotrice elettrica)
+str_rbe_Switzerland_MVR_Beh_2_4 :MVR Beh 2/4 (automotrice elettrica)
+str_rbe_Poland_PKP_EN81 :PKP EN81 (automotrice elettrica)
 
 #Steam
 str_steam_Belgium_Le_Belge                      :Le Belge (locomotiva a vapore)
@@ -126,7 +141,21 @@ str_steam_Italy_FS_895                          :FS Gruppo 895 (locomotiva a vap
 str_steam_Poland_PKP_Okz32                      :PKP Okz32 (locomotiva a vapore)
 str_steam_Switzerland_SBB_C_5_6         :SBB C 5/6 (locomotiva a vapore)
 str_steam_USA_UP_4000_Big_Boy           :UP 4000 'Big Boy' (locomotiva a vapore)
+str_steam_Netherlands_NRS_11 :NRS 11 (locomotiva a vapore)
+str_steam_Australia_Sidney_Railway_Locomotive_No1 :Ferrovia di Sidney Locomotiva No.1 (locomotiva a vapore)
+str_steam_South_Africa_Natal_Government_Railways_2_6_0T :Natal Government Railways 2-6-0T (locomotiva a vapore)
+str_steam_Canada_Canadian_Pacific_374 :Canadian Pacific 374 (locomotiva a vapore)
+str_steam_Switzerland_RhB_G_3_4 :RhB G 3/4 (locomotiva a vapore)
+str_steam_Netherlands_NS_8100 :NS 8100 (locomotiva a vapore)
+str_steam_South_Africa_SAR_MD_Class :SAR classe MD (locomotiva a vapore)
+str_steam_UK_LNER_N7 :LNER N7 (locomotiva a vapore)
+str_steam_Belgium_NMBS_Type_7 :NMBS Type 7 (locomotiva a vapore)
+str_steam_USA_Sierra_Railroad_28 :Sierra Railroad 28 (locomotiva a vapore)
+str_steam_Egypt_ENR_1100 :ENR 1100 (locomotiva a vapore)
+str_steam_Japan_JNR_Class_E10 :JNR classe E10 (locomotiva a vapore)
 str_steam_UK_GWR_1600_Class :GWR 1600 Class (locomotiva a vapore)
+str_steam_Australia_Victorian_Railways_R_Class :Classe R delle Ferrovie Vittoriane (locomotiva a vapore)
+str_steam_Germany_DB_9977 :DB 99.77 (locomotiva a vapore)
 
 #Diesel
 str_diesel_Germany_DB_310_Kof_II                                                :DB 310 Kof II (locomotiva diesel)
@@ -193,8 +222,22 @@ str_diesel_Germany_DB_260_Gravita_10BB                                  :DB 260 
 str_diesel_Russia_RZD_GT1                                                               :RZD GT1 (locomotiva diesel)
 str_diesel_China_MTR_8000                                                               :MTR 8000 (locomotiva diesel)
 str_diesel_Germany_HVLE_V490                                                    :HVLE V490 (locomotiva diesel)
+str_diesel_Russia_RZD_Emch_3            :RZD Emch-3 (locomotiva diesel)
+str_diesel_Canada_CNR_9000                      :CNR 9000 (locomotiva diesel)
+str_diesel_Australia_Queensland_Railways_DL_Class :Queensland Railways DL Class (locomotiva diesel)
 str_diesel_Algeria_SNTF_Baldwin_DRS6_4_1000 :SNTF Baldwin DRS6-4-1000 (locomotiva diesel)
+str_diesel_Australia_South_Australian_Railways_900 :South Australian Railways 900 (locomotiva diesel)
+str_diesel_Sri_Lanka_Sri_Lanka_Railways_M2 :Sri Lanka Railways M2 (locomotiva diesel)
+str_diesel_Ireland_CIE_001 :CIE 001 (locomotiva diesel)
+str_diesel_Italy_FS_D341 :FS D341 (locomotiva diesel)
+str_diesel_Japan_JNR_DF50 :JNR DF50 (locomotiva diesel)
+str_diesel_Australia_NSWGR_44 :NSWGR 44 (locomotiva diesel)
+str_diesel_Norway_NSB_Di4 :NSB Di4 (locomotiva diesel)
 str_diesel_Australia_Pacific_National_G_Class :Pacific National G Class (locomotiva diesel)
+str_diesel_UK_BR_60 :BR 60 (locomotiva diesel)
+str_diesel_Australia_Westrail_P_Class :Westrail P Class (locomotiva diesel)
+str_diesel_USA_Metrolink_EMD_F59PH :Metrolink EMD F59PH (locomotiva diesel)
+str_diesel_France_SNCF_461000 :SNCF 461000 (locomotiva diesel)
 str_diesel_Canada_GO_Transit_MP40PH_3C :GO Transit MP40PH-3C (locomotiva diesel)
 
 #Electric
@@ -257,8 +300,20 @@ str_electric_France_SNCF_CC_40100                               :SNCF CC 40100 (
 str_electric_India_Indian_Railways_WAP_4                :Indian Railways WAP-4 (locomotiva elettrica)
 str_electric_India_Indian_Railways_WCG_1                :Indian Railways WCG-1 (locomotiva elettrica)
 str_electric_Portugal_CP_2500                                   :CP 2500 (locomotiva elettrica)
+str_electric_Italy_FS_E550 :FS E550 (locomotiva elettrica)
+str_electric_Switzerland_RhB_Ge_6_6_Krokodil :RhB Ge 6/6 'Krokodil' (locomotiva elettrica)
+str_electric_UK_NER_EE1 :NER EE1 (locomotiva elettrica)
+str_electric_Australia_Victorian_Railways_E_Class :Ferrovie Vittoriane classe E (locomotiva elettrica)
+str_electric_New_Zealand_NZR_EO_Class :NZR classe EO (locomotiva elettrica)
 str_electric_Germany_DB_Class_E91 :DB Class E91 (locomotiva elettrica)
 str_electric_Japan_Aichi_Railroad_DeKi_400 :Aichi Railroad DeKi 400 (locomotiva elettrica)
+str_electric_Australia_NSWGR_71 :NSWGR 71 (locomotiva elettrica)
+str_electric_South_Africa_SAR_4E :SAR 4E (locomotiva elettrica)
+str_electric_Belgium_NMBS_Class_255 :NMBS classe 25.5 (locomotiva elettrica)
+str_electric_Poland_PKP_EU06 :PKP EU06 (locomotiva elettrica)
+str_electric_France_SNCF_BB_25500 :SNCF BB 25500 (locomotiva elettrica)
+str_electric_Czech_Republic_CD_380 :CD 380 (locomotiva elettrica)
+str_electric_South_Africa_SAR_20E :SAR 20E (locomotiva elettrica)
 
 #DMU
 str_dmu_Germany_DB_VT04_Flying_Hamburger        :DB VT04 'Flying Hamburger' (automotrice diesel)
@@ -285,6 +340,11 @@ str_dmu_Australia_CityRail_Hunter_Railcar       :CityRail Hunter Railcar (automo
 str_dmu_Russia_RZD_RA2                                          :RZD RA2 (automotrice diesel)
 str_dmu_Denmark_DSB_IC4                                         :DSB IC4 (automotrice diesel)
 str_dmu_Croatia_HZ_7022                                         :HZ 7022 (automotrice diesel)
+str_dmu_Turkey_TCDD_MT_5500 :TCDD MT 5500 (automotrice diesel)
+str_dmu_Czech_Republic_CD_814 :CD 814 (automotrice diesel)
+str_dmu_Iran_RAI_141_Pacer :RAI 141 'Pacer' (automotrice diesel)
+str_dmu_Sri_Lanka_Sri_Lanka_Railways_S11 :Sri Lanka Railways S11 (automotrice diesel)
+str_dmu_Slovakia_ZSSK_861 :ZSSK 861 (automotrice diesel)
 
 #EMU
 str_emu_Netherlands_NS_Mat24                            :NS Mat'24 (elettrotreno)
@@ -333,6 +393,9 @@ str_emu_Italy_NTV_AGV                                           :NTV AGV (elettr
 str_emu_Netherlands_NS_4800_HSA                         :NS 4800 HSA (elettrotreno)
 str_emu_Italy_NTV_AGV_Duplex                            :NTV AGV Duplex (elettrotreno)
 str_emu_Australia_Victorian_Railways_Swing_Door :Victorian Railways 'Swing Door' (elettrotreno)
+str_emu_Italy_FS_ALe_801 :FS ALe 801 (elettrotreno)
+str_emu_Macedonia_Macedonian_Railways_412 :Ferrovie di Macedonia 412 (elettrotreno)
+str_emu_Netherlands_NS_Hispeed_V250_Albatros :NS Hispeed V250 'Albatros' (elettrotreno)
 
 #Single Unit Metro
 str_mtro_USA_Brooklyn_Union_Gate_Car                                    :Brooklyn Union Gate (Metro unità singola)
@@ -375,6 +438,10 @@ str_mtro_Japan_Osaka_30000                                              :Osaka 3
 str_mtro_Singapore_Singapore_C151A                              :Singapore C151A (Metro)
 str_mtro_USA_Washington_7000                                    :Washington 7000 (Metro)
 str_mtro_Greece_Thessaloniki_2014                               :Tessalonica 2014 (Metro)
+str_mtro_USA_NY_Hedley_Hi_V :New York Hedley Hi-V (Metro)
+str_mtro_Italy_Rome_MR_100 :Rome MR 100 (Metro)
+str_mtro_Netherlands_Rotterdam_MG2_Type_M :Rotterdam MG2 Type M (Metro)
+str_mtro_Czech_Republic_Prague_ECS_Set :Prague ECS Set (Metro)
 
 #Maglev
 str_mglv_China_Transrapid       :Shanghai Transrapid (Maglev)
