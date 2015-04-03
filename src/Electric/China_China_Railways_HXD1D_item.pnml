@@ -25,7 +25,7 @@ item(FEAT_TRAINS, item_electric_China_China_Railways_HXD1D) {
         power: 9700 hp;
         cargo_capacity: 0;
         weight: 126 ton;
-        tractive_effort_coefficient: 0.13;
+        tractive_effort_coefficient: 0.33;
         air_drag_coefficient: 0;
         
         reliability_decay: 20;
