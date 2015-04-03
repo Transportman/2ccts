@@ -11,7 +11,7 @@
 */
 
 spriteset(spriteset_electric_Sweden_SJ_O_Class_purchase, "gfx/Electric/Sweden_SJ_O_Class.png") {
-	template_purchase(1, 64)
+	template_purchase(1, 128)
 }
 
 /*
