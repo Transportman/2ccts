@@ -138,7 +138,7 @@ str_diesel_Netherlands_NS_600                                                   
 str_diesel_USA_Pennsylvania_Railroad_RF_16_Sharknose    :Pennsylvania Railroad RF-16 'Sharknose' (Diésel)
 str_diesel_Uruguay_AFE_1500                                                     :AFE 1500 (Diésel)
 str_diesel_Canada_CPR_Trainmaster                                               :CPR 'Trainmaster' (Diésel)
-str_diesel_Liberia_Liberia_Railways_Class_08                    :Liberia Railways Class 08 (Diésel)
+str_diesel_Liberia_Liberia_Railways_Class_08                    :Liberia Railways 08 (Diésel)
 str_diesel_Austria_OBB_2060                                                     :OBB 2060 (Diésel)
 str_diesel_Canada_CNR_SW1200                                                    :CNR SW1200 (Diésel)
 str_diesel_Canada_VIA_Rail_FP9                                                  :VIA Rail FP9 (Diésel)
@@ -190,10 +190,11 @@ str_diesel_China_MTR_8000                                                       
 str_diesel_Germany_HVLE_V490                                                    :HVLE V490 (Diésel)
 str_diesel_Russia_RZD_Emch_3            :RZD Emch-3 (Diésel)
 str_diesel_USA_NYC_Baldwin_VO_660 :NYC Baldwin VO-660 (Diésel)
+str_diesel_Ireland_CIE_001 :CIE 001 (Diésel)
 str_diesel_South_Korea_Korail_6000_EMD_SD18 :Korail 6000 EMD SD18 (Diésel)
 str_diesel_Italy_FS_D345 :FS D.345 (Diésel)
-str_diesel_Australia_Pacific_National_G_Class :Pacific National G Class (Diésel)
-str_diesel_France_SNCF_461000 :SNCF 461000 (Diésel)
+str_diesel_Australia_Pacific_National_G_Class :Pacific National G (Diésel)
+str_diesel_France_SNCF_461000 :SNCF BB 461000 (Diésel)
 
 #Electric
 str_electric_Switzerland_RhB_DE_2_2                     :RhB DE 2/2 (Eléctrico)
