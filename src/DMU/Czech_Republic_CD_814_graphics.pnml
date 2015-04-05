@@ -54,11 +54,16 @@ switch(FEAT_TRAINS, SELF, switch_dmu_Czech_Republic_CD_814_visual_effect_and_pow
 /*
 * Cargo capacity
 */
+switch(FEAT_TRAINS, SELF, switch_dmu_Czech_Republic_CD_814_capacity_head, cargo_classes) {
+	bitmask(CC_MAIL): 21;
+	bitmask(CC_ARMOURED): 11;
+	42;
+}
 
-switch(FEAT_TRAINS, SELF, switch_dmu_Czech_Republic_CD_814_capacity, cargo_classes) {
-	bitmask(CC_MAIL): 68;
-	bitmask(CC_ARMOURED): 34;
-	135;
+switch(FEAT_TRAINS, SELF, switch_dmu_Czech_Republic_CD_814_capacity_wagon, cargo_classes) {
+	bitmask(CC_MAIL): 28;
+	bitmask(CC_ARMOURED): 14;
+	56;
 }
 
 //Graphics for the unit wagon based on cargo class
