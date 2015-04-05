@@ -75,6 +75,7 @@ str_rbd_Czech_Republic_CD_809                                   :CD 809 (Railbus
 str_rbd_Germany_DB_650_Regio_Shuttle                    :DB 650 'Regio Shuttle' (Railbus diésel)
 str_rbd_Germany_DB_670                                                  :DB 670 (Railbus diésel)
 str_rbd_Lithuania_Lithuanian_Railways_AR2               :Lithuanian Railways AR2 (Railbus diésel)
+str_rbd_Germany_BSt_6001 :BSt 6001 (Railbus diésel)
 str_rbd_Greece_OSE_AA71 :OSE AA.71 (Railbus diésel)
 
 #Railbus-electric
@@ -135,7 +136,7 @@ str_diesel_USA_GNR_EMD_F3                                                       
 str_diesel_USA_UP_EMD_E8                                                                :UP EMD E8 (Diésel)
 str_diesel_Brazil_EFCB_ALCO_RS_3                                                :EFCB ALCO RS-3 (Diésel)
 str_diesel_Netherlands_NS_600                                                   :NS 600 'Bakkie' (Diésel)
-str_diesel_USA_Pennsylvania_Railroad_RF_16_Sharknose    :Pennsylvania Railroad RF-16 'Sharknose' (Diésel)
+str_diesel_USA_Pennsylvania_Railroad_RF_16_Sharknose    :PRR RF-16 'Sharknose' (Diésel)
 str_diesel_Uruguay_AFE_1500                                                     :AFE 1500 (Diésel)
 str_diesel_Canada_CPR_Trainmaster                                               :CPR 'Trainmaster' (Diésel)
 str_diesel_Liberia_Liberia_Railways_Class_08                    :Liberia Railways 08 (Diésel)
@@ -209,7 +210,7 @@ str_electric_Germany_DB_169                                     :DB 169 (Eléctr
 str_electric_Japan_JNR_EB10                                     :JNR EB10 (Eléctrico)
 str_electric_Norway_NSB_EL10                                    :NSB EL10 (Eléctrico)
 str_electric_Germany_DB_104                                     :DB 104 (Eléctrico)
-str_electric_Italy_FS_E428                                              :FS E428 (Eléctrico)
+str_electric_Italy_FS_E428                                              :FS E.428 (Eléctrico)
 str_electric_USA_Pennsylvania_Railroad_GG_1     :Pennsylvania Railroad GG-1 (Eléctrico)
 str_electric_Japan_JNR_EF55                                     :JNR EF55 (Eléctrico)
 str_electric_South_Africa_SAR_ES_Class                  :SAR ES Class (Eléctrico)
@@ -222,7 +223,7 @@ str_electric_France_SNCF_BB_9004                                :SNCF BB 9004 (E
 str_electric_Switzerland_SBB_Ce_4_4                     :SBB Ce 4/4 (Eléctrico)
 str_electric_Switzerland_SBB_Ae_6_6                     :SBB Ae 6/6 (Eléctrico)
 str_electric_India_Indian_Railways_WCM_1                :Indian Railways WCM-1 (Eléctrico)
-str_electric_Italy_FS_E646                                              :FS E646 (Eléctrico)
+str_electric_Italy_FS_E646                                              :FS E.646 (Eléctrico)
 str_electric_Russia_RZD_VL41                                    :RZD VL41 (Eléctrico)
 str_electric_Japan_JNR_EF64                                     :JNR EF64 (Eléctrico)
 str_electric_Croatia_HZ_1141                                    :HZ 1141 (Eléctrico)
@@ -257,7 +258,7 @@ str_electric_India_Indian_Railways_WAP_4                :Indian Railways WAP-4 (
 str_electric_India_Indian_Railways_WCG_1                :Indian Railways WCG-1 (Eléctrico)
 str_electric_Portugal_CP_2500                                   :CP 2500 (Eléctrico)
 str_electric_UK_NER_EE1 :NER EE1 (Eléctrico)
-str_electric_Belgium_NMBS_Class_255 :NMBS Class 25.5 (Eléctrico)
+str_electric_Belgium_NMBS_Class_255 :NMBS/SNCB 25.5 (Eléctrico)
 
 #DMU
 str_dmu_Germany_DB_VT04_Flying_Hamburger        :DB VT04 'Flying Hamburger' (DMU)
