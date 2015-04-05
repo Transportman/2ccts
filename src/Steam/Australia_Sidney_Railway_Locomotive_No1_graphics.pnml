@@ -54,7 +54,7 @@ switch(FEAT_TRAINS, SELF, switch_steam_Australia_Sidney_Railway_Locomotive_No1_v
 
 switch(FEAT_TRAINS, SELF, switch_steam_Australia_Sidney_Railway_Locomotive_No1_length, position_in_vehid_chain % 2) {
 	0: 5;
-	5;
+	4;
 }
 
 switch(FEAT_TRAINS, SELF, switch_steam_Australia_Sidney_Railway_Locomotive_No1_articulated, extra_callback_info1) {

@@ -27,37 +27,8 @@ spriteset(spriteset_steam_Switzerland_RhB_G_3_4_engine2, "gfx/Steam/Switzerland_
 	template_2cc_engines_general(1, 32)
 }
 
-//Tender
-spriteset(spriteset_steam_Switzerland_RhB_G_3_4_tender, "gfx/Steam/Switzerland_RhB_G_3_4.png") {
-	template_2cc_engines_general(1, 64)
-}
-
 //Animation states
 switch(FEAT_TRAINS, SELF, switch_steam_Switzerland_RhB_G_3_4_animation, motion_counter % 2){
 	0: spriteset_steam_Switzerland_RhB_G_3_4_engine1;
 	spriteset_steam_Switzerland_RhB_G_3_4_engine2;
-}
-
-switch(FEAT_TRAINS, SELF, switch_steam_Switzerland_RhB_G_3_4_position, position_in_vehid_chain % 2) {
-	0: switch_steam_Switzerland_RhB_G_3_4_animation;
-	spriteset_steam_Switzerland_RhB_G_3_4_tender;
-}
-
-/*
-* Visual effect
-*/
-
-switch(FEAT_TRAINS, SELF, switch_steam_Switzerland_RhB_G_3_4_visual_effect, position_in_vehid_chain % 2) {
-	0: return visual_effect_and_powered(VISUAL_EFFECT_STEAM, -3, DISABLE_WAGON_POWER);
-	return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
-}
-
-switch(FEAT_TRAINS, SELF, switch_steam_Switzerland_RhB_G_3_4_length, position_in_vehid_chain % 2) {
-	0: 6;
-	6;
-}
-
-switch(FEAT_TRAINS, SELF, switch_steam_Switzerland_RhB_G_3_4_articulated, extra_callback_info1) {
-	1: return item_steam_Switzerland_RhB_G_3_4;
-    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
 }
