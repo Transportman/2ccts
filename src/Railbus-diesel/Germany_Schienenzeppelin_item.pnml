@@ -49,6 +49,6 @@ item(FEAT_TRAINS, item_rbd_Germany_Schienenzeppelin) {
 		cargo_capacity: switch_rbd_Germany_Schienenzeppelin_capacity;
 		purchase: spriteset_rbd_Germany_Schienenzeppelin_purchase;
 		can_attach_wagon: switch_can_attach_vehicle;
-		spriteset_rbd_Germany_Schienenzeppelin;
+		switch_rbd_Germany_Schienenzeppelin_animation;
 	}
 }

@@ -48,6 +48,6 @@ item(FEAT_TRAINS, item_diesel_UK_LMS_7051_Diesel_Shunter) {
 	graphics {
 		purchase: spriteset_diesel_UK_LMS_7051_Diesel_Shunter_purchase;
 		can_attach_wagon: switch_can_attach_vehicle;
-		spriteset_diesel_UK_LMS_7051_Diesel_Shunter;
+		switch_diesel_UK_LMS_7051_Diesel_Shunter_animation;
 	}
 }

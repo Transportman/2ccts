@@ -11,7 +11,7 @@
 */
 
 spriteset(spriteset_rbs_Australia_Victorian_Railways_Motor_Car_3_purchase, "gfx/Railbus-steam/Australia_Victorian_Railways_Motor_Car_3.png") {
-	template_purchase(1, 32)
+	template_purchase(1, 64)
 }
 
 /*
@@ -19,9 +19,19 @@ spriteset(spriteset_rbs_Australia_Victorian_Railways_Motor_Car_3_purchase, "gfx/
 */
 
 //Engine
-spriteset(spriteset_rbs_Australia_Victorian_Railways_Motor_Car_3, "gfx/Railbus-steam/Australia_Victorian_Railways_Motor_Car_3.png") {
+spriteset(spriteset_rbs_Australia_Victorian_Railways_Motor_Car_3_engine1, "gfx/Railbus-steam/Australia_Victorian_Railways_Motor_Car_3.png") {
 	template_2cc_engines_general(1, 1)
 }
+
+spriteset(spriteset_rbs_Australia_Victorian_Railways_Motor_Car_3_engine2, "gfx/Railbus-steam/Australia_Victorian_Railways_Motor_Car_3.png") {
+	template_2cc_engines_general(1, 32)
+}
+
+//Animation states
+switch(FEAT_TRAINS, SELF, switch_rbs_spriteset_rbs_Australia_Victorian_Railways_Motor_Car_3_animation, motion_counter % 2){
+	0: spriteset_rbs_Australia_Victorian_Railways_Motor_Car_3_engine1;
+	spriteset_rbs_Australia_Victorian_Railways_Motor_Car_3_engine2;
+}	
 
 /*
 * Cargo capacity

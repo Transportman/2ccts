@@ -49,6 +49,6 @@ item(FEAT_TRAINS, item_rbs_Australia_Victorian_Railways_Rowan_Railmotor) {
 		cargo_capacity: switch_rbs_Australia_Victorian_Railways_Rowan_Railmotor_capacity;
 		purchase: spriteset_rbs_Australia_Victorian_Railways_Rowan_Railmotor_purchase;
 		can_attach_wagon: switch_can_attach_vehicle;
-		spriteset_rbs_Australia_Victorian_Railways_Rowan_Railmotor;
+		switch_rbs_spriteset_rbs_Australia_Victorian_Railways_Rowan_Railmotor_animation;
 	}
 }

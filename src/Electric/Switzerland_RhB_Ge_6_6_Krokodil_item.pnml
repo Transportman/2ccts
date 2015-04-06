@@ -48,6 +48,6 @@ item(FEAT_TRAINS, item_electric_Switzerland_RhB_Ge_6_6_Krokodil) {
 	graphics {
 		purchase: spriteset_electric_Switzerland_RhB_Ge_6_6_Krokodil_purchase;
 		can_attach_wagon: switch_can_attach_vehicle;
-		spriteset_electric_Switzerland_RhB_Ge_6_6_Krokodil;
+		switch_electric_Switzerland_RhB_Ge_6_6_Krokodil_animation;
 	}
 }

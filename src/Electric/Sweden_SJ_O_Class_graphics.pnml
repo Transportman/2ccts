@@ -18,19 +18,39 @@ spriteset(spriteset_electric_Sweden_SJ_O_Class_purchase, "gfx/Electric/Sweden_SJ
 * VEHICLE
 */
 
-//Engine
-spriteset(spriteset_electric_Sweden_SJ_O_Class_engine, "gfx/Electric/Sweden_SJ_O_Class.png") {
+//Engine front
+spriteset(spriteset_electric_Sweden_SJ_O_Class_front_1, "gfx/Electric/Sweden_SJ_O_Class.png") {
 	template_2cc_engines_general(1, 1)
 }
 
-//Tender
-spriteset(spriteset_electric_Sweden_SJ_O_Class_tender, "gfx/Electric/Sweden_SJ_O_Class.png") {
+spriteset(spriteset_electric_Sweden_SJ_O_Class_front_2, "gfx/Electric/Sweden_SJ_O_Class.png") {
 	template_2cc_engines_general(1, 32)
 }
 
+//Animation states
+switch(FEAT_TRAINS, SELF, switch_electric_Sweden_SJ_O_Class_front_animation, motion_counter % 2){
+	0: spriteset_electric_Sweden_SJ_O_Class_front_1;
+	spriteset_electric_Sweden_SJ_O_Class_front_2;
+}	
+
+//Engine back
+spriteset(spriteset_electric_Sweden_SJ_O_Class_back_1, "gfx/Electric/Sweden_SJ_O_Class.png") {
+	template_2cc_engines_general(1, 64)
+}
+
+spriteset(spriteset_electric_Sweden_SJ_O_Class_back_2, "gfx/Electric/Sweden_SJ_O_Class.png") {
+	template_2cc_engines_general(1, 96)
+}
+
+//Animation states
+switch(FEAT_TRAINS, SELF, switch_electric_Sweden_SJ_O_Class_back_animation, motion_counter % 2){
+	0: spriteset_electric_Sweden_SJ_O_Class_back_1;
+	spriteset_electric_Sweden_SJ_O_Class_back_2;
+}
+
 switch(FEAT_TRAINS, SELF, switch_electric_Sweden_SJ_O_Class_position, position_in_vehid_chain % 2) {
-	0: spriteset_electric_Sweden_SJ_O_Class_engine;
-	spriteset_electric_Sweden_SJ_O_Class_tender;
+	0: switch_electric_Sweden_SJ_O_Class_front_animation;
+	switch_electric_Sweden_SJ_O_Class_back_animation;
 }
 
 /*

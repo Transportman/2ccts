@@ -48,6 +48,6 @@ item(FEAT_TRAINS, item_diesel_Australia_Queensland_Railways_DL_Class) {
 	graphics {
 		purchase: spriteset_diesel_Australia_Queensland_Railways_DL_Class_purchase;
 		can_attach_wagon: switch_can_attach_vehicle;
-		spriteset_diesel_Australia_Queensland_Railways_DL_Class;
+		switch_diesel_Australia_Queensland_Railways_DL_Class_animation;
 	}
 }

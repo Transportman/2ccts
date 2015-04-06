@@ -48,6 +48,6 @@ item(FEAT_TRAINS, item_diesel_Russia_RZD_Emch_3) {
 	graphics {
 		purchase: spriteset_diesel_Russia_RZD_Emch_3_purchase;
 		can_attach_wagon: switch_can_attach_vehicle;
-		spriteset_diesel_Russia_RZD_Emch_3;
+		switch_diesel_Russia_RZD_Emch_3_animation;
 	}
 }

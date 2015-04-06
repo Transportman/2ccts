@@ -19,6 +19,16 @@ spriteset(spriteset_electric_Switzerland_RhB_Ge_6_6_Krokodil_purchase, "gfx/Elec
 */
 
 //Engine
-spriteset(spriteset_electric_Switzerland_RhB_Ge_6_6_Krokodil, "gfx/Electric/Switzerland_RhB_Ge_6_6_Krokodil.png") {
+spriteset(spriteset_electric_Switzerland_RhB_Ge_6_6_Krokodil_engine1, "gfx/Electric/Switzerland_RhB_Ge_6_6_Krokodil.png") {
 	template_2cc_engines_general(1, 1)
 }
+
+spriteset(spriteset_electric_Switzerland_RhB_Ge_6_6_Krokodil_engine2, "gfx/Electric/Switzerland_RhB_Ge_6_6_Krokodil.png") {
+	template_2cc_engines_general(1, 32)
+}
+
+//Animation states
+switch(FEAT_TRAINS, SELF, switch_electric_Switzerland_RhB_Ge_6_6_Krokodil_animation, motion_counter % 2){
+	0: spriteset_electric_Switzerland_RhB_Ge_6_6_Krokodil_engine1;
+	spriteset_electric_Switzerland_RhB_Ge_6_6_Krokodil_engine2;
+}	

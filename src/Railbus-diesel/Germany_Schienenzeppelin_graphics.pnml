@@ -11,7 +11,7 @@
 */
 
 spriteset(spriteset_rbd_Germany_Schienenzeppelin_purchase, "gfx/Railbus-diesel/Germany_Schienenzeppelin.png") {
-	template_purchase(1, 32)
+	template_purchase(1, 63)
 }
 
 /*
@@ -19,9 +19,19 @@ spriteset(spriteset_rbd_Germany_Schienenzeppelin_purchase, "gfx/Railbus-diesel/G
 */
 
 //Engine
-spriteset(spriteset_rbd_Germany_Schienenzeppelin, "gfx/Railbus-diesel/Germany_Schienenzeppelin.png") {
+spriteset(spriteset_rbd_Germany_Schienenzeppelin_engine1, "gfx/Railbus-diesel/Germany_Schienenzeppelin.png") {
 	template_2cc_engines_general(1, 1)
 }
+
+spriteset(spriteset_rbd_Germany_Schienenzeppelin_engine2, "gfx/Railbus-diesel/Germany_Schienenzeppelin.png") {
+	template_2cc_engines_general(1, 32)
+}
+
+//Animation states
+switch(FEAT_TRAINS, SELF, switch_rbd_Germany_Schienenzeppelin_animation, motion_counter % 2){
+	0: spriteset_rbd_Germany_Schienenzeppelin_engine1;
+	spriteset_rbd_Germany_Schienenzeppelin_engine2;
+}	
 
 /*
 * Cargo capacity

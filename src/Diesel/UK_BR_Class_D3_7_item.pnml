@@ -48,6 +48,6 @@ item(FEAT_TRAINS, item_diesel_UK_BR_Class_D3_7) {
 	graphics {
 		purchase: spriteset_diesel_UK_BR_Class_D3_7_purchase;
 		can_attach_wagon: switch_can_attach_vehicle;
-		spriteset_diesel_UK_BR_Class_D3_7;
+		switch_diesel_UK_BR_Class_D3_7_animation;
 	}
 }

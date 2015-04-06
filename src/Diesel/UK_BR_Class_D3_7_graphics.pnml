@@ -19,6 +19,16 @@ spriteset(spriteset_diesel_UK_BR_Class_D3_7_purchase, "gfx/Diesel/UK_BR_Class_D3
 */
 
 //Engine
-spriteset(spriteset_diesel_UK_BR_Class_D3_7, "gfx/Diesel/UK_BR_Class_D3_7.png") {
+spriteset(spriteset_diesel_UK_BR_Class_D3_7_engine1, "gfx/Diesel/UK_BR_Class_D3_7.png") {
 	template_2cc_engines_general(1, 1)
+}
+
+spriteset(spriteset_diesel_UK_BR_Class_D3_7_engine2, "gfx/Diesel/UK_BR_Class_D3_7.png") {
+	template_2cc_engines_general(1, 32)
+}
+
+//Animation states
+switch(FEAT_TRAINS, SELF, switch_diesel_UK_BR_Class_D3_7_animation, motion_counter % 2){
+	0: spriteset_diesel_UK_BR_Class_D3_7_engine1;
+	spriteset_diesel_UK_BR_Class_D3_7_engine2;
 }
