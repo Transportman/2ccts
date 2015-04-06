@@ -53,6 +53,7 @@ STR_PARAM_REGION_OCEANIA_DESC                   :Usar vehículos de Oceanía
 #Railbus-steam
 str_rbs_Austria_NOLB_1          :NOLB 1 (Railbus a vapor)
 str_rbs_Italy_FS_86                     :FS 86 (Railbus a vapor)
+str_rbs_Switzerland_UeBB_Czm_1_2 :UeBB Czm 1/2 (Railbus a vapor)
 
 
 #Railbus-diesel
@@ -168,7 +169,7 @@ str_diesel_Australia_Queensland_Rail_2100                               :Queensl
 str_diesel_Croatia_HZ_2062                                                              :HZ 2062 (Diésel)
 str_diesel_Sweden_SJ_V4                                                                 :SJ V4 (Diésel)
 str_diesel_Canada_CNR_MLW_M420W                                                 :CNR MLW M420W (Diésel)
-str_diesel_USA_Amtrack_SDP_40F                                                  :Amtrack SDP-40F (Diésel)
+str_diesel_USA_Amtrack_SDP_40F                                                  :Amtrak SDP-40F (Diésel)
 str_diesel_China_China_Railways_DFH3                                    :China Railways DFH3 (Diésel)
 str_diesel_Panama_Panama_Canal_Railway_EMD_F40PH                :Panama Canal Railway EMD F40PH (Diésel)
 str_diesel_Portugal_CP_1900                                                     :CP 1900 (Diésel)
@@ -185,7 +186,7 @@ str_diesel_Iran_RAI_DE43CA_Prima                                                
 str_diesel_Germany_DB_253_G2000_3_BB                                    :DB 253 G2000-3 BB (Diésel)
 str_diesel_Ukraine_UZ_TEP150                                                    :UZ TEP150 (Diésel)
 str_diesel_China_China_Railways_HXN5                                    :China Railways HXN5 (Diésel)
-str_diesel_Germany_DB_260_Gravita_10BB                                  :DB 260 Gravita 10BB (Diésel)
+str_diesel_Germany_DB_260_Gravita_10BB                                  :DB 260 'Gravita' 10BB (Diésel)
 str_diesel_Russia_RZD_GT1                                                               :RZD GT1 (Diésel)
 str_diesel_China_MTR_8000                                                               :MTR 8000 (Diésel)
 str_diesel_Germany_HVLE_V490                                                    :HVLE V490 (Diésel)
@@ -198,7 +199,7 @@ str_diesel_Australia_Pacific_National_G_Class :Pacific National G (Diésel)
 str_diesel_France_SNCF_461000 :SNCF BB 461000 (Diésel)
 
 #Electric
-str_electric_Switzerland_RhB_DE_2_2                     :RhB DE 2/2 (Eléctrico)
+str_electric_Switzerland_RhB_DE_2_2                     :RhB De 2/2 (Eléctrico)
 str_electric_Norway_NSB_EL7                                     :NSB EL7 (Eléctrico)
 str_electric_UK_NER_EF1                                                 :NER EF1 (Eléctrico)
 str_electric_USA_Milwaukee_Road_ES_2                    :Milwaukee Road ES-2 (Eléctrico)
@@ -280,7 +281,7 @@ str_dmu_Germany_DB_612_Regio_Swinger            :DB 612 'Regio Swinger' (DMU)
 str_dmu_Germany_DB_642_Desiro                           :DB 642 'Desiro' (DMU)
 str_dmu_Denmark_Arriva_Lint_41                          :Arriva Lint 41 (DMU)
 str_dmu_Norway_NSB_BM_93_Talent                         :NSB BM 93 'Talent' (DMU)
-str_dmu_Australia_CityRail_Hunter_Railcar       :CityRail Hunter Railcar (DMU)
+str_dmu_Australia_CityRail_Hunter_Railcar       :TrainLink Hunter Railcar (DMU)
 str_dmu_Russia_RZD_RA2                                          :RZD RA2 (DMU)
 str_dmu_Denmark_DSB_IC4                                         :DSB IC4 (DMU)
 str_dmu_Croatia_HZ_7022                                         :HZ 7022 (DMU)
