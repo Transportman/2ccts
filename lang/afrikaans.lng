@@ -52,6 +52,7 @@ STR_PARAM_REGION_OCEANIA_DESC                   :Gebruik voertuie van Oseanië
 #Railbus-steam
 str_rbs_Austria_NOLB_1          :NOLB 1 (Stoom Spoorbus)
 str_rbs_Italy_FS_86                     :FS 86 (Stoom Spoorbus)
+str_rbs_Switzerland_UeBB_Czm_1_2 :UeBB Czm 1/2 (Stoom Spoorbus)
 
 
 #Railbus-diesel
@@ -74,6 +75,12 @@ str_rbd_Czech_Republic_CD_809                                   :CD 809 (Diesel 
 str_rbd_Germany_DB_650_Regio_Shuttle                    :DB 650 'Regio Shuttle' (Diesel  Spoorbus)
 str_rbd_Germany_DB_670                                                  :DB 670 (Diesel  Spoorbus)
 str_rbd_Lithuania_Lithuanian_Railways_AR2               :Lithuaer Spoorwëe AR2 (Diesel  Spoorbus)
+str_rbd_Austria_kkStB_19 :KkStB 19 (Diesel Spoorbus)
+str_rbd_UK_WC_PR_Drewry_Railcar :WC&amp;PR Drewry Spoorkar (Diesel Spoorbus)
+str_rbd_Australia_Victorian_Railways_DERM :Victoriaanse Spoorwëe DERM (Diesel Spoorbus)
+str_rbd_Czech_Republic_CD_M120 :CD M120 (Diesel Spoorbus)
+str_rbd_Germany_Schienenzeppelin :Schienenzeppelin (Diesel Spoorbus)
+str_rbd_Greece_OSE_AA71 :OSE AA.71 (Diesel Spoorbus)
 
 #Railbus-electric
 str_rbe_Switzerland_SBB_Cfe_3_3         :SBB Cfe 3/3 (Elektriese Spoorbus)
@@ -81,6 +88,8 @@ str_rbe_Morocco_ONCFM_ZAB1000           :ONCFM ZAB1000 (Elektriese Spoorbus)
 str_rbe_Germany_DB_ET85                         :DB ET85 (Elektriese Spoorbus)
 str_rbe_Germany_DB_ET479                        :DB ET479 (Elektriese Spoorbus)
 str_rbe_Italy_FS_ALe_840                        :FS ALe 840 (Elektriese Spoorbus)
+str_rbe_France_SNCF_Z_7100 :SNCF Z 7100 (Elektriese Spoorbus)
+str_rbe_USA_SEPTA_Silverliner_V :SEPTA Silverliner V (Elektriese Spoorbus)
 
 #Steam
 str_steam_Belgium_Le_Belge                      :Le Belge (Stoom)
@@ -119,6 +128,12 @@ str_steam_Italy_FS_895                          :FS 895 (Stoom)
 str_steam_Poland_PKP_Okz32                      :PKP Okz32 (Stoom)
 str_steam_Switzerland_SBB_C_5_6         :SBB C 5/6 (Stoom)
 str_steam_USA_UP_4000_Big_Boy           :UP 4000 'Big Boy' (Stoom)
+str_steam_Netherlands_NRS_11 :NRS 11 (Stoom)
+str_steam_UK_GWR_Iron_DUKe_Class :GWR 'Iron Duke' (Stoom)
+str_steam_South_Africa_PPR_35_tonner_4_6_0T :PPR 35-tonner 4-6-0T (Stoom)
+str_steam_USA_PRR_D16 :PRR D16 (Stoom)
+str_steam_Netherlands_NS_8100 :NS 8100 (Stoom)
+str_steam_Australia_Victorian_Railways_R_Class :Victoriaanse Spoorwëe R (Stoom)
 
 #Diesel
 str_diesel_Germany_DB_310_Kof_II                                                :DB 310 Kof II (Diesel)
@@ -185,6 +200,14 @@ str_diesel_Germany_DB_260_Gravita_10BB                                  :DB 260 
 str_diesel_Russia_RZD_GT1                                                               :RZD GT1 (Diesel)
 str_diesel_China_MTR_8000                                                               :MTR 8000 (Diesel)
 str_diesel_Germany_HVLE_V490                                                    :HVLE V490 (Diesel)
+str_diesel_UK_LMS_7051_Diesel_Shunter :LMS 7051 Diesel Rangeerder (Diesel)
+str_diesel_Australia_NSWGR_44 :NSWGR 44 (Diesel)
+str_diesel_Norway_NSB_Di4 :NSB Di4 (Diesel)
+str_diesel_China_China_Railways_DF8 :Sjina Spoorwëe DF8 (Diesel)
+str_diesel_UK_BR_60 :BR 60 (Diesel)
+str_diesel_Saudi_Arabia_Saudi_Railways_4000_EMD_SD70ACS :Saudi Spoorwëe 4000 EMD SD70ACS (Diesel)
+str_diesel_Ireland_IE_201 :IE 201 (Diesel)
+str_diesel_Spain_RENFE_Class_334 :RENFE 334 (Diesel)
 
 #Electric
 str_electric_Switzerland_RhB_DE_2_2                     :RhB DE 2/2 (Elektries)
@@ -246,6 +269,14 @@ str_electric_France_SNCF_CC_40100                               :SNCF CC 40100 (
 str_electric_India_Indian_Railways_WAP_4                :Indiese Spoorwëe WAP-4 (Elektries)
 str_electric_India_Indian_Railways_WCG_1                :Indiese Spoorwëe WCG-1 (Elektries)
 str_electric_Portugal_CP_2500                                   :CP 2500 (Elektries)
+str_electric_Italy_FS_E550 :FS E.550 (Elektries)
+str_electric_Sweden_SJ_O_Class :SJ O (Elektries)
+str_electric_Sweden_SJ_F_Class :SJ F (Elektries)
+str_electric_Australia_NSWGR_71 :NSWGR 71 (Elektries)
+str_electric_South_Africa_SAR_4E :SAR 4E  (Elektries)
+str_electric_Japan_JNR_EH10 :JNR EH10 (Elektries)
+str_electric_Belgium_NMBS_Class_255 :NMBS/SNCB 25.5 (Elektries)
+str_electric_Poland_PKP_EU06 :PKP EU06 (Elektries)
 
 #DMU
 str_dmu_Germany_DB_VT04_Flying_Hamburger        :DB VT04 'Flying Hamburger' (DMU)
@@ -272,6 +303,7 @@ str_dmu_Australia_CityRail_Hunter_Railcar       :CityRail Hunter Spoorkar (DMU)
 str_dmu_Russia_RZD_RA2                                          :RZD RA2 (DMU)
 str_dmu_Denmark_DSB_IC4                                         :DSB IC4 (DMU)
 str_dmu_Croatia_HZ_7022                                         :HZ 7022 (DMU)
+str_dmu_Czech_Republic_CD_814 :CD 814 (DMU)
 
 #EMU
 str_emu_Netherlands_NS_Mat24                            : NS Mat'24 (EMU)
@@ -319,6 +351,11 @@ str_emu_South_Africa_Gautrain_Electrostar       : Gautrein Electrostar (EMU)
 str_emu_Italy_NTV_AGV                                           : NTV AGV (EMU)
 str_emu_Netherlands_NS_4800_HSA                         : NS 4800 HSA (EMU)
 str_emu_Italy_NTV_AGV_Duplex                            : NTV AGV Duplex (EMU)
+str_emu_USA_PRR_MP54 :PRR MP54 (EMU)
+str_emu_Poland_PKP_EW90 :PKP EW90 (EMU)
+str_emu_South_Africa_SAR_5M2 :SAR 5M2 (EMU)
+str_emu_Italy_FS_ALe_801 :FS ALe 801 (EMU)
+str_emu_Netherlands_NS_Hispeed_V250_Albatros :NS Hoëspoed V250 'Albatros' (EMU)
 
 #Single Unit Metro
 str_mtro_USA_Brooklyn_Union_Gate_Car                                    :Brooklyn 'Union Gate' Kar (Enkel Eenheid Metro)
@@ -361,6 +398,7 @@ str_mtro_Japan_Osaka_30000                                              :Osaka 3
 str_mtro_Singapore_Singapore_C151A                              :Singapoer C151A (Metro)
 str_mtro_USA_Washington_7000                                    :Washington 7000 (Metro)
 str_mtro_Greece_Thessaloniki_2014                               :Thessaloniki 2014 (Metro)
+str_mtro_Russia_Moscow_Type_A :Moskou Tipe A (Metro)
 
 #Maglev
 str_mglv_China_Transrapid       :Sjanghai Transrapid (Maglev)

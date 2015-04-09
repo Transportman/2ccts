@@ -78,6 +78,7 @@ str_rbd_Germany_DB_670                                                  :DB 670 
 str_rbd_Lithuania_Lithuanian_Railways_AR2               :Lithuanian Railways AR2 (Railbus diésel)
 str_rbd_Germany_BSt_6001 :BSt 6001 (Railbus diésel)
 str_rbd_Greece_OSE_AA71 :OSE AA.71 (Railbus diésel)
+str_rbd_Tunisia_SNCFT_Z431 :SNCFT Z431 (Railbus diésel)
 
 #Railbus-electric
 str_rbe_Switzerland_SBB_Cfe_3_3         :SBB Cfe 3/3 (Railbus eléctrico)
@@ -205,7 +206,7 @@ str_electric_Switzerland_RhB_DE_2_2                     :RhB De 2/2 (Eléctrico)
 str_electric_Norway_NSB_EL7                                     :NSB EL7 (Eléctrico)
 str_electric_UK_NER_EF1                                                 :NER EF1 (Eléctrico)
 str_electric_USA_Milwaukee_Road_ES_2                    :Milwaukee Road ES-2 (Eléctrico)
-str_electric_USA_Pennsylvania_Railroad_FF_1     :Pennsylvania Railroad FF-1 (Eléctrico)
+str_electric_USA_Pennsylvania_Railroad_FF_1     :PRR FF-1 (Eléctrico)
 str_electric_USA_Milwaukee_Road_EP_2_Bipolar    :Milwaukee Road EP-2 Bipolar (Eléctrico)
 str_electric_Chile_EFE_E_28                                     :EFE E-28 (Eléctrico)
 str_electric_Austria_OBB_1161                                   :OBB 1161 (Eléctrico)
@@ -262,6 +263,7 @@ str_electric_India_Indian_Railways_WCG_1                :Indian Railways WCG-1 (
 str_electric_Portugal_CP_2500                                   :CP 2500 (Eléctrico)
 str_electric_UK_NER_EE1 :NER EE1 (Eléctrico)
 str_electric_Belgium_NMBS_Class_255 :NMBS/SNCB 25.5 (Eléctrico)
+str_electric_France_SNCF_BB_25500 :SNCF BB 25500 (Eléctrico)
 
 #DMU
 str_dmu_Germany_DB_VT04_Flying_Hamburger        :DB VT04 'Flying Hamburger' (DMU)
@@ -295,7 +297,7 @@ str_emu_Italy_ATAC_ECD_21_30                            :ATAC ECD 21-30 (EMU)
 str_emu_Netherlands_NS_Mat36                            :NS Mat'36 (EMU)
 str_emu_Italy_FS_ETR200                                         :FS ETR.200 (EMU)
 str_emu_Norway_NSB_BM65                                         :NSB BM65 (EMU)
-str_emu_Italy_FS_ETR300_Settebello                      :FS ETR300 'Settebello' (EMU)
+str_emu_Italy_FS_ETR300_Settebello                      :FS ETR.300 'Settebello' (EMU)
 str_emu_Netherlands_NS_Mat54                            :NS Mat'54 (EMU)
 str_emu_Turkey_TCDD_E8000                                       :TCDD E8000 (EMU)
 str_emu_Switzerland_SBB_Rae_TEE_II                      :SBB Rae TEE II (EMU)
