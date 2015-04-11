@@ -13,6 +13,7 @@
 */
  
 #define SORTING_RBS \
+item_rbs_Austria_kkStB_4_0,  /*Year: 1880*/ \
 item_rbs_Australia_Victorian_Railways_Rowan_Railmotor, /*Year: 1883*/ \
 item_rbs_Switzerland_UeBB_Czm_1_2, /*Year: 1902*/ \
 item_rbs_Austria_NOLB_1, /*Year: 1903*/ \

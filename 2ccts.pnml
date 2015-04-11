@@ -62,6 +62,8 @@
 #include "src/Railbus-steam/South_Africa_CSAR_Railmotor_item.pnml"
 #include "src/Railbus-steam/Australia_Victorian_Railways_Motor_Car_3_graphics.pnml"
 #include "src/Railbus-steam/Australia_Victorian_Railways_Motor_Car_3_item.pnml"
+#include "src/Railbus-steam/Austria_kkStB_4_0_graphics.pnml"
+#include "src/Railbus-steam/Austria_kkStB_4_0_item.pnml"
 
 //Railbus-diesel
 #include "src/Railbus-diesel/Australia_Victorian_Railways_AEC_RM1_graphics.pnml"

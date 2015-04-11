@@ -17,6 +17,7 @@ item(FEAT_TRAINS, item_rbs_Switzerland_UeBB_Czm_1_2, 1003) {}
 item(FEAT_TRAINS, item_rbs_Germany_Bavarian_MCCi, 1004) {}
 item(FEAT_TRAINS, item_rbs_South_Africa_CSAR_Railmotor, 1005) {}
 item(FEAT_TRAINS, item_rbs_Australia_Victorian_Railways_Motor_Car_3, 1006) {}
+item(FEAT_TRAINS, item_rbs_Austria_kkStB_4_0, 1007) {}
 
 //Railbus-Diesel, available ID range: 2000-2999 (hex 0x07D0..0x0BB7)
 #define ID_RANGE_RBD 0x07D0..0x0BB7
