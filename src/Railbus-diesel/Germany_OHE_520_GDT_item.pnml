@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_rbd_Germany_OHE_520_GDT) {
         introduction_date: date(1953,1,1);
         model_life: 35;
         vehicle_life: 15;
-        loading_speed: 20;
+        LOADINGSPEEDDEF_COMMUTER
         cost_factor: 34;
         running_cost_factor: 31;
         speed: 75 km/h;

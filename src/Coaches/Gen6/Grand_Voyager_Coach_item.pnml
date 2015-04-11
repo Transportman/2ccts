@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_coach_Gen6_Grand_Voyager_Coach) {
         introduction_date: date(2030,1,1);
         model_life: VEHICLE_NEVER_EXPIRES;
         vehicle_life: 25;
-        loading_speed: 8;
+        LOADINGSPEEDDEF_INTERCITY
         cost_factor: 43;
         running_cost_factor: 42;
         speed: 0 km/h;

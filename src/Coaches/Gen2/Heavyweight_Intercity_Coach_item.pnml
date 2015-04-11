@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_coach_Gen2_Heavyweight_Intercity_Coach) {
         introduction_date: date(1900,1,1);
         model_life: 60;
         vehicle_life: 25;
-        loading_speed: 8;
+        LOADINGSPEEDDEF_INTERCITY
         cost_factor: 34;
         running_cost_factor: 31;
         speed: 160 km/h;

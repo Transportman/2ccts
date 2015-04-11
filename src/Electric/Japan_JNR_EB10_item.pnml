@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_electric_Japan_JNR_EB10) {
         introduction_date: date(1931,1,1);
         model_life: 25;
         vehicle_life: 40;
-        loading_speed: 1;
+        LOADINGSPEEDDEF_NONE
         cost_factor: 16;
         running_cost_factor: 14;
         speed: 40 km/h;

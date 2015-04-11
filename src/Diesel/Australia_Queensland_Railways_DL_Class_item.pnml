@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_diesel_Australia_Queensland_Railways_DL_Class) {
         introduction_date: date(1939,1,1);
         model_life: 25;
         vehicle_life: 40;
-        loading_speed: 1;
+        LOADINGSPEEDDEF_NONE
         cost_factor: 15;
         running_cost_factor: 13;
         speed: 50 km/h;

@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_diesel_USA_NYC_Baldwin_VO_660) {
         introduction_date: date(1939,1,1);
         model_life: 25;
         vehicle_life: 40;
-        loading_speed: 1;
+        LOADINGSPEEDDEF_NONE
         cost_factor: 36;
         running_cost_factor: 27;
         speed: 64 km/h;

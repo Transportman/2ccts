@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_rbd_United_Kingdom_BR_153_Super_Sprinter) {
         introduction_date: date(1991,1,1);
         model_life: 35;
         vehicle_life: 15;
-        loading_speed: 20;
+        LOADINGSPEEDDEF_COMMUTER
         cost_factor: 26;
         running_cost_factor: 23;
         speed: 144 km/h;

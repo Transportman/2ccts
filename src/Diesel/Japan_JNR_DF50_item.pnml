@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_diesel_Japan_JNR_DF50) {
         introduction_date: date(1957,1,1);
         model_life: 25;
         vehicle_life: 40;
-        loading_speed: 1;
+        LOADINGSPEEDDEF_NONE
         cost_factor: 42;
         running_cost_factor: 34;
         speed: 90 km/h;

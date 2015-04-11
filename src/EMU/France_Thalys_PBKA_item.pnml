@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_emu_France_Thalys_PBKA) {
         introduction_date: date(1995,1,1);
         model_life: VEHICLE_NEVER_EXPIRES;
         vehicle_life: 25;
-        loading_speed: 8;
+        LOADINGSPEEDDEF_INTERCITY
         cost_factor: 119;
         running_cost_factor: 117;
         speed: 300 km/h;
@@ -52,7 +52,7 @@ item(FEAT_TRAINS, item_emu_France_Thalys_PBKA) {
 		switch_emu_France_Thalys_PBKA_reversed;
 	}	
 	livery_override (item_mu_wagon_unpowered){
-		loading_speed: 8;
+		LOADINGSPEEDDEF_INTERCITY
 		running_cost_factor: 58;
 		power: 0;
 		weight: 21;
@@ -61,7 +61,7 @@ item(FEAT_TRAINS, item_emu_France_Thalys_PBKA) {
 		default: switch_emu_France_Thalys_PBKA_cargo_selection;
 	}
 	livery_override (item_mu_wagon_powered){
-		loading_speed: 8;
+		LOADINGSPEEDDEF_INTERCITY
 		running_cost_factor: 87;
 		power: 6000;
 		weight: 31;

@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_electric_Italy_FS_E646) {
         introduction_date: date(1961,1,1);
         model_life: 25;
         vehicle_life: 40;
-        loading_speed: 1;
+        LOADINGSPEEDDEF_NONE
         cost_factor: 93;
         running_cost_factor: 83;
         speed: 140 km/h;

@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_emu_Netherlands_NS_4800_HSA) {
         introduction_date: date(2012,1,1);
         model_life: VEHICLE_NEVER_EXPIRES;
         vehicle_life: 25;
-        loading_speed: 8;
+        LOADINGSPEEDDEF_INTERCITY
         cost_factor: 40;
         running_cost_factor: 38;
         speed: 300 km/h;
@@ -52,7 +52,7 @@ item(FEAT_TRAINS, item_emu_Netherlands_NS_4800_HSA) {
 		switch_emu_Netherlands_NS_4800_HSA_reversed;
 	}	
 	livery_override (item_mu_wagon_unpowered){
-		loading_speed: 8;
+		LOADINGSPEEDDEF_INTERCITY
 		running_cost_factor: 19;
 		power: 0;
 		weight: 18;
@@ -62,7 +62,7 @@ item(FEAT_TRAINS, item_emu_Netherlands_NS_4800_HSA) {
 		default: switch_emu_Netherlands_NS_4800_HSA_cargo_selection;
 	}
 	livery_override (item_mu_wagon_powered){
-		loading_speed: 8;
+		LOADINGSPEEDDEF_INTERCITY
 		running_cost_factor: 29;
 		power: 500;
 		weight: 26;

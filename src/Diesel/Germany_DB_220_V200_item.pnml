@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_diesel_Germany_DB_220_V200) {
         introduction_date: date(1956,1,1);
         model_life: 25;
         vehicle_life: 40;
-        loading_speed: 1;
+        LOADINGSPEEDDEF_NONE
         cost_factor: 56;
         running_cost_factor: 48;
         speed: 140 km/h;

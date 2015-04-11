@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_dmu_Australia_TransAdelaide_3100) {
         introduction_date: date(1987,1,1);
         model_life: 15;
         vehicle_life: 20;
-        loading_speed: 20;
+        LOADINGSPEEDDEF_COMMUTER
         cost_factor: 31;
         running_cost_factor: 27;
         speed: 90 km/h;
@@ -53,7 +53,7 @@ item(FEAT_TRAINS, item_dmu_Australia_TransAdelaide_3100) {
 		switch_dmu_Australia_TransAdelaide_3100_reversed;
 	}	
 	livery_override (item_mu_wagon_unpowered){
-		loading_speed: 20;
+		LOADINGSPEEDDEF_COMMUTER
 		running_cost_factor: 13;
 		power: 0;
 		weight: 24;
@@ -62,7 +62,7 @@ item(FEAT_TRAINS, item_dmu_Australia_TransAdelaide_3100) {
 		default: switch_dmu_Australia_TransAdelaide_3100_cargo_selection;
 	}
 	livery_override (item_mu_wagon_powered){
-		loading_speed: 20;
+		LOADINGSPEEDDEF_COMMUTER
 		running_cost_factor: 20;
 		power: 238;
 		weight: 36;

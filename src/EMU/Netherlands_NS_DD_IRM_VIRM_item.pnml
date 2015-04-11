@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_emu_Netherlands_NS_DD_IRM_VIRM) {
         introduction_date: date(1994,1,1);
         model_life: VEHICLE_NEVER_EXPIRES;
         vehicle_life: 25;
-        loading_speed: 20;
+        LOADINGSPEEDDEF_COMMUTER
         cost_factor: 38;
         running_cost_factor: 33;
         speed: 160 km/h;
@@ -53,7 +53,7 @@ item(FEAT_TRAINS, item_emu_Netherlands_NS_DD_IRM_VIRM) {
 		switch_emu_Netherlands_NS_DD_IRM_VIRM_reversed;
 	}	
 	livery_override (item_mu_wagon_unpowered){
-		loading_speed: 20;
+		LOADINGSPEEDDEF_COMMUTER
 		running_cost_factor: 17;
 		power: 0;
 		weight: 30;
@@ -62,7 +62,7 @@ item(FEAT_TRAINS, item_emu_Netherlands_NS_DD_IRM_VIRM) {
 		default: switch_emu_Netherlands_NS_DD_IRM_VIRM_cargo_selection;
 	}
 	livery_override (item_mu_wagon_powered){
-		loading_speed: 20;
+		LOADINGSPEEDDEF_COMMUTER
 		running_cost_factor: 25;
 		power: 359;
 		weight: 44;

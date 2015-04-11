@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_diesel_Belgium_NMBS_SNCB_83) {
         introduction_date: date(1956,1,1);
         model_life: 25;
         vehicle_life: 40;
-        loading_speed: 1;
+        LOADINGSPEEDDEF_NONE
         cost_factor: 26;
         running_cost_factor: 22;
         speed: 50 km/h;

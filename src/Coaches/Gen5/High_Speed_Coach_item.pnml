@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_coach_Gen5_High_Speed_Coach) {
         introduction_date: date(2000,1,1);
         model_life: VEHICLE_NEVER_EXPIRES;
         vehicle_life: 25;
-        loading_speed: 8;
+        LOADINGSPEEDDEF_INTERCITY
         cost_factor: 38;
         running_cost_factor: 36;
         speed: 230 km/h;

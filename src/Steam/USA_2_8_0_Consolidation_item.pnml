@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_steam_USA_2_8_0_Consolidation) {
         introduction_date: date(1875,1,1);
         model_life: 25;
         vehicle_life: 40;
-        loading_speed: 1;
+        LOADINGSPEEDDEF_NONE
         cost_factor: 45;
         running_cost_factor: 33;
         speed: 80 km/h;

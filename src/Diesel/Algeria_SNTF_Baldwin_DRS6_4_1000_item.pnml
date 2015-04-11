@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_diesel_Algeria_SNTF_Baldwin_DRS6_4_1000) {
         introduction_date: date(1948,1,1);
         model_life: 25;
         vehicle_life: 40;
-        loading_speed: 1;
+        LOADINGSPEEDDEF_NONE
         cost_factor: 41;
         running_cost_factor: 33;
         speed: 80 km/h;

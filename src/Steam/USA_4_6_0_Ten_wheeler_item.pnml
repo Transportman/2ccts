@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_steam_USA_4_6_0_Ten_wheeler) {
         introduction_date: date(1869,1,1);
         model_life: 25;
         vehicle_life: 40;
-        loading_speed: 1;
+        LOADINGSPEEDDEF_NONE
         cost_factor: 34;
         running_cost_factor: 27;
         speed: 96 km/h;

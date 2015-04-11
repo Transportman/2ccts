@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_electric_Germany_DB_182_ES64U_Taurus) {
         introduction_date: date(2000,1,1);
         model_life: VEHICLE_NEVER_EXPIRES;
         vehicle_life: 40;
-        loading_speed: 1;
+        LOADINGSPEEDDEF_NONE
         cost_factor: 116;
         running_cost_factor: 109;
         speed: 230 km/h;

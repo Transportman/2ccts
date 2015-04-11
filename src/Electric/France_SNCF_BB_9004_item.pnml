@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_electric_France_SNCF_BB_9004) {
         introduction_date: date(1954,1,1);
         model_life: 25;
         vehicle_life: 40;
-        loading_speed: 1;
+        LOADINGSPEEDDEF_NONE
         cost_factor: 72;
         running_cost_factor: 65;
         speed: 140 km/h;

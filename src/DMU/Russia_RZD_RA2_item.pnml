@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_dmu_Russia_RZD_RA2) {
         introduction_date: date(2006,1,1);
         model_life: VEHICLE_NEVER_EXPIRES;
         vehicle_life: 25;
-        loading_speed: 20;
+        LOADINGSPEEDDEF_COMMUTER
         cost_factor: 38;
         running_cost_factor: 35;
         speed: 100 km/h;
@@ -53,7 +53,7 @@ item(FEAT_TRAINS, item_dmu_Russia_RZD_RA2) {
 		switch_dmu_Russia_RZD_RA2_reversed;
 	}	
 	livery_override (item_mu_wagon_unpowered){
-		loading_speed: 20;
+		LOADINGSPEEDDEF_COMMUTER
 		running_cost_factor: 18;
 		power: 0;
 		weight: 22;
@@ -62,7 +62,7 @@ item(FEAT_TRAINS, item_dmu_Russia_RZD_RA2) {
 		default: switch_dmu_Russia_RZD_RA2_cargo_selection;
 	}
 	livery_override (item_mu_wagon_powered){
-		loading_speed: 20;
+		LOADINGSPEEDDEF_COMMUTER
 		running_cost_factor: 26;
 		power: 420;
 		weight: 33;

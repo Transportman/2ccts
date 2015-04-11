@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_diesel_Australia_Australian_National_AN) {
         introduction_date: date(1992,1,1);
         model_life: 25;
         vehicle_life: 40;
-        loading_speed: 1;
+        LOADINGSPEEDDEF_NONE
         cost_factor: 78;
         running_cost_factor: 66;
         speed: 150 km/h;

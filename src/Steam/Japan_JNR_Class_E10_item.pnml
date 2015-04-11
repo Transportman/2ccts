@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_steam_Japan_JNR_Class_E10) {
         introduction_date: date(1948,1,1);
         model_life: 25;
         vehicle_life: 40;
-        loading_speed: 1;
+        LOADINGSPEEDDEF_NONE
         cost_factor: 47;
         running_cost_factor: 37;
         speed: 65 km/h;

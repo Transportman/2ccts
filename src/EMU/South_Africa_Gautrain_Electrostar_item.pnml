@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_emu_South_Africa_Gautrain_Electrostar) {
         introduction_date: date(2010,1,1);
         model_life: VEHICLE_NEVER_EXPIRES;
         vehicle_life: 25;
-        loading_speed: 8;
+        LOADINGSPEEDDEF_INTERCITY
         cost_factor: 32;
         running_cost_factor: 29;
         speed: 160 km/h;
@@ -53,7 +53,7 @@ item(FEAT_TRAINS, item_emu_South_Africa_Gautrain_Electrostar) {
 		switch_emu_South_Africa_Gautrain_Electrostar_reversed;
 	}	
 	livery_override (item_mu_wagon_unpowered){
-		loading_speed: 8;
+		LOADINGSPEEDDEF_INTERCITY
 		running_cost_factor: 15;
 		power: 0;
 		weight: 21;
@@ -62,7 +62,7 @@ item(FEAT_TRAINS, item_emu_South_Africa_Gautrain_Electrostar) {
 		default: switch_emu_South_Africa_Gautrain_Electrostar_cargo_selection;
 	}
 	livery_override (item_mu_wagon_powered){
-		loading_speed: 8;
+		LOADINGSPEEDDEF_INTERCITY
 		running_cost_factor: 22;
 		power: 277;
 		weight: 32;

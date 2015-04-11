@@ -17,7 +17,7 @@ item(FEAT_TRAINS, item_mtro_wagon_unpowered) {
         introduction_date: date(1900,1,1);
         model_life: VEHICLE_NEVER_EXPIRES;
         vehicle_life: 60;
-        loading_speed: 1;
+        LOADINGSPEEDDEF_NONE
         cost_factor: 100;
         running_cost_factor: 0;
         speed: 0 km/h;

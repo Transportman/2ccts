@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_electric_Netherlands_NS_1600) {
         introduction_date: date(1980,1,1);
         model_life: 25;
         vehicle_life: 40;
-        loading_speed: 1;
+        LOADINGSPEEDDEF_NONE
         cost_factor: 77;
         running_cost_factor: 69;
         speed: 180 km/h;

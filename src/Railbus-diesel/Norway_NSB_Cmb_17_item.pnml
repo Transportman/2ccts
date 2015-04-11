@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_rbd_Norway_NSB_Cmb_17) {
         introduction_date: date(1935,1,1);
         model_life: 35;
         vehicle_life: 15;
-        loading_speed: 20;
+        LOADINGSPEEDDEF_COMMUTER
         cost_factor: 16;
         running_cost_factor: 16;
         speed: 100 km/h;

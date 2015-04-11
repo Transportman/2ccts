@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_emu_Denmark_DSB_S_Tog_II) {
         introduction_date: date(1966,1,1);
         model_life: 25;
         vehicle_life: 25;
-        loading_speed: 20;
+        LOADINGSPEEDDEF_COMMUTER
         cost_factor: 23;
         running_cost_factor: 19;
         speed: 100 km/h;
@@ -52,7 +52,7 @@ item(FEAT_TRAINS, item_emu_Denmark_DSB_S_Tog_II) {
 		switch_emu_Denmark_DSB_S_Tog_II_reversed;
 	}	
 	livery_override (item_mu_wagon_unpowered){
-		loading_speed: 20;
+		LOADINGSPEEDDEF_COMMUTER
 		running_cost_factor: 10;
 		power: 0;
 		weight: 23;
@@ -62,7 +62,7 @@ item(FEAT_TRAINS, item_emu_Denmark_DSB_S_Tog_II) {
 		default: switch_emu_Denmark_DSB_S_Tog_II_cargo_selection;
 	}
 	livery_override (item_mu_wagon_powered){
-		loading_speed: 20;
+		LOADINGSPEEDDEF_COMMUTER
 		running_cost_factor: 15;
 		power: 100;
 		weight: 34;

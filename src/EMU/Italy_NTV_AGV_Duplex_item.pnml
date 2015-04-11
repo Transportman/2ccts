@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_emu_Italy_NTV_AGV_Duplex) {
         introduction_date: date(2015,1,1);
         model_life: VEHICLE_NEVER_EXPIRES;
         vehicle_life: 25;
-        loading_speed: 8;
+        LOADINGSPEEDDEF_INTERCITY
         cost_factor: 42;
         running_cost_factor: 42;
         speed: 360 km/h;
@@ -53,7 +53,7 @@ item(FEAT_TRAINS, item_emu_Italy_NTV_AGV_Duplex) {
 		switch_emu_Italy_NTV_AGV_Duplex_reversed;
 	}	
 	livery_override (item_mu_wagon_unpowered){
-		loading_speed: 8;
+		LOADINGSPEEDDEF_INTERCITY
 		running_cost_factor: 21;
 		power: 0;
 		weight: 22;
@@ -62,7 +62,7 @@ item(FEAT_TRAINS, item_emu_Italy_NTV_AGV_Duplex) {
 		default: switch_emu_Italy_NTV_AGV_Duplex_cargo_selection;
 	}
 	livery_override (item_mu_wagon_powered){
-		loading_speed: 8;
+		LOADINGSPEEDDEF_INTERCITY
 		running_cost_factor: 32;
 		power: 875;
 		weight: 33;

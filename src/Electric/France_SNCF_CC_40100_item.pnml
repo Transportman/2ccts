@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_electric_France_SNCF_CC_40100) {
         introduction_date: date(1964,1,1);
         model_life: 25;
         vehicle_life: 40;
-        loading_speed: 1;
+        LOADINGSPEEDDEF_NONE
         cost_factor: 89;
         running_cost_factor: 80;
         speed: 240 km/h;

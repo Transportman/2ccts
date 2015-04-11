@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_emu_Hungary_MAV_BDVmot) {
         introduction_date: date(1988,1,1);
         model_life: VEHICLE_NEVER_EXPIRES;
         vehicle_life: 25;
-        loading_speed: 20;
+        LOADINGSPEEDDEF_COMMUTER
         cost_factor: 57;
         running_cost_factor: 51;
         speed: 120 km/h;
@@ -53,7 +53,7 @@ item(FEAT_TRAINS, item_emu_Hungary_MAV_BDVmot) {
 		switch_emu_Hungary_MAV_BDVmot_reversed;
 	}	
 	livery_override (item_mu_wagon_unpowered){
-		loading_speed: 20;
+		LOADINGSPEEDDEF_COMMUTER
 		running_cost_factor: 26;
 		power: 0;
 		weight: 33;
@@ -62,7 +62,7 @@ item(FEAT_TRAINS, item_emu_Hungary_MAV_BDVmot) {
 		default: switch_emu_Hungary_MAV_BDVmot_cargo_selection;
 	}
 	livery_override (item_mu_wagon_powered){
-		loading_speed: 20;
+		LOADINGSPEEDDEF_COMMUTER
 		running_cost_factor: 39;
 		power: 1020;
 		weight: 50;

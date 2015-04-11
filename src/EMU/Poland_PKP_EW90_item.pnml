@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_emu_Poland_PKP_EW90) {
         introduction_date: date(1924,1,1);
         model_life: 25;
         vehicle_life: 25;
-        loading_speed: 20;
+        LOADINGSPEEDDEF_COMMUTER
         cost_factor: 29;
         running_cost_factor: 25;
         speed: 80 km/h;
@@ -53,7 +53,7 @@ item(FEAT_TRAINS, item_emu_Poland_PKP_EW90) {
 		switch_emu_Poland_PKP_EW90_reversed;
 	}	
 	livery_override (item_mu_wagon_unpowered){
-		loading_speed: 20;
+		LOADINGSPEEDDEF_COMMUTER
 		running_cost_factor: 13;
 		power: 0;
 		weight: 19;
@@ -62,7 +62,7 @@ item(FEAT_TRAINS, item_emu_Poland_PKP_EW90) {
 		default: switch_emu_Poland_PKP_EW90_cargo_selection;
 	}
 	livery_override (item_mu_wagon_powered){
-		loading_speed: 20;
+		LOADINGSPEEDDEF_COMMUTER
 		running_cost_factor: 19;
 		power: 207;
 		weight: 29;

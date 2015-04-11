@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_emu_USA_Erie_Lackawanna_MU_Cars) {
         introduction_date: date(1930,1,1);
         model_life: 25;
         vehicle_life: 25;
-        loading_speed: 20;
+        LOADINGSPEEDDEF_COMMUTER
         cost_factor: 32;
         running_cost_factor: 28;
         speed: 101 km/h;
@@ -53,7 +53,7 @@ item(FEAT_TRAINS, item_emu_USA_Erie_Lackawanna_MU_Cars) {
 		switch_emu_USA_Erie_Lackawanna_MU_Cars_reversed;
 	}	
 	livery_override (item_mu_wagon_unpowered){
-		loading_speed: 20;
+		LOADINGSPEEDDEF_COMMUTER
 		running_cost_factor: 14;
 		power: 0;
 		weight: 26;
@@ -62,7 +62,7 @@ item(FEAT_TRAINS, item_emu_USA_Erie_Lackawanna_MU_Cars) {
 		default: switch_emu_USA_Erie_Lackawanna_MU_Cars_cargo_selection;
 	}
 	livery_override (item_mu_wagon_powered){
-		loading_speed: 20;
+		LOADINGSPEEDDEF_COMMUTER
 		running_cost_factor: 21;
 		power: 255;
 		weight: 38;

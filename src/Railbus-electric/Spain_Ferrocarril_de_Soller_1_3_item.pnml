@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_rbe_Spain_Ferrocarril_de_Soller_1_3) {
         introduction_date: date(1929,1,1);
         model_life: 35;
         vehicle_life: 15;
-        loading_speed: 20;
+        LOADINGSPEEDDEF_COMMUTER
         cost_factor: 26;
         running_cost_factor: 23;
         speed: 60 km/h;

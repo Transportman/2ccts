@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_diesel_South_Korea_Korail_6000_EMD_SD18) {
         introduction_date: date(1960,1,1);
         model_life: 25;
         vehicle_life: 40;
-        loading_speed: 1;
+        LOADINGSPEEDDEF_NONE
         cost_factor: 59;
         running_cost_factor: 44;
         speed: 104 km/h;

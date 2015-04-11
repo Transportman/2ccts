@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_steam_Poland_PKP_Okz32) {
         introduction_date: date(1934,1,1);
         model_life: 20;
         vehicle_life: 40;
-        loading_speed: 1;
+        LOADINGSPEEDDEF_NONE
         cost_factor: 55;
         running_cost_factor: 44;
         speed: 75 km/h;

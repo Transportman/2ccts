@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_dmu_Germany_DB_VT04_Flying_Hamburger) {
         introduction_date: date(1932,1,1);
         model_life: 25;
         vehicle_life: 25;
-        loading_speed: 8;
+        LOADINGSPEEDDEF_INTERCITY
         cost_factor: 28;
         running_cost_factor: 25;
         speed: 160 km/h;
@@ -53,7 +53,7 @@ item(FEAT_TRAINS, item_dmu_Germany_DB_VT04_Flying_Hamburger) {
 		switch_dmu_Germany_DB_VT04_Flying_Hamburger_reversed;
 	}	
 	livery_override (item_mu_wagon_unpowered){
-		loading_speed: 8;
+		LOADINGSPEEDDEF_INTERCITY
 		running_cost_factor: 13;
 		power: 0;
 		weight: 20;
@@ -62,7 +62,7 @@ item(FEAT_TRAINS, item_dmu_Germany_DB_VT04_Flying_Hamburger) {
 		default: switch_dmu_Germany_DB_VT04_Flying_Hamburger_cargo_selection;
 	}
 	livery_override (item_mu_wagon_powered){
-		loading_speed: 8;
+		LOADINGSPEEDDEF_INTERCITY
 		running_cost_factor: 18;
 		power: 200;
 		weight: 29;

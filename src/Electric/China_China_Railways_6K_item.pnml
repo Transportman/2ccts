@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_electric_China_China_Railways_6K) {
         introduction_date: date(1986,1,1);
         model_life: 25;
         vehicle_life: 40;
-        loading_speed: 1;
+        LOADINGSPEEDDEF_NONE
         cost_factor: 95;
         running_cost_factor: 82;
         speed: 100 km/h;

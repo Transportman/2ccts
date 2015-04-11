@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_diesel_USA_Metrolink_EMD_F59PH) {
         introduction_date: date(1994,1,1);
         model_life: 25;
         vehicle_life: 40;
-        loading_speed: 1;
+        LOADINGSPEEDDEF_NONE
         cost_factor: 70;
         running_cost_factor: 59;
         speed: 177 km/h;

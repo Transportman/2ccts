@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_dmu_Croatia_HZ_7022) {
         introduction_date: date(2011,1,1);
         model_life: VEHICLE_NEVER_EXPIRES;
         vehicle_life: 25;
-        loading_speed: 8;
+        LOADINGSPEEDDEF_INTERCITY
         cost_factor: 46;
         running_cost_factor: 43;
         speed: 160 km/h;
@@ -53,7 +53,7 @@ item(FEAT_TRAINS, item_dmu_Croatia_HZ_7022) {
 		switch_dmu_Croatia_HZ_7022_reversed;
 	}	
 	livery_override (item_mu_wagon_unpowered){
-		loading_speed: 8;
+		LOADINGSPEEDDEF_INTERCITY
 		running_cost_factor: 22;
 		power: 0;
 		weight: 19;
@@ -62,7 +62,7 @@ item(FEAT_TRAINS, item_dmu_Croatia_HZ_7022) {
 		default: switch_dmu_Croatia_HZ_7022_cargo_selection;
 	}
 	livery_override (item_mu_wagon_powered){
-		loading_speed: 8;
+		LOADINGSPEEDDEF_INTERCITY
 		running_cost_factor: 33;
 		power: 675;
 		weight: 29;

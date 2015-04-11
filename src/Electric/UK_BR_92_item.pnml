@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_electric_UK_BR_92) {
         introduction_date: date(1993,1,1);
         model_life: 25;
         vehicle_life: 40;
-        loading_speed: 1;
+        LOADINGSPEEDDEF_NONE
         cost_factor: 96;
         running_cost_factor: 84;
         speed: 140 km/h;

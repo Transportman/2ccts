@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_emu_Austria_OBB_4041) {
         introduction_date: date(1929,1,1);
         model_life: 20;
         vehicle_life: 25;
-        loading_speed: 20;
+        LOADINGSPEEDDEF_COMMUTER
         cost_factor: 35;
         running_cost_factor: 28;
         speed: 80 km/h;
@@ -53,7 +53,7 @@ item(FEAT_TRAINS, item_emu_Austria_OBB_4041) {
 		switch_emu_Austria_OBB_4041_reversed;
 	}	
 	livery_override (item_mu_wagon_unpowered){
-		loading_speed: 20;
+		LOADINGSPEEDDEF_COMMUTER
 		running_cost_factor: 14;
 		power: 0;
 		weight: 37;
@@ -62,7 +62,7 @@ item(FEAT_TRAINS, item_emu_Austria_OBB_4041) {
 		default: switch_emu_Austria_OBB_4041_cargo_selection;
 	}
 	livery_override (item_mu_wagon_powered){
-		loading_speed: 20;
+		LOADINGSPEEDDEF_COMMUTER
 		running_cost_factor: 21;
 		power: 278;
 		weight: 55;

@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_steam_Argentina_FCNEA_11B_2_8_0) {
         introduction_date: date(1920,1,1);
         model_life: 20;
         vehicle_life: 40;
-        loading_speed: 1;
+        LOADINGSPEEDDEF_NONE
         cost_factor: 41;
         running_cost_factor: 31;
         speed: 64 km/h;

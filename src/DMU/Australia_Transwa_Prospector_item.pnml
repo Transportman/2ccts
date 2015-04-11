@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_dmu_Australia_Transwa_Prospector) {
         introduction_date: date(2004,1,1);
         model_life: VEHICLE_NEVER_EXPIRES;
         vehicle_life: 25;
-        loading_speed: 8;
+        LOADINGSPEEDDEF_INTERCITY
         cost_factor: 31;
         running_cost_factor: 29;
         speed: 200 km/h;
@@ -53,7 +53,7 @@ item(FEAT_TRAINS, item_dmu_Australia_Transwa_Prospector) {
 		switch_dmu_Australia_Transwa_Prospector_reversed;
 	}	
 	livery_override (item_mu_wagon_unpowered){
-		loading_speed: 8;
+		LOADINGSPEEDDEF_INTERCITY
 		running_cost_factor: 15;
 		power: 0;
 		weight: 17;
@@ -62,7 +62,7 @@ item(FEAT_TRAINS, item_dmu_Australia_Transwa_Prospector) {
 		default: switch_dmu_Australia_Transwa_Prospector_cargo_selection;
 	}
 	livery_override (item_mu_wagon_powered){
-		loading_speed: 8;
+		LOADINGSPEEDDEF_INTERCITY
 		running_cost_factor: 22;
 		power: 260;
 		weight: 25;

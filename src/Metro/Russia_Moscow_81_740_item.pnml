@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_mtro_Russia_Moscow_81_740) {
         introduction_date: date(2003,1,1);
         model_life: VEHICLE_NEVER_EXPIRES;
         vehicle_life: 60;
-        loading_speed: 60;
+        LOADINGSPEEDDEF_METRO
         cost_factor: 40;
         running_cost_factor: 36;
         speed: 90 km/h;
@@ -51,7 +51,7 @@ item(FEAT_TRAINS, item_mtro_Russia_Moscow_81_740) {
 		switch_mtro_Russia_Moscow_81_740_reversed;
 	}	
 	livery_override (item_mtro_wagon_unpowered){
-		loading_speed: 60;
+		LOADINGSPEEDDEF_METRO
 		running_cost_factor: 18;
 		power: 0;
 		weight: 24;
@@ -60,7 +60,7 @@ item(FEAT_TRAINS, item_mtro_Russia_Moscow_81_740) {
 		default: spriteset_mtro_Russia_Moscow_81_740_middle;
 	}
 	livery_override (item_mtro_wagon_powered){
-		loading_speed: 60;
+		LOADINGSPEEDDEF_METRO
 		running_cost_factor: 27;
 		power: 430;
 		weight: 35;

@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_wagon_Service_Car_Type1) {
         introduction_date: date(1660,1,1);
         model_life: VEHICLE_NEVER_EXPIRES;
         vehicle_life: 25;
-        loading_speed: 10;
+        LOADINGSPEEDDEF_CARGO
         cost_factor: 1;
         running_cost_factor: 1;
         speed: 0 km/h;

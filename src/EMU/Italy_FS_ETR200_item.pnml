@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_emu_Italy_FS_ETR200) {
         introduction_date: date(1937,1,1);
         model_life: 25;
         vehicle_life: 25;
-        loading_speed: 8;
+        LOADINGSPEEDDEF_INTERCITY
         cost_factor: 28;
         running_cost_factor: 25;
         speed: 160 km/h;
@@ -53,7 +53,7 @@ item(FEAT_TRAINS, item_emu_Italy_FS_ETR200) {
 		switch_emu_Italy_FS_ETR200_reversed;
 	}	
 	livery_override (item_mu_wagon_unpowered){
-		loading_speed: 8;
+		LOADINGSPEEDDEF_INTERCITY
 		running_cost_factor: 13;
 		power: 0;
 		weight: 21;
@@ -62,7 +62,7 @@ item(FEAT_TRAINS, item_emu_Italy_FS_ETR200) {
 		default: switch_emu_Italy_FS_ETR200_cargo_selection;
 	}
 	livery_override (item_mu_wagon_powered){
-		loading_speed: 8;
+		LOADINGSPEEDDEF_INTERCITY
 		running_cost_factor: 10;
 		power: 210;
 		weight: 20;

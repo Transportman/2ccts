@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_dmu_UK_BR_43_IC125) {
         introduction_date: date(1976,1,1);
         model_life: 20;
         vehicle_life: 25;
-        loading_speed: 8;
+        LOADINGSPEEDDEF_INTERCITY
         cost_factor: 79;
         running_cost_factor: 73;
         speed: 201 km/h;
@@ -53,7 +53,7 @@ item(FEAT_TRAINS, item_dmu_UK_BR_43_IC125) {
 		switch_dmu_UK_BR_43_IC125_reversed;
 	}	
 	livery_override (item_mu_wagon_unpowered){
-		loading_speed: 8;
+		LOADINGSPEEDDEF_INTERCITY
 		running_cost_factor: 37;
 		power: 0;
 		weight: 35;
@@ -62,7 +62,7 @@ item(FEAT_TRAINS, item_dmu_UK_BR_43_IC125) {
 		default: switch_dmu_UK_BR_43_IC125_cargo_selection;
 	}
 	livery_override (item_mu_wagon_powered){
-		loading_speed: 8;
+		LOADINGSPEEDDEF_INTERCITY
 		running_cost_factor: 55;
 		power: 2250;
 		weight: 53;

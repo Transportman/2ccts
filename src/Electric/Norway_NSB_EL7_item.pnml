@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_electric_Norway_NSB_EL7) {
         introduction_date: date(1911,1,1);
         model_life: 25;
         vehicle_life: 40;
-        loading_speed: 1;
+        LOADINGSPEEDDEF_NONE
         cost_factor: 27;
         running_cost_factor: 23;
         speed: 45 km/h;

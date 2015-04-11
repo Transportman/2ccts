@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_electric_South_Africa_SAR_20E) {
         introduction_date: date(2013,1,1);
         model_life: VEHICLE_NEVER_EXPIRES;
         vehicle_life: 40;
-        loading_speed: 1;
+        LOADINGSPEEDDEF_NONE
         cost_factor: 74;
         running_cost_factor: 66;
         speed: 100 km/h;

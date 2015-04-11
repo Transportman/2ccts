@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_mtro_Germany_Berlin_U_Bahn_A_I) {
         introduction_date: date(1901,1,1);
         model_life: 50;
         vehicle_life: 60;
-        loading_speed: 60;
+        LOADINGSPEEDDEF_METRO
         cost_factor: 26;
         running_cost_factor: 23;
         speed: 50 km/h;
@@ -51,7 +51,7 @@ item(FEAT_TRAINS, item_mtro_Germany_Berlin_U_Bahn_A_I) {
 		switch_mtro_Germany_Berlin_U_Bahn_A_I_reversed;
 	}	
 	livery_override (item_mtro_wagon_unpowered){
-		loading_speed: 60;
+		LOADINGSPEEDDEF_METRO
 		running_cost_factor: 12;
 		power: 0;
 		weight: 15;
@@ -60,7 +60,7 @@ item(FEAT_TRAINS, item_mtro_Germany_Berlin_U_Bahn_A_I) {
 		spriteset_mtro_Germany_Berlin_U_Bahn_A_I_middle;
 	}
 	livery_override (item_mtro_wagon_powered){
-		loading_speed: 60;
+		LOADINGSPEEDDEF_METRO
 		running_cost_factor: 17;
 		power: 161;
 		weight: 22;

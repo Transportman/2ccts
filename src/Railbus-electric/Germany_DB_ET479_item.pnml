@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_rbe_Germany_DB_ET479) {
         introduction_date: date(1930,1,1);
         model_life: 35;
         vehicle_life: 15;
-        loading_speed: 20;
+        LOADINGSPEEDDEF_COMMUTER
         cost_factor: 19;
         running_cost_factor: 17;
         speed: 50 km/h;

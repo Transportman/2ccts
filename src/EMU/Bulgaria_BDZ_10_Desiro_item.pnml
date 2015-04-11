@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_emu_Bulgaria_BDZ_10_Desiro) {
         introduction_date: date(2005,1,1);
         model_life: VEHICLE_NEVER_EXPIRES;
         vehicle_life: 25;
-        loading_speed: 20;
+        LOADINGSPEEDDEF_COMMUTER
         cost_factor: 34;
         running_cost_factor: 29;
         speed: 140 km/h;
@@ -53,7 +53,7 @@ item(FEAT_TRAINS, item_emu_Bulgaria_BDZ_10_Desiro) {
 		switch_emu_Bulgaria_BDZ_10_Desiro_reversed;
 	}	
 	livery_override (item_mu_wagon_unpowered){
-		loading_speed: 20;
+		LOADINGSPEEDDEF_COMMUTER
 		running_cost_factor: 15;
 		power: 0;
 		weight: 29;
@@ -62,7 +62,7 @@ item(FEAT_TRAINS, item_emu_Bulgaria_BDZ_10_Desiro) {
 		default: switch_emu_Bulgaria_BDZ_10_Desiro_cargo_selection;
 	}
 	livery_override (item_mu_wagon_powered){
-		loading_speed: 20;
+		LOADINGSPEEDDEF_COMMUTER
 		running_cost_factor: 22;
 		power: 275;
 		weight: 43;

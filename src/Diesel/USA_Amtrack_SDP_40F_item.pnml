@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_diesel_USA_Amtrack_SDP_40F) {
         introduction_date: date(1973,1,1);
         model_life: 25;
         vehicle_life: 40;
-        loading_speed: 1;
+        LOADINGSPEEDDEF_NONE
         cost_factor: 69;
         running_cost_factor: 56;
         speed: 153 km/h;

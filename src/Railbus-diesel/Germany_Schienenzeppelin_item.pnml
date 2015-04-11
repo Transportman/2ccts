@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_rbd_Germany_Schienenzeppelin) {
         introduction_date: date(1930,1,1);
         model_life: 35;
         vehicle_life: 15;
-        loading_speed: 20;
+        LOADINGSPEEDDEF_COMMUTER
         cost_factor: 31;
         running_cost_factor: 30;
         speed: 230 km/h;

@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_rbs_Italy_FS_86) {
         introduction_date: date(1906,1,1);
         model_life: 35;
         vehicle_life: 15;
-        loading_speed: 20;
+        LOADINGSPEEDDEF_COMMUTER
         cost_factor: 21;
         running_cost_factor: 17;
         speed: 60 km/h;

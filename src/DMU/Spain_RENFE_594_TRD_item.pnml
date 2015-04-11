@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_dmu_Spain_RENFE_594_TRD) {
         introduction_date: date(1997,1,1);
         model_life: 15;
         vehicle_life: 20;
-        loading_speed: 20;
+        LOADINGSPEEDDEF_COMMUTER
         cost_factor: 38;
         running_cost_factor: 34;
         speed: 160 km/h;
@@ -53,7 +53,7 @@ item(FEAT_TRAINS, item_dmu_Spain_RENFE_594_TRD) {
 		switch_dmu_Spain_RENFE_594_TRD_reversed;
 	}	
 	livery_override (item_mu_wagon_unpowered){
-		loading_speed: 20;
+		LOADINGSPEEDDEF_COMMUTER
 		running_cost_factor: 17;
 		power: 0;
 		weight: 25;
@@ -62,7 +62,7 @@ item(FEAT_TRAINS, item_dmu_Spain_RENFE_594_TRD) {
 		default: switch_dmu_Spain_RENFE_594_TRD_cargo_selection;
 	}
 	livery_override (item_mu_wagon_powered){
-		loading_speed: 20;
+		LOADINGSPEEDDEF_COMMUTER
 		running_cost_factor: 26;
 		power: 402;
 		weight: 37;

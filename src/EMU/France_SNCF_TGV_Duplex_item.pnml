@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_emu_France_SNCF_TGV_Duplex) {
         introduction_date: date(1995,1,1);
         model_life: VEHICLE_NEVER_EXPIRES;
         vehicle_life: 25;
-        loading_speed: 8;
+        LOADINGSPEEDDEF_INTERCITY
         cost_factor: 123;
         running_cost_factor: 121;
         speed: 320 km/h;
@@ -51,7 +51,7 @@ item(FEAT_TRAINS, item_emu_France_SNCF_TGV_Duplex) {
 		switch_emu_France_SNCF_TGV_Duplex_reversed;
 	}	
 	livery_override (item_mu_wagon_unpowered){
-		loading_speed: 8;
+		LOADINGSPEEDDEF_INTERCITY
 		running_cost_factor: 61;
 		power: 0;
 		weight: 22;
@@ -60,7 +60,7 @@ item(FEAT_TRAINS, item_emu_France_SNCF_TGV_Duplex) {
 		default: switch_emu_France_SNCF_TGV_Duplex_cargo_selection;
 	}
 	livery_override (item_mu_wagon_powered){
-		loading_speed: 8;
+		LOADINGSPEEDDEF_INTERCITY
 		running_cost_factor: 91;
 		power: 6400;
 		weight: 32;

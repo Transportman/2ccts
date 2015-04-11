@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_emu_Luxembourg_CFL_2200_Coradia_Duplex) {
         introduction_date: date(1999,1,1);
         model_life: VEHICLE_NEVER_EXPIRES;
         vehicle_life: 25;
-        loading_speed: 20;
+        LOADINGSPEEDDEF_COMMUTER
         cost_factor: 44;
         running_cost_factor: 40;
         speed: 160 km/h;
@@ -53,7 +53,7 @@ item(FEAT_TRAINS, item_emu_Luxembourg_CFL_2200_Coradia_Duplex) {
 		switch_emu_Luxembourg_CFL_2200_Coradia_Duplex_reversed;
 	}	
 	livery_override (item_mu_wagon_unpowered){
-		loading_speed: 20;
+		LOADINGSPEEDDEF_COMMUTER
 		running_cost_factor: 20;
 		power: 0;
 		weight: 27;
@@ -62,7 +62,7 @@ item(FEAT_TRAINS, item_emu_Luxembourg_CFL_2200_Coradia_Duplex) {
 		default: switch_emu_Luxembourg_CFL_2200_Coradia_Duplex_cargo_selection;
 	}
 	livery_override (item_mu_wagon_powered){
-		loading_speed: 20;
+		LOADINGSPEEDDEF_COMMUTER
 		running_cost_factor: 30;
 		power: 525;
 		weight: 40;

@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_diesel_Australia_NSWGR_422) {
         introduction_date: date(1969,1,1);
         model_life: 25;
         vehicle_life: 40;
-        loading_speed: 1;
+        LOADINGSPEEDDEF_NONE
         cost_factor: 59;
         running_cost_factor: 48;
         speed: 124 km/h;

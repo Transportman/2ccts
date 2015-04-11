@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_mtro_USA_NY_R10) {
         introduction_date: date(1948,1,1);
         model_life: 50;
         vehicle_life: 60;
-        loading_speed: 60;
+        LOADINGSPEEDDEF_METRO
         cost_factor: 31;
         running_cost_factor: 27;
         speed: 90 km/h;
@@ -51,7 +51,7 @@ item(FEAT_TRAINS, item_mtro_USA_NY_R10) {
 		switch_mtro_USA_NY_R10_reversed;
 	}	
 	livery_override (item_mtro_wagon_unpowered){
-		loading_speed: 60;
+		LOADINGSPEEDDEF_METRO
 		running_cost_factor: 14;
 		power: 0;
 		weight: 18;
@@ -60,7 +60,7 @@ item(FEAT_TRAINS, item_mtro_USA_NY_R10) {
 		spriteset_mtro_USA_NY_R10_middle;
 	}
 	livery_override (item_mtro_wagon_powered){
-		loading_speed: 60;
+		LOADINGSPEEDDEF_METRO
 		running_cost_factor: 21;
 		power: 200;
 		weight: 27;

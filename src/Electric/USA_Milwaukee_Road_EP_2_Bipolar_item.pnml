@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_electric_USA_Milwaukee_Road_EP_2_Bipolar) {
         introduction_date: date(1919,1,1);
         model_life: 35;
         vehicle_life: 40;
-        loading_speed: 1;
+        LOADINGSPEEDDEF_NONE
         cost_factor: 91;
         running_cost_factor: 68;
         speed: 144 km/h;

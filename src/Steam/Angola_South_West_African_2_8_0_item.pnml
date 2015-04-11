@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_steam_Angola_South_West_African_2_8_0) {
         introduction_date: date(1911,1,1);
         model_life: 25;
         vehicle_life: 40;
-        loading_speed: 1;
+        LOADINGSPEEDDEF_NONE
         cost_factor: 28;
         running_cost_factor: 22;
         speed: 60 km/h;

@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_diesel_Czech_Republic_CD_720_ChME2) {
         introduction_date: date(1958,1,1);
         model_life: 25;
         vehicle_life: 40;
-        loading_speed: 1;
+        LOADINGSPEEDDEF_NONE
         cost_factor: 34;
         running_cost_factor: 28;
         speed: 80 km/h;

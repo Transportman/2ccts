@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_emu_Germany_DB_ET420) {
         introduction_date: date(1969,1,1);
         model_life: 20;
         vehicle_life: 25;
-        loading_speed: 20;
+        LOADINGSPEEDDEF_COMMUTER
         cost_factor: 41;
         running_cost_factor: 38;
         speed: 125 km/h;
@@ -52,7 +52,7 @@ item(FEAT_TRAINS, item_emu_Germany_DB_ET420) {
 		switch_emu_Germany_DB_ET420_reversed;
 	}	
 	livery_override (item_mu_wagon_unpowered){
-		loading_speed: 20;
+		LOADINGSPEEDDEF_COMMUTER
 		running_cost_factor: 19;
 		power: 0;
 		weight: 23;
@@ -62,7 +62,7 @@ item(FEAT_TRAINS, item_emu_Germany_DB_ET420) {
 		default: switch_emu_Germany_DB_ET420_cargo_selection;
 	}
 	livery_override (item_mu_wagon_powered){
-		loading_speed: 20;
+		LOADINGSPEEDDEF_COMMUTER
 		running_cost_factor: 29;
 		power: 500;
 		weight: 35;

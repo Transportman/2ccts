@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_dmu_UK_BR_150_0_Sprinter) {
         introduction_date: date(1984,1,1);
         model_life: 15;
         vehicle_life: 20;
-        loading_speed: 20;
+        LOADINGSPEEDDEF_COMMUTER
         cost_factor: 26;
         running_cost_factor: 23;
         speed: 121 km/h;
@@ -53,7 +53,7 @@ item(FEAT_TRAINS, item_dmu_UK_BR_150_0_Sprinter) {
 		switch_dmu_UK_BR_150_0_Sprinter_reversed;
 	}	
 	livery_override (item_mu_wagon_unpowered){
-		loading_speed: 20;
+		LOADINGSPEEDDEF_COMMUTER
 		running_cost_factor: 11;
 		power: 0;
 		weight: 18;
@@ -62,7 +62,7 @@ item(FEAT_TRAINS, item_dmu_UK_BR_150_0_Sprinter) {
 		default: switch_dmu_UK_BR_150_0_Sprinter_cargo_selection;
 	}
 	livery_override (item_mu_wagon_powered){
-		loading_speed: 20;
+		LOADINGSPEEDDEF_COMMUTER
 		running_cost_factor: 17;
 		power: 143;
 		weight: 27;

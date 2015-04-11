@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_steam_UK_GWR_1600_Class) {
         introduction_date: date(1949,1,1);
         model_life: 25;
         vehicle_life: 40;
-        loading_speed: 1;
+        LOADINGSPEEDDEF_NONE
         cost_factor: 31;
         running_cost_factor: 27;
         speed: 80 km/h;

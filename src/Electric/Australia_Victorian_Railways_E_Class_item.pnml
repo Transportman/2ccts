@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_electric_Australia_Victorian_Railways_E_Class) {
         introduction_date: date(1923,1,1);
         model_life: 25;
         vehicle_life: 40;
-        loading_speed: 1;
+        LOADINGSPEEDDEF_NONE
         cost_factor: 31;
         running_cost_factor: 26;
         speed: 65 km/h;

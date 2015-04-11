@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_emu_Turkey_TCDD_E8000) {
         introduction_date: date(1955,1,1);
         model_life: 25;
         vehicle_life: 25;
-        loading_speed: 20;
+        LOADINGSPEEDDEF_COMMUTER
         cost_factor: 33;
         running_cost_factor: 29;
         speed: 110 km/h;
@@ -53,7 +53,7 @@ item(FEAT_TRAINS, item_emu_Turkey_TCDD_E8000) {
 		switch_emu_Turkey_TCDD_E8000_reversed;
 	}	
 	livery_override (item_mu_wagon_unpowered){
-		loading_speed: 20;
+		LOADINGSPEEDDEF_COMMUTER
 		running_cost_factor: 15;
 		power: 0;
 		weight: 20;
@@ -62,7 +62,7 @@ item(FEAT_TRAINS, item_emu_Turkey_TCDD_E8000) {
 		default: switch_emu_Turkey_TCDD_E8000_cargo_selection;
 	}
 	livery_override (item_mu_wagon_powered){
-		loading_speed: 20;
+		LOADINGSPEEDDEF_COMMUTER
 		running_cost_factor: 22;
 		power: 275;
 		weight: 30;

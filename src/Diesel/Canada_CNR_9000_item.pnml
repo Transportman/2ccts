@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_diesel_Canada_CNR_9000) {
         introduction_date: date(1928,1,1);
         model_life: 25;
         vehicle_life: 40;
-        loading_speed: 1;
+        LOADINGSPEEDDEF_NONE
         cost_factor: 86;
         running_cost_factor: 53;
         speed: 112 km/h;

@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_emu_Norway_NSB_BM65) {
         introduction_date: date(1942,1,1);
         model_life: 20;
         vehicle_life: 25;
-        loading_speed: 20;
+        LOADINGSPEEDDEF_COMMUTER
         cost_factor: 33;
         running_cost_factor: 30;
         speed: 70 km/h;
@@ -53,7 +53,7 @@ item(FEAT_TRAINS, item_emu_Norway_NSB_BM65) {
 		switch_emu_Norway_NSB_BM65_reversed;
 	}	
 	livery_override (item_mu_wagon_unpowered){
-		loading_speed: 20;
+		LOADINGSPEEDDEF_COMMUTER
 		running_cost_factor: 15;
 		power: 0;
 		weight: 19;
@@ -62,7 +62,7 @@ item(FEAT_TRAINS, item_emu_Norway_NSB_BM65) {
 		default: switch_emu_Norway_NSB_BM65_cargo_selection;
 	}
 	livery_override (item_mu_wagon_powered){
-		loading_speed: 20;
+		LOADINGSPEEDDEF_COMMUTER
 		running_cost_factor: 23;
 		power: 316;
 		weight: 29;

@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_diesel_Ireland_CIE_113) {
         introduction_date: date(1950,1,1);
         model_life: 25;
         vehicle_life: 40;
-        loading_speed: 1;
+        LOADINGSPEEDDEF_NONE
         cost_factor: 39;
         running_cost_factor: 31;
         speed: 88 km/h;

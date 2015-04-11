@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_steam_South_Africa_PPR_35_tonner_4_6_0T) {
         introduction_date: date(1887,1,1);
         model_life: 25;
         vehicle_life: 40;
-        loading_speed: 1;
+        LOADINGSPEEDDEF_NONE
         cost_factor: 13;
         running_cost_factor: 10;
         speed: 60 km/h;

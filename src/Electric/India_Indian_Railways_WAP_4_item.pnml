@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_electric_India_Indian_Railways_WAP_4) {
         introduction_date: date(1994,1,1);
         model_life: 25;
         vehicle_life: 40;
-        loading_speed: 1;
+        LOADINGSPEEDDEF_NONE
         cost_factor: 85;
         running_cost_factor: 75;
         speed: 140 km/h;

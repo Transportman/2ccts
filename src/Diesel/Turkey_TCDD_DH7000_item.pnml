@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_diesel_Turkey_TCDD_DH7000) {
         introduction_date: date(1994,1,1);
         model_life: 25;
         vehicle_life: 40;
-        loading_speed: 1;
+        LOADINGSPEEDDEF_NONE
         cost_factor: 32;
         running_cost_factor: 27;
         speed: 40 km/h;

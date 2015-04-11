@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_dmu_Denmark_DSB_IC4) {
         introduction_date: date(2007,1,1);
         model_life: VEHICLE_NEVER_EXPIRES;
         vehicle_life: 25;
-        loading_speed: 8;
+        LOADINGSPEEDDEF_INTERCITY
         cost_factor: 36;
         running_cost_factor: 34;
         speed: 200 km/h;
@@ -53,7 +53,7 @@ item(FEAT_TRAINS, item_dmu_Denmark_DSB_IC4) {
 		switch_dmu_Denmark_DSB_IC4_reversed;
 	}	
 	livery_override (item_mu_wagon_unpowered){
-		loading_speed: 8;
+		LOADINGSPEEDDEF_INTERCITY
 		running_cost_factor: 17;
 		power: 0;
 		weight: 18;
@@ -62,7 +62,7 @@ item(FEAT_TRAINS, item_dmu_Denmark_DSB_IC4) {
 		default: switch_dmu_Denmark_DSB_IC4_cargo_selection;
 	}
 	livery_override (item_mu_wagon_powered){
-		loading_speed: 8;
+		LOADINGSPEEDDEF_INTERCITY
 		running_cost_factor: 26;
 		power: 375;
 		weight: 27;

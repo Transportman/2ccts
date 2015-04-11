@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_mtro_USA_Washington_7000) {
         introduction_date: date(2013,1,1);
         model_life: VEHICLE_NEVER_EXPIRES;
         vehicle_life: 60;
-        loading_speed: 60;
+        LOADINGSPEEDDEF_METRO
         cost_factor: 38;
         running_cost_factor: 36;
         speed: 126 km/h;
@@ -51,7 +51,7 @@ item(FEAT_TRAINS, item_mtro_USA_Washington_7000) {
 		switch_mtro_USA_Washington_7000_reversed;
 	}	
 	livery_override (item_mtro_wagon_unpowered){
-		loading_speed: 60;
+		LOADINGSPEEDDEF_METRO
 		running_cost_factor: 18;
 		power: 0;
 		weight: 18;
@@ -60,7 +60,7 @@ item(FEAT_TRAINS, item_mtro_USA_Washington_7000) {
 		default: spriteset_mtro_USA_Washington_7000_middle;
 	}
 	livery_override (item_mtro_wagon_powered){
-		loading_speed: 60;
+		LOADINGSPEEDDEF_METRO
 		running_cost_factor: 27;
 		power: 360;
 		weight: 27;

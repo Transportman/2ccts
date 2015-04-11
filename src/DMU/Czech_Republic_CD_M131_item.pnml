@@ -17,7 +17,7 @@ item(FEAT_TRAINS, item_dmu_Czech_Republic_CD_M131) {
         introduction_date: date(1948,1,1);
         model_life: 25;
         vehicle_life: 25;
-        loading_speed: 8;
+        LOADINGSPEEDDEF_INTERCITY
         cost_factor: 21;
         running_cost_factor: 17;
         speed: 60 km/h;
@@ -52,7 +52,7 @@ item(FEAT_TRAINS, item_dmu_Czech_Republic_CD_M131) {
 		switch_dmu_Czech_Republic_CD_M131_reversed;
 	}	
 	livery_override (item_mu_wagon_unpowered){
-		loading_speed: 8;
+		LOADINGSPEEDDEF_INTERCITY
 		running_cost_factor: 9;
 		power: 0;
 		weight: 21;
@@ -61,7 +61,7 @@ item(FEAT_TRAINS, item_dmu_Czech_Republic_CD_M131) {
 		default: switch_dmu_Czech_Republic_CD_M131_cargo_selection;
 	}
 	livery_override (item_mu_wagon_powered){
-		loading_speed: 8;
+		LOADINGSPEEDDEF_INTERCITY
 		running_cost_factor: 13;
 		power: 76;
 		weight: 32;

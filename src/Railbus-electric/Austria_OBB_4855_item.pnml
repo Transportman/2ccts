@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_rbe_Austria_OBB_4855) {
         introduction_date: date(1989,1,1);
         model_life: 35;
         vehicle_life: 15;
-        loading_speed: 20;
+        LOADINGSPEEDDEF_COMMUTER
         cost_factor: 34;
         running_cost_factor: 31;
         speed: 120 km/h;

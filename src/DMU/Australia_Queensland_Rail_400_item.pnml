@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_dmu_Australia_Queensland_Rail_400) {
         introduction_date: date(1955,1,1);
         model_life: 25;
         vehicle_life: 25;
-        loading_speed: 8;
+        LOADINGSPEEDDEF_INTERCITY
         cost_factor: 24;
         running_cost_factor: 20;
         speed: 90 km/h;
@@ -53,7 +53,7 @@ item(FEAT_TRAINS, item_dmu_Australia_Queensland_Rail_400) {
 		switch_dmu_Australia_Queensland_Rail_400_reversed;
 	}	
 	livery_override (item_mu_wagon_unpowered){
-		loading_speed: 8;
+		LOADINGSPEEDDEF_INTERCITY
 		running_cost_factor: 10;
 		power: 0;
 		weight: 22;
@@ -62,7 +62,7 @@ item(FEAT_TRAINS, item_dmu_Australia_Queensland_Rail_400) {
 		default: switch_dmu_Australia_Queensland_Rail_400_cargo_selection;
 	}
 	livery_override (item_mu_wagon_powered){
-		loading_speed: 8;
+		LOADINGSPEEDDEF_INTERCITY
 		running_cost_factor: 15;
 		power: 110;
 		weight: 32;

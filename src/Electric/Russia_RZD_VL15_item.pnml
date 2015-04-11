@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_electric_Russia_RZD_VL15) {
         introduction_date: date(1984,1,1);
         model_life: 25;
         vehicle_life: 40;
-        loading_speed: 1;
+        LOADINGSPEEDDEF_NONE
         cost_factor: 94;
         running_cost_factor: 79;
         speed: 100 km/h;

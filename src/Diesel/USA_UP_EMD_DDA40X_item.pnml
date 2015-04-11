@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_diesel_USA_UP_EMD_DDA40X) {
         introduction_date: date(1969,1,1);
         model_life: 25;
         vehicle_life: 40;
-        loading_speed: 1;
+        LOADINGSPEEDDEF_NONE
         cost_factor: 108;
         running_cost_factor: 83;
         speed: 144 km/h;

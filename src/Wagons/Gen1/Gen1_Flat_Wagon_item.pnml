@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_wagon_Gen1_Flat_Wagon) {
         introduction_date: date(1660,1,1);
         model_life: 250;
         vehicle_life: 25;
-        loading_speed: 10;
+        LOADINGSPEEDDEF_CARGO
         cost_factor: 10;
         running_cost_factor: 10;
         speed: 55 km/h;

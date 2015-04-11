@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_mtro_North_Korea_Pyongyang_D_stock) {
         introduction_date: date(1975,1,1);
         model_life: 50;
         vehicle_life: 60;
-        loading_speed: 60;
+        LOADINGSPEEDDEF_METRO
         cost_factor: 30;
         running_cost_factor: 27;
         speed: 100 km/h;
@@ -51,7 +51,7 @@ item(FEAT_TRAINS, item_mtro_North_Korea_Pyongyang_D_stock) {
 		switch_mtro_North_Korea_Pyongyang_D_stock_reversed;
 	}	
 	livery_override (item_mtro_wagon_unpowered){
-		loading_speed: 60;
+		LOADINGSPEEDDEF_METRO
 		running_cost_factor: 14;
 		power: 0;
 		weight: 20;
@@ -60,7 +60,7 @@ item(FEAT_TRAINS, item_mtro_North_Korea_Pyongyang_D_stock) {
 		default: spriteset_mtro_North_Korea_Pyongyang_D_stock_middle;
 	}
 	livery_override (item_mtro_wagon_powered){
-		loading_speed: 60;
+		LOADINGSPEEDDEF_METRO
 		running_cost_factor: 21;
 		power: 175;
 		weight: 30;

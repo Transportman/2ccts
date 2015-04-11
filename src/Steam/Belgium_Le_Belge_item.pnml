@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_steam_Belgium_Le_Belge) {
         introduction_date: date(1835,1,1);
         model_life: 40;
         vehicle_life: 40;
-        loading_speed: 1;
+        LOADINGSPEEDDEF_NONE
         cost_factor: 9;
         running_cost_factor: 8;
         speed: 35 km/h;

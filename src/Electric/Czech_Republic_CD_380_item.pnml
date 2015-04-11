@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_electric_Czech_Republic_CD_380) {
         introduction_date: date(2008,1,1);
         model_life: VEHICLE_NEVER_EXPIRES;
         vehicle_life: 40;
-        loading_speed: 1;
+        LOADINGSPEEDDEF_NONE
         cost_factor: 102;
         running_cost_factor: 95;
         speed: 200 km/h;

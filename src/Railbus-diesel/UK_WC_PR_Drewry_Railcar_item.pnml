@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_rbd_UK_WC_PR_Drewry_Railcar) {
         introduction_date: date(1921,1,1);
         model_life: 35;
         vehicle_life: 15;
-        loading_speed: 20;
+        LOADINGSPEEDDEF_COMMUTER
         cost_factor: 10;
         running_cost_factor: 9;
         speed: 40 km/h;

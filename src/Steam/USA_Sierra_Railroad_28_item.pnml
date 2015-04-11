@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_steam_USA_Sierra_Railroad_28) {
         introduction_date: date(1922,1,1);
         model_life: 25;
         vehicle_life: 40;
-        loading_speed: 1;
+        LOADINGSPEEDDEF_NONE
         cost_factor: 47;
         running_cost_factor: 42;
         speed: 104 km/h;

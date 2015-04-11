@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_steam_Germany_Prussian_S10) {
         introduction_date: date(1910,1,1);
         model_life: 44;
         vehicle_life: 40;
-        loading_speed: 1;
+        LOADINGSPEEDDEF_NONE
         cost_factor: 75;
         running_cost_factor: 63;
         speed: 110 km/h;

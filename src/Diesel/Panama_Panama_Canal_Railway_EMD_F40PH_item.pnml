@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_diesel_Panama_Panama_Canal_Railway_EMD_F40PH) {
         introduction_date: date(1977,1,1);
         model_life: 25;
         vehicle_life: 40;
-        loading_speed: 1;
+        LOADINGSPEEDDEF_NONE
         cost_factor: 67;
         running_cost_factor: 56;
         speed: 165 km/h;

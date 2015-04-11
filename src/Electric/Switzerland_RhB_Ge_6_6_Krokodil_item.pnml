@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_electric_Switzerland_RhB_Ge_6_6_Krokodil) {
         introduction_date: date(1921,1,1);
         model_life: 25;
         vehicle_life: 40;
-        loading_speed: 1;
+        LOADINGSPEEDDEF_NONE
         cost_factor: 43;
         running_cost_factor: 36;
         speed: 55 km/h;

@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_diesel_Canada_CPR_Trainmaster) {
         introduction_date: date(1953,1,1);
         model_life: 25;
         vehicle_life: 40;
-        loading_speed: 1;
+        LOADINGSPEEDDEF_NONE
         cost_factor: 67;
         running_cost_factor: 50;
         speed: 105 km/h;

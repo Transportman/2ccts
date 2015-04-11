@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_rbd_USA_Virginia_Truckee_Motor_Car_22) {
         introduction_date: date(1909,1,1);
         model_life: 35;
         vehicle_life: 15;
-        loading_speed: 20;
+        LOADINGSPEEDDEF_COMMUTER
         cost_factor: 22;
         running_cost_factor: 20;
         speed: 52 km/h;

@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_wagon_Gen5_Gondola) {
         introduction_date: date(1990,1,1);
         model_life: 0;
         vehicle_life: 25;
-        loading_speed: 10;
+        LOADINGSPEEDDEF_CARGO
         cost_factor: 34;
         running_cost_factor: 33;
         speed: 120 km/h;

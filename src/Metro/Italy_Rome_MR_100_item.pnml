@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_mtro_Italy_Rome_MR_100) {
         introduction_date: date(1954,1,1);
         model_life: 50;
         vehicle_life: 60;
-        loading_speed: 60;
+        LOADINGSPEEDDEF_METRO
         cost_factor: 26;
         running_cost_factor: 23;
         speed: 100 km/h;
@@ -51,7 +51,7 @@ item(FEAT_TRAINS, item_mtro_Italy_Rome_MR_100) {
 		switch_mtro_Italy_Rome_MR_100_reversed;
 	}	
 	livery_override (item_mtro_wagon_unpowered){
-		loading_speed: 60;
+		LOADINGSPEEDDEF_METRO
 		running_cost_factor: 11;
 		power: 0;
 		weight: 20;
@@ -60,7 +60,7 @@ item(FEAT_TRAINS, item_mtro_Italy_Rome_MR_100) {
 		spriteset_mtro_Italy_Rome_MR_100_middle;
 	}
 	livery_override (item_mtro_wagon_powered){
-		loading_speed: 60;
+		LOADINGSPEEDDEF_METRO
 		running_cost_factor: 17;
 		power: 119;
 		weight: 30;

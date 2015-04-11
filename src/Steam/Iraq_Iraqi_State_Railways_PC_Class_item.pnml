@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_steam_Iraq_Iraqi_State_Railways_PC_Class) {
         introduction_date: date(1940,1,1);
         model_life: 25;
         vehicle_life: 40;
-        loading_speed: 1;
+        LOADINGSPEEDDEF_NONE
         cost_factor: 51;
         running_cost_factor: 42;
         speed: 140 km/h;

@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_diesel_UK_BR_Class_D3_7) {
         introduction_date: date(1939,1,1);
         model_life: 25;
         vehicle_life: 40;
-        loading_speed: 1;
+        LOADINGSPEEDDEF_NONE
         cost_factor: 25;
         running_cost_factor: 19;
         speed: 32 km/h;

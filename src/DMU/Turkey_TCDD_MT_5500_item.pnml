@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_dmu_Turkey_TCDD_MT_5500) {
         introduction_date: date(1961,1,1);
         model_life: 15;
         vehicle_life: 20;
-        loading_speed: 20;
+        LOADINGSPEEDDEF_COMMUTER
         cost_factor: 28;
         running_cost_factor: 25;
         speed: 90 km/h;
@@ -53,7 +53,7 @@ item(FEAT_TRAINS, item_dmu_Turkey_TCDD_MT_5500) {
 		switch_dmu_Turkey_TCDD_MT_5500_reversed;
 	}	
 	livery_override (item_mu_wagon_unpowered){
-		loading_speed: 20;
+		LOADINGSPEEDDEF_COMMUTER
 		running_cost_factor: 13;
 		power: 0;
 		weight: 18;
@@ -62,7 +62,7 @@ item(FEAT_TRAINS, item_dmu_Turkey_TCDD_MT_5500) {
 		default: switch_dmu_Turkey_TCDD_MT_5500_cargo_selection;
 	}
 	livery_override (item_mu_wagon_powered){
-		loading_speed: 20;
+		LOADINGSPEEDDEF_COMMUTER
 		running_cost_factor: 19;
 		power: 195;
 		weight: 26;

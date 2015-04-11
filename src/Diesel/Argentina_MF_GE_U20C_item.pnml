@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_diesel_Argentina_MF_GE_U20C) {
         introduction_date: date(1995,1,1);
         model_life: VEHICLE_NEVER_EXPIRES;
         vehicle_life: 40;
-        loading_speed: 1;
+        LOADINGSPEEDDEF_NONE
         cost_factor: 54;
         running_cost_factor: 46;
         speed: 104 km/h;

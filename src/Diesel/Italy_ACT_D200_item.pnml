@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_diesel_Italy_ACT_D200) {
         introduction_date: date(2003,1,1);
         model_life: VEHICLE_NEVER_EXPIRES;
         vehicle_life: 40;
-        loading_speed: 1;
+        LOADINGSPEEDDEF_NONE
         cost_factor: 65;
         running_cost_factor: 56;
         speed: 120 km/h;

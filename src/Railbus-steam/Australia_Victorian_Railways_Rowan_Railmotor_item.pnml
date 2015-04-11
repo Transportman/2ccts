@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_rbs_Australia_Victorian_Railways_Rowan_Railmotor) {
         introduction_date: date(1883,1,1);
         model_life: 35;
         vehicle_life: 15;
-        loading_speed: 20;
+        LOADINGSPEEDDEF_COMMUTER
         cost_factor: 12;
         running_cost_factor: 10;
         speed: 48 km/h;

@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_rbs_Australia_Victorian_Railways_Motor_Car_3) {
         introduction_date: date(1912,1,1);
         model_life: 35;
         vehicle_life: 15;
-        loading_speed: 20;
+        LOADINGSPEEDDEF_COMMUTER
         cost_factor: 17;
         running_cost_factor: 13;
         speed: 55 km/h;

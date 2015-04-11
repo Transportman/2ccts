@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_wagon_Gen3_Boxcar_Type1) {
         introduction_date: date(1920,1,1);
         model_life: 50;
         vehicle_life: 25;
-        loading_speed: 10;
+        LOADINGSPEEDDEF_CARGO
         cost_factor: 21;
         running_cost_factor: 21;
         speed: 100 km/h;

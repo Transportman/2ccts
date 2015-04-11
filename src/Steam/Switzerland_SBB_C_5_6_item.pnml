@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_steam_Switzerland_SBB_C_5_6) {
         introduction_date: date(1913,1,1);
         model_life: 25;
         vehicle_life: 40;
-        loading_speed: 1;
+        LOADINGSPEEDDEF_NONE
         cost_factor: 54;
         running_cost_factor: 41;
         speed: 65 km/h;

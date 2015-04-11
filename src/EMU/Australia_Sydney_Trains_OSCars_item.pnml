@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_emu_Australia_Sydney_Trains_OSCars) {
         introduction_date: date(2007,1,1);
         model_life: VEHICLE_NEVER_EXPIRES;
         vehicle_life: 25;
-        loading_speed: 20;
+        LOADINGSPEEDDEF_COMMUTER
         cost_factor: 42;
         running_cost_factor: 38;
         speed: 130 km/h;
@@ -53,7 +53,7 @@ item(FEAT_TRAINS, item_emu_Australia_Sydney_Trains_OSCars) {
 		switch_emu_Australia_Sydney_Trains_OSCars_reversed;
 	}	
 	livery_override (item_mu_wagon_unpowered){
-		loading_speed: 20;
+		LOADINGSPEEDDEF_COMMUTER
 		running_cost_factor: 19;
 		power: 0;
 		weight: 24;
@@ -62,7 +62,7 @@ item(FEAT_TRAINS, item_emu_Australia_Sydney_Trains_OSCars) {
 		default: switch_emu_Australia_Sydney_Trains_OSCars_cargo_selection;
 	}
 	livery_override (item_mu_wagon_powered){
-		loading_speed: 20;
+		LOADINGSPEEDDEF_COMMUTER
 		running_cost_factor: 29;
 		power: 475;
 		weight: 35;

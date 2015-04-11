@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_dmu_Australia_CityRail_Hunter_Railcar) {
         introduction_date: date(2006,1,1);
         model_life: VEHICLE_NEVER_EXPIRES;
         vehicle_life: 25;
-        loading_speed: 20;
+        LOADINGSPEEDDEF_COMMUTER
         cost_factor: 35;
         running_cost_factor: 33;
         speed: 160 km/h;
@@ -53,7 +53,7 @@ item(FEAT_TRAINS, item_dmu_Australia_CityRail_Hunter_Railcar) {
 		switch_dmu_Australia_CityRail_Hunter_Railcar_reversed;
 	}	
 	livery_override (item_mu_wagon_unpowered){
-		loading_speed: 20;
+		LOADINGSPEEDDEF_COMMUTER
 		running_cost_factor: 17;
 		power: 0;
 		weight: 15;
@@ -62,7 +62,7 @@ item(FEAT_TRAINS, item_dmu_Australia_CityRail_Hunter_Railcar) {
 		default: switch_dmu_Australia_CityRail_Hunter_Railcar_cargo_selection;
 	}
 	livery_override (item_mu_wagon_powered){
-		loading_speed: 20;
+		LOADINGSPEEDDEF_COMMUTER
 		running_cost_factor: 25;
 		power: 375;
 		weight: 23;

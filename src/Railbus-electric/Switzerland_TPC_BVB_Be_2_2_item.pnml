@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_rbe_Switzerland_TPC_BVB_Be_2_2) {
         introduction_date: date(1907,1,1);
         model_life: 35;
         vehicle_life: 15;
-        loading_speed: 20;
+        LOADINGSPEEDDEF_COMMUTER
         cost_factor: 16;
         running_cost_factor: 15;
         speed: 37 km/h;

@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_steam_USA_AT_SF_5000) {
         introduction_date: date(1930,1,1);
         model_life: 25;
         vehicle_life: 40;
-        loading_speed: 1;
+        LOADINGSPEEDDEF_NONE
         cost_factor: 116;
         running_cost_factor: 77;
         speed: 100 km/h;

@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_steam_Netherlands_NRS_11) {
         introduction_date: date(1844,1,1);
         model_life: 25;
         vehicle_life: 40;
-        loading_speed: 1;
+        LOADINGSPEEDDEF_NONE
         cost_factor: 18;
         running_cost_factor: 15;
         speed: 40 km/h;

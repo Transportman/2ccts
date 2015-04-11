@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_diesel_Germany_DB_310_Kof_II) {
         introduction_date: date(1930,1,1);
         model_life: 25;
         vehicle_life: 40;
-        loading_speed: 1;
+        LOADINGSPEEDDEF_NONE
         cost_factor: 12;
         running_cost_factor: 10;
         speed: 30 km/h;

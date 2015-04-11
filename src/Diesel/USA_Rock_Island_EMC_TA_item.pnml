@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_diesel_USA_Rock_Island_EMC_TA) {
         introduction_date: date(1937,1,1);
         model_life: 25;
         vehicle_life: 40;
-        loading_speed: 1;
+        LOADINGSPEEDDEF_NONE
         cost_factor: 49;
         running_cost_factor: 37;
         speed: 180 km/h;

@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_mtro_Germany_Berlin_U_Bahn_C_II) {
         introduction_date: date(1929,1,1);
         model_life: 40;
         vehicle_life: 60;
-        loading_speed: 60;
+        LOADINGSPEEDDEF_METRO
         cost_factor: 31;
         running_cost_factor: 26;
         speed: 60 km/h;

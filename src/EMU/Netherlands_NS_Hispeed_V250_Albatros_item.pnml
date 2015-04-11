@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_emu_Netherlands_NS_Hispeed_V250_Albatros) {
         introduction_date: date(2012,1,1);
         model_life: VEHICLE_NEVER_EXPIRES;
         vehicle_life: 25;
-        loading_speed: 20;
+        LOADINGSPEEDDEF_COMMUTER
         cost_factor: 54;
         running_cost_factor: 50;
         speed: 251 km/h;
@@ -53,7 +53,7 @@ item(FEAT_TRAINS, item_emu_Netherlands_NS_Hispeed_V250_Albatros) {
 		switch_emu_Netherlands_NS_Hispeed_V250_Albatros_reversed;
 	}	
 	livery_override (item_mu_wagon_unpowered){
-		loading_speed: 20;
+		LOADINGSPEEDDEF_COMMUTER
 		running_cost_factor: 25;
 		power: 0;
 		weight: 29;
@@ -62,7 +62,7 @@ item(FEAT_TRAINS, item_emu_Netherlands_NS_Hispeed_V250_Albatros) {
 		default: switch_emu_Netherlands_NS_Hispeed_V250_Albatros_cargo_selection;
 	}
 	livery_override (item_mu_wagon_powered){
-		loading_speed: 20;
+		LOADINGSPEEDDEF_COMMUTER
 		running_cost_factor: 38;
 		power: 925;
 		weight: 44;

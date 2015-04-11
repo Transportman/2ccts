@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_steam_Ireland_DSER_15) {
         introduction_date: date(1922,1,1);
         model_life: 25;
         vehicle_life: 40;
-        loading_speed: 1;
+        LOADINGSPEEDDEF_NONE
         cost_factor: 43;
         running_cost_factor: 35;
         speed: 120 km/h;

@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_electric_Austria_OBB_1020_Crocodile) {
         introduction_date: date(1940,1,1);
         model_life: 25;
         vehicle_life: 40;
-        loading_speed: 1;
+        LOADINGSPEEDDEF_NONE
         cost_factor: 79;
         running_cost_factor: 68;
         speed: 100 km/h;

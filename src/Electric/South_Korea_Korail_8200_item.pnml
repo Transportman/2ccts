@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_electric_South_Korea_Korail_8200) {
         introduction_date: date(2003,1,1);
         model_life: VEHICLE_NEVER_EXPIRES;
         vehicle_life: 40;
-        loading_speed: 1;
+        LOADINGSPEEDDEF_NONE
         cost_factor: 93;
         running_cost_factor: 86;
         speed: 150 km/h;

@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_electric_UK_NER_EF1) {
         introduction_date: date(1914,1,1);
         model_life: 30;
         vehicle_life: 40;
-        loading_speed: 1;
+        LOADINGSPEEDDEF_NONE
         cost_factor: 41;
         running_cost_factor: 34;
         speed: 40 km/h;

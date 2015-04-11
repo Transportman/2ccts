@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_diesel_Canada_CNR_MLW_M420W) {
         introduction_date: date(1973,1,1);
         model_life: 25;
         vehicle_life: 40;
-        loading_speed: 1;
+        LOADINGSPEEDDEF_NONE
         cost_factor: 62;
         running_cost_factor: 50;
         speed: 108 km/h;

@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_diesel_USA_PRR_FM_H_10_44) {
         introduction_date: date(1944,1,1);
         model_life: 25;
         vehicle_life: 40;
-        loading_speed: 1;
+        LOADINGSPEEDDEF_NONE
         cost_factor: 43;
         running_cost_factor: 33;
         speed: 97 km/h;

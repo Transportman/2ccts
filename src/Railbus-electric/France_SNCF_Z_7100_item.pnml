@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_rbe_France_SNCF_Z_7100) {
         introduction_date: date(1960,1,1);
         model_life: 35;
         vehicle_life: 15;
-        loading_speed: 20;
+        LOADINGSPEEDDEF_COMMUTER
         cost_factor: 46;
         running_cost_factor: 41;
         speed: 130 km/h;

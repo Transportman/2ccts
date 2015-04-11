@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_electric_Switzerland_SBB_Ce_4_4) {
         introduction_date: date(1954,1,1);
         model_life: 25;
         vehicle_life: 40;
-        loading_speed: 1;
+        LOADINGSPEEDDEF_NONE
         cost_factor: 39;
         running_cost_factor: 32;
         speed: 65 km/h;

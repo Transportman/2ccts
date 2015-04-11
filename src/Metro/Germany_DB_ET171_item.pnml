@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_mtro_Germany_DB_ET171) {
         introduction_date: date(1942,1,1);
         model_life: 50;
         vehicle_life: 60;
-        loading_speed: 60;
+        LOADINGSPEEDDEF_METRO
         cost_factor: 34;
         running_cost_factor: 30;
         speed: 80 km/h;
@@ -51,7 +51,7 @@ item(FEAT_TRAINS, item_mtro_Germany_DB_ET171) {
 		switch_mtro_Germany_DB_ET171_reversed;
 	}	
 	livery_override (item_mtro_wagon_unpowered){
-		loading_speed: 60;
+		LOADINGSPEEDDEF_METRO
 		running_cost_factor: 15;
 		power: 0;
 		weight: 22;
@@ -60,7 +60,7 @@ item(FEAT_TRAINS, item_mtro_Germany_DB_ET171) {
 		default: spriteset_mtro_Germany_DB_ET171_middle;
 	}
 	livery_override (item_mtro_wagon_powered){
-		loading_speed: 60;
+		LOADINGSPEEDDEF_METRO
 		running_cost_factor: 23;
 		power: 260;
 		weight: 33;

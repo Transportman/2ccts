@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_steam_UK_Caledonian_Railway_439) {
         introduction_date: date(1899,1,1);
         model_life: 25;
         vehicle_life: 40;
-        loading_speed: 1;
+        LOADINGSPEEDDEF_NONE
         cost_factor: 29;
         running_cost_factor: 24;
         speed: 80 km/h;

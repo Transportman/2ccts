@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_mtro_Argentina_Le_Brugeoise) {
         introduction_date: date(1911,1,1);
         model_life: 40;
         vehicle_life: 60;
-        loading_speed: 60;
+        LOADINGSPEEDDEF_METRO
         cost_factor: 27;
         running_cost_factor: 22;
         speed: 50 km/h;
@@ -51,7 +51,7 @@ item(FEAT_TRAINS, item_mtro_Argentina_Le_Brugeoise) {
 		switch_mtro_Argentina_Le_Brugeoise_reversed;
 	}	
 	livery_override (item_mtro_wagon_unpowered){
-		loading_speed: 60;
+		LOADINGSPEEDDEF_METRO
 		running_cost_factor: 11;
 		power: 0;
 		weight: 25;
@@ -60,7 +60,7 @@ item(FEAT_TRAINS, item_mtro_Argentina_Le_Brugeoise) {
 		default: spriteset_mtro_Argentina_Le_Brugeoise_middle;
 	}
 	livery_override (item_mtro_wagon_powered){
-		loading_speed: 60;
+		LOADINGSPEEDDEF_METRO
 		running_cost_factor: 17;
 		power: 115;
 		weight: 38;

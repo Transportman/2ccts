@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_emu_Sweden_SJ_X2000) {
         introduction_date: date(1990,1,1);
         model_life: 30;
         vehicle_life: 25;
-        loading_speed: 8;
+        LOADINGSPEEDDEF_INTERCITY
         cost_factor: 76;
         running_cost_factor: 72;
         speed: 210 km/h;
@@ -52,7 +52,7 @@ item(FEAT_TRAINS, item_emu_Sweden_SJ_X2000) {
 		switch_emu_Sweden_SJ_X2000_reversed;
 	}	
 	livery_override (item_mu_wagon_unpowered){
-		loading_speed: 8;
+		LOADINGSPEEDDEF_INTERCITY
 		running_cost_factor: 36;
 		power: 0;
 		weight: 25;
@@ -61,7 +61,7 @@ item(FEAT_TRAINS, item_emu_Sweden_SJ_X2000) {
 		default: switch_emu_Sweden_SJ_X2000_cargo_selection;
 	}
 	livery_override (item_mu_wagon_powered){
-		loading_speed: 8;
+		LOADINGSPEEDDEF_INTERCITY
 		running_cost_factor: 54;
 		power: 2200;
 		weight: 38;

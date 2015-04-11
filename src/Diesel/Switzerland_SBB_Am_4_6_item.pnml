@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_diesel_Switzerland_SBB_Am_4_6) {
         introduction_date: date(1938,1,1);
         model_life: 25;
         vehicle_life: 40;
-        loading_speed: 1;
+        LOADINGSPEEDDEF_NONE
         cost_factor: 17;
         running_cost_factor: 15;
         speed: 110 km/h;

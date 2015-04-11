@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_dmu_Germany_DB_601_VT11_TEE) {
         introduction_date: date(1957,1,1);
         model_life: 25;
         vehicle_life: 25;
-        loading_speed: 8;
+        LOADINGSPEEDDEF_INTERCITY
         cost_factor: 26;
         running_cost_factor: 24;
         speed: 160 km/h;
@@ -53,7 +53,7 @@ item(FEAT_TRAINS, item_dmu_Germany_DB_601_VT11_TEE) {
 		switch_dmu_Germany_DB_601_VT11_TEE_reversed;
 	}	
 	livery_override (item_mu_wagon_unpowered){
-		loading_speed: 8;
+		LOADINGSPEEDDEF_INTERCITY
 		running_cost_factor: 12;
 		power: 0;
 		weight: 17;
@@ -62,7 +62,7 @@ item(FEAT_TRAINS, item_dmu_Germany_DB_601_VT11_TEE) {
 		default: switch_dmu_Germany_DB_601_VT11_TEE_cargo_selection;
 	}
 	livery_override (item_mu_wagon_powered){
-		loading_speed: 8;
+		LOADINGSPEEDDEF_INTERCITY
 		running_cost_factor: 18;
 		power: 155;
 		weight: 25;

@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_electric_Portugal_CP_2500) {
         introduction_date: date(1956,1,1);
         model_life: 25;
         vehicle_life: 40;
-        loading_speed: 1;
+        LOADINGSPEEDDEF_NONE
         cost_factor: 61;
         running_cost_factor: 54;
         speed: 120 km/h;

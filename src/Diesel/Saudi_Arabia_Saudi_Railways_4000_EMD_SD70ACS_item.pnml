@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_diesel_Saudi_Arabia_Saudi_Railways_4000_EMD_SD70ACS) {
         introduction_date: date(1992,1,1);
         model_life: 25;
         vehicle_life: 40;
-        loading_speed: 1;
+        LOADINGSPEEDDEF_NONE
         cost_factor: 85;
         running_cost_factor: 69;
         speed: 110 km/h;

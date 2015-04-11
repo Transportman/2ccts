@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_dmu_Sri_Lanka_Sri_Lanka_Railways_S11) {
         introduction_date: date(2011,1,1);
         model_life: VEHICLE_NEVER_EXPIRES;
         vehicle_life: 20;
-        loading_speed: 20;
+        LOADINGSPEEDDEF_COMMUTER
         cost_factor: 33;
         running_cost_factor: 32;
         speed: 110 km/h;
@@ -53,7 +53,7 @@ item(FEAT_TRAINS, item_dmu_Sri_Lanka_Sri_Lanka_Railways_S11) {
 		switch_dmu_Sri_Lanka_Sri_Lanka_Railways_S11_reversed;
 	}	
 	livery_override (item_mu_wagon_unpowered){
-		loading_speed: 20;
+		LOADINGSPEEDDEF_COMMUTER
 		running_cost_factor: 16;
 		power: 0;
 		weight: 10;
@@ -62,7 +62,7 @@ item(FEAT_TRAINS, item_dmu_Sri_Lanka_Sri_Lanka_Railways_S11) {
 		default: switch_dmu_Sri_Lanka_Sri_Lanka_Railways_S11_cargo_selection;
 	}
 	livery_override (item_mu_wagon_powered){
-		loading_speed: 20;
+		LOADINGSPEEDDEF_COMMUTER
 		running_cost_factor: 24;
 		power: 340;
 		weight: 15;

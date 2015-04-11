@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_emu_Japan_Odakyu_3100_Series_Romance) {
         introduction_date: date(1962,1,1);
         model_life: 25;
         vehicle_life: 25;
-        loading_speed: 20;
+        LOADINGSPEEDDEF_COMMUTER
         cost_factor: 24;
         running_cost_factor: 20;
         speed: 110 km/h;
@@ -52,7 +52,7 @@ item(FEAT_TRAINS, item_emu_Japan_Odakyu_3100_Series_Romance) {
 		switch_emu_Japan_Odakyu_3100_Series_Romance_reversed;
 	}	
 	livery_override (item_mu_wagon_unpowered){
-		loading_speed: 20;
+		LOADINGSPEEDDEF_COMMUTER
 		running_cost_factor: 10;
 		power: 0;
 		weight: 24;
@@ -62,7 +62,7 @@ item(FEAT_TRAINS, item_emu_Japan_Odakyu_3100_Series_Romance) {
 		default: switch_emu_Japan_Odakyu_3100_Series_Romance_cargo_selection;
 	}
 	livery_override (item_mu_wagon_powered){
-		loading_speed: 20;
+		LOADINGSPEEDDEF_COMMUTER
 		running_cost_factor: 15;
 		power: 115;
 		weight: 35;

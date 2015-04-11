@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_emu_Australia_Victorian_Railways_Swing_Door) {
         introduction_date: date(1917,1,1);
         model_life: 25;
         vehicle_life: 25;
-        loading_speed: 20;
+        LOADINGSPEEDDEF_COMMUTER
         cost_factor: 26;
         running_cost_factor: 21;
         speed: 83 km/h;
@@ -53,7 +53,7 @@ item(FEAT_TRAINS, item_emu_Australia_Victorian_Railways_Swing_Door) {
 		switch_emu_Australia_Victorian_Railways_Swing_Door_reversed;
 	}	
 	livery_override (item_mu_wagon_unpowered){
-		loading_speed: 20;
+		LOADINGSPEEDDEF_COMMUTER
 		running_cost_factor: 11;
 		power: 0;
 		weight: 28;
@@ -62,7 +62,7 @@ item(FEAT_TRAINS, item_emu_Australia_Victorian_Railways_Swing_Door) {
 		default: switch_emu_Australia_Victorian_Railways_Swing_Door_cargo_selection;
 	}
 	livery_override (item_mu_wagon_powered){
-		loading_speed: 20;
+		LOADINGSPEEDDEF_COMMUTER
 		running_cost_factor: 16;
 		power: 140;
 		weight: 41;

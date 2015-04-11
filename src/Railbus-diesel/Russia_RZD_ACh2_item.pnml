@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_rbd_Russia_RZD_ACh2) {
         introduction_date: date(1984,1,1);
         model_life: 35;
         vehicle_life: 15;
-        loading_speed: 20;
+        LOADINGSPEEDDEF_COMMUTER
         cost_factor: 42;
         running_cost_factor: 37;
         speed: 120 km/h;

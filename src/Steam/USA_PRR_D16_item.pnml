@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_steam_USA_PRR_D16) {
         introduction_date: date(1895,1,1);
         model_life: 25;
         vehicle_life: 40;
-        loading_speed: 1;
+        LOADINGSPEEDDEF_NONE
         cost_factor: 32;
         running_cost_factor: 26;
         speed: 128 km/h;

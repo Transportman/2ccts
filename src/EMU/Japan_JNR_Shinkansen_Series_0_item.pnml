@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_emu_Japan_JNR_Shinkansen_Series_0) {
         introduction_date: date(1964,1,1);
         model_life: 47;
         vehicle_life: 44;
-        loading_speed: 8;
+        LOADINGSPEEDDEF_INTERCITY
         cost_factor: 42;
         running_cost_factor: 38;
         speed: 210 km/h;
@@ -52,7 +52,7 @@ item(FEAT_TRAINS, item_emu_Japan_JNR_Shinkansen_Series_0) {
 		switch_emu_Japan_JNR_Shinkansen_Series_0_reversed;
 	}	
 	livery_override (item_mu_wagon_unpowered){
-		loading_speed: 8;
+		LOADINGSPEEDDEF_INTERCITY
 		running_cost_factor: 19;
 		power: 0;
 		weight: 27;
@@ -62,7 +62,7 @@ item(FEAT_TRAINS, item_emu_Japan_JNR_Shinkansen_Series_0) {
 		default: switch_emu_Japan_JNR_Shinkansen_Series_0_cargo_selection;
 	}
 	livery_override (item_mu_wagon_powered){
-		loading_speed: 8;
+		LOADINGSPEEDDEF_INTERCITY
 		running_cost_factor: 29;
 		power: 500;
 		weight: 41;

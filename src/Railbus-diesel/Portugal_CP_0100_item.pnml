@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_rbd_Portugal_CP_0100) {
         introduction_date: date(1948,1,1);
         model_life: 35;
         vehicle_life: 15;
-        loading_speed: 20;
+        LOADINGSPEEDDEF_COMMUTER
         cost_factor: 24;
         running_cost_factor: 21;
         speed: 112 km/h;

@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_mtro_Hungary_Budapest_Ev3_200) {
         introduction_date: date(1960,1,1);
         model_life: 50;
         vehicle_life: 60;
-        loading_speed: 60;
+        LOADINGSPEEDDEF_METRO
         cost_factor: 34;
         running_cost_factor: 30;
         speed: 100 km/h;
@@ -51,7 +51,7 @@ item(FEAT_TRAINS, item_mtro_Hungary_Budapest_Ev3_200) {
 		switch_mtro_Hungary_Budapest_Ev3_200_reversed;
 	}	
 	livery_override (item_mtro_wagon_unpowered){
-		loading_speed: 60;
+		LOADINGSPEEDDEF_METRO
 		running_cost_factor: 10;
 		power: 0;
 		weight: 15;
@@ -60,7 +60,7 @@ item(FEAT_TRAINS, item_mtro_Hungary_Budapest_Ev3_200) {
 		default: spriteset_mtro_Hungary_Budapest_Ev3_200_middle;
 	}
 	livery_override (item_mtro_wagon_powered){
-		loading_speed: 60;
+		LOADINGSPEEDDEF_METRO
 		running_cost_factor: 23;
 		power: 250;
 		weight: 34;

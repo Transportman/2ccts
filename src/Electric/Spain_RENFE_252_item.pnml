@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_electric_Spain_RENFE_252) {
         introduction_date: date(1992,1,1);
         model_life: 25;
         vehicle_life: 40;
-        loading_speed: 1;
+        LOADINGSPEEDDEF_NONE
         cost_factor: 98;
         running_cost_factor: 90;
         speed: 220 km/h;

@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_emu_Italy_ATAC_ECD_21_30) {
         introduction_date: date(1932,1,1);
         model_life: 25;
         vehicle_life: 25;
-        loading_speed: 20;
+        LOADINGSPEEDDEF_COMMUTER
         cost_factor: 32;
         running_cost_factor: 29;
         speed: 72 km/h;
@@ -53,7 +53,7 @@ item(FEAT_TRAINS, item_emu_Italy_ATAC_ECD_21_30) {
 		switch_emu_Italy_ATAC_ECD_21_30_reversed;
 	}	
 	livery_override (item_mu_wagon_unpowered){
-		loading_speed: 20;
+		LOADINGSPEEDDEF_COMMUTER
 		running_cost_factor: 15;
 		power: 0;
 		weight: 16;
@@ -62,7 +62,7 @@ item(FEAT_TRAINS, item_emu_Italy_ATAC_ECD_21_30) {
 		default: switch_emu_Italy_ATAC_ECD_21_30_cargo_selection;
 	}
 	livery_override (item_mu_wagon_powered){
-		loading_speed: 20;
+		LOADINGSPEEDDEF_COMMUTER
 		running_cost_factor: 23;
 		power: 325;
 		weight: 23;

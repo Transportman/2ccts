@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_dmu_Japan_JNR_KiHa_181) {
         introduction_date: date(1968,1,1);
         model_life: 15;
         vehicle_life: 20;
-        loading_speed: 20;
+        LOADINGSPEEDDEF_COMMUTER
         cost_factor: 31;
         running_cost_factor: 28;
         speed: 120 km/h;
@@ -53,7 +53,7 @@ item(FEAT_TRAINS, item_dmu_Japan_JNR_KiHa_181) {
 		switch_dmu_Japan_JNR_KiHa_181_reversed;
 	}	
 	livery_override (item_mu_wagon_unpowered){
-		loading_speed: 20;
+		LOADINGSPEEDDEF_COMMUTER
 		running_cost_factor: 14;
 		power: 0;
 		weight: 22;
@@ -62,7 +62,7 @@ item(FEAT_TRAINS, item_dmu_Japan_JNR_KiHa_181) {
 		default: switch_dmu_Japan_JNR_KiHa_181_cargo_selection;
 	}
 	livery_override (item_mu_wagon_powered){
-		loading_speed: 20;
+		LOADINGSPEEDDEF_COMMUTER
 		running_cost_factor: 21;
 		power: 250;
 		weight: 33;

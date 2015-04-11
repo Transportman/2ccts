@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_steam_Belgium_NMBS_Type_7) {
         introduction_date: date(1921,1,1);
         model_life: 25;
         vehicle_life: 40;
-        loading_speed: 1;
+        LOADINGSPEEDDEF_NONE
         cost_factor: 59;
         running_cost_factor: 46;
         speed: 110 km/h;

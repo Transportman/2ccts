@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_mglv_Japan_MLX01_901) {
         introduction_date: date(2025,1,1);
         model_life: VEHICLE_NEVER_EXPIRES;
         vehicle_life: 25;
-        loading_speed: 8;
+        LOADINGSPEEDDEF_INTERCITY
         cost_factor: 200;
         running_cost_factor: 200;
         speed: 603 km/h;
@@ -52,7 +52,7 @@ item(FEAT_TRAINS, item_mglv_Japan_MLX01_901) {
 		switch_mglv_Japan_MLX01_901_reversed;
 	}
 	livery_override (item_mglv_wagon_unpowered){
-		loading_speed: 8;
+		LOADINGSPEEDDEF_INTERCITY
 		running_cost_factor: 100;
 		power: 0;
 		cargo_capacity: switch_mglv_Japan_MLX01_901_capacity;
@@ -60,7 +60,7 @@ item(FEAT_TRAINS, item_mglv_Japan_MLX01_901) {
 		default: switch_mglv_Japan_MLX01_901_cargo_selection; 
 	}
 	livery_override (item_mglv_wagon_powered){
-		loading_speed: 8;
+		LOADINGSPEEDDEF_INTERCITY
 		running_cost_factor: 150;
 		power: 1521;
 		cargo_capacity: switch_mglv_Japan_MLX01_901_capacity;

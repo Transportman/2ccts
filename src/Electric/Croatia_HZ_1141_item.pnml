@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_electric_Croatia_HZ_1141) {
         introduction_date: date(1967,1,1);
         model_life: 25;
         vehicle_life: 40;
-        loading_speed: 1;
+        LOADINGSPEEDDEF_NONE
         cost_factor: 77;
         running_cost_factor: 70;
         speed: 120 km/h;

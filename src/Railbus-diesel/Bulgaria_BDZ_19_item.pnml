@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_rbd_Bulgaria_BDZ_19) {
         introduction_date: date(1960,1,1);
         model_life: 35;
         vehicle_life: 15;
-        loading_speed: 20;
+        LOADINGSPEEDDEF_COMMUTER
         cost_factor: 32;
         running_cost_factor: 28;
         speed: 125 km/h;

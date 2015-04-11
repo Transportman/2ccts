@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_emu_Netherlands_NS_mDDm_390) {
         introduction_date: date(1997,1,1);
         model_life: VEHICLE_NEVER_EXPIRES;
         vehicle_life: 25;
-        loading_speed: 20;
+        LOADINGSPEEDDEF_COMMUTER
         cost_factor: 70;
         running_cost_factor: 64;
         speed: 160 km/h;
@@ -53,7 +53,7 @@ item(FEAT_TRAINS, item_emu_Netherlands_NS_mDDm_390) {
 		switch_emu_Netherlands_NS_mDDm_390_reversed;
 	}	
 	livery_override (item_mu_wagon_unpowered){
-		loading_speed: 20;
+		LOADINGSPEEDDEF_COMMUTER
 		running_cost_factor: 32;
 		power: 0;
 		weight: 38;
@@ -62,7 +62,7 @@ item(FEAT_TRAINS, item_emu_Netherlands_NS_mDDm_390) {
 		default: switch_emu_Netherlands_NS_mDDm_390_cargo_selection;
 	}
 	livery_override (item_mu_wagon_powered){
-		loading_speed: 20;
+		LOADINGSPEEDDEF_COMMUTER
 		running_cost_factor: 48;
 		power: 1610;
 		weight: 57;

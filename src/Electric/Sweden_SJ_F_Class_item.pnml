@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_electric_Sweden_SJ_F_Class) {
         introduction_date: date(1942,1,1);
         model_life: 25;
         vehicle_life: 40;
-        loading_speed: 1;
+        LOADINGSPEEDDEF_NONE
         cost_factor: 70;
         running_cost_factor: 60;
         speed: 135 km/h;

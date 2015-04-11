@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_mtro_Sweden_Stockholm_C8) {
         introduction_date: date(1974,1,1);
         model_life: 50;
         vehicle_life: 60;
-        loading_speed: 60;
+        LOADINGSPEEDDEF_METRO
         cost_factor: 31;
         running_cost_factor: 29;
         speed: 90 km/h;
@@ -51,7 +51,7 @@ item(FEAT_TRAINS, item_mtro_Sweden_Stockholm_C8) {
 		switch_mtro_Sweden_Stockholm_C8_reversed;
 	}	
 	livery_override (item_mtro_wagon_unpowered){
-		loading_speed: 60;
+		LOADINGSPEEDDEF_METRO
 		running_cost_factor: 15;
 		power: 0;
 		weight: 12;
@@ -60,7 +60,7 @@ item(FEAT_TRAINS, item_mtro_Sweden_Stockholm_C8) {
 		default: spriteset_mtro_Sweden_Stockholm_C8_middle;
 	}
 	livery_override (item_mtro_wagon_powered){
-		loading_speed: 60;
+		LOADINGSPEEDDEF_METRO
 		running_cost_factor: 22;
 		power: 235;
 		weight: 17;
