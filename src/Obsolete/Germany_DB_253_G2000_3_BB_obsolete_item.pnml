@@ -10,10 +10,10 @@
 * ITEM
 */
 
-item(FEAT_TRAINS, item_diesel_Germany_DB_253_G2000_3_BB) {
+item(FEAT_TRAINS, item_diesel_Germany_DB_253_G2000_3_BB_obsolete) {
     property {
-        name: string(str_diesel_Germany_DB_253_G2000_3_BB);
-        REGION(WESTERNEUROPE,NOREGION,NOCONCEPT)
+        name: string(str_diesel_Germany_DB_253_G2000_3_BB_obsolete);
+        REGION(NOREGION,NOREGION,NOCONCEPT)
 		
         introduction_date: date(2003,1,1);
         model_life: VEHICLE_NEVER_EXPIRES;
@@ -46,8 +46,8 @@ item(FEAT_TRAINS, item_diesel_Germany_DB_253_G2000_3_BB) {
         bitmask_vehicle_info: 0;
 	}
 	graphics {
-		purchase: spriteset_diesel_Germany_DB_253_G2000_3_BB_purchase;
+		purchase: spriteset_diesel_Germany_DB_253_G2000_3_BB_obsolete_purchase;
 		can_attach_wagon: switch_can_attach_vehicle;
-		spriteset_diesel_Germany_DB_253_G2000_3_BB;
+		spriteset_diesel_Germany_DB_253_G2000_3_BB_obsolete;
 	}
 }

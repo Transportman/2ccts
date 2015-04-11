@@ -446,8 +446,6 @@
 #include "src/Diesel/UK_BR_67_item.pnml"
 #include "src/Diesel/Iran_RAI_DE43CA_Prima_graphics.pnml"
 #include "src/Diesel/Iran_RAI_DE43CA_Prima_item.pnml"
-#include "src/Diesel/Germany_DB_253_G2000_3_BB_graphics.pnml"
-#include "src/Diesel/Germany_DB_253_G2000_3_BB_item.pnml"
 #include "src/Diesel/Ukraine_UZ_TEP150_graphics.pnml"
 #include "src/Diesel/Ukraine_UZ_TEP150_item.pnml"
 #include "src/Diesel/China_China_Railways_HXN5_graphics.pnml"
@@ -1248,6 +1246,8 @@
 //obsolete vehicles
 #include "src/Obsolete/Turkey_TCDD_E55200_obsolete_graphics.pnml"
 #include "src/Obsolete/Turkey_TCDD_E55200_obsolete_item.pnml"
+#include "src/Obsolete/Germany_DB_253_G2000_3_BB_obsolete_graphics.pnml"
+#include "src/Obsolete/Germany_DB_253_G2000_3_BB_obsolete_item.pnml"
 
 //sort vehicles in purchase list
 #include "src/vehiclesort.pnml"

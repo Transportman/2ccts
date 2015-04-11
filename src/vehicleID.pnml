@@ -221,7 +221,7 @@ item(FEAT_TRAINS, item_diesel_Belgium_NMBS_SNCB_7800, 5053) {}
 item(FEAT_TRAINS, item_diesel_UK_BR_66, 5054) {}
 item(FEAT_TRAINS, item_diesel_UK_BR_67, 5055) {}
 item(FEAT_TRAINS, item_diesel_Iran_RAI_DE43CA_Prima, 5056) {}
-item(FEAT_TRAINS, item_diesel_Germany_DB_253_G2000_3_BB, 5057) {}
+item(FEAT_TRAINS, item_diesel_Germany_DB_253_G2000_3_BB_obsolete, 5057) {}
 item(FEAT_TRAINS, item_diesel_China_MTR_8000, 5058) {}
 item(FEAT_TRAINS, item_diesel_Ukraine_UZ_TEP150, 5059) {}
 item(FEAT_TRAINS, item_diesel_China_China_Railways_HXN5, 5060) {}

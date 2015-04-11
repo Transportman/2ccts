@@ -10,7 +10,7 @@
 * PURCHASE
 */
 
-spriteset(spriteset_diesel_Germany_DB_253_G2000_3_BB_purchase, "gfx/Diesel/Germany_DB_253_G2000_3_BB.png") {
+spriteset(spriteset_diesel_Germany_DB_253_G2000_3_BB_obsolete_purchase, "gfx/Obsolete/Germany_DB_253_G2000_3_BB_obsolete.png") {
 	template_purchase(1, 64)
 }
 
@@ -19,6 +19,6 @@ spriteset(spriteset_diesel_Germany_DB_253_G2000_3_BB_purchase, "gfx/Diesel/Germa
 */
 
 //Engine
-spriteset(spriteset_diesel_Germany_DB_253_G2000_3_BB, "gfx/Diesel/Germany_DB_253_G2000_3_BB.png") {
+spriteset(spriteset_diesel_Germany_DB_253_G2000_3_BB_obsolete, "gfx/Obsolete/Germany_DB_253_G2000_3_BB_obsolete.png") {
 	template_2cc_engines_general(1, 1)
 }

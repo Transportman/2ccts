@@ -247,7 +247,7 @@ item_diesel_UK_BR_67, /*Year: 1999*/ \
 item_diesel_France_SNCF_461000, /*Year: 2002*/ \
 item_diesel_Iran_RAI_DE43CA_Prima, /*Year: 2002*/ \
 item_diesel_Canada_GO_Transit_MP40PH_3C, /*Year: 2003*/ \
-item_diesel_Germany_DB_253_G2000_3_BB, /*Year: 2003*/ \
+item_diesel_Germany_DB_253_G2000_3_BB_obsolete, /*Year: 2003*/ \
 item_diesel_Italy_ACT_D200, /*Year: 2003*/ \
 item_diesel_China_MTR_8000, /*Year: 2003*/ \
 item_diesel_Spain_RENFE_Class_334, /*Year: 2006*/ \

@@ -253,7 +253,6 @@ str_diesel_Belgium_NMBS_SNCB_7800 						:NMBS/SNCB 7800 (Diesel)
 str_diesel_UK_BR_66 									:BR 66 (Diesel)
 str_diesel_UK_BR_67 									:BR 67 (Diesel)
 str_diesel_Iran_RAI_DE43CA_Prima 						:RAI DE43CA 'Prima' (Diesel)
-str_diesel_Germany_DB_253_G2000_3_BB 					:DB 253 G2000-3 BB (Diesel)
 str_diesel_Ukraine_UZ_TEP150 							:UZ TEP150 (Diesel)
 str_diesel_China_China_Railways_HXN5 					:China Railways HXN5 (Diesel)
 str_diesel_Germany_DB_260_Gravita_10BB 					:DB 260 'Gravita' 10BB (Diesel)
@@ -671,6 +670,7 @@ str_mglv_wagon_powered		:Maglev Unit Wagon (Powered)
 
 #Obsolete vehicles
 str_electric_Turkey_TCDD_E55200_obsolete 				:TCDD E55200 (Obsoleted)
+str_diesel_Germany_DB_253_G2000_3_BB_obsolete			:DB 253 G2000-3 BB (Obsoleted)
 
 #PURCHASE MENU TEXTS
 str_unit_wagon				:This generic wagon can ONLY be used with MUs to create trains of the desired length
