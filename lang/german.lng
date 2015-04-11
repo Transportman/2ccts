@@ -53,7 +53,6 @@ STR_PARAM_REGION_OCEANIA_DESC                   :Benutze die Fahrzeuge aus Ozean
 #Railbus-steam
 str_rbs_Austria_NOLB_1          :NOLB 1 (Dampf-Schienenbus)
 
-
 #Railbus-diesel
 str_rbd_New_Zealand_NZR_RM31                                    :NZR RM31 (Diesel-Schienenbus)
 str_rbd_Germany_DB_VT98                                                 :DB VT98 (Diesel-Schienenbus)
@@ -93,7 +92,6 @@ str_diesel_Argentina_MF_GM_EMD_J16CW_AC                                 :MF GM-E
 str_diesel_Egypt_ENR_G22W                                                               :ENR G22W (Diesel)
 str_diesel_USA_UP_EMD_DDA40X                                                    :UP EMD DDA40X (Diesel)
 str_diesel_Belgium_NMBS_SNCB_7800                                               :NMBS/SNCB 7800 (Diesel)
-str_diesel_Germany_DB_253_G2000_3_BB                                    :DB 253 G2000-3 BB (Diesel)
 str_diesel_China_MTR_8000                                                               :MTR 8000 (Diesel)
 
 #Electric

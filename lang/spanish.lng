@@ -55,7 +55,6 @@ str_rbs_Austria_NOLB_1          :NOLB 1 (Railbus a vapor)
 str_rbs_Italy_FS_86                     :FS 86 (Railbus a vapor)
 str_rbs_Switzerland_UeBB_Czm_1_2 :UeBB Czm 1/2 (Railbus a vapor)
 
-
 #Railbus-diesel
 str_rbd_Australia_Victorian_Railways_AEC_RM1    :Victorian Railways AEC RM1 (Railbus diésel)
 str_rbd_Germany_DB_VT133                                                :DB VT133 (Railbus diésel)
@@ -77,6 +76,7 @@ str_rbd_Germany_DB_650_Regio_Shuttle                    :DB 650 'Regio Shuttle' 
 str_rbd_Germany_DB_670                                                  :DB 670 (Railbus diésel)
 str_rbd_Lithuania_Lithuanian_Railways_AR2               :Lithuanian Railways AR2 (Railbus diésel)
 str_rbd_Germany_BSt_6001 :BSt 6001 (Railbus diésel)
+str_rbd_Netherlands_NS_omBC :NS omBC 2900 (Railbus diésel)
 str_rbd_Greece_OSE_AA71 :OSE AA.71 (Railbus diésel)
 str_rbd_Tunisia_SNCFT_Z431 :SNCFT Z431 (Railbus diésel)
 
@@ -127,6 +127,7 @@ str_steam_Italy_FS_895                          :FS 895 (Vapor)
 str_steam_Poland_PKP_Okz32                      :PKP Okz32 (Vapor)
 str_steam_Switzerland_SBB_C_5_6         :SBB C 5/6 (Vapor)
 str_steam_USA_UP_4000_Big_Boy           :UP 4000 'Big Boy' (Vapor)
+str_steam_Switzerland_RhB_G_3_4 :RhB G 3/4 (Vapor)
 str_steam_Germany_Prussian_S_3 :Prussian S.3 (Vapor)
 str_steam_Angola_South_West_African_2_8_0 :South West African 2-8-0 (Vapor)
 
@@ -188,7 +189,6 @@ str_diesel_Belgium_NMBS_SNCB_7800                                               
 str_diesel_UK_BR_66                                                                     :BR 66 (Diésel)
 str_diesel_UK_BR_67                                                                     :BR 67 (Diésel)
 str_diesel_Iran_RAI_DE43CA_Prima                                                :RAI DE43CA 'Prima' (Diésel)
-str_diesel_Germany_DB_253_G2000_3_BB                                    :DB 253 G2000-3 BB (Diésel)
 str_diesel_Ukraine_UZ_TEP150                                                    :UZ TEP150 (Diésel)
 str_diesel_China_China_Railways_HXN5                                    :China Railways HXN5 (Diésel)
 str_diesel_Germany_DB_260_Gravita_10BB                                  :DB 260 'Gravita' 10BB (Diésel)
@@ -316,7 +316,7 @@ str_emu_Switzerland_SBB_RBDe_560                        :SBB RBDe 560 (EMU)
 str_emu_Japan_Odakyu_10000_Series_Romance       :Odakyu 10000 Series 'Romance' (EMU)
 str_emu_Hungary_MAV_BDVmot                                      :MAV BDVmot (EMU)
 str_emu_Sweden_SJ_X2000                                         :SJ X2000 (EMU)
-str_emu_Italy_FS_ETR500                                         :FS ETR500 (EMU)
+str_emu_Italy_FS_ETR500                                         :FS ETR.500 'Frecciarossa' (EMU)
 str_emu_Netherlands_NS_DD_IRM_VIRM                      :NS DD-IRM 'VIRM' (EMU)
 str_emu_France_SNCF_TGV_Duplex                          :SNCF TGV Duplex (EMU)
 str_emu_Denmark_DSB_S_Tog_IV                            :DSB S-Tog IV (EMU)
@@ -378,6 +378,7 @@ str_mtro_Japan_Osaka_30000                                              :Osaka 3
 str_mtro_Singapore_Singapore_C151A                              :Singapore C151A (Metro)
 str_mtro_USA_Washington_7000                                    :Washington 7000 (Metro)
 str_mtro_Greece_Thessaloniki_2014                               :Thessaloniki 2014 (Metro)
+str_mtro_Germany_Berlin_U_Bahn_A_I :Berlin U-Bahn A I (Metro)
 str_mtro_USA_NY_Hedley_Hi_V :New York Hedley Hi-V (Metro)
 
 #Maglev

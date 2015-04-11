@@ -58,7 +58,6 @@ str_rbs_Italy_FS_86                     :FS Gruppo 86 (automotrice a vapore)
 str_rbs_Germany_Bavarian_MCCi :MCCi delle Ferrovie Bavaresi (automotrice a vapore)
 str_rbs_Australia_Victorian_Railways_Motor_Car_3 :Ferrovie Vittoriane Carrozza Motorizzata No.3 (automotrice a vapore)
 
-
 #Railbus-diesel
 str_rbd_Australia_Victorian_Railways_AEC_RM1    :Ferrovie Vittoriane AEC RM1 (automotrice diesel)
 str_rbd_Germany_DB_VT133                                                :DB VT133 (automotrice diesel)
@@ -215,7 +214,6 @@ str_diesel_Belgium_NMBS_SNCB_7800                                               
 str_diesel_UK_BR_66                                                                     :BR 66 (locomotiva diesel)
 str_diesel_UK_BR_67                                                                     :BR 67 (locomotiva diesel)
 str_diesel_Iran_RAI_DE43CA_Prima                                                :RAI DE43CA 'Prima' (locomotiva diesel)
-str_diesel_Germany_DB_253_G2000_3_BB                                    :DB 253 G2000-3 BB (locomotiva diesel)
 str_diesel_Ukraine_UZ_TEP150                                                    :UZ TEP150 (locomotiva diesel)
 str_diesel_China_China_Railways_HXN5                                    :Ferrovie Cinesi HXN5 (locomotiva diesel)
 str_diesel_Germany_DB_260_Gravita_10BB                                  :DB 260 Gravita 10BB (locomotiva diesel)

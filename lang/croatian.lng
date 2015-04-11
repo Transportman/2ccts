@@ -61,7 +61,6 @@ str_rbs_Germany_Bavarian_MCCi :Bavarian MCCi (parni šinobus)
 str_rbs_South_Africa_CSAR_Railmotor :CSAR Railmotor (parni šinobus)
 str_rbs_Australia_Victorian_Railways_Motor_Car_3 :Victorian Railways Motor Car 3 (parni šinobus)
 
-
 #Railbus-diesel
 str_rbd_Australia_Victorian_Railways_AEC_RM1    :Victorian Railways AEC RM1 (dizel šinobus)
 str_rbd_Germany_DB_VT133                                                :DB VT133 (dizel šinobus)
@@ -256,7 +255,6 @@ str_diesel_Belgium_NMBS_SNCB_7800                                               
 str_diesel_UK_BR_66                                                                     :BR 66 (dizel lokomotiva)
 str_diesel_UK_BR_67                                                                     :BR 67 (dizel lokomotiva)
 str_diesel_Iran_RAI_DE43CA_Prima                                                :RAI DE43CA 'Prima' (dizel lokomotiva)
-str_diesel_Germany_DB_253_G2000_3_BB                                    :DB 253 G2000-3 BB (dizel lokomotiva)
 str_diesel_Ukraine_UZ_TEP150                                                    :UZ TEP150 (dizel lokomotiva)
 str_diesel_China_China_Railways_HXN5                                    :China Railways HXN5 (dizel lokomotiva)
 str_diesel_Germany_DB_260_Gravita_10BB                                  :DB 260 'Gravita' 10BB (dizel lokomotiva)

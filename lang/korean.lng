@@ -36,7 +36,6 @@ STR_PARAM_REGION_OCEANIA                                :오세아니아
 str_rbs_Austria_NOLB_1          :NOLB 1 (증기 레일버스)
 str_rbs_Italy_FS_86                     :FS 86 (증기 레일버스)
 
-
 #Railbus-diesel
 str_rbd_Australia_Victorian_Railways_AEC_RM1    :Victorian Railways AEC RM1 (디젤 레일버스)
 str_rbd_Germany_DB_VT133                                                :DB VT133 (디젤 레일버스)
@@ -144,7 +143,6 @@ str_diesel_Belgium_NMBS_SNCB_7800                                               
 str_diesel_UK_BR_66                                                                     :BR 66 (디젤)
 str_diesel_UK_BR_67                                                                     :BR 67 (디젤)
 str_diesel_Iran_RAI_DE43CA_Prima                                                :RAI DE43CA 'Prima' (디젤)
-str_diesel_Germany_DB_253_G2000_3_BB                                    :DB 253 G2000-3 BB (디젤)
 str_diesel_Ukraine_UZ_TEP150                                                    :UZ TEP150 (디젤)
 str_diesel_China_China_Railways_HXN5                                    :중국 철도공사 HXN5 (디젤)
 str_diesel_Germany_DB_260_Gravita_10BB                                  :DB 260 Gravita 10BB (디젤)
