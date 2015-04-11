@@ -19,8 +19,8 @@ item(FEAT_TRAINS, item_diesel_Switzerland_SBB_Am_4_6) {
         model_life: 25;
         vehicle_life: 40;
         LOADINGSPEEDDEF_NONE
-        cost_factor: 17;
-        running_cost_factor: 15;
+        cost_factor: 56;
+        running_cost_factor: 48;
         speed: 110 km/h;
         power: 2170 hp;
         cargo_capacity: 0;
