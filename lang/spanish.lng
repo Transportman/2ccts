@@ -133,6 +133,7 @@ str_steam_Netherlands_NRS_11 :NRS 11 (Vapor)
 str_steam_Switzerland_RhB_G_3_4 :RhB G 3/4 (Vapor)
 str_steam_Germany_Prussian_S_3 :Prussian S.3 (Vapor)
 str_steam_Angola_South_West_African_2_8_0 :South West African 2-8-0 (Vapor)
+str_steam_Belgium_NMBS_Type_7 :NMBS Tipo 7 (Vapor)
 
 #Diesel
 str_diesel_Germany_DB_310_Kof_II                                                :DB 310 Kof II (Diésel)
@@ -200,12 +201,15 @@ str_diesel_China_MTR_8000                                                       
 str_diesel_Germany_HVLE_V490                                                    :HVLE V490 (Diésel)
 str_diesel_Russia_RZD_Emch_3            :RZD Emch-3 (Diésel)
 str_diesel_USA_NYC_Baldwin_VO_660 :NYC Baldwin VO-660 (Diésel)
+str_diesel_Algeria_SNTF_Baldwin_DRS6_4_1000 :SNTF Baldwin DRS6-4-1000 (Diésel)
 str_diesel_Ireland_CIE_001 :CIE 001 (Diésel)
+str_diesel_Japan_JNR_DF50 :JNR DF50 (Diésel)
 str_diesel_South_Korea_Korail_6000_EMD_SD18 :Korail 6000 EMD SD18 (Diésel)
 str_diesel_Italy_FS_D345 :FS D.345 (Diésel)
 str_diesel_Australia_Pacific_National_G_Class :Pacific National G (Diésel)
 str_diesel_Australia_Westrail_P_Class :Westrail P (Diésel)
 str_diesel_France_SNCF_461000 :SNCF BB 461000 (Diésel)
+str_diesel_Spain_RENFE_Class_334 :RENFE 334 (Diésel)
 
 #Electric
 str_electric_Switzerland_RhB_DE_2_2                     :RhB De 2/2 (Eléctrico)
