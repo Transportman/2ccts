@@ -90,6 +90,7 @@ str_rbe_Italy_FS_ALe_840                        :FS ALe 840 (Railbus eléctrico)
 str_rbe_Czech_Republic_CD_M400 :CD M400 (Railbus eléctrico)
 str_rbe_Slovakia_ZSSK_490 :ZSSK 49.0 (Railbus eléctrico)
 str_rbe_Italy_FG_ALe_80 :FG ALe 80 (Railbus eléctrico)
+str_rbe_Switzerland_MVR_Beh_2_4 :MVR Beh 2/4 (Railbus eléctrico)
 str_rbe_Poland_PKP_EN81 :PKP EN81 (Railbus eléctrico)
 
 #Steam
@@ -201,7 +202,9 @@ str_diesel_China_MTR_8000                                                       
 str_diesel_Germany_HVLE_V490                                                    :HVLE V490 (Diésel)
 str_diesel_Russia_RZD_Emch_3            :RZD Emch-3 (Diésel)
 str_diesel_USA_NYC_Baldwin_VO_660 :NYC Baldwin VO-660 (Diésel)
+str_diesel_Australia_Queensland_Railways_DL_Class :Queensland Railways DL (Diésel)
 str_diesel_Algeria_SNTF_Baldwin_DRS6_4_1000 :SNTF Baldwin DRS6-4-1000 (Diésel)
+str_diesel_Australia_South_Australian_Railways_900 :South Australian Railways 900 (Diésel)
 str_diesel_Ireland_CIE_001 :CIE 001 (Diésel)
 str_diesel_Japan_JNR_DF50 :JNR DF50 (Diésel)
 str_diesel_South_Korea_Korail_6000_EMD_SD18 :Korail 6000 EMD SD18 (Diésel)
