@@ -90,6 +90,7 @@ str_rbe_Italy_FS_ALe_840                        :FS ALe 840 (Railbus eléctrico)
 str_rbe_Czech_Republic_CD_M400 :CD M400 (Railbus eléctrico)
 str_rbe_Slovakia_ZSSK_490 :ZSSK 49.0 (Railbus eléctrico)
 str_rbe_Italy_FG_ALe_80 :FG ALe 80 (Railbus eléctrico)
+str_rbe_Austria_OBB_4855 :OBB 4855 (Railbus eléctrico)
 str_rbe_Switzerland_MVR_Beh_2_4 :MVR Beh 2/4 (Railbus eléctrico)
 str_rbe_Poland_PKP_EN81 :PKP EN81 (Railbus eléctrico)
 str_rbe_USA_SEPTA_Silverliner_V :SEPTA Silverliner V (Railbus eléctrico)
@@ -280,6 +281,7 @@ str_electric_France_SNCF_CC_40100                               :SNCF CC 40100 (
 str_electric_India_Indian_Railways_WAP_4                :Indian Railways WAP-4 (Eléctrico)
 str_electric_India_Indian_Railways_WCG_1                :Indian Railways WCG-1 (Eléctrico)
 str_electric_Portugal_CP_2500                                   :CP 2500 (Eléctrico)
+str_electric_Switzerland_RhB_Ge_6_6_Krokodil :RhB Ge 6/6 'Krokodil' (Eléctrico)
 str_electric_UK_NER_EE1 :NER EE1 (Eléctrico)
 str_electric_Belgium_NMBS_Class_255 :NMBS/SNCB 25.5 (Eléctrico)
 str_electric_France_SNCF_BB_25500 :SNCF BB 25500 (Eléctrico)
@@ -532,6 +534,7 @@ str_mglv_wagon_powered          :Vagón Maglev (Motorizado)
 
 #Obsolete vehicles
 str_electric_Turkey_TCDD_E55200_obsolete                                :TCDD E55200 (Obsoleto)
+str_diesel_Germany_DB_253_G2000_3_BB_obsolete                   :DB 253 G2000-3 BB (Obsoleto)
 
 #PURCHASE MENU TEXTS
 str_unit_wagon                          :Este vagón genérico SOLO se puede usar con MUs para crear trenes de la longitud deseada
