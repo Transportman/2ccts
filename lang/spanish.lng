@@ -142,6 +142,7 @@ str_steam_Germany_Prussian_S_3 :Prussian S.3 (Vapor)
 str_steam_Netherlands_NS_8100 :NS 8100 (Vapor)
 str_steam_Angola_South_West_African_2_8_0 :South West African 2-8-0 (Vapor)
 str_steam_Belgium_NMBS_Type_7 :NMBS Tipo 7 (Vapor)
+str_steam_Ireland_DSER_15 :DSER 15 (Vapor)
 
 #Diesel
 str_diesel_Germany_DB_310_Kof_II                                                :DB 310 Kof II (Diésel)
@@ -210,6 +211,7 @@ str_diesel_Germany_HVLE_V490                                                    
 str_diesel_Russia_RZD_Emch_3            :RZD Emch-3 (Diésel)
 str_diesel_Canada_CNR_9000                      :CNR 9000 (Diésel)
 str_diesel_USA_NYC_Baldwin_VO_660 :NYC Baldwin VO-660 (Diésel)
+str_diesel_UK_BR_Class_D3_7 :BR D3/7 (Diésel)
 str_diesel_Australia_Queensland_Railways_DL_Class :Queensland Railways DL (Diésel)
 str_diesel_USA_PRR_FM_H_10_44 :PRR FM H-10-44 (Diésel)
 str_diesel_Algeria_SNTF_Baldwin_DRS6_4_1000 :SNTF Baldwin DRS6-4-1000 (Diésel)
@@ -229,6 +231,7 @@ str_diesel_Saudi_Arabia_Saudi_Railways_4000_EMD_SD70ACS :Saudi Railways 4000 EMD
 str_diesel_France_SNCF_461000 :SNCF BB 461000 (Diésel)
 str_diesel_Canada_GO_Transit_MP40PH_3C :GO Transit MP40PH-3C (Diésel)
 str_diesel_Spain_RENFE_Class_334 :RENFE 334 (Diésel)
+str_diesel_Indonesia_Indonesia_Railways_CC300 :Indonesia Railways CC300 (Diésel)
 
 #Electric
 str_electric_Switzerland_RhB_DE_2_2                     :RhB De 2/2 (Eléctrico)
