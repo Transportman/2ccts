@@ -79,6 +79,7 @@ str_rbd_Germany_BSt_6001 :BSt 6001 (Railbus diésel)
 str_rbd_Australia_Victorian_Railways_DERM :Victorian Railways DERM (Railbus diésel)
 str_rbd_Denmark_DSB_MO :DSB MO (Railbus diésel)
 str_rbd_Netherlands_NS_omBC :NS omBC 2900 (Railbus diésel)
+str_rbd_Portugal_CP_USD_9050 :CP USD 9050 (Railbus diésel)
 str_rbd_Greece_OSE_AA71 :OSE AA.71 (Railbus diésel)
 str_rbd_Tunisia_SNCFT_Z431 :SNCFT Z431 (Railbus diésel)
 
@@ -216,6 +217,7 @@ str_diesel_Australia_Queensland_Railways_DL_Class :Queensland Railways DL (Diés
 str_diesel_USA_PRR_FM_H_10_44 :PRR FM H-10-44 (Diésel)
 str_diesel_Algeria_SNTF_Baldwin_DRS6_4_1000 :SNTF Baldwin DRS6-4-1000 (Diésel)
 str_diesel_Brazil_EFC_3300_Baldwin_AS_616 :EFC 3300 Baldwin AS-616 (Diésel)
+str_diesel_Mexico_CHP_500_FM_H_16_44 :CHP 500 FM H-16-44 (Diésel)
 str_diesel_Australia_South_Australian_Railways_900 :South Australian Railways 900 (Diésel)
 str_diesel_Sri_Lanka_Sri_Lanka_Railways_M2 :Sri Lanka Railways M2 (Diésel)
 str_diesel_Ireland_CIE_001 :CIE 001 (Diésel)
@@ -367,6 +369,7 @@ str_emu_South_Africa_Gautrain_Electrostar       :Gautrain Electrostar (EMU)
 str_emu_Italy_NTV_AGV                                           :NTV AGV (EMU)
 str_emu_Netherlands_NS_4800_HSA                         :NS 4800 HSA (EMU)
 str_emu_Italy_NTV_AGV_Duplex                            :NTV AGV Duplex (EMU)
+str_emu_Poland_PKP_EW90 :PKP EW90 (EMU)
 str_emu_Austria_OBB_4030 :OBB 4030 (EMU)
 
 #Single Unit Metro
