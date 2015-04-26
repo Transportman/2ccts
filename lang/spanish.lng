@@ -211,6 +211,7 @@ str_diesel_China_MTR_8000                                                       
 str_diesel_Germany_HVLE_V490                                                    :HVLE V490 (Diésel)
 str_diesel_Russia_RZD_Emch_3            :RZD Emch-3 (Diésel)
 str_diesel_Canada_CNR_9000                      :CNR 9000 (Diésel)
+str_diesel_UK_LMS_7051_Diesel_Shunter :LMS 7051 Diesel Shunter (Diésel)
 str_diesel_USA_NYC_Baldwin_VO_660 :NYC Baldwin VO-660 (Diésel)
 str_diesel_UK_BR_Class_D3_7 :BR D3/7 (Diésel)
 str_diesel_Australia_Queensland_Railways_DL_Class :Queensland Railways DL (Diésel)
@@ -513,6 +514,7 @@ str_coach_Gen3_Indian_Regional_Coach                                    :Vagón 
 str_coach_Gen3_Indian_Mail_Coach                                                :Vagón de correo Indio
 str_coach_Gen4_Eurofima_Intercity_Coach                                 :Vagón Eurofima
 str_coach_Gen4_InterRegio_Coach                                                 :Vagón InterRegio
+str_coach_Gen4_Silberling_Commuter_Coach                                :Vagón Conmutador 'Silberling'
 str_coach_Gen4_Eurofima_Mail_Coach                                              :Vagón de correo Eurofima
 str_coach_Gen4_Double_Decker_Coach                                              :Vagón de dos pisos
 str_coach_Gen4_Russian_Intercity_Coach                                  :Vagón InterCity Ruso
@@ -527,6 +529,7 @@ str_coach_Gen4_Horizon_Baggage_Coach                                    :Vagón 
 str_coach_Gen4_Bombardier_Bi_level                                              :Bi-nivel Bombardier
 str_coach_Gen5_High_Speed_Coach                                                 :Vagón de alta velocidad
 str_coach_Gen5_Modern_Regional_Coach                                    :Vagón Regional Moderno
+str_coach_Gen5_Modern_Commuter_Coach                                    :Vagón Conmutador Moderno
 str_coach_Gen5_Modern_Double_Decker_Coach                               :Vagón de dos pisos moderno
 str_coach_Gen5_High_Speed_Double_Decker_IC2000                  :Vagón de dos pisos de alta velocidad (IC2000)
 str_coach_Gen5_High_Speed_Mail_Coach                                    :Vagón de correo de alta velocidad
