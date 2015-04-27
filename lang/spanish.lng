@@ -225,6 +225,7 @@ str_diesel_Ireland_CIE_001 :CIE 001 (Diésel)
 str_diesel_Italy_FS_D341 :FS D.341 (Diésel)
 str_diesel_Japan_JNR_DF50 :JNR DF50 (Diésel)
 str_diesel_Australia_NSWGR_44 :NSWGR 44 (Diésel)
+str_diesel_Zimbabwe_Zimbabwe_Railways_DH_1 :Zimbabwe Railways DH-1 (Diésel)
 str_diesel_South_Korea_Korail_6000_EMD_SD18 :Korail 6000 EMD SD18 (Diésel)
 str_diesel_Italy_FS_D345 :FS D.345 (Diésel)
 str_diesel_China_China_Railways_DF8 :China Railways DF8 (Diésel)
@@ -298,6 +299,7 @@ str_electric_India_Indian_Railways_WCG_1                :Indian Railways WCG-1 (
 str_electric_Portugal_CP_2500                                   :CP 2500 (Eléctrico)
 str_electric_Switzerland_RhB_Ge_6_6_Krokodil :RhB Ge 6/6 'Krokodil' (Eléctrico)
 str_electric_UK_NER_EE1 :NER EE1 (Eléctrico)
+str_electric_Italy_FS_E424 :FS E.424 (Eléctrico)
 str_electric_Belgium_NMBS_Class_255 :NMBS/SNCB 25.5 (Eléctrico)
 str_electric_France_SNCF_BB_25500 :SNCF BB 25500 (Eléctrico)
 
@@ -524,6 +526,7 @@ str_coach_Gen4_Superliner_Coach                                                 
 str_coach_Gen4_Superliner_California                                    :Superliner California
 str_coach_Gen4_Amfleet_Regional_Coach                                   :Vagón Regional Amfleet
 str_coach_Gen4_Amfleet_Intercity_Coach                                  :Vagón Intercity Amfleet
+str_coach_Gen4_Comet_Commuter_Coach                                     :Vagón Conmutador Comet
 str_coach_Gen4_Horizon_Regional_Coach                                   :Vagón Regional Horizon
 str_coach_Gen4_Horizon_Baggage_Coach                                    :Vagón de equipaje Horizon
 str_coach_Gen4_Bombardier_Bi_level                                              :Bi-nivel Bombardier
