@@ -306,6 +306,7 @@ str_electric_Switzerland_RhB_Ge_6_6_Krokodil :RhB Ge 6/6 'Krokodil' (Eléctrico)
 str_electric_UK_NER_EE1 :NER EE1 (Eléctrico)
 str_electric_Italy_FS_E424 :FS E.424 (Eléctrico)
 str_electric_Belgium_NMBS_Class_255 :NMBS/SNCB 25.5 (Eléctrico)
+str_electric_Hungary_MAV_Class_V43 :MAV V43 (Eléctrico)
 str_electric_France_SNCF_BB_25500 :SNCF BB 25500 (Eléctrico)
 
 #DMU
@@ -335,6 +336,7 @@ str_dmu_Croatia_HZ_7022                                         :HZ 7022 (DMU)
 str_dmu_Japan_JNR_KiHa_181 :JNR KiHa 181 (DMU)
 str_dmu_UK_BR_150_0_Sprinter :BR 150/0 'Sprinter' (DMU)
 str_dmu_Iran_RAI_141_Pacer :RAI 141 'Pacer' (DMU)
+str_dmu_Israel_Israel_Railways_IC3 :Israel Railways IC3 (DMU)
 
 #EMU
 str_emu_Netherlands_NS_Mat24                            :NS Mat'24 (EMU)
