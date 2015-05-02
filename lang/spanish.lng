@@ -304,6 +304,7 @@ str_electric_India_Indian_Railways_WCG_1                :Indian Railways WCG-1 (
 str_electric_Portugal_CP_2500                                   :CP 2500 (Eléctrico)
 str_electric_Switzerland_RhB_Ge_6_6_Krokodil :RhB Ge 6/6 'Krokodil' (Eléctrico)
 str_electric_UK_NER_EE1 :NER EE1 (Eléctrico)
+str_electric_Australia_Victorian_Railways_E_Class :Victorian Railways E (Eléctrico)
 str_electric_Italy_FS_E424 :FS E.424 (Eléctrico)
 str_electric_Belgium_NMBS_Class_255 :NMBS/SNCB 25.5 (Eléctrico)
 str_electric_Hungary_MAV_Class_V43 :MAV V43 (Eléctrico)
@@ -337,6 +338,7 @@ str_dmu_Japan_JNR_KiHa_181 :JNR KiHa 181 (DMU)
 str_dmu_UK_BR_150_0_Sprinter :BR 150/0 'Sprinter' (DMU)
 str_dmu_Iran_RAI_141_Pacer :RAI 141 'Pacer' (DMU)
 str_dmu_Israel_Israel_Railways_IC3 :Israel Railways IC3 (DMU)
+str_dmu_Australia_NSWGR_Xplorer :TrainLink Xplorer (DMU)
 
 #EMU
 str_emu_Netherlands_NS_Mat24                            :NS Mat'24 (EMU)
