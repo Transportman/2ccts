@@ -148,6 +148,7 @@ str_steam_Angola_South_West_African_2_8_0 :South West African 2-8-0 (Vapor)
 str_steam_Belgium_NMBS_Type_7 :NMBS Tipo 7 (Vapor)
 str_steam_Ireland_DSER_15 :DSER 15 (Vapor)
 str_steam_Germany_DB_9977 :DB 99.77 (Vapor)
+str_steam_Germany_DB_BR18 :DB BR18 (Vapor)
 
 #Diesel
 str_diesel_Germany_DB_310_Kof_II                                                :DB 310 Kof II (Diésel)
@@ -311,6 +312,7 @@ str_electric_Italy_FS_E424 :FS E.424 (Eléctrico)
 str_electric_South_Africa_SAR_4E :SAR 4E (Eléctrico)
 str_electric_Belgium_NMBS_Class_255 :NMBS/SNCB 25.5 (Eléctrico)
 str_electric_Hungary_MAV_Class_V43 :MAV V43 (Eléctrico)
+str_electric_Portugal_CP_Class_2550 :CP 2550 (Eléctrico)
 str_electric_France_SNCF_BB_25500 :SNCF BB 25500 (Eléctrico)
 
 #DMU
@@ -344,6 +346,7 @@ str_dmu_UK_BR_150_0_Sprinter :BR 150/0 'Sprinter' (DMU)
 str_dmu_Iran_RAI_141_Pacer :RAI 141 'Pacer' (DMU)
 str_dmu_Israel_Israel_Railways_IC3 :Israel Railways IC3 (DMU)
 str_dmu_Australia_NSWGR_Xplorer :TrainLink Xplorer (DMU)
+str_dmu_Slovakia_ZSSK_861 :ZSSK 861 (DMU)
 
 #EMU
 str_emu_Netherlands_NS_Mat24                            :NS Mat'24 (EMU)
