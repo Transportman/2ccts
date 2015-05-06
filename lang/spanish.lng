@@ -53,6 +53,7 @@ STR_PARAM_REGION_OCEANIA_DESC                   :Usar vehículos de Oceanía
 #Railbus-steam
 str_rbs_Austria_NOLB_1          :NOLB 1 (Railbus a vapor)
 str_rbs_Italy_FS_86                     :FS 86 (Railbus a vapor)
+str_rbs_Australia_Victorian_Railways_Rowan_Railmotor :Victorian Railways Rowan Railmotor (Railbus diésel)
 str_rbs_Switzerland_UeBB_Czm_1_2 :UeBB Czm 1/2 (Railbus a vapor)
 
 #Railbus-diesel
@@ -96,6 +97,7 @@ str_rbe_USA_Pennsylvania_Railroad_Silverliner_II :PRR Silverliner II (Railbus el
 str_rbe_Italy_FG_ALe_80 :FG ALe 80 (Railbus eléctrico)
 str_rbe_Austria_OBB_4855 :OBB 4855 (Railbus eléctrico)
 str_rbe_Switzerland_MVR_Beh_2_4 :MVR Beh 2/4 (Railbus eléctrico)
+str_rbe_Austria_MBS_ET_10109 :MBS ET 10.109 (Railbus eléctrico)
 str_rbe_Poland_PKP_EN81 :PKP EN81 (Railbus eléctrico)
 str_rbe_USA_SEPTA_Silverliner_V :SEPTA Silverliner V (Railbus eléctrico)
 
@@ -346,6 +348,7 @@ str_dmu_UK_BR_150_0_Sprinter :BR 150/0 'Sprinter' (DMU)
 str_dmu_Iran_RAI_141_Pacer :RAI 141 'Pacer' (DMU)
 str_dmu_Israel_Israel_Railways_IC3 :Israel Railways IC3 (DMU)
 str_dmu_Australia_NSWGR_Xplorer :TrainLink Xplorer (DMU)
+str_dmu_Sri_Lanka_Sri_Lanka_Railways_S11 :Sri Lanka Railways S11 (DMU)
 str_dmu_Slovakia_ZSSK_861 :ZSSK 861 (DMU)
 
 #EMU
