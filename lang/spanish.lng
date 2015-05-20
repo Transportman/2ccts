@@ -89,6 +89,7 @@ str_rbd_Tunisia_SNCFT_Z431 :SNCFT Z431 (Railbus diésel)
 str_rbd_USA_Amtrak_SPV_200 :Amtrak SPV-200 (Railbus diésel)
 str_rbd_Japan_JR_Shikoku_1000 :JR Shikoku 1000 (Railbus diésel)
 str_rbd_Japan_JR_KiHa_E120 :JR KiHa E120 (Railbus diésel)
+str_rbd_Czech_Republic_CD_840 :CD 840 (Railbus diésel)
 
 #Railbus-electric
 str_rbe_Switzerland_SBB_Cfe_3_3         :SBB Cfe 3/3 (Railbus eléctrico)
@@ -337,6 +338,7 @@ str_electric_Czech_Republic_CD_S499 :CD S499 (Eléctrico)
 str_electric_Italy_FS_E444 :FS E.444 (Eléctrico)
 str_electric_Czech_Republic_CD_380 :CD 380 (Eléctrico)
 str_electric_China_China_Railways_HXD1D :China Railways HXD1D (Eléctrico)
+str_electric_South_Africa_SAR_20E :SAR 20E (Eléctrico)
 str_electric_Kazakhstan_KTZ_KZ8A :KTZ KZ8A (Eléctrico)
 
 #DMU
