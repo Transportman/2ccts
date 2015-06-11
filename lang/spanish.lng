@@ -103,6 +103,7 @@ str_rbe_Czech_Republic_CD_M400 :CD M400 (Railbus eléctrico)
 str_rbe_Spain_Ferrocarril_de_Soller_1_3 :Ferrocarril de Sóller 1-3 (Railbus eléctrico)
 str_rbe_Slovakia_ZSSK_490 :ZSSK 49.0 (Railbus eléctrico)
 str_rbe_Italy_FS_E623 :FS E.623 (Railbus eléctrico)
+str_rbe_Japan_Choshi_DeHa_1000 :Choshi DeHa 1000 (Railbus eléctrico)
 str_rbe_USA_Pennsylvania_Railroad_Silverliner_II :PRR Silverliner II (Railbus eléctrico)
 str_rbe_Italy_FG_ALe_80 :FG ALe 80 (Railbus eléctrico)
 str_rbe_Austria_OBB_4855 :OBB 4855 (Railbus eléctrico)
@@ -483,6 +484,7 @@ str_mtro_USA_Washington_7000                                    :Washington 7000
 str_mtro_Greece_Thessaloniki_2014                               :Thessaloniki 2014 (Metro)
 str_mtro_Germany_Berlin_U_Bahn_A_I :Berlin U-Bahn A I (Metro)
 str_mtro_USA_NY_Hedley_Hi_V :New York Hedley Hi-V (Metro)
+str_mtro_Japan_Osaka_1000 :Osaka 1000 (Metro)
 
 #Maglev
 str_mglv_China_Transrapid       :Shanghai Transrapid (Maglev)
