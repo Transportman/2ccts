@@ -24,7 +24,7 @@ item(FEAT_TRAINS, item_rbs_Austria_kkStB_4_0, 1007) {}
 item(FEAT_TRAINS, item_rbd_Australia_Victorian_Railways_AEC_RM1, 2000) {}
 item(FEAT_TRAINS, item_rbd_Germany_DB_VT133, 2001) {}
 item(FEAT_TRAINS, item_rbd_United_Kingdom_GWR_AEC_Railcar, 2002) {}
-item(FEAT_TRAINS, item_rbd_Germany_DB_VT42, 2003) {}
+item(FEAT_TRAINS, item_rbd_Austria_OBB_VT42, 2003) {}
 item(FEAT_TRAINS, item_rbd_New_Zealand_NZR_RM31, 2004) {}
 item(FEAT_TRAINS, item_rbd_Portugal_CP_0100, 2005) {}
 item(FEAT_TRAINS, item_rbd_USA_Amtrak_Budd_RDC, 2006) {}

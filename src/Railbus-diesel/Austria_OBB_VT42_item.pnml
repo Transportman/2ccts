@@ -10,9 +10,9 @@
 * ITEM
 */
 
-item(FEAT_TRAINS, item_rbd_Germany_DB_VT42) {
+item(FEAT_TRAINS, item_rbd_Austria_OBB_VT42) {
     property {
-        name: string(str_rbd_Germany_DB_VT42);
+        name: string(str_rbd_Austria_OBB_VT42);
         REGION(WESTERNEUROPE,NOREGION,NOCONCEPT)
 		
         introduction_date: date(1935,1,1);
@@ -46,9 +46,9 @@ item(FEAT_TRAINS, item_rbd_Germany_DB_VT42) {
         bitmask_vehicle_info: 0;
 	}
 	graphics {
-		cargo_capacity: switch_rbd_Germany_DB_VT42_capacity;
-		purchase: spriteset_rbd_Germany_DB_VT42_purchase;
+		cargo_capacity: switch_rbd_Austria_OBB_VT42_capacity;
+		purchase: spriteset_rbd_Austria_OBB_VT42_purchase;
 		can_attach_wagon: switch_can_attach_vehicle;
-		spriteset_rbd_Germany_DB_VT42;
+		spriteset_rbd_Austria_OBB_VT42;
 	}
 }

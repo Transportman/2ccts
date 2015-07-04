@@ -10,7 +10,7 @@
 * PURCHASE
 */
 
-spriteset(spriteset_rbd_Germany_DB_VT42_purchase, "gfx/Railbus-diesel/Germany_DB_VT42.png") {
+spriteset(spriteset_rbd_Austria_OBB_VT42_purchase, "gfx/Railbus-diesel/Austria_OBB_VT42.png") {
 	template_purchase(1, 32)
 }
 
@@ -19,7 +19,7 @@ spriteset(spriteset_rbd_Germany_DB_VT42_purchase, "gfx/Railbus-diesel/Germany_DB
 */
 
 //Only one spriteset needed for this set
-spriteset(spriteset_rbd_Germany_DB_VT42, "gfx/Railbus-diesel/Germany_DB_VT42.png") {
+spriteset(spriteset_rbd_Austria_OBB_VT42, "gfx/Railbus-diesel/Austria_OBB_VT42.png") {
 	template_2cc_engines_general(1, 1)
 }
 
@@ -27,7 +27,7 @@ spriteset(spriteset_rbd_Germany_DB_VT42, "gfx/Railbus-diesel/Germany_DB_VT42.png
 * Cargo capacity
 */
 
-switch(FEAT_TRAINS, SELF, switch_rbd_Germany_DB_VT42_capacity, cargo_classes) {
+switch(FEAT_TRAINS, SELF, switch_rbd_Austria_OBB_VT42_capacity, cargo_classes) {
 	bitmask(CC_MAIL): 39;
 	bitmask(CC_ARMOURED): 20;
 	78;
