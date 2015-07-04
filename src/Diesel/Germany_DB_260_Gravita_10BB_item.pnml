@@ -19,13 +19,13 @@ item(FEAT_TRAINS, item_diesel_Germany_DB_260_Gravita_10BB) {
         model_life: VEHICLE_NEVER_EXPIRES;
         vehicle_life: 40;
         LOADINGSPEEDDEF_NONE
-        cost_factor: 51;
-        running_cost_factor: 41;
+        cost_factor: 45;
+        running_cost_factor: 38;
         speed: 100 km/h;
-        power: 1600 hp;
+        power: 1350 hp;
         cargo_capacity: 0;
-        weight: 100 ton;
-        tractive_effort_coefficient: 0.41;
+        weight: 80 ton;
+        tractive_effort_coefficient: 0.32;
         air_drag_coefficient: 0;
         
         reliability_decay: 20;
