@@ -19,16 +19,6 @@ spriteset(spriteset_electric_Germany_DB_Class_E91_purchase, "gfx/Electric/German
 */
 
 //Engine
-spriteset(spriteset_electric_Germany_DB_Class_E91_engine1, "gfx/Electric/Germany_DB_Class_E91.png") {
+spriteset(spriteset_electric_Germany_DB_Class_E91, "gfx/Electric/Germany_DB_Class_E91.png") {
 	template_2cc_engines_general(1, 1)
 }
-
-spriteset(spriteset_electric_Germany_DB_Class_E91_engine2, "gfx/Electric/Germany_DB_Class_E91.png") {
-	template_2cc_engines_general(1, 32)
-}
-
-//Animation states
-switch(FEAT_TRAINS, SELF, switch_electric_Germany_DB_Class_E91_animation, motion_counter % 2){
-	0: spriteset_electric_Germany_DB_Class_E91_engine1;
-	spriteset_electric_Germany_DB_Class_E91_engine2;
-}	

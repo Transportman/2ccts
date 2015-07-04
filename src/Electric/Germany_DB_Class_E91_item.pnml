@@ -48,6 +48,6 @@ item(FEAT_TRAINS, item_electric_Germany_DB_Class_E91) {
 	graphics {
 		purchase: spriteset_electric_Germany_DB_Class_E91_purchase;
 		can_attach_wagon: switch_can_attach_vehicle;
-		switch_electric_Germany_DB_Class_E91_animation;
+		spriteset_electric_Germany_DB_Class_E91;
 	}
 }
