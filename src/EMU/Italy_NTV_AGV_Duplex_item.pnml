@@ -19,8 +19,8 @@ item(FEAT_TRAINS, item_emu_Italy_NTV_AGV_Duplex) {
         model_life: VEHICLE_NEVER_EXPIRES;
         vehicle_life: 25;
         LOADINGSPEEDDEF_INTERCITY
-        cost_factor: 42;
-        running_cost_factor: 42;
+        cost_factor: 52;
+        running_cost_factor: 50;
         speed: 360 km/h;
         power: 1750 hp;
         cargo_capacity: 67;
