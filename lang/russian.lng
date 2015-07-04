@@ -51,7 +51,6 @@ str_rbs_Italy_FS_86                     :FS 86 (Паровая Моториса)
 
 #Railbus-diesel
 str_rbd_United_Kingdom_GWR_AEC_Railcar                  :GWR AEC (Дизель Моториса)
-str_rbd_Germany_DB_VT42                                                 :DB VT42 (Дизель Моториса)
 str_rbd_Portugal_CP_0100                                                :CP 0100 (Дизель Моториса)
 str_rbd_Netherlands_NS_20_Kameel                                :NS 20 'Kameel' (Дизель Моториса)
 str_rbd_Russia_RZD_ACh2                                                 :РЖД АЧ2 (Дизель Моториса)
