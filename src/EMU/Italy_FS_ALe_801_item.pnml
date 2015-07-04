@@ -33,7 +33,7 @@ item(FEAT_TRAINS, item_emu_Italy_FS_ALe_801) {
         cargo_age_period: 185;
         misc_flags: bitmask(TRAIN_FLAG_MU,TRAIN_FLAG_2CC);
         refit_cost: 0;
-        track_type: RAIL;
+        track_type: ELRL;
 		ai_special_flag: AI_FLAG_PASSENGER;
         running_cost_base: RUNNING_COST_STEAM;
         engine_class: ENGINE_CLASS_ELECTRIC;
