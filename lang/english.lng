@@ -669,8 +669,9 @@ str_mtro_wagon_powered		:Metro Unit Wagon (Powered)
 str_mglv_wagon_powered		:Maglev Unit Wagon (Powered)
 
 #Obsolete vehicles
-str_electric_Turkey_TCDD_E55200_obsolete 				:TCDD E55200 (Obsoleted)
-str_diesel_Germany_DB_253_G2000_3_BB_obsolete			:DB 253 G2000-3 BB (Obsoleted)
+str_electric_Turkey_TCDD_E55200_obsolete 						:TCDD E55200 (Obsoleted)
+str_diesel_Germany_DB_253_G2000_3_BB_obsolete					:DB 253 G2000-3 BB (Obsoleted)
+str_diesel_USA_Pennsylvania_Railroad_RF_16_Sharknose_obsolete 	:PRR RF-16 'Sharknose' (Obsoleted)
 
 #PURCHASE MENU TEXTS
 str_unit_wagon				:This generic wagon can ONLY be used with MUs to create trains of the desired length

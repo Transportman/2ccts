@@ -175,7 +175,7 @@ item(FEAT_TRAINS, item_diesel_USA_GNR_EMD_F3, 5007) {}
 item(FEAT_TRAINS, item_diesel_USA_UP_EMD_E8, 5008) {}
 item(FEAT_TRAINS, item_diesel_Brazil_EFCB_ALCO_RS_3, 5009) {}
 item(FEAT_TRAINS, item_diesel_Netherlands_NS_600, 5010) {}
-item(FEAT_TRAINS, item_diesel_USA_Pennsylvania_Railroad_RF_16_Sharknose, 5011) {}
+item(FEAT_TRAINS, item_diesel_USA_Pennsylvania_Railroad_RF_16_Sharknose_obsolete, 5011) {} // obsolete
 item(FEAT_TRAINS, item_diesel_Uruguay_AFE_1500, 5012) {}
 item(FEAT_TRAINS, item_diesel_Canada_CPR_Trainmaster, 5013) {}
 item(FEAT_TRAINS, item_diesel_Liberia_Liberia_Railways_Class_08, 5014) {}
@@ -221,7 +221,7 @@ item(FEAT_TRAINS, item_diesel_Belgium_NMBS_SNCB_7800, 5053) {}
 item(FEAT_TRAINS, item_diesel_UK_BR_66, 5054) {}
 item(FEAT_TRAINS, item_diesel_UK_BR_67, 5055) {}
 item(FEAT_TRAINS, item_diesel_Iran_RAI_DE43CA_Prima, 5056) {}
-item(FEAT_TRAINS, item_diesel_Germany_DB_253_G2000_3_BB_obsolete, 5057) {}
+item(FEAT_TRAINS, item_diesel_Germany_DB_253_G2000_3_BB_obsolete, 5057) {} // Obsolete
 item(FEAT_TRAINS, item_diesel_China_MTR_8000, 5058) {}
 item(FEAT_TRAINS, item_diesel_Ukraine_UZ_TEP150, 5059) {}
 item(FEAT_TRAINS, item_diesel_China_China_Railways_HXN5, 5060) {}
@@ -264,6 +264,7 @@ item(FEAT_TRAINS, item_diesel_Italy_ACT_D200, 5096) {}
 item(FEAT_TRAINS, item_diesel_Canada_GO_Transit_MP40PH_3C, 5097) {}
 item(FEAT_TRAINS, item_diesel_Spain_RENFE_Class_334, 5098) {}
 item(FEAT_TRAINS, item_diesel_Indonesia_Indonesia_Railways_CC300, 5099) {}
+item(FEAT_TRAINS, item_diesel_USA_Pennsylvania_Railroad_RF_16_Sharknose, 5100) {}
 
 //Electric, available ID range: 6000-6999 (hex 0x1770..0x1B57)
 #define ID_RANGE_ELECTRIC 0x1770..0x1B57
