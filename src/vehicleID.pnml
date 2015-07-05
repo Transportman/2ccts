@@ -137,7 +137,7 @@ item(FEAT_TRAINS, item_steam_Netherlands_NS_700, 4044) {}
 item(FEAT_TRAINS, item_steam_South_Africa_Natal_Government_Railways_2_6_0T, 4045) {}
 item(FEAT_TRAINS, item_steam_Australia_NSWGR_Z25_Class, 4046) {}
 item(FEAT_TRAINS, item_steam_Canada_Canadian_Pacific_374, 4047) {}
-item(FEAT_TRAINS, item_steam_South_Africa_PPR_35_tonner_4_6_0T, 4048) {}
+item(FEAT_TRAINS, item_steam_South_Africa_PPR_35_tonner_4_6_0T_obsolete, 4048) {} // Obsolete
 item(FEAT_TRAINS, item_steam_Switzerland_RhB_G_3_4, 4049) {}
 item(FEAT_TRAINS, item_steam_Spain_RENFE_Class_040, 4050) {}
 item(FEAT_TRAINS, item_steam_Germany_Saxon_IV_K, 4051) {}
@@ -161,6 +161,7 @@ item(FEAT_TRAINS, item_steam_UK_GWR_1600_Class, 4068) {}
 item(FEAT_TRAINS, item_steam_Australia_Victorian_Railways_R_Class, 4069) {}
 item(FEAT_TRAINS, item_steam_Germany_DB_9977, 4070) {}
 item(FEAT_TRAINS, item_steam_Germany_DB_BR18, 4071) {}
+item(FEAT_TRAINS, item_steam_South_Africa_PPR_35_tonner_4_6_0T, 4072) {} 
 
 //Diesel, available ID range: 5000-5999 (hex 0x1388..0x176F)
 #define ID_RANGE_DIESEL 0x1388..0x176F
@@ -401,7 +402,8 @@ item(FEAT_TRAINS, item_dmu_Australia_TransAdelaide_3100, 7030) {}
 item(FEAT_TRAINS, item_dmu_Australia_NSWGR_Xplorer, 7031) {}
 item(FEAT_TRAINS, item_dmu_Japan_JR_KiHa_189, 7032) {}
 item(FEAT_TRAINS, item_dmu_Sri_Lanka_Sri_Lanka_Railways_S11, 7033) {}
-item(FEAT_TRAINS, item_dmu_Slovakia_ZSSK_861, 7034) {}
+item(FEAT_TRAINS, item_dmu_Slovakia_ZSSK_861_obsolete, 7034) {} // Obsoleted
+item(FEAT_TRAINS, item_dmu_Slovakia_ZSSK_861, 7035) {}
 
 //EMU, available ID range: 8000-8999 (hex 0x1F40..0x2327)
 #define ID_RANGE_EMU 0x1F40..0x2327

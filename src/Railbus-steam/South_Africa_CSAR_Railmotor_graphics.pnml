@@ -33,6 +33,11 @@ switch(FEAT_TRAINS, SELF, switch_rbs_South_Africa_CSAR_Railmotor_animation, moti
 	spriteset_rbs_South_Africa_CSAR_Railmotor_engine2;
 }
 
+switch(FEAT_TRAINS, SELF, switch_rbs_South_Africa_CSAR_Railmotor_position, position_in_vehid_chain % 2) {
+	0: switch_rbs_South_Africa_CSAR_Railmotor_animation;
+	EMPTY_SPRITESET
+}
+
 /*
 * Visual effect
 */
@@ -55,4 +60,18 @@ switch(FEAT_TRAINS, SELF, switch_rbs_South_Africa_CSAR_Railmotor_capacity, cargo
 	bitmask(CC_MAIL): 25;
 	bitmask(CC_ARMOURED): 13;
 	50;
+}
+
+switch(FEAT_TRAINS, SELF, switch_rbs_South_Africa_CSAR_Railmotor_capacity_position, position_in_vehid_chain % 2) {
+	0: switch_rbs_South_Africa_CSAR_Railmotor_capacity;
+	0;
+}
+
+/*
+* Articulated part
+*/
+
+switch(FEAT_TRAINS, SELF, switch_rbs_South_Africa_CSAR_Railmotor_articulated, extra_callback_info1) {
+	1: return item_rbs_South_Africa_CSAR_Railmotor;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
 }

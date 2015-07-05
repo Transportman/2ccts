@@ -10,9 +10,9 @@
 * ITEM
 */
 
-item(FEAT_TRAINS, item_dmu_Slovakia_ZSSK_861) {
+item(FEAT_TRAINS, item_dmu_Slovakia_ZSSK_861_obsolete) {
     property {
-        name: string(str_dmu_Slovakia_ZSSK_861);
+        name: string(str_dmu_Slovakia_ZSSK_861_obsolete);
         REGION(EASTERNEUROPE,NOREGION,NOCONCEPT)
         
         introduction_date: date(2011,1,1);
@@ -46,28 +46,28 @@ item(FEAT_TRAINS, item_dmu_Slovakia_ZSSK_861) {
         bitmask_vehicle_info: 0;
 	}
 	graphics {
-		purchase: spriteset_dmu_Slovakia_ZSSK_861_purchase;
+		purchase: spriteset_dmu_Slovakia_ZSSK_861_obsolete_purchase;
 		can_attach_wagon: switch_can_attach_vehicle;
-		cargo_capacity: switch_dmu_Slovakia_ZSSK_861_capacity;
-		visual_effect_and_powered: switch_dmu_Slovakia_ZSSK_861_visual_effect_and_powered;
-		switch_dmu_Slovakia_ZSSK_861_reversed;
+		cargo_capacity: switch_dmu_Slovakia_ZSSK_861_obsolete_capacity;
+		visual_effect_and_powered: switch_dmu_Slovakia_ZSSK_861_obsolete_visual_effect_and_powered;
+		switch_dmu_Slovakia_ZSSK_861_obsolete_reversed;
 	}	
 	livery_override (item_mu_wagon_unpowered){
 		LOADINGSPEEDDEF_COMMUTER
 		running_cost_factor: 17;
 		power: 0;
 		weight: 23;
-		cargo_capacity: switch_dmu_Slovakia_ZSSK_861_capacity;
-		length: 7;
-		default: switch_dmu_Slovakia_ZSSK_861_cargo_selection;
+		cargo_capacity: switch_dmu_Slovakia_ZSSK_861_obsolete_capacity;
+		length: 8;
+		default: switch_dmu_Slovakia_ZSSK_861_obsolete_cargo_selection;
 	}
 	livery_override (item_mu_wagon_powered){
 		LOADINGSPEEDDEF_COMMUTER
 		running_cost_factor: 25;
 		power: 395;
 		weight: 34;
-		cargo_capacity: switch_dmu_Slovakia_ZSSK_861_capacity;
-		length: 7;
-		default: switch_dmu_Slovakia_ZSSK_861_cargo_selection;
+		cargo_capacity: switch_dmu_Slovakia_ZSSK_861_obsolete_capacity;
+		length: 8;
+		default: switch_dmu_Slovakia_ZSSK_861_obsolete_cargo_selection;
 	}
 }

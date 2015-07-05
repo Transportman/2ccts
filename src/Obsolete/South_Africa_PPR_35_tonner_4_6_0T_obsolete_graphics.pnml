@@ -10,7 +10,7 @@
 * PURCHASE
 */
 
-spriteset(spriteset_steam_Netherlands_NS_8100_purchase, "gfx/Steam/Netherlands_NS_8100.png") {
+spriteset(spriteset_steam_South_Africa_PPR_35_tonner_4_6_0T_obsolete_purchase, "gfx/Steam/South_Africa_PPR_35_tonner_4_6_0T.png") {
 	template_purchase(1, 96)
 }
 
@@ -19,16 +19,16 @@ spriteset(spriteset_steam_Netherlands_NS_8100_purchase, "gfx/Steam/Netherlands_N
 */
 
 //Engine
-spriteset(spriteset_steam_Netherlands_NS_8100_engine1, "gfx/Steam/Netherlands_NS_8100.png") {
+spriteset(spriteset_steam_South_Africa_PPR_35_tonner_4_6_0T_obsolete_engine1, "gfx/Steam/South_Africa_PPR_35_tonner_4_6_0T.png") {
 	template_2cc_engines_general(1, 1)
 }
 
-spriteset(spriteset_steam_Netherlands_NS_8100_engine2, "gfx/Steam/Netherlands_NS_8100.png") {
+spriteset(spriteset_steam_South_Africa_PPR_35_tonner_4_6_0T_obsolete_engine2, "gfx/Steam/South_Africa_PPR_35_tonner_4_6_0T.png") {
 	template_2cc_engines_general(1, 32)
 }
 
 //Animation states
-switch(FEAT_TRAINS, SELF, switch_steam_Netherlands_NS_8100_animation, motion_counter % 2){
-	0: spriteset_steam_Netherlands_NS_8100_engine1;
-	spriteset_steam_Netherlands_NS_8100_engine2;
+switch(FEAT_TRAINS, SELF, switch_steam_South_Africa_PPR_35_tonner_4_6_0T_obsolete_animation, motion_counter % 2){
+	0: spriteset_steam_South_Africa_PPR_35_tonner_4_6_0T_obsolete_engine1;
+	spriteset_steam_South_Africa_PPR_35_tonner_4_6_0T_obsolete_engine2;
 }
