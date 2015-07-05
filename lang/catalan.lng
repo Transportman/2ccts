@@ -671,8 +671,11 @@ str_mtro_wagon_powered          :Unitat de Vagó de Metro (Amb alimentació)
 str_mglv_wagon_powered          :Unitat de Vagó Maglev (Alimentat)
 
 #Obsolete vehicles
-str_electric_Turkey_TCDD_E55200_obsolete                                :TCDD E55200 (Obsolet)
-str_diesel_Germany_DB_253_G2000_3_BB_obsolete                   :DB 253 G2000-3 BB (Obsolet)
+str_electric_Turkey_TCDD_E55200_obsolete                                                :TCDD E55200 (Obsolet)
+str_diesel_Germany_DB_253_G2000_3_BB_obsolete                                   :DB 253 G2000-3 BB (Obsolet)
+str_diesel_USA_Pennsylvania_Railroad_RF_16_Sharknose_obsolete   :PRR RF-16 'Sharknose' (Obsolet)
+str_steam_South_Africa_PPR_35_tonner_4_6_0T_obsolete                    :PPR 35-tonner 4-6-0T (Obsolet)
+str_dmu_Slovakia_ZSSK_861_obsolete                                                              :ZSSK 861 (Obsolet)
 
 #PURCHASE MENU TEXTS
 str_unit_wagon                          :Aquest vagó genèric NOMÉS pot emprar-se amb MUs per a crear trens de la llargada desitjada

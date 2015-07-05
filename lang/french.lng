@@ -670,8 +670,8 @@ str_mtro_wagon_powered          :Wagon de Métro (motorisé)
 str_mglv_wagon_powered          :Wagon de Maglev (motorisé)
 
 #Obsolete vehicles
-str_electric_Turkey_TCDD_E55200_obsolete                                :TCDD E55200 (Obsolète)
-str_diesel_Germany_DB_253_G2000_3_BB_obsolete                   :DB 253 G2000-3 BB (Obsolète)
+str_electric_Turkey_TCDD_E55200_obsolete                                                :TCDD E55200 (Obsolète)
+str_diesel_Germany_DB_253_G2000_3_BB_obsolete                                   :DB 253 G2000-3 BB (Obsolète)
 
 #PURCHASE MENU TEXTS
 str_unit_wagon                          :Ce wagon générique est utilisé SEULEMENT avec des Rames pour obtenir des trains de longueur variable

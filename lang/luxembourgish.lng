@@ -669,8 +669,8 @@ str_mtro_wagon_powered          :Metro Waggon (Motoriséiert)
 str_mglv_wagon_powered          :Maglev Waggon (motoriséiert)
 
 #Obsolete vehicles
-str_electric_Turkey_TCDD_E55200_obsolete                                :TCDD E55200 (Obsolet)
-str_diesel_Germany_DB_253_G2000_3_BB_obsolete                   :DB 253 G2000-3 BB (Obsolet)
+str_electric_Turkey_TCDD_E55200_obsolete                                                :TCDD E55200 (Obsolet)
+str_diesel_Germany_DB_253_G2000_3_BB_obsolete                                   :DB 253 G2000-3 BB (Obsolet)
 
 #PURCHASE MENU TEXTS
 str_unit_wagon                          :Dësen genereschen Waggon kann NEMMEN mat MU'en benotzt ginn, fir Zich vun der gewëschter Längt ze bauen.

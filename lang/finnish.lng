@@ -498,7 +498,7 @@ str_mtro_wagon_powered          :Metrovaunu (moottoroitu)
 str_mglv_wagon_powered          :Maglev-vaunu (moottoroitu)
 
 #Obsolete vehicles
-str_electric_Turkey_TCDD_E55200_obsolete                                :TCDD E55200 (Vanhentunut)
+str_electric_Turkey_TCDD_E55200_obsolete                                                :TCDD E55200 (Vanhentunut)
 
 #PURCHASE MENU TEXTS
 str_unit_wagon                          :Voit käyttää tätä yleisvaunua VAIN pidentämään moottorivaunujunia haluamaasi pituuteen

@@ -66,6 +66,7 @@ str_rbs_Austria_kkStB_4_0       :KkStB 4.0 (parni teretni šinobus)
 str_rbd_Australia_Victorian_Railways_AEC_RM1    :Victorian Railways AEC RM1 (dizel šinobus)
 str_rbd_Germany_DB_VT133                                                :DB VT133 (dizel šinobus)
 str_rbd_United_Kingdom_GWR_AEC_Railcar                  :GWR AEC Railcar (dizel šinobus)
+str_rbd_Austria_OBB_VT42                                                :OBB VT42 (dizel šinobus)
 str_rbd_New_Zealand_NZR_RM31                                    :NZR RM31 (dizel šinobus)
 str_rbd_Portugal_CP_0100                                                :CP 0100 (dizel šinobus)
 str_rbd_USA_Amtrak_Budd_RDC                                     :Amtrak Budd RDC (dizel šinobus)
@@ -671,8 +672,11 @@ str_mtro_wagon_powered          :Vagon metroa (sa pogonom)
 str_mglv_wagon_powered          :Vagon magleva (sa pogonom)
 
 #Obsolete vehicles
-str_electric_Turkey_TCDD_E55200_obsolete                                :TCDD E55200 (nekorištena)
-str_diesel_Germany_DB_253_G2000_3_BB_obsolete                   :DB 253 G2000-3 BB (nekorištena)
+str_electric_Turkey_TCDD_E55200_obsolete                                                :TCDD E55200 (nekorištena)
+str_diesel_Germany_DB_253_G2000_3_BB_obsolete                                   :DB 253 G2000-3 BB (nekorištena)
+str_diesel_USA_Pennsylvania_Railroad_RF_16_Sharknose_obsolete   :PRR RF-16 'Sharknose' (nekorištena)
+str_steam_South_Africa_PPR_35_tonner_4_6_0T_obsolete                    :PPR 35-tonner 4-6-0T (nekorištena)
+str_dmu_Slovakia_ZSSK_861_obsolete                                                              :ZSSK 861 (nekorištena)
 
 #PURCHASE MENU TEXTS
 str_unit_wagon                          :Ovaj generički vagon se može koristiti SAMO sa višedjelnim jedinicama (MU) za stvaranje vlakova željene dužine

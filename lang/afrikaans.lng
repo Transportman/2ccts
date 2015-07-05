@@ -668,8 +668,8 @@ str_mtro_wagon_powered          :Metro-eenheid Wa(Aangedrewe)
 str_mglv_wagon_powered          :Maglev-eenheid Wa(Aangedrewe)
 
 #Obsolete vehicles
-str_electric_Turkey_TCDD_E55200_obsolete                                :TCDD E55200 (Uitgedien)
-str_diesel_Germany_DB_253_G2000_3_BB_obsolete                   :DB 253 G2000-3 BB (Uitgedien)
+str_electric_Turkey_TCDD_E55200_obsolete                                                :TCDD E55200 (Uitgedien)
+str_diesel_Germany_DB_253_G2000_3_BB_obsolete                                   :DB 253 G2000-3 BB (Uitgedien)
 
 #PURCHASE MENU TEXTS
 str_unit_wagon                          :Hierdie generiese wa kan SLEGS gebruik word met MU om treine van die verlangde lengte te skep

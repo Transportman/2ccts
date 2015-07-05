@@ -669,8 +669,8 @@ str_mtro_wagon_powered          :城轨车厢 (有动力)
 str_mglv_wagon_powered          :磁浮车厢 (有动力)
 
 #Obsolete vehicles
-str_electric_Turkey_TCDD_E55200_obsolete                                :土铁E55200 (废弃)
-str_diesel_Germany_DB_253_G2000_3_BB_obsolete                   :德铁DB 253 G2000-3 BB (已废弃)
+str_electric_Turkey_TCDD_E55200_obsolete                                                :土铁E55200 (废弃)
+str_diesel_Germany_DB_253_G2000_3_BB_obsolete                                   :德铁DB 253 G2000-3 BB (已废弃)
 
 #PURCHASE MENU TEXTS
 str_unit_wagon                          :本通用车厢只能与动车组合成相应长度的列车
