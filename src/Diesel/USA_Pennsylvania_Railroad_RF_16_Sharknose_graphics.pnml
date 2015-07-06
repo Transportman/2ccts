@@ -23,13 +23,13 @@ spriteset(spriteset_diesel_USA_Pennsylvania_Railroad_RF_16_Sharknose_engine, "gf
 	template_2cc_engines_general(1, 1)
 }
 //Tender
-spriteset(spriteset_diesel_USA_Pennsylvania_Railroad_RF_16_Sharknose_tender, "gfx/Diesel/USA_Pennsylvania_Railroad_RF_16_Sharknose.png") {
+spriteset(spriteset_diesel_USA_Pennsylvania_Railroad_RF_16_Sharknose_B, "gfx/Diesel/USA_Pennsylvania_Railroad_RF_16_Sharknose.png") {
 	template_2cc_engines_general(1, 32)
 }
 
 switch(FEAT_TRAINS, SELF, switch_diesel_USA_Pennsylvania_Railroad_RF_16_Sharknose_position, position_in_vehid_chain % 2) {
 	0: spriteset_diesel_USA_Pennsylvania_Railroad_RF_16_Sharknose_engine;
-	spriteset_diesel_USA_Pennsylvania_Railroad_RF_16_Sharknose_tender;
+	spriteset_diesel_USA_Pennsylvania_Railroad_RF_16_Sharknose_B;
 }
 
 /*
@@ -39,9 +39,4 @@ switch(FEAT_TRAINS, SELF, switch_diesel_USA_Pennsylvania_Railroad_RF_16_Sharknos
 switch(FEAT_TRAINS, SELF, switch_diesel_USA_Pennsylvania_Railroad_RF_16_Sharknose_visual_effect, position_in_vehid_chain % 2) {
 	0: return visual_effect_and_powered(VISUAL_EFFECT_DIESEL, -3, DISABLE_WAGON_POWER);
 	return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
-}
-
-switch(FEAT_TRAINS, SELF, switch_diesel_USA_Pennsylvania_Railroad_RF_16_Sharknose_articulated, extra_callback_info1) {
-	1: return item_diesel_USA_Pennsylvania_Railroad_RF_16_Sharknose;
-    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
 }
