@@ -493,9 +493,10 @@ str_mtro_Greece_Thessaloniki_2014                               :Thessaloniki 20
 str_mtro_Germany_Berlin_U_Bahn_A_I :Berlin U-Bahn A I (Metro)
 str_mtro_USA_NY_Hedley_Hi_V :New York Hedley Hi-V (Metro)
 str_mtro_Japan_Osaka_1000 :Osaka 1000 (Metro)
-str_mtro_Russia_Moscow_Type_A :Moscow Type A (Metro)
+str_mtro_Russia_Moscow_Type_A :Moscow Tipo A (Metro)
 str_mtro_USA_NY_R10 :New York R10 (Metro)
-str_mtro_Netherlands_Rotterdam_MG2_Type_M :Rotterdam MG2 Type M (Metro)
+str_mtro_Russia_Moscow_Type_D :Moscow Tipo D (Metro)
+str_mtro_Netherlands_Rotterdam_MG2_Type_M :Rotterdam MG2 Tipo M (Metro)
 
 #Maglev
 str_mglv_China_Transrapid       :Shanghai Transrapid (Maglev)
