@@ -63,6 +63,7 @@ str_rbs_Austria_kkStB_4_0       :kkStB 4.0 (Stoom Goedere Spoorbus)
 str_rbd_Australia_Victorian_Railways_AEC_RM1    :Victoriaanse Spoorweë AEC RM1 (Diesel Spoorbus)
 str_rbd_Germany_DB_VT133                                                :DB VT133 (Diesel  Spoorbus)
 str_rbd_United_Kingdom_GWR_AEC_Railcar                  :GWR AEC Spoorkar (Diesel  Spoorbus)
+str_rbd_Austria_OBB_VT42                                                :OBB VT42 (Diesel Spoorbus)
 str_rbd_New_Zealand_NZR_RM31                                    :NZR RM31 (Diesel  Spoorbus)
 str_rbd_Portugal_CP_0100                                                :CP 0100 (Diesel  Spoorbus)
 str_rbd_USA_Amtrak_Budd_RDC                                     :Amtrak Budd RDC (Diesel  Spoorbus)
@@ -670,6 +671,9 @@ str_mglv_wagon_powered          :Maglev-eenheid Wa(Aangedrewe)
 #Obsolete vehicles
 str_electric_Turkey_TCDD_E55200_obsolete                                                :TCDD E55200 (Uitgedien)
 str_diesel_Germany_DB_253_G2000_3_BB_obsolete                                   :DB 253 G2000-3 BB (Uitgedien)
+str_diesel_USA_Pennsylvania_Railroad_RF_16_Sharknose_obsolete   :PRR RF-16 'Sharknose' (Uitgedien)
+str_steam_South_Africa_PPR_35_tonner_4_6_0T_obsolete                    :PPR 35-tonner 4-6-0T (Uitgedien)
+str_dmu_Slovakia_ZSSK_861_obsolete                                                              :ZSSK 861 (Uitgedien)
 
 #PURCHASE MENU TEXTS
 str_unit_wagon                          :Hierdie generiese wa kan SLEGS gebruik word met MU om treine van die verlangde lengte te skep
