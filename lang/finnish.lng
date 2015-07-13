@@ -417,68 +417,68 @@ str_wagon_Service_Car_Type1                             :Huoltovaunu (Tyyppi 1)
 str_wagon_Service_Car_Type2                             :Huoltovaunu (Tyyppi 2)
 
 #coaches
-str_coach_Gen1_Wooden_2_axle_Compartment_Coach                  :Puinen 2-akselinen osastollinen matkustajavaunu
-str_coach_Gen1_Wooden_2_axle_Regional_Coach                     :Puinen 2-akselinen alueelinen matkustajavaunu
+str_coach_Gen1_Wooden_2_axle_Compartment_Coach                  :Puinen 2-akselinen hyttivaunu
+str_coach_Gen1_Wooden_2_axle_Regional_Coach                     :Puinen 2-akselinen taajamaliikennevaunu
 str_coach_Gen1_Wooden_2_axle_Mail_Coach                                 :Puinen 2-akselinen postivaunu
-str_coach_Gen1_Clerestory_Compartment_Coach                     :Clerestory osastoittainen matkustajavaunu
-str_coach_Gen1_Clerestory_Regional_Coach                                :Clerestory alueellinen matkustajavaunu
+str_coach_Gen1_Clerestory_Compartment_Coach                     :Clerestory hyttivaunu
+str_coach_Gen1_Clerestory_Regional_Coach                                :Clerestory taajamaliikennevaunu
 str_coach_Gen1_Clerestory_Mail_Coach                                    :Clerestory postivaunu
 str_coach_Gen1_Wooden_3_axle_Compartment_Coach                  :Puinen 3-akselinen osastollinen matkustajavaunu
-str_coach_Gen1_Wooden_3_axle_Regional_Coach                     :Puinen 3-akselinen alueellinen matkustajavaunu
+str_coach_Gen1_Wooden_3_axle_Regional_Coach                     :Puinen 3-akselinen taajamaliikennevaunu
 str_coach_Gen1_Wooden_3_axle_Mail_Coach                                 :Puinen 3-akselinen postivaunu
 str_coach_Gen2_Heavyweight_Intercity_Coach                              :Raskas InterCity-vaunu
 str_coach_Gen2_Heavyweight_Mail_Coach                                   :Raskas postivaunu
 str_coach_Gen2_Steel_Intercity_Coach                                    :Teräksinen InterCity-vaunu
-str_coach_Gen2_Steel_Compartment_Coach                                  :Teräksinen osastoittainen matkustajavaunu
-str_coach_Gen2_Steel_Regional_Coach                                     :Teräksinen alueellinen matkustajavaunu
+str_coach_Gen2_Steel_Compartment_Coach                                  :Teräksinen hyttivaunu
+str_coach_Gen2_Steel_Regional_Coach                                     :Teräksinen taajamaliikennevaunu
 str_coach_Gen2_Steel_Mail_Coach                                                 :Teräksinen postivaunu
-str_coach_Gen2_Steel_2_axle_Compartment_Coach                   :Teräksinen 2-akselinen osastollinen matkustajavaunu
-str_coach_Gen2_Steel_2_axle_Regional_Coach                              :Teräksinen 2-akselinen alueellinen matkustajavaunu
+str_coach_Gen2_Steel_2_axle_Compartment_Coach                   :Teräksinen 2-akselinen hyttivaunu
+str_coach_Gen2_Steel_2_axle_Regional_Coach                              :Teräksinen 2-akselinen taajamaliikennevaunu
 str_coach_Gen2_Steel_2_axle_Mail_Coach                                  :Teräksinen 2-akselinen postivaunu
-str_coach_Gen2_Steel_3_axle_Compartment_Coach                   :Teräksinen 3-akselinen osastollinen matkustajavaunu
-str_coach_Gen2_Steel_3_axle_Regional_Coach                              :Teräksinen 3-akselinen alueellinen matkustajavaunu
+str_coach_Gen2_Steel_3_axle_Compartment_Coach                   :Teräksinen 3-akselinen hyttivaunu
+str_coach_Gen2_Steel_3_axle_Regional_Coach                              :Teräksinen 3-akselinen taajamaliikennevaunu
 str_coach_Gen2_Steel_3_axle_Mail_Coach                                  :Teräksinen 3-akselinen postivaunu
 str_coach_Gen3_Steel_Lightweight_Intercity_Coach                :Kevyt teräksinen InterCity-vaunu
-str_coach_Gen3_Steel_Lightweight_Regional_Coach                 :Kevyt Teräksinen alueellinen matkustajavaunu
+str_coach_Gen3_Steel_Lightweight_Regional_Coach                 :Kevyt teräksinen taajamaliikennevaunu
 str_coach_Gen3_Steel_Lightweight_Mail_Coach                     :Kevyt teräksinen postivaunu
 str_coach_Gen3_Aluminium_Lightweight_Intercity_Coach    :Kevyt alumiininen InterCity-vaunu
-str_coach_Gen3_Aluminium_Lightweight_Regional_Coach     :Kevyt alumiininen alueellinen matkustajavaunu
+str_coach_Gen3_Aluminium_Lightweight_Regional_Coach     :Kevyt alumiininen taajamaliikennevaunu
 str_coach_Gen3_Aluminium_Lightweight_Mail_Coach                 :Kevyt alumiininen postivaunu
 str_coach_Gen3_Gallery_Car                                                              :Lehterivaunu
 str_coach_Gen3_Mk1_Intercity_Coach                                              :Mk1 InterCity-vaunu
-str_coach_Gen3_Mk1_Regional_Coach                                               :Mk1 alueellinen matkustajavaunu
+str_coach_Gen3_Mk1_Regional_Coach                                               :Mk1 taajamaliikennevaunu
 str_coach_Gen3_Mk1_Mail_Coach                                                   :Mk1 postivaunu
 str_coach_Gen3_UIC_X_Intercity_Coach                                    :UIC-X InterCity-vaunu
 str_coach_Gen3_TEE_Intercity_Coach                                              :TEE InterCity-vaunu
-str_coach_Gen3_UIC_X_Regional_Coach                                     :UIC-X alueellinen matkustajavaunu
-str_coach_Gen3_Umbauwagen_Local_Coach                                   :Umbauwagen paikallismatkustajavaunu
-str_coach_Gen3_Doppelstockwagen_Local_Coach                     :Doppelstockwagen paikallismatkustajavaunu
+str_coach_Gen3_UIC_X_Regional_Coach                                     :UIC-X taajamaliikennevaunu
+str_coach_Gen3_Umbauwagen_Local_Coach                                   :Umbauwagen lähiliikennevaunu
+str_coach_Gen3_Doppelstockwagen_Local_Coach                     :Doppelstockwagen lähiliikennevaunu
 str_coach_Gen3_UIC_X_Mail_Coach                                                 :UIC-X postivaunu
 str_coach_Gen3_Indian_Intercity_Coach                                   :Intialainen InterCity-vaunu
-str_coach_Gen3_Indian_Local_Coach                                               :Intialainen paikallismatkustajavaunu
-str_coach_Gen3_Indian_Regional_Coach                                    :Intialainen alueellinen matkustajavaunu
+str_coach_Gen3_Indian_Local_Coach                                               :Intialainen lähiliikennevaunu
+str_coach_Gen3_Indian_Regional_Coach                                    :Intialainen taajamaliikennevaunu
 str_coach_Gen3_Indian_Mail_Coach                                                :Intialainen postivaunu
 str_coach_Gen4_Eurofima_Intercity_Coach                                 :Eurofima matkustajavaunu
 str_coach_Gen4_InterRegio_Coach                                                 :InterRegio matkustajavaunu
-str_coach_Gen4_Silberling_Commuter_Coach                                :Silberling paikallismatkustajavaunu
+str_coach_Gen4_Silberling_Commuter_Coach                                :Silberling lähiliikennevaunu
 str_coach_Gen4_Eurofima_Mail_Coach                                              :Eurofirma postivaunu
-str_coach_Gen4_Double_Decker_Coach                                              :Kaksikerroksinen matkustajavaunu
+str_coach_Gen4_Double_Decker_Coach                                              :Kaksikerrosvaunu
 str_coach_Gen4_Russian_Intercity_Coach                                  :Venäläinen InterCity-vaunu
-str_coach_Gen4_Russian_Regional_Coach                                   :Venäläinen alueellinen matkustajavaunu
+str_coach_Gen4_Russian_Regional_Coach                                   :Venäläinen taajamaliikennevaunu
 str_coach_Gen4_Russian_Mail_Coach                                               :Venäläinen postivaunu
 str_coach_Gen4_Superliner_Coach                                                 :Superliner matkustajavaunu
 str_coach_Gen4_Superliner_California                                    :Superliner California
-str_coach_Gen4_Amfleet_Regional_Coach                                   :Amfleet alueellinen matkustajavaunu
+str_coach_Gen4_Amfleet_Regional_Coach                                   :Amfleet taajamaliikennevaunu
 str_coach_Gen4_Amfleet_Intercity_Coach                                  :Amfleet InterCity-vaunu
-str_coach_Gen4_Comet_Commuter_Coach                                     :Comet paikallismatkustajavaunu
-str_coach_Gen4_Horizon_Regional_Coach                                   :Horizon alueellinen matkustajavaunu
+str_coach_Gen4_Comet_Commuter_Coach                                     :Comet lähiliikennevaunu
+str_coach_Gen4_Horizon_Regional_Coach                                   :Horizon taajamaliikennevaunu
 str_coach_Gen4_Horizon_Baggage_Coach                                    :Horizon matkatavaravaunu
 str_coach_Gen4_Bombardier_Bi_level                                              :Bombardier Bi-level
-str_coach_Gen5_High_Speed_Coach                                                 :Pikamatkustajavaunu
-str_coach_Gen5_Modern_Regional_Coach                                    :Moderni alueellinen matkustajavaunu
-str_coach_Gen5_Modern_Commuter_Coach                                    :Moderni paikallismatkustajavaunu
-str_coach_Gen5_Modern_Double_Decker_Coach                               :Moderni kaksikerroksinen matkustajavaunu
-str_coach_Gen5_High_Speed_Double_Decker_IC2000                  :Kaksikerroksinen pikamatkustajavaunu (IC2000)
+str_coach_Gen5_High_Speed_Coach                                                 :Suurnopeusvaunu
+str_coach_Gen5_Modern_Regional_Coach                                    :Moderni taajamaliikennevaunu
+str_coach_Gen5_Modern_Commuter_Coach                                    :Moderni lähiliikennevaunu
+str_coach_Gen5_Modern_Double_Decker_Coach                               :Moderni kaksikerrosvaunu
+str_coach_Gen5_High_Speed_Double_Decker_IC2000                  :Kaksikerroksinen suurnopeusvaunu (IC2000)
 str_coach_Gen5_High_Speed_Mail_Coach                                    :Pikapostivaunu
 str_coach_Gen5_Talgo_Pendular                                                   :Talgo Pendular matkustajavaunu
 str_coach_Gen5_Talgo_Pendular_Mail                                              :Talgo Pendular postivaunu
