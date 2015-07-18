@@ -637,6 +637,8 @@ str_mglv_wagon_powered          :Vagón Maglev (Motorizado)
 #Obsolete vehicles
 str_electric_Turkey_TCDD_E55200_obsolete                                                :TCDD E55200 (Obsoleto)
 str_diesel_Germany_DB_253_G2000_3_BB_obsolete                                   :DB 253 G2000-3 BB (Obsoleto)
+str_diesel_USA_Pennsylvania_Railroad_RF_16_Sharknose_obsolete   :PRR RF-16 'Sharknose' (Obsoleto)
+str_dmu_Slovakia_ZSSK_861_obsolete                                                              :ZSSK 861 (Obsoleto)
 
 #PURCHASE MENU TEXTS
 str_unit_wagon                          :Este vagón genérico SOLO se puede usar con MUs para crear trenes de la longitud deseada
