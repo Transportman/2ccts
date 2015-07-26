@@ -451,9 +451,11 @@ str_emu_Netherlands_NS_4800_HSA                         :NS 4800 HSA (EMU)
 str_emu_Italy_NTV_AGV_Duplex                            :NTV AGV Duplex (EMU)
 str_emu_Australia_Victorian_Railways_Swing_Door :Victorian Railways 'Swing Door' (EMU)
 str_emu_Poland_PKP_EW90 :PKP EW90 (EMU)
+str_emu_South_Africa_SAR_5M2 :SAR 5M2 (EMU)
 str_emu_Austria_OBB_4030 :OBB 4030 (EMU)
 str_emu_Italy_FS_ALe_801 :FS ALe 801 (EMU)
 str_emu_New_Zealand_NZR_EM_ET_Class :NZR EM/ET (EMU)
+str_emu_Netherlands_NS_Hispeed_V250_Albatros :NS Hispeed V250 'Albatros' (EMU)
 
 #Single Unit Metro
 str_mtro_USA_Brooklyn_Union_Gate_Car                                    :Brooklyn Union Gate Car (Unidad de Metro individual)
