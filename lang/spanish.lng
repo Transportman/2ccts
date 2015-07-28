@@ -62,6 +62,7 @@ str_rbs_Australia_Victorian_Railways_Motor_Car_3 :Victorian Railways Motor Car 3
 str_rbd_Australia_Victorian_Railways_AEC_RM1    :Victorian Railways AEC RM1 (Railbus diésel)
 str_rbd_Germany_DB_VT133                                                :DB VT133 (Railbus diésel)
 str_rbd_United_Kingdom_GWR_AEC_Railcar                  :GWR AEC Railcar (Railbus diésel)
+str_rbd_Austria_OBB_VT42                                                :OBB VT42 (Railbus diésel)
 str_rbd_New_Zealand_NZR_RM31                                    :NZR RM31 (Railbus diésel)
 str_rbd_Portugal_CP_0100                                                :CP 0100 (Railbus diésel)
 str_rbd_USA_Amtrak_Budd_RDC                                     :Amtrak Budd RDC (Railbus diésel)
@@ -455,6 +456,7 @@ str_emu_South_Africa_SAR_5M2 :SAR 5M2 (EMU)
 str_emu_Austria_OBB_4030 :OBB 4030 (EMU)
 str_emu_Italy_FS_ALe_801 :FS ALe 801 (EMU)
 str_emu_New_Zealand_NZR_EM_ET_Class :NZR EM/ET (EMU)
+str_emu_Macedonia_Macedonian_Railways_412 :Macedonian Railways 412 (EMU)
 str_emu_Netherlands_NS_Hispeed_V250_Albatros :NS Hispeed V250 'Albatros' (EMU)
 
 #Single Unit Metro
