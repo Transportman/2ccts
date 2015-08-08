@@ -3,6 +3,7 @@
 ##case n
 
 #Main grf title and description
+STR_GRF_NAME                    :{TITLE}
 STR_GRF_DESCRIPTION             :{SILVER}2cc Trajnoj de la Mondo en NML{}{}(c)2ccts{}Lisenso:GNUa Ĝenerala Publika Permesilo v2 aŭ pli alta.{}Vidu la README por detaloj.
 
 #General error messages
@@ -10,11 +11,16 @@ STR_GRF_DESCRIPTION             :{SILVER}2cc Trajnoj de la Mondo en NML{}{}(c)2c
 #parameter strings
 #cost parameters
 
+STR_PARAM_DIVIDE_16                 :16ono
+STR_PARAM_DIVIDE_4                  :4ona
 STR_PARAM_TIMES_2                   :2
 STR_PARAM_TIMES_4                   :4
+STR_PARAM_TIMES_8                   :8
 
 #region parameters
+STR_PARAM_CONCEPT                                               :Koncepto verturiloj (ne implementado ankoraŭ)
 STR_PARAM_CONCEPT_DESC                                  :Uzu koncepto verturiloj (ne implementado ankoraŭ)
+STR_PARAM_REGION_NORTHAMERICA                   :Nordameriko
 STR_PARAM_REGION_ASIA                                   :Azio
 STR_PARAM_REGION_EASTERNEUROPE_DESC             :Uzu veturilojn de orienta Eŭropo
 
@@ -23,51 +29,85 @@ STR_PARAM_REGION_EASTERNEUROPE_DESC             :Uzu veturilojn de orienta Eŭro
 
 #Railbus-diesel
 str_rbd_Australia_Victorian_Railways_AEC_RM1    :Viktoria Fervojoj AEC RM1 (Dizelo Relobuso)
+str_rbd_New_Zealand_NZR_RM31                                    :NZR RM31 (Dizelo Relobuso)
 str_rbd_Germany_OHE_520_GDT                                     :OHE 520 GDT (Dizelo Relobuso)
+str_rbd_Lithuania_Lithuanian_Railways_AR2               :Litova Fervojoj AR2 (Dizelo Relobuso)
 str_rbd_Germany_Saxon_DET_1_2 :Saxon DET 1-2 (Dizelo Relobuso)
+str_rbd_Norway_NSB_Cmb_17 :NSB Cmb 17 (Dizelo Relobuso)
 str_rbd_Portugal_CP_USD_9050 :CP USD 9050 (Dizelo Relobuso)
 str_rbd_USA_Amtrak_SPV_200 :Amtrak SPV-200 (Dizelo Relobuso)
+str_rbd_Finland_VR_Dm12 :VR Dm12 (Dizelo Relobuso)
 
 #Railbus-electric
+str_rbe_Italy_FS_ALe_840                        :FS ALe 840 (Elektra Relobuso)
+str_rbe_Japan_Choshi_DeHa_1000 :Choshi DeHa 1000 (Elektra Relobuso)
 str_rbe_Switzerland_MVR_Beh_2_4 :MVR Beh 2/4 (Elektra Relobuso)
 
 #Steam
+str_steam_Switzerland_SBB_Ec_2_5        :SBB Ec 2/5 (Vaporo)
 str_steam_Croatia_HZ_51                         :HZ 51 (Vaporo)
+str_steam_Italy_FS_880                          :FS 880 (Vaporo)
 str_steam_Netherlands_NS_6300           :NS 6300 (Vaporo)
 str_steam_Russia_RZD_9P                         :RZD 9P (Vaporo)
+str_steam_Canada_CPR_Royal_Hudson       :CPR 'Royal Hudson' (Vaporo)
 str_steam_USA_UP_4000_Big_Boy           :UP 4000 'Big Boy' (Vaporo)
+str_steam_Netherlands_NRS_11 :NRS 11 (Vaporo)
+str_steam_UK_GWR_Iron_DUKe_Class :GWR Iron Duke (Vaporo)
+str_steam_USA_Central_Pacific_4_2_2 :Centra Paca 4-2-2 (Vaporo)
 str_steam_Canada_Canadian_Pacific_374 :Kanada Paca 374 (Vaporo)
 str_steam_South_Africa_SAR_MD_Class :SAR MD (Vaporo)
+str_steam_Angola_South_West_African_2_8_0 :Suda Okcidenta Afrikano 2-8-0 (Vaporo)
+str_steam_UK_LNER_N7 :LNER N7 (Vaporo)
 str_steam_USA_Sierra_Railroad_28 :Sierra Fervojo 28 (Vaporo)
+str_steam_Japan_JNR_Class_E10 :JNR E10 (Vaporo)
+str_steam_Australia_Victorian_Railways_R_Class :Viktoria Fervojoj R (Vaporo)
 
 #Diesel
+str_diesel_Germany_DB_310_Kof_II                                                :DB 310 Kof II (Dizelo)
+str_diesel_USA_UP_EMD_E8                                                                :UP EMD E8 (Dizelo)
 str_diesel_Brazil_EFCB_ALCO_RS_3                                                :EFCB ALCO RS-3 (Dizelo)
+str_diesel_Netherlands_NS_600                                                   :NS 600 'Bakkie' (Dizelo)
+str_diesel_Canada_CNR_SW1200                                                    :CNR SW1200 (Dizelo)
+str_diesel_Canada_VIA_Rail_FP9                                                  :VIA Rail FP9 (Dizelo)
+str_diesel_Hungary_MAV_M44                                                              :MAV M44 (Dizelo)
+str_diesel_USA_Amtrak_FL9                                                               :Amtrak FL9 (Dizelo)
 str_diesel_Czech_Republic_CD_720_ChME2                                  :CD 720 ChME2 (Dizelo)
 str_diesel_Finland_VR_Dr12                                                              :VR Dr12 (Dizelo)
 str_diesel_Brazil_EFVM_ML4000                                                   :EFVM ML4000 (Dizelo)
+str_diesel_Belgium_NMBS_SNCB_62                                                 :NMBS/SNCB 62 (Dizelo)
 str_diesel_Russia_RZD_M62                                                               :RZD M62 (Dizelo)
 str_diesel_Canada_CNR_MLW_M420W                                                 :CNR MLW M420W (Dizelo)
 str_diesel_China_China_Railways_DFH3                                    :Ĉinio Fervojoj DFH3 (Dizelo)
 str_diesel_Russia_RZD_GT1                                                               :RZD GT1 (Dizelo)
 str_diesel_UK_LMS_7051_Diesel_Shunter :LMS 7051 Dizelo Puŝilo (Dizelo)
+str_diesel_UK_BR_Class_D3_7 :BR D3/7 (Dizelo)
 str_diesel_USA_PRR_FM_H_10_44 :PRR FM H-10-44 (Dizelo)
 str_diesel_Algeria_SNTF_Baldwin_DRS6_4_1000 :SNTF Baldwin DRS6-4-1000 (Dizelo)
 str_diesel_Sri_Lanka_Sri_Lanka_Railways_M2 :Sri Lanko Fervojoj M2 (Dizelo)
+str_diesel_Ireland_CIE_001 :CIE 001 (Dizelo)
 str_diesel_Zimbabwe_Zimbabwe_Railways_DH_1 :Zimbabvo fervojoj DH-1 (Dizelo)
 str_diesel_Italy_FS_D345 :FS D.345 (Dizelo)
 str_diesel_Norway_NSB_Di4 :NSB Di4 (Dizelo)
 str_diesel_Australia_Pacific_National_G_Class :Paca Natia G (Dizelo)
+str_diesel_Saudi_Arabia_Saudi_Railways_4000_EMD_SD70ACS :Saŭda Arabio Fervojoj 4000 EMD SD70ACS (Dizelo)
 str_diesel_USA_Metrolink_EMD_F59PH :Metroĉenero EMD F59PH (Dizelo)
+str_diesel_Spain_RENFE_Class_334 :RENFE 334 (Dizelo)
 
 #Electric
 str_electric_Switzerland_RhB_DE_2_2                     :RhB De 2/2 (Elektra)
+str_electric_USA_Pennsylvania_Railroad_FF_1     :PRR FF-1 (Elektra)
+str_electric_USA_Milwaukee_Road_EP_2_Bipolar    :Milvokio Vojo EP-2 Bipolar (Elektra)
 str_electric_Norway_NSB_EL10                                    :NSB EL10 (Elektra)
 str_electric_France_SNCF_BB_9004                                :SNCF BB 9004 (Elektra)
+str_electric_Austria_OBB_1044                                   :OBB 1044 (Elektra)
 str_electric_Austria_OBB_1063                                   :OBB 1063 (Elektra)
 str_electric_Kazakhstan_KTZ_KZ4A                                :KTZ KZ4A (Elektra)
+str_electric_Portugal_CP_2500                                   :CP 2500 (Elektra)
+str_electric_Italy_FS_E550 :FS E.550 (Elektra)
 str_electric_Australia_Victorian_Railways_E_Class :Viktoria Fervojoj E (Elektra)
 str_electric_Australia_NSWGR_71 :NSWGR 71 (Elektra)
 str_electric_Japan_JNR_EH10 :JNR EH10 (Elektra)
+str_electric_Italy_FS_E444 :FS E.444 (Elektra)
 str_electric_Russia_RZD_EP20 :RZD EP20 (Elektra)
 str_electric_Kazakhstan_KTZ_KZ8A :KTZ KZ8A (Electric)
 
@@ -75,16 +115,19 @@ str_electric_Kazakhstan_KTZ_KZ8A :KTZ KZ8A (Electric)
 str_dmu_Germany_DB_VT04_Flying_Hamburger        :DB VT04 'Alflugata Hamburgero' (DMU)
 str_dmu_Australia_NSWGR_Silver_City_Comet       :NSWGR 'Silver City Comet' (DMU)
 str_dmu_Russia_RZD_RA2                                          :RZD RA2 (DMU)
+str_dmu_Turkey_TCDD_MT_5500 :TCDD MT 5500 (DMU)
 str_dmu_Iran_RAI_141_Pacer :RAI 141 'Pacer' (DMU)
 str_dmu_Australia_NSWGR_Xplorer :TrainLink Xplorer (DMU)
 
 #EMU
 str_emu_Italy_FS_ETR300_Settebello                      :FS ETR.300 'Settebello' (EMU)
 str_emu_Czech_Republic_CD_680_Pendolino         :CD 680 'Pendolino' (EMU)
+str_emu_Luxembourg_CFL_2200_Coradia_Duplex      :CFL 2200 'Coradia Duplex' (EMU)
 str_emu_Germany_DB_403_ICE_3                            :DB 403 ICE-3 (EMU)
 str_emu_Switzerland_SBB_RABe_523_Flirt          :SBB RABe 523 'Flirt' (EMU)
 str_emu_Netherlands_NS_4800_HSA                         :NS 4800 HSA (EMU)
 str_emu_USA_Erie_Lackawanna_MU_Cars :Erie Lackawanna MU Aŭtoj (EMU)
+str_emu_South_Africa_SAR_5M2 :SAR 5M2 (EMU)
 str_emu_Austria_OBB_4030 :OBB 4030 (EMU)
 
 #Single Unit Metro
@@ -96,17 +139,28 @@ str_mtro_Germany_DB_ET171                                               :DB ET17
 str_mtro_France_Paris_M2_840                                    :Parizo M2 840 (Metro)
 str_mtro_Germany_Munchen_MVG_A2                                 :Munchen MVG A2 (Metro)
 str_mtro_USA_NY_R44                                                     :Novjorko R44 (Metro)
+str_mtro_Netherlands_Amsterdam_Type_M1                  :Amsterdamo M1 (Metro)
 str_mtro_Japan_Tokyo_S01                                                :Tokio S01 (Metro)
+str_mtro_Egypt_Cairo_1987_Stock                                 :Kairo 1987 Defaŭlto (Metro)
+str_mtro_Russia_Moscow_81_7175M                                 :Moskvo 81-717.5M (Metro)
+str_mtro_USA_LA_A650                                                    :LA A650 (Metro)
+str_mtro_Singapore_Singapore_C151A                              :Singapuro C151A (Metro)
+str_mtro_USA_Washington_7000                                    :Vaŝingtono 7000 (Metro)
 str_mtro_Germany_Berlin_U_Bahn_A_I :Berlino U-Bahn A I (Metro)
 
 #Maglev
 
 #wagons
+str_wagon_Gen2_Boxcar_Type2                             :2a Gen Ligna Ŝarĝo Aŭto (Tipo 2)
 str_wagon_Gen2_Silo                                     :2a Gen Silo
+str_wagon_Gen3_Flat_Wagon                               :3a Gen Plata Vagono
+str_wagon_Gen3_Boxcar_Type1                     :3a Gen Ligna Ŝarĝo Aŭto (Tipo 1)
 str_wagon_Gen3_Silo_Type1                               :3a Gen Silo (Tipo 1)
 str_wagon_Gen4_Boxcar_Type2                             :4a Gen Ŝarĝo aŭto (Tipo 2)
 str_wagon_Gen4_Hopper_Type2                             :4a Gen Memo-efluado Ujo (Tipo 2)
+str_wagon_Gen4_Centerbeam                               :4a Gen Centratrabo Plata Ujo
 str_wagon_Gen5_Heavy_Flatcar                    :5a Gen Peza Plata Ujo
+str_wagon_Gen5_Silo_Type2                               :5th Gen Silo (Tipo 2)
 str_wagon_Gen5_Container_Carrier                :5a Gen Ujo Portilo
 str_wagon_Gen5_Centerbeam                               :5a Gen Centratrabo Plata Ujo
 
@@ -116,18 +170,24 @@ str_wagon_Service_Car_Type2                             :Servilo Aŭto (Tipo 2)
 str_coach_Gen1_Clerestory_Mail_Coach                                    :Klerestorio Poŝto Kaleŝo
 str_coach_Gen2_Heavyweight_Intercity_Coach                              :Forta Interurba Kaleŝo
 str_coach_Gen2_Steel_Compartment_Coach                                  :Ŝtalo Kupeo Kaleŝo
+str_coach_Gen2_Steel_3_axle_Compartment_Coach                   :Ŝtalo 3-akso Kupeo Kaleŝo
+str_coach_Gen2_Steel_3_axle_Mail_Coach                                  :Ŝtalo 3-akso Poŝto Kaleŝo
 str_coach_Gen3_Aluminium_Lightweight_Regional_Coach     :Aluminio Malpeza Regiono Kaleŝo
 str_coach_Gen3_Indian_Intercity_Coach                                   :Hinda Interurba Kaleŝo
+str_coach_Gen4_Silberling_Commuter_Coach                                :'Silberling' Komutila Kaleŝo
 str_coach_Gen4_Russian_Mail_Coach                                               :Rusa Poŝto Kaleŝo
 str_coach_Gen4_Superliner_Coach                                                 :Ekskursokaleŝo
 str_coach_Gen4_Horizon_Regional_Coach                                   :Horizon Regiono Kaleŝo
 str_coach_Gen4_Horizon_Baggage_Coach                                    :Horizon Bagaĝo Kaleŝo
+str_coach_Gen5_High_Speed_Coach                                                 :Altrapida Kaleŝo
 str_coach_Gen5_Talgo_Pendular                                                   :Talgo Pendular
+str_coach_Gen6_Speedmail_Coach                                                  :Altrapida Poŝto Kaleŝo
 
 #special wagons
 str_mglv_wagon_powered          :Magnetatrajno Unuo Vagono (Funkciigata)
 
 #Obsolete vehicles
+str_diesel_Germany_DB_253_G2000_3_BB_obsolete                                   :DB 253 G2000-3 BB (Malnoviĝinta)
 
 #PURCHASE MENU TEXTS
 
