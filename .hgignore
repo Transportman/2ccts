@@ -23,6 +23,7 @@ Makefile.local
 
 # NML intermediate files
 parsetab.py
+.nmlcache/*
 
 # Dependency files:
 .version
