@@ -113,10 +113,23 @@ template template_2cc_L10(x, y) {
     [x+9  , y, 25, 21, -18, -13]
     [x+36 , y, 40, 16, -23, -13]
     [x+77 , y, 25, 21,  -11, -14]
-    [x+104 , y,  8, 29,  -3, -15]
-    [x+113 , y, 25, 21, -13, -14]
+    [x+104, y,  8, 29,  -3, -15]
+    [x+113, y, 25, 21, -13, -14]
     [x+140, y, 40, 16, -16, -12]
     [x+181, y, 25, 21,  -6, -13]
+}
+
+//Special template for vehicles with length 12
+template template_2cc_L12(x, y) {
+    //[left_x, upper_y, width, height, offset_x, offset_y]
+    [x    , y,  8, 36,  -3, -15]
+    [x+9  , y, 29, 25, -22, -14]
+    [x+40 , y, 48, 17, -32, -13]
+    [x+89 , y, 29, 25,  -14, -17]
+    [x+120, y,  8, 36,  -3, -20]
+    [x+129, y, 29, 25, -13, -18]
+    [x+160, y, 48, 17, -16, -12]
+    [x+209, y, 29, 25,  -6, -13]
 }
 
 //Special template for empty spritesets (vehicles with length 10 use this)
