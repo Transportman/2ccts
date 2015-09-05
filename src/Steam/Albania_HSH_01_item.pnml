@@ -13,7 +13,7 @@
 item(FEAT_TRAINS, item_steam_Albania_HSH_01) {
     property {
         name: string(str_steam_Albania_HSH_01);
-        REGION(EASTERNEUROPE,NOREGION,NOCONCEPT)
+        REGION(SOUTHERNEUROPE,NOREGION,NOCONCEPT)
 		
         introduction_date: date(1951,1,1);
         model_life: 25;
