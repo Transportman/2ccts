@@ -36,7 +36,7 @@ item(FEAT_TRAINS, item_diesel_Belarus_BCh_2TE10M) {
         track_type: RAIL;
 		ai_special_flag: AI_FLAG_PASSENGER;
         running_cost_base: RUNNING_COST_STEAM;
-        engine_class: ENGINE_CLASS_STEAM;
+        engine_class: ENGINE_CLASS_DIESEL;
         visual_effect_and_powered: visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
 
         sprite_id: SPRITE_ID_NEW_TRAIN;
