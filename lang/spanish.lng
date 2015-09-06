@@ -279,6 +279,7 @@ str_diesel_Italy_ACT_D200 :ACT D200 (Diésel)
 str_diesel_Canada_GO_Transit_MP40PH_3C :GO Transit MP40PH-3C (Diésel)
 str_diesel_Spain_RENFE_Class_334 :RENFE 334 (Diésel)
 str_diesel_Indonesia_Indonesia_Railways_CC300 :Indonesia Railways CC300 (Diésel)
+str_diesel_Argentina_SOFSE_3193 :SOFSE 319.3 (Diésel)
 
 #Electric
 str_electric_Switzerland_RhB_DE_2_2                     :RhB De 2/2 (Eléctrico)
@@ -369,6 +370,8 @@ str_electric_Czech_Republic_CD_380 :CD 380 (Eléctrico)
 str_electric_China_China_Railways_HXD1D :China Railways HXD1D (Eléctrico)
 str_electric_South_Africa_SAR_20E :SAR 20E (Eléctrico)
 str_electric_Kazakhstan_KTZ_KZ8A :KTZ KZ8A (Eléctrico)
+str_electric_Spain_RENFE_250 :RENFE 250 (Eléctrico)
+str_electric_Poland_PKP_EP09 :PKP EP09 (Eléctrico)
 
 #DMU
 str_dmu_Germany_DB_VT04_Flying_Hamburger        :DB VT04 'Flying Hamburger' (DMU)
