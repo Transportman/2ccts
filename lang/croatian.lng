@@ -198,6 +198,7 @@ str_steam_Australia_Victorian_Railways_R_Class :Victorian Railways R (parna loko
 str_steam_Germany_DB_9977 :DB 99.77 (parna lokomotiva)
 str_steam_Germany_DB_BR18 :DB BR18 (parna lokomotiva)
 
+
 #Diesel
 str_diesel_Germany_DB_310_Kof_II                                                :DB 310 Kof II (dizel lokomotiva)
 str_diesel_USA_CNJ_ALCo_GE_IR_Boxcab                                    :CNJ ALCo-GE-IR Boxcab (dizel lokomotiva)

@@ -77,6 +77,7 @@ str_steam_Germany_DB_52                         :DB 52 (parna lokomotiva)
 str_steam_UK_LNER_A1_Peppercorn         :LNER A1 'Peppercorn' (parna lokomotiva)
 str_steam_South_Africa_SAR_25           :SAR 25 (parna lokomotiva)
 
+
 #Diesel
 str_diesel_Germany_DB_310_Kof_II                                                :DB 310 Kof II (dizel lokomotiva)
 str_diesel_USA_CNJ_ALCo_GE_IR_Boxcab                                    :CNJ ALCo-GE-IR Boxcab (dizel lokomotiva)

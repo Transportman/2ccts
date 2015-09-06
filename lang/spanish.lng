@@ -180,6 +180,7 @@ str_steam_UK_GWR_1600_Class :GWR 1600 (Vapor)
 str_steam_Germany_DB_9977 :DB 99.77 (Vapor)
 str_steam_Germany_DB_BR18 :DB BR18 (Vapor)
 
+
 #Diesel
 str_diesel_Germany_DB_310_Kof_II                                                :DB 310 Kof II (Diésel)
 str_diesel_USA_CNJ_ALCo_GE_IR_Boxcab                                    :CNJ ALCo-GE-IR Boxcab (Diésel)
