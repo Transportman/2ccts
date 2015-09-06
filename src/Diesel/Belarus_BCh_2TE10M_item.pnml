@@ -13,7 +13,7 @@
 item(FEAT_TRAINS, item_diesel_Belarus_BCh_2TE10M) {
     property {
         name: string(str_diesel_Belarus_BCh_2TE10M);
-        REGION(WESTERNEUROPE,NOREGION,NOCONCEPT)
+        REGION(EASTERNEUROPE,NOREGION,NOCONCEPT)
 		
         introduction_date: date(1981,1,1);
         model_life: 25;
