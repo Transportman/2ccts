@@ -179,6 +179,7 @@ str_steam_Japan_JNR_Class_E10 :JNR E10 (Vapor)
 str_steam_UK_GWR_1600_Class :GWR 1600 (Vapor)
 str_steam_Germany_DB_9977 :DB 99.77 (Vapor)
 str_steam_Germany_DB_BR18 :DB BR18 (Vapor)
+str_steam_Russia_RZD_U :RZD U (Vapor)
 
 
 #Diesel
@@ -279,6 +280,7 @@ str_diesel_Italy_ACT_D200 :ACT D200 (Diésel)
 str_diesel_Canada_GO_Transit_MP40PH_3C :GO Transit MP40PH-3C (Diésel)
 str_diesel_Spain_RENFE_Class_334 :RENFE 334 (Diésel)
 str_diesel_Indonesia_Indonesia_Railways_CC300 :Indonesia Railways CC300 (Diésel)
+str_diesel_Brazil_EE_VFFLB :EE VFFLB (Diésel)
 str_diesel_Argentina_SOFSE_3193 :SOFSE 319.3 (Diésel)
 
 #Electric
