@@ -13,7 +13,7 @@
 item(FEAT_TRAINS, item_wagon_Gen1_Boxcar) {
     property {
         name: string(str_wagon_Gen1_Boxcar);
-        REGION(REGIONTYPE1,NOREGION,NOCONCEPT)
+        REGION(ALLREGION,NOREGION,NOCONCEPT)
 		
         introduction_date: date(1660,1,1);
         model_life: 250;
