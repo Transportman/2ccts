@@ -284,6 +284,7 @@ str_diesel_Indonesia_Indonesia_Railways_CC300 :Indonesia Railways CC300 (Diésel
 str_diesel_Brazil_EE_VFFLB :EE VFFLB (Diésel)
 str_diesel_Argentina_SOFSE_3193 :SOFSE 319.3 (Diésel)
 str_diesel_Morocco_ONCF_DF_100 :ONCF DF 100 (Diésel)
+str_diesel_Belarus_BCh_2TE10M :BCh 2TE10M (Diésel)
 
 #Electric
 str_electric_Switzerland_RhB_DE_2_2                     :RhB De 2/2 (Eléctrico)
@@ -375,6 +376,7 @@ str_electric_China_China_Railways_HXD1D :China Railways HXD1D (Eléctrico)
 str_electric_South_Africa_SAR_20E :SAR 20E (Eléctrico)
 str_electric_Kazakhstan_KTZ_KZ8A :KTZ KZ8A (Eléctrico)
 str_electric_Spain_RENFE_250 :RENFE 250 (Eléctrico)
+str_electric_Italy_FS_E491 :FS E.491 (Eléctrico)
 str_electric_Poland_PKP_EP09 :PKP EP09 (Eléctrico)
 
 #DMU
