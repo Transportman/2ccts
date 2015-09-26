@@ -7,6 +7,7 @@ STR_GRF_DESCRIPTION             :{SILVER}2cc Treinen van de Wereld in NML{}{}(c)
 STR_GRF_URL             :https://dev.openttdcoop.org/projects/2ccts
 
 #General error messages
+str_error_region                                        :Geen regio's gekozen, {STRING} is uitgeschakeld
 
 #parameter strings
 #cost parameters
@@ -26,6 +27,25 @@ STR_PARAM_TIMES_8                   :8
 STR_PARAM_TIMES_16                  :16
 
 #region parameters
+STR_PARAM_CONCEPT                                               :Conceptvoertuigen (toekomstige functie, nog niet beschikbaar)
+STR_PARAM_CONCEPT_DESC                                  :Gebruik conceptvoertuigen (deze parameter heeft op dit moment geen functie)
+STR_PARAM_REGION_AFRICA                                 :Afrika
+STR_PARAM_REGION_AFRICA_DESC                    :Gebruik voertuigen uit Afrika
+STR_PARAM_REGION_NORTHAMERICA                   :Noord-Amerika
+STR_PARAM_REGION_NORTHAMERICA_DESC              :Gebruik voertuigen uit Noord-Amerika
+STR_PARAM_REGION_SOUTHAMERICA                   :Zuid-Amerika
+STR_PARAM_REGION_SOUTHAMERICA_DESC              :Gebruik voertuigen uit Zuid-Amerika
+STR_PARAM_REGION_ASIA                                   :Azië
+STR_PARAM_REGION_NORTHERNEUROPE                 :Noord-Europa
+STR_PARAM_REGION_NORTHERNEUROPE_DESC    :Gebruik voertuigen uit Noord-Europa
+STR_PARAM_REGION_EASTERNEUROPE                  :Oost-Europa
+STR_PARAM_REGION_EASTERNEUROPE_DESC             :Gebruik voertuigen uit Oost-Europa
+STR_PARAM_REGION_SOUTHERNEUROPE                 :Zuid-Europa
+STR_PARAM_REGION_SOUTHERNEUROPE_DESC    :Gebruik voertuigen uit Zuid-Europa
+STR_PARAM_REGION_WESTERNEUROPE                  :West-Europa
+STR_PARAM_REGION_WESTERNEUROPE_DESC             :Gebruik voertuigen uit West-Europa
+STR_PARAM_REGION_OCEANIA                                :Oceanië
+STR_PARAM_REGION_OCEANIA_DESC                   :Gebruik voertuigen uit Oceanië
 
 #VEHICLE NAMES
 #Railbus-steam
@@ -51,6 +71,10 @@ str_rbd_Czech_Republic_CD_809                                   :CD 809 (Diesel 
 str_rbd_Germany_DB_650_Regio_Shuttle                    :DB 650 'Regio Shuttle' (Diesel Railbus)
 str_rbd_Germany_DB_670                                                  :DB 670 (Diesel Railbus)
 str_rbd_Lithuania_Lithuanian_Railways_AR2               :Lithuanian Railways AR2 (Diesel Railbus)
+str_rbd_Austria_kkStB_19 :KkStB 19 (Diesel Railbus)
+str_rbd_Netherlands_NS_omBC :NS omBC 2900 (Diesel Railbus)
+str_rbd_Japan_JR_KiHa_E120 :JR KiHa E120 (Diesel Railbus)
+str_rbd_Czech_Republic_CD_840 :CD 840 (Diesel Railbus)
 
 #Railbus-electric
 str_rbe_Switzerland_SBB_Cfe_3_3         :SBB Cfe 3/3 (Elektrische Railbus)
@@ -58,6 +82,8 @@ str_rbe_Morocco_ONCFM_ZAB1000           :ONCFM ZAB1000 (Elektrische Railbus)
 str_rbe_Germany_DB_ET85                         :DB ET85 (Elektrische Railbus)
 str_rbe_Germany_DB_ET479                        :DB ET479 (Elektrische Railbus)
 str_rbe_Italy_FS_ALe_840                        :FS ALe 840 (Elektrische Railbus)
+str_rbe_Switzerland_TPC_BVB_Be_2_2 :TPC BVB Be 2/2 (Elektrische Railbus)
+str_rbe_Spain_Ferrocarril_de_Soller_1_3 :Ferrocarril de Soller 1-3 (Elektrische Railbus)
 
 #Steam
 str_steam_Belgium_Le_Belge                      :Le Belge (Stoom)
@@ -95,6 +121,8 @@ str_steam_Italy_FS_895                          :FS 895 (Stoom)
 str_steam_Poland_PKP_Okz32                      :PKP Okz32 (Stoom)
 str_steam_Switzerland_SBB_C_5_6         :SBB C 5/6 (Stoom)
 str_steam_USA_UP_4000_Big_Boy           :UP 4000 'Big Boy' (Stoom)
+str_steam_Japan_JNR_Class_E10 :JNR E10 (Stoom)
+str_steam_South_Africa_Harbour_Board_EL_0_4_0 :Harbour Board EL 0-4-0 (Stoom)
 
 
 #Diesel
@@ -152,10 +180,14 @@ str_diesel_UK_BR_67                                                             
 str_diesel_Iran_RAI_DE43CA_Prima                                                :RAI DE43CA 'Prima' (Diesel)
 str_diesel_Ukraine_UZ_TEP150                                                    :UZ TEP150 (Diesel)
 str_diesel_China_China_Railways_HXN5                                    :China Railways HXN5 (Diesel)
-str_diesel_Germany_DB_260_Gravita_10BB                                  :DB 260 Gravita 10BB (Diesel)
+str_diesel_Germany_DB_260_Gravita_10BB                                  :DB 260 'Gravita' 10BB (Diesel)
 str_diesel_Russia_RZD_GT1                                                               :RZD GT1 (Diesel)
 str_diesel_China_MTR_8000                                                               :MTR 8000 (Diesel)
 str_diesel_Germany_HVLE_V490                                                    :HVLE V490 (Diesel)
+str_diesel_UK_BR_Class_D3_7 :BR D3/7 (Diesel)
+str_diesel_Australia_Queensland_Railways_DL_Class :Queensland Railways DL (Diesel)
+str_diesel_Brazil_EE_VFFLB :EE VFFLB (Diesel)
+str_diesel_South_Africa_SAR_DS :SAR DS (Diesel)
 
 #Electric
 str_electric_Switzerland_RhB_DE_2_2                     :RhB DE 2/2 (Elektrisch)
@@ -215,6 +247,7 @@ str_electric_France_SNCF_CC_40100                               :SNCF CC 40100 (
 str_electric_India_Indian_Railways_WAP_4                :Indian Railways WAP-4 (Elektrisch)
 str_electric_India_Indian_Railways_WCG_1                :Indian Railways WCG-1 (Elektrisch)
 str_electric_Portugal_CP_2500                                   :CP 2500 (Elektrisch)
+str_electric_UK_NER_EE1 :NER EE1 (Electrisch)
 
 #DMU
 str_dmu_Germany_DB_VT04_Flying_Hamburger        :DB VT04 'Flying Hamburger' (DMU)
@@ -326,15 +359,21 @@ str_mtro_Japan_Osaka_30000                                              :Osaka 3
 str_mtro_Singapore_Singapore_C151A                              :Singapore C151A (Metro)
 str_mtro_USA_Washington_7000                                    :Washington 7000 (Metro)
 str_mtro_Greece_Thessaloniki_2014                               :Thessaloniki 2014 (Metro)
+str_mtro_USA_NY_Hedley_Hi_V :New York Hedley Hi-V (Metro)
 
 #Maglev
 str_mglv_China_Transrapid       :Shanghai Transrapid (Maglev)
 str_mglv_Japan_MLX01_901        :JR MLX01-901 (Maglev)
 
 #wagons
+str_wagon_Gen1_Open_Wagon                               :1ste Generatie Houten Open Wagen
 
 
 #coaches
+str_coach_Gen1_Wooden_2_axle_Regional_Coach                     :Houten 2-asser Regionaal Rijtuig
+str_coach_Gen1_Clerestory_Mail_Coach                                    :Postwagen met Bovenramen
+str_coach_Gen3_UIC_X_Regional_Coach                                     :UIC-X Regionaal Rijtuig
+str_coach_Gen5_High_Speed_Double_Decker_IC2000                  :Hogesnelheid Dubbeldekker (IC2000)
 
 #special wagons
 
