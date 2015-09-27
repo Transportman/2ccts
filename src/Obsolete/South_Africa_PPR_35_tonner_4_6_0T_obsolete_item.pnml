@@ -13,7 +13,7 @@
 item(FEAT_TRAINS, item_steam_South_Africa_PPR_35_tonner_4_6_0T_obsolete) {
     property {
         name: string(str_steam_South_Africa_PPR_35_tonner_4_6_0T_obsolete);
-        REGION(AFRICA,NOREGION,NOCONCEPT)
+        REGION(NOREGION,NOREGION,NOCONCEPT)
 		
         introduction_date: date(1887,1,1);
         model_life: 25;

@@ -13,7 +13,7 @@
 item(FEAT_TRAINS, item_dmu_Slovakia_ZSSK_861_obsolete) {
     property {
         name: string(str_dmu_Slovakia_ZSSK_861_obsolete);
-        REGION(EASTERNEUROPE,NOREGION,NOCONCEPT)
+        REGION(NOREGION,NOREGION,NOCONCEPT)
         
         introduction_date: date(2011,1,1);
         model_life: VEHICLE_NEVER_EXPIRES;
