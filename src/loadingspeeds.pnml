@@ -8,19 +8,21 @@
 
 //this file lists all vehicle loading speeds
 //it is referenced from the vehicle item definitions.
-//any changes to cargo refits can be done centrally from this file.
+//any changes to loading speeds can be done centrally from this file.
+isUltraSpeed = param_loadingspeed == 3; // 4 means ultra fast
+#define LOADINGSPEED(basespeed) (param_loadingspeed == 0) ? basespeed/2 : (param_loadingspeed == 2) ? basespeed*2 : basespeed
 
 //No cargo vehicles
 #define LOADINGSPEEDDEF_NONE loading_speed: 0;
 
 //Intercity vehicles
-#define LOADINGSPEEDDEF_INTERCITY loading_speed: 8;
+#define LOADINGSPEEDDEF_INTERCITY loading_speed: isUltraSpeed ? 255 : LOADINGSPEED(16);
 
 //Commuter vehicles
-#define LOADINGSPEEDDEF_COMMUTER loading_speed: 20;
+#define LOADINGSPEEDDEF_COMMUTER loading_speed: isUltraSpeed ? 255 : LOADINGSPEED(40);
 
 //Metro vehicles
-#define LOADINGSPEEDDEF_METRO loading_speed: 60;
+#define LOADINGSPEEDDEF_METRO loading_speed: isUltraSpeed ? 255 : LOADINGSPEED(120);
 
 //Cargo vehicles
-#define LOADINGSPEEDDEF_CARGO loading_speed: 10;
+#define LOADINGSPEEDDEF_CARGO loading_speed: isUltraSpeed ? 255 : LOADINGSPEED(20);

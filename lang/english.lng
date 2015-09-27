@@ -48,6 +48,14 @@ STR_PARAM_REGION_WESTERNEUROPE_DESC		:Use vehicles from Western Europe
 STR_PARAM_REGION_OCEANIA				:Oceania
 STR_PARAM_REGION_OCEANIA_DESC			:Use vehicles from Oceania
 
+#loading speed parameter
+STR_PARAM_LOADINGSPEED					:Loading speed
+STR_PARAM_LOADINGSPEED_DESC				:Set the loading speed of this set
+STR_PARAM_LOADINGSPEED_SLOW				:Slow
+STR_PARAM_LOADINGSPEED_NORMAL			:Normal (default)
+STR_PARAM_LOADINGSPEED_FAST				:Fast
+STR_PARAM_LOADINGSPEED_ULTRA			:As fast as possible
+
 #VEHICLE NAMES
 #Railbus-steam
 str_rbs_Austria_NOLB_1		:NOLB 1 (Steam Railbus)

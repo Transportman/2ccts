@@ -135,7 +135,23 @@ grf {
 			desc:	string(STR_PARAM_REGION_OCEANIA_DESC);
 			def_value: 1;
 		}
-	}	
+	}
+	param {
+		param_loadingspeed {
+				type:	int;
+				name:	string(STR_PARAM_LOADINGSPEED);
+				desc:	string(STR_PARAM_LOADINGSPEED_DESC);
+				min_value: 0;
+				max_value: 3;
+				def_value: 1;
+				names: {
+							0: string(STR_PARAM_LOADINGSPEED_SLOW);
+							1: string(STR_PARAM_LOADINGSPEED_NORMAL);
+							2: string(STR_PARAM_LOADINGSPEED_FAST);
+							3: string(STR_PARAM_LOADINGSPEED_ULTRA);
+				};
+		}
+	}
 }
 
 //disable original rail vehicles
