@@ -31,6 +31,8 @@ STR_PARAM_CONCEPT                                               :콘셉트 차�
 STR_PARAM_CONCEPT_DESC                                  :콘셉트 차량을 사용합니다. (현재 아무 기능도 하지 않음)
 STR_PARAM_REGION_OCEANIA                                :오세아니아
 
+#loading speed parameter
+
 #VEHICLE NAMES
 #Railbus-steam
 str_rbs_Austria_NOLB_1          :NOLB 1 (증기 레일버스)

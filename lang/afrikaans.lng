@@ -48,6 +48,8 @@ STR_PARAM_REGION_WESTERNEUROPE_DESC             :Gebruik voertuie van Wes Europa
 STR_PARAM_REGION_OCEANIA                                :Oseanië
 STR_PARAM_REGION_OCEANIA_DESC                   :Gebruik voertuie van Oseanië
 
+#loading speed parameter
+
 #VEHICLE NAMES
 #Railbus-steam
 str_rbs_Austria_NOLB_1          :NOLB 1 (Stoom Spoorbus)

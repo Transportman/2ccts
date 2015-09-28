@@ -44,6 +44,8 @@ STR_PARAM_REGION_EASTERNEUROPE_DESC             :Использовать пое
 STR_PARAM_REGION_SOUTHERNEUROPE                 :Южная Европа
 STR_PARAM_REGION_OCEANIA                                :Океания
 
+#loading speed parameter
+
 #VEHICLE NAMES
 #Railbus-steam
 str_rbs_Austria_NOLB_1          :NOLB 1 (Паровая Моториса)

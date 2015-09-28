@@ -49,6 +49,8 @@ STR_PARAM_REGION_WESTERNEUROPE_DESC             :Benotz Gefierer aus Westeuropa
 STR_PARAM_REGION_OCEANIA                                :Ozeanien
 STR_PARAM_REGION_OCEANIA_DESC                   :Benotz Gefierer aus Ozeanien
 
+#loading speed parameter
+
 #VEHICLE NAMES
 #Railbus-steam
 str_rbs_Austria_NOLB_1          :NOLB 1 (Dampschinnebus)

@@ -49,6 +49,8 @@ STR_PARAM_REGION_WESTERNEUROPE_DESC             :Käytä Länsi-Eurooppalaisia a
 STR_PARAM_REGION_OCEANIA                                :Oseania
 STR_PARAM_REGION_OCEANIA_DESC                   :Käytä Oseanialaisia ajoneuvoja
 
+#loading speed parameter
+
 #VEHICLE NAMES
 #Railbus-steam
 str_rbs_Austria_NOLB_1          :NOLB 1 (Höyrykiskobussi)

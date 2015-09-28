@@ -50,6 +50,8 @@ STR_PARAM_REGION_WESTERNEUROPE_DESC             :Emprar vehicles d'Europa occide
 STR_PARAM_REGION_OCEANIA                                :Oceania
 STR_PARAM_REGION_OCEANIA_DESC                   :Emprar vehicles d'Oceania
 
+#loading speed parameter
+
 #VEHICLE NAMES
 #Railbus-steam
 str_rbs_Austria_NOLB_1          :NOLB 1 (Ferrobús a Vapor)

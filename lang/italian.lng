@@ -51,6 +51,8 @@ STR_PARAM_REGION_WESTERNEUROPE_DESC             :Attiva i veicoli dell'Europa de
 STR_PARAM_REGION_OCEANIA                                :Oceania
 STR_PARAM_REGION_OCEANIA_DESC                   :Attiva i veicoli dell'Oceania
 
+#loading speed parameter
+
 #VEHICLE NAMES
 #Railbus-steam
 str_rbs_Austria_NOLB_1          :NOLB 1 (automotrice a vapore)

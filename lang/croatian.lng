@@ -51,6 +51,14 @@ STR_PARAM_REGION_WESTERNEUROPE_DESC             :Koristite vozila iz zapadne Eur
 STR_PARAM_REGION_OCEANIA                                :Oceanija
 STR_PARAM_REGION_OCEANIA_DESC                   :Koristite vozila iz Oceanije
 
+#loading speed parameter
+STR_PARAM_LOADINGSPEED                                  :Brzina ukrcaja
+STR_PARAM_LOADINGSPEED_DESC                             :Odredite brzinu ukrcaja vozila u ovom setu
+STR_PARAM_LOADINGSPEED_SLOW                             :Sporo
+STR_PARAM_LOADINGSPEED_NORMAL                   :Normalno (osnovna postavka)
+STR_PARAM_LOADINGSPEED_FAST                             :Brzo
+STR_PARAM_LOADINGSPEED_ULTRA                    :Najbrže moguće
+
 #VEHICLE NAMES
 #Railbus-steam
 str_rbs_Austria_NOLB_1          :NOLB 1 (parni šinobus)

@@ -24,6 +24,8 @@ STR_PARAM_REGION_NORTHAMERICA                   :Nordameriko
 STR_PARAM_REGION_ASIA                                   :Azio
 STR_PARAM_REGION_EASTERNEUROPE_DESC             :Uzu veturilojn de orienta Eŭropo
 
+#loading speed parameter
+
 #VEHICLE NAMES
 #Railbus-steam
 

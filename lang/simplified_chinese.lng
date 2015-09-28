@@ -49,6 +49,8 @@ STR_PARAM_REGION_WESTERNEUROPE_DESC             :使用西欧车辆
 STR_PARAM_REGION_OCEANIA                                :大洋洲
 STR_PARAM_REGION_OCEANIA_DESC                   :使用大洋洲车辆
 
+#loading speed parameter
+
 #VEHICLE NAMES
 #Railbus-steam
 str_rbs_Austria_NOLB_1          :下奥地利铁路NOLB 1 (蒸汽铁路巴士)
