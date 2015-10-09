@@ -50,6 +50,7 @@ STR_PARAM_REGION_OCEANIA                                :Oceanía
 STR_PARAM_REGION_OCEANIA_DESC                   :Usar vehículos de Oceanía
 
 #loading speed parameter
+STR_PARAM_LOADINGSPEED                                  :Velocidad de carga
 STR_PARAM_LOADINGSPEED_ULTRA                    :Tan rápido como sea posible
 
 #VEHICLE NAMES
@@ -184,6 +185,7 @@ str_steam_Germany_DB_9977 :DB 99.77 (Vapor)
 str_steam_Germany_DB_BR18 :DB BR18 (Vapor)
 str_steam_Russia_RZD_U :RZD U (Vapor)
 str_steam_Czech_Republic_CD_5341 :CD 534.1 (Vapor)
+str_steam_Croatia_HZ_11 :HZ 11 (Vapor)
 str_steam_Austria_KKStB_310 :KKStB 310 (Vapor)
 
 
