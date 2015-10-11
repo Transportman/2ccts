@@ -52,6 +52,7 @@ STR_PARAM_REGION_OCEANIA_DESC                   :Usar vehículos de Oceanía
 #loading speed parameter
 STR_PARAM_LOADINGSPEED                                  :Velocidad de carga
 STR_PARAM_LOADINGSPEED_SLOW                             :Lento
+STR_PARAM_LOADINGSPEED_NORMAL                   :Normal (por defecto)
 STR_PARAM_LOADINGSPEED_ULTRA                    :Tan rápido como sea posible
 
 #VEHICLE NAMES
@@ -184,6 +185,7 @@ str_steam_Japan_JNR_Class_E10 :JNR E10 (Vapor)
 str_steam_UK_GWR_1600_Class :GWR 1600 (Vapor)
 str_steam_Germany_DB_9977 :DB 99.77 (Vapor)
 str_steam_Germany_DB_BR18 :DB BR18 (Vapor)
+str_steam_South_Africa_SAR_GMA_4_8_2_2_8_4 :SAR GMA 4-8-2+2-8-4 (Vapor)
 str_steam_Russia_RZD_U :RZD U (Vapor)
 str_steam_Israel_Israel_Railways_H :Israel Railways H (Vapor)
 str_steam_Czech_Republic_CD_5341 :CD 534.1 (Vapor)
@@ -427,6 +429,7 @@ str_dmu_Australia_NSWGR_Xplorer :TrainLink Xplorer (DMU)
 str_dmu_Japan_JR_KiHa_189 :JR KiHa 189 (DMU)
 str_dmu_Sri_Lanka_Sri_Lanka_Railways_S11 :Sri Lanka Railways S11 (DMU)
 str_dmu_Slovakia_ZSSK_861 :ZSSK 861 (DMU)
+str_dmu_Chile_EFE_TLD_500 :EFE TLD-500 (DMU)
 
 #EMU
 str_emu_Netherlands_NS_Mat24                            :NS Mat'24 (EMU)
