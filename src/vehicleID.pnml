@@ -28,7 +28,7 @@ item(FEAT_TRAINS, item_rbd_Austria_OBB_VT42, 2003) {}
 item(FEAT_TRAINS, item_rbd_New_Zealand_NZR_RM31, 2004) {}
 item(FEAT_TRAINS, item_rbd_Portugal_CP_0100, 2005) {}
 item(FEAT_TRAINS, item_rbd_USA_Amtrak_Budd_RDC, 2006) {}
-item(FEAT_TRAINS, item_rbd_Germany_DB_VT98, 2007) {}
+item(FEAT_TRAINS, item_rbd_Germany_DB_VT98_obsolete, 2007) {} // Obsolete
 item(FEAT_TRAINS, item_rbd_Germany_OHE_520_GDT, 2008) {}
 item(FEAT_TRAINS, item_rbd_Netherlands_NS_20_Kameel, 2009) {}
 item(FEAT_TRAINS, item_rbd_Finland_VR_Dm7, 2010) {}
@@ -65,6 +65,7 @@ item(FEAT_TRAINS, item_rbd_Japan_JR_KiHa_E120, 2040) {}
 item(FEAT_TRAINS, item_rbd_Czech_Republic_CD_840, 2041) {}
 item(FEAT_TRAINS, item_rbd_Chile_EFE_Buscarril, 2042) {}
 item(FEAT_TRAINS, item_rbd_Argentina_FCPBA_M_Railcar, 2043) {}
+item(FEAT_TRAINS, item_rbd_Germany_DB_VT98, 2044) {}
 
 //Railbus-Electric, available ID range: 3000-3999 (hex 0x0BB8..0x0F9F)
 #define ID_RANGE_RBE 0x0BB8..0x0F9F

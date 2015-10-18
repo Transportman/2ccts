@@ -1440,6 +1440,8 @@
 #include "src/Obsolete/Slovakia_ZSSK_861_obsolete_item.pnml"
 #include "src/Obsolete/South_Africa_PPR_35_tonner_4_6_0T_obsolete_graphics.pnml"
 #include "src/Obsolete/South_Africa_PPR_35_tonner_4_6_0T_obsolete_item.pnml"
+#include "src/Obsolete/Germany_DB_VT98_obsolete_graphics.pnml"
+#include "src/Obsolete/Germany_DB_VT98_obsolete_item.pnml"
 
 //sort vehicles in purchase list
 #include "src/vehiclesort.pnml"

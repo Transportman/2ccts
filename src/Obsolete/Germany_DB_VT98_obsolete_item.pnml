@@ -10,10 +10,10 @@
 * ITEM
 */
 
-item(FEAT_TRAINS, item_rbd_Germany_DB_VT98) {
+item(FEAT_TRAINS, item_rbd_Germany_DB_VT98_obsolete) {
     property {
-        name: string(str_rbd_Germany_DB_VT98);
-        REGION(WESTERNEUROPE,NOREGION,NOCONCEPT)
+        name: string(str_rbd_Germany_DB_VT98_obsolete);
+        REGION(NOREGION,NOREGION,NOCONCEPT)
 		
         introduction_date: date(1953,1,1);
         model_life: 35;
@@ -41,14 +41,14 @@ item(FEAT_TRAINS, item_rbd_Germany_DB_VT98) {
 
         sprite_id: SPRITE_ID_NEW_TRAIN;
         dual_headed: 0;
-        length: 6;
+        length: 8;
         extra_power_per_wagon: 0;
         bitmask_vehicle_info: 0;
 	}
 	graphics {
-		cargo_capacity: switch_rbd_Germany_DB_VT98_capacity;
-		purchase: spriteset_rbd_Germany_DB_VT98_purchase;
+		cargo_capacity: switch_rbd_Germany_DB_VT98_obsolete_capacity;
+		purchase: spriteset_rbd_Germany_DB_VT98_obsolete_purchase;
 		can_attach_wagon: switch_can_attach_vehicle;
-		spriteset_rbd_Germany_DB_VT98;
+		spriteset_rbd_Germany_DB_VT98_obsolete;
 	}
 }
