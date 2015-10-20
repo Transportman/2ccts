@@ -310,6 +310,8 @@ str_diesel_Tunisia_SNCFT_040_DJ :SNCFT 040 DJ (Diésel)
 str_diesel_Morocco_ONCF_DF_100 :ONCF DF 100 (Diésel)
 str_diesel_Belarus_BCh_2TE10M :BCh 2TE10M (Diésel)
 str_diesel_Poland_PKP_SP32 :PKP SP32 (Diésel)
+str_diesel_Ukraine_UZ_2TE126 :UZ 2TE126 (Diésel)
+str_diesel_Ukraine_UZ_2TE10Ut :UZ 2TE10Ut (Diésel)
 str_diesel_Serbia_ZS_621 :ZS 621 (Diésel)
 
 #Electric
@@ -688,6 +690,7 @@ str_mglv_wagon_powered          :Vagón Maglev (Motorizado)
 str_electric_Turkey_TCDD_E55200_obsolete                                                :TCDD E55200 (Obsoleto)
 str_diesel_Germany_DB_253_G2000_3_BB_obsolete                                   :DB 253 G2000-3 BB (Obsoleto)
 str_diesel_USA_Pennsylvania_Railroad_RF_16_Sharknose_obsolete   :PRR RF-16 'Sharknose' (Obsoleto)
+str_steam_South_Africa_PPR_35_tonner_4_6_0T_obsolete                    :PPR 35-tonner 4-6-0T (Obsoleto)
 str_dmu_Slovakia_ZSSK_861_obsolete                                                              :ZSSK 861 (Obsoleto)
 
 #PURCHASE MENU TEXTS
