@@ -1,0 +1,183 @@
+##grflangid 0x30
+##plural 7
+##gender n m f
+##case c b d m n w
+
+#Main grf title and description
+STR_GRF_DESCRIPTION             :{SILVER}2cc Pociągi Świata, wersja NML{}{}(c)2ccts{}Licencja:GPLv2 lub wyższa.{}Szczegóły w pliku readme.txt.
+
+#General error messages
+str_used_with_dynamic_engines           :dynamic_engines = true (ustawienie w openttd.cfg)
+
+#parameter strings
+#cost parameters
+
+
+#region parameters
+STR_PARAM_REGION_SOUTHAMERICA                   :Ameryka Południowa
+STR_PARAM_REGION_ASIA                                   :Azja
+
+#loading speed parameter
+
+#VEHICLE NAMES
+#Railbus-steam
+
+#Railbus-diesel
+str_rbd_Czech_Republic_CD_M120 :CD M120 (Spalinowy wagon motorowy)
+
+#Railbus-electric
+str_rbe_Italy_FS_E623 :FS E.623 (elektryczny wagon motorowy)
+str_rbe_USA_Pennsylvania_Railroad_Silverliner_II :PRR Silverliner II (elektryczny wagon motorowy)
+
+#Steam
+str_steam_Mozambique_Beira_Railway_BR6_F2_Falcon :Beira Railway BR6 F2 'Falcon' (Parowóz)
+str_steam_Hungary_MAV_242 :MAV 242 (Parowóz)
+
+
+#Diesel
+str_diesel_Italy_FS_D341 :FS D.341 (Diesel)
+
+#Electric
+str_electric_Switzerland_RhB_DE_2_2                     :RhB De 2/2 (Elektrowóz)
+str_electric_Norway_NSB_EL7                                     :NSB EL7 (Elektrowóz)
+str_electric_UK_NER_EF1                                                 :NER EF1 (Elektrowóz)
+str_electric_USA_Milwaukee_Road_ES_2                    :Milwaukee Road ES-2 (Elektrowóz)
+str_electric_USA_Pennsylvania_Railroad_FF_1     :PRR FF-1 (Elektrowóz)
+str_electric_USA_Milwaukee_Road_EP_2_Bipolar    :Milwaukee Road EP-2 Bipolar (Elektrowóz)
+str_electric_Chile_EFE_E_28                                     :EFE E-28 (Elektrowóz)
+str_electric_Austria_OBB_1161                                   :OBB 1161 (Elektrowóz)
+str_electric_Germany_DB_169                                     :DB 169 (Elektrowóz)
+str_electric_Japan_JNR_EB10                                     :JNR EB10 (Elektrowóz)
+str_electric_Norway_NSB_EL10                                    :NSB EL10 (Elektrowóz)
+str_electric_Germany_DB_104                                     :DB 104 (Elektrowóz)
+str_electric_Italy_FS_E428                                              :FS E.428 (Elektrowóz)
+str_electric_USA_Pennsylvania_Railroad_GG_1     :PRR GG-1 (Elektrowóz)
+str_electric_Japan_JNR_EF55                                     :JNR EF55 (Elektrowóz)
+str_electric_South_Africa_SAR_ES_Class                  :SAR ES (Elektrowóz)
+str_electric_Austria_OBB_1020_Crocodile                 :OBB 1020 'Crocodile' (Elektrowóz)
+str_electric_Russia_RZD_VL22M                                   :RZD VL22M (Elektrowóz)
+str_electric_Netherlands_NS_1000                                :NS 1000 (Elektrowóz)
+str_electric_Sweden_MTAB_Dm3                                    :MTAB Dm3 (Elektrowóz)
+str_electric_UK_BR_77_Metrovic                                  :BR 77 'Metrovic' (Elektrowóz)
+str_electric_France_SNCF_BB_9004                                :SNCF BB 9004 (Elektrowóz)
+str_electric_Switzerland_SBB_Ce_4_4                     :SBB Ce 4/4 (Elektrowóz)
+str_electric_Switzerland_SBB_Ae_6_6                     :SBB Ae 6/6 (Elektrowóz)
+str_electric_India_Indian_Railways_WCM_1                :Indian Railways WCM-1 (Elektrowóz)
+str_electric_Italy_FS_E646                                              :FS E.646 (Elektrowóz)
+str_electric_Russia_RZD_VL41                                    :RZD VL41 (Elektrowóz)
+str_electric_Japan_JNR_EF64                                     :JNR EF64 (Elektrowóz)
+str_electric_Croatia_HZ_1141                                    :HZ 1141 (Elektrowóz)
+str_electric_Germany_DB_103                                     :DB 103 (Elektrowóz)
+str_electric_South_Africa_SAR_6E                                :SAR 6E (Elektrowóz)
+str_electric_Finland_VR_Sr1                                     :VR Sr1 (Elektrowóz)
+str_electric_Austria_OBB_1044                                   :OBB 1044 (Elektrowóz)
+str_electric_France_SNCF_BB_22200                               :SNCF BB 22200 (Elektrowóz)
+str_electric_Poland_PKP_ET41                                    :PKP ET41 (Elektrowóz)
+str_electric_Netherlands_NS_1600                                :NS 1600 (Elektrowóz)
+str_electric_Austria_OBB_1063                                   :OBB 1063 (Elektrowóz)
+str_electric_Russia_RZD_VL85                                    :RZD VL85 (Elektrowóz)
+str_electric_Russia_RZD_VL15                                    :RZD VL15 (Elektrowóz)
+str_electric_China_China_Railways_6K                    :China Railways 6K (Elektrowóz)
+str_electric_France_SNCF_BB_26000                               :SNCF BB 26000 (Elektrowóz)
+str_electric_China_China_Railways_SS6                   :China Railways SS6 (Elektrowóz)
+str_electric_Switzerland_SBB_Re460_Lok_2000     :SBB Re460 'Lok 2000' (Elektrowóz)
+str_electric_Spain_RENFE_252                                    :RENFE 252 (Elektrowóz)
+str_electric_UK_BR_92                                                   :BR 92 (Elektrowóz)
+str_electric_Germany_DB_185_TRAXX_F140                  :DB 185 TRAXX F140 (Elektrowóz)
+str_electric_Belgium_NMBS_SNCB_13_HLE                   :NMBS/SNCB 13 HLE (Elektrowóz)
+str_electric_Japan_JR_EH500                                     :JR EH500 (Elektrowóz)
+str_electric_Germany_DB_182_ES64U_Taurus                :DB 182 ES64U 'Taurus' (Elektrowóz)
+str_electric_Sweden_MTAB_IORE                                   :MTAB IORE (Elektrowóz)
+str_electric_South_Korea_Korail_8200                    :Korail 8200 (Elektrowóz)
+str_electric_Ukraine_UZ_DS3                                     :UZ DS3 (Elektrowóz)
+str_electric_Kazakhstan_KTZ_KZ4A                                :KTZ KZ4A (Elektrowóz)
+str_electric_Switzerland_SBB_Eem_923                    :SBB Eem 923 (Elektrowóz)
+str_electric_China_China_Railways_HXD3                  :China Railways HXD3 (Elektrowóz)
+str_electric_France_SNCF_CC_40100                               :SNCF CC 40100 (Elektrowóz)
+str_electric_India_Indian_Railways_WAP_4                :Indian Railways WAP-4 (Elektrowóz)
+str_electric_India_Indian_Railways_WCG_1                :Indian Railways WCG-1 (Elektrowóz)
+str_electric_Portugal_CP_2500                                   :CP 2500 (Elektrowóz)
+str_electric_USA_NYC_S_motor :NYC S-motor (Elektrowóz)
+str_electric_UK_NER_ES1 :NER ES1 (Elektrowóz)
+str_electric_Italy_FS_E550 :FS E.550 (Elektrowóz)
+str_electric_Sweden_SJ_O_Class :SJ O (Elektrowóz)
+str_electric_Switzerland_RhB_Ge_6_6_Krokodil :RhB Ge 6/6 'Krokodil' (Elektrowóz)
+str_electric_UK_NER_EE1 :NER EE1 (Elektrowóz)
+str_electric_Australia_Victorian_Railways_E_Class :Victorian Railways E (Elektrowóz)
+str_electric_New_Zealand_NZR_EO_Class :NZR EO (Elektrowóz)
+str_electric_Germany_DB_Class_E91 :DB E91 (Elektrowóz)
+str_electric_Japan_Aichi_Railroad_DeKi_400 :Aichi Railroad DeKi 400 (Elektrowóz)
+str_electric_Sweden_SJ_F_Class :SJ F (Elektrowóz)
+str_electric_Italy_FS_E424 :FS E.424 (Elektrowóz)
+str_electric_Switzerland_RhB_Ge_4_4_I :RhB Ge 4/4 I (Elektrowóz)
+str_electric_Australia_NSWGR_71 :NSWGR 71 (Elektrowóz)
+str_electric_South_Africa_SAR_4E :SAR 4E  (Elektrowóz)
+str_electric_Japan_JNR_EH10 :JNR EH10 (Elektrowóz)
+str_electric_Belgium_NMBS_Class_255 :NMBS/SNCB 25.5 (Elektrowóz)
+str_electric_Russia_RZD_ChS3 :RZD ChS3 (Elektrowóz)
+str_electric_Poland_PKP_EU06 :PKP EU06 (Elektrowóz)
+str_electric_Hungary_MAV_Class_V43 :MAV V43 (Elektrowóz)
+str_electric_Portugal_CP_Class_2550 :CP 2550 (Elektrowóz)
+str_electric_France_SNCF_BB_25500 :SNCF BB 25500 (Elektrowóz)
+str_electric_South_Africa_SAR_5E1 :SAR 5E1 (Elektrowóz)
+str_electric_Czech_Republic_CD_S499 :CD S499 (Elektrowóz)
+str_electric_Italy_FS_E444 :FS E.444 (Elektrowóz)
+str_electric_Czech_Republic_CD_380 :CD 380 (Elektrowóz)
+str_electric_Russia_RZD_EP20 :RZD EP20 (Elektrowóz)
+str_electric_China_China_Railways_HXD1D :China Railways HXD1D (Elektrowóz)
+str_electric_South_Africa_SAR_20E :SAR 20E (Elektrowóz)
+str_electric_Kazakhstan_KTZ_KZ8A :KTZ KZ8A (Elektrowóz)
+str_electric_Indonesia_ESS_3200 :ESS 3200 (Elektrowóz)
+str_electric_New_Zealand_NZR_EA :NZR EA (Elektrowóz)
+str_electric_New_Zealand_TranzRail_EF :TranzRail EF (Elektrowóz)
+str_electric_Australia_Aurizon_E40_AG_V1 :Aurizon E40 AG-V1 (Elektrowóz)
+str_electric_USA_GN_W_1 :GN W-1 (Elektrowóz)
+str_electric_USA_Virginian_Railway_EL_2B :Virginian Railway EL-2B (Elektrowóz)
+str_electric_USA_PRR_E44 :PRR E44 (Elektrowóz)
+str_electric_USA_Amtrak_EMD_AEM_7 :Amtrak EMD AEM-7 (Elektrowóz)
+str_electric_Mexico_FNM_GE_E60C_2 :FNM GE E60C-2 (Elektrowóz)
+str_electric_Canada_BC_Rail_GF6C :BC Rail GF6C (Elektrowóz)
+str_electric_USA_Amtrak_ACS_64 :Amtrak ACS-64 (Elektrowóz)
+str_electric_Chile_EFE_E_29 :EFE E-29 (Elektrowóz)
+str_electric_Chile_EFE_E_269 :EFE E-269 (Elektrowóz)
+str_electric_Morocco_ONCF_E_700 :ONCF E 700 (Elektrowóz)
+str_electric_Morocco_ONCF_E_1400_Prima_II :ONCF E 1400 'Prima II' (Elektrowóz)
+str_electric_Portugal_CP_2600 :CP 2600 (Elektrowóz)
+str_electric_Macedonia_Macedonian_Railways_462 :Macedonian Railways 462 (Elektrowóz)
+str_electric_Italy_FS_E633 :FS E.633 (Elektrowóz)
+str_electric_Spain_RENFE_250 :RENFE 250 (Elektrowóz)
+str_electric_Italy_FS_E491 :FS E.491 (Elektrowóz)
+str_electric_Czech_Republic_CD_363 :CD 363 (Elektrowóz)
+str_electric_Ukraine_UZ_ChS7 :UZ ChS7 (Elektrowóz)
+str_electric_Poland_PKP_EP09 :PKP EP09 (Elektrowóz)
+str_electric_Slovakia_ZSSK_162 :ZSSK 162 (Elektrowóz)
+str_electric_Ukraine_UZ_DE1 :UZ DE1 (Elektrowóz)
+
+#DMU
+str_dmu_Germany_DB_VT08                                         :DB VT08 (SZT)
+
+#EMU
+
+#Single Unit Metro
+
+#Multiple Unit Metro
+str_mtro_Singapore_Singapore_C830_Metropolis    :Singapore C830 'Metropolis' (Metro)
+
+#Maglev
+
+#wagons
+str_wagon_Gen3_Boxcar_Type1                     :3cia generacja wagonu krytego konstr. drewnianej (typ 1)
+
+
+#coaches
+str_coach_Gen2_Steel_3_axle_Mail_Coach                                  :Wagon pocztowy 3-osiowy, o konstrukcji stalowej
+
+#special wagons
+str_mu_wagon_unpowered          :Wagon zespołu Trakcyjnego (doczepny)
+
+#Obsolete vehicles
+
+#PURCHASE MENU TEXTS
+
+#Can attach vehicle texts
+str_cannot_attach_wagon_to_Unit_Wagon   :Nie można dołączyć zwykłego wagonu do zespołu trakcyjnego
