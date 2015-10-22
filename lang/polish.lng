@@ -4,7 +4,9 @@
 ##case c b d m n w
 
 #Main grf title and description
+STR_GRF_NAME                    :{TITLE}
 STR_GRF_DESCRIPTION             :{SILVER}2cc Pociągi Świata, wersja NML{}{}(c)2ccts{}Licencja:GPLv2 lub wyższa.{}Szczegóły w pliku readme.txt.
+STR_GRF_URL             :https://dev.openttdcoop.org/projects/2ccts
 
 #General error messages
 str_used_with_dynamic_engines           :dynamic_engines = true (ustawienie w openttd.cfg)
@@ -12,12 +14,33 @@ str_used_with_dynamic_engines           :dynamic_engines = true (ustawienie w op
 #parameter strings
 #cost parameters
 
+STR_PARAM_DIVIDE_16                 :1/16
+STR_PARAM_DIVIDE_8                  :1/8
+STR_PARAM_DIVIDE_4                  :1/4
+STR_PARAM_DIVIDE_2                  :1/2
+STR_PARAM_NORMAL                    :1 (default)
+STR_PARAM_TIMES_2                   :2
+STR_PARAM_TIMES_4                   :4
+STR_PARAM_TIMES_8                   :8
+STR_PARAM_TIMES_16                  :16
 
 #region parameters
+STR_PARAM_REGION_AFRICA                                 :Afryka
+STR_PARAM_REGION_NORTHAMERICA                   :Ameryka Północna
+STR_PARAM_REGION_NORTHAMERICA_DESC              :Użyj pojazdów z Ameryki Północnej
 STR_PARAM_REGION_SOUTHAMERICA                   :Ameryka Południowa
 STR_PARAM_REGION_ASIA                                   :Azja
+STR_PARAM_REGION_EASTERNEUROPE                  :Europa Wschodnia
+STR_PARAM_REGION_WESTERNEUROPE                  :Europa Zachodnia
+STR_PARAM_REGION_OCEANIA                                :Oceania
 
 #loading speed parameter
+STR_PARAM_LOADINGSPEED                                  :Szybkość za/wyładunku
+STR_PARAM_LOADINGSPEED_DESC                             :Ustaw szybkość za/wyładunku towarów w tym secie
+STR_PARAM_LOADINGSPEED_SLOW                             :Wolna
+STR_PARAM_LOADINGSPEED_NORMAL                   :Standardowa (default)
+STR_PARAM_LOADINGSPEED_FAST                             :Szybka
+STR_PARAM_LOADINGSPEED_ULTRA                    :Prawie natychmiastowa
 
 #VEHICLE NAMES
 #Railbus-steam
@@ -30,8 +53,110 @@ str_rbe_Italy_FS_E623 :FS E.623 (elektryczny wagon motorowy)
 str_rbe_USA_Pennsylvania_Railroad_Silverliner_II :PRR Silverliner II (elektryczny wagon motorowy)
 
 #Steam
+str_steam_Belgium_Le_Belge                      :Le Belge (Parowóz)
+str_steam_USA_4_4_0_American            :4-4-0 'American' (Parowóz)
+str_steam_Switzerland_SBB_Ec_2_5        :SBB Ec 2/5 (Parowóz)
+str_steam_USA_4_6_0_Ten_wheeler         :4-6-0 'Ten-wheeler' (Parowóz)
+str_steam_USA_2_8_0_Consolidation       :2-8-0 'Consolidation' (Parowóz)
+str_steam_Hungary_MAV_377                       :MAV 377 (Parowóz)
+str_steam_Austria_KkStB_99                      :KkStB 99 (Parowóz)
+str_steam_UK_Caledonian_Railway_439     :Caledonian Railway 439 (Parowóz)
+str_steam_Switzerland_SBB_A_3_5         :SBB A 3/5 (Parowóz)
+str_steam_Switzerland_SBB_E_3_3         :SBB E 3/3 (Parowóz)
+str_steam_Austria_KkStB_299             :KkStB 299 (Parowóz)
+str_steam_New_Zealand_NZR_X_Class       :NZR X (Parowóz)
+str_steam_Croatia_HZ_51                         :HZ 51 (Parowóz)
+str_steam_Italy_FS_880                          :FS 880 (Parowóz)
+str_steam_Argentina_FCNEA_11B_2_8_0     :FCNEA 11B 2-8-0 (Parowóz)
+str_steam_France_SNCF_140C                      :SNCF 140C (Parowóz)
+str_steam_France_SNCF_141TA             :SNCF 141TA (Parowóz)
+str_steam_UK_GWR_4900                           :GWR 4900 (Parowóz)
+str_steam_UK_GWR_5700                           :GWR 5700 (Parowóz)
+str_steam_Netherlands_NS_6300           :NS 6300 (Parowóz)
+str_steam_USA_AT_SF_5000                        :AT&SF 5000 (Parowóz)
+str_steam_Germany_Prussian_S10          :Prussian S.10 (Parowóz)
+str_steam_UK_LMS_5MT_Black_Five         :LMS 5MT 'Black Five' (Parowóz)
+str_steam_Russia_RZD_9P                         :RZD 9P (Parowóz)
+str_steam_UK_LNER_A4_Gresley            :LNER A4 'Gresley' (Parowóz)
+str_steam_Canada_CPR_Royal_Hudson       :CPR 'Royal Hudson' (Parowóz)
+str_steam_Denmark_DSB_E                         :DSB E (Parowóz)
+str_steam_Germany_DB_52                         :DB 52 (Parowóz)
+str_steam_UK_LNER_A1_Peppercorn         :LNER A1 'Peppercorn' (Parowóz)
+str_steam_South_Africa_SAR_25           :SAR 25 (Parowóz)
+str_steam_Russia_RZD_P36                        :RZD P36 (Parowóz)
+str_steam_France_SNCF_150B                      :SNCF 150B (Parowóz)
+str_steam_Italy_FS_895                          :FS 895 (Parowóz)
+str_steam_Poland_PKP_Okz32                      :PKP OKz32 (Parowóz)
+str_steam_Switzerland_SBB_C_5_6         :SBB C 5/6 (Parowóz)
+str_steam_USA_UP_4000_Big_Boy           :UP 4000 'Big Boy' (Parowóz)
+str_steam_Netherlands_NRS_11 :NRS 11 (Parowóz)
+str_steam_UK_GWR_Iron_DUKe_Class :GWR Iron Duke (Parowóz)
+str_steam_Australia_Sidney_Railway_Locomotive_No1 :Sydney Railway Locomotive No.1 (Parowóz)
+str_steam_USA_Central_Pacific_4_2_2 :Central Pacific 4-2-2 (Parowóz)
+str_steam_Netherlands_NS_700 :NS 700 (Parowóz)
+str_steam_South_Africa_Natal_Government_Railways_2_6_0T :Natal Government Railways 2-6-0T (Parowóz)
+str_steam_Australia_NSWGR_Z25_Class :NSWGR Z25 (Parowóz)
+str_steam_Canada_Canadian_Pacific_374 :Canadian Pacific 374 (Parowóz)
+str_steam_South_Africa_PPR_35_tonner_4_6_0T :PPR 35-tonner 4-6-0T (Parowóz)
+str_steam_Switzerland_RhB_G_3_4 :RhB G 3/4 (Parowóz)
+str_steam_Spain_RENFE_Class_040 :RENFE 040 (Parowóz)
+str_steam_Germany_Saxon_IV_K :Saxon IV K (Parowóz)
+str_steam_Germany_Prussian_S_3 :Prussian S.3 (Parowóz)
+str_steam_Norway_NSB_Class_XXI :NSB XXI (Parowóz)
+str_steam_USA_PRR_D16 :PRR D16 (Parowóz)
+str_steam_Netherlands_NS_8100 :NS 8100 (Parowóz)
+str_steam_South_Africa_SAR_MD_Class :SAR MD (Parowóz)
+str_steam_Angola_South_West_African_2_8_0 :South West African 2-8-0 (Parowóz)
+str_steam_UK_LNER_N7 :LNER N7 (Parowóz)
+str_steam_Germany_Saxon_XX_HV :Saxon XX HV (Parowóz)
+str_steam_Belgium_NMBS_Type_7 :NMBS Type 7 (Parowóz)
+str_steam_Ireland_DSER_15 :DSER 15 (Parowóz)
+str_steam_USA_Sierra_Railroad_28 :Sierra Railroad 28 (Parowóz)
+str_steam_Canada_CN_U_1_Class :CN U-1 (Parowóz)
+str_steam_India_Indian_Railways_XB_Class :Indian Railways XB (Parowóz)
+str_steam_Iraq_Iraqi_State_Railways_PC_Class :Iraqi State Railways PC (Parowóz)
+str_steam_Egypt_ENR_1100 :ENR 1100 (Parowóz)
+str_steam_Japan_JNR_Class_E10 :JNR E10 (Parowóz)
+str_steam_UK_GWR_1600_Class :GWR 1600 (Parowóz)
+str_steam_Australia_Victorian_Railways_R_Class :Victorian Railways R (Parowóz)
+str_steam_Germany_DB_9977 :DB 99.77 (Parowóz)
+str_steam_Germany_DB_BR18 :DB BR18 (Parowóz)
+str_steam_New_Zealand_NZR_WAB :NZR WAB (Parowóz)
+str_steam_Australia_NSWGR_D57 :NSWGR D57 (Parowóz)
+str_steam_Australia_South_Australian_Railways_520 :South Australian Railways 520 (Parowóz)
+str_steam_Australia_NSWGR_AD60 :NSWGR AD60 (Parowóz)
+str_steam_Uruguay_AFE_N1_2_6_0 :AFE N1 2-6-0 (Parowóz)
+str_steam_Argentina_FCCA_PS11 :FCCA PS11 (Parowóz)
+str_steam_South_Africa_Harbour_Board_EL_0_4_0 :Harbour Board EL 0-4-0 (Parowóz)
 str_steam_Mozambique_Beira_Railway_BR6_F2_Falcon :Beira Railway BR6 F2 'Falcon' (Parowóz)
+str_steam_Eritrea_Eritrean_Railway_R440 :Eritrean Railway R.440 (Parowóz)
+str_steam_Kenya_East_African_Railway_23 :East African Railway 23 (Parowóz)
+str_steam_Kenya_East_African_Railway_21 :East African Railway 21 (Parowóz)
+str_steam_Zimbabwe_Zimbabwe_Railways_15 :Zimbabwe Railways 15 (Parowóz)
+str_steam_South_Africa_SAR_GMA_4_8_2_2_8_4 :SAR GMA 4-8-2+2-8-4 (Parowóz)
+str_steam_Kenya_East_African_Railway_31 :East African Railway 31 (Parowóz)
+str_steam_India_Fairy_Queen :Fairy Queen (Parowóz)
+str_steam_Japan_JNR_7100 :JNR 7100 (Parowóz)
+str_steam_India_DHR_B :DHR B (Parowóz)
+str_steam_Japan_JNR_860 :JNR 860 (Parowóz)
+str_steam_China_China_Railways_H :China Railways H (Parowóz)
+str_steam_Russia_RZD_U :RZD U (Parowóz)
+str_steam_Russia_RZD_E :RZD E (Parowóz)
+str_steam_Japan_JNR_9600 :JNR 9600 (Parowóz)
+str_steam_Israel_Israel_Railways_H :Israel Railways H (Parowóz)
+str_steam_Italy_FS_480 :FS 480 (Parowóz)
+str_steam_Italy_FS_691 :FS 691 (Parowóz)
+str_steam_Greece_SEK_Lb :SEK Lb (Parowóz)
+str_steam_Albania_HSH_01 :HSH 01 (Parowóz)
+str_steam_Spain_RENFE_242F :RENFE 242F (Parowóz)
+str_steam_Czech_Republic_CD_5341 :CD 534.1 (Parowóz)
+str_steam_Poland_PKP_Ok22 :PKP Ok22 (Parowóz)
+str_steam_Croatia_HZ_11 :HZ 11 (Parowóz)
 str_steam_Hungary_MAV_242 :MAV 242 (Parowóz)
+str_steam_Czech_Republic_CD_4590 :CD 459.0 (Parowóz)
+str_steam_Poland_PKP_OI49 :PKP OI49 (Parowóz)
+str_steam_Austria_KKStB_310 :KKStB 310 (Parowóz)
+str_steam_USA_Southern_Pacific_GS_4_Daylight :Southern Pacific GS-4 'Daylight' (Parowóz)
 
 
 #Diesel
@@ -173,11 +298,15 @@ str_wagon_Gen3_Boxcar_Type1                     :3cia generacja wagonu krytego k
 str_coach_Gen2_Steel_3_axle_Mail_Coach                                  :Wagon pocztowy 3-osiowy, o konstrukcji stalowej
 
 #special wagons
-str_mu_wagon_unpowered          :Wagon zespołu Trakcyjnego (doczepny)
+str_mu_wagon_unpowered          :Wagon Zespołu Trakcyjnego (doczepny)
 
 #Obsolete vehicles
 
 #PURCHASE MENU TEXTS
+str_unit_wagon                          :Ten ogólnego rodzaju wagon może być stosowany TYLKO do wydłużania zespołów trakcyjnych
 
 #Can attach vehicle texts
-str_cannot_attach_wagon_to_Unit_Wagon   :Nie można dołączyć zwykłego wagonu do zespołu trakcyjnego
+str_cannot_attach_wagon_to_MU                   :Nie można dołączyć zwykłego wagonu do Zespołu Trakcyjnego (użyj ogólnego wagonu doczepnego)
+str_cannot_attach_wagon_to_Unit_Wagon   :Nie można dołączyć zwykłego wagonu do Zespołu Trakcyjnego
+str_cannot_attach_Unit_wagon_to_engine  :Nie można dołączyć ogólnego wagonu doczepnego do zwykłej lokomotywy (tylko do *ZT)
+str_cannot_attach_Unit_wagon_to_wagon   :Nie można dołączyć ogólnego wagonu doczepnego do zwykłego wagonu (tylko do *ZT)
