@@ -410,11 +410,13 @@ str_electric_Kazakhstan_KTZ_KZ8A :KTZ KZ8A (Eléctrico)
 str_electric_Australia_Aurizon_E40_AG_V1 :Aurizon E40 AG-V1 (Eléctrico)
 str_electric_USA_PRR_E44 :PRR E44 (Eléctrico)
 str_electric_Canada_BC_Rail_GF6C :BC Rail GF6C (Eléctrico)
+str_electric_Chile_EFE_E_29 :EFE E-29 (Eléctrico)
 str_electric_Chile_EFE_E_269 :EFE E-269 (Eléctrico)
 str_electric_Portugal_CP_2600 :CP 2600 (Eléctrico)
 str_electric_Macedonia_Macedonian_Railways_462 :Macedonian Railways 462 (Eléctrico)
 str_electric_Spain_RENFE_250 :RENFE 250 (Eléctrico)
 str_electric_Italy_FS_E491 :FS E.491 (Eléctrico)
+str_electric_Ukraine_UZ_ChS7 :UZ ChS7 (Eléctrico)
 str_electric_Poland_PKP_EP09 :PKP EP09 (Eléctrico)
 
 #DMU
