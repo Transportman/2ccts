@@ -775,6 +775,7 @@ str_diesel_Germany_DB_253_G2000_3_BB_obsolete                                   
 str_diesel_USA_Pennsylvania_Railroad_RF_16_Sharknose_obsolete   :PRR RF-16 'Sharknose' (Uitgedien)
 str_steam_South_Africa_PPR_35_tonner_4_6_0T_obsolete                    :PPR 35-tonner 4-6-0T (Uitgedien)
 str_dmu_Slovakia_ZSSK_861_obsolete                                                              :ZSSK 861 (Uitgedien)
+str_rbd_Germany_DB_VT98_obsolete                                                                :DB VT98 (Uitgedien)
 
 #PURCHASE MENU TEXTS
 str_unit_wagon                          :Hierdie generiese wa kan SLEGS gebruik word met MU om treine van die verlangde lengte te skep

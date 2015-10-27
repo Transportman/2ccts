@@ -776,6 +776,7 @@ str_diesel_Germany_DB_253_G2000_3_BB_obsolete                                   
 str_diesel_USA_Pennsylvania_Railroad_RF_16_Sharknose_obsolete   :比-彼铁路(南非)PRR RF-16 '鲨鱼鼻' (废弃)
 str_steam_South_Africa_PPR_35_tonner_4_6_0T_obsolete                    :比-彼铁路(南非)PPR 35-tonner 4-6-0T (废弃)
 str_dmu_Slovakia_ZSSK_861_obsolete                                                              :斯洛伐克铁路ZSSK 861 (废弃)
+str_rbd_Germany_DB_VT98_obsolete                                                                :德铁DB VT98 (废弃)
 
 #PURCHASE MENU TEXTS
 str_unit_wagon                          :本通用车厢只能与动车组合成相应长度的列车
