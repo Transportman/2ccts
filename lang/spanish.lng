@@ -422,6 +422,7 @@ str_electric_Macedonia_Macedonian_Railways_462 :Macedonian Railways 462 (Eléctr
 str_electric_Italy_FS_E633 :FS E.633 (Eléctrico)
 str_electric_Spain_RENFE_250 :RENFE 250 (Eléctrico)
 str_electric_Italy_FS_E491 :FS E.491 (Eléctrico)
+str_electric_Czech_Republic_CD_363 :CD 363 (Eléctrico)
 str_electric_Ukraine_UZ_ChS7 :UZ ChS7 (Eléctrico)
 str_electric_Poland_PKP_EP09 :PKP EP09 (Eléctrico)
 
@@ -706,6 +707,7 @@ str_diesel_Germany_DB_253_G2000_3_BB_obsolete                                   
 str_diesel_USA_Pennsylvania_Railroad_RF_16_Sharknose_obsolete   :PRR RF-16 'Sharknose' (Obsoleto)
 str_steam_South_Africa_PPR_35_tonner_4_6_0T_obsolete                    :PPR 35-tonner 4-6-0T (Obsoleto)
 str_dmu_Slovakia_ZSSK_861_obsolete                                                              :ZSSK 861 (Obsoleto)
+str_rbd_Germany_DB_VT98_obsolete                                                                :DB VT98 (Obsoleto)
 
 #PURCHASE MENU TEXTS
 str_unit_wagon                          :Este vagón genérico SOLO se puede usar con MUs para crear trenes de la longitud deseada
