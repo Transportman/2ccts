@@ -53,6 +53,7 @@ STR_PARAM_REGION_OCEANIA_DESC                   :Usar vehículos de Oceanía
 STR_PARAM_LOADINGSPEED                                  :Velocidad de carga
 STR_PARAM_LOADINGSPEED_SLOW                             :Lento
 STR_PARAM_LOADINGSPEED_NORMAL                   :Normal (por defecto)
+STR_PARAM_LOADINGSPEED_FAST                             :Rápido
 STR_PARAM_LOADINGSPEED_ULTRA                    :Tan rápido como sea posible
 
 #VEHICLE NAMES
@@ -417,6 +418,7 @@ str_electric_USA_Amtrak_EMD_AEM_7 :Amtrak EMD AEM-7 (Eléctrico)
 str_electric_Canada_BC_Rail_GF6C :BC Rail GF6C (Eléctrico)
 str_electric_Chile_EFE_E_29 :EFE E-29 (Eléctrico)
 str_electric_Chile_EFE_E_269 :EFE E-269 (Eléctrico)
+str_electric_Morocco_ONCF_E_1400_Prima_II :ONCF E 1400 'Prima II' (Eléctrico)
 str_electric_Portugal_CP_2600 :CP 2600 (Eléctrico)
 str_electric_Macedonia_Macedonian_Railways_462 :Macedonian Railways 462 (Eléctrico)
 str_electric_Italy_FS_E633 :FS E.633 (Eléctrico)
