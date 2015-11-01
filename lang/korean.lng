@@ -53,7 +53,6 @@ str_rbd_Netherlands_NS_DH1                                              :NS DH1 
 str_rbd_Austria_OBB_5047                                                :OBB 5047 (디젤 레일버스)
 str_rbd_United_Kingdom_BR_153_Super_Sprinter    :BR 153 'Super Sprinter' (디젤 레일버스)
 str_rbd_Czech_Republic_CD_809                                   :CD 809 (디젤 레일버스)
-str_rbd_Germany_DB_650_Regio_Shuttle                    :DB 650 'Regio Shuttle' (디젤 레일버스)
 str_rbd_Germany_DB_670                                                  :DB 670 (디젤 레일버스)
 str_rbd_Lithuania_Lithuanian_Railways_AR2               :리투아니아 철도 AR2 (디젤 레일버스)
 
@@ -185,7 +184,6 @@ str_electric_France_SNCF_BB_22200                               :SNCF BB 22200 (
 str_electric_Poland_PKP_ET41                                    :PKP ET41 (전기)
 str_electric_Netherlands_NS_1600                                :NS 1600 (전기)
 str_electric_Austria_OBB_1063                                   :OBB 1063 (전기)
-str_electric_China_China_Railways_6K                    :중국 철도공사 6K (전기)
 str_electric_France_SNCF_BB_26000                               :SNCF BB 26000 (전기)
 str_electric_China_China_Railways_SS6                   :중국 철도공사 SS6 (전기)
 str_electric_Switzerland_SBB_Re460_Lok_2000     :SBB Re460 'Lok 2000' (전기)

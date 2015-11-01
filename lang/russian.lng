@@ -58,7 +58,6 @@ str_rbd_Netherlands_NS_20_Kameel                                :NS 20 'Kameel' 
 str_rbd_Russia_RZD_ACh2                                                 :РЖД АЧ2 (Дизель Моториса)
 str_rbd_United_Kingdom_BR_153_Super_Sprinter    :BR 153 'Super Sprinter' (Дизель Моториса)
 str_rbd_Czech_Republic_CD_809                                   :CD 809 (Дизель Моториса)
-str_rbd_Germany_DB_650_Regio_Shuttle                    :DB 650 'Regio Shuttle' (Дизель Моториса)
 
 #Railbus-electric
 str_rbe_Switzerland_SBB_Cfe_3_3         :SBB Cfe 3/3 (Электро-Моториса)

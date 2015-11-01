@@ -38,7 +38,6 @@ str_rbd_Netherlands_NS_DH1                                              :NS DH1 
 str_rbd_Austria_OBB_5047                                                :OBB 5047 (dizel šinobus)
 str_rbd_United_Kingdom_BR_153_Super_Sprinter    :BR 153 'Super Sprinter' (dizel šinobus)
 str_rbd_Czech_Republic_CD_809                                   :CD 809 (dizel šinobus)
-str_rbd_Germany_DB_650_Regio_Shuttle                    :DB 650 'Regio Shuttle' (dizel šinobus)
 str_rbd_Germany_DB_670                                                  :DB 670 (dizel šinobus)
 str_rbd_Lithuania_Lithuanian_Railways_AR2               :Lithuanian Railways AR2 (dizel šinobus)
 
@@ -168,7 +167,6 @@ str_electric_France_SNCF_BB_22200                               :SNCF BB 22200 (
 str_electric_Poland_PKP_ET41                                    :PKP ET41 (električna lokomotiva)
 str_electric_Netherlands_NS_1600                                :NS 1600 (električna lokomotiva)
 str_electric_Austria_OBB_1063                                   :OBB 1063 (električna lokomotiva)
-str_electric_China_China_Railways_6K                    :China Railways 6K (električna lokomotiva)
 str_electric_France_SNCF_BB_26000                               :SNCF BB 26000 (električna lokomotiva)
 str_electric_China_China_Railways_SS6                   :China Railways SS6 (električna lokomotiva)
 str_electric_Switzerland_SBB_Re460_Lok_2000     :SBB Re460 'Lok 2000' (električna lokomotiva)
