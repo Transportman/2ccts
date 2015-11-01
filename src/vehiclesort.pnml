@@ -61,7 +61,6 @@ item_rbd_Austria_OBB_5047, /*Year: 1987*/ \
 item_rbd_Japan_JR_Shikoku_1000, /*Year: 1990*/ \
 item_rbd_United_Kingdom_BR_153_Super_Sprinter, /*Year: 1991*/ \
 item_rbd_Czech_Republic_CD_809, /*Year: 1996*/ \
-item_rbd_Germany_DB_650_Regio_Shuttle, /*Year: 1996*/ \
 item_rbd_Germany_DB_670, /*Year: 1996*/ \
 item_rbd_Lithuania_Lithuanian_Railways_AR2, /*Year: 1997*/ \
 item_rbd_Finland_VR_Dm12, /*Year: 2005*/ \
@@ -372,7 +371,6 @@ item_electric_Italy_FS_E646, /*Year: 1961*/ \
 item_electric_Russia_RZD_ChS3, /*Year: 1961*/ \
 item_electric_Poland_PKP_EU06, /*Year: 1962*/ \
 item_electric_Hungary_MAV_Class_V43, /*Year: 1963*/ \
-item_electric_Portugal_CP_Class_2550, /*Year: 1963*/ \
 item_electric_Russia_RZD_VL41, /*Year: 1963*/ \
 item_electric_France_SNCF_BB_25500, /*Year: 1964*/ \
 item_electric_France_SNCF_CC_40100, /*Year: 1964*/ \
@@ -402,7 +400,6 @@ item_electric_Canada_BC_Rail_GF6C, /*Year: 1983*/ \
 item_electric_Ukraine_UZ_ChS7, /*Year: 1983*/ \
 item_electric_Russia_RZD_VL85, /*Year: 1983*/ \
 item_electric_Russia_RZD_VL15, /*Year: 1984*/ \
-item_electric_China_China_Railways_6K, /*Year: 1986*/ \
 item_electric_New_Zealand_TranzRail_EF, /*Year: 1986*/ \
 item_electric_Poland_PKP_EP09, /*Year: 1986*/ \
 item_electric_Italy_FS_E491, /*Year: 1988*/ \

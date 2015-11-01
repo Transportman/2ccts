@@ -37,7 +37,7 @@ item(FEAT_TRAINS, item_rbd_Netherlands_NS_DH1, 2012) {}
 item(FEAT_TRAINS, item_rbd_Austria_OBB_5047, 2013) {}
 item(FEAT_TRAINS, item_rbd_United_Kingdom_BR_153_Super_Sprinter, 2014) {}
 item(FEAT_TRAINS, item_rbd_Czech_Republic_CD_809, 2015) {}
-item(FEAT_TRAINS, item_rbd_Germany_DB_650_Regio_Shuttle, 2016) {}
+item(FEAT_TRAINS, item_rbd_Germany_DB_650_Regio_Shuttle_obsolete, 2016) {} // Obsolete
 item(FEAT_TRAINS, item_rbd_Germany_DB_670, 2017) {}
 item(FEAT_TRAINS, item_rbd_Lithuania_Lithuanian_Railways_AR2, 2018) {}
 item(FEAT_TRAINS, item_rbd_Austria_kkStB_19, 2019) {}
@@ -370,7 +370,7 @@ item(FEAT_TRAINS, item_electric_Netherlands_NS_1600, 6038) {}
 item(FEAT_TRAINS, item_electric_Austria_OBB_1063, 6039) {}
 item(FEAT_TRAINS, item_electric_Russia_RZD_VL85, 6040) {}
 item(FEAT_TRAINS, item_electric_Russia_RZD_VL15, 6041) {}
-item(FEAT_TRAINS, item_electric_China_China_Railways_6K, 6042) {}
+item(FEAT_TRAINS, item_electric_China_China_Railways_6K_obsolete, 6042) {} // obsolete
 item(FEAT_TRAINS, item_electric_France_SNCF_BB_26000, 6043) {}
 item(FEAT_TRAINS, item_electric_China_China_Railways_SS6, 6044) {}
 item(FEAT_TRAINS, item_electric_Switzerland_SBB_Re460_Lok_2000, 6045) {}
@@ -414,7 +414,7 @@ item(FEAT_TRAINS, item_electric_Belgium_NMBS_Class_255, 6082) {}
 item(FEAT_TRAINS, item_electric_Russia_RZD_ChS3, 6083) {}
 item(FEAT_TRAINS, item_electric_Poland_PKP_EU06, 6084) {}
 item(FEAT_TRAINS, item_electric_Hungary_MAV_Class_V43, 6085) {}
-item(FEAT_TRAINS, item_electric_Portugal_CP_Class_2550, 6086) {}
+item(FEAT_TRAINS, item_electric_Portugal_CP_Class_2550_obsolete, 6086) {} // Obsoleted
 item(FEAT_TRAINS, item_electric_France_SNCF_BB_25500, 6087) {}
 item(FEAT_TRAINS, item_electric_South_Africa_SAR_5E1, 6088) {}
 item(FEAT_TRAINS, item_electric_Czech_Republic_CD_S499, 6089) {}

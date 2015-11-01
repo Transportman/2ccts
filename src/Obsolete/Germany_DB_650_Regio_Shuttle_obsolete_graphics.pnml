@@ -10,15 +10,25 @@
 * PURCHASE
 */
 
-spriteset(spriteset_electric_Portugal_CP_Class_2550_purchase, "gfx/Electric/Portugal_CP_Class_2550.png") {
-	template_purchase(1, 64)
+spriteset(spriteset_rbd_Germany_DB_650_Regio_Shuttle_obsolete_purchase, "gfx/Obsolete/Germany_DB_650_Regio_Shuttle_obsolete.png") {
+	template_purchase(1, 32)
 }
 
 /*
 * VEHICLE
 */
 
-//Engine
-spriteset(spriteset_electric_Portugal_CP_Class_2550, "gfx/Electric/Portugal_CP_Class_2550.png") {
+//Only one spriteset needed for this set
+spriteset(spriteset_rbd_Germany_DB_650_Regio_Shuttle_obsolete, "gfx/Obsolete/Germany_DB_650_Regio_Shuttle_obsolete.png") {
 	template_2cc_engines_general(1, 1)
+}
+
+/*
+* Cargo capacity
+*/
+
+switch(FEAT_TRAINS, SELF, switch_rbd_Germany_DB_650_Regio_Shuttle_obsolete_capacity, cargo_classes) {
+	bitmask(CC_MAIL): 34;
+	bitmask(CC_ARMOURED): 17;
+	68;
 }

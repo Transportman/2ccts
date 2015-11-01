@@ -10,25 +10,15 @@
 * PURCHASE
 */
 
-spriteset(spriteset_rbd_Germany_DB_650_Regio_Shuttle_purchase, "gfx/Railbus-diesel/Germany_DB_650_Regio_Shuttle.png") {
-	template_purchase(1, 32)
+spriteset(spriteset_electric_China_China_Railways_6K_obsolete_purchase, "gfx/Obsolete/China_China_Railways_6K_obsolete.png") {
+	template_purchase(1, 64)
 }
 
 /*
 * VEHICLE
 */
 
-//Only one spriteset needed for this set
-spriteset(spriteset_rbd_Germany_DB_650_Regio_Shuttle, "gfx/Railbus-diesel/Germany_DB_650_Regio_Shuttle.png") {
+//Engine
+spriteset(spriteset_electric_China_China_Railways_6K_obsolete, "gfx/Obsolete/China_China_Railways_6K_obsolete.png") {
 	template_2cc_engines_general(1, 1)
-}
-
-/*
-* Cargo capacity
-*/
-
-switch(FEAT_TRAINS, SELF, switch_rbd_Germany_DB_650_Regio_Shuttle_capacity, cargo_classes) {
-	bitmask(CC_MAIL): 34;
-	bitmask(CC_ARMOURED): 17;
-	68;
 }
