@@ -776,6 +776,9 @@ str_diesel_USA_Pennsylvania_Railroad_RF_16_Sharknose_obsolete   :PRR RF-16 'Shar
 str_steam_South_Africa_PPR_35_tonner_4_6_0T_obsolete                    :PPR 35-tonner 4-6-0T (antiquata)
 str_dmu_Slovakia_ZSSK_861_obsolete                                                              :ZSSK 861 (antiquata)
 str_rbd_Germany_DB_VT98_obsolete                                                                :DB VT98 (antiquata)
+str_electric_Portugal_CP_Class_2550_obsolete                                    :CP 2550 (antiquata)
+str_rbd_Germany_DB_650_Regio_Shuttle_obsolete                                   :DB 650 'Regio Shuttle' (antiquata)
+str_electric_China_China_Railways_6K_obsolete                                   :Ferrovie Cinesi 6K (antiquata)
 
 #PURCHASE MENU TEXTS
 str_unit_wagon                          :Questa carrozza generica può solo essere usata per comporre unità multiple della lunghezza desiderata

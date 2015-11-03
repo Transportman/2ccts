@@ -776,6 +776,9 @@ str_diesel_USA_Pennsylvania_Railroad_RF_16_Sharknose_obsolete   :PRR RF-16 'Shar
 str_steam_South_Africa_PPR_35_tonner_4_6_0T_obsolete                    :PPR 35-tonner 4-6-0T (nekorištena)
 str_dmu_Slovakia_ZSSK_861_obsolete                                                              :ZSSK 861 (nekorištena)
 str_rbd_Germany_DB_VT98_obsolete                                                                :DB VT98 (nekorištena)
+str_electric_Portugal_CP_Class_2550_obsolete                                    :CP 2550 (nekorištena)
+str_rbd_Germany_DB_650_Regio_Shuttle_obsolete                                   :DB 650 'Regio Shuttle' (nekorištena)
+str_electric_China_China_Railways_6K_obsolete                                   :China Railways 6K (nekorištena)
 
 #PURCHASE MENU TEXTS
 str_unit_wagon                          :Ovaj generički vagon se može koristiti SAMO sa višedjelnim jedinicama (MU) za stvaranje vlakova željene dužine
