@@ -13,6 +13,10 @@ str_used_with_dynamic_engines           :dynamic_engines = true (ustawienie w op
 
 #parameter strings
 #cost parameters
+STR_PARAM_PURCHASE_COST             :Mnożnik kosztów zakupu
+STR_PARAM_PURCHASE_COST_DESC        :Do zmniejszania/zwiększania kosztów zakupu pojazdów (dotyczy tylko tego setu)
+STR_PARAM_RUNNING_COST              :Mnożnik kosztów utrzymania
+STR_PARAM_RUNNING_COST_DESC         :Do zmniejszania/zwiększania kosztów utrzymania/amortyzacji pojazdów (dotyczy tylko tego setu)
 
 STR_PARAM_DIVIDE_16                 :1/16
 STR_PARAM_DIVIDE_8                  :1/8
@@ -26,13 +30,23 @@ STR_PARAM_TIMES_16                  :16
 
 #region parameters
 STR_PARAM_REGION_AFRICA                                 :Afryka
+STR_PARAM_REGION_AFRICA_DESC                    :Użyj pojazdów z Afryki
 STR_PARAM_REGION_NORTHAMERICA                   :Ameryka Północna
 STR_PARAM_REGION_NORTHAMERICA_DESC              :Użyj pojazdów z Ameryki Północnej
 STR_PARAM_REGION_SOUTHAMERICA                   :Ameryka Południowa
+STR_PARAM_REGION_SOUTHAMERICA_DESC              :Użyj pojazdów z Ameryki Południowej
 STR_PARAM_REGION_ASIA                                   :Azja
+STR_PARAM_REGION_ASIA_DESC                              :Użyj pojazdów z Azji
+STR_PARAM_REGION_NORTHERNEUROPE                 :Europa Północna
+STR_PARAM_REGION_NORTHERNEUROPE_DESC    :Użyj pojazdów z Północnej Europy
 STR_PARAM_REGION_EASTERNEUROPE                  :Europa Wschodnia
+STR_PARAM_REGION_EASTERNEUROPE_DESC             :Użyj pojazdów ze Wschodniej Europy
+STR_PARAM_REGION_SOUTHERNEUROPE                 :Europa Południowa
+STR_PARAM_REGION_SOUTHERNEUROPE_DESC    :Użyj pojazdów z Południowej Europy
 STR_PARAM_REGION_WESTERNEUROPE                  :Europa Zachodnia
+STR_PARAM_REGION_WESTERNEUROPE_DESC             :Użyj pojazdów z Europy Zachodniej
 STR_PARAM_REGION_OCEANIA                                :Oceania
+STR_PARAM_REGION_OCEANIA_DESC                   :Użyj pojazdów z Oceanii
 
 #loading speed parameter
 STR_PARAM_LOADINGSPEED                                  :Szybkość za/wyładunku
@@ -293,7 +307,32 @@ str_wagon_Gen3_Boxcar_Type1                     :3cia generacja wagonu krytego k
 
 
 #coaches
-str_coach_Gen2_Steel_3_axle_Mail_Coach                                  :Wagon pocztowy 3-osiowy, o konstrukcji stalowej
+str_coach_Gen1_Wooden_2_axle_Compartment_Coach                  :Dwuosiowy wagon przedziałowy, nadwozie drewniane
+str_coach_Gen1_Wooden_2_axle_Regional_Coach                     :Dwuosiowy wagon bezprzedziałowy, nadwozie drewniane
+str_coach_Gen1_Wooden_2_axle_Mail_Coach                                 :Dwuosiowy wagon pocztowy, nadwozie drewniane
+str_coach_Gen1_Clerestory_Compartment_Coach                     :Wagon przedziałowy z dachem świetlikowym
+str_coach_Gen1_Clerestory_Regional_Coach                                :Wagon bezprzedziałowy z dachem świetlikowym
+str_coach_Gen1_Clerestory_Mail_Coach                                    :Wagon pocztowy z dachem świetlikowym
+str_coach_Gen1_Wooden_3_axle_Compartment_Coach                  :Trzyosiowy wagon przedziałowy, nadwozie drewniane
+str_coach_Gen1_Wooden_3_axle_Regional_Coach                     :Trzyosiowy wagon bezprzedziałowy, nadwozie drewniane
+str_coach_Gen1_Wooden_3_axle_Mail_Coach                                 :Trzyosiowy wagon pocztowy, nadwozie drewniane
+str_coach_Gen2_Heavyweight_Intercity_Coach                              :Wagon dalekobieżny 'Pulmann'
+str_coach_Gen2_Heavyweight_Mail_Coach                                   :Dalekobieżny wagon pocztowy
+str_coach_Gen2_Steel_Intercity_Coach                                    :Wagon dalekobieżny, nadwozie stalowe
+str_coach_Gen2_Steel_Compartment_Coach                                  :Wagon przedziałowy, nadwozie stalowe
+str_coach_Gen2_Steel_Regional_Coach                                     :Wagon bezprzedziałowy, nadwozie stalowe
+str_coach_Gen2_Steel_Mail_Coach                                                 :Wagon pocztowy, nadwozie stalowe
+str_coach_Gen2_Steel_2_axle_Compartment_Coach                   :Dwuosiowy wagon przedziałowy, nadwozie stalowe
+str_coach_Gen2_Steel_2_axle_Regional_Coach                              :Dwuosiowy wagon bezprzedziałowy, nadwozie stalowe
+str_coach_Gen2_Steel_2_axle_Mail_Coach                                  :Dwuosiowy wagon pocztowy 3-osiowy, nadwozie stalowe
+str_coach_Gen2_Steel_3_axle_Compartment_Coach                   :Trzyosiowy wagon przedziałowy, nadwozie stalowe
+str_coach_Gen2_Steel_3_axle_Regional_Coach                              :Trzyosiowy wagon bezprzedziałowy, nadwozie stalowe
+str_coach_Gen2_Steel_3_axle_Mail_Coach                                  :Trzyosiowy wagon pocztowy, nadwozie stalowe
+str_coach_Gen3_Aluminium_Lightweight_Intercity_Coach    :Wagon dalekobieżny, lekkie nadwozie aluminiowe
+str_coach_Gen3_Aluminium_Lightweight_Regional_Coach     :Wagon bezprzedziałowy, lekkie nadwozie aluminiowe
+str_coach_Gen3_Aluminium_Lightweight_Mail_Coach                 :Wagon pocztowy, lekkie nadwozie aluminiowe
+str_coach_Gen3_Gallery_Car                                                              :Wagon dwupoziomowy
+str_coach_Gen3_Doppelstockwagen_Local_Coach                     :Wagon piętrowy do ruchu lokalnego
 
 #special wagons
 str_mu_wagon_unpowered          :Wagon Zespołu Trakcyjnego (doczepny)
