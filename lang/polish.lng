@@ -328,11 +328,23 @@ str_coach_Gen2_Steel_2_axle_Mail_Coach                                  :Dwuosio
 str_coach_Gen2_Steel_3_axle_Compartment_Coach                   :Trzyosiowy wagon przedziałowy, nadwozie stalowe
 str_coach_Gen2_Steel_3_axle_Regional_Coach                              :Trzyosiowy wagon bezprzedziałowy, nadwozie stalowe
 str_coach_Gen2_Steel_3_axle_Mail_Coach                                  :Trzyosiowy wagon pocztowy, nadwozie stalowe
+str_coach_Gen3_Steel_Lightweight_Intercity_Coach                :Wagon dalekobieżny, lekkie nadwozie stalowe
+str_coach_Gen3_Steel_Lightweight_Regional_Coach                 :Wagon bezprzedziałowy, lekkie nadwozie stalowe
+str_coach_Gen3_Steel_Lightweight_Mail_Coach                     :Wagon pocztowy, lekkie nadwozie stalowe
 str_coach_Gen3_Aluminium_Lightweight_Intercity_Coach    :Wagon dalekobieżny, lekkie nadwozie aluminiowe
 str_coach_Gen3_Aluminium_Lightweight_Regional_Coach     :Wagon bezprzedziałowy, lekkie nadwozie aluminiowe
 str_coach_Gen3_Aluminium_Lightweight_Mail_Coach                 :Wagon pocztowy, lekkie nadwozie aluminiowe
 str_coach_Gen3_Gallery_Car                                                              :Wagon dwupoziomowy
+str_coach_Gen3_UIC_X_Intercity_Coach                                    :Wagon dalekobieżny standardu UIC-X
+str_coach_Gen3_TEE_Intercity_Coach                                              :Wagon Eurocity TEE
+str_coach_Gen3_UIC_X_Regional_Coach                                     :Wagon bezprzedziałowy standardu UIC-X
+str_coach_Gen3_Umbauwagen_Local_Coach                                   :Wagon 'reko' do ruchu lokalnego
 str_coach_Gen3_Doppelstockwagen_Local_Coach                     :Wagon piętrowy do ruchu lokalnego
+str_coach_Gen3_UIC_X_Mail_Coach                                                 :Wagon pocztowy standardu UIC-X
+str_coach_Gen4_Eurofima_Intercity_Coach                                 :Wagon dalekobieżny Eurofima
+str_coach_Gen4_Eurofima_Mail_Coach                                              :Wagon pocztowy Eurofima
+str_coach_Gen4_Double_Decker_Coach                                              :Wagon piętrowy
+str_coach_Gen4_Bombardier_Bi_level                                              :Wagon piętrowy firmy Bombardier
 
 #special wagons
 str_mu_wagon_unpowered          :Wagon Zespołu Trakcyjnego (doczepny)
