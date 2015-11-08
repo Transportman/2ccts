@@ -11,7 +11,7 @@
 */
 
 spriteset(spriteset_electric_Chile_EFE_E_29_purchase, "gfx/Electric/Chile_EFE_E_29.png") {
-	template_purchase(1, 32)
+	template_purchase(1, 128)
 }
 
 /*
@@ -23,7 +23,7 @@ spriteset(spriteset_electric_Chile_EFE_E_29_purchase, "gfx/Electric/Chile_EFE_E_
 
 //Engine
 spriteset(spriteset_electric_Chile_EFE_E_29_engine, "gfx/Electric/Chile_EFE_E_29.png") {
-	template_2cc_L10(1, 1)
+	template_2cc_L12(1, 1)
 }
 
 switch(FEAT_TRAINS, SELF, switch_electric_Chile_EFE_E_29_position, position_in_vehid_chain % 2) {

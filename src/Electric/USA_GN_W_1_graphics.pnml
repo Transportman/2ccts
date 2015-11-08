@@ -11,7 +11,7 @@
 */
 
 spriteset(spriteset_electric_USA_GN_W_1_purchase, "gfx/Electric/USA_GN_W_1.png") {
-	template_purchase(1, 64)
+	template_purchase(1, 128)
 }
 
 /*

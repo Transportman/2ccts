@@ -11,7 +11,7 @@
 */
 
 spriteset(spriteset_electric_USA_Milwaukee_Road_EP_2_Bipolar_purchase, "gfx/Electric/USA_Milwaukee_Road_EP_2_Bipolar.png") {
-	template_purchase(1, 64)
+	template_purchase(1, 128)
 }
 
 /*
@@ -23,7 +23,7 @@ spriteset(spriteset_electric_USA_Milwaukee_Road_EP_2_Bipolar_purchase, "gfx/Elec
 
 //Engine
 spriteset(spriteset_electric_USA_Milwaukee_Road_EP_2_Bipolar_engine, "gfx/Electric/USA_Milwaukee_Road_EP_2_Bipolar.png") {
-	template_2cc_L10(1, 1)
+	template_2cc_L12(1, 1)
 }
 
 

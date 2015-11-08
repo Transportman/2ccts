@@ -11,7 +11,7 @@
 */
 
 spriteset(spriteset_rbs_South_Africa_CSAR_Railmotor_purchase, "gfx/Railbus-steam/South_Africa_CSAR_Railmotor.png") {
-	template_purchase(1, 64)
+	template_purchase(1, 128)
 }
 
 /*
@@ -20,11 +20,11 @@ spriteset(spriteset_rbs_South_Africa_CSAR_Railmotor_purchase, "gfx/Railbus-steam
 
 //Engine
 spriteset(spriteset_rbs_South_Africa_CSAR_Railmotor_engine1, "gfx/Railbus-steam/South_Africa_CSAR_Railmotor.png") {
-	template_2cc_L10(1, 1)
+	template_2cc_L12(1, 1)
 }
 
 spriteset(spriteset_rbs_South_Africa_CSAR_Railmotor_engine2, "gfx/Railbus-steam/South_Africa_CSAR_Railmotor.png") {
-	template_2cc_L10(1, 32)
+	template_2cc_L12(1, 64)
 }
 
 //Animation states

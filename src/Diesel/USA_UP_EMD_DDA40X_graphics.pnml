@@ -11,7 +11,7 @@
 */
 
 spriteset(spriteset_diesel_USA_UP_EMD_DDA40X_purchase, "gfx/Diesel/USA_UP_EMD_DDA40X.png") {
-	template_purchase(1, 64)
+	template_purchase(1, 128)
 }
 
 /*
@@ -23,7 +23,7 @@ spriteset(spriteset_diesel_USA_UP_EMD_DDA40X_purchase, "gfx/Diesel/USA_UP_EMD_DD
 
 //Engine
 spriteset(spriteset_diesel_USA_UP_EMD_DDA40X_engine, "gfx/Diesel/USA_UP_EMD_DDA40X.png") {
-	template_2cc_L10(1, 1)
+	template_2cc_L12(1, 1)
 }
 
 switch(FEAT_TRAINS, SELF, switch_diesel_USA_UP_EMD_DDA40X_position, position_in_vehid_chain % 2) {

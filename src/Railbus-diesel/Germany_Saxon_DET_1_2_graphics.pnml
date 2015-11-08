@@ -11,7 +11,7 @@
 */
 
 spriteset(spriteset_rbd_Germany_Saxon_DET_1_2_purchase, "gfx/Railbus-diesel/Germany_Saxon_DET_1_2.png") {
-	template_purchase(1, 32)
+	template_purchase(1, 128)
 }
 
 /*
@@ -20,7 +20,7 @@ spriteset(spriteset_rbd_Germany_Saxon_DET_1_2_purchase, "gfx/Railbus-diesel/Germ
 
 //Engine
 spriteset(spriteset_rbd_Germany_Saxon_DET_1_2, "gfx/Railbus-diesel/Germany_Saxon_DET_1_2.png") {
-	template_2cc_L10(1, 1)
+	template_2cc_L12(1, 1)
 }
 
 switch(FEAT_TRAINS, SELF, switch_rbd_Germany_Saxon_DET_1_2_position, position_in_vehid_chain % 2) {
