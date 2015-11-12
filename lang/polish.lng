@@ -174,7 +174,22 @@ str_steam_USA_Southern_Pacific_GS_4_Daylight :Southern Pacific GS-4 'Daylight' (
 
 
 #Diesel
-str_diesel_Italy_FS_D341 :FS D.341 (Diesel)
+str_diesel_USA_GNR_EMD_F3                                                               :GNR EMD F3 (Spalinowóz)
+str_diesel_Argentina_MF_GM_EMD_J16CW_AC                                 :MF GM-EMD-J16CW-AC (Spalinowóz)
+str_diesel_Australia_Queensland_Rail_2100                               :Queensland Rail 2100 (Spalinowóz)
+str_diesel_China_China_Railways_DFH3                                    :China Railways DFH3 (Spalinowóz)
+str_diesel_Argentina_MF_GE_U20C                                                 :MF GE U20C (Spalinowóz)
+str_diesel_China_China_Railways_HXN5                                    :China Railways HXN5 (Spalinowóz)
+str_diesel_Algeria_SNTF_Baldwin_DRS6_4_1000 :SNTF Baldwin DRS6-4-1000 (Spalinowóz)
+str_diesel_Italy_FS_D341 :FS D.341 (Spalinowóz)
+str_diesel_Saudi_Arabia_Saudi_Railways_4000_EMD_SD70ACS :Saudi Railways 4000 EMD SD70ACS (Spalinowóz)
+str_diesel_Canada_GO_Transit_MP40PH_3C :GO Transit MP40PH-3C (Spalinowóz)
+str_diesel_Argentina_Great_Southern_Railway_DH501 :Great Southern Railway DH501 (Spalinowóz)
+str_diesel_Peru_Ferrocarril_Central_Andino_GE_C39_8 :Ferrocarril Central Andino GE C39-8 (Spalinowóz)
+str_diesel_Argentina_SOFSE_3193 :SOFSE 319.3 (Spalinowóz)
+str_diesel_Argentina_SOFSE_CNR_CKD8 :SOFSE CNR CKD8 (Spalinowóz)
+str_diesel_Algeria_SNTF_040_DG :SNTF 040 DG (Spalinowóz)
+str_diesel_Poland_PKP_SP32 :PKP SP32 (Spalinowóz)
 
 #Electric
 str_electric_Switzerland_RhB_DE_2_2                     :RhB De 2/2 (Elektrowóz)
@@ -342,9 +357,22 @@ str_coach_Gen3_Umbauwagen_Local_Coach                                   :Wagon '
 str_coach_Gen3_Doppelstockwagen_Local_Coach                     :Wagon piętrowy do ruchu lokalnego
 str_coach_Gen3_UIC_X_Mail_Coach                                                 :Wagon pocztowy standardu UIC-X
 str_coach_Gen4_Eurofima_Intercity_Coach                                 :Wagon dalekobieżny Eurofima
+str_coach_Gen4_InterRegio_Coach                                                 :Wagon InterRegio
+str_coach_Gen4_Silberling_Commuter_Coach                                :Podmiejski wagon bezprzedziałowy 'Silberling'
 str_coach_Gen4_Eurofima_Mail_Coach                                              :Wagon pocztowy Eurofima
 str_coach_Gen4_Double_Decker_Coach                                              :Wagon piętrowy
+str_coach_Gen4_Russian_Intercity_Coach                                  :Dalekobieżny wagon RZD
+str_coach_Gen4_Russian_Regional_Coach                                   :Bezprzedziałowy wagon RZD
+str_coach_Gen4_Russian_Mail_Coach                                               :Pocztowy wagon RZD
 str_coach_Gen4_Bombardier_Bi_level                                              :Wagon piętrowy firmy Bombardier
+str_coach_Gen5_High_Speed_Coach                                                 :Wagon pasażerski dużych prędkości
+str_coach_Gen5_Modern_Regional_Coach                                    :Wagon bezprzedziałowy nowej generacji
+str_coach_Gen5_Modern_Commuter_Coach                                    :Wagon podmiejski nowej generacji
+str_coach_Gen5_Modern_Double_Decker_Coach                               :Wagon piętrowy nowej generacji
+str_coach_Gen5_High_Speed_Double_Decker_IC2000                  :Piętrowy wagon pasażerski dużych prędkości (IC2000)
+str_coach_Gen5_High_Speed_Mail_Coach                                    :Wagon pocztowy dużych prędkości
+str_coach_Gen5_Talgo_Pendular                                                   :Wagon składu Talgo
+str_coach_Gen5_Talgo_Pendular_Mail                                              :Wagon pocztowy składu Talgo
 
 #special wagons
 str_mu_wagon_unpowered          :Wagon Zespołu Trakcyjnego (doczepny)
