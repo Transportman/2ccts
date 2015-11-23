@@ -469,7 +469,28 @@ str_mtro_Brazil_Recife_VLT_Mobile_3 :Recife VLT Mobile 3 (Metro)
 #Maglev
 
 #wagons
-str_wagon_Gen3_Boxcar_Type1                     :3cia generacja wagonu krytego konstr. drewnianej (typ 1)
+str_wagon_Gen1_Flat_Wagon                               :1-sza generacja wagonu platformy
+str_wagon_Gen1_Boxcar                                   :1-sza generacja wagonu krytego, o konstrukcji drewnianej
+str_wagon_Gen1_Tanker                                   :1-sza generacja wagonu cysterny
+str_wagon_Gen1_Open_Wagon                               :1-sza generacja wagonu węglarki, o konstrukcji drewnianej
+str_wagon_Gen2_Flat_Wagon                               :2-ga generacja wagonu platformy
+str_wagon_Gen2_Boxcar_Type1                             :2-ga generacja wagonu krytego (typ 1)
+str_wagon_Gen2_Boxcar_Type2                             :2-ga generacja wagonu krytego (typ 2)
+str_wagon_Gen2_Tanker                                   :2-ga generacja wagonu cysterny
+str_wagon_Gen2_Open_Wagon                               :2-ga generacja wagonu węglarki, o konstrukcji drewnianej
+str_wagon_Gen2_Silo                                     :2-ga generacja wagonu zbiornikowego (silos)
+str_wagon_Gen2_Hopper                                   :2-ga generacja wagonu samowyładowczego
+str_wagon_Gen3_Flat_Wagon                               :3-cia generacja wagonu platformy
+str_wagon_Gen3_Boxcar_Type1                     :3-cia generacja wagonu krytego konstr. drewnianej (typ 1)
+str_wagon_Gen3_Boxcar_Type2                     :3-cia generacja wagonu krytego (typ 2)
+str_wagon_Gen3_Tanker                                   :3-cia generacja wagonu cysterny
+str_wagon_Gen3_Open_Wagon                               :3-cia generacja wagonu węglarki
+str_wagon_Gen3_Silo_Type1                               :3-cia generacja wagonu zbiornikowego (silos typ 1)
+str_wagon_Gen3_Silo_Type2                               :3-cia generacja wagonu zbiornikowego (silos typ 2)
+str_wagon_Gen3_Hopper                                   :3-cia generacja wagonu samowyładowczego
+str_wagon_Gen4_Boxcar_Type1                             :4-ta generacja wagonu krytego (typ 1)
+str_wagon_Gen4_Boxcar_Type2                             :4-ta generacja wagonu krytego (typ 2)
+str_wagon_Gen4_Car_Transporter                  :4-ta generacja wagonu do transportu aut
 
 
 #coaches
