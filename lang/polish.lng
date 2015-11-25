@@ -488,9 +488,13 @@ str_wagon_Gen3_Open_Wagon                               :3-cia generacja wagonu 
 str_wagon_Gen3_Silo_Type1                               :3-cia generacja wagonu zbiornikowego (silos typ 1)
 str_wagon_Gen3_Silo_Type2                               :3-cia generacja wagonu zbiornikowego (silos typ 2)
 str_wagon_Gen3_Hopper                                   :3-cia generacja wagonu samowyładowczego
+str_wagon_Gen4_Flatcar                                  :4-ta generacja platformy
 str_wagon_Gen4_Boxcar_Type1                             :4-ta generacja wagonu krytego (typ 1)
 str_wagon_Gen4_Boxcar_Type2                             :4-ta generacja wagonu krytego (typ 2)
+str_wagon_Gen4_Gondola                                  :4-ta generacja wagonu gondoli
 str_wagon_Gen4_Car_Transporter                  :4-ta generacja wagonu do transportu aut
+str_wagon_Gen4_Container_Carrier                :4-ta generacja wagonu kontenerowego
+str_wagon_Gen4_Centerbeam                               :4-ta generacja platformy dwudzielnej
 
 
 #coaches
