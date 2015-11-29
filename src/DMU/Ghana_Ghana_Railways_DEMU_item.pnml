@@ -1,0 +1,73 @@
+/*
+ *  Copyright (C) 2014 Transportman
+ *  This file is part of the 2cc Trains In NML and is based on The Dutch Trainset 2.0 by Jasper Vries
+ *  This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
+ *  This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+ *  You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+*/
+
+/*
+* ITEM
+*/
+
+item(FEAT_TRAINS, item_dmu_Ghana_Ghana_Railways_DEMU) {
+    property {
+        name: string(str_dmu_Ghana_Ghana_Railways_DEMU);
+        REGION(AFRICA,NOREGION,NOCONCEPT)
+        
+        introduction_date: date(2009,1,1);
+        model_life: VEHICLE_NEVER_EXPIRES;
+        vehicle_life: 40;
+        LOADINGSPEEDDEF_COMMUTER
+        cost_factor: 51;
+        running_cost_factor: 47;
+        speed: 90 km/h;
+        power: 1656 hp;
+        cargo_capacity: 102;
+        weight: 48 ton;
+        tractive_effort_coefficient: 0.3;
+        air_drag_coefficient: 0;
+        
+        reliability_decay: 20;
+        CARGODEF_PASSENGERS
+        cargo_age_period: 185;
+        misc_flags: bitmask(TRAIN_FLAG_MU,TRAIN_FLAG_2CC);
+        refit_cost: 0;
+        track_type: RAIL;
+		ai_special_flag: AI_FLAG_PASSENGER;
+        running_cost_base: RUNNING_COST_STEAM;
+        engine_class: ENGINE_CLASS_DIESEL;
+        visual_effect_and_powered: visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
+
+        sprite_id: SPRITE_ID_NEW_TRAIN;
+        dual_headed: 1;
+        length: 7;
+        extra_power_per_wagon: 0;
+        bitmask_vehicle_info: 0;
+	}
+	graphics {
+		purchase: spriteset_dmu_Ghana_Ghana_Railways_DEMU_purchase;
+		can_attach_wagon: switch_can_attach_vehicle;
+		cargo_capacity: switch_dmu_Ghana_Ghana_Railways_DEMU_capacity;
+		visual_effect_and_powered: switch_dmu_Ghana_Ghana_Railways_DEMU_visual_effect_and_powered;
+		switch_dmu_Ghana_Ghana_Railways_DEMU_reversed;
+	}	
+	livery_override (item_mtro_wagon_unpowered){
+		LOADINGSPEEDDEF_COMMUTER
+		running_cost_factor: 23;
+		power: 0;
+		weight: 24;
+		cargo_capacity: switch_dmu_Ghana_Ghana_Railways_DEMU_capacity;
+		length: 7;
+		default: switch_dmu_Ghana_Ghana_Railways_DEMU_cargo_selection;
+	}
+	livery_override (item_mtro_wagon_powered){
+		LOADINGSPEEDDEF_COMMUTER
+		running_cost_factor: 35;
+		power: 828;
+		weight: 36;
+		cargo_capacity: switch_dmu_Ghana_Ghana_Railways_DEMU_capacity;
+		length: 7;
+		default: switch_dmu_Ghana_Ghana_Railways_DEMU_cargo_selection;
+	}
+}

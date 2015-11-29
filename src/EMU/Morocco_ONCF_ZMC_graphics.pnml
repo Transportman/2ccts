@@ -1,0 +1,68 @@
+/*
+ *  Copyright (C) 2014 Transportman
+ *  This file is part of the 2cc Trains In NML
+ *  This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
+ *  This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+ *  You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+*/
+
+/*
+* PURCHASE
+*/
+
+spriteset(spriteset_emu_Morocco_ONCF_ZMC_purchase, "gfx/EMU/Morocco_ONCF_ZMC.png") {
+	template_purchase_dualheaded(1, 128)
+}
+
+/*
+* VEHICLE
+*/
+
+//Front
+spriteset(spriteset_emu_Morocco_ONCF_ZMC_front, "gfx/EMU/Morocco_ONCF_ZMC.png") {
+	template_2cc_engines_general(1, 1)
+}
+
+//Back
+spriteset(spriteset_emu_Morocco_ONCF_ZMC_back, "gfx/EMU/Morocco_ONCF_ZMC.png") {
+	template_2cc_engines_general(1, 32)
+}
+
+//Middle - PAX
+spriteset(spriteset_emu_Morocco_ONCF_ZMC_middlepass, "gfx/EMU/Morocco_ONCF_ZMC.png") {
+	template_2cc_engines_general(1, 64)
+}
+//Middle - MAIL
+spriteset(spriteset_emu_Morocco_ONCF_ZMC_middlemail, "gfx/EMU/Morocco_ONCF_ZMC.png") {
+	template_2cc_engines_general(1, 96)
+}
+
+//Dualheaded engines
+switch(FEAT_TRAINS, SELF, switch_emu_Morocco_ONCF_ZMC_reversed, var[0xC8]) {
+	0xFE: spriteset_emu_Morocco_ONCF_ZMC_back;
+    0xFF: spriteset_emu_Morocco_ONCF_ZMC_back; 
+    spriteset_emu_Morocco_ONCF_ZMC_front;
+}
+
+//Visual effect, for DMU this is done on the front engine
+switch(FEAT_TRAINS, SELF, switch_emu_Morocco_ONCF_ZMC_visual_effect_and_powered, var[0xC8]) {
+	0xFE: visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
+	0xFF: visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
+	visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, -3, DISABLE_WAGON_POWER);
+}
+	
+/*
+* Cargo capacity
+*/
+
+switch(FEAT_TRAINS, SELF, switch_emu_Morocco_ONCF_ZMC_capacity, cargo_classes) {
+	bitmask(CC_MAIL): 45;
+	bitmask(CC_ARMOURED): 23;
+	90;
+}
+
+//Graphics for the unit wagon based on cargo class
+switch(FEAT_TRAINS, SELF, switch_emu_Morocco_ONCF_ZMC_cargo_selection, cargo_classes){
+	bitmask(CC_PASSENGERS): spriteset_emu_Morocco_ONCF_ZMC_middlepass;
+	spriteset_emu_Morocco_ONCF_ZMC_middlemail;
+}
