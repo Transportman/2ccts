@@ -13,7 +13,7 @@
 item(FEAT_TRAINS, item_electric_Brasil_RFFSA_He_4_4) {
     property {
         name: string(str_electric_Brasil_RFFSA_He_4_4);
-        REGION(WESTERNEUROPE,NOREGION,NOCONCEPT)
+        REGION(SOUTHAMERICA,NOREGION,NOCONCEPT)
 		
         introduction_date: date(2012,1,1);
         model_life: 25;
