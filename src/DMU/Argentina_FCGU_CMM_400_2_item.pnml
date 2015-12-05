@@ -52,7 +52,7 @@ item(FEAT_TRAINS, item_dmu_Argentina_FCGU_CMM_400_2) {
 		visual_effect_and_powered: switch_dmu_Argentina_FCGU_CMM_400_2_visual_effect_and_powered;
 		switch_dmu_Argentina_FCGU_CMM_400_2_reversed;
 	}	
-	livery_override (item_mtro_wagon_unpowered){
+	livery_override (item_mu_wagon_unpowered){
 		LOADINGSPEEDDEF_COMMUTER
 		running_cost_factor: 17;
 		power: 0;
@@ -61,7 +61,7 @@ item(FEAT_TRAINS, item_dmu_Argentina_FCGU_CMM_400_2) {
 		length: 8;
 		default: switch_dmu_Argentina_FCGU_CMM_400_2_cargo_selection;
 	}
-	livery_override (item_mtro_wagon_powered){
+	livery_override (item_mu_wagon_powered){
 		LOADINGSPEEDDEF_COMMUTER
 		running_cost_factor: 26;
 		power: 400;

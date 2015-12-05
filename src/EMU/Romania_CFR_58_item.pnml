@@ -52,7 +52,7 @@ item(FEAT_TRAINS, item_emu_Romania_CFR_58) {
 		visual_effect_and_powered: switch_emu_Romania_CFR_58_visual_effect_and_powered;
 		switch_emu_Romania_CFR_58_reversed;
 	}	
-	livery_override (item_mtro_wagon_unpowered){
+	livery_override (item_mu_wagon_unpowered){
 		LOADINGSPEEDDEF_COMMUTER
 		running_cost_factor: 18;
 		power: 0;
@@ -61,7 +61,7 @@ item(FEAT_TRAINS, item_emu_Romania_CFR_58) {
 		length: 8;
 		default: switch_emu_Romania_CFR_58_cargo_selection;
 	}
-	livery_override (item_mtro_wagon_powered){
+	livery_override (item_mu_wagon_powered){
 		LOADINGSPEEDDEF_COMMUTER
 		running_cost_factor: 26;
 		power: 412;

@@ -52,7 +52,7 @@ item(FEAT_TRAINS, item_emu_Japan_JR_Shinkansen_Series_E1_Max) {
 		visual_effect_and_powered: switch_emu_Japan_JR_Shinkansen_Series_E1_Max_visual_effect_and_powered;
 		switch_emu_Japan_JR_Shinkansen_Series_E1_Max_reversed;
 	}	
-	livery_override (item_mtro_wagon_unpowered){
+	livery_override (item_mu_wagon_unpowered){
 		LOADINGSPEEDDEF_COMMUTER
 		running_cost_factor: 24;
 		power: 0;
@@ -61,7 +61,7 @@ item(FEAT_TRAINS, item_emu_Japan_JR_Shinkansen_Series_E1_Max) {
 		length: 8;
 		default: switch_emu_Japan_JR_Shinkansen_Series_E1_Max_cargo_selection;
 	}
-	livery_override (item_mtro_wagon_powered){
+	livery_override (item_mu_wagon_powered){
 		LOADINGSPEEDDEF_COMMUTER
 		running_cost_factor: 37;
 		power: 852;

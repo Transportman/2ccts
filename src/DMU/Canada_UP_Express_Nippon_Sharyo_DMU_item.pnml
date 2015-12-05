@@ -52,7 +52,7 @@ item(FEAT_TRAINS, item_dmu_Canada_UP_Express_Nippon_Sharyo_DMU) {
 		visual_effect_and_powered: switch_dmu_Canada_UP_Express_Nippon_Sharyo_DMU_visual_effect_and_powered;
 		switch_dmu_Canada_UP_Express_Nippon_Sharyo_DMU_reversed;
 	}	
-	livery_override (item_mtro_wagon_unpowered){
+	livery_override (item_mu_wagon_unpowered){
 		LOADINGSPEEDDEF_COMMUTER
 		running_cost_factor: 23;
 		power: 0;
@@ -61,7 +61,7 @@ item(FEAT_TRAINS, item_dmu_Canada_UP_Express_Nippon_Sharyo_DMU) {
 		length: 8;
 		default: switch_dmu_Canada_UP_Express_Nippon_Sharyo_DMU_cargo_selection;
 	}
-	livery_override (item_mtro_wagon_powered){
+	livery_override (item_mu_wagon_powered){
 		LOADINGSPEEDDEF_COMMUTER
 		running_cost_factor: 34;
 		power: 760;

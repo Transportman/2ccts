@@ -52,7 +52,7 @@ item(FEAT_TRAINS, item_emu_Russia_RZD_ER200) {
 		visual_effect_and_powered: switch_emu_Russia_RZD_ER200_visual_effect_and_powered;
 		switch_emu_Russia_RZD_ER200_reversed;
 	}	
-	livery_override (item_mtro_wagon_unpowered){
+	livery_override (item_mu_wagon_unpowered){
 		LOADINGSPEEDDEF_COMMUTER
 		running_cost_factor: 21;
 		power: 0;
@@ -61,7 +61,7 @@ item(FEAT_TRAINS, item_emu_Russia_RZD_ER200) {
 		length: 8;
 		default: switch_emu_Russia_RZD_ER200_cargo_selection;
 	}
-	livery_override (item_mtro_wagon_powered){
+	livery_override (item_mu_wagon_powered){
 		LOADINGSPEEDDEF_COMMUTER
 		running_cost_factor: 31;
 		power: 640;
