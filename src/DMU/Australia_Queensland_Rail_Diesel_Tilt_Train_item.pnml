@@ -15,7 +15,7 @@ item(FEAT_TRAINS, item_dmu_Australia_Queensland_Rail_Diesel_Tilt_Train) {
         name: string(str_dmu_Australia_Queensland_Rail_Diesel_Tilt_Train);
         REGION(OCEANIA,NOREGION,NOCONCEPT)
         
-        introduction_date: date(2013,1,1);
+        introduction_date: date(2003,1,1);
         model_life: VEHICLE_NEVER_EXPIRES;
         vehicle_life: 40;
         LOADINGSPEEDDEF_COMMUTER
