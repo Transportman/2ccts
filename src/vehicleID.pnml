@@ -67,6 +67,7 @@ item(FEAT_TRAINS, item_rbd_Chile_EFE_Buscarril, 2042) {}
 item(FEAT_TRAINS, item_rbd_Argentina_FCPBA_M_Railcar, 2043) {}
 item(FEAT_TRAINS, item_rbd_Germany_DB_VT98, 2044) {}
 item(FEAT_TRAINS, item_rbd_Eritrea_Eritrean_Railway_A62_70_Littorina, 2045) {}
+item(FEAT_TRAINS, item_rbd_Italy_FS_ALn_668, 2046) {} 
 
 //Railbus-Electric, available ID range: 3000-3999 (hex 0x0BB8..0x0F9F)
 #define ID_RANGE_RBE 0x0BB8..0x0F9F
@@ -493,7 +494,7 @@ item(FEAT_TRAINS, item_dmu_Australia_NSWGR_Silver_City_Comet, 7003) {}
 item(FEAT_TRAINS, item_dmu_Czech_Republic_CD_M131, 7004) {}
 item(FEAT_TRAINS, item_dmu_Germany_DB_VT08, 7005) {}
 item(FEAT_TRAINS, item_dmu_Australia_Queensland_Rail_400, 7006) {}
-item(FEAT_TRAINS, item_dmu_Italy_FS_ALn668, 7007) {}
+item(FEAT_TRAINS, item_dmu_Italy_FS_ALn_668_obsolete, 7007) {} // Obsoleted
 item(FEAT_TRAINS, item_dmu_Germany_DB_601_VT11_TEE, 7008) {}
 item(FEAT_TRAINS, item_dmu_Netherlands_NS_Plan_U_DE_III, 7009) {}
 item(FEAT_TRAINS, item_dmu_Canada_CNR_Turbo_Train, 7010) {}

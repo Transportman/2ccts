@@ -111,7 +111,8 @@ str_rbd_Japan_JR_KiHa_E120 :JR KiHa E120 (Diesel Railbus)
 str_rbd_Czech_Republic_CD_840 :CD 840 (Diesel Railbus)
 str_rbd_Chile_EFE_Buscarril :EFE Buscarril (Diesel railbus)
 str_rbd_Argentina_FCPBA_M_Railcar :FCPBA M Railcar (Diesel railbus)
-str_rbd_Eritrea_Eritrean_Railway_A62_70_Littorina :Eritrean Railway A.62-70 'Littorina' (Railbus-diesel)
+str_rbd_Eritrea_Eritrean_Railway_A62_70_Littorina :Eritrean Railway A.62-70 'Littorina' (Diesel railbus)
+str_rbd_Italy_FS_ALn_668 :FS ALn 668 (Diesel railbus)
 
 #Railbus-electric
 str_rbe_Switzerland_SBB_Cfe_3_3		:SBB Cfe 3/3 (Electric Railbus)
@@ -514,7 +515,6 @@ str_dmu_Australia_NSWGR_Silver_City_Comet 	:NSWGR 'Silver City Comet' (DMU)
 str_dmu_Czech_Republic_CD_M131 				:CD M131 (DMU)
 str_dmu_Germany_DB_VT08 					:DB VT08 (DMU)
 str_dmu_Australia_Queensland_Rail_400 		:Queensland Rail 400 (DMU)
-str_dmu_Italy_FS_ALn668 					:FS ALn 668 (DMU)
 str_dmu_Germany_DB_601_VT11_TEE 			:DB 601 VT11 TEE (DMU)
 str_dmu_Netherlands_NS_Plan_U_DE_III 		:NS Plan U DE-III (DMU)
 str_dmu_Canada_CNR_Turbo_Train 				:CNR 'Turbo Train' (DMU)
@@ -842,6 +842,7 @@ str_rbd_Germany_DB_VT98_obsolete		 						:DB VT98 (Obsoleted)
 str_electric_Portugal_CP_Class_2550_obsolete					:CP 2550 (Obsoleted)
 str_rbd_Germany_DB_650_Regio_Shuttle_obsolete		 			:DB 650 'Regio Shuttle' (Obsoleted)
 str_electric_China_China_Railways_6K_obsolete 					:China Railways 6K (Obsoleted)
+str_dmu_Italy_FS_ALn_668_obsolete 					:FS ALn 668 (DMU)
 
 #PURCHASE MENU TEXTS
 str_unit_wagon				:This generic wagon can ONLY be used with MUs to create trains of the desired length

@@ -156,6 +156,8 @@
 #include "src/Railbus-diesel/Argentina_FCPBA_M_Railcar_item.pnml"
 #include "src/Railbus-diesel/Eritrea_Eritrean_Railway_A62_70_Littorina_graphics.pnml"
 #include "src/Railbus-diesel/Eritrea_Eritrean_Railway_A62_70_Littorina_item.pnml"
+#include "src/Railbus-diesel/Italy_FS_ALn_668_graphics.pnml"
+#include "src/Railbus-diesel/Italy_FS_ALn_668_item.pnml"
 
 //Railbus-electric
 #include "src/Railbus-electric/Switzerland_SBB_Cfe_3_3_graphics.pnml"
@@ -198,6 +200,7 @@
 #include "src/Railbus-electric/Poland_PKP_EN81_item.pnml"
 #include "src/Railbus-electric/USA_SEPTA_Silverliner_V_graphics.pnml"
 #include "src/Railbus-electric/USA_SEPTA_Silverliner_V_item.pnml"
+
 
 //Steam
 #include "src/Steam/Belgium_Le_Belge_graphics.pnml"
@@ -949,8 +952,6 @@
 #include "src/DMU/Germany_DB_VT08_item.pnml"
 #include "src/DMU/Australia_Queensland_Rail_400_graphics.pnml"
 #include "src/DMU/Australia_Queensland_Rail_400_item.pnml"
-#include "src/DMU/Italy_FS_ALn668_graphics.pnml"
-#include "src/DMU/Italy_FS_ALn668_item.pnml"
 #include "src/DMU/Germany_DB_601_VT11_TEE_graphics.pnml"
 #include "src/DMU/Germany_DB_601_VT11_TEE_item.pnml"
 #include "src/DMU/Netherlands_NS_Plan_U_DE_III_graphics.pnml"
@@ -1575,6 +1576,8 @@
 #include "src/Obsolete/Germany_DB_650_Regio_Shuttle_obsolete_item.pnml"
 #include "src/Obsolete/China_China_Railways_6K_obsolete_graphics.pnml"
 #include "src/Obsolete/China_China_Railways_6K_obsolete_item.pnml"
+#include "src/Obsolete/Italy_FS_ALn_668_obsolete_graphics.pnml"
+#include "src/Obsolete/Italy_FS_ALn_668_obsolete_item.pnml"
 
 //sort vehicles in purchase list
 #include "src/vehiclesort.pnml"
