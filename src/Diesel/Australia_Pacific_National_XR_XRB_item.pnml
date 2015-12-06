@@ -37,7 +37,7 @@ item(FEAT_TRAINS, item_diesel_Australia_Pacific_National_XR_XRB) {
 		ai_special_flag: AI_FLAG_PASSENGER;
         running_cost_base: RUNNING_COST_STEAM;
         engine_class: ENGINE_CLASS_DIESEL;
-        visual_effect_and_powered: visual_effect_and_powered(VISUAL_EFFECT_DIESEL, 0, DISABLE_WAGON_POWER); //Set from graphics file
+        visual_effect_and_powered: visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER); //Set from graphics file
 
         sprite_id: SPRITE_ID_NEW_TRAIN;
         dual_headed: 0;
@@ -46,8 +46,9 @@ item(FEAT_TRAINS, item_diesel_Australia_Pacific_National_XR_XRB) {
         bitmask_vehicle_info: 0;
 	}
 	graphics {
-		purchase: spriteset_diesel_Australia_Pacific_National_XR_XRB_purchase;
+		purchase: spriteset_diesel_Australia_Pacific_National_XR_XRB_purchase;	
+		visual_effect_and_powered: switch_diesel_Australia_Pacific_National_XR_XRB_visual_effect;
 		can_attach_wagon: switch_can_attach_vehicle;
-		spriteset_diesel_Australia_Pacific_National_XR_XRB;
+		switch_diesel_Australia_Pacific_National_XR_XRB_position;
 	}
 }
