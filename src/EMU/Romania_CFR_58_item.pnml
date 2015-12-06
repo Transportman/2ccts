@@ -13,7 +13,7 @@
 item(FEAT_TRAINS, item_emu_Romania_CFR_58) {
     property {
         name: string(str_emu_Romania_CFR_58);
-        REGION(ASIA,NOREGION,NOCONCEPT)
+        REGION(EASTERNEUROPE,NOREGION,NOCONCEPT)
         
         introduction_date: date(1965,1,1);
         model_life: 25;
