@@ -181,6 +181,7 @@ str_steam_Germany_Saxon_XX_HV :Saxon XX HV (Vapor)
 str_steam_Belgium_NMBS_Type_7 :NMBS Tipo 7 (Vapor)
 str_steam_Ireland_DSER_15 :DSER 15 (Vapor)
 str_steam_USA_Sierra_Railroad_28 :Sierra Railroad 28 (Vapor)
+str_steam_Canada_CN_U_1_Class :CN U-1 (Vapor)
 str_steam_India_Indian_Railways_XB_Class :Indian Railways XB (Vapor)
 str_steam_Japan_JNR_Class_E10 :JNR E10 (Vapor)
 str_steam_UK_GWR_1600_Class :GWR 1600 (Vapor)
@@ -201,6 +202,7 @@ str_steam_Japan_JNR_9600 :JNR 9600 (Vapor)
 str_steam_Israel_Israel_Railways_H :Israel Railways H (Vapor)
 str_steam_Greece_SEK_Lb :SEK Lb (Vapor)
 str_steam_Czech_Republic_CD_5341 :CD 534.1 (Vapor)
+str_steam_Poland_PKP_Ok22 :PKP Ok22 (Vapor)
 str_steam_Croatia_HZ_11 :HZ 11 (Vapor)
 str_steam_Austria_KKStB_310 :KKStB 310 (Vapor)
 
@@ -322,6 +324,7 @@ str_diesel_Poland_PKP_SP32 :PKP SP32 (Diésel)
 str_diesel_Ukraine_UZ_2TE126 :UZ 2TE126 (Diésel)
 str_diesel_Ukraine_UZ_2TE10Ut :UZ 2TE10Ut (Diésel)
 str_diesel_Serbia_ZS_621 :ZS 621 (Diésel)
+str_diesel_Australia_Pacific_National_XR_XRB :Pacific National XR/XRB (Diésel)
 
 #Electric
 str_electric_Switzerland_RhB_DE_2_2                     :RhB De 2/2 (Eléctrico)
@@ -720,6 +723,7 @@ str_diesel_USA_Pennsylvania_Railroad_RF_16_Sharknose_obsolete   :PRR RF-16 'Shar
 str_steam_South_Africa_PPR_35_tonner_4_6_0T_obsolete                    :PPR 35-tonner 4-6-0T (Obsoleto)
 str_dmu_Slovakia_ZSSK_861_obsolete                                                              :ZSSK 861 (Obsoleto)
 str_rbd_Germany_DB_VT98_obsolete                                                                :DB VT98 (Obsoleto)
+str_rbd_Germany_DB_650_Regio_Shuttle_obsolete                                   :DB 650 'Regio Shuttle' (Obsoleto)
 str_electric_China_China_Railways_6K_obsolete                                   :China Railways 6K (Obsoleto)
 
 #PURCHASE MENU TEXTS
