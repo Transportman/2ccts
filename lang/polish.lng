@@ -172,7 +172,6 @@ str_steam_Poland_PKP_OI49 :PKP OI49 (Parowóz)
 str_steam_Austria_KKStB_310 :KKStB 310 (Parowóz)
 str_steam_USA_Southern_Pacific_GS_4_Daylight :Southern Pacific GS-4 'Daylight' (Parowóz)
 
-
 #Diesel
 str_diesel_Germany_DB_310_Kof_II                                                :DB 310 Kof II (Spalinowóz)
 str_diesel_USA_CNJ_ALCo_GE_IR_Boxcab                                    :CNJ ALCo-GE-IR Boxcab (Spalinowóz)

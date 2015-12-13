@@ -206,7 +206,6 @@ str_steam_Poland_PKP_Ok22 :PKP Ok22 (Vapor)
 str_steam_Croatia_HZ_11 :HZ 11 (Vapor)
 str_steam_Austria_KKStB_310 :KKStB 310 (Vapor)
 
-
 #Diesel
 str_diesel_Germany_DB_310_Kof_II                                                :DB 310 Kof II (Diésel)
 str_diesel_USA_CNJ_ALCo_GE_IR_Boxcab                                    :CNJ ALCo-GE-IR Boxcab (Diésel)
@@ -724,7 +723,6 @@ str_steam_South_Africa_PPR_35_tonner_4_6_0T_obsolete                    :PPR 35-
 str_dmu_Slovakia_ZSSK_861_obsolete                                                              :ZSSK 861 (Obsoleto)
 str_rbd_Germany_DB_VT98_obsolete                                                                :DB VT98 (Obsoleto)
 str_rbd_Germany_DB_650_Regio_Shuttle_obsolete                                   :DB 650 'Regio Shuttle' (Obsoleto)
-str_electric_China_China_Railways_6K_obsolete                                   :China Railways 6K (Obsoleto)
 
 #PURCHASE MENU TEXTS
 str_unit_wagon                          :Este vagón genérico SOLO se puede usar con MUs para crear trenes de la longitud deseada

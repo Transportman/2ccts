@@ -240,7 +240,6 @@ str_steam_Poland_PKP_OI49 :PKP OI49 (Stoom)
 str_steam_Austria_KKStB_310 :KKStB 310 (Stoom)
 str_steam_USA_Southern_Pacific_GS_4_Daylight :Suidelike Pacific GS-4 'Daylight' (Stoom)
 
-
 #Diesel
 str_diesel_Germany_DB_310_Kof_II                                                :DB 310 Kof II (Diesel)
 str_diesel_USA_CNJ_ALCo_GE_IR_Boxcab                                    :CNJ ALCo-GE-IR Boxcab (Diesel)
@@ -774,7 +773,6 @@ str_dmu_Slovakia_ZSSK_861_obsolete                                              
 str_rbd_Germany_DB_VT98_obsolete                                                                :DB VT98 (Uitgedien)
 str_electric_Portugal_CP_Class_2550_obsolete                                    :CP 2550 (Uitgedien)
 str_rbd_Germany_DB_650_Regio_Shuttle_obsolete                                   :DB 650 'Regio Shuttle' (Uitgedien)
-str_electric_China_China_Railways_6K_obsolete                                   :China Railways 6K (Uitgedien)
 
 #PURCHASE MENU TEXTS
 str_unit_wagon                          :Hierdie generiese wa kan SLEGS gebruik word met MU om treine van die verlangde lengte te skep

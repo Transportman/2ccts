@@ -252,7 +252,6 @@ str_steam_Australia_NSWGR_C35 :NSWGR C35 (parna lokomotiva)
 str_steam_Belgium_NMBS_SNCB_Type_29 :NMBS/SNCB Type 29 (parna lokomotiva)
 str_steam_Chile_FCAB_4_8_2 :FCAB 4-8-2 (parna lokomotiva)
 
-
 #Diesel
 str_diesel_Germany_DB_310_Kof_II                                                :DB 310 Kof II (dizel lokomotiva)
 str_diesel_USA_CNJ_ALCo_GE_IR_Boxcab                                    :CNJ ALCo-GE-IR Boxcab (dizel lokomotiva)
@@ -844,7 +843,6 @@ str_dmu_Slovakia_ZSSK_861_obsolete                                              
 str_rbd_Germany_DB_VT98_obsolete                                                                :DB VT98 (nekorištena)
 str_electric_Portugal_CP_Class_2550_obsolete                                    :CP 2550 (nekorištena)
 str_rbd_Germany_DB_650_Regio_Shuttle_obsolete                                   :DB 650 'Regio Shuttle' (nekorištena)
-str_electric_China_China_Railways_6K_obsolete                                   :China Railways 6K (nekorištena)
 str_dmu_Italy_FS_ALn_668_obsolete                                       :FS ALn 668 (dizelmotorni vlak)
 
 #PURCHASE MENU TEXTS
