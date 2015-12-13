@@ -248,7 +248,7 @@ str_steam_Argentina_FCGR_315 :FCGR 315 (Steam)
 str_steam_Australia_NSWGR_C35 :NSWGR C35 (Steam)
 str_steam_Belgium_NMBS_SNCB_Type_29 :NMBS/SNCB Type 29 (Steam)
 str_steam_Chile_FCAB_4_8_2 :FCAB 4-8-2 (Steam)
-
+str_steam_China_Railways_QJ :China Railways QJ (Steam)
 
 #Diesel
 str_diesel_Germany_DB_310_Kof_II						:DB 310 Kof II (Diesel)
@@ -508,6 +508,8 @@ str_electric_South_Africa_SAR_7E :SAR 7E (Electric)
 str_electric_South_Africa_SAR_11E :SAR 11E (Electric)
 str_electric_South_Africa_SAR_E38 :SAR E38 (Electric)
 str_electric_USA_Amtrak_HHP_8 :Amtrak HHP-8 (Electric)
+str_electric_Russia_RZD_VL11 :RZD VL11 (Electric)
+str_electric_Germany_Prussian_ES_6 :Prussian ES 6 (Electric)
 
 #DMU
 str_dmu_Germany_DB_VT04_Flying_Hamburger 	:DB VT04 'Flying Hamburger' (DMU)
@@ -635,6 +637,7 @@ str_emu_USA_Amtrak_Acela_Express :Amtrak Acela Express (EMU)
 str_emu_Russia_RZD_ES1_Lastochka :RZD ES1 'Lastochka' (EMU)
 str_emu_Austria_WESTbahn_4010_KISS :WESTbahn 4010 'KISS' (EMU)
 str_emu_Croatia_HZ_6112 :HZ 6112 (EMU)
+str_emu_China_Railways_CHR380A :China Railways CHR380A(EMU)
 
 #Single Unit Metro
 str_mtro_USA_Brooklyn_Union_Gate_Car					:Brooklyn Union Gate Car (Single Unit Metro)
@@ -694,6 +697,7 @@ str_mtro_Spain_Madrid_Series_5000 :Madrid Series 5000 (Metro)
 str_mtro_Italy_Rome_S_300 :Rome S/300 (Metro)
 str_mtro_Algeria_Algiers_CAF_2011_Stock :Algiers CAF 2011 Stock (Metro)
 str_mtro_Germany_Berlin_U_Bahn_IK :Berlin U-Bahn IK (Metro)
+str_mtro_USA_Chicago_L_6000 :Chicago L 6000 Series (Metro)
 
 #Maglev
 str_mglv_China_Transrapid	:Shanghai Transrapid (Maglev)

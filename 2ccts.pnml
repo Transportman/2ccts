@@ -425,7 +425,8 @@
 #include "src/Steam/Belgium_NMBS_SNCB_Type_29_item.pnml"
 #include "src/Steam/Chile_FCAB_4_8_2_graphics.pnml"
 #include "src/Steam/Chile_FCAB_4_8_2_item.pnml"
-
+#include "src/Steam/China_Railways_QJ_graphics.pnml"
+#include "src/Steam/China_Railways_QJ_item.pnml"
 
 //Diesel
 #include "src/Diesel/Germany_DB_310_Kof_II_graphics.pnml"
@@ -940,6 +941,10 @@
 #include "src/Electric/South_Africa_SAR_E38_item.pnml"
 #include "src/Electric/USA_Amtrak_HHP_8_graphics.pnml"
 #include "src/Electric/USA_Amtrak_HHP_8_item.pnml"
+#include "src/Electric/Russia_RZD_VL11_graphics.pnml"
+#include "src/Electric/Russia_RZD_VL11_item.pnml"
+#include "src/Electric/Germany_Prussian_ES_6_graphics.pnml"
+#include "src/Electric/Germany_Prussian_ES_6_item.pnml"
 
 //DMU
 #include "src/DMU/Germany_DB_VT04_Flying_Hamburger_graphics.pnml"
@@ -1190,6 +1195,8 @@
 #include "src/EMU/Austria_WESTbahn_4010_KISS_item.pnml"
 #include "src/EMU/Croatia_HZ_6112_graphics.pnml"
 #include "src/EMU/Croatia_HZ_6112_item.pnml"
+#include "src/EMU/China_Railways_CHR380A_graphics.pnml"
+#include "src/EMU/China_Railways_CHR380A_item.pnml"
 
 //Single Unit Metro
 #include "src/Metro/USA_Brooklyn_Union_Gate_Car_graphics.pnml"
@@ -1304,6 +1311,8 @@
 #include "src/Metro/Algeria_Algiers_CAF_2011_Stock_item.pnml"
 #include "src/Metro/Germany_Berlin_U_Bahn_IK_graphics.pnml"
 #include "src/Metro/Germany_Berlin_U_Bahn_IK_item.pnml"
+#include "src/Metro/USA_Chicago_L_6000_graphics.pnml"
+#include "src/Metro/USA_Chicago_L_6000_item.pnml"
 
 //Maglev
 #include "src/Maglev/China_Transrapid_graphics.pnml"

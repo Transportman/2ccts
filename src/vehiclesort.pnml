@@ -201,6 +201,7 @@ item_steam_South_Africa_SAR_GMA_4_8_2_2_8_4, /*Year: 1953*/ \
 item_steam_Chile_FCAB_4_8_2, /*Year: 1954*/ \
 item_steam_Kenya_East_African_Railway_31, /*Year: 1955*/ \
 item_steam_Spain_RENFE_242F, /*Year: 1955*/ \
+item_steam_China_Railways_QJ, /*Year: 1956*/ \
 item_steam_Germany_DB_BR18, /*Year: 1961*/
 
 #define SORTING_DIESEL \
@@ -344,6 +345,7 @@ item_electric_Switzerland_RhB_DE_2_2, /*Year: 1909*/ \
 item_electric_Norway_NSB_EL7, /*Year: 1911*/ \
 item_electric_Sweden_SJ_O_Class, /*Year: 1914*/ \
 item_electric_UK_NER_EF1, /*Year: 1914*/ \
+item_electric_Germany_Prussian_ES_6, /*Year: 1914*/ \
 item_electric_USA_Milwaukee_Road_ES_2, /*Year: 1916*/ \
 item_electric_USA_Pennsylvania_Railroad_FF_1, /*Year: 1916*/ \
 item_electric_USA_Milwaukee_Road_EP_2_Bipolar, /*Year: 1919*/ \
@@ -412,6 +414,7 @@ item_electric_Finland_VR_Sr1, /*Year: 1973*/ \
 item_electric_Chile_EFE_E_17, /*Year: 1974*/ \
 item_electric_Austria_OBB_1044, /*Year: 1974*/ \
 item_electric_Portugal_CP_2600, /*Year: 1974*/ \
+item_electric_Russia_RZD_VL11, /*Year: 1974*/ \
 item_electric_France_SNCF_BB_22200, /*Year: 1976*/ \
 item_electric_Poland_PKP_ET41, /*Year: 1977*/ \
 item_electric_USA_Amtrak_EMD_AEM_7, /*Year: 1978*/ \
@@ -584,6 +587,7 @@ item_emu_Chile_EFE_XTrapolis_100, /*Year: 2005*/ \
 item_emu_Bulgaria_BDZ_10_Desiro, /*Year: 2005*/ \
 item_emu_Australia_Sydney_Trains_OSCars, /*Year: 2007*/ \
 item_emu_South_Africa_Gautrain_Electrostar, /*Year: 2010*/ \
+item_emu_China_Railways_CHR380A, /*Year: 2010*/ \
 item_emu_Australia_Sydney_Trains_A_Set_Waratah, /*Year: 2011*/ \
 item_emu_Italy_NTV_AGV, /*Year: 2011*/ \
 item_emu_Russia_RZD_ES1_Lastochka, /*Year: 2011*/ \
@@ -610,6 +614,7 @@ item_mtro_Russia_Moscow_Type_A, /*Year: 1934*/ \
 item_mtro_UK_London_1938_Stock, /*Year: 1938*/ \
 item_mtro_Germany_DB_ET171, /*Year: 1942*/ \
 item_mtro_USA_NY_R10, /*Year: 1948*/ \
+item_mtro_USA_Chicago_L_6000, /*Year: 1950*/ \
 item_mtro_Italy_Rome_MR_100, /*Year: 1954*/ \
 item_mtro_Argentina_Buenos_Aires_Serie_1200, /*Year: 1954*/ \
 item_mtro_Russia_Moscow_Type_D, /*Year: 1955*/ \
