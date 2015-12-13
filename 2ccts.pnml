@@ -945,6 +945,8 @@
 #include "src/Electric/Russia_RZD_VL11_item.pnml"
 #include "src/Electric/Germany_Prussian_ES_6_graphics.pnml"
 #include "src/Electric/Germany_Prussian_ES_6_item.pnml"
+#include "src/Electric/China_China_Railways_6K_graphics.pnml"
+#include "src/Electric/China_China_Railways_6K_item.pnml"
 
 //DMU
 #include "src/DMU/Germany_DB_VT04_Flying_Hamburger_graphics.pnml"
@@ -1583,8 +1585,6 @@
 #include "src/Obsolete/Portugal_CP_Class_2550_obsolete_item.pnml"
 #include "src/Obsolete/Germany_DB_650_Regio_Shuttle_obsolete_graphics.pnml"
 #include "src/Obsolete/Germany_DB_650_Regio_Shuttle_obsolete_item.pnml"
-#include "src/Obsolete/China_China_Railways_6K_obsolete_graphics.pnml"
-#include "src/Obsolete/China_China_Railways_6K_obsolete_item.pnml"
 #include "src/Obsolete/Italy_FS_ALn_668_obsolete_graphics.pnml"
 #include "src/Obsolete/Italy_FS_ALn_668_obsolete_item.pnml"
 

@@ -510,6 +510,7 @@ str_electric_South_Africa_SAR_E38 :SAR E38 (Electric)
 str_electric_USA_Amtrak_HHP_8 :Amtrak HHP-8 (Electric)
 str_electric_Russia_RZD_VL11 :RZD VL11 (Electric)
 str_electric_Germany_Prussian_ES_6 :Prussian ES 6 (Electric)
+str_electric_China_China_Railways_6K :China Railways 6K (Electric)
 
 #DMU
 str_dmu_Germany_DB_VT04_Flying_Hamburger 	:DB VT04 'Flying Hamburger' (DMU)
@@ -845,7 +846,6 @@ str_dmu_Slovakia_ZSSK_861_obsolete 								:ZSSK 861 (Obsoleted)
 str_rbd_Germany_DB_VT98_obsolete		 						:DB VT98 (Obsoleted)
 str_electric_Portugal_CP_Class_2550_obsolete					:CP 2550 (Obsoleted)
 str_rbd_Germany_DB_650_Regio_Shuttle_obsolete		 			:DB 650 'Regio Shuttle' (Obsoleted)
-str_electric_China_China_Railways_6K_obsolete 					:China Railways 6K (Obsoleted)
 str_dmu_Italy_FS_ALn_668_obsolete 					:FS ALn 668 (DMU)
 
 #PURCHASE MENU TEXTS

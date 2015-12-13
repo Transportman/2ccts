@@ -393,7 +393,7 @@ item(FEAT_TRAINS, item_electric_Netherlands_NS_1600, 6038) {}
 item(FEAT_TRAINS, item_electric_Austria_OBB_1063, 6039) {}
 item(FEAT_TRAINS, item_electric_Russia_RZD_VL85, 6040) {}
 item(FEAT_TRAINS, item_electric_Russia_RZD_VL15, 6041) {}
-item(FEAT_TRAINS, item_electric_China_China_Railways_6K_obsolete, 6042) {} // obsolete
+item(FEAT_TRAINS, item_electric_China_China_Railways_6K, 6042) {}
 item(FEAT_TRAINS, item_electric_France_SNCF_BB_26000, 6043) {}
 item(FEAT_TRAINS, item_electric_China_China_Railways_SS6, 6044) {}
 item(FEAT_TRAINS, item_electric_Switzerland_SBB_Re460_Lok_2000, 6045) {}
@@ -403,7 +403,7 @@ item(FEAT_TRAINS, item_electric_India_Indian_Railways_WAP_4, 6048) {}
 item(FEAT_TRAINS, item_electric_Germany_DB_185_TRAXX_F140, 6049) {}
 item(FEAT_TRAINS, item_electric_Belgium_NMBS_SNCB_13_HLE, 6050) {}
 item(FEAT_TRAINS, item_electric_Japan_JR_EH500, 6051) {}
-item(FEAT_TRAINS, item_electric_Turkey_TCDD_E55200_obsolete, 6052) {} // obsoleted in 1.0
+item(FEAT_TRAINS, item_electric_Turkey_TCDD_E55200_obsolete, 6052) {} // obsoleted
 item(FEAT_TRAINS, item_electric_Germany_DB_182_ES64U_Taurus, 6053) {}
 item(FEAT_TRAINS, item_electric_Sweden_MTAB_IORE, 6054) {}
 item(FEAT_TRAINS, item_electric_South_Korea_Korail_8200, 6055) {}

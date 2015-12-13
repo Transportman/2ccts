@@ -10,7 +10,7 @@
 * PURCHASE
 */
 
-spriteset(spriteset_electric_China_China_Railways_6K_obsolete_purchase, "gfx/Obsolete/China_China_Railways_6K_obsolete.png") {
+spriteset(spriteset_electric_China_China_Railways_6K_purchase, "gfx/Electric/China_China_Railways_6K.png") {
 	template_purchase(1, 64)
 }
 
@@ -19,6 +19,6 @@ spriteset(spriteset_electric_China_China_Railways_6K_obsolete_purchase, "gfx/Obs
 */
 
 //Engine
-spriteset(spriteset_electric_China_China_Railways_6K_obsolete, "gfx/Obsolete/China_China_Railways_6K_obsolete.png") {
+spriteset(spriteset_electric_China_China_Railways_6K, "gfx/Electric/China_China_Railways_6K.png") {
 	template_2cc_engines_general(1, 1)
 }

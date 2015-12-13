@@ -10,10 +10,10 @@
 * ITEM
 */
 
-item(FEAT_TRAINS, item_electric_China_China_Railways_6K_obsolete) {
+item(FEAT_TRAINS, item_electric_China_China_Railways_6K) {
     property {
-        name: string(str_electric_China_China_Railways_6K_obsolete);
-        REGION(NOREGION,NOREGION,NOCONCEPT)
+        name: string(str_electric_China_China_Railways_6K);
+        REGION(ASIA,NOREGION,NOCONCEPT)
 		
         introduction_date: date(1986,1,1);
         model_life: 25;
@@ -46,8 +46,8 @@ item(FEAT_TRAINS, item_electric_China_China_Railways_6K_obsolete) {
         bitmask_vehicle_info: 0;
 	}
 	graphics {
-		purchase: spriteset_electric_China_China_Railways_6K_obsolete_purchase;
+		purchase: spriteset_electric_China_China_Railways_6K_purchase;
 		can_attach_wagon: switch_can_attach_vehicle;
-		spriteset_electric_China_China_Railways_6K_obsolete;
+		spriteset_electric_China_China_Railways_6K;
 	}
 }
