@@ -189,6 +189,7 @@ str_steam_Germany_DB_9977 :DB 99.77 (Vapor)
 str_steam_Germany_DB_BR18 :DB BR18 (Vapor)
 str_steam_Australia_NSWGR_D57 :NSWGR D57 (Vapor)
 str_steam_Australia_NSWGR_AD60 :NSWGR AD60 (Vapor)
+str_steam_Argentina_FCCA_PS11 :FCCA PS11 (Vapor)
 str_steam_Eritrea_Eritrean_Railway_R440 :Eritrean Railway R.440 (Vapor)
 str_steam_Kenya_East_African_Railway_23 :East African Railway 23 (Vapor)
 str_steam_Zimbabwe_Zimbabwe_Railways_15 :Zimbabwe Railways 15 (Vapor)
@@ -205,6 +206,7 @@ str_steam_Czech_Republic_CD_5341 :CD 534.1 (Vapor)
 str_steam_Poland_PKP_Ok22 :PKP Ok22 (Vapor)
 str_steam_Croatia_HZ_11 :HZ 11 (Vapor)
 str_steam_Austria_KKStB_310 :KKStB 310 (Vapor)
+str_steam_Belgium_NMBS_SNCB_Type_29 :NMBS/SNCB Tipo 29 (Vapor)
 
 #Diesel
 str_diesel_Germany_DB_310_Kof_II                                                :DB 310 Kof II (Diésel)
@@ -323,6 +325,7 @@ str_diesel_Poland_PKP_SP32 :PKP SP32 (Diésel)
 str_diesel_Ukraine_UZ_2TE126 :UZ 2TE126 (Diésel)
 str_diesel_Ukraine_UZ_2TE10Ut :UZ 2TE10Ut (Diésel)
 str_diesel_Serbia_ZS_621 :ZS 621 (Diésel)
+str_diesel_Italy_FS_207 :FS 207 (Diésel)
 str_diesel_Australia_Pacific_National_XR_XRB :Pacific National XR/XRB (Diésel)
 
 #Electric
@@ -473,6 +476,7 @@ str_dmu_Sri_Lanka_Sri_Lanka_Railways_S11 :Sri Lanka Railways S11 (DMU)
 str_dmu_Slovakia_ZSSK_861 :ZSSK 861 (DMU)
 str_dmu_Chile_EFE_TLD_500 :EFE TLD-500 (DMU)
 str_dmu_Cameroon_Camrail_ZE_500 :Camrail ZE 500 (DMU)
+str_dmu_Portugal_CP_0600 :CP 0600 (DMU)
 
 #EMU
 str_emu_Netherlands_NS_Mat24                            :NS Mat'24 (EMU)
