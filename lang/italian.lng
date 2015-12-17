@@ -251,6 +251,7 @@ str_steam_Argentina_FCGR_315 :FCGR 315 (locomotiva a vapore)
 str_steam_Australia_NSWGR_C35 :NSWGR C35 (locomotiva a vapore)
 str_steam_Belgium_NMBS_SNCB_Type_29 :NMBS/SNCB Tipo 29 (locomotiva a vapore)
 str_steam_Chile_FCAB_4_8_2 :FCAB 4-8-2 (locomotiva a vapore)
+str_steam_China_Railways_QJ :Ferrovie Cinesi QJ (locomotiva a vapore)
 
 #Diesel
 str_diesel_Germany_DB_310_Kof_II                                                :DB 310 Kof II (locomotiva diesel)
@@ -510,6 +511,9 @@ str_electric_South_Africa_SAR_7E :SAR 7E (locomotiva elettrica)
 str_electric_South_Africa_SAR_11E :SAR 11E (locomotiva elettrica)
 str_electric_South_Africa_SAR_E38 :SAR E38 (locomotiva elettrica)
 str_electric_USA_Amtrak_HHP_8 :Amtrak HHP-8 (locomotiva elettrica)
+str_electric_Russia_RZD_VL11 :RZD VL11 (locomotiva elettrica)
+str_electric_Germany_Prussian_ES_6 :Ferrovie Prussiane ES 6 (locomotiva elettrica)
+str_electric_China_China_Railways_6K :Ferrovie Cinesi 6K (locomotiva elettrica)
 
 #DMU
 str_dmu_Germany_DB_VT04_Flying_Hamburger        :DB VT04 'Amburghese Volante' (automotrice diesel)
@@ -637,6 +641,7 @@ str_emu_USA_Amtrak_Acela_Express :Amtrak Acela Express (elettrotreno)
 str_emu_Russia_RZD_ES1_Lastochka :RZD ES1 'Rondine' (elettrotreno)
 str_emu_Austria_WESTbahn_4010_KISS :WESTbahn 4010 'KISS' (elettrotreno)
 str_emu_Croatia_HZ_6112 :HZ 6112 (elettrotreno)
+str_emu_China_Railways_CHR380A :Ferrovie Cinesi CHR380A (elettrotreno)
 
 #Single Unit Metro
 str_mtro_USA_Brooklyn_Union_Gate_Car                                    :Brooklyn Union Gate (Metro unità singola)
@@ -696,6 +701,7 @@ str_mtro_Spain_Madrid_Series_5000 :Madrid Serie 5000 (Metro)
 str_mtro_Italy_Rome_S_300 :Roma S/300 (Metro)
 str_mtro_Algeria_Algiers_CAF_2011_Stock :Algeri CAF del 2011 (Metro)
 str_mtro_Germany_Berlin_U_Bahn_IK :Berlino U-Bahn IK (Metro)
+str_mtro_USA_Chicago_L_6000 :Chicago L 6000 Serie (Metro)
 
 #Maglev
 str_mglv_China_Transrapid       :Shanghai Transrapid (Maglev)

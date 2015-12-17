@@ -438,6 +438,7 @@ str_electric_Czech_Republic_CD_363 :CD 363 (Eléctrico)
 str_electric_Ukraine_UZ_ChS7 :UZ ChS7 (Eléctrico)
 str_electric_Poland_PKP_EP09 :PKP EP09 (Eléctrico)
 str_electric_Slovakia_ZSSK_162 :ZSSK 162 (Eléctrico)
+str_electric_China_China_Railways_SS3 :China Railways SS3 (Eléctrico)
 
 #DMU
 str_dmu_Germany_DB_VT04_Flying_Hamburger        :DB VT04 'Flying Hamburger' (DMU)
@@ -476,6 +477,8 @@ str_dmu_Sri_Lanka_Sri_Lanka_Railways_S11 :Sri Lanka Railways S11 (DMU)
 str_dmu_Slovakia_ZSSK_861 :ZSSK 861 (DMU)
 str_dmu_Chile_EFE_TLD_500 :EFE TLD-500 (DMU)
 str_dmu_Cameroon_Camrail_ZE_500 :Camrail ZE 500 (DMU)
+str_dmu_Australia_WAGR_ADK_ADB :WAGR ADK/ADB (DMU)
+str_dmu_France_SNCF_T_2000 :SNCF T 2000 (DMU)
 str_dmu_Portugal_CP_0600 :CP 0600 (DMU)
 
 #EMU
@@ -584,6 +587,7 @@ str_mtro_Italy_Rome_MR_100 :Rome MR 100 (Metro)
 str_mtro_Russia_Moscow_Type_D :Moscow Tipo D (Metro)
 str_mtro_Netherlands_Rotterdam_MG2_Type_M :Rotterdam MG2 Tipo M (Metro)
 str_mtro_Czech_Republic_Prague_ECS_Set :Prague ECS Set (Metro)
+str_mtro_USA_Chicago_L_6000 :Chicago L 6000 Series (Metro)
 
 #Maglev
 str_mglv_China_Transrapid       :Shanghai Transrapid (Maglev)

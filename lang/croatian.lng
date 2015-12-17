@@ -251,6 +251,7 @@ str_steam_Argentina_FCGR_315 :FCGR 315 (parna lokomotiva)
 str_steam_Australia_NSWGR_C35 :NSWGR C35 (parna lokomotiva)
 str_steam_Belgium_NMBS_SNCB_Type_29 :NMBS/SNCB Type 29 (parna lokomotiva)
 str_steam_Chile_FCAB_4_8_2 :FCAB 4-8-2 (parna lokomotiva)
+str_steam_China_Railways_QJ :China Railways QJ (parna lokomotiva)
 
 #Diesel
 str_diesel_Germany_DB_310_Kof_II                                                :DB 310 Kof II (dizel lokomotiva)
@@ -510,6 +511,9 @@ str_electric_South_Africa_SAR_7E :SAR 7E (električna lokomotiva)
 str_electric_South_Africa_SAR_11E :SAR 11E (električna lokomotiva)
 str_electric_South_Africa_SAR_E38 :SAR E38 (električna lokomotiva)
 str_electric_USA_Amtrak_HHP_8 :Amtrak HHP-8 (električna lokomotiva)
+str_electric_Russia_RZD_VL11 :RZD VL11 (električna lokomotiva)
+str_electric_Germany_Prussian_ES_6 :Prussian ES 6 (električna lokomotiva)
+str_electric_China_China_Railways_6K :China Railways 6K (električna lokomotiva)
 
 #DMU
 str_dmu_Germany_DB_VT04_Flying_Hamburger        :DB VT04 'Flying Hamburger' (dizelmotorni vlak)
@@ -637,6 +641,7 @@ str_emu_USA_Amtrak_Acela_Express :Amtrak Acela Express (elektromotorni vlak)
 str_emu_Russia_RZD_ES1_Lastochka :RZD ES1 'Lastochka' (elektromotorni vlak)
 str_emu_Austria_WESTbahn_4010_KISS :WESTbahn 4010 'KISS' (elektromotorni vlak)
 str_emu_Croatia_HZ_6112 :HZ 6112 (elektromotorni vlak)
+str_emu_China_Railways_CHR380A :China Railways CHR380A (elektromotorni vlak)
 
 #Single Unit Metro
 str_mtro_USA_Brooklyn_Union_Gate_Car                                    :Brooklyn Union Gate (jednostruki metro)
@@ -692,10 +697,11 @@ str_mtro_Argentina_Buenos_Aires_Serie_1200 :Buenos Aires serija 1200 (metro)
 str_mtro_Chile_Santiago_NS_93 :Santiago NS-93 (metro)
 str_mtro_Chile_Santiago_AS_2002 :Santiago AS-2002 (metro)
 str_mtro_Brazil_Recife_VLT_Mobile_3 :Recife VLT Mobile 3 (metro)
-str_mtro_Spain_Madrid_Series_5000 :Madrid Series 5000 (metro)
+str_mtro_Spain_Madrid_Series_5000 :Madrid serija 5000 (metro)
 str_mtro_Italy_Rome_S_300 :Rome S/300 (metro)
 str_mtro_Algeria_Algiers_CAF_2011_Stock :Algiers CAF 2011 (metro)
 str_mtro_Germany_Berlin_U_Bahn_IK :Berlin U-Bahn IK (metro)
+str_mtro_USA_Chicago_L_6000 :Chicago L 6000 serija (metro)
 
 #Maglev
 str_mglv_China_Transrapid       :Shanghai Transrapid (maglev)
