@@ -207,6 +207,7 @@ str_steam_Poland_PKP_Ok22 :PKP Ok22 (Vapor)
 str_steam_Croatia_HZ_11 :HZ 11 (Vapor)
 str_steam_Austria_KKStB_310 :KKStB 310 (Vapor)
 str_steam_Belgium_NMBS_SNCB_Type_29 :NMBS/SNCB Tipo 29 (Vapor)
+str_steam_Chile_FCAB_4_8_2 :FCAB 4-8-2 (Vapor)
 
 #Diesel
 str_diesel_Germany_DB_310_Kof_II                                                :DB 310 Kof II (Diésel)
@@ -326,6 +327,7 @@ str_diesel_Ukraine_UZ_2TE126 :UZ 2TE126 (Diésel)
 str_diesel_Ukraine_UZ_2TE10Ut :UZ 2TE10Ut (Diésel)
 str_diesel_Serbia_ZS_621 :ZS 621 (Diésel)
 str_diesel_Italy_FS_207 :FS 207 (Diésel)
+str_diesel_France_SNCF_BB_67400 :SNCF BB 67400 (Diésel)
 str_diesel_Australia_Pacific_National_XR_XRB :Pacific National XR/XRB (Diésel)
 
 #Electric
