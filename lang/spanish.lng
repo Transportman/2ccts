@@ -327,7 +327,9 @@ str_diesel_Ukraine_UZ_2TE126 :UZ 2TE126 (Diésel)
 str_diesel_Ukraine_UZ_2TE10Ut :UZ 2TE10Ut (Diésel)
 str_diesel_Serbia_ZS_621 :ZS 621 (Diésel)
 str_diesel_Italy_FS_207 :FS 207 (Diésel)
+str_diesel_Portugal_CP_1500 :CP 1500 (Diésel)
 str_diesel_France_SNCF_BB_67400 :SNCF BB 67400 (Diésel)
+str_diesel_Egypt_ENR_2400_GE_ES40ACi :ENR 2400 GE ES40ACi (Diésel)
 str_diesel_Australia_Pacific_National_XR_XRB :Pacific National XR/XRB (Diésel)
 str_diesel_UK_BR_68 :BR 68 (Diésel)
 
@@ -442,6 +444,7 @@ str_electric_Ukraine_UZ_ChS7 :UZ ChS7 (Eléctrico)
 str_electric_Poland_PKP_EP09 :PKP EP09 (Eléctrico)
 str_electric_Slovakia_ZSSK_162 :ZSSK 162 (Eléctrico)
 str_electric_China_China_Railways_SS3 :China Railways SS3 (Eléctrico)
+str_electric_Germany_Prussian_ES_6 :Prussian ES 6 (Eléctrico)
 
 #DMU
 str_dmu_Germany_DB_VT04_Flying_Hamburger        :DB VT04 'Flying Hamburger' (DMU)
@@ -540,6 +543,8 @@ str_emu_Macedonia_Macedonian_Railways_412 :Macedonian Railways 412 (EMU)
 str_emu_Australia_Sydney_Trains_A_Set_Waratah :Sydney Trains A Set 'Waratah' (EMU)
 str_emu_Netherlands_NS_Hispeed_V250_Albatros :NS Hispeed V250 'Albatros' (EMU)
 str_emu_Chile_EFE_AES_Railcar :EFE AES Railcar (EMU)
+str_emu_Russia_RZD_ES1_Lastochka :RZD ES1 'Lastochka' (EMU)
+str_emu_Austria_WESTbahn_4010_KISS :WESTbahn 4010 'KISS' (EMU)
 
 #Single Unit Metro
 str_mtro_USA_Brooklyn_Union_Gate_Car                                    :Brooklyn Union Gate Car (Unidad de Metro individual)
