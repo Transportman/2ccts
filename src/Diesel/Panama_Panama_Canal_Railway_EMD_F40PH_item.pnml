@@ -48,6 +48,6 @@ item(FEAT_TRAINS, item_diesel_Panama_Panama_Canal_Railway_EMD_F40PH) {
 	graphics {
 		purchase: spriteset_diesel_Panama_Panama_Canal_Railway_EMD_F40PH_purchase;
 		can_attach_wagon: switch_can_attach_vehicle;
-		spriteset_diesel_Panama_Panama_Canal_Railway_EMD_F40PH;
+		switch_diesel_Panama_Panama_Canal_Railway_EMD_F40PH_position;
 	}
 }

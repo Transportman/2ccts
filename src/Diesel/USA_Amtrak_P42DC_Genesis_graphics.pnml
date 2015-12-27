@@ -19,6 +19,15 @@ spriteset(spriteset_diesel_USA_Amtrak_P42DC_Genesis_purchase, "gfx/Diesel/USA_Am
 */
 
 //Engine
-spriteset(spriteset_diesel_USA_Amtrak_P42DC_Genesis, "gfx/Diesel/USA_Amtrak_P42DC_Genesis.png") {
+spriteset(spriteset_diesel_USA_Amtrak_P42DC_Genesis_engine, "gfx/Diesel/USA_Amtrak_P42DC_Genesis.png") {
 	template_2cc_engines_general(1, 1)
+}
+//Tender
+spriteset(spriteset_diesel_USA_Amtrak_P42DC_Genesis_B, "gfx/Diesel/USA_Amtrak_P42DC_Genesis.png") {
+	template_2cc_engines_general(1, 32)
+}
+
+switch(FEAT_TRAINS, SELF, switch_diesel_USA_Amtrak_P42DC_Genesis_position, position_in_vehid_chain % 2) {
+	0: spriteset_diesel_USA_Amtrak_P42DC_Genesis_engine;
+	spriteset_diesel_USA_Amtrak_P42DC_Genesis_B;
 }

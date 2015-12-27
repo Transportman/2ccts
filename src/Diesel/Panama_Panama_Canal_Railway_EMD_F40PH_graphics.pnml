@@ -19,6 +19,15 @@ spriteset(spriteset_diesel_Panama_Panama_Canal_Railway_EMD_F40PH_purchase, "gfx/
 */
 
 //Engine
-spriteset(spriteset_diesel_Panama_Panama_Canal_Railway_EMD_F40PH, "gfx/Diesel/Panama_Panama_Canal_Railway_EMD_F40PH.png") {
+spriteset(spriteset_diesel_Panama_Panama_Canal_Railway_EMD_F40PH_engine, "gfx/Diesel/Panama_Panama_Canal_Railway_EMD_F40PH.png") {
 	template_2cc_engines_general(1, 1)
+}
+//Tender
+spriteset(spriteset_diesel_Panama_Panama_Canal_Railway_EMD_F40PH_B, "gfx/Diesel/Panama_Panama_Canal_Railway_EMD_F40PH.png") {
+	template_2cc_engines_general(1, 32)
+}
+
+switch(FEAT_TRAINS, SELF, switch_diesel_Panama_Panama_Canal_Railway_EMD_F40PH_position, position_in_vehid_chain % 2) {
+	0: spriteset_diesel_Panama_Panama_Canal_Railway_EMD_F40PH_engine;
+	spriteset_diesel_Panama_Panama_Canal_Railway_EMD_F40PH_B;
 }

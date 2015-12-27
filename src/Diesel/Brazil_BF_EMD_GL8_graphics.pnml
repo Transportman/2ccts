@@ -19,6 +19,17 @@ spriteset(spriteset_diesel_Brazil_BF_EMD_GL8_purchase, "gfx/Diesel/Brazil_BF_EMD
 */
 
 //Engine
-spriteset(spriteset_diesel_Brazil_BF_EMD_GL8, "gfx/Diesel/Brazil_BF_EMD_GL8.png") {
+spriteset(spriteset_diesel_Brazil_BF_EMD_GL8_engine, "gfx/Diesel/Brazil_BF_EMD_GL8.png") {
 	template_2cc_engines_general(1, 1)
+}
+
+//B-unit
+spriteset(spriteset_diesel_Brazil_BF_EMD_GL8_B, "gfx/Diesel/Brazil_BF_EMD_GL8.png") {
+	template_2cc_engines_general(1, 32)
+}
+
+//Switch for B-unit
+switch(FEAT_TRAINS, SELF, switch_diesel_Brazil_BF_EMD_GL8_position, position_in_vehid_chain % 2) {
+	1: spriteset_diesel_Brazil_BF_EMD_GL8_B;
+	spriteset_diesel_Brazil_BF_EMD_GL8_engine;
 }

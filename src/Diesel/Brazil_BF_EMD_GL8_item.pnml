@@ -48,6 +48,6 @@ item(FEAT_TRAINS, item_diesel_Brazil_BF_EMD_GL8) {
 	graphics {
 		purchase: spriteset_diesel_Brazil_BF_EMD_GL8_purchase;
 		can_attach_wagon: switch_can_attach_vehicle;
-		spriteset_diesel_Brazil_BF_EMD_GL8;
+		switch_diesel_Brazil_BF_EMD_GL8_position;
 	}
 }

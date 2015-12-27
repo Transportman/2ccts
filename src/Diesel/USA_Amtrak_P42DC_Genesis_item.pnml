@@ -48,6 +48,6 @@ item(FEAT_TRAINS, item_diesel_USA_Amtrak_P42DC_Genesis) {
 	graphics {
 		purchase: spriteset_diesel_USA_Amtrak_P42DC_Genesis_purchase;
 		can_attach_wagon: switch_can_attach_vehicle;
-		spriteset_diesel_USA_Amtrak_P42DC_Genesis;
+		switch_diesel_USA_Amtrak_P42DC_Genesis_position;
 	}
 }
