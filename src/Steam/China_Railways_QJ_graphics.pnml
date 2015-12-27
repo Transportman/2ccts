@@ -38,6 +38,11 @@ switch(FEAT_TRAINS, SELF, switch_steam_China_Railways_QJ_animation, motion_count
 	spriteset_steam_China_Railways_QJ_engine2;
 }
 
+switch(FEAT_TRAINS, SELF, switch_steam_China_Railways_QJ_position, position_in_vehid_chain % 2) {
+	0: switch_steam_China_Railways_QJ_animation;
+	spriteset_steam_China_Railways_QJ_tender;
+}
+
 /*
 * Visual effect
 */

@@ -51,6 +51,6 @@ item(FEAT_TRAINS, item_steam_China_Railways_QJ) {
 		length: switch_steam_China_Railways_QJ_length;
 		articulated_part: switch_steam_China_Railways_QJ_articulated;
 		can_attach_wagon: switch_can_attach_vehicle;
-		switch_steam_China_Railways_QJ_animation;
+		switch_steam_China_Railways_QJ_position;
 	}
 }
