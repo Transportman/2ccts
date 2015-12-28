@@ -249,7 +249,7 @@ str_steam_Argentina_FCGR_315 :(阿)FCGR 315 (蒸汽)
 str_steam_Australia_NSWGR_C35 :新南威尔士铁路(澳)NSWGR C35 (蒸汽)
 str_steam_Belgium_NMBS_SNCB_Type_29 :比铁NMBS/SNCB Type 29 (蒸汽)
 str_steam_Chile_FCAB_4_8_2 :安-智铁路(智)FCAB 4-8-2 (蒸汽)
-str_steam_China_Railways_QJ :中铁 QJ (蒸汽)
+str_steam_China_Railways_QJ :中铁 前进型QJ (蒸汽)
 
 #Diesel
 str_diesel_Germany_DB_310_Kof_II                                                :德铁DB 310 Kof II (内燃)
