@@ -105,6 +105,7 @@ str_rbd_Japan_JR_Shikoku_1000 :JR Shikoku 1000 (Railbus diésel)
 str_rbd_Finland_VR_Dm12 :VR Dm12 (Railbus diésel)
 str_rbd_Japan_JR_KiHa_E120 :JR KiHa E120 (Railbus diésel)
 str_rbd_Czech_Republic_CD_840 :CD 840 (Railbus diésel)
+str_rbd_Chile_EFE_Buscarril :EFE Buscarril (Railbus diésel)
 
 #Railbus-electric
 str_rbe_Switzerland_SBB_Cfe_3_3         :SBB Cfe 3/3 (Railbus eléctrico)
@@ -614,6 +615,7 @@ str_mtro_Russia_Moscow_Type_D :Moscow Tipo D (Metro)
 str_mtro_Netherlands_Rotterdam_MG2_Type_M :Rotterdam MG2 Tipo M (Metro)
 str_mtro_Czech_Republic_Prague_ECS_Set :Prague ECS Set (Metro)
 str_mtro_Argentina_Buenos_Aires_Serie_1200 :Buenos Aires Serie 1200 (Metro)
+str_mtro_Chile_Santiago_NS_93 :Santiago NS-93 (Metro)
 str_mtro_Spain_Madrid_Series_5000 :Madrid Series 5000 (Metro)
 str_mtro_Italy_Rome_S_300 :Rome S/300 (Metro)
 str_mtro_Germany_Berlin_U_Bahn_IK :Berlin U-Bahn IK (Metro)
@@ -761,6 +763,7 @@ str_steam_South_Africa_PPR_35_tonner_4_6_0T_obsolete                    :PPR 35-
 str_dmu_Slovakia_ZSSK_861_obsolete                                                              :ZSSK 861 (Obsoleto)
 str_rbd_Germany_DB_VT98_obsolete                                                                :DB VT98 (Obsoleto)
 str_rbd_Germany_DB_650_Regio_Shuttle_obsolete                                   :DB 650 'Regio Shuttle' (Obsoleto)
+str_dmu_Italy_FS_ALn_668_obsolete                                       :FS ALn 668 (DMU)
 
 #PURCHASE MENU TEXTS
 str_unit_wagon                          :Este vagón genérico SOLO se puede usar con MUs para crear trenes de la longitud deseada
