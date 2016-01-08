@@ -700,6 +700,9 @@ str_mtro_Algeria_Algiers_CAF_2011_Stock :Algiers CAF 2011 Stock (Metro)
 str_mtro_Germany_Berlin_U_Bahn_IK :Berlin U-Bahn IK (Metro)
 str_mtro_USA_Chicago_L_6000 :Chicago L 6000 Series (Metro)
 
+#Maglev railbus
+str_rbm_World_Turbobus		:Turbobus (Maglev)
+
 #Maglev
 str_mglv_China_Transrapid	:Shanghai Transrapid (Maglev)
 str_mglv_Japan_MLX01_901	:JR MLX01-901 (Maglev)

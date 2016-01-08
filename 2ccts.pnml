@@ -1316,6 +1316,10 @@
 #include "src/Metro/USA_Chicago_L_6000_graphics.pnml"
 #include "src/Metro/USA_Chicago_L_6000_item.pnml"
 
+// Single unit maglev
+#include "src/Railbus-maglev/World_Turbobus_graphics.pnml"
+#include "src/Railbus-maglev/World_Turbobus_item.pnml"
+
 //Maglev
 #include "src/Maglev/China_Transrapid_graphics.pnml"
 #include "src/Maglev/China_Transrapid_item.pnml"

@@ -658,6 +658,9 @@ item_mtro_USA_Washington_7000, /*Year: 2013*/ \
 item_mtro_Greece_Thessaloniki_2014, /*Year: 2014*/ \
 item_mtro_Germany_Berlin_U_Bahn_IK, /*Year: 2015*/
 
+#define SORTING_SINGLE_MAGLEV \
+item_rbm_World_Turbobus, /*Year 2040 */
+
 #define SORTING_MAGLEV \
 item_mglv_China_Transrapid, /*Year: 2004*/ \
 item_mglv_Japan_MLX01_901, /*Year: 2025*/
@@ -805,6 +808,7 @@ sort(FEAT_TRAINS, [
 	SORTING_EMU
 	SORTING_SINGLE_METRO
 	SORTING_METRO
+	SORTING_SINGLE_MAGLEV\
 	SORTING_MAGLEV
 	SORTING_SPECIAL
 	SORTING_COACHES

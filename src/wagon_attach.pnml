@@ -36,6 +36,7 @@ switch(FEAT_TRAINS, PARENT, switch_can_attach_wagon, [STORE_TEMP(position_in_con
 	ID_RANGE_SINGLEMETRO: CB_RESULT_ATTACH_ALLOW_IF_RAILTYPES; //Single Unit Metro, allow
 	ID_RANGE_SMU: string(str_cannot_attach_wagon_to_MU); //SMU, disallow
 	ID_RANGE_SINGLEMAGLEV: CB_RESULT_ATTACH_ALLOW_IF_RAILTYPES; //Single Unit Maglev, allow
+	ID_RANGE_RBM: CB_RESULT_ATTACH_ALLOW_IF_RAILTYPES; //Maglev Railbus, allow
 	CB_RESULT_ATTACH_ALLOW_IF_RAILTYPES;
 }
 
@@ -64,6 +65,7 @@ switch(FEAT_TRAINS, PARENT, switch_can_attach_unit_rail, [STORE_TEMP(position_in
 	ID_RANGE_SINGLEMETRO: string(str_cannot_attach_Unit_wagon_to_engine); //Single Unit Metro, disallow
 	ID_RANGE_SMU: CB_RESULT_ATTACH_ALLOW_IF_RAILTYPES; //SMU, allow
 	ID_RANGE_SINGLEMAGLEV: string(str_cannot_attach_Unit_wagon_to_engine); //Single Unit Maglev, disallow
+	ID_RANGE_RBM: string(str_cannot_attach_Unit_wagon_to_engine); //Maglev Railbus, disallow
 	CB_RESULT_ATTACH_ALLOW_IF_RAILTYPES;
 }
 
@@ -88,6 +90,7 @@ switch(FEAT_TRAINS, PARENT, switch_can_attach_unit_mtro, [STORE_TEMP(position_in
 	ID_RANGE_SINGLEMETRO: string(str_cannot_attach_Unit_wagon_to_engine); //Single Unit Metro, disallow
 	ID_RANGE_SMU: CB_RESULT_ATTACH_DISALLOW; //SMU, disallow
 	ID_RANGE_SINGLEMAGLEV: string(str_cannot_attach_Unit_wagon_to_engine); //Single Unit Maglev, disallow
+	ID_RANGE_RBM: string(str_cannot_attach_Unit_wagon_to_engine); //Maglev Railbus, disallow
 	CB_RESULT_ATTACH_ALLOW_IF_RAILTYPES;
 }
 
@@ -112,6 +115,7 @@ switch(FEAT_TRAINS, PARENT, switch_can_attach_unit_mglv, [STORE_TEMP(position_in
 	ID_RANGE_SINGLEMETRO: string(str_cannot_attach_Unit_wagon_to_engine); //Single Unit Metro, disallow
 	ID_RANGE_SMU: CB_RESULT_ATTACH_DISALLOW; //SMU, disallow
 	ID_RANGE_SINGLEMAGLEV: string(str_cannot_attach_Unit_wagon_to_engine); //Single Unit Maglev, disallow
+	ID_RANGE_RBM: string(str_cannot_attach_Unit_wagon_to_engine); //Maglev Railbus, disallow
 	CB_RESULT_ATTACH_ALLOW_IF_RAILTYPES;
 }
 	
@@ -138,5 +142,6 @@ switch(FEAT_TRAINS, SELF, switch_can_attach_vehicle, vehicle_type_id) {
 	ID_RANGE_SINGLEMETRO: CB_RESULT_ATTACH_ALLOW_IF_RAILTYPES; //Single Unit Metro, always allow
 	ID_RANGE_SMU: CB_RESULT_ATTACH_ALLOW_IF_RAILTYPES; //SMU, always allow
 	ID_RANGE_SINGLEMAGLEV: CB_RESULT_ATTACH_ALLOW_IF_RAILTYPES; //Single Unit Maglev, always allow
+	ID_RANGE_RBM: CB_RESULT_ATTACH_ALLOW_IF_RAILTYPES; //Maglev Railbus, always allow
 	CB_RESULT_ATTACH_ALLOW_IF_RAILTYPES;
 }

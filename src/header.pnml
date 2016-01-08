@@ -57,7 +57,7 @@ grf {
         }
     }
 	param {
-		CONCEPT {
+		ISCONCEPT {
 			type:	bool;
 			name:	string(STR_PARAM_CONCEPT);
 			desc:	string(STR_PARAM_CONCEPT_DESC);

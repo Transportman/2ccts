@@ -837,3 +837,7 @@ item(FEAT_TRAINS, item_mtro_Germany_Berlin_U_Bahn_C_II, 14003) {}
 //Single Unit Maglevs, available ID range: 16000-16999 (hex 0x3E80..0x4267)
 #define ID_RANGE_SINGLEMAGLEV 0x3E80..0x4267
 //Currently has no vehicles, range reserved
+
+//Railbus-Maglev, available ID range: 17000-17999 (hex 0x4268..0x464F)
+#define ID_RANGE_RBM 0x4268..0x464F
+item(FEAT_TRAINS, item_rbm_World_Turbogus, 17000) {}
