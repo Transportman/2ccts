@@ -626,6 +626,8 @@ str_mtro_Italy_Rome_S_300 :Rome S/300 (Metro)
 str_mtro_Germany_Berlin_U_Bahn_IK :Berlin U-Bahn IK (Metro)
 str_mtro_USA_Chicago_L_6000 :Chicago L 6000 Series (Metro)
 
+#Maglev railbus
+
 #Maglev
 str_mglv_China_Transrapid       :Shanghai Transrapid (Maglev)
 str_mglv_Japan_MLX01_901        :JR MLX01-901 (Maglev)

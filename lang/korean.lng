@@ -306,6 +306,8 @@ str_mtro_Singapore_Singapore_C151A                              :싱가포르 C1
 str_mtro_USA_Washington_7000                                    :워싱턴7000 (지하철)
 str_mtro_Greece_Thessaloniki_2014                               :테살로니키 2014 (지하철)
 
+#Maglev railbus
+
 #Maglev
 str_mglv_China_Transrapid       :상하이 트랜스래피드 (자기부상)
 str_mglv_Japan_MLX01_901        :JR MLX01-901 (자기부상)

@@ -489,6 +489,8 @@ str_mtro_Russia_Moscow_Type_D :Moscow Type D (Metro)
 str_mtro_Argentina_Buenos_Aires_Serie_1200 :Buenos Aires Serie 1200 (Metro)
 str_mtro_Brazil_Recife_VLT_Mobile_3 :Recife VLT Mobile 3 (Metro)
 
+#Maglev railbus
+
 #Maglev
 str_mglv_China_Transrapid       :Shanghai Transrapid (Maglev)
 str_mglv_Japan_MLX01_901        :JR MLX01-901 (Maglev)

@@ -529,6 +529,8 @@ str_mtro_Russia_Moscow_Type_D :Moscow Typ D (Metro)
 str_mtro_Netherlands_Rotterdam_MG2_Type_M :Rotterdam MG2 Type M (Metro)
 str_mtro_Czech_Republic_Prague_ECS_Set :Prague ECS Set (Metro)
 
+#Maglev railbus
+
 #Maglev
 str_mglv_China_Transrapid       :Shanghai Transrapid (Maglev)
 str_mglv_Japan_MLX01_901        :JR MLX01-901 (Maglev)

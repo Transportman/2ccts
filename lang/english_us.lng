@@ -123,6 +123,8 @@ str_mtro_Singapore_Singapore_C151A                              :Singapore C151A
 str_mtro_USA_Washington_7000                                    :Washington 7000 (Metro)
 str_mtro_Greece_Thessaloniki_2014                               :Thessaloniki 2014 (Metro)
 
+#Maglev railbus
+
 #Maglev
 str_mglv_China_Transrapid       :Shanghai Transrapid (Maglev)
 str_mglv_Japan_MLX01_901        :JR MLX01-901 (Maglev)

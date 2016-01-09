@@ -627,6 +627,8 @@ str_mtro_Chile_Santiago_NS_93 :Santiago NS-93 (Metro)
 str_mtro_Chile_Santiago_AS_2002 :Santiago AS-2002 (Metro)
 str_mtro_Brazil_Recife_VLT_Mobile_3 :Recife VLT Mobile 3 (Metro)
 
+#Maglev railbus
+
 #Maglev
 str_mglv_China_Transrapid       :Sjanghai Transrapid (Maglev)
 str_mglv_Japan_MLX01_901        :JR MLX01-901 (Maglev)

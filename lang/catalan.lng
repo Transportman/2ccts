@@ -556,6 +556,8 @@ str_mtro_Netherlands_Rotterdam_MG2_Type_M :Rotterdam MG2 tipus M (Metro)
 str_mtro_Czech_Republic_Prague_ECS_Set :Conjunt ECS de Praga (Metro)
 str_mtro_Brazil_Recife_VLT_Mobile_3 :Recife VLT Mobile 3 (metro)
 
+#Maglev railbus
+
 #Maglev
 str_mglv_China_Transrapid       :Shanghai Transrapid (Maglev)
 str_mglv_Japan_MLX01_901        :JR MLX01-901 (Maglev)
