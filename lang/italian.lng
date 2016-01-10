@@ -704,6 +704,7 @@ str_mtro_Germany_Berlin_U_Bahn_IK :Berlino U-Bahn IK (Metro)
 str_mtro_USA_Chicago_L_6000 :Chicago L 6000 Serie (Metro)
 
 #Maglev railbus
+str_rbm_World_Turbobus          :Turbobus (Maglev)
 
 #Maglev
 str_mglv_China_Transrapid       :Shanghai Transrapid (Maglev)
