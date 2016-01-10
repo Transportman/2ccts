@@ -840,4 +840,4 @@ item(FEAT_TRAINS, item_mtro_Germany_Berlin_U_Bahn_C_II, 14003) {}
 
 //Railbus-Maglev, available ID range: 17000-17999 (hex 0x4268..0x464F)
 #define ID_RANGE_RBM 0x4268..0x464F
-item(FEAT_TRAINS, item_rbm_World_Turbogus, 17000) {}
+item(FEAT_TRAINS, item_rbm_World_Turbobus, 17000) {}
