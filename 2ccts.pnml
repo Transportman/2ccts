@@ -166,8 +166,6 @@
 #include "src/Railbus-electric/Morocco_ONCFM_ZAB1000_item.pnml"
 #include "src/Railbus-electric/Germany_DB_ET85_graphics.pnml"
 #include "src/Railbus-electric/Germany_DB_ET85_item.pnml"
-#include "src/Railbus-electric/Germany_DB_ET479_graphics.pnml"
-#include "src/Railbus-electric/Germany_DB_ET479_item.pnml"
 #include "src/Railbus-electric/Italy_FS_ALe_840_graphics.pnml"
 #include "src/Railbus-electric/Italy_FS_ALe_840_item.pnml"
 #include "src/Railbus-electric/Czech_Republic_CD_M400_graphics.pnml"
@@ -1591,6 +1589,8 @@
 #include "src/Obsolete/Germany_DB_650_Regio_Shuttle_obsolete_item.pnml"
 #include "src/Obsolete/Italy_FS_ALn_668_obsolete_graphics.pnml"
 #include "src/Obsolete/Italy_FS_ALn_668_obsolete_item.pnml"
+#include "src/Obsolete/Germany_DB_ET479_obsolete_graphics.pnml"
+#include "src/Obsolete/Germany_DB_ET479_obsolete_item.pnml"
 
 //sort vehicles in purchase list
 #include "src/vehiclesort.pnml"

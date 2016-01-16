@@ -74,7 +74,7 @@ item(FEAT_TRAINS, item_rbd_Italy_FS_ALn_668, 2046) {}
 item(FEAT_TRAINS, item_rbe_Switzerland_SBB_Cfe_3_3, 3000) {}
 item(FEAT_TRAINS, item_rbe_Morocco_ONCFM_ZAB1000, 3001) {}
 item(FEAT_TRAINS, item_rbe_Germany_DB_ET85, 3002) {}
-item(FEAT_TRAINS, item_rbe_Germany_DB_ET479, 3003) {}
+item(FEAT_TRAINS, item_rbe_Germany_DB_ET479_obsolete, 3003) {} // obsoleted
 item(FEAT_TRAINS, item_rbe_Italy_FS_ALe_840, 3004) {}
 item(FEAT_TRAINS, item_rbe_Czech_Republic_CD_M400, 3005) {}
 item(FEAT_TRAINS, item_rbe_Switzerland_TPC_BVB_Be_2_2, 3006) {}
@@ -91,6 +91,8 @@ item(FEAT_TRAINS, item_rbe_Switzerland_MVR_Beh_2_4, 3016) {}
 item(FEAT_TRAINS, item_rbe_Austria_MBS_ET_10109, 3017) {}
 item(FEAT_TRAINS, item_rbe_Poland_PKP_EN81, 3018) {}
 item(FEAT_TRAINS, item_rbe_USA_SEPTA_Silverliner_V, 3019) {}
+item(FEAT_TRAINS, item_rbe_Germany_DB_4792, 3020) {}
+item(FEAT_TRAINS, item_rbe_Germany_Buckower_Kleinbahn_Nr_1_3, 3021) {}
 
 //Steam, available ID range: 4000-4999 (hex 0x0FA0..0x1387)
 #define ID_RANGE_STEAM 0x0FA0..0x1387

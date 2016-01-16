@@ -118,7 +118,6 @@ str_rbd_Italy_FS_ALn_668 :FS ALn 668 (Diesel railbus)
 str_rbe_Switzerland_SBB_Cfe_3_3		:SBB Cfe 3/3 (Electric Railbus)
 str_rbe_Morocco_ONCFM_ZAB1000		:ONCFM ZAB1000 (Electric Railbus)
 str_rbe_Germany_DB_ET85				:DB ET85 (Electric Railbus)
-str_rbe_Germany_DB_ET479			:DB ET479 (Electric Railbus)
 str_rbe_Italy_FS_ALe_840			:FS ALe 840 (Electric Railbus)
 str_rbe_Czech_Republic_CD_M400 :CD M400 (Electric Railbus)
 str_rbe_Switzerland_TPC_BVB_Be_2_2 :TPC BVB Be 2/2 (Electric Railbus)
@@ -135,6 +134,8 @@ str_rbe_Switzerland_MVR_Beh_2_4 :MVR Beh 2/4 (Electric Railbus)
 str_rbe_Austria_MBS_ET_10109 :MBS ET 10.109 (Electric Railbus)
 str_rbe_Poland_PKP_EN81 :PKP EN81 (Electric Railbus)
 str_rbe_USA_SEPTA_Silverliner_V :SEPTA Silverliner V (Electric Railbus)
+str_rbe_Germany_Buckower_Kleinbahn_Nr_1_3 :Buckower Kleinbahn Nr. 1-3 (Electric Railbus)
+str_rbe_Germany_DB_4792: DB 479.2 (Electric Railbus)
 
 #Steam
 str_steam_Belgium_Le_Belge 			:Le Belge (Steam)
@@ -849,7 +850,8 @@ str_dmu_Slovakia_ZSSK_861_obsolete 								:ZSSK 861 (Obsoleted)
 str_rbd_Germany_DB_VT98_obsolete		 						:DB VT98 (Obsoleted)
 str_electric_Portugal_CP_Class_2550_obsolete					:CP 2550 (Obsoleted)
 str_rbd_Germany_DB_650_Regio_Shuttle_obsolete		 			:DB 650 'Regio Shuttle' (Obsoleted)
-str_dmu_Italy_FS_ALn_668_obsolete 					:FS ALn 668 (DMU)
+str_dmu_Italy_FS_ALn_668_obsolete 								:FS ALn 668 (Obsoleted)
+str_rbe_Germany_DB_ET479_obsolete								:DB ET479 (Obsoleted)
 
 #PURCHASE MENU TEXTS
 str_unit_wagon				:This generic wagon can ONLY be used with MUs to create trains of the desired length

@@ -10,7 +10,7 @@
 * PURCHASE
 */
 
-spriteset(spriteset_rbe_Germany_DB_ET479_purchase, "gfx/Railbus-electric/Germany_DB_ET479.png") {
+spriteset(spriteset_rbe_Germany_DB_4792_purchase, "gfx/Railbus-electric/Germany_DB_4792.png") {
 	template_purchase(1, 32)
 }
 
@@ -19,7 +19,7 @@ spriteset(spriteset_rbe_Germany_DB_ET479_purchase, "gfx/Railbus-electric/Germany
 */
 
 //Only one spriteset needed for this set
-spriteset(spriteset_rbe_Germany_DB_ET479, "gfx/Railbus-electric/Germany_DB_ET479.png") {
+spriteset(spriteset_rbe_Germany_DB_4792, "gfx/Railbus-electric/Germany_DB_4792.png") {
 	template_2cc_engines_general(1, 1) //different from railbus template
 }
 
@@ -27,9 +27,9 @@ spriteset(spriteset_rbe_Germany_DB_ET479, "gfx/Railbus-electric/Germany_DB_ET479
 * Cargo capacity
 */
 
-switch(FEAT_TRAINS, SELF, switch_rbe_Germany_DB_ET479_capacity, cargo_classes) {
-	bitmask(CC_MAIL): 18;
-	bitmask(CC_ARMOURED): 9;
-	35;
+switch(FEAT_TRAINS, SELF, switch_rbe_Germany_DB_4792_capacity, cargo_classes) {
+	bitmask(CC_MAIL): 12;
+	bitmask(CC_ARMOURED): 6;
+	24;
 }
 	

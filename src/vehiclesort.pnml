@@ -75,7 +75,7 @@ item_rbe_Switzerland_SBB_Cfe_3_3, /*Year: 1911*/ \
 item_rbe_Morocco_ONCFM_ZAB1000, /*Year: 1925*/ \
 item_rbe_Germany_DB_ET85, /*Year: 1927*/ \
 item_rbe_Spain_Ferrocarril_de_Soller_1_3, /*Year: 1929*/ \
-item_rbe_Germany_DB_ET479, /*Year: 1930*/ \
+item_rbe_Germany_Buckower_Kleinbahn_Nr_1_3, /*Year: 1930*/ \
 item_rbe_Slovakia_ZSSK_490, /*Year: 1930*/ \
 item_rbe_Italy_FS_ALe_840, /*Year: 1949*/ \
 item_rbe_Italy_FS_E623, /*Year: 1950*/ \
@@ -84,6 +84,7 @@ item_rbe_Japan_Choshi_DeHa_1000, /*Year: 1960*/ \
 item_rbe_France_SNCF_Z_7100, /*Year: 1960*/ \
 item_rbe_USA_Pennsylvania_Railroad_Silverliner_II, /*Year: 1963*/ \
 item_rbe_Italy_FG_ALe_80, /*Year: 1981*/ \
+item_rbe_Germany_DB_4792, /*Year: 1982*/ \
 item_rbe_Austria_OBB_4855, /*Year: 1989*/ \
 item_rbe_Switzerland_MVR_Beh_2_4, /*Year: 1998*/ \
 item_rbe_Austria_MBS_ET_10109, /*Year: 2001*/ \

@@ -10,9 +10,9 @@
 * ITEM
 */
 
-item(FEAT_TRAINS, item_rbe_Germany_DB_ET479) {
+item(FEAT_TRAINS, item_rbe_Germany_Buckower_Kleinbahn_Nr_1_3) {
     property {
-        name: string(str_rbe_Germany_DB_ET479);
+        name: string(str_rbe_Germany_Buckower_Kleinbahn_Nr_1_3);
         REGION(WESTERNEUROPE,NOREGION,NOCONCEPT)
 		
         introduction_date: date(1930,1,1);
@@ -23,9 +23,9 @@ item(FEAT_TRAINS, item_rbe_Germany_DB_ET479) {
         running_cost_factor: 17;
         speed: 50 km/h;
         power: 175 hp;
-        cargo_capacity: 35;
+        cargo_capacity: 50;
         weight: 23 ton;
-        tractive_effort_coefficient: 0.13;
+        tractive_effort_coefficient: 0.08;
         air_drag_coefficient: 0;
         
         reliability_decay: 20;
@@ -41,14 +41,14 @@ item(FEAT_TRAINS, item_rbe_Germany_DB_ET479) {
 
         sprite_id: SPRITE_ID_NEW_TRAIN;
         dual_headed: 0;
-        length: 5;
+        length: 4;
         extra_power_per_wagon: 0;
         bitmask_vehicle_info: 0;
 	}
 	graphics {
-		cargo_capacity: switch_rbe_Germany_DB_ET479_capacity;
-		purchase: spriteset_rbe_Germany_DB_ET479_purchase;
+		cargo_capacity: switch_rbe_Germany_Buckower_Kleinbahn_Nr_1_3_capacity;
+		purchase: spriteset_rbe_Germany_Buckower_Kleinbahn_Nr_1_3_purchase;
 		can_attach_wagon: switch_can_attach_vehicle;
-		spriteset_rbe_Germany_DB_ET479;
+		spriteset_rbe_Germany_Buckower_Kleinbahn_Nr_1_3;
 	}	
 }
