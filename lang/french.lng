@@ -120,7 +120,6 @@ str_rbd_Italy_FS_ALn_668 :FS ALn 668 (Autorail Diesel)
 str_rbe_Switzerland_SBB_Cfe_3_3         :SBB Cfe 3/3 (Autorail Électrique)
 str_rbe_Morocco_ONCFM_ZAB1000           :ONCFM ZAB1000 (Autorail Électrique)
 str_rbe_Germany_DB_ET85                         :DB ET85 (Autorail Électrique)
-str_rbe_Germany_DB_ET479                        :DB ET479 (Autorail Électrique)
 str_rbe_Italy_FS_ALe_840                        :FS ALe 840 (Autorail Électrique)
 str_rbe_Czech_Republic_CD_M400 :CD M400 (Autorail Électrique)
 str_rbe_Switzerland_TPC_BVB_Be_2_2 :TPC BVB Be 2/2 (Autorail Électrique)
@@ -851,7 +850,7 @@ str_dmu_Slovakia_ZSSK_861_obsolete                                              
 str_rbd_Germany_DB_VT98_obsolete                                                                :DB VT98 (Obsolète)
 str_electric_Portugal_CP_Class_2550_obsolete                                    :CP 2550 (Obsolète)
 str_rbd_Germany_DB_650_Regio_Shuttle_obsolete                                   :DB 650 'Regio Shuttle' (Obsolète)
-str_dmu_Italy_FS_ALn_668_obsolete                                       :FS ALn 668 (Rame Diesel)
+str_dmu_Italy_FS_ALn_668_obsolete                                                               :FS ALn 668 (Rame Diesel)
 
 #PURCHASE MENU TEXTS
 str_unit_wagon                          :Ce wagon générique est utilisé SEULEMENT avec des Rames pour obtenir des trains de longueur variable

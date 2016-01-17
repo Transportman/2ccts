@@ -121,7 +121,6 @@ str_rbd_Italy_FS_ALn_668 :FS ALn 668 (automotrice diesel)
 str_rbe_Switzerland_SBB_Cfe_3_3         :SBB Cfe 3/3 (automotrice elettrica)
 str_rbe_Morocco_ONCFM_ZAB1000           :ONCFM ZAB1000 (automotrice elettrica)
 str_rbe_Germany_DB_ET85                         :DB ET85 (automotrice elettrica)
-str_rbe_Germany_DB_ET479                        :DB ET479 (automotrice elettrica)
 str_rbe_Italy_FS_ALe_840                        :FS ALe 840 (automotrice elettrica)
 str_rbe_Czech_Republic_CD_M400 :CD M400 (automotrice elettrica)
 str_rbe_Switzerland_TPC_BVB_Be_2_2 :TPC BVB Be 2/2 (automotrice elettrica)
@@ -852,7 +851,7 @@ str_dmu_Slovakia_ZSSK_861_obsolete                                              
 str_rbd_Germany_DB_VT98_obsolete                                                                :DB VT98 (antiquata)
 str_electric_Portugal_CP_Class_2550_obsolete                                    :CP 2550 (antiquata)
 str_rbd_Germany_DB_650_Regio_Shuttle_obsolete                                   :DB 650 'Regio Shuttle' (antiquata)
-str_dmu_Italy_FS_ALn_668_obsolete                                       :FS ALn 668 (automotrice diesel)
+str_dmu_Italy_FS_ALn_668_obsolete                                                               :FS ALn 668 (automotrice diesel)
 
 #PURCHASE MENU TEXTS
 str_unit_wagon                          :Questa carrozza generica può solo essere usata per comporre unità multiple della lunghezza desiderata

@@ -43,7 +43,6 @@ str_rbd_Lithuania_Lithuanian_Railways_AR2               :Lithuanian Railways AR2
 str_rbe_Switzerland_SBB_Cfe_3_3         :SBB Cfe 3/3 (Electric Railbus)
 str_rbe_Morocco_ONCFM_ZAB1000           :ONCFM ZAB1000 (Electric Railbus)
 str_rbe_Germany_DB_ET85                         :DB ET85 (Electric Railbus)
-str_rbe_Germany_DB_ET479                        :DB ET479 (Electric Railbus)
 str_rbe_Italy_FS_ALe_840                        :FS ALe 840 (Electric Railbus)
 
 #Steam

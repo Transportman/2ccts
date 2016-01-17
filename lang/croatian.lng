@@ -121,7 +121,6 @@ str_rbd_Italy_FS_ALn_668 :FS ALn 668 (dizel šinobus)
 str_rbe_Switzerland_SBB_Cfe_3_3         :SBB Cfe 3/3 (električni šinobus)
 str_rbe_Morocco_ONCFM_ZAB1000           :ONCFM ZAB1000 (električni šinobus)
 str_rbe_Germany_DB_ET85                         :DB ET85 (električni šinobus)
-str_rbe_Germany_DB_ET479                        :DB ET479 (električni šinobus)
 str_rbe_Italy_FS_ALe_840                        :FS ALe 840 (električni šinobus)
 str_rbe_Czech_Republic_CD_M400 :CD M400 (električni šinobus)
 str_rbe_Switzerland_TPC_BVB_Be_2_2 :TPC BVB Be 2/2 (električni šinobus)
@@ -852,7 +851,7 @@ str_dmu_Slovakia_ZSSK_861_obsolete                                              
 str_rbd_Germany_DB_VT98_obsolete                                                                :DB VT98 (nekorištena)
 str_electric_Portugal_CP_Class_2550_obsolete                                    :CP 2550 (nekorištena)
 str_rbd_Germany_DB_650_Regio_Shuttle_obsolete                                   :DB 650 'Regio Shuttle' (nekorištena)
-str_dmu_Italy_FS_ALn_668_obsolete                                       :FS ALn 668 (dizelmotorni vlak)
+str_dmu_Italy_FS_ALn_668_obsolete                                                               :FS ALn 668 (dizelmotorni vlak)
 
 #PURCHASE MENU TEXTS
 str_unit_wagon                          :Ovaj generički vagon se može koristiti SAMO sa višedjelnim jedinicama (MU) za stvaranje vlakova željene dužine

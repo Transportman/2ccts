@@ -119,7 +119,6 @@ str_rbd_Italy_FS_ALn_668 :意铁FS ALn 668 (内燃铁路巴士)
 str_rbe_Switzerland_SBB_Cfe_3_3         :瑞铁SBB Cfe 3/3 (电力铁路巴士)
 str_rbe_Morocco_ONCFM_ZAB1000           :摩洛哥铁路ONCFM ZAB1000 (电力铁路巴士)
 str_rbe_Germany_DB_ET85                         :德铁DB ET85 (电力铁路巴士)
-str_rbe_Germany_DB_ET479                        :德铁DB ET479 (电力铁路巴士)
 str_rbe_Italy_FS_ALe_840                        :意铁FS ALe 840 (电力铁路巴士)
 str_rbe_Czech_Republic_CD_M400 :捷克铁路CD M400 (电力铁路巴士)
 str_rbe_Switzerland_TPC_BVB_Be_2_2 :伊斯特拉铁路TPC BVB Be 2/2 (电力铁路巴士)
@@ -849,7 +848,7 @@ str_dmu_Slovakia_ZSSK_861_obsolete                                              
 str_rbd_Germany_DB_VT98_obsolete                                                                :德铁DB VT98 (废弃)
 str_electric_Portugal_CP_Class_2550_obsolete                                    :葡铁CP 2550 (废弃)
 str_rbd_Germany_DB_650_Regio_Shuttle_obsolete                                   :德铁DB 650 'Regio Shuttle' (废弃)
-str_dmu_Italy_FS_ALn_668_obsolete                                       :意铁FS ALn 668 (内燃动车)
+str_dmu_Italy_FS_ALn_668_obsolete                                                               :意铁FS ALn 668 (内燃动车)
 
 #PURCHASE MENU TEXTS
 str_unit_wagon                          :本通用车厢只能与动车组合成相应长度的列车
