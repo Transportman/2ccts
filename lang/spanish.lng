@@ -573,6 +573,7 @@ str_emu_Macedonia_Macedonian_Railways_412 :Macedonian Railways 412 (EMU)
 str_emu_Australia_Sydney_Trains_A_Set_Waratah :Sydney Trains A Set 'Waratah' (EMU)
 str_emu_Netherlands_NS_Hispeed_V250_Albatros :NS Hispeed V250 'Albatros' (EMU)
 str_emu_Chile_EFE_AES_Railcar :EFE AES Railcar (EMU)
+str_emu_Russia_RZD_S :RZD S (EMU)
 str_emu_Russia_RZD_ES1_Lastochka :RZD ES1 'Lastochka' (EMU)
 str_emu_Austria_WESTbahn_4010_KISS :WESTbahn 4010 'KISS' (EMU)
 str_emu_Croatia_HZ_6112 :HZ 6112 (EMU)
@@ -778,7 +779,7 @@ str_steam_South_Africa_PPR_35_tonner_4_6_0T_obsolete                    :PPR 35-
 str_dmu_Slovakia_ZSSK_861_obsolete                                                              :ZSSK 861 (Obsoleto)
 str_rbd_Germany_DB_VT98_obsolete                                                                :DB VT98 (Obsoleto)
 str_rbd_Germany_DB_650_Regio_Shuttle_obsolete                                   :DB 650 'Regio Shuttle' (Obsoleto)
-str_dmu_Italy_FS_ALn_668_obsolete                                                               :FS ALn 668 (DMU)
+str_dmu_Italy_FS_ALn_668_obsolete                                                               :FS ALn 668 (Obsoleto)
 
 #PURCHASE MENU TEXTS
 str_unit_wagon                          :Este vagón genérico SOLO se puede usar con MUs para crear trenes de la longitud deseada
