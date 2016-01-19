@@ -137,6 +137,8 @@ str_rbe_Switzerland_MVR_Beh_2_4 :MVR Beh 2/4 (električni šinobus)
 str_rbe_Austria_MBS_ET_10109 :MBS ET 10.109 (električni šinobus)
 str_rbe_Poland_PKP_EN81 :PKP EN81 (električni šinobus)
 str_rbe_USA_SEPTA_Silverliner_V :SEPTA Silverliner V (električni šinobus)
+str_rbe_Germany_Buckower_Kleinbahn_Nr_1_3 :Buckower Kleinbahn Nr. 1-3 (električni šinobus)
+str_rbe_Germany_DB_4792: DB 479.2 (električni šinobus)
 
 #Steam
 str_steam_Belgium_Le_Belge                      :Le Belge (parna lokomotiva)
@@ -851,7 +853,8 @@ str_dmu_Slovakia_ZSSK_861_obsolete                                              
 str_rbd_Germany_DB_VT98_obsolete                                                                :DB VT98 (nekorištena)
 str_electric_Portugal_CP_Class_2550_obsolete                                    :CP 2550 (nekorištena)
 str_rbd_Germany_DB_650_Regio_Shuttle_obsolete                                   :DB 650 'Regio Shuttle' (nekorištena)
-str_dmu_Italy_FS_ALn_668_obsolete                                                               :FS ALn 668 (dizelmotorni vlak)
+str_dmu_Italy_FS_ALn_668_obsolete                                                               :FS ALn 668 (nekorištena)
+str_rbe_Germany_DB_ET479_obsolete                                                               :DB ET479 (nekorištena)
 
 #PURCHASE MENU TEXTS
 str_unit_wagon                          :Ovaj generički vagon se može koristiti SAMO sa višedjelnim jedinicama (MU) za stvaranje vlakova željene dužine
