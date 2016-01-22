@@ -136,6 +136,8 @@ str_rbe_Switzerland_MVR_Beh_2_4 :MVR Beh 2/4 (Autorail Électrique)
 str_rbe_Austria_MBS_ET_10109 :MBS ET 10.109 (Autorail Électrique)
 str_rbe_Poland_PKP_EN81 :PKP EN81 (Autorail Électrique)
 str_rbe_USA_SEPTA_Silverliner_V :SEPTA Silverliner V (Autorail Électrique)
+str_rbe_Germany_Buckower_Kleinbahn_Nr_1_3 :Buckower Kleinbahn Nr. 1-3 (Autorail Électrique)
+str_rbe_Germany_DB_4792: DB 479.2 (Autorail Électrique)
 
 #Steam
 str_steam_Belgium_Le_Belge                      :Le Belge (Vapeur)
@@ -850,7 +852,8 @@ str_dmu_Slovakia_ZSSK_861_obsolete                                              
 str_rbd_Germany_DB_VT98_obsolete                                                                :DB VT98 (Obsolète)
 str_electric_Portugal_CP_Class_2550_obsolete                                    :CP 2550 (Obsolète)
 str_rbd_Germany_DB_650_Regio_Shuttle_obsolete                                   :DB 650 'Regio Shuttle' (Obsolète)
-str_dmu_Italy_FS_ALn_668_obsolete                                                               :FS ALn 668 (Rame Diesel)
+str_dmu_Italy_FS_ALn_668_obsolete                                                               :FS ALn 668 (Obsolète)
+str_rbe_Germany_DB_ET479_obsolete                                                               :DB ET479 (Obsolète)
 
 #PURCHASE MENU TEXTS
 str_unit_wagon                          :Ce wagon générique est utilisé SEULEMENT avec des Rames pour obtenir des trains de longueur variable
