@@ -16,8 +16,8 @@ item(FEAT_TRAINS, item_rbd_Argentina_FCPBA_M_Railcar) {
         REGION(SOUTHAMERICA,NOREGION,NOCONCEPT)
 		
         introduction_date: date(1935,1,1);
-        model_life: 25;
-        vehicle_life: 40;
+        model_life: 35;
+        vehicle_life: 15;
         LOADINGSPEEDDEF_COMMUTER
         cost_factor: 25;
         running_cost_factor: 22;

@@ -16,7 +16,7 @@ item(FEAT_TRAINS, item_rbd_Italy_FS_ALn_668) {
         REGION(SOUTHERNEUROPE,NOREGION,NOCONCEPT)
 		
         introduction_date: date(1956,1,1);
-        model_life: 25;
+        model_life: 35;
         vehicle_life: 25;
         LOADINGSPEEDDEF_COMMUTER
         cost_factor: 25;

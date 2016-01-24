@@ -16,8 +16,8 @@ item(FEAT_TRAINS, item_rbd_Eritrea_Eritrean_Railway_A62_70_Littorina) {
         REGION(AFRICA,NOREGION,NOCONCEPT)
 		
         introduction_date: date(1937,1,1);
-        model_life: 25;
-        vehicle_life: 40;
+        model_life: 35;
+        vehicle_life: 15;
         LOADINGSPEEDDEF_COMMUTER
         cost_factor: 20;
         running_cost_factor: 19;
