@@ -87,6 +87,7 @@ str_steam_Ireland_DSER_15 :DSER 15 (parna lokomotiva)
 str_steam_Canada_CN_U_1_Class :CN U-1 (parna lokomotiva)
 str_steam_Germany_DB_9977 :DB 99.77 (parna lokomotiva)
 str_steam_New_Zealand_NZR_WAB :NZR WAB (parna lokomotiva)
+str_steam_Kenya_East_African_Railway_23 :East African Railway 23 (parna lokomotiva)
 str_steam_China_China_Railways_H :China Railways H (parna lokomotiva)
 str_steam_Greece_SEK_Lb :SEK Lb (parna lokomotiva)
 
@@ -115,6 +116,7 @@ str_diesel_Germany_DB_220_V200                                                  
 str_diesel_USA_Amtrak_FL9                                                               :Amtrak FL9 (dizel lokomotiva)
 str_diesel_Finland_VR_Dr12                                                              :VR Dr12 (dizel lokomotiva)
 str_diesel_Romania_CFR_060_DA                                                   :CFR 060-DA (dizel lokomotiva)
+str_diesel_Brazil_EFVM_ML4000                                                   :EFVM ML4000 (dizel lokomotiva)
 str_diesel_Denmark_DSB_MaK_100                                                  :DSB MaK 100 (dizel lokomotiva)
 str_diesel_India_Indian_Railways_WDM_2                                  :Indian Railways WDM-2 (dizel lokomotiva)
 str_diesel_UK_BR_14                                                                     :BR 14 (dizel lokomotiva)
@@ -143,6 +145,9 @@ str_diesel_China_China_Railways_HXN5                                    :China R
 str_diesel_Germany_DB_260_Gravita_10BB                                  :DB 260 Gravita 10BB (dizel lokomotiva)
 str_diesel_Russia_RZD_GT1                                                               :RZD GT1 (dizel lokomotiva)
 str_diesel_Canada_CNR_9000                      :CNR 9000 (dizel lokomotiva)
+str_diesel_Spain_RENFE_Class_334 :RENFE 334 (dizel lokomotiva)
+str_diesel_Algeria_SNTF_040_DG :SNTF 040 DG (dizel lokomotiva)
+str_diesel_Tunisia_SNCFT_040_DF :SNCFT 040 DF (dizel lokomotiva)
 str_diesel_South_Africa_SAR_Afro_4000 :SAR Afro 4000 (dizel lokomotiva)
 
 #Electric
@@ -201,6 +206,7 @@ str_electric_New_Zealand_NZR_EO_Class :NZR EO (električna lokomotiva)
 str_electric_Australia_NSWGR_71 :NSWGR 71 (električna lokomotiva)
 str_electric_South_Africa_SAR_5E1 :SAR 5E1 (električna lokomotiva)
 str_electric_Russia_RZD_EP20 :RZD EP20 (električna lokomotiva)
+str_electric_New_Zealand_TranzRail_EF :TranzRail EF (električna lokomotiva)
 str_electric_USA_Virginian_Railway_EL_2B :Virginian Railway EL-2B (električna lokomotiva)
 str_electric_USA_Amtrak_EMD_AEM_7 :Amtrak EMD AEM-7 (električna lokomotiva)
 str_electric_Czech_Republic_CD_363 :CD 363 (električna lokomotiva)
@@ -209,12 +215,14 @@ str_electric_China_China_Railways_6K :China Railways 6K (električna lokomotiva)
 
 #DMU
 str_dmu_Australia_WAGR_ADK_ADB :WAGR ADK/ADB (dizelmotorni vlak)
+str_dmu_Canada_UP_Express_Nippon_Sharyo_DMU :UP Express Nippon Sharyo DMU (dizelmotorni voz)
 
 #EMU
 str_emu_Netherlands_NS_Mat24                            :NS Mat'24 (elektromotorni vlak)
 str_emu_Australia_Sydney_Trains_S_Set           :Sydney Trains S-set (elektromotorni vlak)
 str_emu_Italy_FS_ETR500                                         :FS ETR.500 'Frecciarossa' (elektromotorni voz)
 str_emu_Morocco_ONCF_ZMC :ONCF ZMC (EMU)
+str_emu_Croatia_HZ_6112 :HZ 6112 (elektromotorni voz)
 str_emu_China_Railways_CHR380A :China Railways CHR380A (elektromotorni vlak)
 
 #Single Unit Metro
@@ -265,6 +273,8 @@ str_mglv_China_Transrapid       :Shanghai Transrapid (maglev)
 str_mglv_Japan_MLX01_901        :JR MLX01-901 (maglev)
 
 #wagons
+str_wagon_Gen4_Boxcar_Type1                             :Zatvoreni vagon 4. generacije  (tip 1)
+str_wagon_Gen5_Container_Carrier                :Vagon za kontejnere 5. generacije
 
 
 #coaches
