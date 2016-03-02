@@ -67,6 +67,7 @@ str_rbe_Morocco_ONCFM_ZAB1000           :ONCFM ZAB1000 (električni šinobus)
 str_rbe_Germany_DB_ET85                         :DB ET85 (električni šinobus)
 str_rbe_Italy_FS_ALe_840                        :FS ALe 840 (električni šinobus)
 str_rbe_Slovakia_ZSSK_490 :ZSSK 49.0 (električni šinobus)
+str_rbe_Italy_FS_E623 :FS E.623 (električni šinobus)
 str_rbe_USA_Pennsylvania_Railroad_Silverliner_II :PRR Silverliner II (električni šinobus)
 
 #Steam
@@ -100,6 +101,7 @@ str_steam_UK_LNER_A1_Peppercorn         :LNER A1 'Peppercorn' (parna lokomotiva)
 str_steam_South_Africa_SAR_25           :SAR 25 (parna lokomotiva)
 str_steam_UK_GWR_Iron_DUKe_Class :GWR Iron Duke (parna lokomotiva)
 str_steam_South_Africa_Natal_Government_Railways_2_6_0T :Natal Government Railways 2-6-0T (parna lokomotiva)
+str_steam_Angola_South_West_African_2_8_0 :South West African 2-8-0 (parna lokomotiva)
 str_steam_Germany_Saxon_XX_HV :Saxon XX HV (parna lokomotiva)
 str_steam_Ireland_DSER_15 :DSER 15 (parna lokomotiva)
 str_steam_Canada_CN_U_1_Class :CN U-1 (parna lokomotiva)
@@ -272,6 +274,7 @@ str_dmu_Iran_RAI_141_Pacer :RAI 141 'Pacer' (dizelmotorni voz)
 str_dmu_Sri_Lanka_Sri_Lanka_Railways_S11 :Sri Lanka Railways S11 (dizelmotorni voz)
 str_dmu_Chile_EFE_TLD_500 :EFE TLD-500 (dizelmotorni voz)
 str_dmu_Cameroon_Camrail_ZE_500 :Camrail ZE 500 (dizelmotorni voz)
+str_dmu_UK_BR_251_Blue_Pullman :BR 251 'Blue Pullman' (dizelmotorni voz)
 str_dmu_Australia_WAGR_ADK_ADB :WAGR ADK/ADB (dizelmotorni vlak)
 str_dmu_Germany_DB_6282 :DB 628.2 (dizelmotorni vlak)
 str_dmu_Tunisia_SNCFT_AMT_800 :SNCFT AMT 800 (dizelmotorni voz)
@@ -334,6 +337,7 @@ str_mtro_Russia_Moscow_Type_A :Moscow tip A (metro)
 str_mtro_USA_NY_R10 :New York R10 (Metro)
 str_mtro_Russia_Moscow_Type_D :Moscow tip D (metro)
 str_mtro_Netherlands_Rotterdam_MG2_Type_M :Rotterdam MG2 Type M (metro)
+str_mtro_Chile_Santiago_AS_2002 :Santiago AS-2002 (metro)
 
 #Maglev railbus
 
@@ -344,6 +348,7 @@ str_mglv_Japan_MLX01_901        :JR MLX01-901 (maglev)
 #wagons
 str_wagon_Gen2_Silo                                     :Silos 4. generacije
 str_wagon_Gen4_Boxcar_Type1                             :Zatvoreni vagon 4. generacije  (tip 1)
+str_wagon_Gen4_Silo_Type2                               :Silos 4. generacije (tip 2)
 str_wagon_Gen4_Hopper_Type2                             :Samoistovarajući vagon za rasuti teret 4. generacije (tip 2)
 str_wagon_Gen4_Car_Transporter                  :Vagon za prevoz automobila 4. generacije
 str_wagon_Gen5_Heavy_Flatcar                    :Teški otvoreni teretni vagon 5. generacije
@@ -353,6 +358,7 @@ str_wagon_Gen5_Container_Carrier                :Vagon za kontejnere 5. generaci
 
 #coaches
 str_coach_Gen1_Wooden_2_axle_Mail_Coach                                 :Drveni vagon za poštu sa dve osovine
+str_coach_Gen2_Steel_Compartment_Coach                                  :Čelični vagon za putnike sa kupeima
 str_coach_Gen2_Steel_Mail_Coach                                                 :Čelični vagon za poštu
 str_coach_Gen2_Steel_2_axle_Compartment_Coach                   :Čelični dvoosovinski vagon za putnike
 str_coach_Gen2_Steel_3_axle_Regional_Coach                              :Čelični troosovinski regionalni vagon za putnike
@@ -366,7 +372,10 @@ str_coach_Gen4_InterRegio_Coach                                                 
 str_coach_Gen4_Eurofima_Mail_Coach                                              :Eurofima vagon za poštu
 str_coach_Gen4_Russian_Regional_Coach                                   :Ruski regionalni vagon za putnike
 str_coach_Gen4_Superliner_Coach                                                 :Superliner vagon za putnike
+str_coach_Gen5_Modern_Commuter_Coach                                    :Moderni prigradski vagon za putnike
+str_coach_Gen5_Talgo_Pendular                                                   :Talgo Pendular
 str_coach_Gen5_Talgo_Pendular_Mail                                              :Talgo Pendular vagon za poštu
+str_coach_Gen6_Grand_Regio_Coach                                                :Grand regio vagon za putnike
 
 #special wagons
 str_mtro_wagon_unpowered        :Vagon Metroa (bez pogona)
