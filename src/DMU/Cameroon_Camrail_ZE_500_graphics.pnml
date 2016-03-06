@@ -48,7 +48,7 @@ switch(FEAT_TRAINS, SELF, switch_dmu_Cameroon_Camrail_ZE_500_reversed, var[0xC8]
 switch(FEAT_TRAINS, SELF, switch_dmu_Cameroon_Camrail_ZE_500_visual_effect_and_powered, var[0xC8]) {
 	0xFE: visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
 	0xFF: visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
-	visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, -3, DISABLE_WAGON_POWER);
+	visual_effect_and_powered(VISUAL_EFFECT_DIESEL, -3, DISABLE_WAGON_POWER);
 }
 	
 /*
