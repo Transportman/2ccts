@@ -14,7 +14,7 @@ item(FEAT_TRAINS, item_mglv_wagon_unpowered) {
     property {
         name: string(str_mglv_wagon_unpowered);
         
-        introduction_date: date(2002,1,1);
+        introduction_date: date(2000,1,1);
         model_life: VEHICLE_NEVER_EXPIRES;
         vehicle_life: 25;
         LOADINGSPEEDDEF_NONE
