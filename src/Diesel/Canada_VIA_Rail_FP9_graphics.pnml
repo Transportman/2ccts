@@ -31,12 +31,3 @@ switch(FEAT_TRAINS, SELF, switch_diesel_Canada_VIA_Rail_FP9_position, position_i
 	0: spriteset_diesel_Canada_VIA_Rail_FP9_engine;
 	spriteset_diesel_Canada_VIA_Rail_FP9_tender;
 }
-
-/*
-* Visual effect
-*/
-
-switch(FEAT_TRAINS, SELF, switch_diesel_Canada_VIA_Rail_FP9_visual_effect, position_in_vehid_chain % 2) {
-	0: return visual_effect_and_powered(VISUAL_EFFECT_DIESEL, -3, DISABLE_WAGON_POWER);
-	return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
-}

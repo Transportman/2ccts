@@ -33,12 +33,3 @@ switch(FEAT_TRAINS, SELF, switch_diesel_USA_GNR_EMD_F3_position, position_in_veh
 	1: spriteset_diesel_USA_GNR_EMD_F3_B;
 	spriteset_diesel_USA_GNR_EMD_F3_engine;
 }
-
-/*
-* Visual effect
-*/
-
-switch(FEAT_TRAINS, SELF, switch_diesel_USA_GNR_EMD_F3_visual_effect, position_in_vehid_chain % 2) {
-	0: return visual_effect_and_powered(VISUAL_EFFECT_DIESEL, -3, DISABLE_WAGON_POWER);
-	return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
-}
