@@ -13,9 +13,11 @@ str_error_region                                        :Nijedan region nije ukl
 
 #parameter strings
 #cost parameters
+STR_PARAM_PURCHASE_COST             :Multiplikator troškova kupovine
 STR_PARAM_RUNNING_COST              :Multiplikator tekućih troškova
 
 STR_PARAM_DIVIDE_8                  :1/8
+STR_PARAM_DIVIDE_4                  :1/4
 STR_PARAM_NORMAL                    :1 (zadana vrednost)
 STR_PARAM_TIMES_2                   :2
 STR_PARAM_TIMES_4                   :4
@@ -100,6 +102,7 @@ str_rbe_Spain_Ferrocarril_de_Soller_1_3 :Ferrocarril de Soller 1-3 (električni 
 str_rbe_Slovakia_ZSSK_490 :ZSSK 49.0 (električni šinobus)
 str_rbe_Italy_FS_E623 :FS E.623 (električni šinobus)
 str_rbe_Sweden_SJ_X16 :SJ X16 (električni šinobus)
+str_rbe_Japan_Choshi_DeHa_1000 :Choshi DeHa 1000 (električni šinobus)
 str_rbe_USA_Pennsylvania_Railroad_Silverliner_II :PRR Silverliner II (električni šinobus)
 str_rbe_Italy_FG_ALe_80 :FG ALe 80 (električni šinobus)
 str_rbe_USA_SEPTA_Silverliner_V :SEPTA Silverliner V (električni šinobus)
@@ -470,6 +473,7 @@ str_emu_Macedonia_Macedonian_Railways_412 :Macedonian Railways 412 (elektromotor
 str_emu_Chile_EFE_AES_Railcar :EFE AES Railcar (elektromotorni voz)
 str_emu_Chile_EFE_XTrapolis_100 :EFE X'Trapolis 100 (elektromotorni voz)
 str_emu_Tunisia_SNCFT_YZ_E :SNCFT YZ-E (elektromotorni voz)
+str_emu_Poland_PKP_EW54 :PKP EW54 (elektromotorni voz)
 str_emu_Romania_CFR_58 :CFR 58 (elektromotorni voz)
 str_emu_Russia_RZD_ER200 :RZD ER200 (elektromotorni voz)
 str_emu_Morocco_ONCF_ZMC :ONCF ZMC (EMU)
@@ -531,6 +535,7 @@ str_mtro_Chile_Santiago_AS_2002 :Santiago AS-2002 (metro)
 str_mtro_Spain_Madrid_Series_5000 :Madrid Series 5000 (metro)
 str_mtro_Algeria_Algiers_CAF_2011_Stock :Algiers CAF 2011 Stock (metro)
 str_mtro_Germany_Berlin_U_Bahn_IK :Berlin U-Bahn IK (metro)
+str_mtro_USA_Chicago_L_6000 :Chicago L 6000 Series (metro)
 
 #Maglev railbus
 
@@ -608,6 +613,7 @@ str_coach_Gen4_Comet_Commuter_Coach                                     :Comet p
 str_coach_Gen4_Horizon_Baggage_Coach                                    :Horizon vagon za prtjagu
 str_coach_Gen4_Bombardier_Bi_level                                              :Bombardier vagon na kat
 str_coach_Gen5_High_Speed_Coach                                                 :Ekspresni vagon za putnike
+str_coach_Gen5_Modern_Regional_Coach                                    :Moderni regionalni vagon za putnike
 str_coach_Gen5_Modern_Commuter_Coach                                    :Moderni prigradski vagon za putnike
 str_coach_Gen5_High_Speed_Mail_Coach                                    :Ekspresni vagon za poštu
 str_coach_Gen5_Talgo_Pendular                                                   :Talgo Pendular
