@@ -108,6 +108,7 @@ str_rbe_USA_Pennsylvania_Railroad_Silverliner_II :PRR Silverliner II (električn
 str_rbe_Italy_FG_ALe_80 :FG ALe 80 (električni šinobus)
 str_rbe_USA_SEPTA_Silverliner_V :SEPTA Silverliner V (električni šinobus)
 str_rbe_Germany_Buckower_Kleinbahn_Nr_1_3 :Buckower Kleinbahn Nr. 1-3 (električni šinobus)
+str_rbe_Germany_DB_4792:DB 479.2 (električni šinobus)
 
 #Steam
 str_steam_Belgium_Le_Belge                      :Le Belge (parna lokomotiva)
@@ -180,6 +181,7 @@ str_steam_India_DHR_B :DHR B (parna lokomotiva)
 str_steam_Japan_JNR_860 :JNR 860 (parna lokomotiva)
 str_steam_China_China_Railways_H :China Railways H (parna lokomotiva)
 str_steam_Russia_RZD_U :RZD U (parna lokomotiva)
+str_steam_Russia_RZD_E :RZD E (parna lokomotiva)
 str_steam_Japan_JNR_9600 :JNR 9600 (parna lokomotiva)
 str_steam_Israel_Israel_Railways_H :Israel Railways H (parna lokomotiva)
 str_steam_Italy_FS_480 :FS 480 (parna lokomotiva)
@@ -333,6 +335,7 @@ str_electric_Switzerland_SBB_Ce_4_4                     :SBB Ce 4/4 (električna
 str_electric_Switzerland_SBB_Ae_6_6                     :SBB Ae 6/6 (električna lokomotiva)
 str_electric_India_Indian_Railways_WCM_1                :Indian Railways WCM-1 (električna lokomotiva)
 str_electric_Italy_FS_E646                                              :FS E646 (električna lokomotiva)
+str_electric_Russia_RZD_VL41                                    :RZD VL41 (električna lokomotiva)
 str_electric_Japan_JNR_EF64                                     :JNR EF64 (električna lokomotiva)
 str_electric_Croatia_HZ_1141                                    :HZ 1141 (električna lokomotiva)
 str_electric_Germany_DB_103                                     :DB 103 (električna lokomotiva)
@@ -358,6 +361,7 @@ str_electric_Ukraine_UZ_DS3                                     :UZ DS3 (elektri
 str_electric_Kazakhstan_KTZ_KZ4A                                :KTZ KZ4A (električna lokomotiva)
 str_electric_Switzerland_SBB_Eem_923                    :SBB Eem 923 (električna lokomotiva)
 str_electric_Portugal_CP_2500                                   :CP 2500 (električna lokomotiva)
+str_electric_UK_NER_ES1 :NER ES1 (električna lokomotiva)
 str_electric_Italy_FS_E550 :FS E.550 (električna lokomotiva)
 str_electric_Switzerland_RhB_Ge_6_6_Krokodil :RhB Ge 6/6 'Krokodil' (električna lokomotiva)
 str_electric_Australia_Victorian_Railways_E_Class :Victorian Railways E (električna lokomotiva)
@@ -459,6 +463,7 @@ str_emu_Japan_JNR_Shinkansen_Series_0           :JNR Shinkansen Series 0 (elektr
 str_emu_Switzerland_SBB_RABDe_510                       :SBB RABDe 510 (elektromotorni voz)
 str_emu_Denmark_DSB_S_Tog_II                            :DSB S-Tog II (elektromotorni voz)
 str_emu_Australia_Sydney_Trains_S_Set           :Sydney Trains S-set (elektromotorni voz)
+str_emu_Netherlands_NS_Plan_Y                           :NS Plan Y (elektromotorni voz)
 str_emu_Netherlands_NS_ICM_4000                         :NS ICM 4000 (elektromotorni voz)
 str_emu_France_SNCF_TGV_Sud_Est                         :SNCF TGV Sud-Est (elektromotorni voz)
 str_emu_Japan_Odakyu_10000_Series_Romance       :Odakyu 10000 Series 'Romance' (elektromotorni voz)
@@ -535,6 +540,7 @@ str_mtro_USA_Washington_7000                                    :Washington 7000
 str_mtro_Greece_Thessaloniki_2014                               :Thessaloniki 2014 (metro)
 str_mtro_Germany_Berlin_U_Bahn_A_I :Berlin U-Bahn A I (metro)
 str_mtro_USA_NY_Hedley_Hi_V :New York Hedley Hi-V (metro)
+str_mtro_Japan_Osaka_1000 :Osaka 1000 (metro)
 str_mtro_Russia_Moscow_Type_A :Moscow tip A (metro)
 str_mtro_USA_NY_R10 :New York R10 (Metro)
 str_mtro_Italy_Rome_MR_100 :Rome MR 100 (metro)
@@ -564,10 +570,12 @@ str_wagon_Gen2_Hopper                                   :Drveni vagon za rasuti 
 str_wagon_Gen3_Flat_Wagon                               :Teški otvoreni vagon 3. generacije
 str_wagon_Gen3_Boxcar_Type2                     :Drveni zatvoreni vagon 3. generacije (tip 2)
 str_wagon_Gen3_Tanker                                   :Vagon cisterna 3. generacije
+str_wagon_Gen3_Silo_Type2                               :Silos 3. generacije (tip 2)
 str_wagon_Gen3_Hopper                                   :Samoistovarajući vagon za rasuti teret 3. generacije
 str_wagon_Gen4_Heavy_Flatcar                    :Teški otvoreni teretni vagon 4. generacije
 str_wagon_Gen4_Boxcar_Type1                             :Zatvoreni vagon 4. generacije  (tip 1)
 str_wagon_Gen4_Boxcar_Type2                             :Zatvoreni vagon 4. generacije (tip 2)
+str_wagon_Gen4_Tanker                                   :Vagon cisterna 4. generacije
 str_wagon_Gen4_Silo_Type2                               :Silos 4. generacije (tip 2)
 str_wagon_Gen4_Hopper_Type1                             :Samoistovarajući vagon za rasuti teret 4. generacije (tip 1)
 str_wagon_Gen4_Hopper_Type2                             :Samoistovarajući vagon za rasuti teret 4. generacije (tip 2)
@@ -578,6 +586,7 @@ str_wagon_Gen5_Flatcar                                  :Teški otvoreni teretni
 str_wagon_Gen5_Heavy_Flatcar                    :Teški otvoreni teretni vagon 5. generacije
 str_wagon_Gen5_Tanker                                   :Vagon cisterna 5. generacije
 str_wagon_Gen5_Container_Carrier                :Vagon za kontejnere 5. generacije
+str_wagon_Gen5_Centerbeam                               :Teški otvoreni teretni vagon sa centralnom pregradom 5. generacije
 str_wagon_Gen5_Superheavy_Flatcar               :Super teški otvoreni teretni vagon 5. generacije
 
 str_wagon_Service_Car_Type2                             :Servisni vagon (tip 2)
@@ -628,6 +637,7 @@ str_coach_Gen4_Bombardier_Bi_level                                              
 str_coach_Gen5_High_Speed_Coach                                                 :Ekspresni vagon za putnike
 str_coach_Gen5_Modern_Regional_Coach                                    :Moderni regionalni vagon za putnike
 str_coach_Gen5_Modern_Commuter_Coach                                    :Moderni prigradski vagon za putnike
+str_coach_Gen5_Modern_Double_Decker_Coach                               :Moderni vagon za putnike na kat
 str_coach_Gen5_High_Speed_Mail_Coach                                    :Ekspresni vagon za poštu
 str_coach_Gen5_Talgo_Pendular                                                   :Talgo Pendular
 str_coach_Gen5_Talgo_Pendular_Mail                                              :Talgo Pendular vagon za poštu
@@ -645,6 +655,7 @@ str_mglv_wagon_powered          :Vagon Magleva (sa pogonom)
 #Obsolete vehicles
 str_steam_South_Africa_PPR_35_tonner_4_6_0T_obsolete                    :PPR 35-tonner 4-6-0T (zastareo)
 str_dmu_Slovakia_ZSSK_861_obsolete                                                              :ZSSK 861 (zastareo)
+str_electric_Portugal_CP_Class_2550_obsolete                                    :CP 2550 (zastareo)
 str_rbd_Germany_DB_650_Regio_Shuttle_obsolete                                   :DB 650 'Regio Shuttle' (zastareo)
 str_rbe_Germany_DB_ET479_obsolete                                                               :DB ET479 (zastareo)
 
