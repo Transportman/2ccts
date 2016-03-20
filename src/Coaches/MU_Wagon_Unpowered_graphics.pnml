@@ -10,7 +10,7 @@
 * PURCHASE
 */
 
-spriteset(spriteset_mu_wagon_unpowered_purchase, "gfx/Coaches/Unit_Wagon_Unpowered.png") {
+spriteset(spriteset_mu_wagon_unpowered_purchase, "gfx/Coaches/Multiple_Unit_Wagon_Unpowered.png") {
 	template_purchase_wagon_special(1, 1)
 }
 
@@ -18,7 +18,7 @@ spriteset(spriteset_mu_wagon_unpowered_purchase, "gfx/Coaches/Unit_Wagon_Unpower
 * VEHICLE
 */
 
-spriteset(spriteset_mu_wagon_unpowered, "gfx/Coaches/Unit_Wagon_Unpowered.png") {
-	template_wagon_special(21,1)
+spriteset(spriteset_mu_wagon_unpowered, "gfx/Coaches/Multiple_Unit_Wagon_Unpowered.png") {
+	template_wagon_special(21, 1)
 }
 	
