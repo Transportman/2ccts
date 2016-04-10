@@ -1,4 +1,6 @@
 ##grflangid 0x1b
+##plural 0
+##gender male
 
 #Main grf title and description
 STR_GRF_NAME                    :{TITLE}
