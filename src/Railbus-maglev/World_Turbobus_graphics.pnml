@@ -44,6 +44,6 @@ switch(FEAT_TRAINS, SELF, switch_rbm_World_Turbobus_length, position_in_vehid_ch
 }
 
 switch(FEAT_TRAINS, SELF, switch_rbm_World_Turbobus_articulated, extra_callback_info1) {
-	0: return item_rbm_World_Turbobus;
+	1: return item_rbm_World_Turbobus;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
 }
