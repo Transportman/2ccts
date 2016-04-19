@@ -1,5 +1,97 @@
 2cc TrainsInNML changelog
 =========================
+2.0-alpha1 (19/04/2016)
+-----------------------
+- Add: Simplified Chinese translation by dirace (closes #7529)
+- Change #7750: Long vehicle template changed
+- Change: Ignore the NML cache files
+- Change: Long vehicle template (closes #7750)
+- Change: Minimum compatible version increased (closes #7508)
+- Cleanup: Remove duplicate vehicle (closes #7605)
+- Close New vehicles branch
+- Codechange: Set loadingspeeds from central file
+- Doc: Changelog for 1.0
+- Doc: Dates are really difficult for changelogs
+- Doc: Small change to the readme ( closes #7731 )
+- Doc: Update to readme
+- Feature #7627: Iron Duke availability increase
+- Feature #7707: Changed graphics and length for the DB VT98 (Graphics by Emperor Jake)
+- Feature #7707: New graphics by Emperor Jake
+- Feature #7707: New sprites for old vehicles (Graphics by Emperor Jake)
+- Feature #7707: New sprites for old vehicles (graphics by Emperor Jake)
+- Feature #7710: Loading speed parameter
+- Feature #7713: New vehicles (Graphics by Voyager One and Emperor Jake)
+- Feature #7733: Separate graphics for MU wagons of different types (graphics by Voyager One)
+- Feature #7757: FS ALn 668 is a diesel railbus instead of a DMU
+- Feature #7812: New vehicles (Graphics by Voyager One)
+- Feature: Code and graphics for new vehicles (not yet included) (issue #7813)
+- Feature: kkStB 4.0 goods railbus (closes #7607)
+- Feature: Maglev railbus (closes #7729)
+- Feature: More vehicles (graphics by Voyager One) (closes #6804)
+- Feature: New vehicles (Graphics by Emperor Jake and Simozzz (issue #7713)
+- Feature: Split DB ET479 into the Buckower Kleinbahn and DB 479.2 (Graphics by Voyager One) (closes #7694)
+- Feature: Various sprite replacements for old sprites ( issue #7707 and closes #7741 )
+- Fix #6980: Missing animations
+- Fix #7461: HZ 1141 properties
+- Fix #7462: HZ 1141 and TCD E52500 were the same, removed TCD and used graphics for HZ
+- Fix #7465: Some trains were mislabeled
+- Fix #7509: OBB 1161 used NS 600 sprites
+- Fix #7592 and #7610: Naming of various vehicles
+- Fix #7602: various graphical fixes
+- Fix #7604: Not all steamers have tenders, so also don't code those
+- Fix #7606: CD 814 capacity was too high
+- Fix #7608: SBB AM 4/6 running costs
+- Fix #7620: Metro depot sprite alignment
+- Fix #7626: DB E91 was coded as animated while no sprites were provided
+- Fix #7628: 4-6-0 running costs
+- Fix #7628: RZD Emch-3 missing animation sprites
+- Fix #7638: AGV costs were switched
+- Fix #7639: Remove duplicate vehicles
+- Fix #7642: CD M131 alignment in N-S directions
+- Fix #7680: DB VT42 should be the Austrian OBB VT42
+- Fix #7681: Croatian flag (Graphics by Purno)
+- Fix #7682: Gravita 10BB properties were incorrect
+- Fix #7708: Electrified vehicles were available on non-electrified tracks
+- Fix #7709: Various vehicle lengths were coded incorrectly
+- Fix #7729: Maglev railbus ID changed
+- Fix #7745: Saxon DET 1-2 should produce Diesel smoke
+- Fix #7751: Diesels and Electric were coded as steamers, while DMUs were coded as EMUs
+- Fix #7752: Belarus is in eastern Europe
+- Fix #7752: Some vehicles were available in the wrong region
+- Fix #7753: Changed graphics for the CD 534.1 (Graphics by Emperor Jake)
+- Fix #7758: Railbus vehicle lifes were set wrong
+- Fix #7835: Diesel tilt train introduction date
+- Fix #7836: Pacific National XR B-unit
+- Fix #7837: MUs had the wrong livery overrides for MU-wagons
+- Fix #7838: Brasil region was set wrong
+- Fix #7840: Romania CFR58 region was incorrect
+- Fix #7857: FEVE 2400 alignment
+- Fix #7858: China Railways QJ Tender was not coded
+- Fix #7911: Some DMUs had electric sparks
+- Fix #7921: Missing smoke on B-units
+- Fix #7964: Turbobus properties were wrong (also for issue #7729)
+- Fix #8003: Changed introduction date for the MU wagons
+- Fix r474: Auto-refit got broken (closes #7507)
+- Fix r483: Also set the climate availability to none for the obsolete TCDD 52500
+- Fix r511: Some EMUs were set to Electric
+- Fix r521: Wrong folder for OBB 1161
+- Fix r526: Also point to the right switches for the CD 814
+- Fix r595: Iron Duke model life should be increased, not vehicle life
+- Fix: Changelog should have 2015 of course
+- Fix: Corrected tractive effort for HXD1D
+- Fix: DB 185 TRAXX naming
+- Fix: Gen 1 Boxcar not available in all reagions
+- Fix: PRR RF 16 Sharknose had wrong length
+- Fix: PRR RF 16 Sharknose has a B unit instead of an articulated part
+- Fix: Set climate of obsolete vehicles to none
+- Merge: New features and translations
+- Merge: Some unpushed changes caused branching
+- Merge: Translations
+- Release: 2.0-alpha1
+- Revert r680: Add China Railways 6K back (closes #7639)
+- Update: Some naming changes
+- Update: Translations from webtranslator
+
 1.0 (14/02/2015)
 ----------------
 - Doc: Dates are really difficult for changelogs
