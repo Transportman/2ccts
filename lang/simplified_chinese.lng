@@ -703,7 +703,7 @@ str_mtro_Germany_Berlin_U_Bahn_IK :柏林 U-Bahn IK (城轨)
 str_mtro_USA_Chicago_L_6000 :芝加哥 L 6000 Series (城轨)
 
 #Maglev railbus
-str_rbm_World_Turbobus          :Turbobus (磁浮)
+str_rbm_World_Turbobus          :涡轮巴士(磁浮)
 
 #Maglev
 str_mglv_China_Transrapid       :上海磁浮 (磁浮)
