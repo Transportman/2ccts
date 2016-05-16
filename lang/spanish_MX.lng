@@ -9,235 +9,466 @@ STR_GRF_URL             :https://dev.openttdcoop.org/projects/2ccts
 
 #General error messages
 str_used_with_dynamic_engines           :dynamic_engines = true (opción en archivo openttd.cfg)
+str_error_region                                        :No hay regiones activadas, {STRING} se ha desactivado
 
 #parameter strings
 #cost parameters
+STR_PARAM_PURCHASE_COST             :Multiplicador de costos de compra
+STR_PARAM_PURCHASE_COST_DESC        :Esta opción aumenta o disminuye los costos de compra de los vehículos de esta colección.
+STR_PARAM_RUNNING_COST              :Multiplicador de costos de operación
 STR_PARAM_RUNNING_COST_DESC         :Esta opción aumenta o disminuye los costos de operación de los vehículos de esta colección.
 
+STR_PARAM_DIVIDE_16                 :1/16
 STR_PARAM_DIVIDE_8                  :1/8
+STR_PARAM_DIVIDE_4                  :1/4
+STR_PARAM_DIVIDE_2                  :1/2
+STR_PARAM_NORMAL                    :1 (por defecto)
+STR_PARAM_TIMES_2                   :2
 STR_PARAM_TIMES_4                   :4
+STR_PARAM_TIMES_8                   :8
+STR_PARAM_TIMES_16                  :16
 
 #region parameters
+STR_PARAM_CONCEPT                                               :Vehículos conceptuales (opción a futuro, no disponible aún)
+STR_PARAM_CONCEPT_DESC                                  :Usar vehículos conceptuales (esta función no tiene efecto por el momento)
+STR_PARAM_REGION_AFRICA                                 :África
+STR_PARAM_REGION_AFRICA_DESC                    :Usar vehículos de África
 STR_PARAM_REGION_NORTHAMERICA                   :Norteamérica
+STR_PARAM_REGION_NORTHAMERICA_DESC              :Usar vehículos de Norteamérica
 STR_PARAM_REGION_SOUTHAMERICA                   :Sudamérica
 STR_PARAM_REGION_SOUTHAMERICA_DESC              :Usar vehículos de Sudamérica
+STR_PARAM_REGION_ASIA                                   :Asia
 STR_PARAM_REGION_ASIA_DESC                              :Usar vehículos de Asia
+STR_PARAM_REGION_NORTHERNEUROPE                 :Europa del Norte
+STR_PARAM_REGION_NORTHERNEUROPE_DESC    :Usar vehículos de Europa del Norte
+STR_PARAM_REGION_EASTERNEUROPE                  :Europa Oriental
+STR_PARAM_REGION_EASTERNEUROPE_DESC             :Usar vehículos de Europa Oriental
+STR_PARAM_REGION_SOUTHERNEUROPE                 :Europa del Sur
+STR_PARAM_REGION_SOUTHERNEUROPE_DESC    :Usar vehículos de Europa del Sur
 STR_PARAM_REGION_WESTERNEUROPE                  :Europa Occidental
+STR_PARAM_REGION_WESTERNEUROPE_DESC             :Usar vehículos de Europa Occidental
+STR_PARAM_REGION_OCEANIA                                :Oceanía
 STR_PARAM_REGION_OCEANIA_DESC                   :Usar vehículos de Oceanía
 
 #loading speed parameter
-STR_PARAM_LOADINGSPEED_ULTRA                    :Lo más veloz posible
+STR_PARAM_LOADINGSPEED                                  :Velocidad de carga
+STR_PARAM_LOADINGSPEED_DESC                             :Establecer la velocidad de carga para trenes de esta colección.
+STR_PARAM_LOADINGSPEED_SLOW                             :Lenta
+STR_PARAM_LOADINGSPEED_NORMAL                   :Normal (por defecto)
+STR_PARAM_LOADINGSPEED_FAST                             :Rápida
+STR_PARAM_LOADINGSPEED_ULTRA                    :La más veloz
 
 #VEHICLE NAMES
 #Railbus-steam
 str_rbs_Switzerland_UeBB_Czm_1_2 :UeBB CZm 1/2 (ferrobús vapor)
 str_rbs_South_Africa_CSAR_Railmotor :Coche motriz CSAR (ferrobús vapor)
+str_rbs_Australia_Victorian_Railways_Motor_Car_3 :VR Motor Car 3 (ferrobús diésel)
 str_rbs_Austria_kkStB_4_0       :kkStB 4.0 (ferrobús a vapor de mercancías)
 
 #Railbus-diesel
 str_rbd_Australia_Victorian_Railways_AEC_RM1    :VR AEC RM1 (ferrobús diésel)
 str_rbd_Austria_OBB_VT42                                                :OBB VT42 (ferrobús diésel)
+str_rbd_New_Zealand_NZR_RM31                                    :NZR RM31 (automotor diésel)
+str_rbd_Portugal_CP_0100                                                :CP 0100 (ferrobús diésel)
+str_rbd_Germany_DB_VT98                                                 :DB VT98 (automotor diésel)
+str_rbd_Germany_OHE_520_GDT                                     :OHE 520 GDT (ferrobús diésel)
+str_rbd_Netherlands_NS_DH1                                              :NS DH1 (ferrobús diésel)
 str_rbd_Austria_OBB_5047                                                :OBB 5047 (ferrobús diésel)
 str_rbd_United_Kingdom_BR_153_Super_Sprinter    :BR 153 "Super Sprinter" (ferrobús diésel)
+str_rbd_Czech_Republic_CD_809                                   :CD 809 (ferrobús diésel)
+str_rbd_Germany_DB_670                                                  :DB 670 (automotor diésel)
 str_rbd_Lithuania_Lithuanian_Railways_AR2               :LG AR2 (ferrobús diésel)
+str_rbd_USA_Virginia_Truckee_Motor_Car_22 :Virginia & Truckee Motor Car 22 (ferrobús diésel)
+str_rbd_Germany_Saxon_DET_1_2 :Saxon DET 1-2 (ferrobús diésel)
+str_rbd_Germany_BSt_6001 :BSt 6001 (ferrobús diésel)
+str_rbd_Australia_Victorian_Railways_DERM :VR DERM (ferrobús diésel)
+str_rbd_Denmark_DSB_MO :DSB MO (ferrobús diésel)
 str_rbd_Norway_NSB_Cmb_17 :NSB Cmb 17 (ferrobús diésel)
 str_rbd_Netherlands_NS_omBC :NS omBC 2900 (ferrobús diésel)
+str_rbd_Australia_NSWGR_Class_400 :NSWGR 400 (ferrobús diésel)
 str_rbd_Bulgaria_BDZ_19 :BDZ 19 (ferrobús diésel)
 str_rbd_Tunisia_SNCFT_Z431 :SNCFT Z431 (ferrobús diésel)
+str_rbd_Finland_VR_Dm12 :VR Dm12 (ferrobús diésel)
 str_rbd_Czech_Republic_CD_840 :CD 840 (ferrobús diésel)
 str_rbd_Argentina_FCPBA_M_Railcar :Coche motriz FCPBA M (ferrobús diésel)
 str_rbd_Eritrea_Eritrean_Railway_A62_70_Littorina :FE A.62-70 "Littorina" (ferrobús diésel)
 
 #Railbus-electric
+str_rbe_Morocco_ONCFM_ZAB1000           :ONCFM ZAB1000 (ferrobús eléctrico)
+str_rbe_Germany_DB_ET85                         :DB ET85 (automotor eléctrico)
+str_rbe_Czech_Republic_CD_M400 :CD M400 (ferrobús eléctrico)
+str_rbe_Switzerland_TPC_BVB_Be_2_2 :TPC BVB Be 2/2 (ferrobús eléctrico)
+str_rbe_Spain_Ferrocarril_de_Soller_1_3 :Ferrocarril de Soller 1-3 (ferrobús eléctrico)
+str_rbe_Italy_FS_E623 :FS E.623 (ferrobús eléctrico)
 str_rbe_Japan_Choshi_DeHa_1000 :Choshi DeHa 1000 (ferrobús eléctrico)
 str_rbe_France_SNCF_Z_7100 :SNCF Z 7100 (ferrobús eléctrico)
+str_rbe_USA_Pennsylvania_Railroad_Silverliner_II :PRR Silverliner II (ferrobús eléctrico)
 str_rbe_Italy_FG_ALe_80 :FG ALe 80 (ferrobús eléctrico)
+str_rbe_Poland_PKP_EN81 :PKP EN81 (ferrobús eléctrico)
 str_rbe_USA_SEPTA_Silverliner_V :SEPTA Silverliner V (ferrobús eléctrico)
 
 #Steam
 str_steam_Belgium_Le_Belge                      :Le Belge (vapor)
+str_steam_Switzerland_SBB_Ec_2_5        :SBB Ec 2/5 (vapor)
+str_steam_USA_4_6_0_Ten_wheeler         :4-6-0 "Ten-wheeler" (vapor)
 str_steam_Austria_KkStB_99                      :KkStB 99 (vapor)
 str_steam_UK_Caledonian_Railway_439     :CR 439 (vapor)
+str_steam_Switzerland_SBB_A_3_5         :SBB A 3/5 (vapor)
 str_steam_Switzerland_SBB_E_3_3         :SBB E 3/3 (vapor)
+str_steam_New_Zealand_NZR_X_Class       :NZR X (vapor)
+str_steam_Argentina_FCNEA_11B_2_8_0     :FCNEA 11B 2-8-0 (vapor)
+str_steam_France_SNCF_140C                      :SNCF 140C (vapor)
+str_steam_France_SNCF_141TA             :SNCF 141TA (vapor)
+str_steam_Netherlands_NS_6300           :NS 6300 (vapor)
 str_steam_USA_AT_SF_5000                        :AT&SF 5000 (vapor)
 str_steam_Germany_Prussian_S10          :S 10 prusiana (vapor)
+str_steam_Russia_RZD_9P                         :RZD 9P (vapor)
 str_steam_Denmark_DSB_E                         :DSB E (vapor)
+str_steam_Russia_RZD_P36                        :RZD P36 (vapor)
 str_steam_France_SNCF_150B                      :SNCF 150B (vapor)
 str_steam_Italy_FS_895                          :FS 895 (vapor)
+str_steam_Poland_PKP_Okz32                      :PKP OKz32 (vapor)
+str_steam_USA_UP_4000_Big_Boy           :UP 4000 "Big Boy" (vapor)
+str_steam_Australia_Sidney_Railway_Locomotive_No1 :SR Locomotora 1 (vapor)
+str_steam_South_Africa_PPR_35_tonner_4_6_0T :PPR 35-tonner 4-6-0T (vapor)
 str_steam_Switzerland_RhB_G_3_4 :RhB G 3/4 (vapor)
+str_steam_Spain_RENFE_Class_040 :RENFE 040 (vapor)
 str_steam_Germany_Prussian_S_3 :S 4 prusiana (vapor)
 str_steam_Norway_NSB_Class_XXI :NSB XXI (vapor)
 str_steam_Netherlands_NS_8100 :NS 8100 (vapor)
+str_steam_South_Africa_SAR_MD_Class :SAR MD (vapor)
 str_steam_UK_LNER_N7 :LNER N7 (vapor)
+str_steam_Germany_Saxon_XX_HV :Saxon XX HV (vapor)
+str_steam_Canada_CN_U_1_Class :CN U-1 (vapor)
+str_steam_India_Indian_Railways_XB_Class :IR XB (vapor)
 str_steam_Iraq_Iraqi_State_Railways_PC_Class :ISR PC (vapor)
+str_steam_Egypt_ENR_1100 :ENR 1100 (vapor)
 str_steam_Japan_JNR_Class_E10 :JNR E10 (vapor)
+str_steam_UK_GWR_1600_Class :GWR 1600 (vapor)
 str_steam_Australia_Victorian_Railways_R_Class :VR R (vapor)
+str_steam_Germany_DB_BR18 :DB BR18 (vapor)
+str_steam_New_Zealand_NZR_WAB :NZR WAB (vapor)
+str_steam_Australia_South_Australian_Railways_520 :SAR 520 (Steam)
+str_steam_Australia_NSWGR_AD60 :NSWGR AD60 (vapor)
 str_steam_Argentina_FCCA_PS11 :FCCA PS11 (vapor)
 str_steam_Mozambique_Beira_Railway_BR6_F2_Falcon :BR6 F2 "Falcon" (vapor)
 str_steam_Eritrea_Eritrean_Railway_R440 :ER R.440 (vapor)
 str_steam_South_Africa_SAR_GMA_4_8_2_2_8_4 :SAR GMA 4-8-2+2-8-4 (vapor)
+str_steam_Kenya_East_African_Railway_31 :EAR 31 (vapor)
 str_steam_Japan_JNR_7100 :JNR 7100 (vapor)
 str_steam_India_DHR_B :DHR B (vapor)
 str_steam_China_China_Railways_H :CR H (vapor)
+str_steam_Russia_RZD_U :RZD U (vapor)
+str_steam_Japan_JNR_9600 :JNR 9600 (vapor)
+str_steam_Italy_FS_480 :FS 480 (vapor)
+str_steam_Italy_FS_691 :FS 691 (vapor)
+str_steam_Greece_SEK_Lb :SEK Lb (vapor)
 str_steam_Albania_HSH_01 :HSH 01 (vapor)
 str_steam_Spain_RENFE_242F :RENFE 242F (vapor)
 str_steam_Czech_Republic_CD_5341 :CD 534.1 (vapor)
+str_steam_Croatia_HZ_11 :HZ 11 (vapor)
+str_steam_Hungary_MAV_242 :MAV 242 (vapor)
 str_steam_Czech_Republic_CD_4590 :CD 459.0 (vapor)
+str_steam_Poland_PKP_OI49 :PKP OI49 (vapor)
 str_steam_Austria_KKStB_310 :KKStB 310 (vapor)
 str_steam_USA_NYC_H_6A_Light_Mikado :NYC H-6A "Light Mikado" (vapor)
+str_steam_Japan_JNR_D50 :JNR D50 (vapor)
 str_steam_Argentina_FCGR_315 :FCGR 315 (vapor)
 str_steam_Australia_NSWGR_C35 :NSWGR C35 (vapor)
+str_steam_China_Railways_QJ :CR QJ (vapor)
 
 #Diesel
 str_diesel_Germany_DB_310_Kof_II                                                :DB 310 Kof II (diésel)
-str_diesel_USA_CNJ_ALCo_GE_IR_Boxcab                                    :CNJ ALCo-GE-IR Boxcab (diésel)
+str_diesel_USA_CNJ_ALCo_GE_IR_Boxcab                                    :Cabina CNJ ALCo-GE-IR (diésel)
 str_diesel_Germany_DB_270                                                               :DB 270 (diésel)
 str_diesel_Australia_NSWGR_79                                                   :NSWGR 79 (diésel)
+str_diesel_USA_Western_Pacific_ALCO_S_2                                 :WP ALCO S-2 (diésel)
 str_diesel_USA_GNR_EMD_F3                                                               :GNR EMD F3 (diésel)
 str_diesel_Brazil_EFCB_ALCO_RS_3                                                :EFCB ALCO RS-3 (diésel)
 str_diesel_Netherlands_NS_600                                                   :NS 600 "Bakkie" (Diesel)
 str_diesel_USA_Pennsylvania_Railroad_RF_16_Sharknose    :PRR RF-16 "Sharknose" (diésel)
 str_diesel_Uruguay_AFE_1500                                                     :AFE 1500 (diésel)
 str_diesel_Liberia_Liberia_Railways_Class_08                    :LR BR-08 (diésel)
+str_diesel_Austria_OBB_2060                                                     :OBB 2060 (diésel)
+str_diesel_Canada_CNR_SW1200                                                    :CNR SW1200 (diésel)
 str_diesel_Hungary_MAV_M44                                                              :MAV M44 (diésel)
+str_diesel_Hungary_MAV_M28                                                              :MAV M28 (diésel)
 str_diesel_Belgium_NMBS_SNCB_83                                                 :NMBS/SNCB 83 (diesel)
+str_diesel_Germany_DB_220_V200                                                  :DB 220 V200 (diésel)
 str_diesel_USA_Amtrak_FL9                                                               :Amtrak FL9 (diésel)
 str_diesel_Finland_VR_Dr12                                                              :VR Dr12 (diésel)
 str_diesel_Romania_CFR_060_DA                                                   :CFR 060-DA (diésel)
 str_diesel_Brazil_BF_EMD_GL8                                                    :BF EMD GL8 (diésel)
 str_diesel_Brazil_EFVM_ML4000                                                   :EFVM ML4000 (diésel)
 str_diesel_Russia_RZD_TEP60                                                     :RZD TEP60 (diésel)
+str_diesel_Belgium_NMBS_SNCB_62                                                 :NMBS/SNCB 62 (diésel)
 str_diesel_Denmark_DSB_MaK_100                                                  :DSB MaK 100 (diésel)
+str_diesel_Argentina_MF_GM_EMD_J16CW_AC                                 :MF GM-EMD-J16CW-AC (diésel)
+str_diesel_Russia_RZD_M62                                                               :RZD M62 (diésel)
 str_diesel_Australia_NSWGR_422                                                  :NSWGR 422 (diésel)
 str_diesel_Egypt_ENR_G22W                                                               :ENR G22W (diésel)
 str_diesel_USA_UP_EMD_DDA40X                                                    :UP EMD DDA40X (diésel)
 str_diesel_Australia_Queensland_Rail_2100                               :QR 2100 (diésel)
+str_diesel_Croatia_HZ_2062                                                              :HZ 2062 (diésel)
+str_diesel_Sweden_SJ_V4                                                                 :SJ V4 (diésel)
+str_diesel_Canada_CNR_MLW_M420W                                                 :CNR MLW M420W (diésel)
 str_diesel_USA_Amtrack_SDP_40F                                                  :Amtrak SDP-40F (diésel)
 str_diesel_China_China_Railways_DFH3                                    :CR DFH3 (diésel)
+str_diesel_Panama_Panama_Canal_Railway_EMD_F40PH                :PCR EMD F40PH (diésel)
+str_diesel_Finland_VR_Dr16                                                              :VR Dr16 (diésel)
 str_diesel_Russia_RZD_TEP80                                                     :RZD TEP80 (diésel)
 str_diesel_Australia_Australian_National_AN                     :Australian National AN (diésel)
 str_diesel_USA_Amtrak_P42DC_Genesis                                     :Amtrak P42DC "Genesis" (diesel)
 str_diesel_Turkey_TCDD_DH7000                                                   :TCDD DH7000 (diésel)
+str_diesel_Argentina_MF_GE_U20C                                                 :MF GE U20C (diésel)
+str_diesel_UK_BR_66                                                                     :BR 66 (diésel)
 str_diesel_UK_BR_67                                                                     :BR 67 (diésel)
+str_diesel_Iran_RAI_DE43CA_Prima                                                :RAI DE43CA "Prima" (diésel)
+str_diesel_Ukraine_UZ_TEP150                                                    :UZ TEP150 (diésel)
 str_diesel_China_MTR_8000                                                               :MTR 8000 (diésel)
 str_diesel_Germany_HVLE_V490                                                    :HVLE V490 (diésel)
+str_diesel_Russia_RZD_Emch_3            :RZD Emch-3 (diésel)
 str_diesel_Canada_CNR_9000                      :CNR 9000 (diésel)
+str_diesel_UK_LMS_7051_Diesel_Shunter :LMS 7051 de maniobras (diésel)
 str_diesel_USA_Rock_Island_EMC_TA :Rock Island EMC TA (diésel)
+str_diesel_USA_NYC_Baldwin_VO_660 :NYC Baldwin VO-660 (diésel)
+str_diesel_UK_BR_Class_D3_7 :BR D3/7 (diésel)
+str_diesel_Australia_Queensland_Railways_DL_Class :QR DL (diésel)
+str_diesel_USA_PRR_FM_H_10_44 :PRR FM H-10-44 (diésel)
 str_diesel_Ireland_CIE_113 :CIE 113 (diésel)
 str_diesel_Mexico_CHP_500_FM_H_16_44 :CHP 500 FM H-16-44 (diésel)
+str_diesel_Australia_South_Australian_Railways_900 :SAR 900 (diésel)
+str_diesel_Italy_FS_D341 :FS D.341 (diésel)
+str_diesel_Australia_NSWGR_44 :NSWGR 44 (diésel)
 str_diesel_Zimbabwe_Zimbabwe_Railways_DH_1 :ZB DH-1 (diésel)
 str_diesel_South_Korea_Korail_6000_EMD_SD18 :Korail 6000 EMD SD18 (diésel)
+str_diesel_Italy_FS_D345 :FS D.345 (diésel)
 str_diesel_Norway_NSB_Di4 :NSB Di4 (diésel)
 str_diesel_Australia_Pacific_National_G_Class :Pacific National G (diésel)
+str_diesel_UK_BR_60 :BR 60 (diésel)
+str_diesel_Australia_Westrail_P_Class :Westrail P (vapor)
+str_diesel_Ireland_IE_201 :IE 201 (diésel)
+str_diesel_USA_Metrolink_EMD_F59PH :Metrolink EMD F59PH (diésel)
+str_diesel_France_SNCF_461000 :SNCF BB 461000 (diésel)
 str_diesel_Canada_GO_Transit_MP40PH_3C :GO Transit MP40PH-3C (diésel)
 str_diesel_Spain_RENFE_Class_334 :RENFE 334 (diésel)
+str_diesel_Chile_EFE_GE_U5B :EFE GE U5B (diésel)
+str_diesel_Peru_Ferrocarril_Central_Andino_Alco_RSD_39 :FCA Alco RSD-39 (diésel)
+str_diesel_Brazil_EFVM_EMD_DDM45 :EFVM EMD DDM45 (diésel)
 str_diesel_Argentina_SOFSE_3193 :SOFSE 319.3 (diésel)
+str_diesel_Argentina_SOFSE_CNR_CKD8 :SOFSE CNR CKD8 (diésel)
+str_diesel_South_Africa_SAR_DS :SAR DS (diésel)
+str_diesel_Tunisia_SNCFT_040_DF :SNCFT 040 DF (diésel)
 str_diesel_Morocco_ONCF_DF_100 :ONCF DF 100 (diésel)
+str_diesel_Ukraine_UZ_TEP10L :UZ TEP10L (diésel)
 str_diesel_Belarus_BCh_2TE10M :BCh 2TE10M (diésel)
 str_diesel_Poland_PKP_SP32 :PKP SP32 (diésel)
+str_diesel_Ukraine_UZ_2TE10Ut :UZ 2TE10Ut (diésel)
 str_diesel_Italy_FS_207 :FS 207 (diésel)
+str_diesel_Portugal_CP_1500 :CP 1500 (diésel)
 str_diesel_France_SNCF_BB_67400 :SNCF BB 67400 (diésel)
+str_diesel_Egypt_ENR_2400_GE_ES40ACi :ENR 2400 GE ES40ACi (diésel)
 str_diesel_South_Africa_SAR_Afro_4000 :SAR Afro 4000 (diésel)
+str_diesel_Spain_RENFE_308 :RENFE 308 (diésel)
+str_diesel_Norway_CargoNet_312 :CargoNet 312 (diésel)
+str_diesel_Australia_Pacific_National_92 :Pacific National 92 (diésel)
 
 #Electric
 str_electric_Norway_NSB_EL7                                     :NSB EL7 (eléctrica)
+str_electric_UK_NER_EF1                                                 :NER EF1 (eléctrica)
 str_electric_Chile_EFE_E_28                                     :EFE E-28 (eléctrica)
 str_electric_Austria_OBB_1161                                   :OBB 1161 (eléctrica)
 str_electric_Italy_FS_E428                                              :FS E.428 (eléctrica)
+str_electric_USA_Pennsylvania_Railroad_GG_1     :PRR GG-1 (eléctrica)
 str_electric_Japan_JNR_EF55                                     :JNR EF55 (eléctrica)
+str_electric_South_Africa_SAR_ES_Class                  :SAR ES (eléctrica)
+str_electric_Austria_OBB_1020_Crocodile                 :OBB 1020 "Crocodile" (eléctrica)
 str_electric_Russia_RZD_VL22M                                   :RZD VL22M (eléctrica)
+str_electric_Switzerland_SBB_Ae_6_6                     :SBB Ae 6/6 (eléctrica)
+str_electric_India_Indian_Railways_WCM_1                :IR WCM-1 (eléctrica)
 str_electric_Japan_JNR_EF64                                     :JNR EF64 (eléctrica)
+str_electric_Germany_DB_103                                     :DB 103 (eléctrica)
+str_electric_Finland_VR_Sr1                                     :VR Sr1 (eléctrica)
 str_electric_France_SNCF_BB_22200                               :SNCF BB 22200 (eléctrica)
 str_electric_Poland_PKP_ET41                                    :PKP ET41 (eléctrica)
+str_electric_Netherlands_NS_1600                                :NS 1600 (eléctrica)
+str_electric_Austria_OBB_1063                                   :OBB 1063 (eléctrica)
+str_electric_France_SNCF_BB_26000                               :SNCF BB 26000 (eléctrica)
+str_electric_China_China_Railways_SS6                   :CR SS6 (eléctrica)
 str_electric_Switzerland_SBB_Re460_Lok_2000     :SBB Re460 "Lok 2000" (eléctrica)
+str_electric_Germany_DB_185_TRAXX_F140                  :DB 185 TRAXX F140 (eléctrica)
+str_electric_Japan_JR_EH500                                     :JR EH500 (eléctrica)
 str_electric_Germany_DB_182_ES64U_Taurus                :DB 182 ES64U "Taurus" (eléctrica)
 str_electric_Ukraine_UZ_DS3                                     :UZ DS3 (eléctrica)
 str_electric_Kazakhstan_KTZ_KZ4A                                :KTZ KZ4A (eléctrica)
 str_electric_Switzerland_SBB_Eem_923                    :SBB Eem 923 (eléctrica)
+str_electric_France_SNCF_CC_40100                               :SNCF CC 40100 (eléctrica)
+str_electric_India_Indian_Railways_WCG_1                :IR WCG-1 (eléctrica)
+str_electric_USA_NYC_S_motor :NYC S-motor (eléctrica)
 str_electric_UK_NER_ES1 :NER ES1 (eléctrica)
 str_electric_Sweden_SJ_O_Class :SJ O (eléctrica)
+str_electric_UK_NER_EE1 :NER EE1 (eléctrica)
 str_electric_New_Zealand_NZR_EO_Class :NZR EO (eléctrica)
 str_electric_Germany_DB_Class_E91 :DB E91 (eléctrica)
+str_electric_Japan_Aichi_Railroad_DeKi_400 :Aichi Railroad DeKi 400 (eléctrica)
 str_electric_Italy_FS_E424 :FS E.424 (eléctrica)
+str_electric_Switzerland_RhB_Ge_4_4_I :RhB Ge 4/4 I (eléctrica)
 str_electric_Poland_PKP_EU06 :PKP EU06 (eléctrica)
 str_electric_Hungary_MAV_Class_V43 :MAV V43 (eléctrica)
 str_electric_Czech_Republic_CD_S499 :CD S499 (eléctrica)
 str_electric_Italy_FS_E444 :FS E.444 (eléctrica)
+str_electric_Czech_Republic_CD_380 :CD 380 (eléctrica)
+str_electric_Russia_RZD_EP20 :RZD EP20 (eléctrica)
 str_electric_China_China_Railways_HXD1D :CR HXD1D (eléctrica)
 str_electric_Australia_Aurizon_E40_AG_V1 :Aurizon E40 AG-V1 (eléctrica)
 str_electric_USA_GN_W_1 :GN W-1 (eléctrica)
+str_electric_USA_Virginian_Railway_EL_2B :VR EL-2B (eléctrica)
 str_electric_USA_PRR_E44 :PRR E44 (eléctrica)
+str_electric_USA_Amtrak_EMD_AEM_7 :Amtrak EMD AEM-7 (eléctrica)
 str_electric_Mexico_FNM_GE_E60C_2 :FNM GE E60C-2 (eléctrica)
 str_electric_USA_Amtrak_ACS_64 :Amtrak ACS-64 (eléctrica)
+str_electric_Chile_EFE_E_269 :EFE E-269 (eléctrica)
+str_electric_Morocco_ONCF_E_700 :ONCF E 700 (eléctrica)
 str_electric_Morocco_ONCF_E_1400_Prima_II :ONCF E 1400 "Prima II" (eléctrica)
 str_electric_Portugal_CP_2600 :CP 2600 (eléctrica)
+str_electric_Macedonia_Macedonian_Railways_462 :MZ 462 (eléctrica)
+str_electric_Italy_FS_E633 :FS E.633 (eléctrica)
 str_electric_Poland_PKP_EP09 :PKP EP09 (eléctrica)
+str_electric_Ukraine_UZ_DE1 :UZ DE1 (eléctrica)
+str_electric_USA_PRR_B1 :PRR B1 (eléctrica)
+str_electric_Brasil_RFFSA_GE_C_C_4400 :RFFSA GE C-C 4400 (eléctrica)
 str_electric_Brasil_RFFSA_He_4_4 :RFFSA He 4/4 (eléctrica)
 str_electric_Japan_JNR_EF81 :JNR EF81 (eléctrica)
 str_electric_Chile_EFE_E_17 :EFE E-17 (eléctrica)
+str_electric_China_China_Railways_SS3 :CR SS3 (eléctrica)
+str_electric_South_Africa_SAR_11E :SAR 11E (eléctrica)
 str_electric_South_Africa_SAR_E38 :SAR E38 (eléctrica)
+str_electric_USA_Amtrak_HHP_8 :Amtrak HHP-8 (eléctrica)
+str_electric_Russia_RZD_VL11 :RZD VL11 (eléctrica)
+str_electric_China_China_Railways_6K :CR 6K (eléctrica)
 
 #DMU
+str_dmu_Australia_NSWGR_Silver_City_Comet       :NSWGR "Silver City Comet" (automotor diésel)
 str_dmu_Germany_DB_601_VT11_TEE                         :DB 601 VT11 TEE (automotor diésel)
 str_dmu_Netherlands_NS_Plan_U_DE_III            :NS Plan U DE-III (automotor diésel)
+str_dmu_Canada_CNR_Turbo_Train                          :CNR "Turbo Train" (automotor diésel)
 str_dmu_Serbia_ZS_811                                           :ZS 811 (automotor diésel)
+str_dmu_UK_BR_43_IC125                                          :BR 43 IC125 (automotor diésel)
 str_dmu_Canada_VIA_Rail_LRC                             :VIA Rail LRC (automotor diésel)
+str_dmu_Sweden_SJ_Y2                                            :SJ Y2 (automotor diésel)
 str_dmu_Spain_RENFE_594_TRD                             :RENFE 594 TRD (automotor diésel)
+str_dmu_UK_BR_168                                                       :BR 168 (automotor diésel)
 str_dmu_Germany_DB_612_Regio_Swinger            :DB 612 "Regio Swinger" (automotor diésel)
+str_dmu_Norway_NSB_BM_93_Talent                         :NSB BM 93 "Talent" (automotor diésel)
+str_dmu_Russia_RZD_RA2                                          :RZD RA2 (automotor diésel)
 str_dmu_Denmark_DSB_IC4                                         :DSB IC4 (automotor diésel)
+str_dmu_Croatia_HZ_7022                                         :HZ 7022 (automotor diésel)
 str_dmu_Turkey_TCDD_MT_5500 :TCDD MT 5500 (automotor diésel)
 str_dmu_Czech_Republic_CD_814 :CD 814 (automotor diésel)
+str_dmu_Australia_TransAdelaide_3100 :TransAdelaide 3100 (automotor diésel)
+str_dmu_Slovakia_ZSSK_861 :ZSSK 861 (automotor diésel)
+str_dmu_Chile_EFE_TLD_500 :EFE TLD-500 (automotor diésel)
 str_dmu_Cameroon_Camrail_ZE_500 :Camrail ZE 500 (automotor diésel)
 str_dmu_UK_BR_251_Blue_Pullman :BR 251 "Blue Pullman" (automotor diésel)
 str_dmu_Australia_WAGR_ADK_ADB :WAGR ADK/ADB (automotor diésel)
+str_dmu_France_SNCF_X_4630 :SNCF X 4630 (automotor diésel)
 str_dmu_France_SNCF_T_2000 :SNCF T 2000 (automotor diésel)
+str_dmu_Algeria_SNTF_ZZ_2200_Autorail :SNTF ZZ 2200 Autorail (automotor diésel)
 str_dmu_Ghana_Ghana_Railways_DEMU :GR DEMU (automotor diésel)
+str_dmu_Australia_Queensland_Rail_Diesel_Tilt_Train :Tren pendular de Queensland Rail (automotor diésel)
+str_dmu_Argentina_FCGU_CMM_400_2 :FCGU CMM 400-2 (automotor diésel)
+str_dmu_Italy_FS_ALn_442_448 :FS ALn 442-448 (automotor diésel)
 str_dmu_Portugal_CP_0400 :CP 0400 (automotor diésel)
 
 #EMU
+str_emu_Netherlands_NS_Mat24                            :NS Mat'24 (automotor eléctrico)
+str_emu_Austria_OBB_4041                                        :OBB 4041 (automotor eléctrico)
+str_emu_Italy_ATAC_ECD_21_30                            :ATAC ECD 21-30 (automotor eléctrico)
 str_emu_Netherlands_NS_Mat36                            :NS Mat'36 (automotor eléctrico)
 str_emu_Italy_FS_ETR200                                         :FS ETR.200 (automotor eléctrico)
+str_emu_Norway_NSB_BM65                                         :NSB BM65 (automotor eléctrico)
+str_emu_Italy_FS_ETR300_Settebello                      :FS ETR.300 "Settebello" (automotor eléctrico)
+str_emu_Turkey_TCDD_E8000                                       :TCDD E8000 (automotor eléctrico)
+str_emu_Denmark_DSB_S_Tog_II                            :DSB S-Tog II (automotor eléctrico)
 str_emu_Netherlands_NS_Plan_Y                           :NS Plan Y (automotor eléctrico)
 str_emu_Netherlands_NS_ICM_4000                         :NS ICM 4000 (automotor eléctrico)
+str_emu_France_SNCF_TGV_Sud_Est                         :SNCF TGV Sud-Est (automotor eléctrico)
 str_emu_Switzerland_SBB_RBDe_560                        :SBB RBDe 560 (automotor eléctrico)
+str_emu_Japan_Odakyu_10000_Series_Romance       :Odakyu serie 10000 "Romance" (automotor eléctrico)
 str_emu_Italy_FS_ETR500                                         :FS ETR.500 "Frecciarossa" (automotor eléctrico)
 str_emu_France_SNCF_TGV_Duplex                          :SNCF TGV Duplex (automotor eléctrico)
 str_emu_France_Thalys_PBKA                                      :Thalys PBKA (automotor eléctrico)
+str_emu_Denmark_DSB_S_Tog_IV                            :DSB S-Tog IV (automotor eléctrico)
 str_emu_Italy_FS_ALe426                                         :FS ALe 426 (automotor eléctrico)
 str_emu_Japan_JR_Shinkansen_Series_700          :JR Shinkansen serie 700 (automotor eléctrico)
 str_emu_Norway_NSB_BM73                                         :NSB BM73 (automotor eléctrico)
+str_emu_Luxembourg_CFL_2200_Coradia_Duplex      :CFL 2200 "Coradia Duplex" (automotor eléctrico)
+str_emu_Finland_VR_Sm4                                          :VR Sm4 (automotor eléctrico)
 str_emu_Germany_DB_403_ICE_3                            :DB 403 ICE-3 (automotor eléctrico)
 str_emu_Switzerland_SBB_RABe_523_Flirt          :SBB RABe 523 "Flirt" (automotor eléctrico)
 str_emu_Bulgaria_BDZ_10_Desiro                          :BDZ 10 "Desiro" (automotor eléctrico)
+str_emu_Australia_Sydney_Trains_OSCars          :Sydney Trains OSCars (automotor eléctrico)
 str_emu_Italy_NTV_AGV                                           :NTV AGV (automotor eléctrico)
 str_emu_Netherlands_NS_4800_HSA                         :NS 4800 HSA (automotor eléctrico)
+str_emu_Italy_NTV_AGV_Duplex                            :NTV AGV Duplex (automotor eléctrico)
 str_emu_Australia_Victorian_Railways_Swing_Door :VR "Swing Door" (automotor eléctrico)
+str_emu_USA_Erie_Lackawanna_MU_Cars :Coches "Erie Lackawanna" (automotor eléctrico)
 str_emu_South_Africa_SAR_5M2 :SAR 5M2 (automotor eléctrico)
 str_emu_Italy_FS_ALe_801 :FS ALe 801 (automotor eléctrico)
 str_emu_New_Zealand_NZR_EM_ET_Class :NZR EM/ET (automotor eléctrico)
 str_emu_Australia_Sydney_Trains_A_Set_Waratah :Sydney Trains A Set "Waratah" (automotor eléctrico)
+str_emu_Netherlands_NS_Hispeed_V250_Albatros :NS V250 "Albatros" de alta velocidad (automotor eléctrico)
 str_emu_Tunisia_SNCFT_YZ_E :SNCFT YZ-E (automotor eléctrico)
+str_emu_Russia_RZD_S :RZD S (automotor eléctrico)
 str_emu_Romania_CFR_58 :CFR 58 (automotor eléctrico)
 str_emu_USA_Amtrak_Budd_Metroliner :Amtrak Budd Metroliner (automotor eléctrico)
+str_emu_Russia_RZD_ER200 :RZD ER200 (automotor eléctrico)
 str_emu_Morocco_ONCF_ZMC :ONCF ZMC (automotor eléctrico)
 str_emu_Japan_JR_Shinkansen_Series_E1_Max :JR Shinkansen serie E1 Max (automotor eléctrico)
+str_emu_Australia_Queensland_Rail_Tilt_Train :Tren pendular de Queensland Rail (automotor eléctrico)
+str_emu_USA_Amtrak_Acela_Express :Amtrak Acela Express (automotor eléctrico)
 str_emu_Russia_RZD_ES1_Lastochka :RZD ES1 "Lastochka" (automotor eléctrico)
+str_emu_China_Railways_CHR380A :CR CHR380A (automotor eléctrico)
 
 #Single Unit Metro
+str_mtro_Germany_Berlin_U_Bahn_C_II                                             :U-Bahn C II (unidad individual, metro de Berlín)
 
 #Multiple Unit Metro
-str_mtro_Norway_Oslo_T1000                                              :T1000 de Oslo (metro)
-str_mtro_Germany_Munchen_MVG_A2                                 :MVG A2 de Múnich (metro)
-str_mtro_USA_NY_R44                                                     :R44 de Nueva York (metro)
-str_mtro_Japan_Tokyo_S01                                                :S01 de Tokio (metro)
-str_mtro_Egypt_Cairo_1987_Stock                                 :Parque vehicular de 1987 de El Cairo (metro)
-str_mtro_Taiwan_Taipei_C301                                     :C301 de Taipéi (metro)
-str_mtro_Russia_Moscow_81_740                                   :81-740 de Moscú (metro)
-str_mtro_Norway_Oslo_MX3000                                     :MX3000 de Oslo (metro)
-str_mtro_Germany_Berlin_U_Bahn_A_I :U-Bahn A I de Berlín (metro)
-str_mtro_Czech_Republic_Prague_ECS_Set :ECS de Praga (metro)
-str_mtro_Argentina_Buenos_Aires_Serie_1200 :Serie 1200 de Buenos Aires (metro)
-str_mtro_Chile_Santiago_AS_2002 :AS-2002 de Santiago (metro)
+str_mtro_USA_NY_R1                                                              :R1 (metro de Nueva York)
+str_mtro_Germany_DB_ET171                                               :DB ET171 (metro)
+str_mtro_Portugal_Lisbon_ML7                                    :ML7 (metro de Lisboa)
+str_mtro_Hungary_Budapest_Ev3_200                               :Ev3-200 (metro de Budapest)
+str_mtro_Norway_Oslo_T1000                                              :T1000 (metro de Oslo)
+str_mtro_Canada_Toronto_H_series                                :Serie H (metro de Toronto)
+str_mtro_Germany_Munchen_MVG_A2                                 :MVG A2 (metro de Múnich)
+str_mtro_USA_NY_R44                                                     :R44 (metro de Nueva York)
+str_mtro_Netherlands_Amsterdam_Type_M1                  :M1 (metro de Ámsterdam)
+str_mtro_Sweden_Stockholm_C8                                    :C8 (metro de Estocolmo)
+str_mtro_North_Korea_Pyongyang_D_stock                  :Vagones D (metro de Pionyang)
+str_mtro_Russia_Moscow_81_720                                   :81-720 (metro de Moscú)
+str_mtro_Japan_Tokyo_S01                                                :S01 (metro de Tokio)
+str_mtro_Egypt_Cairo_1987_Stock                                 :Coches de 1987 (metro de El Cairo)
+str_mtro_USA_Boston_01800                                               :01800 (metro de Boston)
+str_mtro_Taiwan_Taipei_C301                                     :C301 (metro de Taipéi)
+str_mtro_Netherlands_Amsterdam_CAF_90                   :CAF 90 (metro de Ámsterdam)
+str_mtro_France_Paris_MP89                                              :MP89 (metro de París)
+str_mtro_Russia_Moscow_81_740                                   :81-740 (metro de Moscú)
+str_mtro_Norway_Oslo_MX3000                                     :MX3000 (metro de Oslo)
+str_mtro_Japan_Osaka_30000                                              :30000 (metro de Osaka)
+str_mtro_Singapore_Singapore_C151A                              :C151A (metro de Singapur)
+str_mtro_Greece_Thessaloniki_2014                               :Coches de 2014 (metro de Salónica)
+str_mtro_Germany_Berlin_U_Bahn_A_I :U-Bahn A I (metro de Berlín)
+str_mtro_USA_NY_Hedley_Hi_V :Hedley Hi-V (metro de Nueva York)
+str_mtro_Russia_Moscow_Type_A :Tipo A (metro de Moscú)
+str_mtro_Italy_Rome_MR_100 :MR 100 (metro de Roma)
+str_mtro_Czech_Republic_Prague_ECS_Set :ECS (metro de Praga)
+str_mtro_Argentina_Buenos_Aires_Serie_1200 :Serie 1200 (metro de Buenos Aires)
+str_mtro_Chile_Santiago_NS_93 :NS-93 (metro de Santiago)
+str_mtro_Chile_Santiago_AS_2002 :AS-2002 (metro de Santiago)
+str_mtro_Brazil_Recife_VLT_Mobile_3 :VLT Mobile 3 (metro de Recife)
+str_mtro_Algeria_Algiers_CAF_2011_Stock :Coches CAF 2011 (metro de Argel)
+str_mtro_Germany_Berlin_U_Bahn_IK :U-Bahn IK (metro de Berlín)
+str_mtro_USA_Chicago_L_6000 :Serie L 6000 (metro de Chicago)
 
 #Maglev railbus
 
@@ -246,54 +477,137 @@ str_mglv_China_Transrapid       :Transrapid de Shanghái (maglev)
 str_mglv_Japan_MLX01_901        :JR MLX01-901 (maglev)
 
 #wagons
+str_wagon_Gen1_Flat_Wagon                               :Plataforma 1a gen.
+str_wagon_Gen1_Boxcar                                   :Furgón 1a gen. de madera
+str_wagon_Gen1_Tanker                                   :Carro tanque 1a gen.
+str_wagon_Gen1_Open_Wagon                               :Vagón descubierto 1a gen. de madera
+str_wagon_Gen2_Boxcar_Type1                             :Furgón 2a gen. (Tipo 2) de madera
+str_wagon_Gen2_Tanker                                   :Carro tanque 2a gen.
+str_wagon_Gen2_Open_Wagon                               :Vagón descubierto 2a gen. de madera
+str_wagon_Gen2_Silo                                     :Tolva silo 2a gen.
+str_wagon_Gen2_Hopper                                   :Tolva de madera 2a gen.
 str_wagon_Gen3_Boxcar_Type2                     :Furgón 3a gen. (Tipo 2) de madera
+str_wagon_Gen3_Open_Wagon                               :Vagón descubierto 3a gen.
+str_wagon_Gen3_Silo_Type1                               :Tolva silo 3a gen. (Tipo 1)
+str_wagon_Gen3_Hopper                                   :Tolva 3a gen.
 str_wagon_Gen4_Boxcar_Type1                             :Furgón 4a gen. (Tipo 1)
+str_wagon_Gen4_Boxcar_Type2                             :Furgón 4a gen. (Tipo 2)
+str_wagon_Gen4_Tanker                                   :Carro tanque 3a gen.
+str_wagon_Gen4_Gondola                                  :Góndola 4a gen.
+str_wagon_Gen4_Silo_Type1                               :Tolva silo 4a gen. (Tipo 1)
 str_wagon_Gen4_Silo_Type2                               :Tolva silo 4a gen. (Tipo 2)
+str_wagon_Gen4_Hopper_Type1                             :Tolva de descarga automática 4a gen. (Tipo 1)
+str_wagon_Gen4_Hopper_Type2                             :Tolva de descarga automática 4a gen. (Tipo 2)
 str_wagon_Gen4_Car_Transporter                  :Madrina transportadora 4a gen.
+str_wagon_Gen4_Container_Carrier                :Intermodal 4a gen.
 str_wagon_Gen5_Flatcar                                  :Plataforma 5a gen.
+str_wagon_Gen5_Heavy_Flatcar                    :Plataforma pesada 5a gen.
 str_wagon_Gen5_Boxcar_Type1                             :Furgón 5a gen. (Tipo 1)
+str_wagon_Gen5_Boxcar_Type2                             :Furgón 5a gen. (Tipo 2)
 str_wagon_Gen5_Tanker                                   :Carro tanque 5a gen.
+str_wagon_Gen5_Gondola                                  :Góndola 5a gen.
 str_wagon_Gen5_Silo_Type1                               :Tolva silo 5a gen. (Tipo 1)
 str_wagon_Gen5_Silo_Type2                               :Tolva silo 5a gen. (Tipo 2)
+str_wagon_Gen5_Car_Transporter                  :Madrina transportadora 5a gen.
+str_wagon_Gen5_Container_Doublestack    :Intermodal doble estiba 5a gen.
 
 str_wagon_Service_Car_Type1                             :Vagoneta de servicio (Tipo 1)
+str_wagon_Service_Car_Type2                             :Vagoneta de servicio (Tipo 2)
 
 #coaches
-str_coach_Gen1_Wooden_2_axle_Compartment_Coach                  :Coche doble eje de compartimentos de madera
+str_coach_Gen1_Wooden_2_axle_Compartment_Coach                  :Coche de compartimentos doble eje de madera
 str_coach_Gen1_Wooden_2_axle_Regional_Coach                     :Coche regional doble eje de madera
-str_coach_Gen1_Clerestory_Compartment_Coach                     :Coche de compartimentos Clerestory
-str_coach_Gen2_Heavyweight_Mail_Coach                                   :Coche pesado de correo
+str_coach_Gen1_Wooden_2_axle_Mail_Coach                                 :Vagón postal doble eje de madera
+str_coach_Gen1_Clerestory_Compartment_Coach                     :Coche de compartimentos con claristorio
+str_coach_Gen1_Clerestory_Regional_Coach                                :Coche regional con claristorio
+str_coach_Gen1_Clerestory_Mail_Coach                                    :Vagón postal con claristorio
+str_coach_Gen1_Wooden_3_axle_Compartment_Coach                  :Coche de compartimentos triple eje de madera
+str_coach_Gen1_Wooden_3_axle_Regional_Coach                     :Coche regional triple eje de madera
+str_coach_Gen1_Wooden_3_axle_Mail_Coach                                 :Vagón postal triple eje de madera
+str_coach_Gen2_Heavyweight_Intercity_Coach                              :Coche pesado interurbano
+str_coach_Gen2_Heavyweight_Mail_Coach                                   :Vagón postal pesado
+str_coach_Gen2_Steel_Intercity_Coach                                    :Coche interurbano de acero
 str_coach_Gen2_Steel_Compartment_Coach                                  :Coche de compartimientos de acero
-str_coach_Gen2_Steel_2_axle_Mail_Coach                                  :Coche de correo dobel eje de acero
-str_coach_Gen3_Steel_Lightweight_Regional_Coach                 :Coche ligero regional de acero
-str_coach_Gen3_Mk1_Intercity_Coach                                              :Coche InterCity Mk1
-str_coach_Gen3_TEE_Intercity_Coach                                              :Coche InterCity TEE
+str_coach_Gen2_Steel_Regional_Coach                                     :Coche regional de acero
+str_coach_Gen2_Steel_Mail_Coach                                                 :Vagón postal de acero
+str_coach_Gen2_Steel_2_axle_Compartment_Coach                   :Coche de compartimentos doble eje de acero
+str_coach_Gen2_Steel_2_axle_Regional_Coach                              :Coche regional doble eje de acero
+str_coach_Gen2_Steel_2_axle_Mail_Coach                                  :Vagón postal doble eje de acero
+str_coach_Gen2_Steel_3_axle_Compartment_Coach                   :Coche de compartimentos triple eje de acero
+str_coach_Gen2_Steel_3_axle_Regional_Coach                              :Coche regional triple eje de acero
+str_coach_Gen2_Steel_3_axle_Mail_Coach                                  :Vagón postal triple eje de acero
+str_coach_Gen3_Steel_Lightweight_Intercity_Coach                :Coche ligero interurbano de acero
+str_coach_Gen3_Steel_Lightweight_Regional_Coach                 :Coche regional ligero de acero
+str_coach_Gen3_Steel_Lightweight_Mail_Coach                     :Vagón postal ligero de acero
+str_coach_Gen3_Aluminium_Lightweight_Intercity_Coach    :Coche ligero interurbano de aluminio
+str_coach_Gen3_Aluminium_Lightweight_Regional_Coach     :Coche ligero regional de aluminio
+str_coach_Gen3_Aluminium_Lightweight_Mail_Coach                 :Vagón postal ligero de aluminio
+str_coach_Gen3_Gallery_Car                                                              :Coche panorámico
+str_coach_Gen3_Mk1_Intercity_Coach                                              :Coche interurbano Mk1
+str_coach_Gen3_Mk1_Regional_Coach                                               :Coche regional Mk1
+str_coach_Gen3_Mk1_Mail_Coach                                                   :Vagón postal Mk1
+str_coach_Gen3_UIC_X_Intercity_Coach                                    :Coche interurbano UIC-X
+str_coach_Gen3_TEE_Intercity_Coach                                              :Coche interurbano TEE
 str_coach_Gen3_UIC_X_Regional_Coach                                     :Coche regional UIC-X
+str_coach_Gen3_Umbauwagen_Local_Coach                                   :Coche local "Umbauwagen"
 str_coach_Gen3_Doppelstockwagen_Local_Coach                     :Coche local "Doppelstockwagen"
-str_coach_Gen3_UIC_X_Mail_Coach                                                 :Coche de correo UIC-X
+str_coach_Gen3_UIC_X_Mail_Coach                                                 :Vagón postal UIC-X
+str_coach_Gen3_Indian_Intercity_Coach                                   :Coche interurbano indio
+str_coach_Gen3_Indian_Local_Coach                                               :Coche local indio
 str_coach_Gen3_Indian_Regional_Coach                                    :Coche regional indio
+str_coach_Gen3_Indian_Mail_Coach                                                :Vagón postal indio
+str_coach_Gen4_Eurofima_Intercity_Coach                                 :Coche interurbano Eurofima
+str_coach_Gen4_InterRegio_Coach                                                 :Coche interregional
+str_coach_Gen4_Silberling_Commuter_Coach                                :Coche de cercanías "Silberling"
+str_coach_Gen4_Eurofima_Mail_Coach                                              :Vagón postal Eurofima
 str_coach_Gen4_Double_Decker_Coach                                              :Coche de dos pisos
-str_coach_Gen4_Russian_Intercity_Coach                                  :Coche InterCity ruso
-str_coach_Gen4_Russian_Mail_Coach                                               :Coche de correo ruso
+str_coach_Gen4_Russian_Intercity_Coach                                  :Coche interurbano ruso
+str_coach_Gen4_Russian_Regional_Coach                                   :Coche regional ruso
+str_coach_Gen4_Russian_Mail_Coach                                               :Vagón postal ruso
 str_coach_Gen4_Superliner_Coach                                                 :Coche Superliner
 str_coach_Gen4_Superliner_California                                    :Coche Superliner California
+str_coach_Gen4_Amfleet_Regional_Coach                                   :Coche regional Amfleet
+str_coach_Gen4_Amfleet_Intercity_Coach                                  :Coche interurbano Amfleet
+str_coach_Gen4_Comet_Commuter_Coach                                     :Coche de cercanías "Comet"
+str_coach_Gen4_Horizon_Regional_Coach                                   :Coche regional Horizon
 str_coach_Gen4_Horizon_Baggage_Coach                                    :Vagón de equipaje Horizon
-str_coach_Gen5_Modern_Double_Decker_Coach                               :Coche moderno de dos pisos
+str_coach_Gen4_Bombardier_Bi_level                                              :Coche Bombardier BiLevel
+str_coach_Gen5_High_Speed_Coach                                                 :Coche de alta velocidad
+str_coach_Gen5_Modern_Regional_Coach                                    :Coche regional moderno
+str_coach_Gen5_Modern_Commuter_Coach                                    :Coche de cercanías moderno
+str_coach_Gen5_Modern_Double_Decker_Coach                               :Coche de dos pisos moderno
 str_coach_Gen5_High_Speed_Double_Decker_IC2000                  :Coche de dos pisos de alta velocidad (IC2000)
+str_coach_Gen5_High_Speed_Mail_Coach                                    :Vagón postal de alta velocidad
+str_coach_Gen5_Talgo_Pendular                                                   :Coche Talgo Pendular
+str_coach_Gen5_Talgo_Pendular_Mail                                              :Vagón postal Talgo Pendular
+str_coach_Gen6_Grand_Voyager_Coach                                              :Coche Grand Voyager
 str_coach_Gen6_Grand_Regio_Coach                                                :Coche Grand Regio
+str_coach_Gen6_Metropolis_Coach                                                 :Coche Metropolis
+str_coach_Gen6_Speedmail_Coach                                                  :Coche Speedmail
+str_coach_Gen6_Super_Regio_Coach                                                :Coche Super Regio
+str_coach_Gen6_Super_Voyager_Coach                                              :Coche Super Voyager
 
 #special wagons
-str_mtro_wagon_unpowered        :Carro de metro (remolque)
+str_mu_wagon_unpowered          :Vagón de automotor (remolque)
+str_mtro_wagon_unpowered        :Coche de metro (remolque)
+str_mglv_wagon_unpowered        :Vagón unitario maglev (remolque)
+str_mu_wagon_powered            :Vagón de automotor (motriz)
 
 #Obsolete vehicles
 str_electric_Turkey_TCDD_E55200_obsolete                                                :TCDD E55200 (obsoleto)
 str_diesel_USA_Pennsylvania_Railroad_RF_16_Sharknose_obsolete   :PRR RF-16 "Sharknose" (obsoleto)
+str_steam_South_Africa_PPR_35_tonner_4_6_0T_obsolete                    :PPR 35-tonner 4-6-0T (obsoleto)
+str_rbd_Germany_DB_VT98_obsolete                                                                :DB VT98 (obsoleto)
 str_electric_Portugal_CP_Class_2550_obsolete                                    :CP 2550 (obsoleto)
+str_rbd_Germany_DB_650_Regio_Shuttle_obsolete                                   :DB 650 "Regio Shuttle" (obsoleto)
 str_dmu_Italy_FS_ALn_668_obsolete                                                               :FS ALn 668 (obsoleto)
 str_rbe_Germany_DB_ET479_obsolete                                                               :DB ET479 (obsoleto)
 
 #PURCHASE MENU TEXTS
+str_unit_wagon                          :Este vagón es genérico y SOLO se utiliza con automotores para formar trenes de la longitud deseada
 
 #Can attach vehicle texts
-str_cannot_attach_Unit_wagon_to_engine  :No se puede acoplar vagón unitario a locomotora estándar
-str_cannot_attach_Unit_wagon_to_wagon   :No se puede acoplar vagón unitario a vagón estándar
+str_cannot_attach_wagon_to_MU                   :No se puede acoplar vagón estándar a automotor
+str_cannot_attach_wagon_to_Unit_Wagon   :No se puede acoplar vagón estándar a vagón de automotor
+str_cannot_attach_Unit_wagon_to_engine  :No se puede acoplar vagón de automotor a locomotora estándar
+str_cannot_attach_Unit_wagon_to_wagon   :No se puede acoplar vagón de automotor a vagón estándar
