@@ -798,7 +798,7 @@ str_coach_Gen3_UIC_X_Intercity_Coach                                    :Coche i
 str_coach_Gen3_TEE_Intercity_Coach                                              :Coche interurbano TEE
 str_coach_Gen3_UIC_X_Regional_Coach                                     :Coche regional UIC-X
 str_coach_Gen3_Umbauwagen_Local_Coach                                   :Coche de cercanías "Umbauwagen"
-str_coach_Gen3_Doppelstockwagen_Local_Coach                     :Coche local "Doppelstockwagen"
+str_coach_Gen3_Doppelstockwagen_Local_Coach                     :Coche de cercanías "Doppelstockwagen"
 str_coach_Gen3_UIC_X_Mail_Coach                                                 :Vagón postal UIC-X
 str_coach_Gen3_Indian_Intercity_Coach                                   :Coche interurbano indio
 str_coach_Gen3_Indian_Local_Coach                                               :Coche de cercanías indio
