@@ -481,6 +481,7 @@ str_electric_Morocco_ONCFM_E_500 :ONCFM E 500 (Eléctrico)
 str_electric_Japan_JNR_EF81 :JNR EF81 (Eléctrico)
 str_electric_Chile_EFE_E_17 :EFE E-17 (Eléctrico)
 str_electric_China_China_Railways_SS3 :China Railways SS3 (Eléctrico)
+str_electric_South_Africa_SAR_7E :SAR 7E (Eléctrico)
 str_electric_South_Africa_SAR_11E :SAR 11E (Eléctrico)
 str_electric_South_Africa_SAR_E38 :SAR E38 (Eléctrico)
 str_electric_USA_Amtrak_HHP_8 :Amtrak HHP-8 (Eléctrico)
@@ -671,6 +672,7 @@ str_mtro_Germany_Berlin_U_Bahn_IK :Berlin U-Bahn IK (Metro)
 str_mtro_USA_Chicago_L_6000 :Chicago L 6000 Series (Metro)
 
 #Maglev railbus
+str_rbm_World_Turbobus          :Turbobus (Maglev)
 
 #Maglev
 str_mglv_China_Transrapid       :Shanghai Transrapid (Maglev)
