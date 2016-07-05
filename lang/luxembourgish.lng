@@ -330,6 +330,7 @@ str_diesel_France_SNCF_BB_67400 :SNCF BB 67400 (Diesel)
 str_diesel_Egypt_ENR_2400_GE_ES40ACi :ENR 2400 GE ES40ACi (Diesel)
 str_diesel_South_Africa_SAR_Afro_4000 :SAR Afro 4000 (Diesel)
 str_diesel_Spain_RENFE_308 :RENFE 308 (Diesel)
+str_diesel_Australia_Pacific_National_92 :Pacific National 92 (Diesel)
 
 #Electric
 str_electric_Switzerland_RhB_DE_2_2                     :RhB De 2/2 (Elektresch)
