@@ -3,4 +3,4 @@
 #!/bin/sh
 
 #Create list of constants and variables
-hg log -r 478:tip --template '- {desc}\n' | sort > changelog_raw.txt
+hg log -r 778:tip --template '- {desc}\n' | sort > changelog_raw.txt
