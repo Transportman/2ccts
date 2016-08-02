@@ -313,8 +313,8 @@ switch(FEAT_TRAINS, SELF, switch_wagon_Gen3_Boxcar_Type2_cargo_selection, cargo_
 	GOLD: switch_wagon_Gen3_Boxcar_Type2_Goods_livery;
 	FRUT: switch_wagon_Gen3_Boxcar_Type2_Reefer_livery;
 	DIAM: switch_wagon_Gen3_Boxcar_Type2_Goods_livery;
-	FZDR: switch_wagon_Gen3_Boxcar_Type1_Reefer_livery;
-	BEER: switch_wagon_Gen3_Boxcar_Type1_Reefer_livery;
-	FISH: switch_wagon_Gen3_Boxcar_Type1_Reefer_livery;
+	FZDR: switch_wagon_Gen3_Boxcar_Type2_Reefer_livery;
+	BEER: switch_wagon_Gen3_Boxcar_Type2_Reefer_livery;
+	FISH: switch_wagon_Gen3_Boxcar_Type2_Reefer_livery;
 	switch_wagon_Gen3_Boxcar_Type2_Standard_livery; //GRAI, PAPR, WHEA, MAIZ, SUGR, TOYS, BATT, BUBL, BDMT, BRCK, CERA, CERE, COPR,ENSP, FERT, FMSP, GLAS, JAVA, MNSP, OLSD, POTA, RCYC, SGBT, SGCN, SULP, VEHI, WOOL
 }
