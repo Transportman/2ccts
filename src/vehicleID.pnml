@@ -8,8 +8,8 @@
 
 //This file sets all vehicle IDs. Each type has a range of 1000 possible IDs.
 
-//Railbus-Steam, available ID range: 1000-1999 (hex 0x03E8..0x07CF)
-#define ID_RANGE_RBS 0x03E8..0x07CF
+//Railbus-Steam, available ID range: 1000-1499 (hex 0x03E8..0x05DB)
+#define ID_RANGE_RBS 0x03E8..0x05DB
 item(FEAT_TRAINS, item_rbs_Austria_NOLB_1, 1000) {}
 item(FEAT_TRAINS, item_rbs_Italy_FS_86, 1001) {}
 item(FEAT_TRAINS, item_rbs_Australia_Victorian_Railways_Rowan_Railmotor, 1002) {}
@@ -19,8 +19,8 @@ item(FEAT_TRAINS, item_rbs_South_Africa_CSAR_Railmotor, 1005) {}
 item(FEAT_TRAINS, item_rbs_Australia_Victorian_Railways_Motor_Car_3, 1006) {}
 item(FEAT_TRAINS, item_rbs_Austria_kkStB_4_0, 1007) {}
 
-//Railbus-Diesel, available ID range: 2000-2999 (hex 0x07D0..0x0BB7)
-#define ID_RANGE_RBD 0x07D0..0x0BB7
+//Railbus-Diesel, available ID range: 2000-2499 (hex 0x07D0..0x09C3)
+#define ID_RANGE_RBD 0x07D0..0x09C3
 item(FEAT_TRAINS, item_rbd_Australia_Victorian_Railways_AEC_RM1, 2000) {}
 item(FEAT_TRAINS, item_rbd_Germany_DB_VT133, 2001) {}
 item(FEAT_TRAINS, item_rbd_United_Kingdom_GWR_AEC_Railcar, 2002) {}
@@ -69,8 +69,8 @@ item(FEAT_TRAINS, item_rbd_Germany_DB_VT98, 2044) {}
 item(FEAT_TRAINS, item_rbd_Eritrea_Eritrean_Railway_A62_70_Littorina, 2045) {}
 item(FEAT_TRAINS, item_rbd_Italy_FS_ALn_668, 2046) {} 
 
-//Railbus-Electric, available ID range: 3000-3999 (hex 0x0BB8..0x0F9F)
-#define ID_RANGE_RBE 0x0BB8..0x0F9F
+//Railbus-Electric, available ID range: 3000-3499 (hex 0x0BB8..0x0DAB)
+#define ID_RANGE_RBE 0x0BB8..0x0DAB
 item(FEAT_TRAINS, item_rbe_Switzerland_SBB_Cfe_3_3, 3000) {}
 item(FEAT_TRAINS, item_rbe_Morocco_ONCFM_ZAB1000, 3001) {}
 item(FEAT_TRAINS, item_rbe_Germany_DB_ET85, 3002) {}
@@ -682,8 +682,8 @@ item(FEAT_TRAINS, item_mtro_Algeria_Algiers_CAF_2011_Stock, 9053) {}
 item(FEAT_TRAINS, item_mtro_Germany_Berlin_U_Bahn_IK, 9054) {}
 item(FEAT_TRAINS, item_mtro_USA_Chicago_L_6000, 9055) {}
 
-//Multi Unit Maglev, available ID range: 10000-10999 (hex 0x2710..0x2AF7)
-#define ID_RANGE_MULTIMAGLEV 0x2710..0x2AF7
+//Multi Unit Maglev, available ID range: 10000-10499 (hex 0x2710..0x2903)
+#define ID_RANGE_MULTIMAGLEV 0x2710..0x2903
 item(FEAT_TRAINS, item_mglv_China_Transrapid, 10000) {}
 item(FEAT_TRAINS, item_mglv_Japan_MLX01_901, 10001) {}
 
@@ -813,8 +813,8 @@ item(FEAT_TRAINS, item_wagon_Service_Car_Type2, 12046) {}
 item(FEAT_TRAINS, item_wagon_Gen3_Boxcar_Type2, 12047) {}
 item(FEAT_TRAINS, item_wagon_Gen4_Boxcar_Type2, 12048) {}
 
-//Unit Wagons, available ID range: 13000-13999 (hex 0x32C8..0x36AF)
-#define ID_RANGE_UNIT_WAGONS 0x32C8..0x36AF
+//Unit Wagons, available ID range: 13000-13499 (hex 0x32C8..0x34BB)
+#define ID_RANGE_UNIT_WAGONS 0x32C8..0x34BB
 #define ID_RANGE_UNIT_WAGONS_RAIL 0x32C8..0x32C9
 #define ID_RANGE_UNIT_WAGONS_MTRO 0x32CA..0x32CB
 #define ID_RANGE_UNIT_WAGONS_MGLV 0x32CC..0x32CD
@@ -825,22 +825,22 @@ item(FEAT_TRAINS, item_mtro_wagon_powered, 13003) {}
 item(FEAT_TRAINS, item_mglv_wagon_unpowered, 13004) {}
 item(FEAT_TRAINS, item_mglv_wagon_powered, 13005) {}
 
-//Single Unit Metros, available ID range: 14000-14999 (hex 0x36B0..0x3A97)
-#define ID_RANGE_SINGLEMETRO 0x36B0..0x3A97
+//Single Unit Metros, available ID range: 14000-14499 (hex 0x36B0..0x38A3)
+#define ID_RANGE_SINGLEMETRO 0x36B0..0x38A3
 item(FEAT_TRAINS, item_mtro_USA_Brooklyn_Union_Gate_Car, 14000) {}
 item(FEAT_TRAINS, item_mtro_Hungary_Budapest_1894_Stock, 14001) {}
 item(FEAT_TRAINS, item_mtro_USA_Chicago_L_Northwest_Elevated_1907_Stock, 14002) {}
 item(FEAT_TRAINS, item_mtro_Germany_Berlin_U_Bahn_C_II, 14003) {}
 
-//SMU, available ID range: 15000-15999 (hex 0x3A98..0x3E7F)
-#define ID_RANGE_SMU 0x3A98..0x3E7F
+//SMU, available ID range: 14500-14999 (hex 0x38A4..0x3A97)
+#define ID_RANGE_SMU 0x38A4..0x3A97
 //Currently has no vehicles, range reserved
 
 
-//Railbus-Maglev, available ID range: 16000-16999 (hex 0x3E80..0x4267)
-#define ID_RANGE_RBM 0x3E80..0x4267
+//Railbus-Maglev, available ID range: 16000-16499 (hex 0x3E80..0x4073)
+#define ID_RANGE_RBM 0x3E80..0x4073
 item(FEAT_TRAINS, item_rbm_World_Turbobus, 16000) {}
 
-//Single Unit Maglevs, available ID range: 16000-16999 (hex 0x4268..0x464F)
-#define ID_RANGE_SINGLEMAGLEV 0x4268..0x464F
+//Single Unit Maglevs, available ID range: 15000-15499 (hex 0x3A98..0x3C8B)
+#define ID_RANGE_SINGLEMAGLEV 0x3A98..0x3C8B
 //Currently has no vehicles, range reserved
