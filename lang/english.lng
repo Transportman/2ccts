@@ -863,7 +863,9 @@ str_unit_wagon_passenger	:This generic wagon can ONLY be used with passenger MUs
 str_unit_wagon_cargo		:This generic wagon can ONLY be used with cargo MUs to create trains of the desired length
 
 #Can attach vehicle texts
-str_cannot_attach_wagon_to_MU			:Cannot attach wagon to Multiple Unit engine
-str_cannot_attach_wagon_to_Unit_Wagon	:Cannot attach regular wagon to Unit Wagon
-str_cannot_attach_Unit_wagon_to_engine	:Cannot attach Unit Wagon to regular engine
-str_cannot_attach_Unit_wagon_to_wagon	:Cannot attach Unit Wagon to regular wagon
+str_cannot_attach_wagon_to_MU					:Cannot attach wagon to Multiple Unit engine
+str_cannot_attach_wagon_to_Unit_Wagon			:Cannot attach regular wagon to Unit Wagon
+str_cannot_attach_Unit_wagon_to_engine			:Cannot attach Unit Wagon to regular engine
+str_cannot_attach_Unit_wagon_to_wagon			:Cannot attach Unit Wagon to regular wagon
+str_cannot_attach_Unit_wagon_cargo_to_passenger	:Cannot attach cargo Unit Wagon to passenger Multiple Unit engine
+str_cannot_attach_Unit_wagon_passenger_to_cargo	:Cannot attach passenger Unit Wagon to cargo Multiple Unit engine
