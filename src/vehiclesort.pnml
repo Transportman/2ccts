@@ -524,6 +524,8 @@ item_dmu_Sri_Lanka_Sri_Lanka_Railways_S11, /*Year: 2011*/ \
 item_dmu_Canada_UP_Express_Nippon_Sharyo_DMU, /*Year: 2013*/ \
 item_dmu_Argentina_FCGU_CMM_400_2, /*Year: 2015*/
 
+#define SORTING_CARGODMU \
+item_cargodmu_Germany_DB_691_CargoSprinter, /* Year: 1996*/
 
 #define SORTING_EMU \
 item_emu_USA_PRR_MP54, /*Year: 1908*/ \
@@ -796,7 +798,9 @@ item_mu_wagon_powered, \
 item_mtro_wagon_unpowered, \
 item_mtro_wagon_powered, \
 item_mglv_wagon_unpowered, \
-item_mglv_wagon_powered, 
+item_mglv_wagon_powered, \
+item_mu_cargo_wagon_unpowered, \
+item_mu_cargo_wagon_powered,
 
 sort(FEAT_TRAINS, [
 	SORTING_RBS
@@ -806,10 +810,11 @@ sort(FEAT_TRAINS, [
 	SORTING_DIESEL
 	SORTING_ELECTRIC
 	SORTING_DMU
+	SORTING_CARGODMU
 	SORTING_EMU
 	SORTING_SINGLE_METRO
 	SORTING_METRO
-	SORTING_SINGLE_MAGLEV\
+	SORTING_SINGLE_MAGLEV
 	SORTING_MAGLEV
 	SORTING_SPECIAL
 	SORTING_COACHES
