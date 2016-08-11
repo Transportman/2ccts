@@ -408,6 +408,8 @@ str_electric_Ukraine_UZ_DE1 :UZ DE1 (Elektrowóz)
 #DMU
 str_dmu_Germany_DB_VT08                                         :DB VT08 (SZT)
 
+#CargoDMU
+
 #EMU
 
 #Single Unit Metro
@@ -552,15 +554,14 @@ str_coach_Gen5_Talgo_Pendular                                                   
 str_coach_Gen5_Talgo_Pendular_Mail                                              :Wagon pocztowy składu Talgo
 
 #special wagons
-str_mu_wagon_unpowered          :Wagon Zespołu Trakcyjnego (doczepny)
+str_mu_wagon_unpowered                  :Wagon Zespołu Trakcyjnego (doczepny)
 
 #Obsolete vehicles
 
 #PURCHASE MENU TEXTS
-str_unit_wagon                          :Ten ogólnego rodzaju wagon może być stosowany TYLKO do wydłużania zespołów trakcyjnych
 
 #Can attach vehicle texts
-str_cannot_attach_wagon_to_MU                   :Nie można dołączyć zwykłego wagonu do Zespołu Trakcyjnego (użyj ogólnego wagonu doczepnego)
-str_cannot_attach_wagon_to_Unit_Wagon   :Nie można dołączyć zwykłego wagonu do Zespołu Trakcyjnego
-str_cannot_attach_Unit_wagon_to_engine  :Nie można dołączyć ogólnego wagonu doczepnego do zwykłej lokomotywy (tylko do *ZT)
-str_cannot_attach_Unit_wagon_to_wagon   :Nie można dołączyć ogólnego wagonu doczepnego do zwykłego wagonu (tylko do *ZT)
+str_cannot_attach_wagon_to_MU                                   :Nie można dołączyć zwykłego wagonu do Zespołu Trakcyjnego (użyj ogólnego wagonu doczepnego)
+str_cannot_attach_wagon_to_Unit_Wagon                   :Nie można dołączyć zwykłego wagonu do Zespołu Trakcyjnego
+str_cannot_attach_Unit_wagon_to_engine                  :Nie można dołączyć ogólnego wagonu doczepnego do zwykłej lokomotywy (tylko do *ZT)
+str_cannot_attach_Unit_wagon_to_wagon                   :Nie można dołączyć ogólnego wagonu doczepnego do zwykłego wagonu (tylko do *ZT)

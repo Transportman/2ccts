@@ -389,6 +389,8 @@ str_dmu_Japan_JR_KiHa_189 :JR KiHa 189 (Dieseltreinstel)
 str_dmu_Slovakia_ZSSK_861 :ZSSK 861 (Dieseltreinstel)
 str_dmu_Cameroon_Camrail_ZE_500 :Camrail ZE 500 (Dieseltreinstel)
 
+#CargoDMU
+
 #EMU
 str_emu_Netherlands_NS_Mat24                            :NS Mat'24 (Elektrisch Treinstel)
 str_emu_Austria_OBB_4041                                        :OBB 4041 (Elektrisch Treinstel)
@@ -537,7 +539,6 @@ str_steam_South_Africa_PPR_35_tonner_4_6_0T_obsolete                    :PPR 35-
 str_dmu_Slovakia_ZSSK_861_obsolete                                                              :ZSSK 861 (Achterhaald)
 
 #PURCHASE MENU TEXTS
-str_unit_wagon                          :Deze generieke wagon kan ALLEEN met treinstellen gebruikt worden om treinen van de gewenste lengte te maken
 
 #Can attach vehicle texts
-str_cannot_attach_wagon_to_MU                   :Kan wagon niet aan treinstellocomotief koppelen
+str_cannot_attach_wagon_to_MU                                   :Kan wagon niet aan treinstellocomotief koppelen

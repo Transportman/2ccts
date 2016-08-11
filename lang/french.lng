@@ -569,6 +569,8 @@ str_dmu_Portugal_CP_0400 :CP 0400 (Rame Diesel)
 str_dmu_Portugal_CP_0600 :CP 0600 (Rame Diesel)
 str_dmu_Spain_FEVE_2400_Apollos :FEVE 2400 'Apollos' (Rame Diesel)
 
+#CargoDMU
+
 #EMU
 str_emu_Netherlands_NS_Mat24                            :NS Mat'24 (Rame Électrique)
 str_emu_Austria_OBB_4041                                        :OBB 4041 (Rame Électrique)
@@ -836,12 +838,12 @@ str_coach_Gen6_Super_Regio_Coach                                                
 str_coach_Gen6_Super_Voyager_Coach                                              :Voiture Super Voyager
 
 #special wagons
-str_mu_wagon_unpowered          :Wagon de Rame (non-motorisé)
-str_mtro_wagon_unpowered        :Wagon de Métro (non-motorisé)
-str_mglv_wagon_unpowered        :Wagon de Maglev (non-motorisé)
-str_mu_wagon_powered            :Wagon de Rame (motorisé)
-str_mtro_wagon_powered          :Wagon de Métro (motorisé)
-str_mglv_wagon_powered          :Wagon de Maglev (motorisé)
+str_mu_wagon_unpowered                  :Wagon de Rame (non-motorisé)
+str_mtro_wagon_unpowered                :Wagon de Métro (non-motorisé)
+str_mglv_wagon_unpowered                :Wagon de Maglev (non-motorisé)
+str_mu_wagon_powered                    :Wagon de Rame (motorisé)
+str_mtro_wagon_powered                  :Wagon de Métro (motorisé)
+str_mglv_wagon_powered                  :Wagon de Maglev (motorisé)
 
 #Obsolete vehicles
 str_electric_Turkey_TCDD_E55200_obsolete                                                :TCDD E55200 (Obsolète)
@@ -856,10 +858,9 @@ str_dmu_Italy_FS_ALn_668_obsolete                                               
 str_rbe_Germany_DB_ET479_obsolete                                                               :DB ET479 (Obsolète)
 
 #PURCHASE MENU TEXTS
-str_unit_wagon                          :Ce wagon générique est utilisé SEULEMENT avec des Rames pour obtenir des trains de longueur variable
 
 #Can attach vehicle texts
-str_cannot_attach_wagon_to_MU                   :Impossible d'atteler ce wagon à une Rame
-str_cannot_attach_wagon_to_Unit_Wagon   :Impossible d'atteler un wagon normal à un wagon de Rame
-str_cannot_attach_Unit_wagon_to_engine  :Impossible d'atteler un wagon de Rame à une locomotive normale
-str_cannot_attach_Unit_wagon_to_wagon   :Impossible d'atteler un wagon de Rame à un wagon normal
+str_cannot_attach_wagon_to_MU                                   :Impossible d'atteler ce wagon à une Rame
+str_cannot_attach_wagon_to_Unit_Wagon                   :Impossible d'atteler un wagon normal à un wagon de Rame
+str_cannot_attach_Unit_wagon_to_engine                  :Impossible d'atteler un wagon de Rame à une locomotive normale
+str_cannot_attach_Unit_wagon_to_wagon                   :Impossible d'atteler un wagon de Rame à un wagon normal

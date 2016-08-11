@@ -81,6 +81,8 @@ str_electric_Ukraine_UZ_DS3                                     :烏克蘭鐵路
 
 #DMU
 
+#CargoDMU
+
 #EMU
 
 #Single Unit Metro
@@ -113,10 +115,10 @@ str_mglv_China_Transrapid       :上海 Transrapid (磁浮)
 #coaches
 
 #special wagons
-str_mtro_wagon_unpowered        :捷運車廂 (無動力)
-str_mglv_wagon_unpowered        :磁浮車廂 (無動力)
-str_mtro_wagon_powered          :捷運車廂 (有動力)
-str_mglv_wagon_powered          :磁浮車廂 (有動力)
+str_mtro_wagon_unpowered                :捷運車廂 (無動力)
+str_mglv_wagon_unpowered                :磁浮車廂 (無動力)
+str_mtro_wagon_powered                  :捷運車廂 (有動力)
+str_mglv_wagon_powered                  :磁浮車廂 (有動力)
 
 #Obsolete vehicles
 

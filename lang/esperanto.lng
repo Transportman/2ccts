@@ -121,6 +121,8 @@ str_dmu_Turkey_TCDD_MT_5500 :TCDD MT 5500 (DMU)
 str_dmu_Iran_RAI_141_Pacer :RAI 141 'Pacer' (DMU)
 str_dmu_Australia_NSWGR_Xplorer :TrainLink Xplorer (DMU)
 
+#CargoDMU
+
 #EMU
 str_emu_Italy_FS_ETR300_Settebello                      :FS ETR.300 'Settebello' (EMU)
 str_emu_Czech_Republic_CD_680_Pendolino         :CD 680 'Pendolino' (EMU)
@@ -188,7 +190,7 @@ str_coach_Gen5_Talgo_Pendular                                                   
 str_coach_Gen6_Speedmail_Coach                                                  :Altrapida Poŝto Kaleŝo
 
 #special wagons
-str_mglv_wagon_powered          :Magnetatrajno Unuo Vagono (Funkciigata)
+str_mglv_wagon_powered                  :Magnetatrajno Unuo Vagono (Funkciigata)
 
 #Obsolete vehicles
 str_diesel_Germany_DB_253_G2000_3_BB_obsolete                                   :DB 253 G2000-3 BB (Malnoviĝinta)
