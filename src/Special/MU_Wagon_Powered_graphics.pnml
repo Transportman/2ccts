@@ -10,7 +10,7 @@
 * PURCHASE
 */
 
-spriteset(spriteset_mglv_wagon_unpowered_purchase, "gfx/Coaches/Maglev_Unit_Wagon_Unpowered.png") {
+spriteset(spriteset_mu_wagon_powered_purchase, "gfx/Special/Multiple_Unit_Wagon_Powered.png") {
 	template_purchase_wagon_special(1, 1)
 }
 
@@ -18,7 +18,7 @@ spriteset(spriteset_mglv_wagon_unpowered_purchase, "gfx/Coaches/Maglev_Unit_Wago
 * VEHICLE
 */
 
-spriteset(spriteset_mglv_wagon_unpowered, "gfx/Coaches/Maglev_Unit_Wagon_Unpowered.png") {
+spriteset(spriteset_mu_wagon_powered, "gfx/Special/Multiple_Unit_Wagon_Powered.png") {
 	template_wagon_special(21, 1)
 }
 	
