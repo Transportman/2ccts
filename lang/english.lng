@@ -567,6 +567,9 @@ str_dmu_Portugal_CP_0400 :CP 0400 (DMU)
 str_dmu_Portugal_CP_0600 :CP 0600 (DMU)
 str_dmu_Spain_FEVE_2400_Apollos :FEVE 2400 'Apollos' (DMU)
 
+#CargoDMU
+str_cargodmu_Germany_DB_691_CargoSprinter	:DB 691 'CargoSprinter' (Cargo DMU)
+
 #EMU
 str_emu_Netherlands_NS_Mat24 				:NS Mat'24 (EMU)
 str_emu_Austria_OBB_4041 					:OBB 4041 (EMU)

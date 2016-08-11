@@ -839,6 +839,9 @@ item(FEAT_TRAINS, item_mtro_Germany_Berlin_U_Bahn_C_II, 14003) {}
 #define ID_RANGE_SMU 0x38A4..0x3A97
 //Currently has no vehicles, range reserved
 
+//Cargo DMU, available ID range: 15500-15499 (hex 0x3C8C..0x3E7F)
+#define ID_RANGE_CARGODMU 0x3C8C..0x3E7F
+item(FEAT_TRAINS, item_cargodmu_Germany_DB_691_CargoSprinter, 15501) {}
 
 //Railbus-Maglev, available ID range: 16000-16499 (hex 0x3E80..0x4073)
 #define ID_RANGE_RBM 0x3E80..0x4073

@@ -1056,6 +1056,10 @@
 #include "src/DMU/Spain_FEVE_2400_Apollos_graphics.pnml"
 #include "src/DMU/Spain_FEVE_2400_Apollos_item.pnml"
 
+// Cargo DMU 
+#include "src/CargoDMU/Germany_DB_691_CargoSprinter_graphics.pnml"
+#include "src/CargoDMU/Germany_DB_691_CargoSprinter_item.pnml"
+
 //EMU
 #include "src/EMU/Netherlands_NS_Mat24_graphics.pnml"
 #include "src/EMU/Netherlands_NS_Mat24_item.pnml"
