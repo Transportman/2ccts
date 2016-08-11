@@ -47,7 +47,7 @@ item(FEAT_TRAINS, item_mtro_wagon_unpowered) {
 	}
 	graphics {
 		purchase: spriteset_mtro_wagon_unpowered_purchase;
-		additional_text: string(str_unit_wagon);
+		additional_text: string(str_unit_wagon_passenger);
 		spriteset_mtro_wagon_unpowered;
 	}	
 }

@@ -834,12 +834,14 @@ str_coach_Gen6_Super_Regio_Coach 						:Super Regio Coach
 str_coach_Gen6_Super_Voyager_Coach 						:Super Voyager Coach
 
 #special wagons
-str_mu_wagon_unpowered		:Multiple Unit Wagon (Unpowered)
-str_mtro_wagon_unpowered	:Metro Unit Wagon (Unpowered)
-str_mglv_wagon_unpowered	:Maglev Unit Wagon (Unpowered)
-str_mu_wagon_powered		:Multiple Unit Wagon (Powered)
-str_mtro_wagon_powered		:Metro Unit Wagon (Powered)
-str_mglv_wagon_powered		:Maglev Unit Wagon (Powered)
+str_mu_wagon_unpowered			:Multiple Unit Wagon (Unpowered)
+str_mtro_wagon_unpowered		:Metro Unit Wagon (Unpowered)
+str_mglv_wagon_unpowered		:Maglev Unit Wagon (Unpowered)
+str_mu_cargo_wagon_unpowered	:Multiple Unit Cargo Wagon (Unpowered)
+str_mu_wagon_powered			:Multiple Unit Wagon (Powered)
+str_mtro_wagon_powered			:Metro Unit Wagon (Powered)
+str_mglv_wagon_powered			:Maglev Unit Wagon (Powered)
+str_mu_cargo_wagon_powered		:Multipe Unit Cargo Wagon (Powered)
 
 #Obsolete vehicles
 str_electric_Turkey_TCDD_E55200_obsolete 						:TCDD E55200 (Obsoleted)
@@ -854,7 +856,8 @@ str_dmu_Italy_FS_ALn_668_obsolete 								:FS ALn 668 (Obsoleted)
 str_rbe_Germany_DB_ET479_obsolete								:DB ET479 (Obsoleted)
 
 #PURCHASE MENU TEXTS
-str_unit_wagon				:This generic wagon can ONLY be used with MUs to create trains of the desired length
+str_unit_wagon_passenger	:This generic wagon can ONLY be used with passenger MUs to create trains of the desired length
+str_unit_wagon_cargo		:This generic wagon can ONLY be used with cargo MUs to create trains of the desired length
 
 #Can attach vehicle texts
 str_cannot_attach_wagon_to_MU			:Cannot attach wagon to Multiple Unit engine

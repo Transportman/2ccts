@@ -818,12 +818,15 @@ item(FEAT_TRAINS, item_wagon_Gen4_Boxcar_Type2, 12048) {}
 #define ID_RANGE_UNIT_WAGONS_RAIL 0x32C8..0x32C9
 #define ID_RANGE_UNIT_WAGONS_MTRO 0x32CA..0x32CB
 #define ID_RANGE_UNIT_WAGONS_MGLV 0x32CC..0x32CD
+#define ID_RANGE_UNIT_WAGONS_RAIL_CARGO 0x32CE..0x32CF
 item(FEAT_TRAINS, item_mu_wagon_unpowered, 13000) {}
 item(FEAT_TRAINS, item_mu_wagon_powered, 13001) {}
 item(FEAT_TRAINS, item_mtro_wagon_unpowered, 13002) {}
 item(FEAT_TRAINS, item_mtro_wagon_powered, 13003) {}
 item(FEAT_TRAINS, item_mglv_wagon_unpowered, 13004) {}
 item(FEAT_TRAINS, item_mglv_wagon_powered, 13005) {}
+item(FEAT_TRAINS, item_mu_cargo_wagon_unpowered, 13006) {}
+item(FEAT_TRAINS, item_mu_cargo_wagon_powered, 13007) {}
 
 //Single Unit Metros, available ID range: 14000-14499 (hex 0x36B0..0x38A3)
 #define ID_RANGE_SINGLEMETRO 0x36B0..0x38A3
