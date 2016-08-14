@@ -27,8 +27,8 @@ STR_PARAM_TIMES_8                   :8
 STR_PARAM_TIMES_16                  :16
 
 #region parameters
-STR_PARAM_CONCEPT						:Concept vehicles (future feature, not yet available)
-STR_PARAM_CONCEPT_DESC					:Use concept vehicles (this parameter has no function currently)
+STR_PARAM_CONCEPT						:Concept vehicles
+STR_PARAM_CONCEPT_DESC					:Use concept vehicles
 STR_PARAM_REGION_AFRICA					:Africa
 STR_PARAM_REGION_AFRICA_DESC			:Use vehicles from Africa
 STR_PARAM_REGION_NORTHAMERICA			:North America
