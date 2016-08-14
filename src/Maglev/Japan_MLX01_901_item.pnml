@@ -13,7 +13,7 @@
 item(FEAT_TRAINS, item_mglv_Japan_MLX01_901) {
     property {
         name: string(str_mglv_Japan_MLX01_901);
-        REGION(ASIA,NOREGION,NOCONCEPT)
+        REGION(ASIA,NOREGION,ISCONCEPT)
 		
         introduction_date: date(2025,1,1);
         model_life: VEHICLE_NEVER_EXPIRES;
