@@ -145,6 +145,8 @@ str_dmu_Germany_DB_642_Desiro                           :DB 642 'Desiro' (Диз
 str_dmu_Russia_RZD_RA2                                          :РЖД РA2 (Дизельпоезд)
 str_dmu_Croatia_HZ_7022                                         :HZ 7022 (Дизельпоезд)
 
+#CargoDMU
+
 #EMU
 str_emu_Italy_FS_ETR200                                         :FS ETR200 (Электропоезд)
 str_emu_Japan_JNR_Shinkansen_Series_0           :JNR Shinkansen Серия 0 (Электропоезд)
@@ -238,7 +240,7 @@ str_coach_Gen5_High_Speed_Mail_Coach                                    :Ско�
 str_coach_Gen6_Metropolis_Coach                                                 :Городской Вагон
 
 #special wagons
-str_mglv_wagon_powered          :Вагон Состава на Магнитной Подушке (Моторный)
+str_mglv_wagon_powered                  :Вагон Состава на Магнитной Подушке (Моторный)
 
 #Obsolete vehicles
 

@@ -512,6 +512,8 @@ str_dmu_Slovakia_ZSSK_861 :ZSSK 861 (DMU)
 str_dmu_Chile_EFE_TLD_500 :EFE TLD-500 (DMU)
 str_dmu_Cameroon_Camrail_ZE_500 :Camrail ZE 500 (DMU)
 
+#CargoDMU
+
 #EMU
 str_emu_Netherlands_NS_Mat24                            : NS Mat'24 (EMU)
 str_emu_Austria_OBB_4041                                        : OBB 4041 (EMU)
@@ -760,12 +762,12 @@ str_coach_Gen6_Super_Regio_Coach                                                
 str_coach_Gen6_Super_Voyager_Coach                                              :Super Voyager Rytuig
 
 #special wagons
-str_mu_wagon_unpowered          :Veelvoudige-eenheid Wa(Onaangedrewe)
-str_mtro_wagon_unpowered        :Metro-eenheid Wa(Onaangedrewe)
-str_mglv_wagon_unpowered        :Maglev-eenheid Wa(Onaangedrewe)
-str_mu_wagon_powered            :Veelvoudige-eenheid Wa(Aangedrewe)
-str_mtro_wagon_powered          :Metro-eenheid Wa(Aangedrewe)
-str_mglv_wagon_powered          :Maglev-eenheid Wa(Aangedrewe)
+str_mu_wagon_unpowered                  :Veelvoudige-eenheid Wa(Onaangedrewe)
+str_mtro_wagon_unpowered                :Metro-eenheid Wa(Onaangedrewe)
+str_mglv_wagon_unpowered                :Maglev-eenheid Wa(Onaangedrewe)
+str_mu_wagon_powered                    :Veelvoudige-eenheid Wa(Aangedrewe)
+str_mtro_wagon_powered                  :Metro-eenheid Wa(Aangedrewe)
+str_mglv_wagon_powered                  :Maglev-eenheid Wa(Aangedrewe)
 
 #Obsolete vehicles
 str_electric_Turkey_TCDD_E55200_obsolete                                                :TCDD E55200 (Uitgedien)
@@ -778,10 +780,9 @@ str_electric_Portugal_CP_Class_2550_obsolete                                    
 str_rbd_Germany_DB_650_Regio_Shuttle_obsolete                                   :DB 650 'Regio Shuttle' (Uitgedien)
 
 #PURCHASE MENU TEXTS
-str_unit_wagon                          :Hierdie generiese wa kan SLEGS gebruik word met MU om treine van die verlangde lengte te skep
 
 #Can attach vehicle texts
-str_cannot_attach_wagon_to_MU                   :Kan nie die wa aan 'n MU enjin heg nie
-str_cannot_attach_wagon_to_Unit_Wagon   :Kan nie 'n gewone wa aan 'n Unit Wa heg nie
-str_cannot_attach_Unit_wagon_to_engine  :Kan nie 'n Unit Wa aan 'n gewone enjin heg nie
-str_cannot_attach_Unit_wagon_to_wagon   :Kan nie 'n Unit Wa aan 'n gewone wa heg nie
+str_cannot_attach_wagon_to_MU                                   :Kan nie die wa aan 'n MU enjin heg nie
+str_cannot_attach_wagon_to_Unit_Wagon                   :Kan nie 'n gewone wa aan 'n Unit Wa heg nie
+str_cannot_attach_Unit_wagon_to_engine                  :Kan nie 'n Unit Wa aan 'n gewone enjin heg nie
+str_cannot_attach_Unit_wagon_to_wagon                   :Kan nie 'n Unit Wa aan 'n gewone wa heg nie

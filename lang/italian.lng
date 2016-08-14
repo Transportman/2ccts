@@ -570,6 +570,9 @@ str_dmu_Portugal_CP_0400 :CP 0400 (automotrice diesel)
 str_dmu_Portugal_CP_0600 :CP 0600 (automotrice diesel)
 str_dmu_Spain_FEVE_2400_Apollos :FEVE 2400 'Apollos' (automotrice diesel)
 
+#CargoDMU
+str_cargodmu_Germany_DB_691_CargoSprinter       :DB 691 'CargoSprinter' (automotrice diesel per merci)
+
 #EMU
 str_emu_Netherlands_NS_Mat24                            :NS Mat'24 (elettrotreno)
 str_emu_Austria_OBB_4041                                        :OBB 4041 (elettrotreno)
@@ -837,12 +840,14 @@ str_coach_Gen6_Super_Regio_Coach                                                
 str_coach_Gen6_Super_Voyager_Coach                                              :Carrozza tipo "Super Voyager"
 
 #special wagons
-str_mu_wagon_unpowered          :Carrozza per treno articolato (non motorizzata)
-str_mtro_wagon_unpowered        :Carrozza della metropolitana (non motorizzata)
-str_mglv_wagon_unpowered        :Carozza maglev (non motorizzata)
-str_mu_wagon_powered            :Carrozza per treno articolato (motorizzata)
-str_mtro_wagon_powered          :Carrozza della metropolitana (motorizzata)
-str_mglv_wagon_powered          :Carrozza maglev (motorizzata)
+str_mu_wagon_unpowered                  :Carrozza per treno articolato (non motorizzata)
+str_mtro_wagon_unpowered                :Carrozza della metropolitana (non motorizzata)
+str_mglv_wagon_unpowered                :Carozza maglev (non motorizzata)
+str_mu_cargo_wagon_unpowered    :Carrozza per treno per merci articolato (non motorizzata)
+str_mu_wagon_powered                    :Carrozza per treno articolato (motorizzata)
+str_mtro_wagon_powered                  :Carrozza della metropolitana (motorizzata)
+str_mglv_wagon_powered                  :Carrozza maglev (motorizzata)
+str_mu_cargo_wagon_powered              :Carrozza per treno per merci articolato (motorizzata)
 
 #Obsolete vehicles
 str_electric_Turkey_TCDD_E55200_obsolete                                                :TCDD E55200 (antiquata)
@@ -857,10 +862,13 @@ str_dmu_Italy_FS_ALn_668_obsolete                                               
 str_rbe_Germany_DB_ET479_obsolete                                                               :DB ET479 (antiquata)
 
 #PURCHASE MENU TEXTS
-str_unit_wagon                          :Questa carrozza generica può solo essere usata per comporre unità multiple della lunghezza desiderata
+str_unit_wagon_passenger        :Questa carrozza generica puo' essere usata SOLO con unità multiple per passeggeri per creare treni di desiderata lunghezza
+str_unit_wagon_cargo            :Questa carrozza generica puo' essere usata SOLO con unità multiple per merci per creare treni di desiderata lunghezza
 
 #Can attach vehicle texts
-str_cannot_attach_wagon_to_MU                   :Non è possibile agganciare carrozze normali a parti di unità multiple
-str_cannot_attach_wagon_to_Unit_Wagon   :Non è possibile agganciare carrozze normali a parti di unità multiple
-str_cannot_attach_Unit_wagon_to_engine  :Non è possibile agganciare parti di unità multiple a una locomotiva normale
-str_cannot_attach_Unit_wagon_to_wagon   :Non è possibile agganciare parti di unità multiple a carrozze normali
+str_cannot_attach_wagon_to_MU                                   :Non è possibile agganciare carrozze normali a parti di unità multiple
+str_cannot_attach_wagon_to_Unit_Wagon                   :Non è possibile agganciare carrozze normali a parti di unità multiple
+str_cannot_attach_Unit_wagon_to_engine                  :Non è possibile agganciare parti di unità multiple a una locomotiva normale
+str_cannot_attach_Unit_wagon_to_wagon                   :Non è possibile agganciare parti di unità multiple a carrozze normali
+str_cannot_attach_Unit_wagon_cargo_to_passenger :Non è possibile agganciare parti di unità multiple per merci a una locomotiva di unità multipla per passeggeri
+str_cannot_attach_Unit_wagon_passenger_to_cargo :Non è possibile agganciare parti di unità multiple per passeggeri a una locomotiva di unità multipla per merci

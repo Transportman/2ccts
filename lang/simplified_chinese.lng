@@ -568,6 +568,8 @@ str_dmu_Portugal_CP_0400 :葡铁CP 0400 (内燃动车)
 str_dmu_Portugal_CP_0600 :葡铁CP 0600 (内燃动车)
 str_dmu_Spain_FEVE_2400_Apollos :窄轨铁路(西)FEVE 2400 'Apollos' (内燃动车)
 
+#CargoDMU
+
 #EMU
 str_emu_Netherlands_NS_Mat24                            :荷铁NS Mat'24 (电力动车)
 str_emu_Austria_OBB_4041                                        :奥铁OBB 4041 (电力动车)
@@ -835,12 +837,12 @@ str_coach_Gen6_Super_Regio_Coach                                                
 str_coach_Gen6_Super_Voyager_Coach                                              :超级航海家客车(英铁221型)
 
 #special wagons
-str_mu_wagon_unpowered          :动车车厢 (无动力)
-str_mtro_wagon_unpowered        :城轨车厢 (无动力)
-str_mglv_wagon_unpowered        :磁浮车厢 (无动力)
-str_mu_wagon_powered            :动车车厢 (有动力)
-str_mtro_wagon_powered          :城轨车厢 (有动力)
-str_mglv_wagon_powered          :磁浮车厢 (有动力)
+str_mu_wagon_unpowered                  :动车车厢 (无动力)
+str_mtro_wagon_unpowered                :城轨车厢 (无动力)
+str_mglv_wagon_unpowered                :磁浮车厢 (无动力)
+str_mu_wagon_powered                    :动车车厢 (有动力)
+str_mtro_wagon_powered                  :城轨车厢 (有动力)
+str_mglv_wagon_powered                  :磁浮车厢 (有动力)
 
 #Obsolete vehicles
 str_electric_Turkey_TCDD_E55200_obsolete                                                :土铁E55200 (废弃)
@@ -855,10 +857,9 @@ str_dmu_Italy_FS_ALn_668_obsolete                                               
 str_rbe_Germany_DB_ET479_obsolete                                                               :德铁DB ET479 (废弃)
 
 #PURCHASE MENU TEXTS
-str_unit_wagon                          :本通用车厢只能与动车组合成相应长度的列车
 
 #Can attach vehicle texts
-str_cannot_attach_wagon_to_MU                   :不可将普通车厢与动车混编
-str_cannot_attach_wagon_to_Unit_Wagon   :不可将常规车厢挂载到动力车厢
-str_cannot_attach_Unit_wagon_to_engine  :不可将动车组车厢和常规机车混编
-str_cannot_attach_Unit_wagon_to_wagon   :不可将动车组车厢和常规车厢混编
+str_cannot_attach_wagon_to_MU                                   :不可将普通车厢与动车混编
+str_cannot_attach_wagon_to_Unit_Wagon                   :不可将常规车厢挂载到动力车厢
+str_cannot_attach_Unit_wagon_to_engine                  :不可将动车组车厢和常规机车混编
+str_cannot_attach_Unit_wagon_to_wagon                   :不可将动车组车厢和常规车厢混编

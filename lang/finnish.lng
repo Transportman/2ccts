@@ -269,6 +269,8 @@ str_dmu_Russia_RZD_RA2                                          :RZD RA2 (Diesem
 str_dmu_Denmark_DSB_IC4                                         :DSB IC4 (Dieselmoottorivaunu)
 str_dmu_Croatia_HZ_7022                                         :HZ 7022 (Dieselmoottorivaunu)
 
+#CargoDMU
+
 #EMU
 str_emu_Netherlands_NS_Mat24                            :NS Mat'24 (Sähkömoottorivaunu)
 str_emu_Austria_OBB_4041                                        :OBB 4041 (Sähkömoottorivaunu)
@@ -490,21 +492,20 @@ str_coach_Gen6_Super_Regio_Coach                                                
 str_coach_Gen6_Super_Voyager_Coach                                              :Super Voyager matkustajavaunu
 
 #special wagons
-str_mu_wagon_unpowered          :Moottorijunan vaunu (moottoroimaton)
-str_mtro_wagon_unpowered        :Metrovaunu (moottoroimaton)
-str_mglv_wagon_unpowered        :Maglev-vaunu (moottoroimaton)
-str_mu_wagon_powered            :Moottorijunan vaunu (moottoroitu)
-str_mtro_wagon_powered          :Metrovaunu (moottoroitu)
-str_mglv_wagon_powered          :Maglev-vaunu (moottoroitu)
+str_mu_wagon_unpowered                  :Moottorijunan vaunu (moottoroimaton)
+str_mtro_wagon_unpowered                :Metrovaunu (moottoroimaton)
+str_mglv_wagon_unpowered                :Maglev-vaunu (moottoroimaton)
+str_mu_wagon_powered                    :Moottorijunan vaunu (moottoroitu)
+str_mtro_wagon_powered                  :Metrovaunu (moottoroitu)
+str_mglv_wagon_powered                  :Maglev-vaunu (moottoroitu)
 
 #Obsolete vehicles
 str_electric_Turkey_TCDD_E55200_obsolete                                                :TCDD E55200 (Vanhentunut)
 
 #PURCHASE MENU TEXTS
-str_unit_wagon                          :Voit käyttää tätä yleisvaunua VAIN pidentämään moottorivaunujunia haluamaasi pituuteen
 
 #Can attach vehicle texts
-str_cannot_attach_wagon_to_MU                   :Tavallista vaunua ei voi liittää moottorivaunuun
-str_cannot_attach_wagon_to_Unit_Wagon   :Tavallista vaunua ei voi liittää vaunuyksikköön
-str_cannot_attach_Unit_wagon_to_engine  :Vaunuyksikköä ei voi liittää tavalliseen veturiin
-str_cannot_attach_Unit_wagon_to_wagon   :Vaunuyksikköä ei voi liittää tavalliseen vaunuun
+str_cannot_attach_wagon_to_MU                                   :Tavallista vaunua ei voi liittää moottorivaunuun
+str_cannot_attach_wagon_to_Unit_Wagon                   :Tavallista vaunua ei voi liittää vaunuyksikköön
+str_cannot_attach_Unit_wagon_to_engine                  :Vaunuyksikköä ei voi liittää tavalliseen veturiin
+str_cannot_attach_Unit_wagon_to_wagon                   :Vaunuyksikköä ei voi liittää tavalliseen vaunuun

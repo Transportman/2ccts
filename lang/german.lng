@@ -107,6 +107,8 @@ str_electric_Germany_DB_185_TRAXX_F140                  :DB 145 TRAXX F140 (Elek
 #DMU
 str_dmu_Germany_DB_VT04_Flying_Hamburger        :DB VT04 'Fliegender Hamburger' (Dieseltriebwagen)
 
+#CargoDMU
+
 #EMU
 
 #Single Unit Metro
@@ -169,7 +171,7 @@ str_coach_Gen4_Russian_Intercity_Coach                                  :Russisc
 str_coach_Gen4_Amfleet_Intercity_Coach                                  :Amfleet Fernverkehrswagen
 
 #special wagons
-str_mtro_wagon_unpowered        :U-Bahn-Beiwagen (nicht angetrieben)
+str_mtro_wagon_unpowered                :U-Bahn-Beiwagen (nicht angetrieben)
 
 #Obsolete vehicles
 

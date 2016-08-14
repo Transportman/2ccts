@@ -570,6 +570,8 @@ str_dmu_Portugal_CP_0400 :CP 0400 (dizelmotorni voz)
 str_dmu_Portugal_CP_0600 :CP 0600 (dizelmotorni voz)
 str_dmu_Spain_FEVE_2400_Apollos :FEVE 2400 'Apollos' (dizelmotorni voz)
 
+#CargoDMU
+
 #EMU
 str_emu_Netherlands_NS_Mat24                            :NS Mat'24 (elektromotorni voz)
 str_emu_Austria_OBB_4041                                        :OBB 4041 (elektromotorni voz)
@@ -837,12 +839,12 @@ str_coach_Gen6_Super_Regio_Coach                                                
 str_coach_Gen6_Super_Voyager_Coach                                              :Super Voyager vagon za putnike
 
 #special wagons
-str_mu_wagon_unpowered          :Vagon višestruke jedinice (bez pogona)
-str_mtro_wagon_unpowered        :Vagon metroa (bez pogona)
-str_mglv_wagon_unpowered        :Vagon magleva (bez pogona)
-str_mu_wagon_powered            :Vagon višestruke jedinice (sa pogonom)
-str_mtro_wagon_powered          :Vagon metroa (sa pogonom)
-str_mglv_wagon_powered          :Vagon magleva (sa pogonom)
+str_mu_wagon_unpowered                  :Vagon višestruke jedinice (bez pogona)
+str_mtro_wagon_unpowered                :Vagon metroa (bez pogona)
+str_mglv_wagon_unpowered                :Vagon magleva (bez pogona)
+str_mu_wagon_powered                    :Vagon višestruke jedinice (sa pogonom)
+str_mtro_wagon_powered                  :Vagon metroa (sa pogonom)
+str_mglv_wagon_powered                  :Vagon magleva (sa pogonom)
 
 #Obsolete vehicles
 str_electric_Turkey_TCDD_E55200_obsolete                                                :TCDD E55200 (zastareo)
@@ -857,10 +859,9 @@ str_dmu_Italy_FS_ALn_668_obsolete                                               
 str_rbe_Germany_DB_ET479_obsolete                                                               :DB ET479 (zastareo)
 
 #PURCHASE MENU TEXTS
-str_unit_wagon                          :Ovaj generički vagon može da se koristiti SAMO sa višedelnim jedinicama (MU) za stvaranje vozova željene duljine
 
 #Can attach vehicle texts
-str_cannot_attach_wagon_to_MU                   :Običan vagon ne može se priključiti na lokomotivu višestruke jedinice
-str_cannot_attach_wagon_to_Unit_Wagon   :Običan vagon ne može se priključiti na vagon višestruke jedinice
-str_cannot_attach_Unit_wagon_to_engine  :Vagon višestruke jedinice ne može se priključiti na običnu lokomotivu
-str_cannot_attach_Unit_wagon_to_wagon   :Vagon višestruke jedinice ne može se priključiti na običan vagon
+str_cannot_attach_wagon_to_MU                                   :Običan vagon ne može se priključiti na lokomotivu višestruke jedinice
+str_cannot_attach_wagon_to_Unit_Wagon                   :Običan vagon ne može se priključiti na vagon višestruke jedinice
+str_cannot_attach_Unit_wagon_to_engine                  :Vagon višestruke jedinice ne može se priključiti na običnu lokomotivu
+str_cannot_attach_Unit_wagon_to_wagon                   :Vagon višestruke jedinice ne može se priključiti na običan vagon

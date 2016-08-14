@@ -445,6 +445,8 @@ str_dmu_Sri_Lanka_Sri_Lanka_Railways_S11 :Ferrocarrils singalesos - S11 (DMU)
 str_dmu_Slovakia_ZSSK_861 :ZSSK 861 (DMU)
 str_dmu_Chile_EFE_TLD_500 :EFE TLD-500 (DMU)
 
+#CargoDMU
+
 #EMU
 str_emu_Netherlands_NS_Mat24                            :NS Mat'24 (EMU)
 str_emu_Austria_OBB_4041                                        :OBB 4041 (EMU)
@@ -687,12 +689,12 @@ str_coach_Gen6_Super_Regio_Coach                                                
 str_coach_Gen6_Super_Voyager_Coach                                              :Vagó Super Voyager
 
 #special wagons
-str_mu_wagon_unpowered          :Unitat de Vagó Múltiple (Sense alimentació)
-str_mtro_wagon_unpowered        :Unitat de Vagó de Metro (Sense alimentació)
-str_mglv_wagon_unpowered        :Unitat de Vagó Maglev (Sense alimentació)
-str_mu_wagon_powered            :Unitat de Vagó de Metro (Alimentat)
-str_mtro_wagon_powered          :Unitat de Vagó de Metro (Amb alimentació)
-str_mglv_wagon_powered          :Unitat de Vagó Maglev (Alimentat)
+str_mu_wagon_unpowered                  :Unitat de Vagó Múltiple (Sense alimentació)
+str_mtro_wagon_unpowered                :Unitat de Vagó de Metro (Sense alimentació)
+str_mglv_wagon_unpowered                :Unitat de Vagó Maglev (Sense alimentació)
+str_mu_wagon_powered                    :Unitat de Vagó de Metro (Alimentat)
+str_mtro_wagon_powered                  :Unitat de Vagó de Metro (Amb alimentació)
+str_mglv_wagon_powered                  :Unitat de Vagó Maglev (Alimentat)
 
 #Obsolete vehicles
 str_electric_Turkey_TCDD_E55200_obsolete                                                :TCDD E55200 (Obsolet)
@@ -702,10 +704,9 @@ str_steam_South_Africa_PPR_35_tonner_4_6_0T_obsolete                    :PPR 35-
 str_dmu_Slovakia_ZSSK_861_obsolete                                                              :ZSSK 861 (Obsolet)
 
 #PURCHASE MENU TEXTS
-str_unit_wagon                          :Aquest vagó genèric NOMÉS pot emprar-se amb MUs per a crear trens de la llargada desitjada
 
 #Can attach vehicle texts
-str_cannot_attach_wagon_to_MU                   :No es pot afegir el vagó a la Unitat Múltiple
-str_cannot_attach_wagon_to_Unit_Wagon   :No es pot afegir el vagó estàndard al Vagó Unitari
-str_cannot_attach_Unit_wagon_to_engine  :No es pot afegir un Vagó Unitari al vehicle estàndard
-str_cannot_attach_Unit_wagon_to_wagon   :No es pot afegir el Vagó Unitari al vagó estàndard
+str_cannot_attach_wagon_to_MU                                   :No es pot afegir el vagó a la Unitat Múltiple
+str_cannot_attach_wagon_to_Unit_Wagon                   :No es pot afegir el vagó estàndard al Vagó Unitari
+str_cannot_attach_Unit_wagon_to_engine                  :No es pot afegir un Vagó Unitari al vehicle estàndard
+str_cannot_attach_Unit_wagon_to_wagon                   :No es pot afegir el Vagó Unitari al vagó estàndard
