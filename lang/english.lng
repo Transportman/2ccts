@@ -643,6 +643,7 @@ str_emu_Russia_RZD_ES1_Lastochka :RZD ES1 'Lastochka' (EMU)
 str_emu_Austria_WESTbahn_4010_KISS :WESTbahn 4010 'KISS' (EMU)
 str_emu_Croatia_HZ_6112 :HZ 6112 (EMU)
 str_emu_China_Railways_CHR380A :China Railways CHR380A(EMU)
+str_emu_Europe_Sureot :Sureot (EMU)
 
 #Single Unit Metro
 str_mtro_USA_Brooklyn_Union_Gate_Car					:Brooklyn Union Gate Car (Single Unit Metro)

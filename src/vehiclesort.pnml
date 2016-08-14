@@ -599,7 +599,8 @@ item_emu_Austria_WESTbahn_4010_KISS, /*Year: 2011*/ \
 item_emu_Netherlands_NS_4800_HSA, /*Year: 2012*/ \
 item_emu_Netherlands_NS_Hispeed_V250_Albatros, /*Year: 2012*/ \
 item_emu_Croatia_HZ_6112, /*Year: 2015*/ \
-item_emu_Italy_NTV_AGV_Duplex, /*Year: 2015*/
+item_emu_Italy_NTV_AGV_Duplex, /*Year: 2015*/ \
+item_emu_Europe_Sureot, /*Year: 2030*/
 
 #define SORTING_SINGLE_METRO \
 item_mtro_USA_Brooklyn_Union_Gate_Car, /*Year: 1880*/ \

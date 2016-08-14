@@ -1205,6 +1205,8 @@
 #include "src/EMU/Croatia_HZ_6112_item.pnml"
 #include "src/EMU/China_Railways_CHR380A_graphics.pnml"
 #include "src/EMU/China_Railways_CHR380A_item.pnml"
+#include "src/EMU/Europe_Sureot_graphics.pnml"
+#include "src/EMU/Europe_Sureot_item.pnml"
 
 //Single Unit Metro
 #include "src/Metro/USA_Brooklyn_Union_Gate_Car_graphics.pnml"

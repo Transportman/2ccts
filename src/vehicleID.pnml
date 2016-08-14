@@ -622,6 +622,7 @@ item(FEAT_TRAINS, item_emu_Russia_RZD_ES1_Lastochka, 8068) {}
 item(FEAT_TRAINS, item_emu_Austria_WESTbahn_4010_KISS, 8069) {}
 item(FEAT_TRAINS, item_emu_Croatia_HZ_6112, 8070) {}
 item(FEAT_TRAINS, item_emu_China_Railways_CHR380A, 8071) {}
+item(FEAT_TRAINS, item_emu_Europe_Sureot, 8072) {}
 
 //Multi Unit Metro, available ID range: 9000-9999 (hex 0x2328..0x270F)
 #define ID_RANGE_MULTIMETRO 0x2328..0x270F
