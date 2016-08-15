@@ -35,7 +35,7 @@ item(FEAT_TRAINS, item_mtro_USA_NY_R44) {
         refit_cost: 0;
         track_type: MTRO;
 		ai_special_flag: AI_FLAG_PASSENGER;
-        running_cost_base: RUNNING_COST_STEAM;
+        running_cost_base: RUNNING_COST_ELECTRIC;
         engine_class: ENGINE_CLASS_ELECTRIC;
         visual_effect_and_powered: visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
 

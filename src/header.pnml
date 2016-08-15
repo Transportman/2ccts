@@ -161,9 +161,9 @@ disable_item(FEAT_TRAINS, 0, 115);
 basecost {
 	PR_BUILD_VEHICLE_TRAIN:    1 + param_purchase_cost - 4;
 	PR_BUILD_VEHICLE_WAGON:    3 + param_purchase_cost - 4;
-	PR_RUNNING_TRAIN_STEAM:    3 + param_running_cost  - 4; //Engine running costs
-	PR_RUNNING_TRAIN_DIESEL:   1 + param_running_cost  - 4; //Wagon running costs
-	//Electric running costs are not used
+	PR_RUNNING_TRAIN_STEAM:    1 + param_running_cost  - 4;
+	PR_RUNNING_TRAIN_DIESEL:   1 + param_running_cost  - 4;
+	PR_RUNNING_TRAIN_ELECTRIC: 1 + param_running_cost  - 4;
 }
 
 //set depot vehicle width to 32px to avoid overlap
