@@ -19,11 +19,11 @@ item(FEAT_TRAINS, item_wagon_Gen5_Superheavy_Flatcar) {
         model_life: 0;
         vehicle_life: 25;
         LOADINGSPEEDDEF_CARGO
-        cost_factor: 58;
-        running_cost_factor: 56;
+        cost_factor: 78;
+        running_cost_factor: 76;
         speed: 100 km/h;
         power: 0 hp;
-        cargo_capacity: 33;
+        cargo_capacity: 50;
         weight: 50 ton;
         tractive_effort_coefficient: 0.3;
         air_drag_coefficient: 0;
@@ -48,7 +48,7 @@ item(FEAT_TRAINS, item_wagon_Gen5_Superheavy_Flatcar) {
 	graphics {
 		purchase: spriteset_wagon_Gen5_Superheavy_Flatcar_purchase;
 		articulated_part: switch_wagon_Gen5_Superheavy_Flatcar_articulated;
-		cargo_capacity: 33;
+		cargo_capacity: 50;
 		switch_wagon_Gen5_Superheavy_Flatcar;
 	}
 }
