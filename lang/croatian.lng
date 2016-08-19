@@ -30,8 +30,8 @@ STR_PARAM_TIMES_8                   :8
 STR_PARAM_TIMES_16                  :16
 
 #region parameters
-STR_PARAM_CONCEPT                                               :Konceptualna vozila (moguće u budućnosti, nije još dostupno)
-STR_PARAM_CONCEPT_DESC                                  :Koristite konceptualna vozila (ovaj parametar trenutno nije u funkciji)
+STR_PARAM_CONCEPT                                               :Konceptualna vozila
+STR_PARAM_CONCEPT_DESC                                  :Koristite konceptualna vozila
 STR_PARAM_REGION_AFRICA                                 :Afrika
 STR_PARAM_REGION_AFRICA_DESC                    :Koristite vozila iz Afrike
 STR_PARAM_REGION_NORTHAMERICA                   :Sjeverna Amerika
@@ -646,6 +646,7 @@ str_emu_Russia_RZD_ES1_Lastochka :RZD ES1 'Lastochka' (elektromotorni vlak)
 str_emu_Austria_WESTbahn_4010_KISS :WESTbahn 4010 'KISS' (elektromotorni vlak)
 str_emu_Croatia_HZ_6112 :HZ 6112 (elektromotorni vlak)
 str_emu_China_Railways_CHR380A :China Railways CHR380A (elektromotorni vlak)
+str_emu_Europe_Sureot :Sureot (elektromotorni vlak)
 
 #Single Unit Metro
 str_mtro_USA_Brooklyn_Union_Gate_Car                                    :Brooklyn Union Gate (jednostruki metro)

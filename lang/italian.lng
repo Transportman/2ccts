@@ -30,8 +30,8 @@ STR_PARAM_TIMES_8                   :8
 STR_PARAM_TIMES_16                  :16
 
 #region parameters
-STR_PARAM_CONCEPT                                               :Veicoli prototipo (caratteristica futura, non ancora disponibile)
-STR_PARAM_CONCEPT_DESC                                  :Attiva i veicoli "concept", allo stadio di prototipo (questo parametro non è ancora stato implementato)
+STR_PARAM_CONCEPT                                               :Veicoli prototipo
+STR_PARAM_CONCEPT_DESC                                  :Attiva i veicoli prototipo
 STR_PARAM_REGION_AFRICA                                 :Africa
 STR_PARAM_REGION_AFRICA_DESC                    :Attiva i veicoli africani
 STR_PARAM_REGION_NORTHAMERICA                   :America del Nord
@@ -646,6 +646,7 @@ str_emu_Russia_RZD_ES1_Lastochka :RZD ES1 'Rondine' (elettrotreno)
 str_emu_Austria_WESTbahn_4010_KISS :WESTbahn 4010 'KISS' (elettrotreno)
 str_emu_Croatia_HZ_6112 :HZ 6112 (elettrotreno)
 str_emu_China_Railways_CHR380A :Ferrovie Cinesi CHR380A (elettrotreno)
+str_emu_Europe_Sureot :Sureot (elettrotreno)
 
 #Single Unit Metro
 str_mtro_USA_Brooklyn_Union_Gate_Car                                    :Brooklyn Union Gate (Metro unità singola)
