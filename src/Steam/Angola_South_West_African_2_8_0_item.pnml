@@ -19,10 +19,10 @@ item(FEAT_TRAINS, item_steam_Angola_South_West_African_2_8_0) {
         model_life: 25;
         vehicle_life: 40;
         LOADINGSPEEDDEF_NONE
-        cost_factor: 28;
-        running_cost_factor: 22;
+        cost_factor: 32;
+        running_cost_factor: 26;
         speed: 60 km/h;
-        power: 440 hp;
+        power: 640 hp;
         cargo_capacity: 0;
         weight: 67 ton;
         tractive_effort_coefficient: 0.09;

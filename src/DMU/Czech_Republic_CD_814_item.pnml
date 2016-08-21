@@ -23,7 +23,7 @@ item(FEAT_TRAINS, item_dmu_Czech_Republic_CD_814) {
         running_cost_factor: 25;
         speed: 80 km/h;
         power: 325 hp;
-        cargo_capacity: 135;
+        cargo_capacity: 42;
         weight: 22 ton;
         tractive_effort_coefficient: 0.25;
         air_drag_coefficient: 0;

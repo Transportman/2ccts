@@ -19,10 +19,10 @@ item(FEAT_TRAINS, item_dmu_Germany_DB_601_VT11_TEE) {
         model_life: 25;
         vehicle_life: 25;
         LOADINGSPEEDDEF_INTERCITY
-        cost_factor: 26;
-        running_cost_factor: 24;
+        cost_factor: 47;
+        running_cost_factor: 44;
         speed: 160 km/h;
-        power: 310 hp;
+        power: 1475 hp;
         cargo_capacity: 58;
         weight: 33 ton;
         tractive_effort_coefficient: 0.77;
@@ -54,7 +54,7 @@ item(FEAT_TRAINS, item_dmu_Germany_DB_601_VT11_TEE) {
 	}	
 	livery_override (item_mu_wagon_unpowered){
 		LOADINGSPEEDDEF_INTERCITY
-		running_cost_factor: 12;
+		running_cost_factor: 22;
 		power: 0;
 		weight: 17;
 		cargo_capacity: switch_dmu_Germany_DB_601_VT11_TEE_capacity;
@@ -63,8 +63,8 @@ item(FEAT_TRAINS, item_dmu_Germany_DB_601_VT11_TEE) {
 	}
 	livery_override (item_mu_wagon_powered){
 		LOADINGSPEEDDEF_INTERCITY
-		running_cost_factor: 18;
-		power: 155;
+		running_cost_factor: 33;
+		power: 788;
 		weight: 25;
 		cargo_capacity: switch_dmu_Germany_DB_601_VT11_TEE_capacity;
         tractive_effort_coefficient: 128;

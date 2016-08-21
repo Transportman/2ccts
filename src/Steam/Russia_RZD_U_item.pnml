@@ -19,10 +19,10 @@ item(FEAT_TRAINS, item_steam_Russia_RZD_U) {
         model_life: 25;
         vehicle_life: 40;
         LOADINGSPEEDDEF_COMMUTER
-        cost_factor: 33;
-        running_cost_factor: 26;
+        cost_factor: 37;
+        running_cost_factor: 30;
         speed: 115 km/h;
-        power: 617 hp;
+        power: 820 hp;
         cargo_capacity: 0;
         weight: 72 ton;
         tractive_effort_coefficient: 0.13;

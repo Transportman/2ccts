@@ -19,10 +19,10 @@ item(FEAT_TRAINS, item_steam_Canada_Canadian_Pacific_374) {
         model_life: 25;
         vehicle_life: 40;
         LOADINGSPEEDDEF_NONE
-        cost_factor: 19;
-        running_cost_factor: 15;
+        cost_factor: 32;
+        running_cost_factor: 27;
         speed: 104 km/h;
-        power: 180 hp;
+        power: 670 hp;
         cargo_capacity: 0;
         weight: 52 ton;
         tractive_effort_coefficient: 0.13;

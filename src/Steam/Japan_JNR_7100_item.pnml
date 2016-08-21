@@ -19,10 +19,10 @@ item(FEAT_TRAINS, item_steam_Japan_JNR_7100) {
         model_life: 25;
         vehicle_life: 40;
         LOADINGSPEEDDEF_COMMUTER
-        cost_factor: 13;
-        running_cost_factor: 10;
+        cost_factor: 18;
+        running_cost_factor: 15;
         speed: 36 km/h;
-        power: 90 hp;
+        power: 200 hp;
         cargo_capacity: 0;
         weight: 31 ton;
         tractive_effort_coefficient: 0.07;

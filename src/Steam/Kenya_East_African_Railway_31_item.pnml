@@ -19,10 +19,10 @@ item(FEAT_TRAINS, item_steam_Kenya_East_African_Railway_31) {
         model_life: 25;
         vehicle_life: 40;
         LOADINGSPEEDDEF_COMMUTER
-        cost_factor: 39;
-        running_cost_factor: 28;
+        cost_factor: 47;
+        running_cost_factor: 36;
         speed: 80 km/h;
-        power: 725 hp;
+        power: 1220 hp;
         cargo_capacity: 0;
         weight: 115 ton;
         tractive_effort_coefficient: 0.1;

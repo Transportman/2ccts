@@ -19,10 +19,10 @@ item(FEAT_TRAINS, item_steam_Australia_NSWGR_Z25_Class) {
         model_life: 25;
         vehicle_life: 40;
         LOADINGSPEEDDEF_NONE
-        cost_factor: 19;
-        running_cost_factor: 15;
+        cost_factor: 30;
+        running_cost_factor: 27;
         speed: 80 km/h;
-        power: 200 hp;
+        power: 650 hp;
         cargo_capacity: 0;
         weight: 43 ton;
         tractive_effort_coefficient: 0.23;

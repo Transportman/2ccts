@@ -15,7 +15,7 @@ item(FEAT_TRAINS, item_diesel_USA_Metrolink_EMD_F59PH) {
         name: string(str_diesel_USA_Metrolink_EMD_F59PH);
         REGION(NORTHAMERICA,NOREGION,NOCONCEPT)
 		
-        introduction_date: date(1994,1,1);
+        introduction_date: date(1988,1,1);
         model_life: 25;
         vehicle_life: 40;
         LOADINGSPEEDDEF_NONE

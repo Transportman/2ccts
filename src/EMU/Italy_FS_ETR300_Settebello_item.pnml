@@ -20,8 +20,8 @@ item(FEAT_TRAINS, item_emu_Italy_FS_ETR300_Settebello) {
         vehicle_life: 25;
         LOADINGSPEEDDEF_INTERCITY
         cost_factor: 31;
-        running_cost_factor: 27;
-        speed: 160 km/h;
+        running_cost_factor: 28;
+        speed: 300 km/h;
         power: 500 hp;
         cargo_capacity: 28;
         weight: 52 ton;
