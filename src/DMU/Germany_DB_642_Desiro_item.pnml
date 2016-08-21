@@ -19,10 +19,10 @@ item(FEAT_TRAINS, item_dmu_Germany_DB_642_Desiro) {
         model_life: VEHICLE_NEVER_EXPIRES;
         vehicle_life: 25;
         LOADINGSPEEDDEF_COMMUTER
-        cost_factor: 31;
-        running_cost_factor: 26;
+        cost_factor: 30;
+        running_cost_factor: 24;
         speed: 120 km/h;
-        power: 420 hp;
+        power: 368 hp;
         cargo_capacity: 55;
         weight: 60 ton;
         tractive_effort_coefficient: 0.18;
@@ -54,7 +54,7 @@ item(FEAT_TRAINS, item_dmu_Germany_DB_642_Desiro) {
 	}	
 	livery_override (item_mu_wagon_unpowered){
 		LOADINGSPEEDDEF_COMMUTER
-		running_cost_factor: 13;
+		running_cost_factor: 12;
 		power: 0;
 		weight: 30;
 		cargo_capacity: switch_dmu_Germany_DB_642_Desiro_capacity;
@@ -63,8 +63,8 @@ item(FEAT_TRAINS, item_dmu_Germany_DB_642_Desiro) {
 	}
 	livery_override (item_mu_wagon_powered){
 		LOADINGSPEEDDEF_COMMUTER
-		running_cost_factor: 20;
-		power: 210;
+		running_cost_factor: 18;
+		power: 189;
 		weight: 45;
 		cargo_capacity: switch_dmu_Germany_DB_642_Desiro_capacity;
         tractive_effort_coefficient: 55;

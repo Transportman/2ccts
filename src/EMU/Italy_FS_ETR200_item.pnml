@@ -19,10 +19,10 @@ item(FEAT_TRAINS, item_emu_Italy_FS_ETR200) {
         model_life: 25;
         vehicle_life: 25;
         LOADINGSPEEDDEF_INTERCITY
-        cost_factor: 28;
-        running_cost_factor: 25;
+        cost_factor: 30;
+        running_cost_factor: 27;
         speed: 160 km/h;
-        power: 420 hp;
+        power: 482 hp;
         cargo_capacity: 35;
         weight: 41 ton;
         tractive_effort_coefficient: 0.18;
@@ -56,15 +56,15 @@ item(FEAT_TRAINS, item_emu_Italy_FS_ETR200) {
 		LOADINGSPEEDDEF_INTERCITY
 		running_cost_factor: 13;
 		power: 0;
-		weight: 21;
+		weight: 14;
 		cargo_capacity: switch_emu_Italy_FS_ETR200_capacity;
 		length: 8;
 		default: switch_emu_Italy_FS_ETR200_cargo_selection;
 	}
 	livery_override (item_mu_wagon_powered){
 		LOADINGSPEEDDEF_INTERCITY
-		running_cost_factor: 10;
-		power: 210;
+		running_cost_factor: 21;
+		power: 241;
 		weight: 20;
 		cargo_capacity: switch_emu_Italy_FS_ETR200_capacity;
         tractive_effort_coefficient: 38;
