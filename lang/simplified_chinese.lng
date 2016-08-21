@@ -28,8 +28,8 @@ STR_PARAM_TIMES_8                   :8
 STR_PARAM_TIMES_16                  :16
 
 #region parameters
-STR_PARAM_CONCEPT                                               :概念车型 (未来的功能, 尚未实现)
-STR_PARAM_CONCEPT_DESC                                  :使用概念车型 (此参数尚未生效)
+STR_PARAM_CONCEPT                                               :概念车型
+STR_PARAM_CONCEPT_DESC                                  :使用概念车型
 STR_PARAM_REGION_AFRICA                                 :非洲
 STR_PARAM_REGION_AFRICA_DESC                    :使用非洲车辆
 STR_PARAM_REGION_NORTHAMERICA                   :北美
@@ -569,6 +569,7 @@ str_dmu_Portugal_CP_0600 :葡铁CP 0600 (内燃动车)
 str_dmu_Spain_FEVE_2400_Apollos :窄轨铁路(西)FEVE 2400 'Apollos' (内燃动车)
 
 #CargoDMU
+str_cargodmu_Germany_DB_691_CargoSprinter       :德铁DB 691 '货物短跑手' (货物 内燃动车)
 
 #EMU
 str_emu_Netherlands_NS_Mat24                            :荷铁NS Mat'24 (电力动车)
@@ -643,6 +644,7 @@ str_emu_Russia_RZD_ES1_Lastochka :俄铁RZD ES1 '海燕' (电力动车)
 str_emu_Austria_WESTbahn_4010_KISS :西部铁路(奥)WESTbahn 4010 '亲吻' (电力动车)
 str_emu_Croatia_HZ_6112 :克铁HZ 6112 (电力动车)
 str_emu_China_Railways_CHR380A :中铁CR CRH380A(电力动车)
+str_emu_Europe_Sureot :Sureot (电力动车)
 
 #Single Unit Metro
 str_mtro_USA_Brooklyn_Union_Gate_Car                                    :布鲁克林联合高架铁BRT Gate Car (单机城轨)
@@ -840,9 +842,11 @@ str_coach_Gen6_Super_Voyager_Coach                                              
 str_mu_wagon_unpowered                  :动车车厢 (无动力)
 str_mtro_wagon_unpowered                :城轨车厢 (无动力)
 str_mglv_wagon_unpowered                :磁浮车厢 (无动力)
+str_mu_cargo_wagon_unpowered    :动车车厢(无动力)
 str_mu_wagon_powered                    :动车车厢 (有动力)
 str_mtro_wagon_powered                  :城轨车厢 (有动力)
 str_mglv_wagon_powered                  :磁浮车厢 (有动力)
+str_mu_cargo_wagon_powered              :动车组车厢(带动力)
 
 #Obsolete vehicles
 str_electric_Turkey_TCDD_E55200_obsolete                                                :土铁E55200 (废弃)
@@ -857,9 +861,13 @@ str_dmu_Italy_FS_ALn_668_obsolete                                               
 str_rbe_Germany_DB_ET479_obsolete                                                               :德铁DB ET479 (废弃)
 
 #PURCHASE MENU TEXTS
+str_unit_wagon_passenger        :此车厢仅能用于客运动车组，组成适当长度的列车
+str_unit_wagon_cargo            :此车厢仅能用于货运动车组，组成适当长度列车
 
 #Can attach vehicle texts
 str_cannot_attach_wagon_to_MU                                   :不可将普通车厢与动车混编
 str_cannot_attach_wagon_to_Unit_Wagon                   :不可将常规车厢挂载到动力车厢
 str_cannot_attach_Unit_wagon_to_engine                  :不可将动车组车厢和常规机车混编
 str_cannot_attach_Unit_wagon_to_wagon                   :不可将动车组车厢和常规车厢混编
+str_cannot_attach_Unit_wagon_cargo_to_passenger :不可将货车厢挂载于客车动车引擎
+str_cannot_attach_Unit_wagon_passenger_to_cargo :不可将客车车厢挂载于货物动车引擎
