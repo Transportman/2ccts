@@ -54,10 +54,10 @@ STR_PARAM_REGION_OCEANIA_DESC                   :Attiva i veicoli dell'Oceania
 #loading speed parameter
 STR_PARAM_LOADINGSPEED                                  :Velocità di caricamento
 STR_PARAM_LOADINGSPEED_DESC                             :Impostate la velocità di caricamento di questo set
-STR_PARAM_LOADINGSPEED_SLOW                             :Lento
+STR_PARAM_LOADINGSPEED_SLOW                             :Lenta
 STR_PARAM_LOADINGSPEED_NORMAL                   :Normale (impostazione di base)
 STR_PARAM_LOADINGSPEED_FAST                             :Veloce
-STR_PARAM_LOADINGSPEED_ULTRA                    :Il piu' veloce possibile
+STR_PARAM_LOADINGSPEED_ULTRA                    :Velocissima
 
 #VEHICLE NAMES
 #Railbus-steam
@@ -194,7 +194,7 @@ str_steam_Norway_NSB_Class_XXI :NSB XXI (locomotiva a vapore)
 str_steam_USA_PRR_D16 :PRR D16 (locomotiva a vapore)
 str_steam_Netherlands_NS_8100 :NS 8100 (locomotiva a vapore)
 str_steam_South_Africa_SAR_MD_Class :SAR MD (locomotiva a vapore)
-str_steam_Angola_South_West_African_2_8_0 :Ferrovia Africana di Sud-Ovest 2-8-0 (locomotiva a vapore)
+str_steam_Angola_South_West_African_2_8_0 :Ferrovia Africana del Sud-Ovest 2-8-0 (locomotiva a vapore)
 str_steam_UK_LNER_N7 :LNER N7 (locomotiva a vapore)
 str_steam_Germany_Saxon_XX_HV :Ferrovie Sassoni XX HV (locomotiva a vapore)
 str_steam_Belgium_NMBS_Type_7 :NMBS Tipo 7 (locomotiva a vapore)
@@ -863,13 +863,13 @@ str_dmu_Italy_FS_ALn_668_obsolete                                               
 str_rbe_Germany_DB_ET479_obsolete                                                               :DB ET479 (antiquata)
 
 #PURCHASE MENU TEXTS
-str_unit_wagon_passenger        :Questa carrozza generica puo' essere usata SOLO con unità multiple per passeggeri per creare treni di desiderata lunghezza
-str_unit_wagon_cargo            :Questa carrozza generica puo' essere usata SOLO con unità multiple per merci per creare treni di desiderata lunghezza
+str_unit_wagon_passenger        :Questa carrozza può solo essere usata con treni passeggeri a unità multiple
+str_unit_wagon_cargo            :Questo vagone può solo essere usato con treni merci a unità multiple
 
 #Can attach vehicle texts
 str_cannot_attach_wagon_to_MU                                   :Non è possibile agganciare carrozze normali a parti di unità multiple
 str_cannot_attach_wagon_to_Unit_Wagon                   :Non è possibile agganciare carrozze normali a parti di unità multiple
 str_cannot_attach_Unit_wagon_to_engine                  :Non è possibile agganciare parti di unità multiple a una locomotiva normale
 str_cannot_attach_Unit_wagon_to_wagon                   :Non è possibile agganciare parti di unità multiple a carrozze normali
-str_cannot_attach_Unit_wagon_cargo_to_passenger :Non è possibile agganciare parti di unità multiple per merci a una locomotiva di unità multipla per passeggeri
-str_cannot_attach_Unit_wagon_passenger_to_cargo :Non è possibile agganciare parti di unità multiple per passeggeri a una locomotiva di unità multipla per merci
+str_cannot_attach_Unit_wagon_cargo_to_passenger :Non è possibile agganciare parti di unità multiple per merci a un treno passeggeri a unità multiple
+str_cannot_attach_Unit_wagon_passenger_to_cargo :Non è possibile agganciare parti di unità multiple passeggeri a un treno merci a unità multiple
