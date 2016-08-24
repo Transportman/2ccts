@@ -486,7 +486,7 @@ item(FEAT_TRAINS, item_electric_Norway_NSB_EL17, 6129) {}
 item(FEAT_TRAINS, item_electric_South_Africa_SAR_11E, 6130) {}
 item(FEAT_TRAINS, item_electric_South_Africa_SAR_E38, 6131) {}
 item(FEAT_TRAINS, item_electric_USA_Amtrak_HHP_8, 6132) {}
-item(FEAT_TRAINS, item_electric_Brasil_RFFSA_He_4_4, 6133) {}
+item(FEAT_TRAINS, item_electric_Brasil_MRS_He_4_4, 6133) {}
 item(FEAT_TRAINS, item_electric_Russia_RZD_VL11, 6134) {}
 item(FEAT_TRAINS, item_electric_Germany_Prussian_ES_6, 6135) {}
 

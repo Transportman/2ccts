@@ -10,9 +10,9 @@
 * ITEM
 */
 
-item(FEAT_TRAINS, item_electric_Brasil_RFFSA_He_4_4) {
+item(FEAT_TRAINS, item_electric_Brasil_MRS_He_4_4) {
     property {
-        name: string(str_electric_Brasil_RFFSA_He_4_4);
+        name: string(str_electric_Brasil_MRS_He_4_4);
         REGION(SOUTHAMERICA,NOREGION,NOCONCEPT)
 		
         introduction_date: date(2012,1,1);
@@ -46,8 +46,8 @@ item(FEAT_TRAINS, item_electric_Brasil_RFFSA_He_4_4) {
         bitmask_vehicle_info: 0;
 	}
 	graphics {
-		purchase: spriteset_electric_Brasil_RFFSA_He_4_4_purchase;
+		purchase: spriteset_electric_Brasil_MRS_He_4_4_purchase;
 		can_attach_wagon: switch_can_attach_vehicle;
-		spriteset_electric_Brasil_RFFSA_He_4_4;
+		spriteset_electric_Brasil_MRS_He_4_4;
 	}
 }
