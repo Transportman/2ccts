@@ -108,7 +108,7 @@ str_rbd_Czech_Republic_CD_840 :CD 840 (Ferrobús Dièsel)
 str_rbd_Argentina_FCPBA_M_Railcar :Automotor FCPBA M (ferrobús dièsel)
 
 #Railbus-electric
-str_rbe_Switzerland_SBB_Cfe_3_3         :SBB Cfe 3/3 (Ferrobús Elèctric)
+str_rbe_Switzerland_AB_CFe_3_3         :AB CFe 3/3 (Ferrobús Elèctric)
 str_rbe_Morocco_ONCFM_ZAB1000           :ONCFM ZAB1000 (Ferrobús Elèctric)
 str_rbe_Germany_DB_ET85                         :DB ET85 (Ferrobús Elèctric)
 str_rbe_Italy_FS_ALe_840                        :FS ALe 840 (Ferrobús Elèctric)

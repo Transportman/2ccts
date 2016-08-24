@@ -115,7 +115,7 @@ str_rbd_Eritrea_Eritrean_Railway_A62_70_Littorina :Eritrean Railway A.62-70 'Lit
 str_rbd_Italy_FS_ALn_668 :FS ALn 668 (Diesel railbus)
 
 #Railbus-electric
-str_rbe_Switzerland_SBB_Cfe_3_3		:SBB Cfe 3/3 (Electric Railbus)
+str_rbe_Switzerland_AB_CFe_3_3		:AB CFe 3/3 (Electric Railbus)
 str_rbe_Morocco_ONCFM_ZAB1000		:ONCFM ZAB1000 (Electric Railbus)
 str_rbe_Germany_DB_ET85				:DB ET85 (Electric Railbus)
 str_rbe_Italy_FS_ALe_840			:FS ALe 840 (Electric Railbus)

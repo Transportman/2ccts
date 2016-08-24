@@ -10,9 +10,9 @@
 * ITEM
 */
 
-item(FEAT_TRAINS, item_rbe_Switzerland_SBB_Cfe_3_3) {
+item(FEAT_TRAINS, item_rbe_Switzerland_AB_CFe_3_3) {
     property {
-        name: string(str_rbe_Switzerland_SBB_Cfe_3_3);
+        name: string(str_rbe_Switzerland_AB_CFe_3_3);
         REGION(WESTERNEUROPE,NOREGION,NOCONCEPT)
 		
         introduction_date: date(1911,1,1);
@@ -46,9 +46,9 @@ item(FEAT_TRAINS, item_rbe_Switzerland_SBB_Cfe_3_3) {
         bitmask_vehicle_info: 0;
 	}
 	graphics {
-		cargo_capacity: switch_rbe_Switzerland_SBB_Cfe_3_3_capacity;
-		purchase: spriteset_rbe_Switzerland_SBB_Cfe_3_3_purchase;
+		cargo_capacity: switch_rbe_Switzerland_AB_CFe_3_3_capacity;
+		purchase: spriteset_rbe_Switzerland_AB_CFe_3_3_purchase;
 		can_attach_wagon: switch_can_attach_vehicle;
-		spriteset_rbe_Switzerland_SBB_Cfe_3_3;
+		spriteset_rbe_Switzerland_AB_CFe_3_3;
 	}	
 }

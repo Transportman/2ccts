@@ -116,7 +116,7 @@ str_rbd_Eritrea_Eritrean_Railway_A62_70_Littorina :厄立特里亚铁路 A.62-70
 str_rbd_Italy_FS_ALn_668 :意铁FS ALn 668 (内燃铁路巴士)
 
 #Railbus-electric
-str_rbe_Switzerland_SBB_Cfe_3_3         :瑞铁SBB Cfe 3/3 (电力铁路巴士)
+str_rbe_Switzerland_AB_CFe_3_3         :瑞铁AB CFe 3/3 (电力铁路巴士)
 str_rbe_Morocco_ONCFM_ZAB1000           :摩洛哥铁路ONCFM ZAB1000 (电力铁路巴士)
 str_rbe_Germany_DB_ET85                         :德铁DB ET85 (电力铁路巴士)
 str_rbe_Italy_FS_ALe_840                        :意铁FS ALe 840 (电力铁路巴士)

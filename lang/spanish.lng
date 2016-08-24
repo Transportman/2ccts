@@ -110,7 +110,7 @@ str_rbd_Chile_EFE_Buscarril :EFE Buscarril (Railbus diésel)
 str_rbd_Italy_FS_ALn_668 :FS ALn 668 (Railbus diésel)
 
 #Railbus-electric
-str_rbe_Switzerland_SBB_Cfe_3_3         :SBB Cfe 3/3 (Railbus eléctrico)
+str_rbe_Switzerland_AB_CFe_3_3         :AB CFe 3/3 (Railbus eléctrico)
 str_rbe_Morocco_ONCFM_ZAB1000           :ONCFM ZAB1000 (Railbus eléctrico)
 str_rbe_Germany_DB_ET85                         :DB ET85 (Railbus eléctrico)
 str_rbe_Italy_FS_ALe_840                        :FS ALe 840 (Railbus eléctrico)

@@ -164,8 +164,8 @@
 #include "src/Railbus-diesel/Italy_FS_ALn_668_item.pnml"
 
 //Railbus-electric
-#include "src/Railbus-electric/Switzerland_SBB_Cfe_3_3_graphics.pnml"
-#include "src/Railbus-electric/Switzerland_SBB_Cfe_3_3_item.pnml"
+#include "src/Railbus-electric/Switzerland_AB_CFe_3_3_graphics.pnml"
+#include "src/Railbus-electric/Switzerland_AB_CFe_3_3_item.pnml"
 #include "src/Railbus-electric/Morocco_ONCFM_ZAB1000_graphics.pnml"
 #include "src/Railbus-electric/Morocco_ONCFM_ZAB1000_item.pnml"
 #include "src/Railbus-electric/Germany_DB_ET85_graphics.pnml"
