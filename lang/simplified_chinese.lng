@@ -407,7 +407,7 @@ str_electric_Netherlands_NS_1000                                :荷铁NS 1000 (
 str_electric_Sweden_MTAB_Dm3                                    :卢卡矿业MTAB Dm3 (电力)
 str_electric_UK_BR_77_Metrovic                                  :英铁BR 77 'Metrovic' (电力)
 str_electric_France_SNCF_BB_9004                                :法铁SNCF BB 9004 (电力)
-str_electric_Switzerland_SBB_Ce_4_4                     :瑞铁SBB Ce 4/4 (电力)
+str_electric_Switzerland_BLS_Ce_4_4                     :瑞铁BLS Ce 4/4 (电力)
 str_electric_Switzerland_SBB_Ae_6_6                     :瑞铁SBB Ae 6/6 (电力)
 str_electric_India_Indian_Railways_WCM_1                :印铁IR  WCM-1 (电力)
 str_electric_Italy_FS_E646                                              :意铁FS E.646 (电力)

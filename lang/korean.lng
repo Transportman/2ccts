@@ -168,7 +168,7 @@ str_electric_Netherlands_NS_1000                                :NS 1000 (전기
 str_electric_Sweden_MTAB_Dm3                                    :MTAB Dm3 (전기)
 str_electric_UK_BR_77_Metrovic                                  :BR 77 'Metrovic' (전기)
 str_electric_France_SNCF_BB_9004                                :SNCF BB 9004 (전기)
-str_electric_Switzerland_SBB_Ce_4_4                     :SBB Ce 4/4 (전기)
+str_electric_Switzerland_BLS_Ce_4_4                     :BLS Ce 4/4 (전기)
 str_electric_Switzerland_SBB_Ae_6_6                     :SBB Ae 6/6 (전기)
 str_electric_India_Indian_Railways_WCM_1                :인도 철도공사 WCM-1 (전기)
 str_electric_Italy_FS_E646                                              :FS E646 (전기)
