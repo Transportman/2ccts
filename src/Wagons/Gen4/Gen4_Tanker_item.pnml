@@ -47,7 +47,6 @@ item(FEAT_TRAINS, item_wagon_Gen4_Tanker) {
 	}
 	graphics {
 		purchase: spriteset_wagon_Gen4_Tanker_purchase;
-		cargo_capacity: 80;
 		switch_wagon_Gen4_Tanker_cargo_selection;
 	}
 }

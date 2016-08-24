@@ -47,7 +47,6 @@ item(FEAT_TRAINS, item_wagon_Gen4_Gondola) {
 	}
 	graphics {
 		purchase: spriteset_wagon_Gen4_Gondola_purchase;
-		cargo_capacity: 55;
 		switch_wagon_Gen4_Gondola_cargo_selection;
 	}
 }

@@ -47,7 +47,6 @@ item(FEAT_TRAINS, item_wagon_Gen5_Boxcar_Type2) {
 	}
 	graphics {
 		purchase: spriteset_wagon_Gen5_Boxcar_Type2_purchase;
-		cargo_capacity: 63;
 		switch_wagon_Gen5_Boxcar_Type2_Standard_livery;
 	}
 }

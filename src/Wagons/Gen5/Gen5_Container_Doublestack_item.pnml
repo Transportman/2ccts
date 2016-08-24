@@ -47,7 +47,6 @@ item(FEAT_TRAINS, item_wagon_Gen5_Container_Doublestack) {
 	}
 	graphics {
 		purchase: spriteset_wagon_Gen5_Container_Doublestack_purchase;
-		cargo_capacity: 65;
 		switch_wagon_Gen5_Container_Doublestack_cargo_selection;
 	}
 }

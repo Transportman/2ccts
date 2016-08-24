@@ -47,7 +47,6 @@ item(FEAT_TRAINS, item_wagon_Gen5_Centerbeam) {
 	}
 	graphics {
 		purchase: spriteset_wagon_Gen5_Centerbeam_purchase;
-		cargo_capacity: 55;
 		switch_wagon_Gen5_Centerbeam_cargo_selection;
 	}
 }

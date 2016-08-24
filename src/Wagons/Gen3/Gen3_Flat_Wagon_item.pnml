@@ -47,7 +47,6 @@ item(FEAT_TRAINS, item_wagon_Gen3_Flat_Wagon) {
 	}
 	graphics {
 		purchase: spriteset_wagon_Gen3_Flat_Wagon_purchase;
-		cargo_capacity: 40;
 		switch_wagon_Gen3_Flat_Wagon_cargo_selection;
 	}
 }
