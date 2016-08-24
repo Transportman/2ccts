@@ -223,7 +223,7 @@ item(FEAT_TRAINS, item_diesel_Germany_DB_270, 5003) {}
 item(FEAT_TRAINS, item_diesel_Switzerland_SBB_Am_4_6, 5004) {}
 item(FEAT_TRAINS, item_diesel_Australia_NSWGR_79, 5005) {}
 item(FEAT_TRAINS, item_diesel_USA_Western_Pacific_ALCO_S_2, 5006) {}
-item(FEAT_TRAINS, item_diesel_USA_GNR_EMD_F3, 5007) {}
+item(FEAT_TRAINS, item_diesel_USA_AT_SF_EMD_F3, 5007) {}
 item(FEAT_TRAINS, item_diesel_USA_UP_EMD_E8, 5008) {}
 item(FEAT_TRAINS, item_diesel_Brazil_EFCB_ALCO_RS_3, 5009) {}
 item(FEAT_TRAINS, item_diesel_Netherlands_NS_600, 5010) {}
