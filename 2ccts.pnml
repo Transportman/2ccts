@@ -1581,26 +1581,6 @@
 
 
 //obsolete vehicles
-#include "src/Obsolete/Turkey_TCDD_E55200_obsolete_graphics.pnml"
-#include "src/Obsolete/Turkey_TCDD_E55200_obsolete_item.pnml"
-#include "src/Obsolete/Germany_DB_253_G2000_3_BB_obsolete_graphics.pnml"
-#include "src/Obsolete/Germany_DB_253_G2000_3_BB_obsolete_item.pnml"
-#include "src/Obsolete/USA_Pennsylvania_Railroad_RF_16_Sharknose_obsolete_graphics.pnml"
-#include "src/Obsolete/USA_Pennsylvania_Railroad_RF_16_Sharknose_obsolete_item.pnml"
-#include "src/Obsolete/Slovakia_ZSSK_861_obsolete_graphics.pnml"
-#include "src/Obsolete/Slovakia_ZSSK_861_obsolete_item.pnml"
-#include "src/Obsolete/South_Africa_PPR_35_tonner_4_6_0T_obsolete_graphics.pnml"
-#include "src/Obsolete/South_Africa_PPR_35_tonner_4_6_0T_obsolete_item.pnml"
-#include "src/Obsolete/Germany_DB_VT98_obsolete_graphics.pnml"
-#include "src/Obsolete/Germany_DB_VT98_obsolete_item.pnml"
-#include "src/Obsolete/Portugal_CP_Class_2550_obsolete_graphics.pnml"
-#include "src/Obsolete/Portugal_CP_Class_2550_obsolete_item.pnml"
-#include "src/Obsolete/Germany_DB_650_Regio_Shuttle_obsolete_graphics.pnml"
-#include "src/Obsolete/Germany_DB_650_Regio_Shuttle_obsolete_item.pnml"
-#include "src/Obsolete/Italy_FS_ALn_668_obsolete_graphics.pnml"
-#include "src/Obsolete/Italy_FS_ALn_668_obsolete_item.pnml"
-#include "src/Obsolete/Germany_DB_ET479_obsolete_graphics.pnml"
-#include "src/Obsolete/Germany_DB_ET479_obsolete_item.pnml"
 
 //sort vehicles in purchase list
 #include "src/vehiclesort.pnml"

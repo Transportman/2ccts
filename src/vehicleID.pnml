@@ -28,7 +28,7 @@ item(FEAT_TRAINS, item_rbd_Austria_OBB_VT42, 2003) {}
 item(FEAT_TRAINS, item_rbd_New_Zealand_NZR_RM31, 2004) {}
 item(FEAT_TRAINS, item_rbd_Portugal_CP_0100, 2005) {}
 item(FEAT_TRAINS, item_rbd_USA_Amtrak_Budd_RDC, 2006) {}
-item(FEAT_TRAINS, item_rbd_Germany_DB_VT98_obsolete, 2007) {} // Obsolete
+// 2007 free
 item(FEAT_TRAINS, item_rbd_Germany_OHE_520_GDT, 2008) {}
 item(FEAT_TRAINS, item_rbd_Netherlands_NS_20_Kameel, 2009) {}
 item(FEAT_TRAINS, item_rbd_Finland_VR_Dm7, 2010) {}
@@ -37,7 +37,7 @@ item(FEAT_TRAINS, item_rbd_Netherlands_NS_DH1, 2012) {}
 item(FEAT_TRAINS, item_rbd_Austria_OBB_5047, 2013) {}
 item(FEAT_TRAINS, item_rbd_United_Kingdom_BR_153_Super_Sprinter, 2014) {}
 item(FEAT_TRAINS, item_rbd_Czech_Republic_CD_809, 2015) {}
-item(FEAT_TRAINS, item_rbd_Germany_DB_650_Regio_Shuttle_obsolete, 2016) {} // Obsolete
+// 2016 free
 item(FEAT_TRAINS, item_rbd_Germany_DB_670, 2017) {}
 item(FEAT_TRAINS, item_rbd_Lithuania_Lithuanian_Railways_AR2, 2018) {}
 item(FEAT_TRAINS, item_rbd_Austria_kkStB_19, 2019) {}
@@ -405,7 +405,7 @@ item(FEAT_TRAINS, item_electric_India_Indian_Railways_WAP_4, 6048) {}
 item(FEAT_TRAINS, item_electric_Germany_DB_185_TRAXX_F140, 6049) {}
 item(FEAT_TRAINS, item_electric_Belgium_NMBS_SNCB_13_HLE, 6050) {}
 item(FEAT_TRAINS, item_electric_Japan_JR_EH500, 6051) {}
-item(FEAT_TRAINS, item_electric_Turkey_TCDD_E55200_obsolete, 6052) {} // obsoleted
+// 6052 free
 item(FEAT_TRAINS, item_electric_Germany_DB_182_ES64U_Taurus, 6053) {}
 item(FEAT_TRAINS, item_electric_Sweden_MTAB_IORE, 6054) {}
 item(FEAT_TRAINS, item_electric_South_Korea_Korail_8200, 6055) {}
@@ -439,7 +439,7 @@ item(FEAT_TRAINS, item_electric_Belgium_NMBS_Class_255, 6082) {}
 item(FEAT_TRAINS, item_electric_Russia_RZD_ChS3, 6083) {}
 item(FEAT_TRAINS, item_electric_Poland_PKP_EU06, 6084) {}
 item(FEAT_TRAINS, item_electric_Hungary_MAV_Class_V43, 6085) {}
-item(FEAT_TRAINS, item_electric_Portugal_CP_Class_2550_obsolete, 6086) {} // Obsoleted
+// 6086 free
 item(FEAT_TRAINS, item_electric_France_SNCF_BB_25500, 6087) {}
 item(FEAT_TRAINS, item_electric_South_Africa_SAR_5E1, 6088) {}
 item(FEAT_TRAINS, item_electric_Czech_Republic_CD_S499, 6089) {}
@@ -526,7 +526,7 @@ item(FEAT_TRAINS, item_dmu_Australia_TransAdelaide_3100, 7030) {}
 item(FEAT_TRAINS, item_dmu_Australia_NSWGR_Xplorer, 7031) {}
 item(FEAT_TRAINS, item_dmu_Japan_JR_KiHa_189, 7032) {}
 item(FEAT_TRAINS, item_dmu_Sri_Lanka_Sri_Lanka_Railways_S11, 7033) {}
-item(FEAT_TRAINS, item_dmu_Slovakia_ZSSK_861_obsolete, 7034) {} // Obsoleted
+// 7034 free
 item(FEAT_TRAINS, item_dmu_Slovakia_ZSSK_861, 7035) {}
 item(FEAT_TRAINS, item_dmu_Chile_EFE_TLD_500, 7036) {}
 item(FEAT_TRAINS, item_dmu_Cameroon_Camrail_ZE_500, 7037) {}

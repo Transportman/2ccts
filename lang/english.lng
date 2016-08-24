@@ -848,16 +848,6 @@ str_mglv_wagon_powered			:Maglev Unit Wagon (Powered)
 str_mu_cargo_wagon_powered		:Multipe Unit Cargo Wagon (Powered)
 
 #Obsolete vehicles
-str_electric_Turkey_TCDD_E55200_obsolete 						:TCDD E55200 (Obsoleted)
-str_diesel_Germany_DB_253_G2000_3_BB_obsolete					:DB 253 G2000-3 BB (Obsoleted)
-str_diesel_USA_Pennsylvania_Railroad_RF_16_Sharknose_obsolete 	:PRR RF-16 'Sharknose' (Obsoleted)
-str_steam_South_Africa_PPR_35_tonner_4_6_0T_obsolete			:PPR 35-tonner 4-6-0T (Obsoleted)
-str_dmu_Slovakia_ZSSK_861_obsolete 								:ZSSK 861 (Obsoleted)
-str_rbd_Germany_DB_VT98_obsolete		 						:DB VT98 (Obsoleted)
-str_electric_Portugal_CP_Class_2550_obsolete					:CP 2550 (Obsoleted)
-str_rbd_Germany_DB_650_Regio_Shuttle_obsolete		 			:DB 650 'Regio Shuttle' (Obsoleted)
-str_dmu_Italy_FS_ALn_668_obsolete 								:FS ALn 668 (Obsoleted)
-str_rbe_Germany_DB_ET479_obsolete								:DB ET479 (Obsoleted)
 
 #PURCHASE MENU TEXTS
 str_unit_wagon_passenger	:This generic wagon can ONLY be used with passenger MUs to create trains of the desired length
