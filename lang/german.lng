@@ -57,10 +57,8 @@ str_rbs_Austria_NOLB_1          :NOLB 1 (Dampf-Schienenbus)
 
 #Railbus-diesel
 str_rbd_New_Zealand_NZR_RM31                                    :NZR RM31 (Diesel-Schienenbus)
-str_rbd_Germany_DB_VT98                                                 :DB VT98 (Diesel-Schienenbus)
 
 #Railbus-electric
-str_rbe_Germany_DB_ET85                         :DB ET85 (Elektro-Schienenbus)
 
 #Steam
 str_steam_Belgium_Le_Belge                      :Le Belge (Dampf)
@@ -97,7 +95,6 @@ str_diesel_China_MTR_8000                                                       
 
 #Electric
 str_electric_South_Africa_SAR_ES_Class                  :SAR ES-Klasse (Elektrisch)
-str_electric_Germany_DB_103                                     :DB 103 (Elektrisch)
 str_electric_South_Africa_SAR_6E                                :SAR 6E (Elektrisch)
 str_electric_Austria_OBB_1063                                   :OBB 1063 (Elektrisch)
 str_electric_Spain_RENFE_252                                    :RENFE 252 (Elektrisch)
@@ -105,7 +102,6 @@ str_electric_UK_BR_92                                                   :BR 92 (
 str_electric_Germany_DB_185_TRAXX_F140                  :DB 145 TRAXX F140 (Elektrisch)
 
 #DMU
-str_dmu_Germany_DB_VT04_Flying_Hamburger        :DB VT04 'Fliegender Hamburger' (Dieseltriebwagen)
 
 #CargoDMU
 
@@ -118,7 +114,6 @@ str_mtro_UK_London_1903_Stock                                   :London 1903-er 
 str_mtro_Argentina_Le_Brugeoise                                 :Buenos Aires 'Le Brugeoise' (U-Bahn)
 str_mtro_USA_NY_R1                                                              :New York R1 (U-Bahn)
 str_mtro_UK_London_1938_Stock                                   :London 1938-er Baureihe (U-Bahn)
-str_mtro_Germany_DB_ET171                                               :DB ET171 (S-Bahn)
 str_mtro_France_Paris_M2_840                                    :Paris M2 840 (U-Bahn)
 str_mtro_Portugal_Lisbon_ML7                                    :Lissabon ML7 (U-Bahn)
 str_mtro_Hungary_Budapest_Ev3_200                               :Budapest Ev3-200 (U-Bahn)

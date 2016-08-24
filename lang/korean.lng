@@ -40,12 +40,10 @@ str_rbs_Italy_FS_86                     :FS 86 (증기 레일버스)
 
 #Railbus-diesel
 str_rbd_Australia_Victorian_Railways_AEC_RM1    :Victorian Railways AEC RM1 (디젤 레일버스)
-str_rbd_Germany_DB_VT133                                                :DB VT133 (디젤 레일버스)
 str_rbd_United_Kingdom_GWR_AEC_Railcar                  :GWR AEC Railcar (디젤 레일버스)
 str_rbd_New_Zealand_NZR_RM31                                    :NZR RM31 (디젤 레일버스)
 str_rbd_Portugal_CP_0100                                                :CP 0100 (디젤 레일버스)
 str_rbd_USA_Amtrak_Budd_RDC                                     :Amtrak Budd RDC (디젤 레일버스)
-str_rbd_Germany_DB_VT98                                                 :DB VT98 (디젤 레일버스)
 str_rbd_Germany_OHE_520_GDT                                     :OHE 520 GDT (디젤 레일버스)
 str_rbd_Netherlands_NS_20_Kameel                                :NS 20 'Kameel' (디젤 레일버스)
 str_rbd_Finland_VR_Dm7                                                  :VR Dm7 (디젤 레일버스)
@@ -57,9 +55,8 @@ str_rbd_Germany_DB_670                                                  :DB 670 
 str_rbd_Lithuania_Lithuanian_Railways_AR2               :리투아니아 철도 AR2 (디젤 레일버스)
 
 #Railbus-electric
-str_rbe_Switzerland_AB_CFe_3_3         :AB CFe 3/3 (전기 레일버스)
+str_rbe_Switzerland_AB_CFe_3_3          :AB CFe 3/3 (전기 레일버스)
 str_rbe_Morocco_ONCFM_ZAB1000           :ONCFM ZAB1000 (전기 레일버스)
-str_rbe_Germany_DB_ET85                         :DB ET85 (전기 레일버스)
 str_rbe_Italy_FS_ALe_840                        :FS ALe 840 (전기 레일버스)
 
 #Steam
@@ -93,14 +90,13 @@ str_steam_UK_LNER_A1_Peppercorn         :LNER A1 'Peppercorn' (증기)
 str_steam_South_Africa_SAR_25           :SAR 25 (증기)
 
 #Diesel
-str_diesel_Germany_DB_310_Kof_II                                                :DB 310 Kof II (디젤)
 str_diesel_USA_CNJ_ALCo_GE_IR_Boxcab                                    :CNJ ALCo-GE-IR Boxcab (디젤)
 str_diesel_Netherlands_NS_200                                                   :NS 200 'Sik' (디젤)
 str_diesel_Germany_DB_270                                                               :DB 270 (디젤)
 str_diesel_Switzerland_SBB_Am_4_6                                               :SBB Am 4/6 (디젤)
 str_diesel_Australia_NSWGR_79                                                   :NSWGR 79 (디젤)
 str_diesel_USA_Western_Pacific_ALCO_S_2                                 :Western Pacific ALCO S-2 (디젤)
-str_diesel_USA_AT_SF_EMD_F3                                                               :AT&SF EMD F3 (디젤)
+str_diesel_USA_AT_SF_EMD_F3                                                     :AT&SF EMD F3 (디젤)
 str_diesel_USA_UP_EMD_E8                                                                :UP EMD E8 (디젤)
 str_diesel_Netherlands_NS_600                                                   :NS 600 'Bakkie' (디젤)
 str_diesel_USA_Pennsylvania_Railroad_RF_16_Sharknose    :펜실베이니아 철도 RF-16 'Sharknose' (디젤)
@@ -113,7 +109,6 @@ str_diesel_Canada_VIA_Rail_FP9                                                  
 str_diesel_Hungary_MAV_M44                                                              :MAV M44 (디젤)
 str_diesel_Hungary_MAV_M28                                                              :MAV M28 (디젤)
 str_diesel_Belgium_NMBS_SNCB_83                                                 :NMBS/SNCB 83 (디젤)
-str_diesel_Germany_DB_220_V200                                                  :DB 220 V200 (디젤)
 str_diesel_USA_Amtrak_FL9                                                               :Amtrak FL9 (디젤)
 str_diesel_Finland_VR_Dr12                                                              :VR Dr12 (디젤)
 str_diesel_Romania_CFR_060_DA                                                   :CFR 060-DA (디젤)
@@ -144,7 +139,6 @@ str_diesel_UK_BR_67                                                             
 str_diesel_Iran_RAI_DE43CA_Prima                                                :RAI DE43CA 'Prima' (디젤)
 str_diesel_Ukraine_UZ_TEP150                                                    :UZ TEP150 (디젤)
 str_diesel_China_China_Railways_HXN5                                    :중국 철도공사 HXN5 (디젤)
-str_diesel_Germany_DB_260_Gravita_10BB                                  :DB 260 Gravita 10BB (디젤)
 str_diesel_Russia_RZD_GT1                                                               :RZD GT1 (디젤)
 
 #Electric
@@ -174,7 +168,6 @@ str_electric_India_Indian_Railways_WCM_1                :인도 철도공사 WCM
 str_electric_Italy_FS_E646                                              :FS E646 (전기)
 str_electric_Japan_JNR_EF64                                     :JNR EF64 (전기)
 str_electric_Croatia_HZ_1141                                    :HZ 1141 (전기)
-str_electric_Germany_DB_103                                     :DB 103 (전기)
 str_electric_South_Africa_SAR_6E                                :SAR 6E (전기)
 str_electric_Finland_VR_Sr1                                     :VR Sr1 (전기)
 str_electric_Austria_OBB_1044                                   :OBB 1044 (전기)
@@ -197,11 +190,8 @@ str_electric_Kazakhstan_KTZ_KZ4A                                :KTZ KZ4A (전�
 str_electric_Switzerland_SBB_Eem_923                    :SBB Eem 923 (전기)
 
 #DMU
-str_dmu_Germany_DB_VT04_Flying_Hamburger        :DB VT04 'Flying Hamburger' (DMU)
 str_dmu_Australia_NSWGR_Silver_City_Comet       :NSWGR Silver City Comet (DMU)
-str_dmu_Germany_DB_VT08                                         :DB VT08 (DMU)
 str_dmu_Australia_Queensland_Rail_400           :퀸즈랜드 철도 400 (DMU)
-str_dmu_Germany_DB_601_VT115_TEE                         :DB 601 VT11.5 TEE (DMU)
 str_dmu_Netherlands_NS_Plan_U_DE_III            :NS Plan U DE-III (DMU)
 str_dmu_Canada_CNR_Turbo_Train                          :CNR 'Turbo Train' (DMU)
 str_dmu_Serbia_ZS_811                                           :ZS 811 (DMU)
@@ -277,7 +267,6 @@ str_mtro_UK_London_1903_Stock                                   :런던 1903 Sto
 str_mtro_Argentina_Le_Brugeoise                                 :부에노스아이레스 'Le Brugeoise' (지하철)
 str_mtro_USA_NY_R1                                                              :뉴욕 R1 (지하철)
 str_mtro_UK_London_1938_Stock                                   :런던 1938 Stock (지하철)
-str_mtro_Germany_DB_ET171                                               :DB ET171 (지하철)
 str_mtro_France_Paris_M2_840                                    :파리 M2 840 (지하철)
 str_mtro_Portugal_Lisbon_ML7                                    :리스본 ML7 (지하철)
 str_mtro_Hungary_Budapest_Ev3_200                               :부다페스트 Ev3-200 (지하철)

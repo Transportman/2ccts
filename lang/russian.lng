@@ -60,7 +60,7 @@ str_rbd_United_Kingdom_BR_153_Super_Sprinter    :BR 153 'Super Sprinter' (Диз
 str_rbd_Czech_Republic_CD_809                                   :CD 809 (Дизель Моториса)
 
 #Railbus-electric
-str_rbe_Switzerland_AB_CFe_3_3         :AB CFe 3/3 (Электро-Моториса)
+str_rbe_Switzerland_AB_CFe_3_3          :AB CFe 3/3 (Электро-Моториса)
 str_rbe_Italy_FS_ALe_840                        :FS ALe 840 (Электро-Моториса)
 
 #Steam
@@ -107,7 +107,6 @@ str_diesel_UK_BR_66                                                             
 str_diesel_Iran_RAI_DE43CA_Prima                                                :RAI DE43CA 'Prima' (Дизель)
 str_diesel_Ukraine_UZ_TEP150                                                    :УЖД ТЕП150 (Дизель)
 str_diesel_China_China_Railways_HXN5                                    :КЖД HXN5 (Дизель)
-str_diesel_Germany_DB_260_Gravita_10BB                                  :DB 260 Gravita 10BB (Дизель)
 str_diesel_Russia_RZD_GT1                                                               :РЖД ГТ1 (Дизель)
 str_diesel_Germany_HVLE_V490                                                    :HVLE V490 (Дизель)
 

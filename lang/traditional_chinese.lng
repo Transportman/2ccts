@@ -22,10 +22,8 @@ str_rbs_Austria_NOLB_1          :下奧地利國家鐵路1型 (蒸汽輕軌車�
 str_rbs_Italy_FS_86                     :意鐵86型 (蒸汽輕軌車廂)
 
 #Railbus-diesel
-str_rbd_Germany_DB_VT133                                                :德鐵 VT133 型 (柴油輕軌車廂)
 str_rbd_United_Kingdom_GWR_AEC_Railcar                  :GWR AEC 車廂 (柴油輕軌車廂)
 str_rbd_New_Zealand_NZR_RM31                                    :新西蘭鐵路RM31型 (柴油輕軌車廂)
-str_rbd_Germany_DB_VT98                                                 :德鐵 VT98 型 (柴油輕軌車廂)
 str_rbd_Germany_OHE_520_GDT                                     :OHE 520 GDT (柴油輕軌車廂)
 str_rbd_Germany_DB_670                                                  :德鐵670型 (柴油輕軌車廂)
 
@@ -51,7 +49,6 @@ str_diesel_Germany_DB_270                                                       
 str_diesel_Australia_NSWGR_79                                                   :新南威爾斯鐵路79型 (柴油)
 str_diesel_Uruguay_AFE_1500                                                     :AFE 1500 (柴油)
 str_diesel_Canada_CNR_SW1200                                                    :CNR SW1200 (柴油)
-str_diesel_Germany_DB_220_V200                                                  :德鐵 220 V200 型 (柴油)
 str_diesel_USA_UP_EMD_DDA40X                                                    :聯合太平洋鐵路EMD DDA40X型 (柴油)
 str_diesel_Sweden_SJ_V4                                                                 :SJ V4 (柴油)
 str_diesel_USA_Amtrak_P42DC_Genesis                                     :Amtrak P42DC「創世」型 (柴油)

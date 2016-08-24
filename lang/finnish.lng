@@ -58,12 +58,10 @@ str_rbs_Italy_FS_86                     :FS 86 (Höyrykiskobussi)
 
 #Railbus-diesel
 str_rbd_Australia_Victorian_Railways_AEC_RM1    :Victorian Railways AEC RM1 (Dieselkiskobussi)
-str_rbd_Germany_DB_VT133                                                :DB VT133 (Dieselkiskobussi)
 str_rbd_United_Kingdom_GWR_AEC_Railcar                  :GWR AEC kiskobussi (Dieselkiskobussi)
 str_rbd_New_Zealand_NZR_RM31                                    :NZR RM31 (Dieselkiskobussi)
 str_rbd_Portugal_CP_0100                                                :CP 0100 (Dieselkiskobussi)
 str_rbd_USA_Amtrak_Budd_RDC                                     :Amtrak Budd RDC (Dieselkiskobussi)
-str_rbd_Germany_DB_VT98                                                 :DB VT98 (Dieselkiskobussi)
 str_rbd_Germany_OHE_520_GDT                                     :OHE 520 GDT (Dieselkiskobussi)
 str_rbd_Netherlands_NS_20_Kameel                                :NS 20 'Kameel' (Dieselkiskobussi)
 str_rbd_Finland_VR_Dm7                                                  :VR Dm7 (Dieselkiskobussi)
@@ -76,9 +74,8 @@ str_rbd_Germany_DB_670                                                  :DB 670 
 str_rbd_Lithuania_Lithuanian_Railways_AR2               :Lithuanian Railways AR2 (Dieselkiskobussi)
 
 #Railbus-electric
-str_rbe_Switzerland_AB_CFe_3_3         :AB CFe 3/3 (Sähkökiskobussi)
+str_rbe_Switzerland_AB_CFe_3_3          :AB CFe 3/3 (Sähkökiskobussi)
 str_rbe_Morocco_ONCFM_ZAB1000           :ONCFM ZAB1000 (Sähkökiskobussi)
-str_rbe_Germany_DB_ET85                         :DB ET85 (Sähkökiskobussi)
 str_rbe_Italy_FS_ALe_840                        :FS ALe 840 (Sähkökiskobussi)
 
 #Steam
@@ -120,14 +117,13 @@ str_steam_Switzerland_SBB_C_5_6         :SBB C 5/6 (Höyry)
 str_steam_USA_UP_4000_Big_Boy           :UP 4000 'Big Boy' (Höyry)
 
 #Diesel
-str_diesel_Germany_DB_310_Kof_II                                                :DB 310 Kof II (Diesel)
 str_diesel_USA_CNJ_ALCo_GE_IR_Boxcab                                    :CNJ ALCo-GE-IR Boxcab (Diesel)
 str_diesel_Netherlands_NS_200                                                   :NS 200 'Sik' (Diesel)
 str_diesel_Germany_DB_270                                                               :DB 270 (Diesel)
 str_diesel_Switzerland_SBB_Am_4_6                                               :SBB Am 4/6 (Diesel)
 str_diesel_Australia_NSWGR_79                                                   :NSWGR 79 (Diesel)
 str_diesel_USA_Western_Pacific_ALCO_S_2                                 :Western Pacific ALCO S-2 (Diesel)
-str_diesel_USA_AT_SF_EMD_F3                                                               :AT&SF EMD F3 (Diesel)
+str_diesel_USA_AT_SF_EMD_F3                                                     :AT&SF EMD F3 (Diesel)
 str_diesel_USA_UP_EMD_E8                                                                :UP EMD E8 (Diesel)
 str_diesel_Brazil_EFCB_ALCO_RS_3                                                :EFCB ALCO RS-3 (Diesel)
 str_diesel_Netherlands_NS_600                                                   :NS 600 'Bakkie' (Diesel)
@@ -141,7 +137,6 @@ str_diesel_Canada_VIA_Rail_FP9                                                  
 str_diesel_Hungary_MAV_M44                                                              :MAV M44 (Diesel)
 str_diesel_Hungary_MAV_M28                                                              :MAV M28 (Diesel)
 str_diesel_Belgium_NMBS_SNCB_83                                                 :NMBS/SNCB 83 (Diesel)
-str_diesel_Germany_DB_220_V200                                                  :DB 220 V200 (Diesel)
 str_diesel_USA_Amtrak_FL9                                                               :Amtrak FL9 (Diesel)
 str_diesel_Czech_Republic_CD_720_ChME2                                  :CD 720 ChME2 (Diesel)
 str_diesel_Finland_VR_Dr12                                                              :VR Dr12 (Diesel)
@@ -179,7 +174,6 @@ str_diesel_UK_BR_67                                                             
 str_diesel_Iran_RAI_DE43CA_Prima                                                :RAI DE43CA 'Prima' (Diesel)
 str_diesel_Ukraine_UZ_TEP150                                                    :UZ TEP150 (Diesel)
 str_diesel_China_China_Railways_HXN5                                    :China Railways HXN5 (Diesel)
-str_diesel_Germany_DB_260_Gravita_10BB                                  :DB 260 Gravita 10BB (Diesel)
 str_diesel_Russia_RZD_GT1                                                               :RZD GT1 (Diesel)
 str_diesel_China_MTR_8000                                                               :MTR 8000 (Diesel)
 str_diesel_Germany_HVLE_V490                                                    :HVLE V490 (Diesel)
@@ -214,7 +208,6 @@ str_electric_Italy_FS_E646                                              :FS E646
 str_electric_Russia_RZD_VL41                                    :RZD VL41 (Sähkö)
 str_electric_Japan_JNR_EF64                                     :JNR EF64 (Sähkö)
 str_electric_Croatia_HZ_1141                                    :HZ 1141 (Sähkö)
-str_electric_Germany_DB_103                                     :DB 103 (Sähkö)
 str_electric_South_Africa_SAR_6E                                :SAR 6E (Sähkö)
 str_electric_Finland_VR_Sr1                                     :VR Sr1 (Sähkö)
 str_electric_Austria_OBB_1044                                   :OBB 1044 (Sähkö)
@@ -245,12 +238,9 @@ str_electric_India_Indian_Railways_WCG_1                :Indian Railways WCG-1 (
 str_electric_Portugal_CP_2500                                   :CP 2500 (Sähkö)
 
 #DMU
-str_dmu_Germany_DB_VT04_Flying_Hamburger        :DB VT04 'Flying Hamburger' (Dieselmoottorivaunu)
 str_dmu_Australia_NSWGR_Silver_City_Comet       :NSWGR Silver City Comet (Dieselmoottorivaunu)
 str_dmu_Czech_Republic_CD_M131                          :CD M131 (Dieselmoottorivaunu)
-str_dmu_Germany_DB_VT08                                         :DB VT08 (Dieselmoottorivaunu)
 str_dmu_Australia_Queensland_Rail_400           :Queensland Rail 400 (Dieselmoottorivaunu)
-str_dmu_Germany_DB_601_VT115_TEE                         :DB 601 VT11.5 TEE (Dieselmoottorivaunu)
 str_dmu_Netherlands_NS_Plan_U_DE_III            :NS Plan U DE-III (Dieselmoottorivaunu)
 str_dmu_Canada_CNR_Turbo_Train                          :CNR 'Turbo Train' (Dieselmoottorivaunu)
 str_dmu_Serbia_ZS_811                                           :ZS 811 (Dieselmoottorivaunu)
@@ -329,7 +319,6 @@ str_mtro_UK_London_1903_Stock                                   :Lontoo vuoden 1
 str_mtro_Argentina_Le_Brugeoise                                 :Buenos Aires 'Le Brugeoise' (Metro)
 str_mtro_USA_NY_R1                                                              :New York R1 (Metro)
 str_mtro_UK_London_1938_Stock                                   :Lontoo vuoden 1938 kalusto (Metro)
-str_mtro_Germany_DB_ET171                                               :DB ET171 (Metro)
 str_mtro_France_Paris_M2_840                                    :Pariisi M2 840 (Metro)
 str_mtro_Portugal_Lisbon_ML7                                    :Lissabon ML7 (Metro)
 str_mtro_Hungary_Budapest_Ev3_200                               :Budapest Ev3-200 (Metro)
@@ -500,7 +489,6 @@ str_mtro_wagon_powered                  :Metrovaunu (moottoroitu)
 str_mglv_wagon_powered                  :Maglev-vaunu (moottoroitu)
 
 #Obsolete vehicles
-str_electric_Turkey_TCDD_E55200_obsolete                                                :TCDD E55200 (Vanhentunut)
 
 #PURCHASE MENU TEXTS
 

@@ -23,12 +23,10 @@ str_rbs_Italy_FS_86                     :FS 86 (Steam Railbus)
 
 #Railbus-diesel
 str_rbd_Australia_Victorian_Railways_AEC_RM1    :Victorian Railways AEC RM1 (Diesel Railbus)
-str_rbd_Germany_DB_VT133                                                :DB VT133 (Diesel Railbus)
 str_rbd_United_Kingdom_GWR_AEC_Railcar                  :GWR AEC Railcar (Diesel Railbus)
 str_rbd_New_Zealand_NZR_RM31                                    :NZR RM31 (Diesel Railbus)
 str_rbd_Portugal_CP_0100                                                :CP 0100 (Diesel Railbus)
 str_rbd_USA_Amtrak_Budd_RDC                                     :Amtrak Budd RDC (Diesel Railbus)
-str_rbd_Germany_DB_VT98                                                 :DB VT98 (Diesel Railbus)
 str_rbd_Germany_OHE_520_GDT                                     :OHE 520 GDT (Diesel Railbus)
 str_rbd_Netherlands_NS_20_Kameel                                :NS 20 'Kameel' (Diesel Railbus)
 str_rbd_Finland_VR_Dm7                                                  :VR Dm7 (Diesel Railbus)
@@ -40,9 +38,8 @@ str_rbd_Germany_DB_670                                                  :DB 670 
 str_rbd_Lithuania_Lithuanian_Railways_AR2               :Lithuanian Railways AR2 (Diesel Railbus)
 
 #Railbus-electric
-str_rbe_Switzerland_AB_CFe_3_3         :AB CFe 3/3 (Electric Railbus)
+str_rbe_Switzerland_AB_CFe_3_3          :AB CFe 3/3 (Electric Railbus)
 str_rbe_Morocco_ONCFM_ZAB1000           :ONCFM ZAB1000 (Electric Railbus)
-str_rbe_Germany_DB_ET85                         :DB ET85 (Electric Railbus)
 str_rbe_Italy_FS_ALe_840                        :FS ALe 840 (Electric Railbus)
 
 #Steam
@@ -96,7 +93,6 @@ str_mtro_UK_London_1903_Stock                                   :London 1903 Sto
 str_mtro_Argentina_Le_Brugeoise                                 :Buenos Aires 'Le Brugeoise' (Metro)
 str_mtro_USA_NY_R1                                                              :New York R1 (Metro)
 str_mtro_UK_London_1938_Stock                                   :London 1938 Stock (Metro)
-str_mtro_Germany_DB_ET171                                               :DB ET171 (Metro)
 str_mtro_France_Paris_M2_840                                    :Paris M2 840 (Metro)
 str_mtro_Portugal_Lisbon_ML7                                    :Lisbon ML7 (Metro)
 str_mtro_Hungary_Budapest_Ev3_200                               :Budapest Ev3-200 (Metro)

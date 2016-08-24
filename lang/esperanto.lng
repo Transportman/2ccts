@@ -65,7 +65,6 @@ str_steam_Japan_JNR_Class_E10 :JNR E10 (Vaporo)
 str_steam_Australia_Victorian_Railways_R_Class :Viktoria Fervojoj R (Vaporo)
 
 #Diesel
-str_diesel_Germany_DB_310_Kof_II                                                :DB 310 Kof II (Dizelo)
 str_diesel_USA_UP_EMD_E8                                                                :UP EMD E8 (Dizelo)
 str_diesel_Brazil_EFCB_ALCO_RS_3                                                :EFCB ALCO RS-3 (Dizelo)
 str_diesel_Netherlands_NS_600                                                   :NS 600 'Bakkie' (Dizelo)
@@ -114,7 +113,6 @@ str_electric_Russia_RZD_EP20 :RZD EP20 (Elektra)
 str_electric_Kazakhstan_KTZ_KZ8A :KTZ KZ8A (Electric)
 
 #DMU
-str_dmu_Germany_DB_VT04_Flying_Hamburger        :DB VT04 'Alflugata Hamburgero' (DMU)
 str_dmu_Australia_NSWGR_Silver_City_Comet       :NSWGR 'Silver City Comet' (DMU)
 str_dmu_Russia_RZD_RA2                                          :RZD RA2 (DMU)
 str_dmu_Turkey_TCDD_MT_5500 :TCDD MT 5500 (DMU)
@@ -139,7 +137,6 @@ str_mtro_USA_Brooklyn_Union_Gate_Car                                    :Broklin
 
 #Multiple Unit Metro
 str_mtro_USA_NY_R1                                                              :Novjorko R1 (Metro)
-str_mtro_Germany_DB_ET171                                               :DB ET171 (Metro)
 str_mtro_France_Paris_M2_840                                    :Parizo M2 840 (Metro)
 str_mtro_Germany_Munchen_MVG_A2                                 :Munchen MVG A2 (Metro)
 str_mtro_USA_NY_R44                                                     :Novjorko R44 (Metro)
@@ -193,7 +190,6 @@ str_coach_Gen6_Speedmail_Coach                                                  
 str_mglv_wagon_powered                  :Magnetatrajno Unuo Vagono (Funkciigata)
 
 #Obsolete vehicles
-str_diesel_Germany_DB_253_G2000_3_BB_obsolete                                   :DB 253 G2000-3 BB (Malnoviĝinta)
 
 #PURCHASE MENU TEXTS
 
