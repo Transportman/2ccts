@@ -10,20 +10,20 @@
 * ITEM
 */
 
-item(FEAT_TRAINS, item_dmu_Germany_DB_601_VT11_TEE) {
+item(FEAT_TRAINS, item_dmu_Germany_DB_601_VT115_TEE) {
     property {
-        name: string(str_dmu_Germany_DB_601_VT11_TEE);
+        name: string(str_dmu_Germany_DB_601_VT115_TEE);
         REGION(WESTERNEUROPE,NOREGION,NOCONCEPT)
 		
         introduction_date: date(1957,1,1);
         model_life: 25;
         vehicle_life: 25;
         LOADINGSPEEDDEF_INTERCITY
-        cost_factor: 47;
+        cost_factor: 46;
         running_cost_factor: 44;
         speed: 160 km/h;
         power: 1475 hp;
-        cargo_capacity: 58;
+        cargo_capacity: 0;
         weight: 33 ton;
         tractive_effort_coefficient: 0.77;
         air_drag_coefficient: 0;
@@ -46,29 +46,28 @@ item(FEAT_TRAINS, item_dmu_Germany_DB_601_VT11_TEE) {
         bitmask_vehicle_info: 0;
 	}
 	graphics {
-		purchase: spriteset_dmu_Germany_DB_601_VT11_TEE_purchase;
-		cargo_capacity: switch_dmu_Germany_DB_601_VT11_TEE_capacity;
-		visual_effect_and_powered: switch_dmu_Germany_DB_601_VT11_TEE_visual_effect_and_powered;
+		purchase: spriteset_dmu_Germany_DB_601_VT115_TEE_purchase;
+		visual_effect_and_powered: switch_dmu_Germany_DB_601_VT115_TEE_visual_effect_and_powered;
 		can_attach_wagon: switch_can_attach_vehicle;
-		switch_dmu_Germany_DB_601_VT11_TEE_reversed;
+		switch_dmu_Germany_DB_601_VT115_TEE_reversed;
 	}	
 	livery_override (item_mu_wagon_unpowered){
 		LOADINGSPEEDDEF_INTERCITY
 		running_cost_factor: 22;
 		power: 0;
 		weight: 17;
-		cargo_capacity: switch_dmu_Germany_DB_601_VT11_TEE_capacity;
+		cargo_capacity: switch_dmu_Germany_DB_601_VT115_TEE_capacity;
 		length: 8;
-		default: switch_dmu_Germany_DB_601_VT11_TEE_cargo_selection;
+		default: switch_dmu_Germany_DB_601_VT115_TEE_cargo_selection;
 	}
 	livery_override (item_mu_wagon_powered){
 		LOADINGSPEEDDEF_INTERCITY
 		running_cost_factor: 33;
 		power: 788;
 		weight: 25;
-		cargo_capacity: switch_dmu_Germany_DB_601_VT11_TEE_capacity;
+		cargo_capacity: switch_dmu_Germany_DB_601_VT115_TEE_capacity;
         tractive_effort_coefficient: 128;
 		length: 8;
-		default: switch_dmu_Germany_DB_601_VT11_TEE_cargo_selection;
+		default: switch_dmu_Germany_DB_601_VT115_TEE_cargo_selection;
 	}
 }

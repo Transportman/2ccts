@@ -500,7 +500,7 @@ item(FEAT_TRAINS, item_dmu_Czech_Republic_CD_M131, 7004) {}
 item(FEAT_TRAINS, item_dmu_Germany_DB_VT08, 7005) {}
 item(FEAT_TRAINS, item_dmu_Australia_Queensland_Rail_400, 7006) {}
 item(FEAT_TRAINS, item_dmu_Italy_FS_ALn_668_obsolete, 7007) {} // Obsoleted
-item(FEAT_TRAINS, item_dmu_Germany_DB_601_VT11_TEE, 7008) {}
+item(FEAT_TRAINS, item_dmu_Germany_DB_601_VT115_TEE, 7008) {}
 item(FEAT_TRAINS, item_dmu_Netherlands_NS_Plan_U_DE_III, 7009) {}
 item(FEAT_TRAINS, item_dmu_Canada_CNR_Turbo_Train, 7010) {}
 item(FEAT_TRAINS, item_dmu_Serbia_ZS_811, 7011) {}
