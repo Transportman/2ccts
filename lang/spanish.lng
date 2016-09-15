@@ -125,6 +125,7 @@ str_rbe_Austria_MBS_ET_10109 :MBS ET 10.109 (Railbus eléctrico)
 str_rbe_Poland_PKP_EN81 :PKP EN81 (Railbus eléctrico)
 str_rbe_USA_SEPTA_Silverliner_V :SEPTA Silverliner V (Railbus eléctrico)
 str_rbe_Germany_Buckower_Kleinbahn_Nr_1_3 :Buckower Kleinbahn Nr. 1-3 (Railbus eléctrico)
+str_rbe_Germany_DB_4792:DB 479.2 (Railbus eléctrico)
 
 #Steam
 str_steam_Belgium_Le_Belge                      :Le Belge (Vapor)
@@ -590,6 +591,7 @@ str_emu_Australia_Sydney_Trains_A_Set_Waratah :Sydney Trains A Set 'Waratah' (EM
 str_emu_Netherlands_NS_Hispeed_V250_Albatros :NS Hispeed V250 'Albatros' (EMU)
 str_emu_Chile_EFE_AES_Railcar :EFE AES Railcar (EMU)
 str_emu_Chile_EFE_XTrapolis_100 :EFE X'Trapolis 100 (EMU)
+str_emu_Tunisia_SNCFT_YZ_E :SNCFT YZ-E (EMU)
 str_emu_Russia_RZD_S :RZD S (EMU)
 str_emu_Poland_PKP_EW54 :PKP EW54 (EMU)
 str_emu_Romania_CFR_58 :CFR 58 (EMU)
