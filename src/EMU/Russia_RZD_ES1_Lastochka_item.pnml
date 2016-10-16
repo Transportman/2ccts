@@ -49,7 +49,6 @@ item(FEAT_TRAINS, item_emu_Russia_RZD_ES1_Lastochka) {
 		purchase: spriteset_emu_Russia_RZD_ES1_Lastochka_purchase;
 		can_attach_wagon: switch_can_attach_vehicle;
 		cargo_capacity: switch_emu_Russia_RZD_ES1_Lastochka_capacity;
-		visual_effect_and_powered: switch_emu_Russia_RZD_ES1_Lastochka_visual_effect_and_powered;
 		switch_emu_Russia_RZD_ES1_Lastochka_reversed;
 	}	
 	livery_override (item_mu_wagon_unpowered){
@@ -59,6 +58,7 @@ item(FEAT_TRAINS, item_emu_Russia_RZD_ES1_Lastochka) {
 		weight: 28;
 		cargo_capacity: switch_emu_Russia_RZD_ES1_Lastochka_capacity;
 		length: 8;
+		visual_effect_and_powered: switch_emu_Russia_RZD_ES1_Lastochka_visual_effect_and_powered_position;
 		default: switch_emu_Russia_RZD_ES1_Lastochka_cargo_selection;
 	}
 	livery_override (item_mu_wagon_powered){
@@ -68,6 +68,7 @@ item(FEAT_TRAINS, item_emu_Russia_RZD_ES1_Lastochka) {
 		weight: 42;
 		cargo_capacity: switch_emu_Russia_RZD_ES1_Lastochka_capacity;
 		length: 8;
+		visual_effect_and_powered: switch_emu_Russia_RZD_ES1_Lastochka_visual_effect_and_powered_position;
 		default: switch_emu_Russia_RZD_ES1_Lastochka_cargo_selection;
 	}
 }

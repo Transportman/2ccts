@@ -28,13 +28,24 @@ spriteset(spriteset_emu_Russia_RZD_ES1_Lastochka_back, "gfx/EMU/Russia_RZD_ES1_L
 	template_2cc_engines_general(1, 32)
 }
 
-//Middle - PAX
-spriteset(spriteset_emu_Russia_RZD_ES1_Lastochka_middlepass, "gfx/EMU/Russia_RZD_ES1_Lastochka.png") {
+//Middle - PAX-L1
+spriteset(spriteset_emu_Russia_RZD_ES1_Lastochka_middlepass_L1, "gfx/EMU/Russia_RZD_ES1_Lastochka.png") {
 	template_2cc_engines_general(1, 64)
 }
-//Middle - MAIL
-spriteset(spriteset_emu_Russia_RZD_ES1_Lastochka_middlemail, "gfx/EMU/Russia_RZD_ES1_Lastochka.png") {
+
+//Middle - PAX-L2
+spriteset(spriteset_emu_Russia_RZD_ES1_Lastochka_middlepass_L2, "gfx/EMU/Russia_RZD_ES1_Lastochka.png") {
+	template_2cc_engines_general(179, 64)
+}
+
+//Middle - MAIL-L1
+spriteset(spriteset_emu_Russia_RZD_ES1_Lastochka_middlemail_L1, "gfx/EMU/Russia_RZD_ES1_Lastochka.png") {
 	template_2cc_engines_general(1, 96)
+}
+
+//Middle - MAIL-L2
+spriteset(spriteset_emu_Russia_RZD_ES1_Lastochka_middlemail_L2, "gfx/EMU/Russia_RZD_ES1_Lastochka.png") {
+	template_2cc_engines_general(179, 96)
 }
 
 //Dualheaded engines
@@ -44,11 +55,38 @@ switch(FEAT_TRAINS, SELF, switch_emu_Russia_RZD_ES1_Lastochka_reversed, var[0xC8
     spriteset_emu_Russia_RZD_ES1_Lastochka_front;
 }
 
-//Visual effect, for DMU this is done on the front engine
-switch(FEAT_TRAINS, SELF, switch_emu_Russia_RZD_ES1_Lastochka_visual_effect_and_powered, var[0xC8]) {
-	0xFE: visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
-	0xFF: visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
+//Visual effect, for EMU this is done on the part with the pantograph
+random_switch(FEAT_TRAINS, SELF, switch_emu_Russia_RZD_ES1_Lastochka_visual_effect_and_powered) {
+	9: visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
+	1: visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, -3, DISABLE_WAGON_POWER);
+}
+
+switch(FEAT_TRAINS, SELF, switch_emu_Russia_RZD_ES1_Lastochka_visual_effect_and_powered_position, [STORE_TEMP(-1, 0x10F), var[0x61, 0, 0x0000FFFF, 0xC6]]) {
+	ID_RANGE_UNIT_WAGONS: switch_emu_Russia_RZD_ES1_Lastochka_visual_effect_and_powered;
 	visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, -3, DISABLE_WAGON_POWER);
+}
+
+random_switch(FEAT_TRAINS, SELF, switch_emu_Russia_RZD_ES1_Lastochka_middlepass_livery) {
+	dependent: switch_emu_Russia_RZD_ES1_Lastochka_visual_effect_and_powered;
+	9: spriteset_emu_Russia_RZD_ES1_Lastochka_middlepass_L1;
+	1: spriteset_emu_Russia_RZD_ES1_Lastochka_middlepass_L2;
+}
+
+random_switch(FEAT_TRAINS, SELF, switch_emu_Russia_RZD_ES1_Lastochka_middlemail_livery) {
+	dependent: switch_emu_Russia_RZD_ES1_Lastochka_visual_effect_and_powered;
+	9: spriteset_emu_Russia_RZD_ES1_Lastochka_middlemail_L1;
+	1: spriteset_emu_Russia_RZD_ES1_Lastochka_middlemail_L2;
+}
+
+//First unit wagon always has a pantograph
+switch(FEAT_TRAINS, SELF, switch_emu_Russia_RZD_ES1_Lastochka_middlepass_position, [STORE_TEMP(-1, 0x10F), var[0x61, 0, 0x0000FFFF, 0xC6]]) {
+	ID_RANGE_UNIT_WAGONS: switch_emu_Russia_RZD_ES1_Lastochka_middlepass_livery;
+	spriteset_emu_Russia_RZD_ES1_Lastochka_middlepass_L2;
+}
+
+switch(FEAT_TRAINS, SELF, switch_emu_Russia_RZD_ES1_Lastochka_middlemail_position, [STORE_TEMP(-1, 0x10F), var[0x61, 0, 0x0000FFFF, 0xC6]]) {
+	ID_RANGE_UNIT_WAGONS: switch_emu_Russia_RZD_ES1_Lastochka_middlemail_livery;
+	spriteset_emu_Russia_RZD_ES1_Lastochka_middlemail_L2;
 }
 	
 /*
@@ -63,6 +101,6 @@ switch(FEAT_TRAINS, SELF, switch_emu_Russia_RZD_ES1_Lastochka_capacity, cargo_cl
 
 //Graphics for the unit wagon based on cargo class
 switch(FEAT_TRAINS, SELF, switch_emu_Russia_RZD_ES1_Lastochka_cargo_selection, cargo_classes){
-	bitmask(CC_PASSENGERS): spriteset_emu_Russia_RZD_ES1_Lastochka_middlepass;
-	spriteset_emu_Russia_RZD_ES1_Lastochka_middlemail;
+	bitmask(CC_PASSENGERS): switch_emu_Russia_RZD_ES1_Lastochka_middlepass_position;
+	switch_emu_Russia_RZD_ES1_Lastochka_middlemail_position;
 }
