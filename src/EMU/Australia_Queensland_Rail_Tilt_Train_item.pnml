@@ -49,7 +49,6 @@ item(FEAT_TRAINS, item_emu_Australia_Queensland_Rail_Tilt_Train) {
 		purchase: spriteset_emu_Australia_Queensland_Rail_Tilt_Train_purchase;
 		can_attach_wagon: switch_can_attach_vehicle;
 		cargo_capacity: switch_emu_Australia_Queensland_Rail_Tilt_Train_capacity;
-		visual_effect_and_powered: switch_emu_Australia_Queensland_Rail_Tilt_Train_visual_effect_and_powered;
 		switch_emu_Australia_Queensland_Rail_Tilt_Train_reversed;
 	}	
 	livery_override (item_mu_wagon_unpowered){
@@ -59,6 +58,7 @@ item(FEAT_TRAINS, item_emu_Australia_Queensland_Rail_Tilt_Train) {
 		weight: 24;
 		cargo_capacity: switch_emu_Australia_Queensland_Rail_Tilt_Train_capacity;
 		length: 8;
+		visual_effect_and_powered: switch_emu_Australia_Queensland_Rail_Tilt_Train_visual_effect_and_powered_position;
 		default: switch_emu_Australia_Queensland_Rail_Tilt_Train_cargo_selection;
 	}
 	livery_override (item_mu_wagon_powered){
@@ -68,6 +68,7 @@ item(FEAT_TRAINS, item_emu_Australia_Queensland_Rail_Tilt_Train) {
 		weight: 35;
 		cargo_capacity: switch_emu_Australia_Queensland_Rail_Tilt_Train_capacity;
 		length: 8;
+		visual_effect_and_powered: switch_emu_Australia_Queensland_Rail_Tilt_Train_visual_effect_and_powered_position;
 		default: switch_emu_Australia_Queensland_Rail_Tilt_Train_cargo_selection;
 	}
 }
