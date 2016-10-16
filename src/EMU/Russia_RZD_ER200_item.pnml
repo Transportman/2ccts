@@ -49,7 +49,6 @@ item(FEAT_TRAINS, item_emu_Russia_RZD_ER200) {
 		purchase: spriteset_emu_Russia_RZD_ER200_purchase;
 		can_attach_wagon: switch_can_attach_vehicle;
 		cargo_capacity: switch_emu_Russia_RZD_ER200_capacity;
-		visual_effect_and_powered: switch_emu_Russia_RZD_ER200_visual_effect_and_powered;
 		switch_emu_Russia_RZD_ER200_reversed;
 	}	
 	livery_override (item_mu_wagon_unpowered){
@@ -59,6 +58,7 @@ item(FEAT_TRAINS, item_emu_Russia_RZD_ER200) {
 		weight: 25;
 		cargo_capacity: switch_emu_Russia_RZD_ER200_capacity;
 		length: 8;
+		visual_effect_and_powered: switch_emu_Russia_RZD_ER200_visual_effect_and_powered_position;
 		default: switch_emu_Russia_RZD_ER200_cargo_selection;
 	}
 	livery_override (item_mu_wagon_powered){
@@ -68,6 +68,7 @@ item(FEAT_TRAINS, item_emu_Russia_RZD_ER200) {
 		weight: 37;
 		cargo_capacity: switch_emu_Russia_RZD_ER200_capacity;
 		length: 8;
+		visual_effect_and_powered: switch_emu_Russia_RZD_ER200_visual_effect_and_powered_position;
 		default: switch_emu_Russia_RZD_ER200_cargo_selection;
 	}
 }
