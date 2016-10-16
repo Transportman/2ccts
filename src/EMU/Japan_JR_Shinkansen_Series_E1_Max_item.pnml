@@ -49,7 +49,6 @@ item(FEAT_TRAINS, item_emu_Japan_JR_Shinkansen_Series_E1_Max) {
 		purchase: spriteset_emu_Japan_JR_Shinkansen_Series_E1_Max_purchase;
 		can_attach_wagon: switch_can_attach_vehicle;
 		cargo_capacity: switch_emu_Japan_JR_Shinkansen_Series_E1_Max_capacity;
-		visual_effect_and_powered: switch_emu_Japan_JR_Shinkansen_Series_E1_Max_visual_effect_and_powered;
 		switch_emu_Japan_JR_Shinkansen_Series_E1_Max_reversed;
 	}	
 	livery_override (item_mu_wagon_unpowered){
@@ -59,6 +58,7 @@ item(FEAT_TRAINS, item_emu_Japan_JR_Shinkansen_Series_E1_Max) {
 		weight: 29;
 		cargo_capacity: switch_emu_Japan_JR_Shinkansen_Series_E1_Max_capacity;
 		length: 8;
+		visual_effect_and_powered: switch_emu_Japan_JR_Shinkansen_Series_E1_Max_visual_effect_and_powered_position;
 		default: switch_emu_Japan_JR_Shinkansen_Series_E1_Max_cargo_selection;
 	}
 	livery_override (item_mu_wagon_powered){
@@ -68,6 +68,7 @@ item(FEAT_TRAINS, item_emu_Japan_JR_Shinkansen_Series_E1_Max) {
 		weight: 44;
 		cargo_capacity: switch_emu_Japan_JR_Shinkansen_Series_E1_Max_capacity;
 		length: 8;
+		visual_effect_and_powered: switch_emu_Japan_JR_Shinkansen_Series_E1_Max_visual_effect_and_powered_position;
 		default: switch_emu_Japan_JR_Shinkansen_Series_E1_Max_cargo_selection;
 	}
 }
