@@ -507,5 +507,6 @@ switch(FEAT_TRAINS, SELF, switch_wagon_Gen5_Heavy_Flatcar_cargo_selection, cargo
 	FMSP: switch_wagon_Gen5_Heavy_Flatcar_Supplies_livery;
 	VEHI: switch_wagon_Gen5_Heavy_Flatcar_Cars_livery;
 	YETI: switch_wagon_Gen5_Heavy_Flatcar_YETI_livery;
+	YETY: switch_wagon_Gen5_Heavy_Flatcar_YETI_livery;
 	switch_wagon_Gen5_Heavy_Flatcar_Crates_livery;
 }

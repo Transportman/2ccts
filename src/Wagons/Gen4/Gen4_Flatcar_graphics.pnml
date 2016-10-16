@@ -604,5 +604,6 @@ switch(FEAT_TRAINS, SELF, switch_wagon_Gen4_Flatcar_cargo_selection, cargo_type_
 	ENSP: switch_wagon_Gen4_Flatcar_Goods_livery;
 	WDPR: switch_wagon_Gen4_Flatcar_Planks_livery;
 	YETI: switch_wagon_Gen4_Flatcar_YETI_livery;
+	YETY: switch_wagon_Gen4_Flatcar_YETI_livery;
 	switch_wagon_Gen4_Flatcar_Crates_livery; //TOYS, BATT, SWET, BUBL, FZDR, BRCK, CERA, COPR, FICR, FMSP, JAVA, MNSP
 }
