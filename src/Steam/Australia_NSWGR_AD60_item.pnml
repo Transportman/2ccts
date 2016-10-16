@@ -25,7 +25,7 @@ item(FEAT_TRAINS, item_steam_Australia_NSWGR_AD60) {
         power: 2980 hp;
         cargo_capacity: 0;
         weight: 255 ton;
-        tractive_effort_coefficient: 0.1;
+        tractive_effort_coefficient: 0.11;
         air_drag_coefficient: 0;
         
         reliability_decay: 20;
