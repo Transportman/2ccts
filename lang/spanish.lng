@@ -51,6 +51,7 @@ STR_PARAM_REGION_OCEANIA_DESC                   :Usar vehículos de Oceanía
 
 #loading speed parameter
 STR_PARAM_LOADINGSPEED                                  :Velocidad de carga
+STR_PARAM_LOADINGSPEED_DESC                             :Establece la velocidad de carga de este set
 STR_PARAM_LOADINGSPEED_SLOW                             :Lento
 STR_PARAM_LOADINGSPEED_NORMAL                   :Normal (por defecto)
 STR_PARAM_LOADINGSPEED_FAST                             :Rápido
@@ -479,7 +480,7 @@ str_electric_South_Africa_SAR_7E :SAR 7E (Eléctrico)
 str_electric_South_Africa_SAR_11E :SAR 11E (Eléctrico)
 str_electric_South_Africa_SAR_E38 :SAR E38 (Eléctrico)
 str_electric_USA_Amtrak_HHP_8 :Amtrak HHP-8 (Eléctrico)
-str_electric_Germany_Prussian_ES_6 :Prussian ES 6 (Eléctrico)
+str_electric_Germany_Prussian_ES_6 :K.P.St.E. ES 6 (Eléctrico)
 str_electric_China_China_Railways_6K :China Railways 6K (Eléctrico)
 
 #DMU
@@ -550,7 +551,7 @@ str_emu_Japan_Odakyu_3100_Series_Romance        :Odakyu 3100 Series 'Romance' (E
 str_emu_Japan_JNR_Shinkansen_Series_0           :JNR Shinkansen Series 0 (EMU)
 str_emu_Switzerland_SBB_RABDe_510                       :SBB RABDe 510 (EMU)
 str_emu_Denmark_DSB_S_Tog_II                            :DSB S-Tog II (EMU)
-str_emu_Germany_DB_ET420                                        :DB ET420 (EMU)
+str_emu_Germany_DB_ET420                                        :DB 420 (EMU)
 str_emu_Netherlands_NS_Plan_Y                           :NS Plan Y (EMU)
 str_emu_Finland_VR_Sm2                                          :VR Sm2 (EMU)
 str_emu_Netherlands_NS_ICM_4000                         :NS ICM 4000 (EMU)
