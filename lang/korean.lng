@@ -29,9 +29,12 @@ STR_PARAM_TIMES_16                  :16
 #region parameters
 STR_PARAM_CONCEPT                                               :콘셉트 차량 (미래 기능, 현재 사용 불가)
 STR_PARAM_CONCEPT_DESC                                  :콘셉트 차량을 사용합니다. (현재 아무 기능도 하지 않음)
+STR_PARAM_REGION_AFRICA                                 :아프리카
 STR_PARAM_REGION_OCEANIA                                :오세아니아
 
 #loading speed parameter
+STR_PARAM_LOADINGSPEED                                  :적재 속도
+STR_PARAM_LOADINGSPEED_FAST                             :빠름
 
 #VEHICLE NAMES
 #Railbus-steam
@@ -88,8 +91,11 @@ str_steam_Denmark_DSB_E                         :DSB E (증기)
 str_steam_Germany_DB_52                         :DB 52 (증기)
 str_steam_UK_LNER_A1_Peppercorn         :LNER A1 'Peppercorn' (증기)
 str_steam_South_Africa_SAR_25           :SAR 25 (증기)
+str_steam_Netherlands_NS_8100 :NS 8100 (증기)
+str_steam_Japan_JNR_7100 :일본국철 7100 (증기)
 
 #Diesel
+str_diesel_Germany_DB_Kof_II                                                    :DB Kof II / DB 322 (디젤)
 str_diesel_USA_CNJ_ALCo_GE_IR_Boxcab                                    :CNJ ALCo-GE-IR Boxcab (디젤)
 str_diesel_Netherlands_NS_200                                                   :NS 200 'Sik' (디젤)
 str_diesel_Germany_DB_270                                                               :DB 270 (디젤)
@@ -188,6 +194,7 @@ str_electric_South_Korea_Korail_8200                    :코레일 8200 (전기)
 str_electric_Ukraine_UZ_DS3                                     :UZ DS3 (전기)
 str_electric_Kazakhstan_KTZ_KZ4A                                :KTZ KZ4A (전기)
 str_electric_Switzerland_SBB_Eem_923                    :SBB Eem 923 (전기)
+str_electric_Italy_FS_E444 :FS E.444 (전기)
 
 #DMU
 str_dmu_Australia_NSWGR_Silver_City_Comet       :NSWGR Silver City Comet (DMU)
