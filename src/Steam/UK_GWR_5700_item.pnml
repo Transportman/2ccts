@@ -34,7 +34,7 @@ item(FEAT_TRAINS, item_steam_UK_GWR_5700) {
         misc_flags: bitmask(TRAIN_FLAG_2CC);
         refit_cost: 0;
         track_type: RAIL;
-		ai_special_flag: AI_FLAG_PASSENGER;
+		ai_special_flag: AI_FLAG_CARGO;
         running_cost_base: RUNNING_COST_STEAM;
         engine_class: ENGINE_CLASS_STEAM;
         visual_effect_and_powered: visual_effect_and_powered(VISUAL_EFFECT_STEAM, -3, DISABLE_WAGON_POWER); //Set from graphics file
