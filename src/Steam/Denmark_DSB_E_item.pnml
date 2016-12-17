@@ -19,10 +19,10 @@ item(FEAT_TRAINS, item_steam_Denmark_DSB_E) {
         model_life: 25;
         vehicle_life: 40;
         LOADINGSPEEDDEF_NONE
-        cost_factor: 46;
-        running_cost_factor: 33;
+        cost_factor: 53;
+        running_cost_factor: 40;
         speed: 110 km/h;
-        power: 1000 hp;
+        power: 1529 hp;
         cargo_capacity: 0;
         weight: 137 ton;
         tractive_effort_coefficient: 0.06;
