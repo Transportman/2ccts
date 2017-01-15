@@ -117,6 +117,7 @@ str_rbd_Italy_FS_ALn_668 :FS ALn 668 (dizel šinobus)
 #Railbus-electric
 str_rbe_Switzerland_AB_CFe_3_3          :AB CFe 3/3 (električni šinobus)
 str_rbe_Morocco_ONCFM_ZAB1000           :ONCFM ZAB1000 (električni šinobus)
+str_rbe_Germany_DB_ET_85                                :DB ET 85 / DB 485 (električni šinobus)
 str_rbe_Italy_FS_ALe_840                        :FS ALe 840 (električni šinobus)
 str_rbe_Czech_Republic_CD_M400 :CD M400 (električni šinobus)
 str_rbe_Switzerland_TPC_BVB_Be_2_2 :TPC BVB Be 2/2 (električni šinobus)
@@ -203,6 +204,7 @@ str_steam_Egypt_ENR_1100 :ENR 1100 (parna lokomotiva)
 str_steam_Japan_JNR_Class_E10 :JNR E10 (parna lokomotiva)
 str_steam_UK_GWR_1600_Class :GWR 1600 (parna lokomotiva)
 str_steam_Australia_Victorian_Railways_R_Class :Victorian Railways R (parna lokomotiva)
+str_steam_Germany_DB_9977_79 :DB 99.77-79 (parna lokomotiva)
 str_steam_New_Zealand_NZR_WAB :NZR WAB (parna lokomotiva)
 str_steam_Australia_NSWGR_D57 :NSWGR D57 (parna lokomotiva)
 str_steam_Australia_South_Australian_Railways_520 :South Australian Railways 520 (parna lokomotiva)
@@ -269,6 +271,7 @@ str_diesel_Canada_VIA_Rail_FP9                                                  
 str_diesel_Hungary_MAV_M44                                                              :MAV M44 (dizel lokomotiva)
 str_diesel_Hungary_MAV_M28                                                              :MAV M28 (dizel lokomotiva)
 str_diesel_Belgium_NMBS_SNCB_83                                                 :NMBS/SNCB 83 (dizel lokomotiva)
+str_diesel_Germany_DB_220                                                               :DB V200.0 / DB 220 (dizel lokomotiva)
 str_diesel_USA_Amtrak_FL9                                                               :Amtrak FL9 (dizel lokomotiva)
 str_diesel_Czech_Republic_CD_720_ChME2                                  :CD 720 ChME2 (dizel lokomotiva)
 str_diesel_Finland_VR_Dr12                                                              :VR Dr12 (dizel lokomotiva)
@@ -826,6 +829,7 @@ str_coach_Gen6_Super_Voyager_Coach                                              
 str_mu_wagon_unpowered                  :Vagon višestruke jedinice (bez pogona)
 str_mtro_wagon_unpowered                :Vagon metroa (bez pogona)
 str_mglv_wagon_unpowered                :Vagon magleva (bez pogona)
+str_mu_cargo_wagon_unpowered    :Teretni vagon višestruke jedinice (bez pogona)
 str_mu_wagon_powered                    :Vagon višestruke jedinice (sa pogonom)
 str_mtro_wagon_powered                  :Vagon metroa (sa pogonom)
 str_mglv_wagon_powered                  :Vagon magleva (sa pogonom)
@@ -839,3 +843,4 @@ str_cannot_attach_wagon_to_MU                                   :Običan vagon n
 str_cannot_attach_wagon_to_Unit_Wagon                   :Običan vagon ne može se priključiti na vagon višestruke jedinice
 str_cannot_attach_Unit_wagon_to_engine                  :Vagon višestruke jedinice ne može se priključiti na običnu lokomotivu
 str_cannot_attach_Unit_wagon_to_wagon                   :Vagon višestruke jedinice ne može se priključiti na običan vagon
+str_cannot_attach_Unit_wagon_cargo_to_passenger :Teretni vagon višestruke jedinice ne može se priključiti na putnički vagon višestruke jedinice
