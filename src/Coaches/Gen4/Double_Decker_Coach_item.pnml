@@ -18,7 +18,7 @@ item(FEAT_TRAINS, item_coach_Gen4_Double_Decker_Coach) {
         introduction_date: date(1970,1,1);
         model_life: 50;
         vehicle_life: 25;
-        loading_speed: 15;
+        LOADINGSPEEDDEF_INTERCITY
         cost_factor: 78;
         running_cost_factor: 76;
         speed: 140 km/h;

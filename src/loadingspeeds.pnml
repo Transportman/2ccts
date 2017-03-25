@@ -26,3 +26,6 @@ isUltraSpeed = param_loadingspeed == 3; // 4 means ultra fast
 
 //Cargo vehicles
 #define LOADINGSPEEDDEF_CARGO loading_speed: isUltraSpeed ? 255 : LOADINGSPEED(20);
+
+//Mail vehicles
+#define LOADINGSPEEDDEF_MAIL loading_speed: isUltraSpeed ? 255 : LOADINGSPEED(15);
