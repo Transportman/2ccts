@@ -32,3 +32,9 @@ switch(FEAT_TRAINS, SELF, switch_steam_Germany_DB_9977_79_animation, motion_coun
 	0: spriteset_steam_Germany_DB_9977_79_engine1;
 	spriteset_steam_Germany_DB_9977_79_engine2;
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

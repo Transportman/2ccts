@@ -27,8 +27,10 @@ spriteset(spriteset_rbd_USA_Amtrak_Budd_RDC, "gfx/Railbus-diesel/USA_Amtrak_Budd
 * Cargo capacity
 */
 
-switch(FEAT_TRAINS, SELF, switch_rbd_USA_Amtrak_Budd_RDC_capacity, cargo_classes) {
-	bitmask(CC_MAIL): 45;
-	bitmask(CC_ARMOURED): 23;
-	90;
-}
+ENGINECAPACITYSWITCH
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

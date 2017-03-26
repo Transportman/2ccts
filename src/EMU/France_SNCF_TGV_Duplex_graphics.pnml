@@ -59,14 +59,20 @@ switch(FEAT_TRAINS, SELF, switch_emu_France_SNCF_TGV_Duplex_reversed, var[0xC8])
 * Cargo capacity
 */
 
-switch(FEAT_TRAINS, SELF, switch_emu_France_SNCF_TGV_Duplex_capacity, cargo_classes) {
-	bitmask(CC_MAIL): 54;
-	bitmask(CC_ARMOURED): 36;
-	72;
-}
+ENGINECAPACITYSWITCH
+
+WAGONCAPACITYSWITCH
 
 //Graphics for the unit wagon based on cargo class
 switch(FEAT_TRAINS, SELF, switch_emu_France_SNCF_TGV_Duplex_cargo_selection, cargo_classes){
 	bitmask(CC_PASSENGERS): switch_emu_France_SNCF_TGV_Duplex_livery;
 	spriteset_emu_France_SNCF_TGV_Duplex_middlemail;
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+RUNNINGCOSTMUWAGONSWITCH
+
+PURCHASETEXTSWITCH

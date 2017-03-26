@@ -22,3 +22,9 @@ spriteset(spriteset_electric_Sweden_SJ_F_Class_purchase, "gfx/Electric/Sweden_SJ
 spriteset(spriteset_electric_Sweden_SJ_F_Class, "gfx/Electric/Sweden_SJ_F_Class.png") {
 	template_2cc_engines_general(1, 1)
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

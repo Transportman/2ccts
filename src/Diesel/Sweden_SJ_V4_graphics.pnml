@@ -22,3 +22,9 @@ spriteset(spriteset_diesel_Sweden_SJ_V4_purchase, "gfx/Diesel/Sweden_SJ_V4.png")
 spriteset(spriteset_diesel_Sweden_SJ_V4, "gfx/Diesel/Sweden_SJ_V4.png") {
 	template_2cc_engines_general(1, 1)
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

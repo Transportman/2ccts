@@ -44,3 +44,9 @@ random_switch(FEAT_TRAINS, SELF, switch_coach_Gen3_Gallery_Car_livery) {
 	1: spriteset_coach_Gen3_Gallery_Car_L3;
 	1: spriteset_coach_Gen3_Gallery_Car_L4;
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

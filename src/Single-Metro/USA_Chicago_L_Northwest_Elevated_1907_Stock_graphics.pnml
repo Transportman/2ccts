@@ -23,3 +23,9 @@ spriteset(spriteset_singlemtro_USA_Chicago_L_Northwest_Elevated_1907_Stock, "gfx
 	template_2cc_railbus_general(1, 1)
 }
 	
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

@@ -720,3 +720,9 @@ switch(FEAT_TRAINS, SELF, switch_wagon_Gen2_Open_Wagon_cargo_selection, cargo_ty
 	SCMT: switch_wagon_Gen2_Open_Wagon_Gray_livery;
 	switch_wagon_Gen2_Open_Wagon_Grain_livery; //GRAI, MAIZ, TOFF
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

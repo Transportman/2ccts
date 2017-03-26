@@ -22,3 +22,9 @@ spriteset(spriteset_diesel_Ireland_IE_201_purchase, "gfx/Diesel/Ireland_IE_201.p
 spriteset(spriteset_diesel_Ireland_IE_201, "gfx/Diesel/Ireland_IE_201.png") {
 	template_2cc_engines_general(1, 1)
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

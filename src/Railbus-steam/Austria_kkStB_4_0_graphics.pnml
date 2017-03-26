@@ -32,3 +32,9 @@ switch(FEAT_TRAINS, SELF, switch_rbs_Austria_kkStB_4_0_animation, motion_counter
 	0: spriteset_rbs_Austria_kkStB_4_0_engine1;
 	spriteset_rbs_Austria_kkStB_4_0_engine2;
 }	
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

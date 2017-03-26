@@ -55,14 +55,20 @@ switch(FEAT_TRAINS, SELF, switch_dmu_Serbia_ZS_811_visual_effect_and_powered, va
 * Cargo capacity
 */
 
-switch(FEAT_TRAINS, SELF, switch_dmu_Serbia_ZS_811_capacity, cargo_classes) {
-	bitmask(CC_MAIL): 29;
-	bitmask(CC_ARMOURED): 19;
-	38;
-}
+ENGINECAPACITYSWITCH
+
+WAGONCAPACITYSWITCH
 
 //Graphics for the unit wagon based on cargo class
 switch(FEAT_TRAINS, SELF, switch_dmu_Serbia_ZS_811_cargo_selection, cargo_classes){
 	bitmask(CC_PASSENGERS): spriteset_dmu_Serbia_ZS_811_middlepass;
 	spriteset_dmu_Serbia_ZS_811_middlemail;
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+RUNNINGCOSTMUWAGONSWITCH
+
+PURCHASETEXTSWITCH

@@ -66,3 +66,9 @@ switch(FEAT_TRAINS, SELF, switch_steam_USA_UP_4000_Big_Boy_articulated, extra_ca
 	1..2: return item_steam_USA_UP_4000_Big_Boy;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

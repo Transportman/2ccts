@@ -37,3 +37,9 @@ switch(FEAT_TRAINS, SELF, switch_steam_South_Africa_Harbour_Board_EL_0_4_0_anima
 	0: spriteset_steam_South_Africa_Harbour_Board_EL_0_4_0_engine1;
 	spriteset_steam_South_Africa_Harbour_Board_EL_0_4_0_engine2;
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

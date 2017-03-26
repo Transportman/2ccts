@@ -45,3 +45,9 @@ switch(FEAT_TRAINS, SELF, switch_diesel_Belarus_BCh_2TE10M_articulated, extra_ca
 	1: return item_diesel_Belarus_BCh_2TE10M;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

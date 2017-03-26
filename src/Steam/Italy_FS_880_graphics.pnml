@@ -33,3 +33,9 @@ switch(FEAT_TRAINS, SELF, switch_steam_Italy_FS_880_animation, motion_counter % 
 	spriteset_steam_Italy_FS_880_engine2;
 }
 
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

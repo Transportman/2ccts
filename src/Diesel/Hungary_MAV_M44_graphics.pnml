@@ -22,3 +22,9 @@ spriteset(spriteset_diesel_Hungary_MAV_M44_purchase, "gfx/Diesel/Hungary_MAV_M44
 spriteset(spriteset_diesel_Hungary_MAV_M44, "gfx/Diesel/Hungary_MAV_M44.png") {
 	template_2cc_engines_general(1, 1)
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

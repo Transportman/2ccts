@@ -27,8 +27,10 @@ spriteset(spriteset_rbd_Belgium_SNCB_Class_42, "gfx/Railbus-diesel/Belgium_SNCB_
 * Cargo capacity
 */
 
-switch(FEAT_TRAINS, SELF, switch_rbd_Belgium_SNCB_Class_42_capacity, cargo_classes) {
-	bitmask(CC_MAIL): 50;
-	bitmask(CC_ARMOURED): 25;
-	99;
-}
+ENGINECAPACITYSWITCH
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

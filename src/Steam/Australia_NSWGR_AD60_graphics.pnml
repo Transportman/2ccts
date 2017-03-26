@@ -75,3 +75,9 @@ switch(FEAT_TRAINS, SELF, switch_steam_Australia_NSWGR_AD60_articulated, extra_c
 	1..2: return item_steam_Australia_NSWGR_AD60;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

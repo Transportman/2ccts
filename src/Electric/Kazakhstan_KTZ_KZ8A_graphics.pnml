@@ -51,3 +51,9 @@ switch(FEAT_TRAINS, SELF, switch_electric_Kazakhstan_KTZ_KZ8A_articulated, extra
 	1: return item_electric_Kazakhstan_KTZ_KZ8A;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

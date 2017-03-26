@@ -27,8 +27,10 @@ spriteset(spriteset_rbd_Japan_JR_KiHa_E120, "gfx/Railbus-diesel/Japan_JR_KiHa_E1
 * Cargo capacity
 */
 
-switch(FEAT_TRAINS, SELF, switch_rbd_Japan_JR_KiHa_E120_capacity, cargo_classes) {
-	bitmask(CC_MAIL): 20;
-	bitmask(CC_ARMOURED): 10;
-	39;
-}
+ENGINECAPACITYSWITCH
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

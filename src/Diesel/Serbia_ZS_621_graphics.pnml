@@ -22,3 +22,9 @@ spriteset(spriteset_diesel_Serbia_ZS_621_purchase, "gfx/Diesel/Serbia_ZS_621.png
 spriteset(spriteset_diesel_Serbia_ZS_621, "gfx/Diesel/Serbia_ZS_621.png") {
 	template_2cc_engines_general(1, 1)
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

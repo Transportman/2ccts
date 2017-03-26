@@ -71,3 +71,9 @@ switch(FEAT_TRAINS, SELF, switch_electric_Sweden_SJ_O_Class_articulated, extra_c
 	1: return item_electric_Sweden_SJ_O_Class;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

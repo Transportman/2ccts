@@ -22,3 +22,9 @@ spriteset(spriteset_diesel_South_Korea_Korail_6000_EMD_SD18_purchase, "gfx/Diese
 spriteset(spriteset_diesel_South_Korea_Korail_6000_EMD_SD18, "gfx/Diesel/South_Korea_Korail_6000_EMD_SD18.png") {
 	template_2cc_engines_general(1, 1)
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

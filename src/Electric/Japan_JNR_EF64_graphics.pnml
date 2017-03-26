@@ -22,3 +22,9 @@ spriteset(spriteset_electric_Japan_JNR_EF64_purchase, "gfx/Electric/Japan_JNR_EF
 spriteset(spriteset_electric_Japan_JNR_EF64, "gfx/Electric/Japan_JNR_EF64.png") {
 	template_2cc_engines_general(1, 1)
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

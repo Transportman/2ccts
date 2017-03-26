@@ -22,3 +22,9 @@ spriteset(spriteset_diesel_Brazil_EFVM_EMD_DDM45_purchase, "gfx/Diesel/Brazil_EF
 spriteset(spriteset_diesel_Brazil_EFVM_EMD_DDM45, "gfx/Diesel/Brazil_EFVM_EMD_DDM45.png") {
 	template_2cc_engines_general(1, 1)
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

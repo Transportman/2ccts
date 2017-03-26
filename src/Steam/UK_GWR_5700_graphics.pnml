@@ -33,3 +33,9 @@ switch(FEAT_TRAINS, SELF, switch_steam_UK_GWR_5700_animation, motion_counter % 2
 	spriteset_steam_UK_GWR_5700_engine2;
 }
 
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

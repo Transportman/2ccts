@@ -27,8 +27,10 @@ spriteset(spriteset_rbd_New_Zealand_NZR_RM31, "gfx/Railbus-diesel/New_Zealand_NZ
 * Cargo capacity
 */
 
-switch(FEAT_TRAINS, SELF, switch_rbd_New_Zealand_NZR_RM31_capacity, cargo_classes) {
-	bitmask(CC_MAIL): 25;
-	bitmask(CC_ARMOURED): 13;
-	50;
-}
+ENGINECAPACITYSWITCH
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

@@ -61,3 +61,9 @@ switch(FEAT_TRAINS, SELF, switch_steam_Ireland_DSER_15_articulated, extra_callba
 	1: return item_steam_Ireland_DSER_15;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

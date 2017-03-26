@@ -27,8 +27,10 @@ spriteset(spriteset_rbd_Lithuania_Lithuanian_Railways_AR2, "gfx/Railbus-diesel/L
 * Cargo capacity
 */
 
-switch(FEAT_TRAINS, SELF, switch_rbd_Lithuania_Lithuanian_Railways_AR2_capacity, cargo_classes) {
-	bitmask(CC_MAIL): 37;
-	bitmask(CC_ARMOURED): 18;
-	73;
-}
+ENGINECAPACITYSWITCH
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

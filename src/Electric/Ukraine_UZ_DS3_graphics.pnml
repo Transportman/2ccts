@@ -22,3 +22,9 @@ spriteset(spriteset_electric_Ukraine_UZ_DS3_purchase, "gfx/Electric/Ukraine_UZ_D
 spriteset(spriteset_electric_Ukraine_UZ_DS3, "gfx/Electric/Ukraine_UZ_DS3.png") {
 	template_2cc_engines_general(1, 1)
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

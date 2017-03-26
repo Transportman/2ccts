@@ -39,3 +39,9 @@ switch(FEAT_TRAINS, SELF, switch_mtro_France_Paris_MP89_reversed, var[0xC8]) {
     0xFF: spriteset_mtro_France_Paris_MP89_back; 
     spriteset_mtro_France_Paris_MP89_front;
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

@@ -49,3 +49,9 @@ switch(FEAT_TRAINS, SELF, switch_electric_USA_GN_W_1_articulated, extra_callback
 	1: return item_electric_USA_GN_W_1;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

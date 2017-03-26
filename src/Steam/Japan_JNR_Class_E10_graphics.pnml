@@ -32,3 +32,9 @@ switch(FEAT_TRAINS, SELF, switch_steam_Japan_JNR_Class_E10_animation, motion_cou
 	0: spriteset_steam_Japan_JNR_Class_E10_engine1;
 	spriteset_steam_Japan_JNR_Class_E10_engine2;
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

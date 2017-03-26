@@ -22,3 +22,9 @@ spriteset(spriteset_rbd_Chile_EFE_Buscarril_purchase, "gfx/Railbus-diesel/Chile_
 spriteset(spriteset_rbd_Chile_EFE_Buscarril, "gfx/Railbus-diesel/Chile_EFE_Buscarril.png") {
 	template_2cc_engines_general(1, 1)
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

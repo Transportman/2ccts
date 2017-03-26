@@ -32,3 +32,9 @@ switch(FEAT_TRAINS, SELF, switch_diesel_Liberia_Liberia_Railways_Class_08_animat
 	0: spriteset_diesel_Liberia_Liberia_Railways_Class_08_engine1;
 	spriteset_diesel_Liberia_Liberia_Railways_Class_08_engine2;
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

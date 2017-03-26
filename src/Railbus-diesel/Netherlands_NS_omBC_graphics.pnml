@@ -27,8 +27,10 @@ spriteset(spriteset_rbd_Netherlands_NS_omBC, "gfx/Railbus-diesel/Netherlands_NS_
 * Cargo capacity
 */
 
-switch(FEAT_TRAINS, SELF, switch_rbd_Netherlands_NS_omBC_capacity, cargo_classes) {
-	bitmask(CC_MAIL): 32;
-	bitmask(CC_ARMOURED): 16;
-	63;
-}
+ENGINECAPACITYSWITCH
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

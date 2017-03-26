@@ -93,14 +93,20 @@ switch(FEAT_TRAINS, SELF, switch_emu_Germany_DB_ET420_middlemail_position, [STOR
 * Cargo capacity
 */
 
-switch(FEAT_TRAINS, SELF, switch_emu_Germany_DB_ET420_capacity, cargo_classes) {
-	bitmask(CC_MAIL): 57;
-	bitmask(CC_ARMOURED): 38;
-	76;
-}
+ENGINECAPACITYSWITCH
+
+WAGONCAPACITYSWITCH
 
 //Graphics for the unit wagon based on cargo class
 switch(FEAT_TRAINS, SELF, switch_emu_Germany_DB_ET420_cargo_selection, cargo_classes){
 	bitmask(CC_PASSENGERS): switch_emu_Germany_DB_ET420_middlepass_position;
 	switch_emu_Germany_DB_ET420_middlemail_position;
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+RUNNINGCOSTMUWAGONSWITCH
+
+PURCHASETEXTSWITCH

@@ -27,8 +27,10 @@ spriteset(spriteset_rbd_Russia_RZD_ACh2, "gfx/Railbus-diesel/Russia_RZD_ACh2.png
 * Cargo capacity
 */
 
-switch(FEAT_TRAINS, SELF, switch_rbd_Russia_RZD_ACh2_capacity, cargo_classes) {
-	bitmask(CC_MAIL): 34;
-	bitmask(CC_ARMOURED): 17;
-	67;
-}
+ENGINECAPACITYSWITCH
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

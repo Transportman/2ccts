@@ -22,3 +22,9 @@ spriteset(spriteset_diesel_Portugal_CP_1900_purchase, "gfx/Diesel/Portugal_CP_19
 spriteset(spriteset_diesel_Portugal_CP_1900, "gfx/Diesel/Portugal_CP_1900.png") {
 	template_2cc_engines_general(1, 1)
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

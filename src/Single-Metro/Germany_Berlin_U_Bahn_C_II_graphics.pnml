@@ -23,3 +23,9 @@ spriteset(spriteset_singlemtro_Germany_Berlin_U_Bahn_C_II, "gfx/Single-Metro/Ger
 	template_2cc_railbus_general(1, 1)
 }
 	
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

@@ -27,8 +27,10 @@ spriteset(spriteset_rbd_UK_WC_PR_Drewry_Railcar, "gfx/Railbus-diesel/UK_WC_PR_Dr
 * Cargo capacity
 */
 
-switch(FEAT_TRAINS, SELF, switch_rbd_UK_WC_PR_Drewry_Railcar_capacity, cargo_classes) {
-	bitmask(CC_MAIL): 15;
-	bitmask(CC_ARMOURED): 8;
-	30;
-}
+ENGINECAPACITYSWITCH
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

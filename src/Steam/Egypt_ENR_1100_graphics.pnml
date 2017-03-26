@@ -32,3 +32,9 @@ switch(FEAT_TRAINS, SELF, switch_steam_Egypt_ENR_1100_animation, motion_counter 
 	0: spriteset_steam_Egypt_ENR_1100_engine1;
 	spriteset_steam_Egypt_ENR_1100_engine2;
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

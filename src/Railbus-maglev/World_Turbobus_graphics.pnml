@@ -32,11 +32,7 @@ switch(FEAT_TRAINS, SELF, switch_rbm_World_Turbobus_position, position_in_vehid_
 * Cargo capacity
 */
 
-switch(FEAT_TRAINS, SELF, switch_rbm_World_Turbobus_capacity, cargo_classes) {
-	bitmask(CC_MAIL): 23;
-	bitmask(CC_ARMOURED): 12;
-	45;
-}
+ENGINECAPACITYSWITCH
 
 switch(FEAT_TRAINS, SELF, switch_rbm_World_Turbobus_length, position_in_vehid_chain % 2) {
 	0: 8;
@@ -47,3 +43,9 @@ switch(FEAT_TRAINS, SELF, switch_rbm_World_Turbobus_articulated, extra_callback_
 	1: return item_rbm_World_Turbobus;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

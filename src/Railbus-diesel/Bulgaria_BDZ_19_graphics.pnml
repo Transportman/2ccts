@@ -27,8 +27,10 @@ spriteset(spriteset_rbd_Bulgaria_BDZ_19, "gfx/Railbus-diesel/Bulgaria_BDZ_19.png
 * Cargo capacity
 */
 
-switch(FEAT_TRAINS, SELF, switch_rbd_Bulgaria_BDZ_19_capacity, cargo_classes) {
-	bitmask(CC_MAIL): 19;
-	bitmask(CC_ARMOURED): 9;
-	37;
-}
+ENGINECAPACITYSWITCH
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

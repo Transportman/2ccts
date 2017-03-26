@@ -22,3 +22,9 @@ spriteset(spriteset_electric_Spain_RENFE_250_purchase, "gfx/Electric/Spain_RENFE
 spriteset(spriteset_electric_Spain_RENFE_250, "gfx/Electric/Spain_RENFE_250.png") {
 	template_2cc_engines_general(1, 1)
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

@@ -22,3 +22,9 @@ spriteset(spriteset_diesel_Switzerland_SBB_Am_4_6_purchase, "gfx/Diesel/Switzerl
 spriteset(spriteset_diesel_Switzerland_SBB_Am_4_6, "gfx/Diesel/Switzerland_SBB_Am_4_6.png") {
 	template_2cc_engines_general(1, 1)
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

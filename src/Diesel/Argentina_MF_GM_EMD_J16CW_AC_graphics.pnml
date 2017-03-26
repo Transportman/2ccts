@@ -22,3 +22,9 @@ spriteset(spriteset_diesel_Argentina_MF_GM_EMD_J16CW_AC_purchase, "gfx/Diesel/Ar
 spriteset(spriteset_diesel_Argentina_MF_GM_EMD_J16CW_AC, "gfx/Diesel/Argentina_MF_GM_EMD_J16CW_AC.png") {
 	template_2cc_engines_general(1, 1)
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

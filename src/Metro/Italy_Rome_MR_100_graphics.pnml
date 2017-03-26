@@ -39,3 +39,9 @@ switch(FEAT_TRAINS, SELF, switch_mtro_Italy_Rome_MR_100_reversed, var[0xC8]) {
     0xFF: spriteset_mtro_Italy_Rome_MR_100_back; 
     spriteset_mtro_Italy_Rome_MR_100_front;
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

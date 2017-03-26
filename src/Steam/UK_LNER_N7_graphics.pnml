@@ -32,3 +32,9 @@ switch(FEAT_TRAINS, SELF, switch_steam_UK_LNER_N7_animation, motion_counter % 2)
 	0: spriteset_steam_UK_LNER_N7_engine1;
 	spriteset_steam_UK_LNER_N7_engine2;
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

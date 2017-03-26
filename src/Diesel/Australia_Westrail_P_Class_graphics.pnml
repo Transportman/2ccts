@@ -22,3 +22,9 @@ spriteset(spriteset_diesel_Australia_Westrail_P_Class_purchase, "gfx/Diesel/Aust
 spriteset(spriteset_diesel_Australia_Westrail_P_Class, "gfx/Diesel/Australia_Westrail_P_Class.png") {
 	template_2cc_engines_general(1, 1)
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

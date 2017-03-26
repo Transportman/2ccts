@@ -44,3 +44,9 @@ random_switch(FEAT_TRAINS, SELF, switch_coach_Gen1_Wooden_3_axle_Mail_Coach_live
 	1: spriteset_coach_Gen1_Wooden_3_axle_Mail_Coach_L3;
 	1: spriteset_coach_Gen1_Wooden_3_axle_Mail_Coach_L4;
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

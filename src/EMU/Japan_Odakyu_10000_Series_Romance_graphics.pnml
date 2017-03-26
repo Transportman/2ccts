@@ -93,14 +93,20 @@ switch(FEAT_TRAINS, SELF, switch_emu_Japan_Odakyu_10000_Series_Romance_middlemai
 * Cargo capacity
 */
 
-switch(FEAT_TRAINS, SELF, switch_emu_Japan_Odakyu_10000_Series_Romance_capacity, cargo_classes) {
-	bitmask(CC_MAIL): 30;
-	bitmask(CC_ARMOURED): 20;
-	40;
-}
+ENGINECAPACITYSWITCH
+
+WAGONCAPACITYSWITCH
 
 //Graphics for the unit wagon based on cargo class
 switch(FEAT_TRAINS, SELF, switch_emu_Japan_Odakyu_10000_Series_Romance_cargo_selection, cargo_classes){
 	bitmask(CC_PASSENGERS): switch_emu_Japan_Odakyu_10000_Series_Romance_middlepass_position;
 	switch_emu_Japan_Odakyu_10000_Series_Romance_middlemail_position;
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+RUNNINGCOSTMUWAGONSWITCH
+
+PURCHASETEXTSWITCH

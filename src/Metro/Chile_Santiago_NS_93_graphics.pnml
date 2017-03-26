@@ -39,3 +39,9 @@ switch(FEAT_TRAINS, SELF, switch_mtro_Chile_Santiago_NS_93_reversed, var[0xC8]) 
     0xFF: spriteset_mtro_Chile_Santiago_NS_93_back; 
     spriteset_mtro_Chile_Santiago_NS_93_front;
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

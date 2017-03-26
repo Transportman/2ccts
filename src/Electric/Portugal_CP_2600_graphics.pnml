@@ -22,3 +22,9 @@ spriteset(spriteset_electric_Portugal_CP_2600_purchase, "gfx/Electric/Portugal_C
 spriteset(spriteset_electric_Portugal_CP_2600, "gfx/Electric/Portugal_CP_2600.png") {
 	template_2cc_engines_general(1, 1)
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

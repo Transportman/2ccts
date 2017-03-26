@@ -61,3 +61,9 @@ switch(FEAT_TRAINS, SELF, switch_steam_New_Zealand_NZR_X_Class_articulated, extr
 	1: return item_steam_New_Zealand_NZR_X_Class;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

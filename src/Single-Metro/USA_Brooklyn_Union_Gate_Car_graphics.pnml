@@ -23,3 +23,9 @@ spriteset(spriteset_singlemtro_USA_Brooklyn_Union_Gate_Car, "gfx/Single-Metro/US
 	template_2cc_railbus_general(1, 1)
 }
 	
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

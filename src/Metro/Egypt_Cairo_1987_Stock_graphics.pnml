@@ -39,3 +39,9 @@ switch(FEAT_TRAINS, SELF, switch_mtro_Egypt_Cairo_1987_Stock_reversed, var[0xC8]
     0xFF: spriteset_mtro_Egypt_Cairo_1987_Stock_back; 
     spriteset_mtro_Egypt_Cairo_1987_Stock_front;
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

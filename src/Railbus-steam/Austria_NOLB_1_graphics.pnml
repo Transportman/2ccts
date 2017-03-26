@@ -27,9 +27,11 @@ spriteset(spriteset_rbs_Austria_NOLB_1, "gfx/Railbus-steam/Austria_NOLB_1.png") 
 * Cargo capacity
 */
 
-switch(FEAT_TRAINS, SELF, switch_rbs_Austria_NOLB_1_capacity, cargo_classes) {
-	bitmask(CC_MAIL): 11;
-	bitmask(CC_ARMOURED): 6;
-	22;
-}
+ENGINECAPACITYSWITCH
 	
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

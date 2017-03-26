@@ -55,14 +55,20 @@ switch(FEAT_TRAINS, SELF, switch_dmu_Sri_Lanka_Sri_Lanka_Railways_S11_visual_eff
 * Cargo capacity
 */
 
-switch(FEAT_TRAINS, SELF, switch_dmu_Sri_Lanka_Sri_Lanka_Railways_S11_capacity, cargo_classes) {
-	bitmask(CC_MAIL): 36;
-	bitmask(CC_ARMOURED): 18;
-	72;
-}
+ENGINECAPACITYSWITCH
+
+WAGONCAPACITYSWITCH
 
 //Graphics for the unit wagon based on cargo class
 switch(FEAT_TRAINS, SELF, switch_dmu_Sri_Lanka_Sri_Lanka_Railways_S11_cargo_selection, cargo_classes){
 	bitmask(CC_PASSENGERS): spriteset_dmu_Sri_Lanka_Sri_Lanka_Railways_S11_middlepass;
 	spriteset_dmu_Sri_Lanka_Sri_Lanka_Railways_S11_middlemail;
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+RUNNINGCOSTMUWAGONSWITCH
+
+PURCHASETEXTSWITCH

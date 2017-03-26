@@ -61,3 +61,9 @@ switch(FEAT_TRAINS, SELF, switch_steam_Netherlands_NRS_11_articulated, extra_cal
 	1: return item_steam_Netherlands_NRS_11;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

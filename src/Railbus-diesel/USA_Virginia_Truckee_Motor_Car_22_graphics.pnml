@@ -27,8 +27,10 @@ spriteset(spriteset_rbd_USA_Virginia_Truckee_Motor_Car_22, "gfx/Railbus-diesel/U
 * Cargo capacity
 */
 
-switch(FEAT_TRAINS, SELF, switch_rbd_USA_Virginia_Truckee_Motor_Car_22_capacity, cargo_classes) {
-	bitmask(CC_MAIL): 42;
-	bitmask(CC_ARMOURED): 21;
-	84;
-}
+ENGINECAPACITYSWITCH
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

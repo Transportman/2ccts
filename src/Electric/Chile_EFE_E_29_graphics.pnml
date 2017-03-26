@@ -49,3 +49,9 @@ switch(FEAT_TRAINS, SELF, switch_electric_Chile_EFE_E_29_articulated, extra_call
 	1: return item_electric_Chile_EFE_E_29;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

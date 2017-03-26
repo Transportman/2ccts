@@ -27,8 +27,10 @@ spriteset(spriteset_rbe_Spain_Ferrocarril_de_Soller_1_3, "gfx/Railbus-electric/S
 * Cargo capacity
 */
 
-switch(FEAT_TRAINS, SELF, switch_rbe_Spain_Ferrocarril_de_Soller_1_3_capacity, cargo_classes) {
-	bitmask(CC_MAIL): 22;
-	bitmask(CC_ARMOURED): 11;
-	44;
-}
+ENGINECAPACITYSWITCH
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

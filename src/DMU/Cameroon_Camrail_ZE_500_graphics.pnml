@@ -55,14 +55,20 @@ switch(FEAT_TRAINS, SELF, switch_dmu_Cameroon_Camrail_ZE_500_visual_effect_and_p
 * Cargo capacity
 */
 
-switch(FEAT_TRAINS, SELF, switch_dmu_Cameroon_Camrail_ZE_500_capacity, cargo_classes) {
-	bitmask(CC_MAIL): 31;
-	bitmask(CC_ARMOURED): 16;
-	62;
-}
+ENGINECAPACITYSWITCH
+
+WAGONCAPACITYSWITCH
 
 //Graphics for the unit wagon based on cargo class
 switch(FEAT_TRAINS, SELF, switch_dmu_Cameroon_Camrail_ZE_500_cargo_selection, cargo_classes){
 	bitmask(CC_PASSENGERS): spriteset_dmu_Cameroon_Camrail_ZE_500_middlepass;
 	spriteset_dmu_Cameroon_Camrail_ZE_500_middlemail;
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+RUNNINGCOSTMUWAGONSWITCH
+
+PURCHASETEXTSWITCH

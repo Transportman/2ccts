@@ -61,3 +61,9 @@ switch(FEAT_TRAINS, SELF, switch_steam_USA_PRR_D16_articulated, extra_callback_i
 	1: return item_steam_USA_PRR_D16;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

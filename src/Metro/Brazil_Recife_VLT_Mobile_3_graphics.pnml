@@ -39,3 +39,9 @@ switch(FEAT_TRAINS, SELF, switch_mtro_Brazil_Recife_VLT_Mobile_3_reversed, var[0
     0xFF: spriteset_mtro_Brazil_Recife_VLT_Mobile_3_back; 
     spriteset_mtro_Brazil_Recife_VLT_Mobile_3_front;
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

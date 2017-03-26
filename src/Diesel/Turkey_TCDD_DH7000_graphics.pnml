@@ -22,3 +22,9 @@ spriteset(spriteset_diesel_Turkey_TCDD_DH7000_purchase, "gfx/Diesel/Turkey_TCDD_
 spriteset(spriteset_diesel_Turkey_TCDD_DH7000, "gfx/Diesel/Turkey_TCDD_DH7000.png") {
 	template_2cc_engines_general(1, 1)
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

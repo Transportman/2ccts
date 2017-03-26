@@ -27,8 +27,10 @@ spriteset(spriteset_rbd_Australia_Victorian_Railways_DERM, "gfx/Railbus-diesel/A
 * Cargo capacity
 */
 
-switch(FEAT_TRAINS, SELF, switch_rbd_Australia_Victorian_Railways_DERM_capacity, cargo_classes) {
-	bitmask(CC_MAIL): 20;
-	bitmask(CC_ARMOURED): 10;
-	40;
-}
+ENGINECAPACITYSWITCH
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

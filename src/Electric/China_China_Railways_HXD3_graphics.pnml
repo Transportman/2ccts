@@ -22,3 +22,9 @@ spriteset(spriteset_electric_China_China_Railways_HXD3_purchase, "gfx/Electric/C
 spriteset(spriteset_electric_China_China_Railways_HXD3, "gfx/Electric/China_China_Railways_HXD3.png") {
 	template_2cc_engines_general(1, 1)
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

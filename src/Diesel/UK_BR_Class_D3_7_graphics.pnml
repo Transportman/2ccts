@@ -32,3 +32,9 @@ switch(FEAT_TRAINS, SELF, switch_diesel_UK_BR_Class_D3_7_animation, motion_count
 	0: spriteset_diesel_UK_BR_Class_D3_7_engine1;
 	spriteset_diesel_UK_BR_Class_D3_7_engine2;
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

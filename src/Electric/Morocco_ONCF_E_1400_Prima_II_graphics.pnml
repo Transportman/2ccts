@@ -22,3 +22,9 @@ spriteset(spriteset_electric_Morocco_ONCF_E_1400_Prima_II_purchase, "gfx/Electri
 spriteset(spriteset_electric_Morocco_ONCF_E_1400_Prima_II, "gfx/Electric/Morocco_ONCF_E_1400_Prima_II.png") {
 	template_2cc_engines_general(1, 1)
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

@@ -22,3 +22,9 @@ spriteset(spriteset_electric_Brasil_MRS_He_4_4_purchase, "gfx/Electric/Brasil_MR
 spriteset(spriteset_electric_Brasil_MRS_He_4_4, "gfx/Electric/Brasil_MRS_He_4_4.png") {
 	template_2cc_engines_general(1, 1)
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

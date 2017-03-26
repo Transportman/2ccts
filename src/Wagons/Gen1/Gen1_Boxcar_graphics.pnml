@@ -414,3 +414,9 @@ switch(FEAT_TRAINS, SELF, switch_wagon_Gen1_Boxcar_cargo_selection, cargo_type_i
 	URAN: switch_wagon_Gen1_Boxcar_Armoured_livery;
 	switch_wagon_Gen1_Boxcar_Standard_livery; //GRAI, PAPR, WHEA, MAIZ, SUGR, TOYS, BATT, SWET, BUBL, BDMT, BRCK, CERA, CERE, COPR, ENSP, FERT, FMSP, GLAS, JAVA, MNSP, OLSD, POTA, RCYC, SGBT, SGCN, SULP, VEHI, WOOL
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

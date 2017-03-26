@@ -44,3 +44,9 @@ random_switch(FEAT_TRAINS, SELF, switch_coach_Gen3_Aluminium_Lightweight_Regiona
 	1: spriteset_coach_Gen3_Aluminium_Lightweight_Regional_Coach_L3;
 	1: spriteset_coach_Gen3_Aluminium_Lightweight_Regional_Coach_L4;
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

@@ -27,8 +27,10 @@ spriteset(spriteset_rbd_United_Kingdom_GWR_AEC_Railcar, "gfx/Railbus-diesel/Unit
 * Cargo capacity
 */
 
-switch(FEAT_TRAINS, SELF, switch_rbd_United_Kingdom_GWR_AEC_Railcar_capacity, cargo_classes) {
-	bitmask(CC_MAIL): 35;
-	bitmask(CC_ARMOURED): 18;
-	70;
-}
+ENGINECAPACITYSWITCH
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

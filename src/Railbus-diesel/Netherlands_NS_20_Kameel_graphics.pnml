@@ -27,8 +27,10 @@ spriteset(spriteset_rbd_Netherlands_NS_20_Kameel, "gfx/Railbus-diesel/Netherland
 * Cargo capacity
 */
 
-switch(FEAT_TRAINS, SELF, switch_rbd_Netherlands_NS_20_Kameel_capacity, cargo_classes) {
-	bitmask(CC_MAIL): 14;
-	bitmask(CC_ARMOURED): 7;
-	28;
-}
+ENGINECAPACITYSWITCH
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

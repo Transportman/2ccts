@@ -61,3 +61,9 @@ switch(FEAT_TRAINS, SELF, switch_steam_China_Railways_QJ_articulated, extra_call
 	1: return item_steam_China_Railways_QJ;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

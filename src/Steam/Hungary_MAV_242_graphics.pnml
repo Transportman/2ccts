@@ -37,3 +37,9 @@ switch(FEAT_TRAINS, SELF, switch_steam_Hungary_MAV_242_animation, motion_counter
 	0: spriteset_steam_Hungary_MAV_242_engine1;
 	spriteset_steam_Hungary_MAV_242_engine2;
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

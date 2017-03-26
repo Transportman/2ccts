@@ -22,3 +22,9 @@ spriteset(spriteset_electric_Germany_DB_E_919_purchase, "gfx/Electric/Germany_DB
 spriteset(spriteset_electric_Germany_DB_E_919, "gfx/Electric/Germany_DB_E_919.png") {
 	template_2cc_engines_general(1, 1)
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

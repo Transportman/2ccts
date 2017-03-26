@@ -44,3 +44,9 @@ random_switch(FEAT_TRAINS, SELF, switch_coach_Gen4_Silberling_Commuter_Coach_liv
 	1: spriteset_coach_Gen4_Silberling_Commuter_Coach_L3;
 	1: spriteset_coach_Gen4_Silberling_Commuter_Coach_L4;
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

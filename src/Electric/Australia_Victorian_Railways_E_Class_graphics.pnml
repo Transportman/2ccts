@@ -22,3 +22,9 @@ spriteset(spriteset_electric_Australia_Victorian_Railways_E_Class_purchase, "gfx
 spriteset(spriteset_electric_Australia_Victorian_Railways_E_Class, "gfx/Electric/Australia_Victorian_Railways_E_Class.png") {
 	template_2cc_engines_general(1, 1)
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

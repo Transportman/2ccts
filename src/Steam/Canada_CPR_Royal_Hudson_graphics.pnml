@@ -61,3 +61,9 @@ switch(FEAT_TRAINS, SELF, switch_steam_Canada_CPR_Royal_Hudson_articulated, extr
 	1: return item_steam_Canada_CPR_Royal_Hudson;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

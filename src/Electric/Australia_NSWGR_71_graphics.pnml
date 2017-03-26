@@ -22,3 +22,9 @@ spriteset(spriteset_electric_Australia_NSWGR_71_purchase, "gfx/Electric/Australi
 spriteset(spriteset_electric_Australia_NSWGR_71, "gfx/Electric/Australia_NSWGR_71.png") {
 	template_2cc_engines_general(1, 1)
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

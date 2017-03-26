@@ -22,3 +22,9 @@ spriteset(spriteset_electric_Belgium_NMBS_Class_255_purchase, "gfx/Electric/Belg
 spriteset(spriteset_electric_Belgium_NMBS_Class_255, "gfx/Electric/Belgium_NMBS_Class_255.png") {
 	template_2cc_engines_general(1, 1)
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

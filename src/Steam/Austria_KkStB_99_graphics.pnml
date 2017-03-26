@@ -33,3 +33,9 @@ switch(FEAT_TRAINS, SELF, switch_steam_Austria_KkStB_99_animation, motion_counte
 	spriteset_steam_Austria_KkStB_99_engine2;
 }
 
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

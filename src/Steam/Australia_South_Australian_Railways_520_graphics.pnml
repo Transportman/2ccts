@@ -61,3 +61,9 @@ switch(FEAT_TRAINS, SELF, switch_steam_Australia_South_Australian_Railways_520_a
 	1: return item_steam_Australia_South_Australian_Railways_520;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

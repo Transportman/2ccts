@@ -39,3 +39,9 @@ switch(FEAT_TRAINS, SELF, switch_mtro_Germany_Munchen_MVG_A2_reversed, var[0xC8]
     0xFF: spriteset_mtro_Germany_Munchen_MVG_A2_back; 
     spriteset_mtro_Germany_Munchen_MVG_A2_front;
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

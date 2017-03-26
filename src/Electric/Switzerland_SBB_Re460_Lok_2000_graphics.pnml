@@ -22,3 +22,9 @@ spriteset(spriteset_electric_Switzerland_SBB_Re460_Lok_2000_purchase, "gfx/Elect
 spriteset(spriteset_electric_Switzerland_SBB_Re460_Lok_2000, "gfx/Electric/Switzerland_SBB_Re460_Lok_2000.png") {
 	template_2cc_engines_general(1, 1)
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

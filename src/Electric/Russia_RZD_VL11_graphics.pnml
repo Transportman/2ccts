@@ -50,3 +50,9 @@ switch(FEAT_TRAINS, SELF, switch_electric_Russia_RZD_VL11_articulated, extra_cal
 	1: return item_electric_Russia_RZD_VL11;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

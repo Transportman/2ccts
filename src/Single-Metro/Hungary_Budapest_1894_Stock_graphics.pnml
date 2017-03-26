@@ -23,3 +23,9 @@ spriteset(spriteset_singlemtro_Hungary_Budapest_1894_Stock, "gfx/Single-Metro/Hu
 	template_2cc_railbus_general(1, 1)
 }
 	
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

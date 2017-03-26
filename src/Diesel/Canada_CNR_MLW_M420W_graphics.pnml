@@ -22,3 +22,9 @@ spriteset(spriteset_diesel_Canada_CNR_MLW_M420W_purchase, "gfx/Diesel/Canada_CNR
 spriteset(spriteset_diesel_Canada_CNR_MLW_M420W, "gfx/Diesel/Canada_CNR_MLW_M420W.png") {
 	template_2cc_engines_general(1, 1)
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

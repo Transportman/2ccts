@@ -32,3 +32,9 @@ switch(FEAT_TRAINS, SELF, switch_diesel_Germany_DB_270_animation, motion_counter
 	0: spriteset_diesel_Germany_DB_270_engine1;
 	spriteset_diesel_Germany_DB_270_engine2;
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

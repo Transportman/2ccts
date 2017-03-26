@@ -34,3 +34,9 @@ switch(FEAT_TRAINS, SELF, switch_steam_Belgium_Le_Belge_animation, motion_counte
 	spriteset_steam_Belgium_Le_Belge_engine2;
 }
 
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

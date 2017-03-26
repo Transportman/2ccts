@@ -27,8 +27,10 @@ spriteset(spriteset_rbd_Denmark_DSB_MO, "gfx/Railbus-diesel/Denmark_DSB_MO.png")
 * Cargo capacity
 */
 
-switch(FEAT_TRAINS, SELF, switch_rbd_Denmark_DSB_MO_capacity, cargo_classes) {
-	bitmask(CC_MAIL): 26;
-	bitmask(CC_ARMOURED): 13;
-	52;
-}
+ENGINECAPACITYSWITCH
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

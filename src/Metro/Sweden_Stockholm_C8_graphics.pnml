@@ -39,3 +39,9 @@ switch(FEAT_TRAINS, SELF, switch_mtro_Sweden_Stockholm_C8_reversed, var[0xC8]) {
     0xFF: spriteset_mtro_Sweden_Stockholm_C8_back; 
     spriteset_mtro_Sweden_Stockholm_C8_front;
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

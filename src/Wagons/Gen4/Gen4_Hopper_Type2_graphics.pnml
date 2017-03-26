@@ -404,3 +404,9 @@ switch(FEAT_TRAINS, SELF, switch_wagon_Gen4_Hopper_Type2_cargo_selection, cargo_
 	SGBT: switch_wagon_Gen4_Hopper_Type2_Sand_livery; //Use Sand livery for Sugar Beets
 	switch_wagon_Gen4_Hopper_Type2_Ore_livery; //IORE, CORE, AORE
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

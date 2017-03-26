@@ -32,3 +32,9 @@ switch(FEAT_TRAINS, SELF, switch_steam_Netherlands_NS_8100_animation, motion_cou
 	0: spriteset_steam_Netherlands_NS_8100_engine1;
 	spriteset_steam_Netherlands_NS_8100_engine2;
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

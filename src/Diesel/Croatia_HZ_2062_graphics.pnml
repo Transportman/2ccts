@@ -22,3 +22,9 @@ spriteset(spriteset_diesel_Croatia_HZ_2062_purchase, "gfx/Diesel/Croatia_HZ_2062
 spriteset(spriteset_diesel_Croatia_HZ_2062, "gfx/Diesel/Croatia_HZ_2062.png") {
 	template_2cc_engines_general(1, 1)
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

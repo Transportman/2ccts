@@ -55,14 +55,20 @@ switch(FEAT_TRAINS, SELF, switch_emu_Hungary_MAV_BDVmot_visual_effect_and_powere
 * Cargo capacity
 */
 
-switch(FEAT_TRAINS, SELF, switch_emu_Hungary_MAV_BDVmot_capacity, cargo_classes) {
-	bitmask(CC_MAIL): 56;
-	bitmask(CC_ARMOURED): 38;
-	75;
-}
+ENGINECAPACITYSWITCH
+
+WAGONCAPACITYSWITCH
 
 //Graphics for the unit wagon based on cargo class
 switch(FEAT_TRAINS, SELF, switch_emu_Hungary_MAV_BDVmot_cargo_selection, cargo_classes){
 	bitmask(CC_PASSENGERS): spriteset_emu_Hungary_MAV_BDVmot_middlepass;
 	spriteset_emu_Hungary_MAV_BDVmot_middlemail;
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+RUNNINGCOSTMUWAGONSWITCH
+
+PURCHASETEXTSWITCH

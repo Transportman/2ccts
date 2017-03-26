@@ -27,8 +27,10 @@ spriteset(spriteset_rbs_Germany_Bavarian_MCCi, "gfx/Railbus-steam/Germany_Bavari
 * Cargo capacity
 */
 
-switch(FEAT_TRAINS, SELF, switch_rbs_Germany_Bavarian_MCCi_capacity, cargo_classes) {
-	bitmask(CC_MAIL): 26;
-	bitmask(CC_ARMOURED): 13;
-	52;
-}
+ENGINECAPACITYSWITCH
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

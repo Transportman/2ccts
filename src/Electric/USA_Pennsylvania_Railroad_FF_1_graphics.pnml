@@ -60,3 +60,9 @@ switch(FEAT_TRAINS, SELF, switch_electric_USA_Pennsylvania_Railroad_FF_1_articul
 	1: return item_electric_USA_Pennsylvania_Railroad_FF_1;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

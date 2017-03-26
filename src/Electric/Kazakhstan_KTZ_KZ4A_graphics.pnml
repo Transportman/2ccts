@@ -22,3 +22,9 @@ spriteset(spriteset_electric_Kazakhstan_KTZ_KZ4A_purchase, "gfx/Electric/Kazakhs
 spriteset(spriteset_electric_Kazakhstan_KTZ_KZ4A, "gfx/Electric/Kazakhstan_KTZ_KZ4A.png") {
 	template_2cc_engines_general(1, 1)
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

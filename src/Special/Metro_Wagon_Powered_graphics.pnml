@@ -22,3 +22,9 @@ spriteset(spriteset_mtro_wagon_powered, "gfx/Special/Metro_Unit_Wagon_Powered.pn
 	template_wagon_special(21, 1)
 }
 	
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

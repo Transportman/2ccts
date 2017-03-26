@@ -27,8 +27,10 @@ spriteset(spriteset_rbd_Germany_OHE_520_GDT, "gfx/Railbus-diesel/Germany_OHE_520
 * Cargo capacity
 */
 
-switch(FEAT_TRAINS, SELF, switch_rbd_Germany_OHE_520_GDT_capacity, cargo_classes) {
-	bitmask(CC_MAIL): 54;
-	bitmask(CC_ARMOURED): 27;
-	108;
-}
+ENGINECAPACITYSWITCH
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

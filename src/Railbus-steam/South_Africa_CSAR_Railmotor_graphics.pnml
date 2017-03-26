@@ -56,14 +56,10 @@ switch(FEAT_TRAINS, SELF, switch_rbs_South_Africa_CSAR_Railmotor_length, positio
 * Cargo capacity
 */
 
-switch(FEAT_TRAINS, SELF, switch_rbs_South_Africa_CSAR_Railmotor_capacity, cargo_classes) {
-	bitmask(CC_MAIL): 25;
-	bitmask(CC_ARMOURED): 13;
-	50;
-}
+ENGINECAPACITYSWITCH
 
 switch(FEAT_TRAINS, SELF, switch_rbs_South_Africa_CSAR_Railmotor_capacity_position, position_in_vehid_chain % 2) {
-	0: switch_rbs_South_Africa_CSAR_Railmotor_capacity;
+	0: ENGINECAPACITYSWITCHNAME;
 	0;
 }
 
@@ -75,3 +71,9 @@ switch(FEAT_TRAINS, SELF, switch_rbs_South_Africa_CSAR_Railmotor_articulated, ex
 	1: return item_rbs_South_Africa_CSAR_Railmotor;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

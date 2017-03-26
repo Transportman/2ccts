@@ -22,3 +22,9 @@ spriteset(spriteset_electric_New_Zealand_TranzRail_EF_purchase, "gfx/Electric/Ne
 spriteset(spriteset_electric_New_Zealand_TranzRail_EF, "gfx/Electric/New_Zealand_TranzRail_EF.png") {
 	template_2cc_engines_general(1, 1)
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

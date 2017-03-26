@@ -39,3 +39,9 @@ switch(FEAT_TRAINS, SELF, switch_mtro_Portugal_Lisbon_ML7_reversed, var[0xC8]) {
     0xFF: spriteset_mtro_Portugal_Lisbon_ML7_back; 
     spriteset_mtro_Portugal_Lisbon_ML7_front;
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

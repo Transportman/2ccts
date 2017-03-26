@@ -93,20 +93,20 @@ switch(FEAT_TRAINS, SELF, switch_emu_Tunisia_SNCFT_YZ_E_middlemail_position, [ST
 * Cargo capacity
 */
 
-switch(FEAT_TRAINS, SELF, switch_emu_Tunisia_SNCFT_YZ_E_capacity_head, cargo_classes) {
-	bitmask(CC_MAIL): 24;
-	bitmask(CC_ARMOURED): 12;
-	48;
-}
+ENGINECAPACITYSWITCH
 
-switch(FEAT_TRAINS, SELF, switch_emu_Tunisia_SNCFT_YZ_E_capacity_wagon, cargo_classes) {
-	bitmask(CC_MAIL): 27;
-	bitmask(CC_ARMOURED): 14;
-	54;
-}
+WAGONCAPACITYSWITCH
 
 //Graphics for the unit wagon based on cargo class
 switch(FEAT_TRAINS, SELF, switch_emu_Tunisia_SNCFT_YZ_E_cargo_selection, cargo_classes){
 	bitmask(CC_PASSENGERS): switch_emu_Tunisia_SNCFT_YZ_E_middlepass_position;
 	switch_emu_Tunisia_SNCFT_YZ_E_middlemail_position;
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+RUNNINGCOSTMUWAGONSWITCH
+
+PURCHASETEXTSWITCH

@@ -22,3 +22,9 @@ spriteset(spriteset_electric_New_Zealand_NZR_EA_purchase, "gfx/Electric/New_Zeal
 spriteset(spriteset_electric_New_Zealand_NZR_EA, "gfx/Electric/New_Zealand_NZR_EA.png") {
 	template_2cc_engines_general(1, 1)
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

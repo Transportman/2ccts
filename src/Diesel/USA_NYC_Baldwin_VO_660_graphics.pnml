@@ -22,3 +22,9 @@ spriteset(spriteset_diesel_USA_NYC_Baldwin_VO_660_purchase, "gfx/Diesel/USA_NYC_
 spriteset(spriteset_diesel_USA_NYC_Baldwin_VO_660, "gfx/Diesel/USA_NYC_Baldwin_VO_660.png") {
 	template_2cc_engines_general(1, 1)
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

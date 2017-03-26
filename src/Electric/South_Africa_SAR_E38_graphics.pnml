@@ -22,3 +22,9 @@ spriteset(spriteset_electric_South_Africa_SAR_E38_purchase, "gfx/Electric/South_
 spriteset(spriteset_electric_South_Africa_SAR_E38, "gfx/Electric/South_Africa_SAR_E38.png") {
 	template_2cc_engines_general(1, 1)
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

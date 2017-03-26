@@ -36,3 +36,9 @@ switch(FEAT_TRAINS, SELF, switch_steam_Argentina_FCGR_315_animation, motion_coun
 /*
 * Visual effect
 */
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

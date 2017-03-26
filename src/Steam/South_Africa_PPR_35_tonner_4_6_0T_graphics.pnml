@@ -32,3 +32,9 @@ switch(FEAT_TRAINS, SELF, switch_steam_South_Africa_PPR_35_tonner_4_6_0T_animati
 	0: spriteset_steam_South_Africa_PPR_35_tonner_4_6_0T_engine1;
 	spriteset_steam_South_Africa_PPR_35_tonner_4_6_0T_engine2;
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

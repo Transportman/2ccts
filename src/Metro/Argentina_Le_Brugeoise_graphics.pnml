@@ -39,3 +39,9 @@ switch(FEAT_TRAINS, SELF, switch_mtro_Argentina_Le_Brugeoise_reversed, var[0xC8]
     0xFF: spriteset_mtro_Argentina_Le_Brugeoise_back; 
     spriteset_mtro_Argentina_Le_Brugeoise_front;
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

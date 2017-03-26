@@ -22,3 +22,9 @@ spriteset(spriteset_diesel_Egypt_ENR_TE114E_purchase, "gfx/Diesel/Egypt_ENR_TE11
 spriteset(spriteset_diesel_Egypt_ENR_TE114E, "gfx/Diesel/Egypt_ENR_TE114E.png") {
 	template_2cc_engines_general(1, 1)
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

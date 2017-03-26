@@ -27,9 +27,11 @@ spriteset(spriteset_rbe_Italy_FS_ALe_840, "gfx/Railbus-electric/Italy_FS_ALe_840
 * Cargo capacity
 */
 
-switch(FEAT_TRAINS, SELF, switch_rbe_Italy_FS_ALe_840_capacity, cargo_classes) {
-	bitmask(CC_MAIL): 42;
-	bitmask(CC_ARMOURED): 21;
-	84;
-}
+ENGINECAPACITYSWITCH
 	
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

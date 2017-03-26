@@ -22,3 +22,9 @@ spriteset(spriteset_electric_USA_PRR_E44_purchase, "gfx/Electric/USA_PRR_E44.png
 spriteset(spriteset_electric_USA_PRR_E44, "gfx/Electric/USA_PRR_E44.png") {
 	template_2cc_engines_general(1, 1)
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

@@ -44,3 +44,9 @@ random_switch(FEAT_TRAINS, SELF, switch_coach_Gen2_Steel_Intercity_Coach_livery)
 	1: spriteset_coach_Gen2_Steel_Intercity_Coach_L3;
 	1: spriteset_coach_Gen2_Steel_Intercity_Coach_L4;
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

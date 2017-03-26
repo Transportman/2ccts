@@ -32,3 +32,9 @@ switch(FEAT_TRAINS, SELF, switch_steam_South_Africa_Natal_Government_Railways_2_
 	0: spriteset_steam_South_Africa_Natal_Government_Railways_2_6_0T_engine1;
 	spriteset_steam_South_Africa_Natal_Government_Railways_2_6_0T_engine2;
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

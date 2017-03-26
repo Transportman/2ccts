@@ -22,3 +22,9 @@ spriteset(spriteset_electric_Hungary_MAV_Class_V43_purchase, "gfx/Electric/Hunga
 spriteset(spriteset_electric_Hungary_MAV_Class_V43, "gfx/Electric/Hungary_MAV_Class_V43.png") {
 	template_2cc_engines_general(1, 1)
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

@@ -61,3 +61,9 @@ switch(FEAT_TRAINS, SELF, switch_steam_Czech_Republic_CD_4590_articulated, extra
 	1: return item_steam_Czech_Republic_CD_4590;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

@@ -61,3 +61,9 @@ switch(FEAT_TRAINS, SELF, switch_steam_Argentina_FCNEA_11B_2_8_0_articulated, ex
 	1: return item_steam_Argentina_FCNEA_11B_2_8_0;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

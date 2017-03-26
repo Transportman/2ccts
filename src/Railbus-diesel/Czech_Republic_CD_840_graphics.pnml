@@ -27,8 +27,10 @@ spriteset(spriteset_rbd_Czech_Republic_CD_840, "gfx/Railbus-diesel/Czech_Republi
 * Cargo capacity
 */
 
-switch(FEAT_TRAINS, SELF, switch_rbd_Czech_Republic_CD_840_capacity, cargo_classes) {
-	bitmask(CC_MAIL): 36;
-	bitmask(CC_ARMOURED): 18;
-	71;
-}
+ENGINECAPACITYSWITCH
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

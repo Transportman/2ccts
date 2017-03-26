@@ -32,3 +32,9 @@ switch(FEAT_TRAINS, SELF, switch_electric_Switzerland_RhB_Ge_6_6_Krokodil_animat
 	0: spriteset_electric_Switzerland_RhB_Ge_6_6_Krokodil_engine1;
 	spriteset_electric_Switzerland_RhB_Ge_6_6_Krokodil_engine2;
 }	
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

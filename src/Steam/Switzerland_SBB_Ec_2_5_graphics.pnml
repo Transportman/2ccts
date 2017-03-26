@@ -34,3 +34,9 @@ switch(FEAT_TRAINS, SELF, switch_steam_Switzerland_SBB_Ec_2_5_animation, motion_
 	spriteset_steam_Switzerland_SBB_Ec_2_5_engine2;
 }
 
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

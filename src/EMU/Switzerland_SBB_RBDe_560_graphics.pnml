@@ -55,14 +55,20 @@ switch(FEAT_TRAINS, SELF, switch_emu_Switzerland_SBB_RBDe_560_visual_effect_and_
 * Cargo capacity
 */
 
-switch(FEAT_TRAINS, SELF, switch_emu_Switzerland_SBB_RBDe_560_capacity, cargo_classes) {
-	bitmask(CC_MAIL): 42;
-	bitmask(CC_ARMOURED): 28;
-	56;
-}
+ENGINECAPACITYSWITCH
+
+WAGONCAPACITYSWITCH
 
 //Graphics for the unit wagon based on cargo class
 switch(FEAT_TRAINS, SELF, switch_emu_Switzerland_SBB_RBDe_560_cargo_selection, cargo_classes){
 	bitmask(CC_PASSENGERS): spriteset_emu_Switzerland_SBB_RBDe_560_middlepass;
 	spriteset_emu_Switzerland_SBB_RBDe_560_middlemail;
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+RUNNINGCOSTMUWAGONSWITCH
+
+PURCHASETEXTSWITCH

@@ -108,3 +108,9 @@ random_switch(FEAT_TRAINS, SELF, switch_wagon_Gen4_Car_Transporter_livery) {
 	1: spritegroup_wagon_Gen4_Car_Transporter_L3;
 	1: spritegroup_wagon_Gen4_Car_Transporter_L4;
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

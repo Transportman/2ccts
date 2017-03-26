@@ -22,3 +22,9 @@ spriteset(spriteset_electric_USA_Amtrak_ACS_64_purchase, "gfx/Electric/USA_Amtra
 spriteset(spriteset_electric_USA_Amtrak_ACS_64, "gfx/Electric/USA_Amtrak_ACS_64.png") {
 	template_2cc_engines_general(1, 1)
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

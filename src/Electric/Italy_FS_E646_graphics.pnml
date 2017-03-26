@@ -50,3 +50,9 @@ switch(FEAT_TRAINS, SELF, switch_electric_Italy_FS_E646_articulated, extra_callb
 	1: return item_electric_Italy_FS_E646;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

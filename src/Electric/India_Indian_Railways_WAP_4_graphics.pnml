@@ -22,3 +22,9 @@ spriteset(spriteset_electric_India_Indian_Railways_WAP_4_purchase, "gfx/Electric
 spriteset(spriteset_electric_India_Indian_Railways_WAP_4, "gfx/Electric/India_Indian_Railways_WAP_4.png") {
 	template_2cc_engines_general(1, 1)
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

@@ -27,8 +27,10 @@ spriteset(spriteset_rbd_Austria_OBB_5047, "gfx/Railbus-diesel/Austria_OBB_5047.p
 * Cargo capacity
 */
 
-switch(FEAT_TRAINS, SELF, switch_rbd_Austria_OBB_5047_capacity, cargo_classes) {
-	bitmask(CC_MAIL): 31;
-	bitmask(CC_ARMOURED): 16;
-	62;
-}
+ENGINECAPACITYSWITCH
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

@@ -61,3 +61,9 @@ switch(FEAT_TRAINS, SELF, switch_steam_Japan_JNR_9600_articulated, extra_callbac
 	1: return item_steam_Japan_JNR_9600;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

@@ -22,3 +22,9 @@ spriteset(spriteset_diesel_Italy_FS_207_purchase, "gfx/Diesel/Italy_FS_207.png")
 spriteset(spriteset_diesel_Italy_FS_207, "gfx/Diesel/Italy_FS_207.png") {
 	template_2cc_engines_general(1, 1)
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

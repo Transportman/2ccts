@@ -22,3 +22,9 @@ spriteset(spriteset_electric_USA_Milwaukee_Road_ES_2_purchase, "gfx/Electric/USA
 spriteset(spriteset_electric_USA_Milwaukee_Road_ES_2, "gfx/Electric/USA_Milwaukee_Road_ES_2.png") {
 	template_2cc_engines_general(1, 1)
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

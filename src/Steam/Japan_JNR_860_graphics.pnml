@@ -37,3 +37,9 @@ switch(FEAT_TRAINS, SELF, switch_steam_Japan_JNR_860_animation, motion_counter %
 	0: spriteset_steam_Japan_JNR_860_engine1;
 	spriteset_steam_Japan_JNR_860_engine2;
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

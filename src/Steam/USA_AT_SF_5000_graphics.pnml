@@ -61,3 +61,9 @@ switch(FEAT_TRAINS, SELF, switch_steam_USA_AT_SF_5000_articulated, extra_callbac
 	1: return item_steam_USA_AT_SF_5000;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

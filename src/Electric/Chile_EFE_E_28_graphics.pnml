@@ -22,3 +22,9 @@ spriteset(spriteset_electric_Chile_EFE_E_28_purchase, "gfx/Electric/Chile_EFE_E_
 spriteset(spriteset_electric_Chile_EFE_E_28, "gfx/Electric/Chile_EFE_E_28.png") {
 	template_2cc_engines_general(1, 1)
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

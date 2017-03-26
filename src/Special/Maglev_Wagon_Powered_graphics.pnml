@@ -22,3 +22,9 @@ spriteset(spriteset_mglv_wagon_powered, "gfx/Special/Maglev_Unit_Wagon_Powered.p
 	template_wagon_special(21, 1)
 }
 	
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

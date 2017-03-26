@@ -44,3 +44,9 @@ random_switch(FEAT_TRAINS, SELF, switch_coach_Gen5_Modern_Double_Decker_Coach_li
 	1: spriteset_coach_Gen5_Modern_Double_Decker_Coach_L3;
 	1: spriteset_coach_Gen5_Modern_Double_Decker_Coach_L4;
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

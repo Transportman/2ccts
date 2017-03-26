@@ -22,3 +22,9 @@ spriteset(spriteset_diesel_Canada_GO_Transit_MP40PH_3C_purchase, "gfx/Diesel/Can
 spriteset(spriteset_diesel_Canada_GO_Transit_MP40PH_3C, "gfx/Diesel/Canada_GO_Transit_MP40PH_3C.png") {
 	template_2cc_engines_general(1, 1)
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

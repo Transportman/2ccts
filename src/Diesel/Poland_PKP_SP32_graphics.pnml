@@ -22,3 +22,9 @@ spriteset(spriteset_diesel_Poland_PKP_SP32_purchase, "gfx/Diesel/Poland_PKP_SP32
 spriteset(spriteset_diesel_Poland_PKP_SP32, "gfx/Diesel/Poland_PKP_SP32.png") {
 	template_2cc_engines_general(1, 1)
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

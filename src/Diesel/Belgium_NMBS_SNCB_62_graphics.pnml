@@ -22,3 +22,9 @@ spriteset(spriteset_diesel_Belgium_NMBS_SNCB_62_purchase, "gfx/Diesel/Belgium_NM
 spriteset(spriteset_diesel_Belgium_NMBS_SNCB_62, "gfx/Diesel/Belgium_NMBS_SNCB_62.png") {
 	template_2cc_engines_general(1, 1)
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

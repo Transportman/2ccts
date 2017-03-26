@@ -22,3 +22,9 @@ spriteset(spriteset_rbd_Argentina_FCPBA_M_Railcar_purchase, "gfx/Railbus-diesel/
 spriteset(spriteset_rbd_Argentina_FCPBA_M_Railcar, "gfx/Railbus-diesel/Argentina_FCPBA_M_Railcar.png") {
 	template_2cc_engines_general(1, 1)
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

@@ -32,3 +32,9 @@ switch(FEAT_TRAINS, SELF, switch_steam_Norway_NSB_Class_XXI_animation, motion_co
 	0: spriteset_steam_Norway_NSB_Class_XXI_engine1;
 	spriteset_steam_Norway_NSB_Class_XXI_engine2;
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

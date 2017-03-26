@@ -61,3 +61,9 @@ switch(FEAT_TRAINS, SELF, switch_steam_USA_NYC_H_6A_Light_Mikado_articulated, ex
 	1: return item_steam_USA_NYC_H_6A_Light_Mikado;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

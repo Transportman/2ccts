@@ -22,3 +22,9 @@ spriteset(spriteset_diesel_Australia_Pacific_National_G_Class_purchase, "gfx/Die
 spriteset(spriteset_diesel_Australia_Pacific_National_G_Class, "gfx/Diesel/Australia_Pacific_National_G_Class.png") {
 	template_2cc_engines_general(1, 1)
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

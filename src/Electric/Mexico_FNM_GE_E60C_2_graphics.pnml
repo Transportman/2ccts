@@ -22,3 +22,9 @@ spriteset(spriteset_electric_Mexico_FNM_GE_E60C_2_purchase, "gfx/Electric/Mexico
 spriteset(spriteset_electric_Mexico_FNM_GE_E60C_2, "gfx/Electric/Mexico_FNM_GE_E60C_2.png") {
 	template_2cc_engines_general(1, 1)
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

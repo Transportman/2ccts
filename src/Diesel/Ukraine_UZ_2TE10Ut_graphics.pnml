@@ -45,3 +45,9 @@ switch(FEAT_TRAINS, SELF, switch_diesel_Ukraine_UZ_2TE10Ut_articulated, extra_ca
 	1: return item_diesel_Ukraine_UZ_2TE10Ut;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

@@ -66,14 +66,20 @@ switch(FEAT_TRAINS, SELF, switch_emu_Europe_Sureot_visual_effect_and_powered, va
 * Cargo capacity
 */
 
-switch(FEAT_TRAINS, SELF, switch_emu_Europe_Sureot_capacity, cargo_classes) {
-	bitmask(CC_MAIL): 64;
-	bitmask(CC_ARMOURED): 43;
-	85;
-}
+ENGINECAPACITYSWITCH
+
+WAGONCAPACITYSWITCH
 
 //Graphics for the unit wagon based on cargo class
 switch(FEAT_TRAINS, SELF, switch_emu_Europe_Sureot_cargo_selection, cargo_classes){
 	bitmask(CC_PASSENGERS): switch_emu_Europe_Sureot_middlepass_livery;
 	spriteset_emu_Europe_Sureot_middlemail;
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+RUNNINGCOSTMUWAGONSWITCH
+
+PURCHASETEXTSWITCH

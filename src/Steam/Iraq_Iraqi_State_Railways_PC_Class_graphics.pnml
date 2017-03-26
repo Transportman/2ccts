@@ -61,3 +61,9 @@ switch(FEAT_TRAINS, SELF, switch_steam_Iraq_Iraqi_State_Railways_PC_Class_articu
 	1: return item_steam_Iraq_Iraqi_State_Railways_PC_Class;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

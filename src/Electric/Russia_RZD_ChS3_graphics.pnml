@@ -22,3 +22,9 @@ spriteset(spriteset_electric_Russia_RZD_ChS3_purchase, "gfx/Electric/Russia_RZD_
 spriteset(spriteset_electric_Russia_RZD_ChS3, "gfx/Electric/Russia_RZD_ChS3.png") {
 	template_2cc_engines_general(1, 1)
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

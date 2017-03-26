@@ -32,3 +32,9 @@ switch(FEAT_TRAINS, SELF, switch_diesel_Belgium_NMBS_SNCB_83_animation, motion_c
 	0: spriteset_diesel_Belgium_NMBS_SNCB_83_engine1;
 	spriteset_diesel_Belgium_NMBS_SNCB_83_engine2;
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

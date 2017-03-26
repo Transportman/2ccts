@@ -116,14 +116,20 @@ switch(FEAT_TRAINS, SELF, switch_emu_Italy_NTV_AGV_visual_effect_and_powered, va
 * Cargo capacity
 */
 
-switch(FEAT_TRAINS, SELF, switch_emu_Italy_NTV_AGV_capacity, cargo_classes) {
-	bitmask(CC_MAIL): 32;
-	bitmask(CC_ARMOURED): 21;
-	42;
-}
+ENGINECAPACITYSWITCH
+
+WAGONCAPACITYSWITCH
 
 //Graphics for the unit wagon based on cargo class
 switch(FEAT_TRAINS, SELF, switch_emu_Italy_NTV_AGV_cargo_selection, cargo_classes){
 	bitmask(CC_PASSENGERS): switch_emu_Italy_NTV_AGV_middlepass_length;
 	switch_emu_Italy_NTV_AGV_middlemail_length;
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+RUNNINGCOSTMUWAGONSWITCH
+
+PURCHASETEXTSWITCH

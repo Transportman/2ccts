@@ -22,3 +22,9 @@ spriteset(spriteset_electric_UK_NER_ES1_purchase, "gfx/Electric/UK_NER_ES1.png")
 spriteset(spriteset_electric_UK_NER_ES1, "gfx/Electric/UK_NER_ES1.png") {
 	template_2cc_engines_general(1, 1)
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

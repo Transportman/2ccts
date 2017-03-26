@@ -22,3 +22,9 @@ spriteset(spriteset_diesel_Finland_VR_Dr16_purchase, "gfx/Diesel/Finland_VR_Dr16
 spriteset(spriteset_diesel_Finland_VR_Dr16, "gfx/Diesel/Finland_VR_Dr16.png") {
 	template_2cc_engines_general(1, 1)
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

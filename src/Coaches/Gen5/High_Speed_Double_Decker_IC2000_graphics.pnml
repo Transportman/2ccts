@@ -44,3 +44,9 @@ random_switch(FEAT_TRAINS, SELF, switch_coach_Gen5_High_Speed_Double_Decker_IC20
 	1: spriteset_coach_Gen5_High_Speed_Double_Decker_IC2000_L3;
 	1: spriteset_coach_Gen5_High_Speed_Double_Decker_IC2000_L4;
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

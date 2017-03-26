@@ -51,3 +51,9 @@ switch(FEAT_TRAINS, SELF, switch_electric_Japan_JNR_EH10_articulated, extra_call
 	1: return item_electric_Japan_JNR_EH10;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

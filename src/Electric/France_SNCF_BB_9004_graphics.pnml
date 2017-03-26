@@ -22,3 +22,9 @@ spriteset(spriteset_electric_France_SNCF_BB_9004_purchase, "gfx/Electric/France_
 spriteset(spriteset_electric_France_SNCF_BB_9004, "gfx/Electric/France_SNCF_BB_9004.png") {
 	template_2cc_engines_general(1, 1)
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

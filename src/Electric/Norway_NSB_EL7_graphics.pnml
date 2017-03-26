@@ -22,3 +22,9 @@ spriteset(spriteset_electric_Norway_NSB_EL7_purchase, "gfx/Electric/Norway_NSB_E
 spriteset(spriteset_electric_Norway_NSB_EL7, "gfx/Electric/Norway_NSB_EL7.png") {
 	template_2cc_engines_general(1, 1)
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

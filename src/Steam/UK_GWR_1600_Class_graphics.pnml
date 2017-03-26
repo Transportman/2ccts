@@ -32,3 +32,9 @@ switch(FEAT_TRAINS, SELF, switch_steam_UK_GWR_1600_Class_animation, motion_count
 	0: spriteset_steam_UK_GWR_1600_Class_engine1;
 	spriteset_steam_UK_GWR_1600_Class_engine2;
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

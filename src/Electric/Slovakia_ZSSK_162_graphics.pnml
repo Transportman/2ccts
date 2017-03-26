@@ -22,3 +22,9 @@ spriteset(spriteset_electric_Slovakia_ZSSK_162_purchase, "gfx/Electric/Slovakia_
 spriteset(spriteset_electric_Slovakia_ZSSK_162, "gfx/Electric/Slovakia_ZSSK_162.png") {
 	template_2cc_engines_general(1, 1)
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

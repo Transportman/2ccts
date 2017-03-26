@@ -22,3 +22,9 @@ spriteset(spriteset_diesel_Japan_JNR_DF50_purchase, "gfx/Diesel/Japan_JNR_DF50.p
 spriteset(spriteset_diesel_Japan_JNR_DF50, "gfx/Diesel/Japan_JNR_DF50.png") {
 	template_2cc_engines_general(1, 1)
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

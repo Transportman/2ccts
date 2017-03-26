@@ -22,3 +22,9 @@ spriteset(spriteset_diesel_France_SNCF_BB_67400_purchase, "gfx/Diesel/France_SNC
 spriteset(spriteset_diesel_France_SNCF_BB_67400, "gfx/Diesel/France_SNCF_BB_67400.png") {
 	template_2cc_engines_general(1, 1)
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

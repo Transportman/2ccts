@@ -1,52 +1,50 @@
 /*
- *  Copyright (C) 2014 Transportman
+ *  Copyright (C) 2017 Transportman
  *  This file is part of the 2cc Trains In NML and is based on The Dutch Trainset 2.0 by Jasper Vries
- *  This program is free software; you can redistribute it and/or modify it under the terms of the GNU Gen3eral Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
- *  This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Gen3eral Public License for more details.
- *  You should have received a copy of the GNU Gen3eral Public License along with this program; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
-*/
+ *  This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
+ *  This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+ *  You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+ */
 
-/*
-* ITEM
-*/
-
-item(FEAT_TRAINS, item_wagon_Gen3_Silo_Type2) {
-    property {
-        name: string(str_wagon_Gen3_Silo_Type2);
-        REGION(REGIONTYPE2,NOREGION,NOCONCEPT)
+item(FEAT_TRAINS, ITEM ) {
+	property {
+		name: NAME;
+		VEHICLE_REGION
+		INTRODUCTIONDATEPROPERTY
+		model_life: MODEL_LIFE;
+		vehicle_life: VEHICLE_LIFE;
+		LOADINGSPEEDPROPERTY
+		PURCHASECOSTPROPERTY
+		RUNNINGCOSTPROPERTY
+		speed: SPEED km/h;
+		power: POWER hp;
+		cargo_capacity: HEAD_CAPACITY;
+		weight: WEIGHT ton;
+		tractive_effort_coefficient: TE_COEFFICIENT;
+		air_drag_coefficient: AIR_DRAG_COEFFICIENT;
 		
-        introduction_date: date(1930,1,1);
-        model_life: 40;
-        vehicle_life: 25;
-        LOADINGSPEEDDEF_CARGO
-        cost_factor: 21;
-        running_cost_factor: 20;
-        speed: 80 km/h;
-        power: 0 hp;
-        cargo_capacity: 40;
-        weight: 23 ton;
-        tractive_effort_coefficient: 0.3;
-        air_drag_coefficient: 0;
-        
-        reliability_decay: 20;
-        CARGODEF_SILO
-        cargo_age_period: 185;
-        misc_flags: bitmask(TRAIN_FLAG_2CC, TRAIN_FLAG_AUTOREFIT);
-        refit_cost: 0;
-        track_type: RAIL;
-		ai_special_flag: AI_FLAG_CARGO;
-        running_cost_base: RUNNING_COST_DIESEL;
-        engine_class: ENGINE_CLASS_DIESEL;
-        visual_effect_and_powered: visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
-        
-        sprite_id: SPRITE_ID_NEW_TRAIN;
-        dual_headed: 0;
-        length: 6;
-        extra_power_per_wagon: 0;
-        bitmask_vehicle_info: 0;
+		reliability_decay: RELIABILITY_DECAY;
+		CARGODEF
+		cargo_age_period: CARGO_AGE_PERIOD;
+		misc_flags: MISC_FLAGS;
+		refit_cost: REFIT_COST;
+		track_type: TRACK_TYPE;
+		AIFLAGPROPERTY
+		running_cost_base: RUNNING_COST_BASE;
+		engine_class: ENGINE_CLASS;
+		visual_effect_and_powered: VISUAL_FLAG;
+		
+		sprite_id: SPRITE_ID;
+		dual_headed: DUAL_HEADED;
+		length: LENGTH;
+		extra_power_per_wagon: POWER_PER_WAGON;
+		bitmask_vehicle_info: BITMASK_VEHICLE_INFO;
 	}
 	graphics {
 		purchase: spriteset_wagon_Gen3_Silo_Type2_purchase;
-		switch_wagon_Gen3_Silo_Type2_livery;
+		//Add calls to defined switches below
+		RUNNINGCOSTENGINESWITCHCALL
+		PURCHASETEXTSWITCHCALL
+		default: switch_wagon_Gen3_Silo_Type2_livery;
 	}
 }

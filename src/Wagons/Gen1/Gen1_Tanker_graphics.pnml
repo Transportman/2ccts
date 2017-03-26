@@ -215,3 +215,9 @@ switch(FEAT_TRAINS, SELF, switch_wagon_Gen1_Tanker_cargo_selection, cargo_type_i
 	RFPR: switch_wagon_Gen1_Tanker_Oil_livery_selection;
 	switch_wagon_Gen1_Tanker_Standard_livery; //GOOD, RUBR, WATR, COLA, PLST, BEER, DYES, MILK, PLAS
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

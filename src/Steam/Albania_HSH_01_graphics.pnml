@@ -37,3 +37,9 @@ switch(FEAT_TRAINS, SELF, switch_steam_Albania_HSH_01_animation, motion_counter 
 	0: spriteset_steam_Albania_HSH_01_engine1;
 	spriteset_steam_Albania_HSH_01_engine2;
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

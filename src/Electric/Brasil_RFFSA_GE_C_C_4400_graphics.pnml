@@ -22,3 +22,9 @@ spriteset(spriteset_electric_Brasil_RFFSA_GE_C_C_4400_purchase, "gfx/Electric/Br
 spriteset(spriteset_electric_Brasil_RFFSA_GE_C_C_4400, "gfx/Electric/Brasil_RFFSA_GE_C_C_4400.png") {
 	template_2cc_engines_general(1, 1)
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

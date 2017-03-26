@@ -48,14 +48,20 @@ switch(FEAT_TRAINS, SELF, switch_emu_Australia_Sydney_Trains_S_Set_reversed, var
 * Cargo capacity
 */
 
-switch(FEAT_TRAINS, SELF, switch_emu_Australia_Sydney_Trains_S_Set_capacity, cargo_classes) {
-	bitmask(CC_MAIL): 84;
-	bitmask(CC_ARMOURED): 56;
-	112;
-}
+ENGINECAPACITYSWITCH
+
+WAGONCAPACITYSWITCH
 
 //Graphics for the unit wagon based on cargo class
 switch(FEAT_TRAINS, SELF, switch_emu_Australia_Sydney_Trains_S_Set_cargo_selection, cargo_classes){
 	bitmask(CC_PASSENGERS): spriteset_emu_Australia_Sydney_Trains_S_Set_middlepass;
 	spriteset_emu_Australia_Sydney_Trains_S_Set_middlemail;
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+RUNNINGCOSTMUWAGONSWITCH
+
+PURCHASETEXTSWITCH

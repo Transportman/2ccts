@@ -22,3 +22,9 @@ spriteset(spriteset_diesel_South_Africa_SAR_DS_purchase, "gfx/Diesel/South_Afric
 spriteset(spriteset_diesel_South_Africa_SAR_DS, "gfx/Diesel/South_Africa_SAR_DS.png") {
 	template_2cc_engines_general(1, 1)
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

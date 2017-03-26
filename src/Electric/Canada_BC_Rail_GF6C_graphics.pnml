@@ -22,3 +22,9 @@ spriteset(spriteset_electric_Canada_BC_Rail_GF6C_purchase, "gfx/Electric/Canada_
 spriteset(spriteset_electric_Canada_BC_Rail_GF6C, "gfx/Electric/Canada_BC_Rail_GF6C.png") {
 	template_2cc_engines_general(1, 1)
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

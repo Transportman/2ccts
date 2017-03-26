@@ -22,3 +22,9 @@ spriteset(spriteset_diesel_Tunisia_SNCFT_040_DJ_purchase, "gfx/Diesel/Tunisia_SN
 spriteset(spriteset_diesel_Tunisia_SNCFT_040_DJ, "gfx/Diesel/Tunisia_SNCFT_040_DJ.png") {
 	template_2cc_engines_general(1, 1)
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

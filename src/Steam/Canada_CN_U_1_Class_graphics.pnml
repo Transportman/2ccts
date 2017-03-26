@@ -61,3 +61,9 @@ switch(FEAT_TRAINS, SELF, switch_steam_Canada_CN_U_1_Class_articulated, extra_ca
 	1: return item_steam_Canada_CN_U_1_Class;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

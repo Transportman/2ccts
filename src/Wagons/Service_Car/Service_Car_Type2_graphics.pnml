@@ -44,3 +44,9 @@ random_switch(FEAT_TRAINS, SELF, switch_wagon_Service_Car_Type2_livery) {
 	1: spriteset_wagon_Service_Car_Type2_L3;
 	1: spriteset_wagon_Service_Car_Type2_L4;
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

@@ -22,3 +22,9 @@ spriteset(spriteset_mu_cargo_wagon_unpowered, "gfx/Special/Multiple_Unit_Cargo_W
 	template_wagon_special(21, 1)
 }
 	
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

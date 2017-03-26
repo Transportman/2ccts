@@ -45,3 +45,9 @@ switch(FEAT_TRAINS, SELF, switch_electric_USA_Virginian_Railway_EL_2B_articulate
 	1: return item_electric_USA_Virginian_Railway_EL_2B;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

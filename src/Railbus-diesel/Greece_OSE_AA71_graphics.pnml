@@ -27,8 +27,10 @@ spriteset(spriteset_rbd_Greece_OSE_AA71, "gfx/Railbus-diesel/Greece_OSE_AA71.png
 * Cargo capacity
 */
 
-switch(FEAT_TRAINS, SELF, switch_rbd_Greece_OSE_AA71_capacity, cargo_classes) {
-	bitmask(CC_MAIL): 34;
-	bitmask(CC_ARMOURED): 17;
-	68;
-}
+ENGINECAPACITYSWITCH
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

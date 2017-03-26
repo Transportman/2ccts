@@ -55,14 +55,20 @@ switch(FEAT_TRAINS, SELF, switch_dmu_UK_BR_251_Blue_Pullman_visual_effect_and_po
 * Cargo capacity
 */
 
-switch(FEAT_TRAINS, SELF, switch_dmu_UK_BR_251_Blue_Pullman_capacity, cargo_classes) {
-	bitmask(CC_MAIL): 21;
-	bitmask(CC_ARMOURED): 12;
-	42;
-}
+ENGINECAPACITYSWITCH
+
+WAGONCAPACITYSWITCH
 
 //Graphics for the unit wagon based on cargo class
 switch(FEAT_TRAINS, SELF, switch_dmu_UK_BR_251_Blue_Pullman_cargo_selection, cargo_classes){
 	bitmask(CC_PASSENGERS): spriteset_dmu_UK_BR_251_Blue_Pullman_middlepass;
 	spriteset_dmu_UK_BR_251_Blue_Pullman_middlemail;
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+RUNNINGCOSTMUWAGONSWITCH
+
+PURCHASETEXTSWITCH

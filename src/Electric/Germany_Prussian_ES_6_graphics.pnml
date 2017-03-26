@@ -32,3 +32,9 @@ switch(FEAT_TRAINS, SELF, switch_electric_Germany_Prussian_ES_6_animation, motio
 	0: spriteset_electric_Germany_Prussian_ES_6_engine1;
 	spriteset_electric_Germany_Prussian_ES_6_engine2;
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

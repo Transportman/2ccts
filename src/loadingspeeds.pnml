@@ -10,22 +10,23 @@
 //it is referenced from the vehicle item definitions.
 //any changes to loading speeds can be done centrally from this file.
 isUltraSpeed = param_loadingspeed == 3; // 4 means ultra fast
-#define LOADINGSPEED(basespeed) (param_loadingspeed == 0) ? basespeed/2 : (param_loadingspeed == 2) ? basespeed*2 : basespeed
+#define LOADINGSPEEDVALUE isUltraSpeed ? 255 : (param_loadingspeed == 0) ? LOADINGSPEED/2 : (param_loadingspeed == 2) ? LOADINGSPEED*2 : LOADINGSPEED
+#define LOADINGSPEEDPROPERTY loading_speed: LOADINGSPEEDVALUE;
 
 //No cargo vehicles
-#define LOADINGSPEEDDEF_NONE loading_speed: 0;
+#define LOADINGSPEEDDEF_NONE 0
 
 //Intercity vehicles
-#define LOADINGSPEEDDEF_INTERCITY loading_speed: isUltraSpeed ? 255 : LOADINGSPEED(16);
+#define LOADINGSPEEDDEF_INTERCITY 16
 
 //Commuter vehicles
-#define LOADINGSPEEDDEF_COMMUTER loading_speed: isUltraSpeed ? 255 : LOADINGSPEED(40);
+#define LOADINGSPEEDDEF_COMMUTER 40
 
 //Metro vehicles
-#define LOADINGSPEEDDEF_METRO loading_speed: isUltraSpeed ? 255 : LOADINGSPEED(120);
+#define LOADINGSPEEDDEF_METRO 120
 
 //Cargo vehicles
-#define LOADINGSPEEDDEF_CARGO loading_speed: isUltraSpeed ? 255 : LOADINGSPEED(20);
+#define LOADINGSPEEDDEF_CARGO 20
 
 //Mail vehicles
-#define LOADINGSPEEDDEF_MAIL loading_speed: isUltraSpeed ? 255 : LOADINGSPEED(15);
+#define LOADINGSPEEDDEF_MAIL 15

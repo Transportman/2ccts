@@ -39,3 +39,9 @@ switch(FEAT_TRAINS, SELF, switch_mtro_USA_LA_A650_reversed, var[0xC8]) {
     0xFF: spriteset_mtro_USA_LA_A650_back; 
     spriteset_mtro_USA_LA_A650_front;
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

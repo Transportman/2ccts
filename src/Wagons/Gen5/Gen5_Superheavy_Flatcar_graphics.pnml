@@ -94,3 +94,9 @@ switch(FEAT_TRAINS, SELF, switch_wagon_Gen5_Superheavy_Flatcar_articulated, extr
 	1..2: return item_wagon_Gen5_Superheavy_Flatcar;
 	CB_RESULT_NO_MORE_ARTICULATED_PARTS;
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

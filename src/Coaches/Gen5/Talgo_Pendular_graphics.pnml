@@ -44,3 +44,9 @@ random_switch(FEAT_TRAINS, SELF, switch_coach_Gen5_Talgo_Pendular_livery) {
 	1: spriteset_coach_Gen5_Talgo_Pendular_L3;
 	1: spriteset_coach_Gen5_Talgo_Pendular_L4;
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

@@ -27,9 +27,11 @@ spriteset(spriteset_rbe_Germany_DB_ET_85, "gfx/Railbus-electric/Germany_DB_ET_85
 * Cargo capacity
 */
 
-switch(FEAT_TRAINS, SELF, switch_rbe_Germany_DB_ET_85_capacity, cargo_classes) {
-	bitmask(CC_MAIL): 38;
-	bitmask(CC_ARMOURED): 19;
-	75;
-}
+ENGINECAPACITYSWITCH
 	
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

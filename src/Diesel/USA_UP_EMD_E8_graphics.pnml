@@ -33,3 +33,9 @@ switch(FEAT_TRAINS, SELF, switch_diesel_USA_UP_EMD_E8_position, position_in_vehi
 	1: spriteset_diesel_USA_UP_EMD_E8_B;
 	spriteset_diesel_USA_UP_EMD_E8_engine;
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

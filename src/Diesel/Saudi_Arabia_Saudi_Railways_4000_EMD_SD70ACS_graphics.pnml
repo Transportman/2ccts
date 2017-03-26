@@ -22,3 +22,9 @@ spriteset(spriteset_diesel_Saudi_Arabia_Saudi_Railways_4000_EMD_SD70ACS_purchase
 spriteset(spriteset_diesel_Saudi_Arabia_Saudi_Railways_4000_EMD_SD70ACS, "gfx/Diesel/Saudi_Arabia_Saudi_Railways_4000_EMD_SD70ACS.png") {
 	template_2cc_engines_general(1, 1)
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

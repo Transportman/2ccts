@@ -27,8 +27,10 @@ spriteset(spriteset_rbd_Portugal_CP_USD_9050, "gfx/Railbus-diesel/Portugal_CP_US
 * Cargo capacity
 */
 
-switch(FEAT_TRAINS, SELF, switch_rbd_Portugal_CP_USD_9050_capacity, cargo_classes) {
-	bitmask(CC_MAIL): 13;
-	bitmask(CC_ARMOURED): 6;
-	25;
-}
+ENGINECAPACITYSWITCH
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

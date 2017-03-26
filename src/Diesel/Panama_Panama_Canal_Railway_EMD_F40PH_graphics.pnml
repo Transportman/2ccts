@@ -31,3 +31,9 @@ switch(FEAT_TRAINS, SELF, switch_diesel_Panama_Panama_Canal_Railway_EMD_F40PH_po
 	0: spriteset_diesel_Panama_Panama_Canal_Railway_EMD_F40PH_engine;
 	spriteset_diesel_Panama_Panama_Canal_Railway_EMD_F40PH_B;
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

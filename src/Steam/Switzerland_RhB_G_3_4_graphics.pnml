@@ -32,3 +32,9 @@ switch(FEAT_TRAINS, SELF, switch_steam_Switzerland_RhB_G_3_4_animation, motion_c
 	0: spriteset_steam_Switzerland_RhB_G_3_4_engine1;
 	spriteset_steam_Switzerland_RhB_G_3_4_engine2;
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

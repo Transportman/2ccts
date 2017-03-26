@@ -55,14 +55,20 @@ switch(FEAT_TRAINS, SELF, switch_emu_Macedonia_Macedonian_Railways_412_visual_ef
 * Cargo capacity
 */
 
-switch(FEAT_TRAINS, SELF, switch_emu_Macedonia_Macedonian_Railways_412_capacity, cargo_classes) {
-	bitmask(CC_MAIL): 34;
-	bitmask(CC_ARMOURED): 17;
-	68;
-}
+ENGINECAPACITYSWITCH
+
+WAGONCAPACITYSWITCH
 
 //Graphics for the unit wagon based on cargo class
 switch(FEAT_TRAINS, SELF, switch_emu_Macedonia_Macedonian_Railways_412_cargo_selection, cargo_classes){
 	bitmask(CC_PASSENGERS): spriteset_emu_Macedonia_Macedonian_Railways_412_middlepass;
 	spriteset_emu_Macedonia_Macedonian_Railways_412_middlemail;
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+RUNNINGCOSTMUWAGONSWITCH
+
+PURCHASETEXTSWITCH

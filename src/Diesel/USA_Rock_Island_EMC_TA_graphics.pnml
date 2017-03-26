@@ -22,3 +22,9 @@ spriteset(spriteset_diesel_USA_Rock_Island_EMC_TA_purchase, "gfx/Diesel/USA_Rock
 spriteset(spriteset_diesel_USA_Rock_Island_EMC_TA, "gfx/Diesel/USA_Rock_Island_EMC_TA.png") {
 	template_2cc_engines_general(1, 1)
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

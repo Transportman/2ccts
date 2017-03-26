@@ -32,3 +32,9 @@ switch(FEAT_TRAINS, SELF, switch_electric_Austria_OBB_1161_animation, motion_cou
 	0: spriteset_electric_Austria_OBB_1161_engine1;
 	spriteset_electric_Austria_OBB_1161_engine2;
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

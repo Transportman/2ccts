@@ -22,3 +22,9 @@ spriteset(spriteset_diesel_Austria_OBB_2060_purchase, "gfx/Diesel/Austria_OBB_20
 spriteset(spriteset_diesel_Austria_OBB_2060, "gfx/Diesel/Austria_OBB_2060.png") {
 	template_2cc_engines_general(1, 1)
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

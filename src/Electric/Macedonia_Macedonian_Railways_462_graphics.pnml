@@ -22,3 +22,9 @@ spriteset(spriteset_electric_Macedonia_Macedonian_Railways_462_purchase, "gfx/El
 spriteset(spriteset_electric_Macedonia_Macedonian_Railways_462, "gfx/Electric/Macedonia_Macedonian_Railways_462.png") {
 	template_2cc_engines_general(1, 1)
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

@@ -37,9 +37,11 @@ switch(FEAT_TRAINS, SELF, switch_rbs_Italy_FS_86_animation, motion_counter % 2){
 * Cargo capacity
 */
 
-switch(FEAT_TRAINS, SELF, switch_rbs_Italy_FS_86_capacity, cargo_classes) {
-	bitmask(CC_MAIL): 43;
-	bitmask(CC_ARMOURED): 22;
-	86;
-}
+ENGINECAPACITYSWITCH
 	
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

@@ -32,3 +32,9 @@ switch(FEAT_TRAINS, SELF, switch_diesel_Russia_RZD_Emch_3_animation, motion_coun
 	0: spriteset_diesel_Russia_RZD_Emch_3_engine1;
 	spriteset_diesel_Russia_RZD_Emch_3_engine2;
 }	
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

@@ -22,3 +22,9 @@ spriteset(spriteset_electric_Netherlands_NS_1600_purchase, "gfx/Electric/Netherl
 spriteset(spriteset_electric_Netherlands_NS_1600, "gfx/Electric/Netherlands_NS_1600.png") {
 	template_2cc_engines_general(1, 1)
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

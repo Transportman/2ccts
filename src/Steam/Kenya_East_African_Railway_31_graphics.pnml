@@ -61,3 +61,9 @@ switch(FEAT_TRAINS, SELF, switch_steam_Kenya_East_African_Railway_31_articulated
 	1: return item_steam_Kenya_East_African_Railway_31;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

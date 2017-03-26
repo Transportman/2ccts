@@ -50,3 +50,9 @@ switch(FEAT_TRAINS, SELF, switch_diesel_Canada_CNR_9000_articulated, extra_callb
 	1: return item_diesel_Canada_CNR_9000;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

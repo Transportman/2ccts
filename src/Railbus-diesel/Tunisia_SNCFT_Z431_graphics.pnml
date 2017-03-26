@@ -27,8 +27,10 @@ spriteset(spriteset_rbd_Tunisia_SNCFT_Z431, "gfx/Railbus-diesel/Tunisia_SNCFT_Z4
 * Cargo capacity
 */
 
-switch(FEAT_TRAINS, SELF, switch_rbd_Tunisia_SNCFT_Z431_capacity, cargo_classes) {
-	bitmask(CC_MAIL): 27;
-	bitmask(CC_ARMOURED): 14;
-	54;
-}
+ENGINECAPACITYSWITCH
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

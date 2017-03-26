@@ -22,3 +22,9 @@ spriteset(spriteset_diesel_Chile_EFE_GE_U5B_purchase, "gfx/Diesel/Chile_EFE_GE_U
 spriteset(spriteset_diesel_Chile_EFE_GE_U5B, "gfx/Diesel/Chile_EFE_GE_U5B.png") {
 	template_2cc_engines_general(1, 1)
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

@@ -50,3 +50,9 @@ switch(FEAT_TRAINS, SELF, switch_diesel_Russia_RZD_GT1_articulated, extra_callba
 	1: return item_diesel_Russia_RZD_GT1;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

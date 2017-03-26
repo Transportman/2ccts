@@ -22,3 +22,9 @@ spriteset(spriteset_electric_Switzerland_RhB_Ge_4_4_I_purchase, "gfx/Electric/Sw
 spriteset(spriteset_electric_Switzerland_RhB_Ge_4_4_I, "gfx/Electric/Switzerland_RhB_Ge_4_4_I.png") {
 	template_2cc_engines_general(1, 1)
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

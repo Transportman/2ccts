@@ -55,20 +55,20 @@ switch(FEAT_TRAINS, SELF, switch_emu_Netherlands_NS_mDDm_390_visual_effect_and_p
 * Cargo capacity
 */
 
-switch(FEAT_TRAINS, SELF, switch_emu_Netherlands_NS_mDDm_390_capacity_engine, cargo_classes) {
-	bitmask(CC_MAIL): 36;
-	bitmask(CC_ARMOURED): 24;
-	48;
-}
+ENGINECAPACITYSWITCH
 
-switch(FEAT_TRAINS, SELF, switch_emu_Netherlands_NS_mDDm_390_capacity_wagon, cargo_classes) {
-	bitmask(CC_MAIL): 71;
-	bitmask(CC_ARMOURED): 48;
-	95;
-}
+WAGONCAPACITYSWITCH
 
 //Graphics for the unit wagon based on cargo class
 switch(FEAT_TRAINS, SELF, switch_emu_Netherlands_NS_mDDm_390_cargo_selection, cargo_classes){
 	bitmask(CC_PASSENGERS): spriteset_emu_Netherlands_NS_mDDm_390_middlepass;
 	spriteset_emu_Netherlands_NS_mDDm_390_middlemail;
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+RUNNINGCOSTMUWAGONSWITCH
+
+PURCHASETEXTSWITCH

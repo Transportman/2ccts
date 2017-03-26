@@ -31,3 +31,9 @@ switch(FEAT_TRAINS, SELF, switch_diesel_USA_Amtrack_SDP_40F_position, position_i
 	0: spriteset_diesel_USA_Amtrack_SDP_40F_engine;
 	spriteset_diesel_USA_Amtrack_SDP_40F_B;
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

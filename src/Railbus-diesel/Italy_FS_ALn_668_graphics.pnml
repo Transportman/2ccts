@@ -27,8 +27,10 @@ spriteset(spriteset_rbd_Italy_FS_ALn_668, "gfx/Railbus-diesel/Italy_FS_ALn_668.p
 * Cargo capacity
 */
 
-switch(FEAT_TRAINS, SELF, switch_rbd_Italy_FS_ALn_668_capacity, cargo_classes) {
-	bitmask(CC_MAIL): 51;
-	bitmask(CC_ARMOURED): 34;
-	68;
-}
+ENGINECAPACITYSWITCH
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

@@ -22,3 +22,9 @@ spriteset(spriteset_diesel_Ukraine_UZ_TEP10L_purchase, "gfx/Diesel/Ukraine_UZ_TE
 spriteset(spriteset_diesel_Ukraine_UZ_TEP10L, "gfx/Diesel/Ukraine_UZ_TEP10L.png") {
 	template_2cc_engines_general(1, 1)
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

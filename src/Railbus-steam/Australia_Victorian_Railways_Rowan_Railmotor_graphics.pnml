@@ -37,8 +37,10 @@ switch(FEAT_TRAINS, SELF, switch_rbs_spriteset_rbs_Australia_Victorian_Railways_
 * Cargo capacity
 */
 
-switch(FEAT_TRAINS, SELF, switch_rbs_Australia_Victorian_Railways_Rowan_Railmotor_capacity, cargo_classes) {
-	bitmask(CC_MAIL): 21;
-	bitmask(CC_ARMOURED): 11;
-	42;
-}
+ENGINECAPACITYSWITCH
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

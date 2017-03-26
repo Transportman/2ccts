@@ -33,3 +33,9 @@ switch(FEAT_TRAINS, SELF, switch_diesel_Brazil_BF_EMD_GL8_position, position_in_
 	1: spriteset_diesel_Brazil_BF_EMD_GL8_B;
 	spriteset_diesel_Brazil_BF_EMD_GL8_engine;
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

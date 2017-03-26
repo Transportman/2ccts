@@ -27,8 +27,10 @@ spriteset(spriteset_rbd_USA_Amtrak_SPV_200, "gfx/Railbus-diesel/USA_Amtrak_SPV_2
 * Cargo capacity
 */
 
-switch(FEAT_TRAINS, SELF, switch_rbd_USA_Amtrak_SPV_200_capacity, cargo_classes) {
-	bitmask(CC_MAIL): 43;
-	bitmask(CC_ARMOURED): 22;
-	86;
-}
+ENGINECAPACITYSWITCH
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

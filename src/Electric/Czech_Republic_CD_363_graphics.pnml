@@ -22,3 +22,9 @@ spriteset(spriteset_electric_Czech_Republic_CD_363_purchase, "gfx/Electric/Czech
 spriteset(spriteset_electric_Czech_Republic_CD_363, "gfx/Electric/Czech_Republic_CD_363.png") {
 	template_2cc_engines_general(1, 1)
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

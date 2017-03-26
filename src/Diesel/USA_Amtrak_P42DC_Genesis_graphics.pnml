@@ -31,3 +31,9 @@ switch(FEAT_TRAINS, SELF, switch_diesel_USA_Amtrak_P42DC_Genesis_position, posit
 	0: spriteset_diesel_USA_Amtrak_P42DC_Genesis_engine;
 	spriteset_diesel_USA_Amtrak_P42DC_Genesis_B;
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

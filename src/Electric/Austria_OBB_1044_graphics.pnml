@@ -22,3 +22,9 @@ spriteset(spriteset_electric_Austria_OBB_1044_purchase, "gfx/Electric/Austria_OB
 spriteset(spriteset_electric_Austria_OBB_1044, "gfx/Electric/Austria_OBB_1044.png") {
 	template_2cc_engines_general(1, 1)
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

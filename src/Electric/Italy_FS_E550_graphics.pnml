@@ -32,3 +32,9 @@ switch(FEAT_TRAINS, SELF, switch_electric_Italy_FS_E550_animation, motion_counte
 	0: spriteset_electric_Italy_FS_E550_engine1;
 	spriteset_electric_Italy_FS_E550_engine2;
 }	
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

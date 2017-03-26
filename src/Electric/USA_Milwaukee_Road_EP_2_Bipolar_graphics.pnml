@@ -50,3 +50,9 @@ switch(FEAT_TRAINS, SELF, switch_electric_USA_Milwaukee_Road_EP_2_Bipolar_articu
 	1: return item_electric_USA_Milwaukee_Road_EP_2_Bipolar;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

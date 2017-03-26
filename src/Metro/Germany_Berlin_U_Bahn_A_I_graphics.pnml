@@ -39,3 +39,9 @@ switch(FEAT_TRAINS, SELF, switch_mtro_Germany_Berlin_U_Bahn_A_I_reversed, var[0x
     0xFF: spriteset_mtro_Germany_Berlin_U_Bahn_A_I_back; 
     spriteset_mtro_Germany_Berlin_U_Bahn_A_I_front;
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

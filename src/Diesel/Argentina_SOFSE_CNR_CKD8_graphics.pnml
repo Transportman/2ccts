@@ -22,3 +22,9 @@ spriteset(spriteset_diesel_Argentina_SOFSE_CNR_CKD8_purchase, "gfx/Diesel/Argent
 spriteset(spriteset_diesel_Argentina_SOFSE_CNR_CKD8, "gfx/Diesel/Argentina_SOFSE_CNR_CKD8.png") {
 	template_2cc_engines_general(1, 1)
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

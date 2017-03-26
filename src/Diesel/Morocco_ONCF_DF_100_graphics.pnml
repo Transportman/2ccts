@@ -22,3 +22,9 @@ spriteset(spriteset_diesel_Morocco_ONCF_DF_100_purchase, "gfx/Diesel/Morocco_ONC
 spriteset(spriteset_diesel_Morocco_ONCF_DF_100, "gfx/Diesel/Morocco_ONCF_DF_100.png") {
 	template_2cc_engines_general(1, 1)
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

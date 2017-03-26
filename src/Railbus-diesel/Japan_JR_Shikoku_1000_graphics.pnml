@@ -27,8 +27,10 @@ spriteset(spriteset_rbd_Japan_JR_Shikoku_1000, "gfx/Railbus-diesel/Japan_JR_Shik
 * Cargo capacity
 */
 
-switch(FEAT_TRAINS, SELF, switch_rbd_Japan_JR_Shikoku_1000_capacity, cargo_classes) {
-	bitmask(CC_MAIL): 35;
-	bitmask(CC_ARMOURED): 18;
-	70;
-}
+ENGINECAPACITYSWITCH
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

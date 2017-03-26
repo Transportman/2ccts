@@ -32,3 +32,9 @@ switch(FEAT_TRAINS, SELF, switch_diesel_Netherlands_NS_600_animation, motion_cou
 	0: spriteset_diesel_Netherlands_NS_600_engine1;
 	spriteset_diesel_Netherlands_NS_600_engine2;
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

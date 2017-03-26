@@ -22,3 +22,9 @@ spriteset(spriteset_electric_Morocco_ONCFM_E_500_purchase, "gfx/Electric/Morocco
 spriteset(spriteset_electric_Morocco_ONCFM_E_500, "gfx/Electric/Morocco_ONCFM_E_500.png") {
 	template_2cc_engines_general(1, 1)
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

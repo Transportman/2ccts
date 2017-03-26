@@ -31,3 +31,9 @@ switch(FEAT_TRAINS, SELF, switch_diesel_Canada_VIA_Rail_FP9_position, position_i
 	0: spriteset_diesel_Canada_VIA_Rail_FP9_engine;
 	spriteset_diesel_Canada_VIA_Rail_FP9_tender;
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

@@ -93,14 +93,20 @@ switch(FEAT_TRAINS, SELF, switch_emu_Japan_JR_Shinkansen_Series_700_middlemail_p
 * Cargo capacity
 */
 
-switch(FEAT_TRAINS, SELF, switch_emu_Japan_JR_Shinkansen_Series_700_capacity, cargo_classes) {
-	bitmask(CC_MAIL): 62;
-	bitmask(CC_ARMOURED): 42;
-	83;
-}
+ENGINECAPACITYSWITCH
+
+WAGONCAPACITYSWITCH
 
 //Graphics for the unit wagon based on cargo class
 switch(FEAT_TRAINS, SELF, switch_emu_Japan_JR_Shinkansen_Series_700_cargo_selection, cargo_classes){
 	bitmask(CC_PASSENGERS): switch_emu_Japan_JR_Shinkansen_Series_700_middlepass_position;
 	switch_emu_Japan_JR_Shinkansen_Series_700_middlemail_position;
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+RUNNINGCOSTMUWAGONSWITCH
+
+PURCHASETEXTSWITCH

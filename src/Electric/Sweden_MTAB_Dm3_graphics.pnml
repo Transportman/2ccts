@@ -87,3 +87,9 @@ switch(FEAT_TRAINS, SELF, switch_electric_Sweden_MTAB_Dm3_articulated, extra_cal
 	1..2: return item_electric_Sweden_MTAB_Dm3;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

@@ -27,8 +27,10 @@ spriteset(spriteset_rbd_Eritrea_Eritrean_Railway_A62_70_Littorina, "gfx/Railbus-
 * Cargo capacity
 */
 
-switch(FEAT_TRAINS, SELF, switch_rbd_Eritrea_Eritrean_Railway_A62_70_Littorina_capacity, cargo_classes) {
-	bitmask(CC_MAIL): 16;
-	bitmask(CC_ARMOURED): 8;
-	32;
-}
+ENGINECAPACITYSWITCH
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

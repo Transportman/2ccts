@@ -22,3 +22,9 @@ spriteset(spriteset_diesel_Germany_DB_261_Gravita_10BB_purchase, "gfx/Diesel/Ger
 spriteset(spriteset_diesel_Germany_DB_261_Gravita_10BB, "gfx/Diesel/Germany_DB_261_Gravita_10BB.png") {
 	template_2cc_engines_general(1, 1)
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

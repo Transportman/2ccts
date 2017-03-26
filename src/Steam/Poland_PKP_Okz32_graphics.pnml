@@ -33,3 +33,9 @@ switch(FEAT_TRAINS, SELF, switch_steam_Poland_PKP_Okz32_animation, motion_counte
 	spriteset_steam_Poland_PKP_Okz32_engine2;
 }
 
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

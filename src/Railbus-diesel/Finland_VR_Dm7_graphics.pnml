@@ -27,8 +27,10 @@ spriteset(spriteset_rbd_Finland_VR_Dm7, "gfx/Railbus-diesel/Finland_VR_Dm7.png")
 * Cargo capacity
 */
 
-switch(FEAT_TRAINS, SELF, switch_rbd_Finland_VR_Dm7_capacity, cargo_classes) {
-	bitmask(CC_MAIL): 32;
-	bitmask(CC_ARMOURED): 16;
-	64;
-}
+ENGINECAPACITYSWITCH
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

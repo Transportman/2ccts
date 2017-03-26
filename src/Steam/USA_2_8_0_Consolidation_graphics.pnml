@@ -61,3 +61,9 @@ switch(FEAT_TRAINS, SELF, switch_steam_USA_2_8_0_Consolidation_articulated, extr
 	1: return item_steam_USA_2_8_0_Consolidation;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH
