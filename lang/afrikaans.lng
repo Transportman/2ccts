@@ -561,10 +561,10 @@ str_emu_Chile_EFE_XTrapolis_100 :EFE X'Trapolis 100 (EMU)
 str_emu_Tunisia_SNCFT_YZ_E :SNCFT YZ-E (EMU)
 
 #Single Unit Metro
-str_singlemtro_USA_Brooklyn_Union_Gate_Car                                    :Brooklyn 'Union Gate' Kar (Enkel Eenheid Metro)
-str_singlemtro_Hungary_Budapest_1894_Stock                                    :Budapest 1894 Trein (Enkel Eenheid Metro)
-str_singlemtro_USA_Chicago_L_Northwest_Elevated_1907_Stock    :Chicago L Noordwest Verhoogde 1907 Trein (Enkel Eenheid Metro)
-str_singlemtro_Germany_Berlin_U_Bahn_C_II                                             :Berlyn U-Bahn C II (Enkel Eenheid Metro)
+str_singlemtro_USA_Brooklyn_Union_Gate_Car                                      :Brooklyn 'Union Gate' Kar (Enkel Eenheid Metro)
+str_singlemtro_Hungary_Budapest_1894_Stock                                      :Budapest 1894 Trein (Enkel Eenheid Metro)
+str_singlemtro_USA_Chicago_L_Northwest_Elevated_1907_Stock      :Chicago L Noordwest Verhoogde 1907 Trein (Enkel Eenheid Metro)
+str_singlemtro_Germany_Berlin_U_Bahn_C_II                                               :Berlyn U-Bahn C II (Enkel Eenheid Metro)
 
 #Multiple Unit Metro
 str_mtro_UK_London_1903_Stock                                   :London 1903 Trein (Metro)

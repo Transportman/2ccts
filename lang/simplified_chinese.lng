@@ -647,10 +647,10 @@ str_emu_China_Railways_CHR380A :中铁CR CRH380A(电力动车)
 str_emu_Europe_Sureot :Sureot (电力动车)
 
 #Single Unit Metro
-str_singlemtro_USA_Brooklyn_Union_Gate_Car                                    :布鲁克林联合高架铁BRT Gate Car (单机城轨)
-str_singlemtro_Hungary_Budapest_1894_Stock                                    :布达佩斯 1894 Stock (单机城轨)
-str_singlemtro_USA_Chicago_L_Northwest_Elevated_1907_Stock    :芝加哥L东北高架铁路CLNE 1907 Stock (单机城轨)
-str_singlemtro_Germany_Berlin_U_Bahn_C_II                                             :柏林地铁 U-Bahn C II (单机城轨)
+str_singlemtro_USA_Brooklyn_Union_Gate_Car                                      :布鲁克林联合高架铁BRT Gate Car (单机城轨)
+str_singlemtro_Hungary_Budapest_1894_Stock                                      :布达佩斯 1894 Stock (单机城轨)
+str_singlemtro_USA_Chicago_L_Northwest_Elevated_1907_Stock      :芝加哥L东北高架铁路CLNE 1907 Stock (单机城轨)
+str_singlemtro_Germany_Berlin_U_Bahn_C_II                                               :柏林地铁 U-Bahn C II (单机城轨)
 
 #Multiple Unit Metro
 str_mtro_UK_London_1903_Stock                                   :伦敦 1903 Stock (城轨)
