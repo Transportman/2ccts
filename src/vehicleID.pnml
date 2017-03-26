@@ -831,10 +831,10 @@ item(FEAT_TRAINS, item_mu_cargo_wagon_powered, 13007) {}
 
 //Single Unit Metros, available ID range: 14000-14499 (hex 0x36B0..0x38A3)
 #define ID_RANGE_SINGLEMETRO 0x36B0..0x38A3
-item(FEAT_TRAINS, item_mtro_USA_Brooklyn_Union_Gate_Car, 14000) {}
-item(FEAT_TRAINS, item_mtro_Hungary_Budapest_1894_Stock, 14001) {}
-item(FEAT_TRAINS, item_mtro_USA_Chicago_L_Northwest_Elevated_1907_Stock, 14002) {}
-item(FEAT_TRAINS, item_mtro_Germany_Berlin_U_Bahn_C_II, 14003) {}
+item(FEAT_TRAINS, item_singlemtro_USA_Brooklyn_Union_Gate_Car, 14000) {}
+item(FEAT_TRAINS, item_singlemtro_Hungary_Budapest_1894_Stock, 14001) {}
+item(FEAT_TRAINS, item_singlemtro_USA_Chicago_L_Northwest_Elevated_1907_Stock, 14002) {}
+item(FEAT_TRAINS, item_singlemtro_Germany_Berlin_U_Bahn_C_II, 14003) {}
 
 //SMU, available ID range: 14500-14999 (hex 0x38A4..0x3A97)
 #define ID_RANGE_SMU 0x38A4..0x3A97

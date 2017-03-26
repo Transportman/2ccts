@@ -1209,14 +1209,14 @@
 #include "src/EMU/Europe_Sureot_item.pnml"
 
 //Single Unit Metro
-#include "src/Metro/USA_Brooklyn_Union_Gate_Car_graphics.pnml"
-#include "src/Metro/USA_Brooklyn_Union_Gate_Car_item.pnml"
-#include "src/Metro/Hungary_Budapest_1894_Stock_graphics.pnml"
-#include "src/Metro/Hungary_Budapest_1894_Stock_item.pnml"
-#include "src/Metro/USA_Chicago_L_Northwest_Elevated_1907_Stock_graphics.pnml"
-#include "src/Metro/USA_Chicago_L_Northwest_Elevated_1907_Stock_item.pnml"
-#include "src/Metro/Germany_Berlin_U_Bahn_C_II_graphics.pnml"
-#include "src/Metro/Germany_Berlin_U_Bahn_C_II_item.pnml"
+#include "src/Single-Metro/USA_Brooklyn_Union_Gate_Car_graphics.pnml"
+#include "src/Single-Metro/USA_Brooklyn_Union_Gate_Car_item.pnml"
+#include "src/Single-Metro/Hungary_Budapest_1894_Stock_graphics.pnml"
+#include "src/Single-Metro/Hungary_Budapest_1894_Stock_item.pnml"
+#include "src/Single-Metro/USA_Chicago_L_Northwest_Elevated_1907_Stock_graphics.pnml"
+#include "src/Single-Metro/USA_Chicago_L_Northwest_Elevated_1907_Stock_item.pnml"
+#include "src/Single-Metro/Germany_Berlin_U_Bahn_C_II_graphics.pnml"
+#include "src/Single-Metro/Germany_Berlin_U_Bahn_C_II_item.pnml"
 
 //Multiple Unit Metro
 #include "src/Metro/UK_London_1903_Stock_graphics.pnml"

@@ -10,8 +10,8 @@
 * PURCHASE
 */
 
-spriteset(spriteset_mtro_USA_Chicago_L_Northwest_Elevated_1907_Stock_purchase, "gfx/Metro/USA_Chicago_L_Northwest_Elevated_1907_Stock.png") {
-	template_purchase(1, 128)
+spriteset(spriteset_singlemtro_Hungary_Budapest_1894_Stock_purchase, "gfx/Single-Metro/Hungary_Budapest_1894_Stock.png") {
+	template_purchase(1, 32)
 }
 
 /*
@@ -19,7 +19,7 @@ spriteset(spriteset_mtro_USA_Chicago_L_Northwest_Elevated_1907_Stock_purchase, "
 */
 
 //Only one spriteset needed for this set
-spriteset(spriteset_mtro_USA_Chicago_L_Northwest_Elevated_1907_Stock, "gfx/Metro/USA_Chicago_L_Northwest_Elevated_1907_Stock.png") {
+spriteset(spriteset_singlemtro_Hungary_Budapest_1894_Stock, "gfx/Single-Metro/Hungary_Budapest_1894_Stock.png") {
 	template_2cc_railbus_general(1, 1)
 }
 	

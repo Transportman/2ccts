@@ -10,9 +10,9 @@
 * ITEM
 */
 
-item(FEAT_TRAINS, item_mtro_Germany_Berlin_U_Bahn_C_II) {
+item(FEAT_TRAINS, item_singlemtro_Germany_Berlin_U_Bahn_C_II) {
     property {
-        name: string(str_mtro_Germany_Berlin_U_Bahn_C_II);
+        name: string(str_singlemtro_Germany_Berlin_U_Bahn_C_II);
         REGION(WESTERNEUROPE,NOREGION,NOCONCEPT)
 		
         introduction_date: date(1929,1,1);
@@ -46,8 +46,8 @@ item(FEAT_TRAINS, item_mtro_Germany_Berlin_U_Bahn_C_II) {
         bitmask_vehicle_info: 0;
 	}
 	graphics {
-		purchase: spriteset_mtro_Germany_Berlin_U_Bahn_C_II_purchase;
+		purchase: spriteset_singlemtro_Germany_Berlin_U_Bahn_C_II_purchase;
 		can_attach_wagon: switch_can_attach_vehicle;
-		spriteset_mtro_Germany_Berlin_U_Bahn_C_II;
+		spriteset_singlemtro_Germany_Berlin_U_Bahn_C_II;
 	}	
 }

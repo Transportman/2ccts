@@ -10,22 +10,22 @@
 * ITEM
 */
 
-item(FEAT_TRAINS, item_mtro_Hungary_Budapest_1894_Stock) {
+item(FEAT_TRAINS, item_singlemtro_USA_Chicago_L_Northwest_Elevated_1907_Stock) {
     property {
-        name: string(str_mtro_Hungary_Budapest_1894_Stock);
-        REGION(EASTERNEUROPE,NOREGION,NOCONCEPT)
+        name: string(str_singlemtro_USA_Chicago_L_Northwest_Elevated_1907_Stock);
+        REGION(NORTHAMERICA,NOREGION,NOCONCEPT)
 		
-        introduction_date: date(1894,1,1);
-        model_life: 50;
+        introduction_date: date(1907,1,1);
+        model_life: 40;
         vehicle_life: 60;
         LOADINGSPEEDDEF_METRO
-        cost_factor: 22;
-        running_cost_factor: 20;
-        speed: 60 km/h;
-        power: 200 hp;
-        cargo_capacity: 100;
-        weight: 25 ton;
-        tractive_effort_coefficient: 0.32;
+        cost_factor: 27;
+        running_cost_factor: 22;
+        speed: 70 km/h;
+        power: 250 hp;
+        cargo_capacity: 130;
+        weight: 50 ton;
+        tractive_effort_coefficient: 0.1;
         air_drag_coefficient: 0;
         
         reliability_decay: 20;
@@ -46,8 +46,8 @@ item(FEAT_TRAINS, item_mtro_Hungary_Budapest_1894_Stock) {
         bitmask_vehicle_info: 0;
 	}
 	graphics {
-		purchase: spriteset_mtro_Hungary_Budapest_1894_Stock_purchase;
+		purchase: spriteset_singlemtro_USA_Chicago_L_Northwest_Elevated_1907_Stock_purchase;
 		can_attach_wagon: switch_can_attach_vehicle;
-		spriteset_mtro_Hungary_Budapest_1894_Stock;
+		spriteset_singlemtro_USA_Chicago_L_Northwest_Elevated_1907_Stock;
 	}	
 }

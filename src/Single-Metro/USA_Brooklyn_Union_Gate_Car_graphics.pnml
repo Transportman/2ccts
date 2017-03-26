@@ -10,7 +10,7 @@
 * PURCHASE
 */
 
-spriteset(spriteset_mtro_USA_Brooklyn_Union_Gate_Car_purchase, "gfx/Metro/USA_Brooklyn_Union_Gate_Car.png") {
+spriteset(spriteset_singlemtro_USA_Brooklyn_Union_Gate_Car_purchase, "gfx/Single-Metro/USA_Brooklyn_Union_Gate_Car.png") {
 	template_purchase(1, 32)
 }
 
@@ -19,7 +19,7 @@ spriteset(spriteset_mtro_USA_Brooklyn_Union_Gate_Car_purchase, "gfx/Metro/USA_Br
 */
 
 //Only one spriteset needed for this set
-spriteset(spriteset_mtro_USA_Brooklyn_Union_Gate_Car, "gfx/Metro/USA_Brooklyn_Union_Gate_Car.png") {
+spriteset(spriteset_singlemtro_USA_Brooklyn_Union_Gate_Car, "gfx/Single-Metro/USA_Brooklyn_Union_Gate_Car.png") {
 	template_2cc_railbus_general(1, 1)
 }
 	

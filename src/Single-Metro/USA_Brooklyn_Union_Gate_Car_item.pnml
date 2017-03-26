@@ -10,9 +10,9 @@
 * ITEM
 */
 
-item(FEAT_TRAINS, item_mtro_USA_Brooklyn_Union_Gate_Car) {
+item(FEAT_TRAINS, item_singlemtro_USA_Brooklyn_Union_Gate_Car) {
     property {
-        name: string(str_mtro_USA_Brooklyn_Union_Gate_Car);
+        name: string(str_singlemtro_USA_Brooklyn_Union_Gate_Car);
         REGION(NORTHAMERICA,NOREGION,NOCONCEPT)
 		
         introduction_date: date(1880,1,1);
@@ -46,8 +46,8 @@ item(FEAT_TRAINS, item_mtro_USA_Brooklyn_Union_Gate_Car) {
         bitmask_vehicle_info: 0;
 	}
 	graphics {
-		purchase: spriteset_mtro_USA_Brooklyn_Union_Gate_Car_purchase;
+		purchase: spriteset_singlemtro_USA_Brooklyn_Union_Gate_Car_purchase;
 		can_attach_wagon: switch_can_attach_vehicle;
-		spriteset_mtro_USA_Brooklyn_Union_Gate_Car;
+		spriteset_singlemtro_USA_Brooklyn_Union_Gate_Car;
 	}	
 }

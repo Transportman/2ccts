@@ -10,7 +10,7 @@
 * PURCHASE
 */
 
-spriteset(spriteset_mtro_Germany_Berlin_U_Bahn_C_II_purchase, "gfx/Metro/Germany_Berlin_U_Bahn_C_II.png") {
+spriteset(spriteset_singlemtro_Germany_Berlin_U_Bahn_C_II_purchase, "gfx/Single-Metro/Germany_Berlin_U_Bahn_C_II.png") {
 	template_purchase(1, 32)
 }
 
@@ -19,7 +19,7 @@ spriteset(spriteset_mtro_Germany_Berlin_U_Bahn_C_II_purchase, "gfx/Metro/Germany
 */
 
 //Only one spriteset needed for this set
-spriteset(spriteset_mtro_Germany_Berlin_U_Bahn_C_II, "gfx/Metro/Germany_Berlin_U_Bahn_C_II.png") {
+spriteset(spriteset_singlemtro_Germany_Berlin_U_Bahn_C_II, "gfx/Single-Metro/Germany_Berlin_U_Bahn_C_II.png") {
 	template_2cc_railbus_general(1, 1)
 }
 	

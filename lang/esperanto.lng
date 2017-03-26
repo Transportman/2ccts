@@ -133,7 +133,7 @@ str_emu_South_Africa_SAR_5M2 :SAR 5M2 (EMU)
 str_emu_Austria_OBB_4030 :OBB 4030 (EMU)
 
 #Single Unit Metro
-str_mtro_USA_Brooklyn_Union_Gate_Car                                    :Broklino Unio Pordego Aŭto (Ununura Unuo Metro)
+str_singlemtro_USA_Brooklyn_Union_Gate_Car                                    :Broklino Unio Pordego Aŭto (Ununura Unuo Metro)
 
 #Multiple Unit Metro
 str_mtro_USA_NY_R1                                                              :Novjorko R1 (Metro)

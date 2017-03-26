@@ -264,10 +264,10 @@ str_emu_Netherlands_NS_4800_HSA                         :NS 4800 HSA (EMU)
 str_emu_Italy_NTV_AGV_Duplex                            :NTV AGV Duplex (EMU)
 
 #Single Unit Metro
-str_mtro_USA_Brooklyn_Union_Gate_Car                                    :Brooklyn Union Gate Car (지하철)
-str_mtro_Hungary_Budapest_1894_Stock                                    :부다페스트 1894 Stock (지하철)
-str_mtro_USA_Chicago_L_Northwest_Elevated_1907_Stock    :시카고 L 북서 고가 1907 Stock (지하철)
-str_mtro_Germany_Berlin_U_Bahn_C_II                                             :베를린 U-반 C II (지하철)
+str_singlemtro_USA_Brooklyn_Union_Gate_Car                                    :Brooklyn Union Gate Car (지하철)
+str_singlemtro_Hungary_Budapest_1894_Stock                                    :부다페스트 1894 Stock (지하철)
+str_singlemtro_USA_Chicago_L_Northwest_Elevated_1907_Stock    :시카고 L 북서 고가 1907 Stock (지하철)
+str_singlemtro_Germany_Berlin_U_Bahn_C_II                                             :베를린 U-반 C II (지하철)
 
 #Multiple Unit Metro
 str_mtro_UK_London_1903_Stock                                   :런던 1903 Stock (지하철)

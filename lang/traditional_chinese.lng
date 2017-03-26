@@ -83,8 +83,8 @@ str_electric_Ukraine_UZ_DS3                                     :烏克蘭鐵路
 #EMU
 
 #Single Unit Metro
-str_mtro_USA_Brooklyn_Union_Gate_Car                                    :布魯克林大聯盟閘門車廂 (捷運)
-str_mtro_Germany_Berlin_U_Bahn_C_II                                             :柏林地鐵 C II 型 (捷運)
+str_singlemtro_USA_Brooklyn_Union_Gate_Car                                    :布魯克林大聯盟閘門車廂 (捷運)
+str_singlemtro_Germany_Berlin_U_Bahn_C_II                                             :柏林地鐵 C II 型 (捷運)
 
 #Multiple Unit Metro
 str_mtro_UK_London_1903_Stock                                   :倫敦地鐵 1903 型 (捷運)
