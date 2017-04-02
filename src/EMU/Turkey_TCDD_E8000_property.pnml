@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME emu_Turkey_TCDD_E8000
+#define VEHIDCODE emu_Turkey_TCDD_E8000
 #define ITEM item_emu_Turkey_TCDD_E8000
 #define NAME string(str_emu_Turkey_TCDD_E8000)
 

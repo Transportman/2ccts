@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME diesel_Liberia_Liberia_Railways_Class_08
+#define VEHIDCODE diesel_Liberia_Liberia_Railways_Class_08
 #define ITEM item_diesel_Liberia_Liberia_Railways_Class_08
 #define NAME string(str_diesel_Liberia_Liberia_Railways_Class_08)
 

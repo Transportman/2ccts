@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME electric_China_China_Railways_6K
+#define VEHIDCODE electric_China_China_Railways_6K
 #define ITEM item_electric_China_China_Railways_6K
 #define NAME string(str_electric_China_China_Railways_6K)
 

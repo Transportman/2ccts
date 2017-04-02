@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME mtro_USA_Washington_7000
+#define VEHIDCODE mtro_USA_Washington_7000
 #define ITEM item_mtro_USA_Washington_7000
 #define NAME string(str_mtro_USA_Washington_7000)
 
@@ -32,7 +32,7 @@
 #define WAGON_LENGTH 8
 
 #define HEAD_CAPACITY 184
-#define WAGON_CAPACITY 
+#define WAGON_CAPACITY 184
 
 
 #define DUAL_HEADED 1

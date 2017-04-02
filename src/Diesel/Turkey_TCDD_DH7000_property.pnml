@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME diesel_Turkey_TCDD_DH7000
+#define VEHIDCODE diesel_Turkey_TCDD_DH7000
 #define ITEM item_diesel_Turkey_TCDD_DH7000
 #define NAME string(str_diesel_Turkey_TCDD_DH7000)
 

@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME electric_Sweden_SJ_O_Class
+#define VEHIDCODE electric_Sweden_SJ_O_Class
 #define ITEM item_electric_Sweden_SJ_O_Class
 #define NAME string(str_electric_Sweden_SJ_O_Class)
 

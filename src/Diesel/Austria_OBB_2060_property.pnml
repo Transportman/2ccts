@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME diesel_Austria_OBB_2060
+#define VEHIDCODE diesel_Austria_OBB_2060
 #define ITEM item_diesel_Austria_OBB_2060
 #define NAME string(str_diesel_Austria_OBB_2060)
 

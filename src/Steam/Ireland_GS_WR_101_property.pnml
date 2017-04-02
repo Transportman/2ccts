@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME steam_Ireland_GS_WR_101
+#define VEHIDCODE steam_Ireland_GS_WR_101
 #define ITEM item_steam_Ireland_GS_WR_101
 #define NAME string(str_steam_Ireland_GS_WR_101)
 

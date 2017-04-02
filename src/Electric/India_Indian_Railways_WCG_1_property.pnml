@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME electric_India_Indian_Railways_WCG_1
+#define VEHIDCODE electric_India_Indian_Railways_WCG_1
 #define ITEM item_electric_India_Indian_Railways_WCG_1
 #define NAME string(str_electric_India_Indian_Railways_WCG_1)
 

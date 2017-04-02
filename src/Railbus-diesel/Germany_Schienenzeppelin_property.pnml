@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME rbd_Germany_Schienenzeppelin
+#define VEHIDCODE rbd_Germany_Schienenzeppelin
 #define ITEM item_rbd_Germany_Schienenzeppelin
 #define NAME string(str_rbd_Germany_Schienenzeppelin)
 

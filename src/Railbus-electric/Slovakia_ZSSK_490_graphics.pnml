@@ -27,7 +27,7 @@ spriteset(spriteset_rbe_Slovakia_ZSSK_490, "gfx/Railbus-electric/Slovakia_ZSSK_4
 * Cargo capacity
 */
 
-ENGINECAPACITYSWITCH
+ENGINECAPACITYSWITCH(VEHIDCODE)
 
 //Add defined switches
 

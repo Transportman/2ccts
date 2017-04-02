@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME dmu_Germany_DB_VT_040_Flying_Hamburger
+#define VEHIDCODE dmu_Germany_DB_VT_040_Flying_Hamburger
 #define ITEM item_dmu_Germany_DB_VT_040_Flying_Hamburger
 #define NAME string(str_dmu_Germany_DB_VT_040_Flying_Hamburger)
 

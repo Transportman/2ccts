@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME diesel_Panama_Panama_Canal_Railway_EMD_F40PH
+#define VEHIDCODE diesel_Panama_Panama_Canal_Railway_EMD_F40PH
 #define ITEM item_diesel_Panama_Panama_Canal_Railway_EMD_F40PH
 #define NAME string(str_diesel_Panama_Panama_Canal_Railway_EMD_F40PH)
 

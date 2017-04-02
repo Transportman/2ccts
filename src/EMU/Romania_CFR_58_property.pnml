@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME emu_Romania_CFR_58
+#define VEHIDCODE emu_Romania_CFR_58
 #define ITEM item_emu_Romania_CFR_58
 #define NAME string(str_emu_Romania_CFR_58)
 

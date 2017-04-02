@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME steam_Canada_CN_U_1_Class
+#define VEHIDCODE steam_Canada_CN_U_1_Class
 #define ITEM item_steam_Canada_CN_U_1_Class
 #define NAME string(str_steam_Canada_CN_U_1_Class)
 

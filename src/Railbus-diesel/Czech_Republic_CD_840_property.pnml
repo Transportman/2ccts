@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME rbd_Czech_Republic_CD_840
+#define VEHIDCODE rbd_Czech_Republic_CD_840
 #define ITEM item_rbd_Czech_Republic_CD_840
 #define NAME string(str_rbd_Czech_Republic_CD_840)
 

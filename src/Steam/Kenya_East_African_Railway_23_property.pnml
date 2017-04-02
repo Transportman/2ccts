@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME steam_Kenya_East_African_Railway_23
+#define VEHIDCODE steam_Kenya_East_African_Railway_23
 #define ITEM item_steam_Kenya_East_African_Railway_23
 #define NAME string(str_steam_Kenya_East_African_Railway_23)
 

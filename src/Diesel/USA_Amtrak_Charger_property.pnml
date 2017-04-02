@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME diesel_USA_Amtrak_Charger
+#define VEHIDCODE diesel_USA_Amtrak_Charger
 #define ITEM item_diesel_USA_Amtrak_Charger
 #define NAME string(str_diesel_USA_Amtrak_Charger)
 

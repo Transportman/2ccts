@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME electric_Mexico_FNM_GE_E60C_2
+#define VEHIDCODE electric_Mexico_FNM_GE_E60C_2
 #define ITEM item_electric_Mexico_FNM_GE_E60C_2
 #define NAME string(str_electric_Mexico_FNM_GE_E60C_2)
 

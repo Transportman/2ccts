@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME rbd_Australia_Victorian_Railways_DERM
+#define VEHIDCODE rbd_Australia_Victorian_Railways_DERM
 #define ITEM item_rbd_Australia_Victorian_Railways_DERM
 #define NAME string(str_rbd_Australia_Victorian_Railways_DERM)
 

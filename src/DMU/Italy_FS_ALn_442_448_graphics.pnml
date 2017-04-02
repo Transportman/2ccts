@@ -55,9 +55,9 @@ switch(FEAT_TRAINS, SELF, switch_dmu_Italy_FS_ALn_442_448_visual_effect_and_powe
 * Cargo capacity
 */
 
-ENGINECAPACITYSWITCH
+ENGINECAPACITYSWITCH(VEHIDCODE)
 
-WAGONCAPACITYSWITCH
+WAGONCAPACITYSWITCH(VEHIDCODE)
 
 //Graphics for the unit wagon based on cargo class
 switch(FEAT_TRAINS, SELF, switch_dmu_Italy_FS_ALn_442_448_cargo_selection, cargo_classes){

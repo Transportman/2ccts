@@ -27,7 +27,7 @@ spriteset(spriteset_rbd_Australia_NSWGR_Class_400, "gfx/Railbus-diesel/Australia
 * Cargo capacity
 */
 
-ENGINECAPACITYSWITCH
+ENGINECAPACITYSWITCH(VEHIDCODE)
 
 //Add defined switches
 

@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME electric_Belgium_NMBS_Class_255
+#define VEHIDCODE electric_Belgium_NMBS_Class_255
 #define ITEM item_electric_Belgium_NMBS_Class_255
 #define NAME string(str_electric_Belgium_NMBS_Class_255)
 

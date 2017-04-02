@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME diesel_Norway_CargoNet_312
+#define VEHIDCODE diesel_Norway_CargoNet_312
 #define ITEM item_diesel_Norway_CargoNet_312
 #define NAME string(str_diesel_Norway_CargoNet_312)
 

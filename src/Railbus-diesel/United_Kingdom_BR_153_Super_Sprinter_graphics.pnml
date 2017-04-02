@@ -27,7 +27,7 @@ spriteset(spriteset_rbd_United_Kingdom_BR_153_Super_Sprinter, "gfx/Railbus-diese
 * Cargo capacity
 */
 
-ENGINECAPACITYSWITCH
+ENGINECAPACITYSWITCH(VEHIDCODE)
 
 //Add defined switches
 

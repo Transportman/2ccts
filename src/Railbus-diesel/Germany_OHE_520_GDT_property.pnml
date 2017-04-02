@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME rbd_Germany_OHE_520_GDT
+#define VEHIDCODE rbd_Germany_OHE_520_GDT
 #define ITEM item_rbd_Germany_OHE_520_GDT
 #define NAME string(str_rbd_Germany_OHE_520_GDT)
 

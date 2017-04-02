@@ -27,7 +27,7 @@ spriteset(spriteset_rbe_Sweden_SJ_X16, "gfx/Railbus-electric/Sweden_SJ_X16.png")
 * Cargo capacity
 */
 
-ENGINECAPACITYSWITCH
+ENGINECAPACITYSWITCH(VEHIDCODE)
 
 //Add defined switches
 

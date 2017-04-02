@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME steam_Argentina_FCNEA_11B_2_8_0
+#define VEHIDCODE steam_Argentina_FCNEA_11B_2_8_0
 #define ITEM item_steam_Argentina_FCNEA_11B_2_8_0
 #define NAME string(str_steam_Argentina_FCNEA_11B_2_8_0)
 

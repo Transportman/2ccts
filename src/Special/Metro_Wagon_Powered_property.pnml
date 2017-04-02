@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME mtro_wagon_powered
+#define VEHIDCODE mtro_wagon_powered
 #define ITEM item_mtro_wagon_powered
 #define NAME string(str_mtro_wagon_powered)
 

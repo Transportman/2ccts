@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME steam_Eritrea_Eritrean_Railway_R440
+#define VEHIDCODE steam_Eritrea_Eritrean_Railway_R440
 #define ITEM item_steam_Eritrea_Eritrean_Railway_R440
 #define NAME string(str_steam_Eritrea_Eritrean_Railway_R440)
 

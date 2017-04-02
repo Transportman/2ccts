@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME coach_Gen4_Russian_Intercity_Coach
+#define VEHIDCODE coach_Gen4_Russian_Intercity_Coach
 #define ITEM item_coach_Gen4_Russian_Intercity_Coach
 #define NAME string(str_coach_Gen4_Russian_Intercity_Coach)
 

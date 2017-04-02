@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME rbs_Australia_Victorian_Railways_Rowan_Railmotor
+#define VEHIDCODE rbs_Australia_Victorian_Railways_Rowan_Railmotor
 #define ITEM item_rbs_Australia_Victorian_Railways_Rowan_Railmotor
 #define NAME string(str_rbs_Australia_Victorian_Railways_Rowan_Railmotor)
 

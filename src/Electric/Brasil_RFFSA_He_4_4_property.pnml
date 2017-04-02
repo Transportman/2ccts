@@ -6,7 +6,7 @@
  *  You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-#define ITEMNAME electric_Brasil_RFFSA_He_4_4
+#define VEHIDCODE electric_Brasil_RFFSA_He_4_4
 #define ITEM item_electric_Brasil_RFFSA_He_4_4
 #define NAME string(str_electric_Brasil_RFFSA_He_4_4)
 

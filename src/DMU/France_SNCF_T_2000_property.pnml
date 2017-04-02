@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME dmu_France_SNCF_T_2000
+#define VEHIDCODE dmu_France_SNCF_T_2000
 #define ITEM item_dmu_France_SNCF_T_2000
 #define NAME string(str_dmu_France_SNCF_T_2000)
 

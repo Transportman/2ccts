@@ -27,7 +27,7 @@ spriteset(spriteset_rbd_Austria_OBB_5042, "gfx/Railbus-diesel/Austria_OBB_5042.p
 * Cargo capacity
 */
 
-ENGINECAPACITYSWITCH
+ENGINECAPACITYSWITCH(VEHIDCODE)
 
 //Add defined switches
 

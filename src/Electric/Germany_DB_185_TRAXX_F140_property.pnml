@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME electric_Germany_DB_185_TRAXX_F140
+#define VEHIDCODE electric_Germany_DB_185_TRAXX_F140
 #define ITEM item_electric_Germany_DB_185_TRAXX_F140
 #define NAME string(str_electric_Germany_DB_185_TRAXX_F140)
 

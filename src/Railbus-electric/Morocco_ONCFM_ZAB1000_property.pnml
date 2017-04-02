@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME rbe_Morocco_ONCFM_ZAB1000
+#define VEHIDCODE rbe_Morocco_ONCFM_ZAB1000
 #define ITEM item_rbe_Morocco_ONCFM_ZAB1000
 #define NAME string(str_rbe_Morocco_ONCFM_ZAB1000)
 

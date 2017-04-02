@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME singlemtro_Hungary_Budapest_1894_Stock
+#define VEHIDCODE singlemtro_Hungary_Budapest_1894_Stock
 #define ITEM item_singlemtro_Hungary_Budapest_1894_Stock
 #define NAME string(str_singlemtro_Hungary_Budapest_1894_Stock)
 

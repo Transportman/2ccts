@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME emu_Japan_Odakyu_3100_Series_Romance
+#define VEHIDCODE emu_Japan_Odakyu_3100_Series_Romance
 #define ITEM item_emu_Japan_Odakyu_3100_Series_Romance
 #define NAME string(str_emu_Japan_Odakyu_3100_Series_Romance)
 

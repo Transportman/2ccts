@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME electric_Australia_Aurizon_E40_AG_V1
+#define VEHIDCODE electric_Australia_Aurizon_E40_AG_V1
 #define ITEM item_electric_Australia_Aurizon_E40_AG_V1
 #define NAME string(str_electric_Australia_Aurizon_E40_AG_V1)
 

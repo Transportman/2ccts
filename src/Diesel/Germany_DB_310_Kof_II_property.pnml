@@ -6,7 +6,7 @@
  *  You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-#define ITEMNAME diesel_Germany_DB_310_Kof_II
+#define VEHIDCODE diesel_Germany_DB_310_Kof_II
 #define ITEM item_diesel_Germany_DB_310_Kof_II
 #define NAME string(str_diesel_Germany_DB_310_Kof_II)
 

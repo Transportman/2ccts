@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME steam_Japan_JNR_860
+#define VEHIDCODE steam_Japan_JNR_860
 #define ITEM item_steam_Japan_JNR_860
 #define NAME string(str_steam_Japan_JNR_860)
 

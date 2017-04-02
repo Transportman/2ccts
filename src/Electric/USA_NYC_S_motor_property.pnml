@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME electric_USA_NYC_S_motor
+#define VEHIDCODE electric_USA_NYC_S_motor
 #define ITEM item_electric_USA_NYC_S_motor
 #define NAME string(str_electric_USA_NYC_S_motor)
 

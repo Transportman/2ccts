@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME electric_Switzerland_SBB_Ae_6_6
+#define VEHIDCODE electric_Switzerland_SBB_Ae_6_6
 #define ITEM item_electric_Switzerland_SBB_Ae_6_6
 #define NAME string(str_electric_Switzerland_SBB_Ae_6_6)
 

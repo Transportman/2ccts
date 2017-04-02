@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME emu_Italy_FS_ALe426
+#define VEHIDCODE emu_Italy_FS_ALe426
 #define ITEM item_emu_Italy_FS_ALe426
 #define NAME string(str_emu_Italy_FS_ALe426)
 

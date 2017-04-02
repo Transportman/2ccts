@@ -27,7 +27,7 @@ spriteset(spriteset_rbd_United_Kingdom_GWR_AEC_Railcar, "gfx/Railbus-diesel/Unit
 * Cargo capacity
 */
 
-ENGINECAPACITYSWITCH
+ENGINECAPACITYSWITCH(VEHIDCODE)
 
 //Add defined switches
 

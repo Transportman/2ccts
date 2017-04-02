@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME mtro_USA_NY_Hedley_Hi_V
+#define VEHIDCODE mtro_USA_NY_Hedley_Hi_V
 #define ITEM item_mtro_USA_NY_Hedley_Hi_V
 #define NAME string(str_mtro_USA_NY_Hedley_Hi_V)
 
@@ -32,7 +32,7 @@
 #define WAGON_LENGTH 8
 
 #define HEAD_CAPACITY 128
-#define WAGON_CAPACITY 
+#define WAGON_CAPACITY 128
 
 
 #define DUAL_HEADED 1

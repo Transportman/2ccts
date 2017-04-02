@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME diesel_China_MTR_8000
+#define VEHIDCODE diesel_China_MTR_8000
 #define ITEM item_diesel_China_MTR_8000
 #define NAME string(str_diesel_China_MTR_8000)
 

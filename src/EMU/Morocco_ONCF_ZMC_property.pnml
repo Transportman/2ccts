@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME emu_Morocco_ONCF_ZMC
+#define VEHIDCODE emu_Morocco_ONCF_ZMC
 #define ITEM item_emu_Morocco_ONCF_ZMC
 #define NAME string(str_emu_Morocco_ONCF_ZMC)
 

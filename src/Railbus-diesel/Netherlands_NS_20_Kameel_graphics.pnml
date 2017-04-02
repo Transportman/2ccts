@@ -27,7 +27,7 @@ spriteset(spriteset_rbd_Netherlands_NS_20_Kameel, "gfx/Railbus-diesel/Netherland
 * Cargo capacity
 */
 
-ENGINECAPACITYSWITCH
+ENGINECAPACITYSWITCH(VEHIDCODE)
 
 //Add defined switches
 

@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME electric_Kazakhstan_KTZ_KZ4A
+#define VEHIDCODE electric_Kazakhstan_KTZ_KZ4A
 #define ITEM item_electric_Kazakhstan_KTZ_KZ4A
 #define NAME string(str_electric_Kazakhstan_KTZ_KZ4A)
 

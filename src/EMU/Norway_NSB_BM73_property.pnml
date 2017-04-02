@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME emu_Norway_NSB_BM73
+#define VEHIDCODE emu_Norway_NSB_BM73
 #define ITEM item_emu_Norway_NSB_BM73
 #define NAME string(str_emu_Norway_NSB_BM73)
 

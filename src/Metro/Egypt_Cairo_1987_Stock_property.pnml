@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME mtro_Egypt_Cairo_1987_Stock
+#define VEHIDCODE mtro_Egypt_Cairo_1987_Stock
 #define ITEM item_mtro_Egypt_Cairo_1987_Stock
 #define NAME string(str_mtro_Egypt_Cairo_1987_Stock)
 
@@ -32,7 +32,7 @@
 #define WAGON_LENGTH 8
 
 #define HEAD_CAPACITY 250
-#define WAGON_CAPACITY 
+#define WAGON_CAPACITY 250
 
 
 #define DUAL_HEADED 1

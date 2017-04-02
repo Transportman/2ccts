@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME rbd_Chile_EFE_Buscarril
+#define VEHIDCODE rbd_Chile_EFE_Buscarril
 #define ITEM item_rbd_Chile_EFE_Buscarril
 #define NAME string(str_rbd_Chile_EFE_Buscarril)
 

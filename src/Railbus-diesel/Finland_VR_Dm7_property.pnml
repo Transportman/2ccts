@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME rbd_Finland_VR_Dm7
+#define VEHIDCODE rbd_Finland_VR_Dm7
 #define ITEM item_rbd_Finland_VR_Dm7
 #define NAME string(str_rbd_Finland_VR_Dm7)
 

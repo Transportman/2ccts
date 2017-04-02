@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME mtro_Brazil_Recife_VLT_Mobile_3
+#define VEHIDCODE mtro_Brazil_Recife_VLT_Mobile_3
 #define ITEM item_mtro_Brazil_Recife_VLT_Mobile_3
 #define NAME string(str_mtro_Brazil_Recife_VLT_Mobile_3)
 
@@ -32,7 +32,7 @@
 #define WAGON_LENGTH 8
 
 #define HEAD_CAPACITY 182
-#define WAGON_CAPACITY 
+#define WAGON_CAPACITY 182
 
 
 #define DUAL_HEADED 1

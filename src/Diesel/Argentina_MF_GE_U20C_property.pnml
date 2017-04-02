@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME diesel_Argentina_MF_GE_U20C
+#define VEHIDCODE diesel_Argentina_MF_GE_U20C
 #define ITEM item_diesel_Argentina_MF_GE_U20C
 #define NAME string(str_diesel_Argentina_MF_GE_U20C)
 

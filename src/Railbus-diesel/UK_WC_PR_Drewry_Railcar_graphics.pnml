@@ -27,7 +27,7 @@ spriteset(spriteset_rbd_UK_WC_PR_Drewry_Railcar, "gfx/Railbus-diesel/UK_WC_PR_Dr
 * Cargo capacity
 */
 
-ENGINECAPACITYSWITCH
+ENGINECAPACITYSWITCH(VEHIDCODE)
 
 //Add defined switches
 

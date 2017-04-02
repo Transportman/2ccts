@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME mtro_Russia_Moscow_Type_D
+#define VEHIDCODE mtro_Russia_Moscow_Type_D
 #define ITEM item_mtro_Russia_Moscow_Type_D
 #define NAME string(str_mtro_Russia_Moscow_Type_D)
 
@@ -32,7 +32,7 @@
 #define WAGON_LENGTH 8
 
 #define HEAD_CAPACITY 132
-#define WAGON_CAPACITY 
+#define WAGON_CAPACITY 132
 
 
 #define DUAL_HEADED 1

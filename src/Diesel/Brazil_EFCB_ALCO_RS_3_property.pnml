@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME diesel_Brazil_EFCB_ALCO_RS_3
+#define VEHIDCODE diesel_Brazil_EFCB_ALCO_RS_3
 #define ITEM item_diesel_Brazil_EFCB_ALCO_RS_3
 #define NAME string(str_diesel_Brazil_EFCB_ALCO_RS_3)
 

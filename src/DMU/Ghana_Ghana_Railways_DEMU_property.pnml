@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME dmu_Ghana_Ghana_Railways_DEMU
+#define VEHIDCODE dmu_Ghana_Ghana_Railways_DEMU
 #define ITEM item_dmu_Ghana_Ghana_Railways_DEMU
 #define NAME string(str_dmu_Ghana_Ghana_Railways_DEMU)
 

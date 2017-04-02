@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME emu_USA_PRR_MP54
+#define VEHIDCODE emu_USA_PRR_MP54
 #define ITEM item_emu_USA_PRR_MP54
 #define NAME string(str_emu_USA_PRR_MP54)
 

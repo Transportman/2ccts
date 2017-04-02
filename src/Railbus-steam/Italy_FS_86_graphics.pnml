@@ -37,7 +37,7 @@ switch(FEAT_TRAINS, SELF, switch_rbs_Italy_FS_86_animation, motion_counter % 2){
 * Cargo capacity
 */
 
-ENGINECAPACITYSWITCH
+ENGINECAPACITYSWITCH(VEHIDCODE)
 	
 
 //Add defined switches

@@ -27,7 +27,7 @@ spriteset(spriteset_rbe_France_SNCF_Z_7100, "gfx/Railbus-electric/France_SNCF_Z_
 * Cargo capacity
 */
 
-ENGINECAPACITYSWITCH
+ENGINECAPACITYSWITCH(VEHIDCODE)
 
 //Add defined switches
 

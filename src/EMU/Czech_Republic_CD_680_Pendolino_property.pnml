@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME emu_Czech_Republic_CD_680_Pendolino
+#define VEHIDCODE emu_Czech_Republic_CD_680_Pendolino
 #define ITEM item_emu_Czech_Republic_CD_680_Pendolino
 #define NAME string(str_emu_Czech_Republic_CD_680_Pendolino)
 

@@ -7,7 +7,7 @@
 */
 
 //this file is used to undefine vehicle property defines to silence warnings and should be included in every property file
-#undef ITEMNAME 
+#undef VEHIDCODE 
 #undef ITEM 
 #undef NAME 
 #undef VEHICLE_REGION 

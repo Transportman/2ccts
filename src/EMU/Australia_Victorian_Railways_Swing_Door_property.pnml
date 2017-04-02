@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME emu_Australia_Victorian_Railways_Swing_Door
+#define VEHIDCODE emu_Australia_Victorian_Railways_Swing_Door
 #define ITEM item_emu_Australia_Victorian_Railways_Swing_Door
 #define NAME string(str_emu_Australia_Victorian_Railways_Swing_Door)
 

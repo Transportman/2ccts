@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME steam_France_SNCF_140C
+#define VEHIDCODE steam_France_SNCF_140C
 #define ITEM item_steam_France_SNCF_140C
 #define NAME string(str_steam_France_SNCF_140C)
 

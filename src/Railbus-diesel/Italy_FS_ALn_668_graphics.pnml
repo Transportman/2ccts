@@ -27,7 +27,7 @@ spriteset(spriteset_rbd_Italy_FS_ALn_668, "gfx/Railbus-diesel/Italy_FS_ALn_668.p
 * Cargo capacity
 */
 
-ENGINECAPACITYSWITCH
+ENGINECAPACITYSWITCH(VEHIDCODE)
 
 //Add defined switches
 

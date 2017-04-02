@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME diesel_Belarus_BCh_2TE10M
+#define VEHIDCODE diesel_Belarus_BCh_2TE10M
 #define ITEM item_diesel_Belarus_BCh_2TE10M
 #define NAME string(str_diesel_Belarus_BCh_2TE10M)
 

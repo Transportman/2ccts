@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME rbe_Germany_DB_ET_85
+#define VEHIDCODE rbe_Germany_DB_ET_85
 #define ITEM item_rbe_Germany_DB_ET_85
 #define NAME string(str_rbe_Germany_DB_ET_85)
 

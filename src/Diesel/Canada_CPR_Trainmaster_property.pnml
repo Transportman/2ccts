@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME diesel_Canada_CPR_Trainmaster
+#define VEHIDCODE diesel_Canada_CPR_Trainmaster
 #define ITEM item_diesel_Canada_CPR_Trainmaster
 #define NAME string(str_diesel_Canada_CPR_Trainmaster)
 

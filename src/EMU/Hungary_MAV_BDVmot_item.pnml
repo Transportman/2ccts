@@ -42,7 +42,7 @@ item(FEAT_TRAINS, ITEM ) {
 	}
 	graphics {
 		purchase: spriteset_emu_Hungary_MAV_BDVmot_purchase;
-		ENGINECAPACITYSWITCHCALL
+		ENGINECAPACITYSWITCHCALL(VEHIDCODE)
 		visual_effect_and_powered: switch_emu_Hungary_MAV_BDVmot_visual_effect_and_powered;
 		can_attach_wagon: switch_can_attach_vehicle;
 		//Add calls to defined switches below
@@ -54,7 +54,7 @@ item(FEAT_TRAINS, ITEM ) {
 		LOADINGSPEEDPROPERTY
 		RUNNINGCOSTMUWAGONUNPOWEREDSWITCHCALL
 		weight: WEIGHTMUWAGONUNPOWERED
-		WAGONCAPACITYSWITCHCALL
+		WAGONCAPACITYSWITCHCALL(VEHIDCODE)
 		length: WAGON_LENGTH;
 		default: switch_emu_Hungary_MAV_BDVmot_cargo_selection;
 	}
@@ -63,7 +63,7 @@ item(FEAT_TRAINS, ITEM ) {
 		RUNNINGCOSTMUWAGONPOWEREDSWITCHCALL
 		power: POWERMUWAGONPOWERED
 		weight: WEIGHTMUWAGONPOWERED
-		WAGONCAPACITYSWITCHCALL
+		WAGONCAPACITYSWITCHCALL(VEHIDCODE)
 		tractive_effort_coefficient: TEMUWAGONPOWERED
 		length: WAGON_LENGTH;
 		default: switch_emu_Hungary_MAV_BDVmot_cargo_selection;

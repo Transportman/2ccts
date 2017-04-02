@@ -55,9 +55,9 @@ switch(FEAT_TRAINS, SELF, switch_dmu_Canada_UP_Express_Nippon_Sharyo_DMU_visual_
 * Cargo capacity
 */
 
-ENGINECAPACITYSWITCH
+ENGINECAPACITYSWITCH(VEHIDCODE)
 
-WAGONCAPACITYSWITCH
+WAGONCAPACITYSWITCH(VEHIDCODE)
 
 //Graphics for the unit wagon based on cargo class
 switch(FEAT_TRAINS, SELF, switch_dmu_Canada_UP_Express_Nippon_Sharyo_DMU_cargo_selection, cargo_classes){

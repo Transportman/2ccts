@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME diesel_Chile_EFE_GE_U5B
+#define VEHIDCODE diesel_Chile_EFE_GE_U5B
 #define ITEM item_diesel_Chile_EFE_GE_U5B
 #define NAME string(str_diesel_Chile_EFE_GE_U5B)
 

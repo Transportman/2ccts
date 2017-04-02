@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME rbs_Switzerland_UeBB_Czm_1_2
+#define VEHIDCODE rbs_Switzerland_UeBB_Czm_1_2
 #define ITEM item_rbs_Switzerland_UeBB_Czm_1_2
 #define NAME string(str_rbs_Switzerland_UeBB_Czm_1_2)
 

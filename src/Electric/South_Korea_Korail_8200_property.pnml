@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME electric_South_Korea_Korail_8200
+#define VEHIDCODE electric_South_Korea_Korail_8200
 #define ITEM item_electric_South_Korea_Korail_8200
 #define NAME string(str_electric_South_Korea_Korail_8200)
 

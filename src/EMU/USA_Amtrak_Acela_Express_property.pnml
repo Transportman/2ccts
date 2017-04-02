@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME emu_USA_Amtrak_Acela_Express
+#define VEHIDCODE emu_USA_Amtrak_Acela_Express
 #define ITEM item_emu_USA_Amtrak_Acela_Express
 #define NAME string(str_emu_USA_Amtrak_Acela_Express)
 

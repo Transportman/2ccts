@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME dmu_Slovakia_ZSSK_861
+#define VEHIDCODE dmu_Slovakia_ZSSK_861
 #define ITEM item_dmu_Slovakia_ZSSK_861
 #define NAME string(str_dmu_Slovakia_ZSSK_861)
 

@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME electric_USA_Amtrak_HHP_8
+#define VEHIDCODE electric_USA_Amtrak_HHP_8
 #define ITEM item_electric_USA_Amtrak_HHP_8
 #define NAME string(str_electric_USA_Amtrak_HHP_8)
 

@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME electric_Chile_EFE_E_269
+#define VEHIDCODE electric_Chile_EFE_E_269
 #define ITEM item_electric_Chile_EFE_E_269
 #define NAME string(str_electric_Chile_EFE_E_269)
 

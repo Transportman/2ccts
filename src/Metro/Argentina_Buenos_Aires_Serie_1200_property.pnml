@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME mtro_Argentina_Buenos_Aires_Serie_1200
+#define VEHIDCODE mtro_Argentina_Buenos_Aires_Serie_1200
 #define ITEM item_mtro_Argentina_Buenos_Aires_Serie_1200
 #define NAME string(str_mtro_Argentina_Buenos_Aires_Serie_1200)
 
@@ -32,7 +32,7 @@
 #define WAGON_LENGTH 7
 
 #define HEAD_CAPACITY 162
-#define WAGON_CAPACITY 
+#define WAGON_CAPACITY 162
 
 
 #define DUAL_HEADED 1

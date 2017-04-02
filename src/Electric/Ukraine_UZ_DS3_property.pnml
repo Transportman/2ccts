@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME electric_Ukraine_UZ_DS3
+#define VEHIDCODE electric_Ukraine_UZ_DS3
 #define ITEM item_electric_Ukraine_UZ_DS3
 #define NAME string(str_electric_Ukraine_UZ_DS3)
 

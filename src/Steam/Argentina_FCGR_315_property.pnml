@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME steam_Argentina_FCGR_315
+#define VEHIDCODE steam_Argentina_FCGR_315
 #define ITEM item_steam_Argentina_FCGR_315
 #define NAME string(str_steam_Argentina_FCGR_315)
 

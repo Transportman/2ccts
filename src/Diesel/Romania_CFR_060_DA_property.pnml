@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME diesel_Romania_CFR_060_DA
+#define VEHIDCODE diesel_Romania_CFR_060_DA
 #define ITEM item_diesel_Romania_CFR_060_DA
 #define NAME string(str_diesel_Romania_CFR_060_DA)
 

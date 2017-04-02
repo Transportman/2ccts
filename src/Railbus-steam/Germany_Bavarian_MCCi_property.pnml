@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME rbs_Germany_Bavarian_MCCi
+#define VEHIDCODE rbs_Germany_Bavarian_MCCi
 #define ITEM item_rbs_Germany_Bavarian_MCCi
 #define NAME string(str_rbs_Germany_Bavarian_MCCi)
 

@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME emu_Croatia_HZ_6112
+#define VEHIDCODE emu_Croatia_HZ_6112
 #define ITEM item_emu_Croatia_HZ_6112
 #define NAME string(str_emu_Croatia_HZ_6112)
 

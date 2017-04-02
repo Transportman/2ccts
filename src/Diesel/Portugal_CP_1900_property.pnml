@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME diesel_Portugal_CP_1900
+#define VEHIDCODE diesel_Portugal_CP_1900
 #define ITEM item_diesel_Portugal_CP_1900
 #define NAME string(str_diesel_Portugal_CP_1900)
 

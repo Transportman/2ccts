@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME diesel_Australia_Pacific_National_XR_XRB
+#define VEHIDCODE diesel_Australia_Pacific_National_XR_XRB
 #define ITEM item_diesel_Australia_Pacific_National_XR_XRB
 #define NAME string(str_diesel_Australia_Pacific_National_XR_XRB)
 

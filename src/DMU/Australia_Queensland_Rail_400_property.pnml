@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME dmu_Australia_Queensland_Rail_400
+#define VEHIDCODE dmu_Australia_Queensland_Rail_400
 #define ITEM item_dmu_Australia_Queensland_Rail_400
 #define NAME string(str_dmu_Australia_Queensland_Rail_400)
 

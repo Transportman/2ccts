@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME diesel_Egypt_ENR_G22W
+#define VEHIDCODE diesel_Egypt_ENR_G22W
 #define ITEM item_diesel_Egypt_ENR_G22W
 #define NAME string(str_diesel_Egypt_ENR_G22W)
 

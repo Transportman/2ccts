@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME electric_France_SNCF_BB_22200
+#define VEHIDCODE electric_France_SNCF_BB_22200
 #define ITEM item_electric_France_SNCF_BB_22200
 #define NAME string(str_electric_France_SNCF_BB_22200)
 

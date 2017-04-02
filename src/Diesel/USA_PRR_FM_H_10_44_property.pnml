@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME diesel_USA_PRR_FM_H_10_44
+#define VEHIDCODE diesel_USA_PRR_FM_H_10_44
 #define ITEM item_diesel_USA_PRR_FM_H_10_44
 #define NAME string(str_diesel_USA_PRR_FM_H_10_44)
 

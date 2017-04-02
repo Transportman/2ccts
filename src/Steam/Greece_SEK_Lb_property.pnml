@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME steam_Greece_SEK_Lb
+#define VEHIDCODE steam_Greece_SEK_Lb
 #define ITEM item_steam_Greece_SEK_Lb
 #define NAME string(str_steam_Greece_SEK_Lb)
 

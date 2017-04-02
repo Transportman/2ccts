@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME emu_China_Railways_CHR380A
+#define VEHIDCODE emu_China_Railways_CHR380A
 #define ITEM item_emu_China_Railways_CHR380A
 #define NAME string(str_emu_China_Railways_CHR380A)
 

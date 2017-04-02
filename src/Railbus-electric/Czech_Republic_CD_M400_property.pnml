@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME rbe_Czech_Republic_CD_M400
+#define VEHIDCODE rbe_Czech_Republic_CD_M400
 #define ITEM item_rbe_Czech_Republic_CD_M400
 #define NAME string(str_rbe_Czech_Republic_CD_M400)
 

@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME rbd_New_Zealand_NZR_RM31
+#define VEHIDCODE rbd_New_Zealand_NZR_RM31
 #define ITEM item_rbd_New_Zealand_NZR_RM31
 #define NAME string(str_rbd_New_Zealand_NZR_RM31)
 

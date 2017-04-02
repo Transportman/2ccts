@@ -27,7 +27,7 @@ spriteset(spriteset_rbd_Japan_JR_KiHa_E120, "gfx/Railbus-diesel/Japan_JR_KiHa_E1
 * Cargo capacity
 */
 
-ENGINECAPACITYSWITCH
+ENGINECAPACITYSWITCH(VEHIDCODE)
 
 //Add defined switches
 

@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME steam_USA_4_6_0_Ten_wheeler
+#define VEHIDCODE steam_USA_4_6_0_Ten_wheeler
 #define ITEM item_steam_USA_4_6_0_Ten_wheeler
 #define NAME string(str_steam_USA_4_6_0_Ten_wheeler)
 

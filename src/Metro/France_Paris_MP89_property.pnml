@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME mtro_France_Paris_MP89
+#define VEHIDCODE mtro_France_Paris_MP89
 #define ITEM item_mtro_France_Paris_MP89
 #define NAME string(str_mtro_France_Paris_MP89)
 
@@ -32,7 +32,7 @@
 #define WAGON_LENGTH 7
 
 #define HEAD_CAPACITY 120
-#define WAGON_CAPACITY 
+#define WAGON_CAPACITY 120
 
 
 #define DUAL_HEADED 1

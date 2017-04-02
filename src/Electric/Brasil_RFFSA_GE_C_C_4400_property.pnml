@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME electric_Brasil_RFFSA_GE_C_C_4400
+#define VEHIDCODE electric_Brasil_RFFSA_GE_C_C_4400
 #define ITEM item_electric_Brasil_RFFSA_GE_C_C_4400
 #define NAME string(str_electric_Brasil_RFFSA_GE_C_C_4400)
 

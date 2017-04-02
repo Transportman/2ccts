@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME electric_Australia_NSWGR_71
+#define VEHIDCODE electric_Australia_NSWGR_71
 #define ITEM item_electric_Australia_NSWGR_71
 #define NAME string(str_electric_Australia_NSWGR_71)
 

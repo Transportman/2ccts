@@ -27,7 +27,7 @@ spriteset(spriteset_rbd_Lithuania_Lithuanian_Railways_AR2, "gfx/Railbus-diesel/L
 * Cargo capacity
 */
 
-ENGINECAPACITYSWITCH
+ENGINECAPACITYSWITCH(VEHIDCODE)
 
 //Add defined switches
 

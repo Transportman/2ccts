@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME emu_Netherlands_NS_Plan_Y
+#define VEHIDCODE emu_Netherlands_NS_Plan_Y
 #define ITEM item_emu_Netherlands_NS_Plan_Y
 #define NAME string(str_emu_Netherlands_NS_Plan_Y)
 

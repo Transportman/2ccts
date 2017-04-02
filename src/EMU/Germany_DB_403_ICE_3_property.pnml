@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME emu_Germany_DB_403_ICE_3
+#define VEHIDCODE emu_Germany_DB_403_ICE_3
 #define ITEM item_emu_Germany_DB_403_ICE_3
 #define NAME string(str_emu_Germany_DB_403_ICE_3)
 

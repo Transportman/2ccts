@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME steam_South_Africa_PPR_35_tonner_4_6_0T
+#define VEHIDCODE steam_South_Africa_PPR_35_tonner_4_6_0T
 #define ITEM item_steam_South_Africa_PPR_35_tonner_4_6_0T
 #define NAME string(str_steam_South_Africa_PPR_35_tonner_4_6_0T)
 

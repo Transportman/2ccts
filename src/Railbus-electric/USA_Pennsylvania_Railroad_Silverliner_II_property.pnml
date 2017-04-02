@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME rbe_USA_Pennsylvania_Railroad_Silverliner_II
+#define VEHIDCODE rbe_USA_Pennsylvania_Railroad_Silverliner_II
 #define ITEM item_rbe_USA_Pennsylvania_Railroad_Silverliner_II
 #define NAME string(str_rbe_USA_Pennsylvania_Railroad_Silverliner_II)
 

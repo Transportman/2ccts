@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME electric_Italy_FS_E428
+#define VEHIDCODE electric_Italy_FS_E428
 #define ITEM item_electric_Italy_FS_E428
 #define NAME string(str_electric_Italy_FS_E428)
 

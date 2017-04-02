@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME wagon_Service_Car_Type2
+#define VEHIDCODE wagon_Service_Car_Type2
 #define ITEM item_wagon_Service_Car_Type2
 #define NAME string(str_wagon_Service_Car_Type2)
 

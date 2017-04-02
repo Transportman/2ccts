@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME electric_New_Zealand_TranzRail_EF
+#define VEHIDCODE electric_New_Zealand_TranzRail_EF
 #define ITEM item_electric_New_Zealand_TranzRail_EF
 #define NAME string(str_electric_New_Zealand_TranzRail_EF)
 

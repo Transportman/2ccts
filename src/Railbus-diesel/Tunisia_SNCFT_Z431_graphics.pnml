@@ -27,7 +27,7 @@ spriteset(spriteset_rbd_Tunisia_SNCFT_Z431, "gfx/Railbus-diesel/Tunisia_SNCFT_Z4
 * Cargo capacity
 */
 
-ENGINECAPACITYSWITCH
+ENGINECAPACITYSWITCH(VEHIDCODE)
 
 //Add defined switches
 

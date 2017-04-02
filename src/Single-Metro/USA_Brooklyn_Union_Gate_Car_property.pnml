@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME singlemtro_USA_Brooklyn_Union_Gate_Car
+#define VEHIDCODE singlemtro_USA_Brooklyn_Union_Gate_Car
 #define ITEM item_singlemtro_USA_Brooklyn_Union_Gate_Car
 #define NAME string(str_singlemtro_USA_Brooklyn_Union_Gate_Car)
 

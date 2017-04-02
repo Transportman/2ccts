@@ -27,7 +27,7 @@ spriteset(spriteset_rbd_Australia_Victorian_Railways_DERM, "gfx/Railbus-diesel/A
 * Cargo capacity
 */
 
-ENGINECAPACITYSWITCH
+ENGINECAPACITYSWITCH(VEHIDCODE)
 
 //Add defined switches
 

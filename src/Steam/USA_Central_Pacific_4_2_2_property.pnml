@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME steam_USA_Central_Pacific_4_2_2
+#define VEHIDCODE steam_USA_Central_Pacific_4_2_2
 #define ITEM item_steam_USA_Central_Pacific_4_2_2
 #define NAME string(str_steam_USA_Central_Pacific_4_2_2)
 

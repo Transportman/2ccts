@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME diesel_Egypt_ENR_2400_GE_ES40ACi
+#define VEHIDCODE diesel_Egypt_ENR_2400_GE_ES40ACi
 #define ITEM item_diesel_Egypt_ENR_2400_GE_ES40ACi
 #define NAME string(str_diesel_Egypt_ENR_2400_GE_ES40ACi)
 

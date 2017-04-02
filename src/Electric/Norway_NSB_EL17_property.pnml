@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME electric_Norway_NSB_EL17
+#define VEHIDCODE electric_Norway_NSB_EL17
 #define ITEM item_electric_Norway_NSB_EL17
 #define NAME string(str_electric_Norway_NSB_EL17)
 

@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME dmu_Norway_NSB_BM_93_Talent
+#define VEHIDCODE dmu_Norway_NSB_BM_93_Talent
 #define ITEM item_dmu_Norway_NSB_BM_93_Talent
 #define NAME string(str_dmu_Norway_NSB_BM_93_Talent)
 

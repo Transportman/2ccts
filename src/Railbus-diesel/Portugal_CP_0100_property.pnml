@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME rbd_Portugal_CP_0100
+#define VEHIDCODE rbd_Portugal_CP_0100
 #define ITEM item_rbd_Portugal_CP_0100
 #define NAME string(str_rbd_Portugal_CP_0100)
 

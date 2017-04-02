@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME rbd_UK_WC_PR_Drewry_Railcar
+#define VEHIDCODE rbd_UK_WC_PR_Drewry_Railcar
 #define ITEM item_rbd_UK_WC_PR_Drewry_Railcar
 #define NAME string(str_rbd_UK_WC_PR_Drewry_Railcar)
 

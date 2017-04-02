@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME dmu_UK_BR_150_0_Sprinter
+#define VEHIDCODE dmu_UK_BR_150_0_Sprinter
 #define ITEM item_dmu_UK_BR_150_0_Sprinter
 #define NAME string(str_dmu_UK_BR_150_0_Sprinter)
 

@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME diesel_Indonesia_Indonesia_Railways_CC300
+#define VEHIDCODE diesel_Indonesia_Indonesia_Railways_CC300
 #define ITEM item_diesel_Indonesia_Indonesia_Railways_CC300
 #define NAME string(str_diesel_Indonesia_Indonesia_Railways_CC300)
 

@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME emu_Netherlands_NS_DD_IRM_VIRM
+#define VEHIDCODE emu_Netherlands_NS_DD_IRM_VIRM
 #define ITEM item_emu_Netherlands_NS_DD_IRM_VIRM
 #define NAME string(str_emu_Netherlands_NS_DD_IRM_VIRM)
 

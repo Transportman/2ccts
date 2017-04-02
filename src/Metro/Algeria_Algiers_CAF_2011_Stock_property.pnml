@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME mtro_Algeria_Algiers_CAF_2011_Stock
+#define VEHIDCODE mtro_Algeria_Algiers_CAF_2011_Stock
 #define ITEM item_mtro_Algeria_Algiers_CAF_2011_Stock
 #define NAME string(str_mtro_Algeria_Algiers_CAF_2011_Stock)
 
@@ -32,7 +32,7 @@
 #define WAGON_LENGTH 7
 
 #define HEAD_CAPACITY 215
-#define WAGON_CAPACITY null
+#define WAGON_CAPACITY 215
 
 
 #define DUAL_HEADED 1

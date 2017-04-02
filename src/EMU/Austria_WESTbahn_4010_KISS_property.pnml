@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME emu_Austria_WESTbahn_4010_KISS
+#define VEHIDCODE emu_Austria_WESTbahn_4010_KISS
 #define ITEM item_emu_Austria_WESTbahn_4010_KISS
 #define NAME string(str_emu_Austria_WESTbahn_4010_KISS)
 

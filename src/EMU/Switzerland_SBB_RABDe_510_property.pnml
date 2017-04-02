@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME emu_Switzerland_SBB_RABDe_510
+#define VEHIDCODE emu_Switzerland_SBB_RABDe_510
 #define ITEM item_emu_Switzerland_SBB_RABDe_510
 #define NAME string(str_emu_Switzerland_SBB_RABDe_510)
 

@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME rbd_Australia_NSWGR_Class_400
+#define VEHIDCODE rbd_Australia_NSWGR_Class_400
 #define ITEM item_rbd_Australia_NSWGR_Class_400
 #define NAME string(str_rbd_Australia_NSWGR_Class_400)
 

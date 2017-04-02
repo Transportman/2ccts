@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME rbe_Sweden_SJ_X16
+#define VEHIDCODE rbe_Sweden_SJ_X16
 #define ITEM item_rbe_Sweden_SJ_X16
 #define NAME string(str_rbe_Sweden_SJ_X16)
 

@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME steam_Chile_FCAB_4_8_2
+#define VEHIDCODE steam_Chile_FCAB_4_8_2
 #define ITEM item_steam_Chile_FCAB_4_8_2
 #define NAME string(str_steam_Chile_FCAB_4_8_2)
 

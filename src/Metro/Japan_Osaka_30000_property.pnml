@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME mtro_Japan_Osaka_30000
+#define VEHIDCODE mtro_Japan_Osaka_30000
 #define ITEM item_mtro_Japan_Osaka_30000
 #define NAME string(str_mtro_Japan_Osaka_30000)
 
@@ -32,7 +32,7 @@
 #define WAGON_LENGTH 8
 
 #define HEAD_CAPACITY 140
-#define WAGON_CAPACITY 
+#define WAGON_CAPACITY 140
 
 
 #define DUAL_HEADED 1

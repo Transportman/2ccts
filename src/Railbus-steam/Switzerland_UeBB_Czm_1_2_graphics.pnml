@@ -37,7 +37,7 @@ switch(FEAT_TRAINS, SELF, switch_rbs_Switzerland_UeBB_Czm_1_2_animation, motion_
 * Cargo capacity
 */
 
-ENGINECAPACITYSWITCH
+ENGINECAPACITYSWITCH(VEHIDCODE)
 
 //Add defined switches
 

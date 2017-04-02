@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME rbe_France_SNCF_Z_7100
+#define VEHIDCODE rbe_France_SNCF_Z_7100
 #define ITEM item_rbe_France_SNCF_Z_7100
 #define NAME string(str_rbe_France_SNCF_Z_7100)
 

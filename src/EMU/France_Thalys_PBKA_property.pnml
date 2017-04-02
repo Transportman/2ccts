@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME emu_France_Thalys_PBKA
+#define VEHIDCODE emu_France_Thalys_PBKA
 #define ITEM item_emu_France_Thalys_PBKA
 #define NAME string(str_emu_France_Thalys_PBKA)
 

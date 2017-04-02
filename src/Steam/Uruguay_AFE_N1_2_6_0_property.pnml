@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME steam_Uruguay_AFE_N1_2_6_0
+#define VEHIDCODE steam_Uruguay_AFE_N1_2_6_0
 #define ITEM item_steam_Uruguay_AFE_N1_2_6_0
 #define NAME string(str_steam_Uruguay_AFE_N1_2_6_0)
 

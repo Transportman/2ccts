@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME diesel_India_Indian_Railways_WDM_2
+#define VEHIDCODE diesel_India_Indian_Railways_WDM_2
 #define ITEM item_diesel_India_Indian_Railways_WDM_2
 #define NAME string(str_diesel_India_Indian_Railways_WDM_2)
 

@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME diesel_USA_NYC_Baldwin_VO_660
+#define VEHIDCODE diesel_USA_NYC_Baldwin_VO_660
 #define ITEM item_diesel_USA_NYC_Baldwin_VO_660
 #define NAME string(str_diesel_USA_NYC_Baldwin_VO_660)
 

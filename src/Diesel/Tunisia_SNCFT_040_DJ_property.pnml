@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME diesel_Tunisia_SNCFT_040_DJ
+#define VEHIDCODE diesel_Tunisia_SNCFT_040_DJ
 #define ITEM item_diesel_Tunisia_SNCFT_040_DJ
 #define NAME string(str_diesel_Tunisia_SNCFT_040_DJ)
 

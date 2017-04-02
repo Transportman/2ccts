@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME electric_Japan_Aichi_Railroad_DeKi_400
+#define VEHIDCODE electric_Japan_Aichi_Railroad_DeKi_400
 #define ITEM item_electric_Japan_Aichi_Railroad_DeKi_400
 #define NAME string(str_electric_Japan_Aichi_Railroad_DeKi_400)
 

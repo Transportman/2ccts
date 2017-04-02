@@ -27,9 +27,11 @@ spriteset(spriteset_rbe_Germany_Buckower_Kleinbahn_Nr_1_3, "gfx/Railbus-electric
 * Cargo capacity
 */
 
-switch(FEAT_TRAINS, SELF, switch_rbe_Germany_Buckower_Kleinbahn_Nr_1_3_capacity, cargo_classes) {
-	bitmask(CC_MAIL): 25;
-	bitmask(CC_ARMOURED): 13;
-	50;
-}
+ENGINECAPACITYSWITCH(VEHIDCODE)
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH
 	

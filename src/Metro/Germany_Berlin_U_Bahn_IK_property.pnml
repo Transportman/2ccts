@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME mtro_Germany_Berlin_U_Bahn_IK
+#define VEHIDCODE mtro_Germany_Berlin_U_Bahn_IK
 #define ITEM item_mtro_Germany_Berlin_U_Bahn_IK
 #define NAME string(str_mtro_Germany_Berlin_U_Bahn_IK)
 
@@ -32,7 +32,7 @@
 #define WAGON_LENGTH 8
 
 #define HEAD_CAPACITY 145
-#define WAGON_CAPACITY null
+#define WAGON_CAPACITY 145
 
 
 #define DUAL_HEADED 1

@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME steam_USA_2_8_0_Consolidation
+#define VEHIDCODE steam_USA_2_8_0_Consolidation
 #define ITEM item_steam_USA_2_8_0_Consolidation
 #define NAME string(str_steam_USA_2_8_0_Consolidation)
 

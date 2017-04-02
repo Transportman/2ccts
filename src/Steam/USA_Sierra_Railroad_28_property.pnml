@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME steam_USA_Sierra_Railroad_28
+#define VEHIDCODE steam_USA_Sierra_Railroad_28
 #define ITEM item_steam_USA_Sierra_Railroad_28
 #define NAME string(str_steam_USA_Sierra_Railroad_28)
 

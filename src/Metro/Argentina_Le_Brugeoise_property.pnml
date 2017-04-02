@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME mtro_Argentina_Le_Brugeoise
+#define VEHIDCODE mtro_Argentina_Le_Brugeoise
 #define ITEM item_mtro_Argentina_Le_Brugeoise
 #define NAME string(str_mtro_Argentina_Le_Brugeoise)
 
@@ -32,7 +32,7 @@
 #define WAGON_LENGTH 7
 
 #define HEAD_CAPACITY 142
-#define WAGON_CAPACITY 
+#define WAGON_CAPACITY 142
 
 
 #define DUAL_HEADED 1

@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME rbm_World_Turbobus
+#define VEHIDCODE rbm_World_Turbobus
 #define ITEM item_rbm_World_Turbobus
 #define NAME string(str_rbm_World_Turbobus)
 

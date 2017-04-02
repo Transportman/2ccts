@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME diesel_Poland_PKP_SP32
+#define VEHIDCODE diesel_Poland_PKP_SP32
 #define ITEM item_diesel_Poland_PKP_SP32
 #define NAME string(str_diesel_Poland_PKP_SP32)
 

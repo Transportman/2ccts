@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME dmu_Sri_Lanka_Sri_Lanka_Railways_S11
+#define VEHIDCODE dmu_Sri_Lanka_Sri_Lanka_Railways_S11
 #define ITEM item_dmu_Sri_Lanka_Sri_Lanka_Railways_S11
 #define NAME string(str_dmu_Sri_Lanka_Sri_Lanka_Railways_S11)
 

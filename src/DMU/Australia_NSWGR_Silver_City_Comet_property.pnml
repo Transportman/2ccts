@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME dmu_Australia_NSWGR_Silver_City_Comet
+#define VEHIDCODE dmu_Australia_NSWGR_Silver_City_Comet
 #define ITEM item_dmu_Australia_NSWGR_Silver_City_Comet
 #define NAME string(str_dmu_Australia_NSWGR_Silver_City_Comet)
 

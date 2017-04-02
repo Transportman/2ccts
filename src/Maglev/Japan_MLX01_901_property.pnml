@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME mglv_Japan_MLX01_901
+#define VEHIDCODE mglv_Japan_MLX01_901
 #define ITEM item_mglv_Japan_MLX01_901
 #define NAME string(str_mglv_Japan_MLX01_901)
 

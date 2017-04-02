@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME electric_Sweden_MTAB_IORE
+#define VEHIDCODE electric_Sweden_MTAB_IORE
 #define ITEM item_electric_Sweden_MTAB_IORE
 #define NAME string(str_electric_Sweden_MTAB_IORE)
 

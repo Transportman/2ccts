@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME electric_New_Zealand_NZR_EA
+#define VEHIDCODE electric_New_Zealand_NZR_EA
 #define ITEM item_electric_New_Zealand_NZR_EA
 #define NAME string(str_electric_New_Zealand_NZR_EA)
 

@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME steam_Switzerland_RhB_G_3_4
+#define VEHIDCODE steam_Switzerland_RhB_G_3_4
 #define ITEM item_steam_Switzerland_RhB_G_3_4
 #define NAME string(str_steam_Switzerland_RhB_G_3_4)
 

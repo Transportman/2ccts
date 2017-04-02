@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME dmu_Denmark_Arriva_Lint_41
+#define VEHIDCODE dmu_Denmark_Arriva_Lint_41
 #define ITEM item_dmu_Denmark_Arriva_Lint_41
 #define NAME string(str_dmu_Denmark_Arriva_Lint_41)
 

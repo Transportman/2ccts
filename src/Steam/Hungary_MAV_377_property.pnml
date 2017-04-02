@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME steam_Hungary_MAV_377
+#define VEHIDCODE steam_Hungary_MAV_377
 #define ITEM item_steam_Hungary_MAV_377
 #define NAME string(str_steam_Hungary_MAV_377)
 

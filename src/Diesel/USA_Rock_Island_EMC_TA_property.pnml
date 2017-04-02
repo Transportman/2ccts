@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME diesel_USA_Rock_Island_EMC_TA
+#define VEHIDCODE diesel_USA_Rock_Island_EMC_TA
 #define ITEM item_diesel_USA_Rock_Island_EMC_TA
 #define NAME string(str_diesel_USA_Rock_Island_EMC_TA)
 

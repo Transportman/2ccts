@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME emu_Italy_NTV_AGV
+#define VEHIDCODE emu_Italy_NTV_AGV
 #define ITEM item_emu_Italy_NTV_AGV
 #define NAME string(str_emu_Italy_NTV_AGV)
 

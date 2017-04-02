@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME steam_India_DHR_B
+#define VEHIDCODE steam_India_DHR_B
 #define ITEM item_steam_India_DHR_B
 #define NAME string(str_steam_India_DHR_B)
 

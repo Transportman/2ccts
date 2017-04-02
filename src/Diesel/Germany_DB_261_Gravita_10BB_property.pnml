@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME diesel_Germany_DB_261_Gravita_10BB
+#define VEHIDCODE diesel_Germany_DB_261_Gravita_10BB
 #define ITEM item_diesel_Germany_DB_261_Gravita_10BB
 #define NAME string(str_diesel_Germany_DB_261_Gravita_10BB)
 

@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME electric_Poland_PKP_EP09
+#define VEHIDCODE electric_Poland_PKP_EP09
 #define ITEM item_electric_Poland_PKP_EP09
 #define NAME string(str_electric_Poland_PKP_EP09)
 

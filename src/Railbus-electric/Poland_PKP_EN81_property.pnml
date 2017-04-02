@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME rbe_Poland_PKP_EN81
+#define VEHIDCODE rbe_Poland_PKP_EN81
 #define ITEM item_rbe_Poland_PKP_EN81
 #define NAME string(str_rbe_Poland_PKP_EN81)
 

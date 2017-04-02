@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME steam_UK_LNER_A4_Gresley
+#define VEHIDCODE steam_UK_LNER_A4_Gresley
 #define ITEM item_steam_UK_LNER_A4_Gresley
 #define NAME string(str_steam_UK_LNER_A4_Gresley)
 

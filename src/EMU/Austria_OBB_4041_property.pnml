@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME emu_Austria_OBB_4041
+#define VEHIDCODE emu_Austria_OBB_4041
 #define ITEM item_emu_Austria_OBB_4041
 #define NAME string(str_emu_Austria_OBB_4041)
 

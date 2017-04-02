@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME rbd_Greece_OSE_AA71
+#define VEHIDCODE rbd_Greece_OSE_AA71
 #define ITEM item_rbd_Greece_OSE_AA71
 #define NAME string(str_rbd_Greece_OSE_AA71)
 

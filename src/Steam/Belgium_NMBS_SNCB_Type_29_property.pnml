@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME steam_Belgium_NMBS_SNCB_Type_29
+#define VEHIDCODE steam_Belgium_NMBS_SNCB_Type_29
 #define ITEM item_steam_Belgium_NMBS_SNCB_Type_29
 #define NAME string(str_steam_Belgium_NMBS_SNCB_Type_29)
 

@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME steam_Germany_Prussian_S10
+#define VEHIDCODE steam_Germany_Prussian_S10
 #define ITEM item_steam_Germany_Prussian_S10
 #define NAME string(str_steam_Germany_Prussian_S10)
 

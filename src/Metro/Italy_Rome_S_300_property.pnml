@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME mtro_Italy_Rome_S_300
+#define VEHIDCODE mtro_Italy_Rome_S_300
 #define ITEM item_mtro_Italy_Rome_S_300
 #define NAME string(str_mtro_Italy_Rome_S_300)
 
@@ -32,7 +32,7 @@
 #define WAGON_LENGTH 8
 
 #define HEAD_CAPACITY 194
-#define WAGON_CAPACITY null
+#define WAGON_CAPACITY 194
 
 
 #define DUAL_HEADED 1

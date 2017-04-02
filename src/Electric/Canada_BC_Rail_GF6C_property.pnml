@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME electric_Canada_BC_Rail_GF6C
+#define VEHIDCODE electric_Canada_BC_Rail_GF6C
 #define ITEM item_electric_Canada_BC_Rail_GF6C
 #define NAME string(str_electric_Canada_BC_Rail_GF6C)
 

@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME steam_South_Africa_Harbour_Board_EL_0_4_0
+#define VEHIDCODE steam_South_Africa_Harbour_Board_EL_0_4_0
 #define ITEM item_steam_South_Africa_Harbour_Board_EL_0_4_0
 #define NAME string(str_steam_South_Africa_Harbour_Board_EL_0_4_0)
 

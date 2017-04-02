@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME mtro_Singapore_Singapore_C151A
+#define VEHIDCODE mtro_Singapore_Singapore_C151A
 #define ITEM item_mtro_Singapore_Singapore_C151A
 #define NAME string(str_mtro_Singapore_Singapore_C151A)
 
@@ -32,7 +32,7 @@
 #define WAGON_LENGTH 8
 
 #define HEAD_CAPACITY 250
-#define WAGON_CAPACITY 
+#define WAGON_CAPACITY 250
 
 
 #define DUAL_HEADED 1

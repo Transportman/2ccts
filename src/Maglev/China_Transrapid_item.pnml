@@ -41,7 +41,7 @@ item(FEAT_TRAINS, ITEM ) {
 		bitmask_vehicle_info: BITMASK_VEHICLE_INFO;
 	}
 	graphics {
-		ENGINECAPACITYSWITCHCALL
+		ENGINECAPACITYSWITCHCALL(VEHIDCODE)
 		purchase: spriteset_mglv_China_Transrapid_purchase;
 		can_attach_wagon: switch_can_attach_vehicle;
 		//Add calls to defined switches below
@@ -53,7 +53,7 @@ item(FEAT_TRAINS, ITEM ) {
 		LOADINGSPEEDPROPERTY
 		RUNNINGCOSTMUWAGONUNPOWEREDSWITCHCALL
 		weight: WEIGHTMUWAGONUNPOWERED
-		WAGONCAPACITYSWITCHCALL
+		WAGONCAPACITYSWITCHCALL(VEHIDCODE)
 		length: WAGON_LENGTH;
 		default: switch_mglv_China_Transrapid_cargo_selection;
 	}
@@ -62,7 +62,7 @@ item(FEAT_TRAINS, ITEM ) {
 		RUNNINGCOSTMUWAGONPOWEREDSWITCHCALL
 		power: POWERMUWAGONPOWERED
 		weight: WEIGHTMUWAGONPOWERED
-		WAGONCAPACITYSWITCHCALL
+		WAGONCAPACITYSWITCHCALL(VEHIDCODE)
 		tractive_effort_coefficient: TEMUWAGONPOWERED
 		length: WAGON_LENGTH;
 		default: switch_mglv_China_Transrapid_cargo_selection;

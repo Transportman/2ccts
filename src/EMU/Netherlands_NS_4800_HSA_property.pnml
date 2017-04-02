@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME emu_Netherlands_NS_4800_HSA
+#define VEHIDCODE emu_Netherlands_NS_4800_HSA
 #define ITEM item_emu_Netherlands_NS_4800_HSA
 #define NAME string(str_emu_Netherlands_NS_4800_HSA)
 

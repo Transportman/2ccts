@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME diesel_South_Korea_Korail_6000_EMD_SD18
+#define VEHIDCODE diesel_South_Korea_Korail_6000_EMD_SD18
 #define ITEM item_diesel_South_Korea_Korail_6000_EMD_SD18
 #define NAME string(str_diesel_South_Korea_Korail_6000_EMD_SD18)
 

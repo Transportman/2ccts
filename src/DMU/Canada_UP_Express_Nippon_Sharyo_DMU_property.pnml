@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME dmu_Canada_UP_Express_Nippon_Sharyo_DMU
+#define VEHIDCODE dmu_Canada_UP_Express_Nippon_Sharyo_DMU
 #define ITEM item_dmu_Canada_UP_Express_Nippon_Sharyo_DMU
 #define NAME string(str_dmu_Canada_UP_Express_Nippon_Sharyo_DMU)
 

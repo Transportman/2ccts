@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME emu_South_Africa_SAR_5M2
+#define VEHIDCODE emu_South_Africa_SAR_5M2
 #define ITEM item_emu_South_Africa_SAR_5M2
 #define NAME string(str_emu_South_Africa_SAR_5M2)
 

@@ -56,10 +56,10 @@ switch(FEAT_TRAINS, SELF, switch_rbs_South_Africa_CSAR_Railmotor_length, positio
 * Cargo capacity
 */
 
-ENGINECAPACITYSWITCH
+ENGINECAPACITYSWITCH(VEHIDCODE)
 
 switch(FEAT_TRAINS, SELF, switch_rbs_South_Africa_CSAR_Railmotor_capacity_position, position_in_vehid_chain % 2) {
-	0: ENGINECAPACITYSWITCHNAME;
+	0: ENGINECAPACITYSWITCHNAME(VEHIDCODE);
 	0;
 }
 

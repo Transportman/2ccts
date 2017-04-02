@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME dmu_Canada_VIA_Rail_LRC
+#define VEHIDCODE dmu_Canada_VIA_Rail_LRC
 #define ITEM item_dmu_Canada_VIA_Rail_LRC
 #define NAME string(str_dmu_Canada_VIA_Rail_LRC)
 

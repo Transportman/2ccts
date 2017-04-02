@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME emu_France_SNCF_TGV_Sud_Est
+#define VEHIDCODE emu_France_SNCF_TGV_Sud_Est
 #define ITEM item_emu_France_SNCF_TGV_Sud_Est
 #define NAME string(str_emu_France_SNCF_TGV_Sud_Est)
 

@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME diesel_Italy_ACT_D_200
+#define VEHIDCODE diesel_Italy_ACT_D_200
 #define ITEM item_diesel_Italy_ACT_D_200
 #define NAME string(str_diesel_Italy_ACT_D_200)
 

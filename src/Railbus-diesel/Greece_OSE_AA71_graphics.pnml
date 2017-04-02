@@ -27,7 +27,7 @@ spriteset(spriteset_rbd_Greece_OSE_AA71, "gfx/Railbus-diesel/Greece_OSE_AA71.png
 * Cargo capacity
 */
 
-ENGINECAPACITYSWITCH
+ENGINECAPACITYSWITCH(VEHIDCODE)
 
 //Add defined switches
 

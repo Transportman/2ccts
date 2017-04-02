@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME rbe_Italy_FS_E623
+#define VEHIDCODE rbe_Italy_FS_E623
 #define ITEM item_rbe_Italy_FS_E623
 #define NAME string(str_rbe_Italy_FS_E623)
 

@@ -27,7 +27,7 @@ spriteset(spriteset_rbe_Japan_Choshi_DeHa_1000, "gfx/Railbus-electric/Japan_Chos
 * Cargo capacity
 */
 
-ENGINECAPACITYSWITCH
+ENGINECAPACITYSWITCH(VEHIDCODE)
 
 //Add defined switches
 

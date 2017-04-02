@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME rbe_Slovakia_ZSSK_490
+#define VEHIDCODE rbe_Slovakia_ZSSK_490
 #define ITEM item_rbe_Slovakia_ZSSK_490
 #define NAME string(str_rbe_Slovakia_ZSSK_490)
 

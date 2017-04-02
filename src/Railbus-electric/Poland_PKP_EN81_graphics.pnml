@@ -27,7 +27,7 @@ spriteset(spriteset_rbe_Poland_PKP_EN81, "gfx/Railbus-electric/Poland_PKP_EN81.p
 * Cargo capacity
 */
 
-ENGINECAPACITYSWITCH
+ENGINECAPACITYSWITCH(VEHIDCODE)
 
 //Add defined switches
 

@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME steam_UK_GWR_5700
+#define VEHIDCODE steam_UK_GWR_5700
 #define ITEM item_steam_UK_GWR_5700
 #define NAME string(str_steam_UK_GWR_5700)
 

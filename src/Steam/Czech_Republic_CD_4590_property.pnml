@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME steam_Czech_Republic_CD_4590
+#define VEHIDCODE steam_Czech_Republic_CD_4590
 #define ITEM item_steam_Czech_Republic_CD_4590
 #define NAME string(str_steam_Czech_Republic_CD_4590)
 

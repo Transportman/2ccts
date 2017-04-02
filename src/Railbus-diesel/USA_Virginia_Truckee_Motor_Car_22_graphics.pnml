@@ -27,7 +27,7 @@ spriteset(spriteset_rbd_USA_Virginia_Truckee_Motor_Car_22, "gfx/Railbus-diesel/U
 * Cargo capacity
 */
 
-ENGINECAPACITYSWITCH
+ENGINECAPACITYSWITCH(VEHIDCODE)
 
 //Add defined switches
 

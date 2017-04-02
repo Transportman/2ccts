@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME diesel_Russia_RZD_TEP60
+#define VEHIDCODE diesel_Russia_RZD_TEP60
 #define ITEM item_diesel_Russia_RZD_TEP60
 #define NAME string(str_diesel_Russia_RZD_TEP60)
 

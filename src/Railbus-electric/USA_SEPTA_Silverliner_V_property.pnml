@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME rbe_USA_SEPTA_Silverliner_V
+#define VEHIDCODE rbe_USA_SEPTA_Silverliner_V
 #define ITEM item_rbe_USA_SEPTA_Silverliner_V
 #define NAME string(str_rbe_USA_SEPTA_Silverliner_V)
 

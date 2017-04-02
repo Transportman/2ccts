@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME electric_Netherlands_NS_1000
+#define VEHIDCODE electric_Netherlands_NS_1000
 #define ITEM item_electric_Netherlands_NS_1000
 #define NAME string(str_electric_Netherlands_NS_1000)
 

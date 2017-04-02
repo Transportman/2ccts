@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME steam_Germany_DB_18_201
+#define VEHIDCODE steam_Germany_DB_18_201
 #define ITEM item_steam_Germany_DB_18_201
 #define NAME string(str_steam_Germany_DB_18_201)
 

@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME electric_Slovakia_ZSSK_162
+#define VEHIDCODE electric_Slovakia_ZSSK_162
 #define ITEM item_electric_Slovakia_ZSSK_162
 #define NAME string(str_electric_Slovakia_ZSSK_162)
 

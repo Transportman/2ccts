@@ -27,7 +27,7 @@ spriteset(spriteset_rbd_Portugal_CP_USD_9050, "gfx/Railbus-diesel/Portugal_CP_US
 * Cargo capacity
 */
 
-ENGINECAPACITYSWITCH
+ENGINECAPACITYSWITCH(VEHIDCODE)
 
 //Add defined switches
 

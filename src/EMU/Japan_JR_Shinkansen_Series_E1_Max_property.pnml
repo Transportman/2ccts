@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME emu_Japan_JR_Shinkansen_Series_E1_Max
+#define VEHIDCODE emu_Japan_JR_Shinkansen_Series_E1_Max
 #define ITEM item_emu_Japan_JR_Shinkansen_Series_E1_Max
 #define NAME string(str_emu_Japan_JR_Shinkansen_Series_E1_Max)
 

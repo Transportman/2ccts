@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME emu_Luxembourg_CFL_2200_Coradia_Duplex
+#define VEHIDCODE emu_Luxembourg_CFL_2200_Coradia_Duplex
 #define ITEM item_emu_Luxembourg_CFL_2200_Coradia_Duplex
 #define NAME string(str_emu_Luxembourg_CFL_2200_Coradia_Duplex)
 

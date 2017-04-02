@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME emu_Sweden_SJ_X2000
+#define VEHIDCODE emu_Sweden_SJ_X2000
 #define ITEM item_emu_Sweden_SJ_X2000
 #define NAME string(str_emu_Sweden_SJ_X2000)
 

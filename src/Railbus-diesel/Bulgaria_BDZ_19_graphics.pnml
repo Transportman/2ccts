@@ -27,7 +27,7 @@ spriteset(spriteset_rbd_Bulgaria_BDZ_19, "gfx/Railbus-diesel/Bulgaria_BDZ_19.png
 * Cargo capacity
 */
 
-ENGINECAPACITYSWITCH
+ENGINECAPACITYSWITCH(VEHIDCODE)
 
 //Add defined switches
 

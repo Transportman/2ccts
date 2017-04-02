@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME electric_South_Africa_SAR_ES_Class
+#define VEHIDCODE electric_South_Africa_SAR_ES_Class
 #define ITEM item_electric_South_Africa_SAR_ES_Class
 #define NAME string(str_electric_South_Africa_SAR_ES_Class)
 

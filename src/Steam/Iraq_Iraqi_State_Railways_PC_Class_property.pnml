@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME steam_Iraq_Iraqi_State_Railways_PC_Class
+#define VEHIDCODE steam_Iraq_Iraqi_State_Railways_PC_Class
 #define ITEM item_steam_Iraq_Iraqi_State_Railways_PC_Class
 #define NAME string(str_steam_Iraq_Iraqi_State_Railways_PC_Class)
 

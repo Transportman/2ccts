@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME diesel_Australia_South_Australian_Railways_900
+#define VEHIDCODE diesel_Australia_South_Australian_Railways_900
 #define ITEM item_diesel_Australia_South_Australian_Railways_900
 #define NAME string(str_diesel_Australia_South_Australian_Railways_900)
 

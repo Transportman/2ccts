@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME electric_Czech_Republic_CD_363
+#define VEHIDCODE electric_Czech_Republic_CD_363
 #define ITEM item_electric_Czech_Republic_CD_363
 #define NAME string(str_electric_Czech_Republic_CD_363)
 

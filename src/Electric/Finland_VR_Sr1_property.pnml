@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME electric_Finland_VR_Sr1
+#define VEHIDCODE electric_Finland_VR_Sr1
 #define ITEM item_electric_Finland_VR_Sr1
 #define NAME string(str_electric_Finland_VR_Sr1)
 

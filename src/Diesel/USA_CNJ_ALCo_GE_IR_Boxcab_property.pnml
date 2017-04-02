@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME diesel_USA_CNJ_ALCo_GE_IR_Boxcab
+#define VEHIDCODE diesel_USA_CNJ_ALCo_GE_IR_Boxcab
 #define ITEM item_diesel_USA_CNJ_ALCo_GE_IR_Boxcab
 #define NAME string(str_diesel_USA_CNJ_ALCo_GE_IR_Boxcab)
 

@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME diesel_USA_Metrolink_EMD_F59PH
+#define VEHIDCODE diesel_USA_Metrolink_EMD_F59PH
 #define ITEM item_diesel_USA_Metrolink_EMD_F59PH
 #define NAME string(str_diesel_USA_Metrolink_EMD_F59PH)
 

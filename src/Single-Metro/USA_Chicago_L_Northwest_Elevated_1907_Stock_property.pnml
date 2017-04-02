@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME singlemtro_USA_Chicago_L_Northwest_Elevated_1907_Stock
+#define VEHIDCODE singlemtro_USA_Chicago_L_Northwest_Elevated_1907_Stock
 #define ITEM item_singlemtro_USA_Chicago_L_Northwest_Elevated_1907_Stock
 #define NAME string(str_singlemtro_USA_Chicago_L_Northwest_Elevated_1907_Stock)
 

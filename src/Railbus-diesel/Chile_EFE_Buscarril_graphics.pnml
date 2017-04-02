@@ -23,6 +23,12 @@ spriteset(spriteset_rbd_Chile_EFE_Buscarril, "gfx/Railbus-diesel/Chile_EFE_Busca
 	template_2cc_engines_general(1, 1)
 }
 
+/*
+* Cargo capacity
+*/
+
+ENGINECAPACITYSWITCH(VEHIDCODE)
+
 //Add defined switches
 
 RUNNINGCOSTENGINESWITCH

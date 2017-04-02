@@ -42,7 +42,7 @@ item(FEAT_TRAINS, ITEM ) {
 	}
 	graphics {
 		purchase: spriteset_emu_Italy_FS_ETR300_Settebello_purchase;
-		ENGINECAPACITYSWITCHCALL
+		ENGINECAPACITYSWITCHCALL(VEHIDCODE)
 		can_attach_wagon: switch_can_attach_vehicle;
 		//Add calls to defined switches below
 		RUNNINGCOSTENGINESWITCHCALL
@@ -54,7 +54,7 @@ item(FEAT_TRAINS, ITEM ) {
 		RUNNINGCOSTMUWAGONUNPOWEREDSWITCHCALL
 		weight: WEIGHTMUWAGONUNPOWERED
 		visual_effect_and_powered: switch_emu_Italy_FS_ETR300_Settebello_visual_effect_and_powered_position;
-		WAGONCAPACITYSWITCHCALL
+		WAGONCAPACITYSWITCHCALL(VEHIDCODE)
 		length: WAGON_LENGTH;
 		default: switch_emu_Italy_FS_ETR300_Settebello_cargo_selection;
 	}
@@ -64,7 +64,7 @@ item(FEAT_TRAINS, ITEM ) {
 		power: POWERMUWAGONPOWERED
 		weight: WEIGHTMUWAGONPOWERED
 		visual_effect_and_powered: switch_emu_Italy_FS_ETR300_Settebello_visual_effect_and_powered_position;
-		WAGONCAPACITYSWITCHCALL
+		WAGONCAPACITYSWITCHCALL(VEHIDCODE)
 		tractive_effort_coefficient: TEMUWAGONPOWERED
 		length: WAGON_LENGTH;
 		default: switch_emu_Italy_FS_ETR300_Settebello_cargo_selection;

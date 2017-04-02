@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME steam_Spain_RENFE_Class_040
+#define VEHIDCODE steam_Spain_RENFE_Class_040
 #define ITEM item_steam_Spain_RENFE_Class_040
 #define NAME string(str_steam_Spain_RENFE_Class_040)
 

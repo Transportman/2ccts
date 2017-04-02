@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME diesel_Hungary_MAV_M28
+#define VEHIDCODE diesel_Hungary_MAV_M28
 #define ITEM item_diesel_Hungary_MAV_M28
 #define NAME string(str_diesel_Hungary_MAV_M28)
 

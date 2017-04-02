@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME steam_Norway_NSB_Class_XXI
+#define VEHIDCODE steam_Norway_NSB_Class_XXI
 #define ITEM item_steam_Norway_NSB_Class_XXI
 #define NAME string(str_steam_Norway_NSB_Class_XXI)
 

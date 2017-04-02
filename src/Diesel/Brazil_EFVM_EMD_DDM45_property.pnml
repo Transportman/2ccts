@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME diesel_Brazil_EFVM_EMD_DDM45
+#define VEHIDCODE diesel_Brazil_EFVM_EMD_DDM45
 #define ITEM item_diesel_Brazil_EFVM_EMD_DDM45
 #define NAME string(str_diesel_Brazil_EFVM_EMD_DDM45)
 

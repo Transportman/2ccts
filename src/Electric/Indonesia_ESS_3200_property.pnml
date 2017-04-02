@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME electric_Indonesia_ESS_3200
+#define VEHIDCODE electric_Indonesia_ESS_3200
 #define ITEM item_electric_Indonesia_ESS_3200
 #define NAME string(str_electric_Indonesia_ESS_3200)
 

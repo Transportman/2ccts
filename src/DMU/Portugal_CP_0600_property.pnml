@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME dmu_Portugal_CP_0600
+#define VEHIDCODE dmu_Portugal_CP_0600
 #define ITEM item_dmu_Portugal_CP_0600
 #define NAME string(str_dmu_Portugal_CP_0600)
 

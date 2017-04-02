@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME emu_Germany_DB_ET420
+#define VEHIDCODE emu_Germany_DB_ET420
 #define ITEM item_emu_Germany_DB_ET420
 #define NAME string(str_emu_Germany_DB_ET420)
 

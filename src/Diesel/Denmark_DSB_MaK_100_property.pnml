@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME diesel_Denmark_DSB_MaK_100
+#define VEHIDCODE diesel_Denmark_DSB_MaK_100
 #define ITEM item_diesel_Denmark_DSB_MaK_100
 #define NAME string(str_diesel_Denmark_DSB_MaK_100)
 

@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME emu_Switzerland_SBB_Rae_TEE_II
+#define VEHIDCODE emu_Switzerland_SBB_Rae_TEE_II
 #define ITEM item_emu_Switzerland_SBB_Rae_TEE_II
 #define NAME string(str_emu_Switzerland_SBB_Rae_TEE_II)
 

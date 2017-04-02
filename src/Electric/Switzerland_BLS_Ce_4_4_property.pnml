@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME electric_Switzerland_BLS_Ce_4_4
+#define VEHIDCODE electric_Switzerland_BLS_Ce_4_4
 #define ITEM item_electric_Switzerland_BLS_Ce_4_4
 #define NAME string(str_electric_Switzerland_BLS_Ce_4_4)
 

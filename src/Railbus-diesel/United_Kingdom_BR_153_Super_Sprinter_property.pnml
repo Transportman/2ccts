@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME rbd_United_Kingdom_BR_153_Super_Sprinter
+#define VEHIDCODE rbd_United_Kingdom_BR_153_Super_Sprinter
 #define ITEM item_rbd_United_Kingdom_BR_153_Super_Sprinter
 #define NAME string(str_rbd_United_Kingdom_BR_153_Super_Sprinter)
 

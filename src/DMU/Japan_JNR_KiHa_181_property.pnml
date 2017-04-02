@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME dmu_Japan_JNR_KiHa_181
+#define VEHIDCODE dmu_Japan_JNR_KiHa_181
 #define ITEM item_dmu_Japan_JNR_KiHa_181
 #define NAME string(str_dmu_Japan_JNR_KiHa_181)
 

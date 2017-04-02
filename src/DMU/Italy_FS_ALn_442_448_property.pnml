@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME dmu_Italy_FS_ALn_442_448
+#define VEHIDCODE dmu_Italy_FS_ALn_442_448
 #define ITEM item_dmu_Italy_FS_ALn_442_448
 #define NAME string(str_dmu_Italy_FS_ALn_442_448)
 

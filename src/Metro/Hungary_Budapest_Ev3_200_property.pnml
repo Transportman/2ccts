@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME mtro_Hungary_Budapest_Ev3_200
+#define VEHIDCODE mtro_Hungary_Budapest_Ev3_200
 #define ITEM item_mtro_Hungary_Budapest_Ev3_200
 #define NAME string(str_mtro_Hungary_Budapest_Ev3_200)
 
@@ -32,7 +32,7 @@
 #define WAGON_LENGTH 8
 
 #define HEAD_CAPACITY 150
-#define WAGON_CAPACITY 
+#define WAGON_CAPACITY 150
 
 
 #define DUAL_HEADED 1

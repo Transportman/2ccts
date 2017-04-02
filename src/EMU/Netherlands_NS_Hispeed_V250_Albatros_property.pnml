@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME emu_Netherlands_NS_Hispeed_V250_Albatros
+#define VEHIDCODE emu_Netherlands_NS_Hispeed_V250_Albatros
 #define ITEM item_emu_Netherlands_NS_Hispeed_V250_Albatros
 #define NAME string(str_emu_Netherlands_NS_Hispeed_V250_Albatros)
 

@@ -41,7 +41,7 @@ item(FEAT_TRAINS, ITEM ) {
 		bitmask_vehicle_info: BITMASK_VEHICLE_INFO;
 	}
 	graphics {
-		ENGINECAPACITYSWITCHCALL
+		ENGINECAPACITYSWITCHCALL(VEHIDCODE)
 		purchase: spriteset_rbd_Tunisia_SNCFT_Z431_purchase;
 		can_attach_wagon: switch_can_attach_vehicle;
 		//Add calls to defined switches below

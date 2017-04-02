@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME steam_Switzerland_SBB_C_5_6
+#define VEHIDCODE steam_Switzerland_SBB_C_5_6
 #define ITEM item_steam_Switzerland_SBB_C_5_6
 #define NAME string(str_steam_Switzerland_SBB_C_5_6)
 

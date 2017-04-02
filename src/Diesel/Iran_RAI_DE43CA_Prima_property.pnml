@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME diesel_Iran_RAI_DE43CA_Prima
+#define VEHIDCODE diesel_Iran_RAI_DE43CA_Prima
 #define ITEM item_diesel_Iran_RAI_DE43CA_Prima
 #define NAME string(str_diesel_Iran_RAI_DE43CA_Prima)
 

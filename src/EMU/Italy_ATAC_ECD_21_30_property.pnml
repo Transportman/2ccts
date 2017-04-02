@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME emu_Italy_ATAC_ECD_21_30
+#define VEHIDCODE emu_Italy_ATAC_ECD_21_30
 #define ITEM item_emu_Italy_ATAC_ECD_21_30
 #define NAME string(str_emu_Italy_ATAC_ECD_21_30)
 

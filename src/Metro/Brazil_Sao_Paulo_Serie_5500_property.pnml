@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME mtro_Brazil_Sao_Paulo_Serie_5500
+#define VEHIDCODE mtro_Brazil_Sao_Paulo_Serie_5500
 #define ITEM item_mtro_Brazil_Sao_Paulo_Serie_5500
 #define NAME string(str_mtro_Brazil_Sao_Paulo_Serie_5500)
 
@@ -32,7 +32,7 @@
 #define WAGON_LENGTH 8
 
 #define HEAD_CAPACITY 230
-#define WAGON_CAPACITY 
+#define WAGON_CAPACITY 230
 
 
 #define DUAL_HEADED 1

@@ -117,9 +117,9 @@ switch(FEAT_TRAINS, SELF, switch_emu_France_Thalys_PBKA_visual_effect_and_powere
 * Cargo capacity
 */
 
-ENGINECAPACITYSWITCH
+ENGINECAPACITYSWITCH(VEHIDCODE)
 
-WAGONCAPACITYSWITCH
+WAGONCAPACITYSWITCH(VEHIDCODE)
 
 //Graphics for the unit wagon based on cargo class
 switch(FEAT_TRAINS, SELF, switch_emu_France_Thalys_PBKA_cargo_selection, cargo_classes){

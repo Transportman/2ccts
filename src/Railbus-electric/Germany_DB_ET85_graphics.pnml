@@ -27,7 +27,7 @@ spriteset(spriteset_rbe_Germany_DB_ET85, "gfx/Railbus-electric/Germany_DB_ET85.p
 * Cargo capacity
 */
 
-switch(FEAT_TRAINS, SELF, switch_rbe_Germany_DB_ET85_capacityCAPACITYSWITCH
+switch(FEAT_TRAINS, SELF, switch_rbe_Germany_DB_ET85_capacityCAPACITYSWITCH(VEHIDCODE)
 	
 
 //Add defined switches

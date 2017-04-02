@@ -27,7 +27,7 @@ spriteset(spriteset_rbe_Morocco_ONCFM_ZAB1000, "gfx/Railbus-electric/Morocco_ONC
 * Cargo capacity
 */
 
-ENGINECAPACITYSWITCH
+ENGINECAPACITYSWITCH(VEHIDCODE)
 	
 
 //Add defined switches

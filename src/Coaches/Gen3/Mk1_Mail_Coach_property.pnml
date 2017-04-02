@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME coach_Gen3_Mk1_Mail_Coach
+#define VEHIDCODE coach_Gen3_Mk1_Mail_Coach
 #define ITEM item_coach_Gen3_Mk1_Mail_Coach
 #define NAME string(str_coach_Gen3_Mk1_Mail_Coach)
 

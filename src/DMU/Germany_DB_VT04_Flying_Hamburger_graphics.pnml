@@ -55,7 +55,7 @@ switch(FEAT_TRAINS, SELF, switch_dmu_Germany_DB_VT04_Flying_Hamburger_visual_eff
 * Cargo capacity
 */
 
-switch(FEAT_TRAINS, SELF, switch_dmu_Germany_DB_VT04_Flying_Hamburger_capacityCAPACITYSWITCH
+switch(FEAT_TRAINS, SELF, switch_dmu_Germany_DB_VT04_Flying_Hamburger_capacityCAPACITYSWITCH(VEHIDCODE)
 
 //Graphics for the unit wagon based on cargo class
 switch(FEAT_TRAINS, SELF, switch_dmu_Germany_DB_VT04_Flying_Hamburger_cargo_selection, cargo_classes){

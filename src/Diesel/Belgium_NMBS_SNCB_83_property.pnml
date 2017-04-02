@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME diesel_Belgium_NMBS_SNCB_83
+#define VEHIDCODE diesel_Belgium_NMBS_SNCB_83
 #define ITEM item_diesel_Belgium_NMBS_SNCB_83
 #define NAME string(str_diesel_Belgium_NMBS_SNCB_83)
 

@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME wagon_Gen3_Hopper
+#define VEHIDCODE wagon_Gen3_Hopper
 #define ITEM item_wagon_Gen3_Hopper
 #define NAME string(str_wagon_Gen3_Hopper)
 

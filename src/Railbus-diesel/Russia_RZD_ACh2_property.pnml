@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME rbd_Russia_RZD_ACh2
+#define VEHIDCODE rbd_Russia_RZD_ACh2
 #define ITEM item_rbd_Russia_RZD_ACh2
 #define NAME string(str_rbd_Russia_RZD_ACh2)
 

@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME mtro_Portugal_Lisbon_ML7
+#define VEHIDCODE mtro_Portugal_Lisbon_ML7
 #define ITEM item_mtro_Portugal_Lisbon_ML7
 #define NAME string(str_mtro_Portugal_Lisbon_ML7)
 
@@ -32,7 +32,7 @@
 #define WAGON_LENGTH 8
 
 #define HEAD_CAPACITY 160
-#define WAGON_CAPACITY 
+#define WAGON_CAPACITY 160
 
 
 #define DUAL_HEADED 1

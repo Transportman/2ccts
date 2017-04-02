@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME rbd_Netherlands_NS_20_Kameel
+#define VEHIDCODE rbd_Netherlands_NS_20_Kameel
 #define ITEM item_rbd_Netherlands_NS_20_Kameel
 #define NAME string(str_rbd_Netherlands_NS_20_Kameel)
 

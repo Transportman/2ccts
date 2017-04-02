@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME diesel_Mexico_CHP_500_FM_H_16_44
+#define VEHIDCODE diesel_Mexico_CHP_500_FM_H_16_44
 #define ITEM item_diesel_Mexico_CHP_500_FM_H_16_44
 #define NAME string(str_diesel_Mexico_CHP_500_FM_H_16_44)
 

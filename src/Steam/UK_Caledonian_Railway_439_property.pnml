@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME steam_UK_Caledonian_Railway_439
+#define VEHIDCODE steam_UK_Caledonian_Railway_439
 #define ITEM item_steam_UK_Caledonian_Railway_439
 #define NAME string(str_steam_UK_Caledonian_Railway_439)
 

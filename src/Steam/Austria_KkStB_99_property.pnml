@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME steam_Austria_KkStB_99
+#define VEHIDCODE steam_Austria_KkStB_99
 #define ITEM item_steam_Austria_KkStB_99
 #define NAME string(str_steam_Austria_KkStB_99)
 

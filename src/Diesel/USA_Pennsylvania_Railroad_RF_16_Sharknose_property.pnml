@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME diesel_USA_Pennsylvania_Railroad_RF_16_Sharknose
+#define VEHIDCODE diesel_USA_Pennsylvania_Railroad_RF_16_Sharknose
 #define ITEM item_diesel_USA_Pennsylvania_Railroad_RF_16_Sharknose
 #define NAME string(str_diesel_USA_Pennsylvania_Railroad_RF_16_Sharknose)
 

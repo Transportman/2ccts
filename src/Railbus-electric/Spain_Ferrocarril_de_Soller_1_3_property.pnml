@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME rbe_Spain_Ferrocarril_de_Soller_1_3
+#define VEHIDCODE rbe_Spain_Ferrocarril_de_Soller_1_3
 #define ITEM item_rbe_Spain_Ferrocarril_de_Soller_1_3
 #define NAME string(str_rbe_Spain_Ferrocarril_de_Soller_1_3)
 

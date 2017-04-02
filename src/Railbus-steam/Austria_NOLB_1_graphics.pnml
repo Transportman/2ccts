@@ -27,7 +27,7 @@ spriteset(spriteset_rbs_Austria_NOLB_1, "gfx/Railbus-steam/Austria_NOLB_1.png") 
 * Cargo capacity
 */
 
-ENGINECAPACITYSWITCH
+ENGINECAPACITYSWITCH(VEHIDCODE)
 	
 
 //Add defined switches

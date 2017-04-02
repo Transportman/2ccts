@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME electric_Japan_JNR_EF81
+#define VEHIDCODE electric_Japan_JNR_EF81
 #define ITEM item_electric_Japan_JNR_EF81
 #define NAME string(str_electric_Japan_JNR_EF81)
 

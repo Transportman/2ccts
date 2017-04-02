@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME diesel_USA_UP_EMD_DDA40X
+#define VEHIDCODE diesel_USA_UP_EMD_DDA40X
 #define ITEM item_diesel_USA_UP_EMD_DDA40X
 #define NAME string(str_diesel_USA_UP_EMD_DDA40X)
 

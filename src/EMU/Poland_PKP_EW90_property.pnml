@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME emu_Poland_PKP_EW90
+#define VEHIDCODE emu_Poland_PKP_EW90
 #define ITEM item_emu_Poland_PKP_EW90
 #define NAME string(str_emu_Poland_PKP_EW90)
 

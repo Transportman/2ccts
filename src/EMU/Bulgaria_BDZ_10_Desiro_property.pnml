@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME emu_Bulgaria_BDZ_10_Desiro
+#define VEHIDCODE emu_Bulgaria_BDZ_10_Desiro
 #define ITEM item_emu_Bulgaria_BDZ_10_Desiro
 #define NAME string(str_emu_Bulgaria_BDZ_10_Desiro)
 

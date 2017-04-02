@@ -27,7 +27,7 @@ spriteset(spriteset_rbe_USA_SEPTA_Silverliner_V, "gfx/Railbus-electric/USA_SEPTA
 * Cargo capacity
 */
 
-ENGINECAPACITYSWITCH
+ENGINECAPACITYSWITCH(VEHIDCODE)
 
 //Add defined switches
 

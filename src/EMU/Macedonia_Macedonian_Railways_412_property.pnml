@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME emu_Macedonia_Macedonian_Railways_412
+#define VEHIDCODE emu_Macedonia_Macedonian_Railways_412
 #define ITEM item_emu_Macedonia_Macedonian_Railways_412
 #define NAME string(str_emu_Macedonia_Macedonian_Railways_412)
 

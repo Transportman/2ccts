@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME mtro_Germany_Munchen_MVG_A2
+#define VEHIDCODE mtro_Germany_Munchen_MVG_A2
 #define ITEM item_mtro_Germany_Munchen_MVG_A2
 #define NAME string(str_mtro_Germany_Munchen_MVG_A2)
 
@@ -32,7 +32,7 @@
 #define WAGON_LENGTH 8
 
 #define HEAD_CAPACITY 195
-#define WAGON_CAPACITY 
+#define WAGON_CAPACITY 195
 
 
 #define DUAL_HEADED 1

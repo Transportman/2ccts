@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME diesel_Australia_NSWGR_422
+#define VEHIDCODE diesel_Australia_NSWGR_422
 #define ITEM item_diesel_Australia_NSWGR_422
 #define NAME string(str_diesel_Australia_NSWGR_422)
 

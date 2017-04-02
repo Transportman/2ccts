@@ -27,7 +27,7 @@ spriteset(spriteset_rbe_Italy_FG_ALe_80, "gfx/Railbus-electric/Italy_FG_ALe_80.p
 * Cargo capacity
 */
 
-ENGINECAPACITYSWITCH
+ENGINECAPACITYSWITCH(VEHIDCODE)
 
 //Add defined switches
 

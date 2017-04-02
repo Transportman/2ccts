@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME electric_Morocco_ONCF_E_1400_Prima_II
+#define VEHIDCODE electric_Morocco_ONCF_E_1400_Prima_II
 #define ITEM item_electric_Morocco_ONCF_E_1400_Prima_II
 #define NAME string(str_electric_Morocco_ONCF_E_1400_Prima_II)
 

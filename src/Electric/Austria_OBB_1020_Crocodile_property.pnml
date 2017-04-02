@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME electric_Austria_OBB_1020_Crocodile
+#define VEHIDCODE electric_Austria_OBB_1020_Crocodile
 #define ITEM item_electric_Austria_OBB_1020_Crocodile
 #define NAME string(str_electric_Austria_OBB_1020_Crocodile)
 

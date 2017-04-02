@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME rbd_Japan_JR_KiHa_E120
+#define VEHIDCODE rbd_Japan_JR_KiHa_E120
 #define ITEM item_rbd_Japan_JR_KiHa_E120
 #define NAME string(str_rbd_Japan_JR_KiHa_E120)
 

@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME rbe_Austria_OBB_4855
+#define VEHIDCODE rbe_Austria_OBB_4855
 #define ITEM item_rbe_Austria_OBB_4855
 #define NAME string(str_rbe_Austria_OBB_4855)
 

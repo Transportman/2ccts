@@ -42,6 +42,7 @@ item(FEAT_TRAINS, ITEM ) {
 	}
 	graphics {
 		purchase: spriteset_emu_France_SNCF_TGV_Duplex_purchase;
+		ENGINECAPACITYSWITCHCALL(VEHIDCODE)
 		can_attach_wagon: switch_can_attach_vehicle;
 		//Add calls to defined switches below
 		RUNNINGCOSTENGINESWITCHCALL
@@ -52,7 +53,7 @@ item(FEAT_TRAINS, ITEM ) {
 		LOADINGSPEEDPROPERTY
 		RUNNINGCOSTMUWAGONUNPOWEREDSWITCHCALL
 		weight: WEIGHTMUWAGONUNPOWERED
-		WAGONCAPACITYSWITCHCALL
+		WAGONCAPACITYSWITCHCALL(VEHIDCODE)
 		length: WAGON_LENGTH;
 		default: switch_emu_France_SNCF_TGV_Duplex_cargo_selection;
 	}
@@ -61,7 +62,7 @@ item(FEAT_TRAINS, ITEM ) {
 		RUNNINGCOSTMUWAGONPOWEREDSWITCHCALL
 		power: POWERMUWAGONPOWERED
 		weight: WEIGHTMUWAGONPOWERED
-		WAGONCAPACITYSWITCHCALL
+		WAGONCAPACITYSWITCHCALL(VEHIDCODE)
 		tractive_effort_coefficient: TEMUWAGONPOWERED
 		length: WAGON_LENGTH;
 		default: switch_emu_France_SNCF_TGV_Duplex_cargo_selection;

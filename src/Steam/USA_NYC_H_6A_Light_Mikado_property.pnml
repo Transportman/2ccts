@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME steam_USA_NYC_H_6A_Light_Mikado
+#define VEHIDCODE steam_USA_NYC_H_6A_Light_Mikado
 #define ITEM item_steam_USA_NYC_H_6A_Light_Mikado
 #define NAME string(str_steam_USA_NYC_H_6A_Light_Mikado)
 

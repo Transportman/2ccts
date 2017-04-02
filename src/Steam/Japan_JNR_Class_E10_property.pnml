@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME steam_Japan_JNR_Class_E10
+#define VEHIDCODE steam_Japan_JNR_Class_E10
 #define ITEM item_steam_Japan_JNR_Class_E10
 #define NAME string(str_steam_Japan_JNR_Class_E10)
 

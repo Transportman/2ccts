@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME mtro_Chile_Santiago_AS_2002
+#define VEHIDCODE mtro_Chile_Santiago_AS_2002
 #define ITEM item_mtro_Chile_Santiago_AS_2002
 #define NAME string(str_mtro_Chile_Santiago_AS_2002)
 
@@ -32,7 +32,7 @@
 #define WAGON_LENGTH 8
 
 #define HEAD_CAPACITY 196
-#define WAGON_CAPACITY 
+#define WAGON_CAPACITY 196
 
 
 #define DUAL_HEADED 1

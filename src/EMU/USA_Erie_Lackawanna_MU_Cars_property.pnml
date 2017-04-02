@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME emu_USA_Erie_Lackawanna_MU_Cars
+#define VEHIDCODE emu_USA_Erie_Lackawanna_MU_Cars
 #define ITEM item_emu_USA_Erie_Lackawanna_MU_Cars
 #define NAME string(str_emu_USA_Erie_Lackawanna_MU_Cars)
 

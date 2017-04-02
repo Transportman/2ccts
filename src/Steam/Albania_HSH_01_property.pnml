@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME steam_Albania_HSH_01
+#define VEHIDCODE steam_Albania_HSH_01
 #define ITEM item_steam_Albania_HSH_01
 #define NAME string(str_steam_Albania_HSH_01)
 

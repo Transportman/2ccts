@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME steam_India_Fairy_Queen
+#define VEHIDCODE steam_India_Fairy_Queen
 #define ITEM item_steam_India_Fairy_Queen
 #define NAME string(str_steam_India_Fairy_Queen)
 

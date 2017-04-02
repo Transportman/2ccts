@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME electric_USA_Milwaukee_Road_EP_2_Bipolar
+#define VEHIDCODE electric_USA_Milwaukee_Road_EP_2_Bipolar
 #define ITEM item_electric_USA_Milwaukee_Road_EP_2_Bipolar
 #define NAME string(str_electric_USA_Milwaukee_Road_EP_2_Bipolar)
 

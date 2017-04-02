@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME diesel_Croatia_HZ_2062
+#define VEHIDCODE diesel_Croatia_HZ_2062
 #define ITEM item_diesel_Croatia_HZ_2062
 #define NAME string(str_diesel_Croatia_HZ_2062)
 

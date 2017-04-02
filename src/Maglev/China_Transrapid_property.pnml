@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME mglv_China_Transrapid
+#define VEHIDCODE mglv_China_Transrapid
 #define ITEM item_mglv_China_Transrapid
 #define NAME string(str_mglv_China_Transrapid)
 

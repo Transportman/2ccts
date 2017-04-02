@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME dmu_Israel_Israel_Railways_IC3
+#define VEHIDCODE dmu_Israel_Israel_Railways_IC3
 #define ITEM item_dmu_Israel_Israel_Railways_IC3
 #define NAME string(str_dmu_Israel_Israel_Railways_IC3)
 

@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME steam_Australia_Victorian_Railways_R_Class
+#define VEHIDCODE steam_Australia_Victorian_Railways_R_Class
 #define ITEM item_steam_Australia_Victorian_Railways_R_Class
 #define NAME string(str_steam_Australia_Victorian_Railways_R_Class)
 

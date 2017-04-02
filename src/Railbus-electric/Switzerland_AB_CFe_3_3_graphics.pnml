@@ -27,7 +27,7 @@ spriteset(spriteset_rbe_Switzerland_AB_CFe_3_3, "gfx/Railbus-electric/Switzerlan
 * Cargo capacity
 */
 
-ENGINECAPACITYSWITCH
+ENGINECAPACITYSWITCH(VEHIDCODE)
 	
 
 //Add defined switches

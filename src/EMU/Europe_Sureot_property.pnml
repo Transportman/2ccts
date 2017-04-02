@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME emu_Europe_Sureot
+#define VEHIDCODE emu_Europe_Sureot
 #define ITEM item_emu_Europe_Sureot
 #define NAME string(str_emu_Europe_Sureot)
 

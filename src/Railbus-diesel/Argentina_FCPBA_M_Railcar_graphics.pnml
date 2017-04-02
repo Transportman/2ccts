@@ -23,6 +23,12 @@ spriteset(spriteset_rbd_Argentina_FCPBA_M_Railcar, "gfx/Railbus-diesel/Argentina
 	template_2cc_engines_general(1, 1)
 }
 
+/*
+* Cargo capacity
+*/
+
+ENGINECAPACITYSWITCH(VEHIDCODE)
+
 //Add defined switches
 
 RUNNINGCOSTENGINESWITCH

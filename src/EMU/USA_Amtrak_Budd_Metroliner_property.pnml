@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME emu_USA_Amtrak_Budd_Metroliner
+#define VEHIDCODE emu_USA_Amtrak_Budd_Metroliner
 #define ITEM item_emu_USA_Amtrak_Budd_Metroliner
 #define NAME string(str_emu_USA_Amtrak_Budd_Metroliner)
 

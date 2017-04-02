@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME emu_Netherlands_NS_Mat24
+#define VEHIDCODE emu_Netherlands_NS_Mat24
 #define ITEM item_emu_Netherlands_NS_Mat24
 #define NAME string(str_emu_Netherlands_NS_Mat24)
 

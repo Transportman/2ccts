@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME rbd_Eritrea_Eritrean_Railway_A62_70_Littorina
+#define VEHIDCODE rbd_Eritrea_Eritrean_Railway_A62_70_Littorina
 #define ITEM item_rbd_Eritrea_Eritrean_Railway_A62_70_Littorina
 #define NAME string(str_rbd_Eritrea_Eritrean_Railway_A62_70_Littorina)
 

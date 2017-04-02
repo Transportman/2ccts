@@ -41,7 +41,7 @@ item(FEAT_TRAINS, ITEM ) {
 		bitmask_vehicle_info: BITMASK_VEHICLE_INFO;
 	}
 	graphics {
-		ENGINECAPACITYSWITCHCALL
+		ENGINECAPACITYSWITCHCALL(VEHIDCODE)
 		purchase: spriteset_rbm_World_Turbobus_purchase;
 		length: switch_rbm_World_Turbobus_length;
 		articulated_part: switch_rbm_World_Turbobus_articulated;

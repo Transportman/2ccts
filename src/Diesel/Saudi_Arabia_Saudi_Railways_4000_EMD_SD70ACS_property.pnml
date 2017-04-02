@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME diesel_Saudi_Arabia_Saudi_Railways_4000_EMD_SD70ACS
+#define VEHIDCODE diesel_Saudi_Arabia_Saudi_Railways_4000_EMD_SD70ACS
 #define ITEM item_diesel_Saudi_Arabia_Saudi_Railways_4000_EMD_SD70ACS
 #define NAME string(str_diesel_Saudi_Arabia_Saudi_Railways_4000_EMD_SD70ACS)
 

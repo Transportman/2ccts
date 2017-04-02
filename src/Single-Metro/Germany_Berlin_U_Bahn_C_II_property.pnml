@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME singlemtro_Germany_Berlin_U_Bahn_C_II
+#define VEHIDCODE singlemtro_Germany_Berlin_U_Bahn_C_II
 #define ITEM item_singlemtro_Germany_Berlin_U_Bahn_C_II
 #define NAME string(str_singlemtro_Germany_Berlin_U_Bahn_C_II)
 

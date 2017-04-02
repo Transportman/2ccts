@@ -6,7 +6,7 @@
  *  You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-#define ITEMNAME rbe_Germany_DB_ET85
+#define VEHIDCODE rbe_Germany_DB_ET85
 #define ITEM item_rbe_Germany_DB_ET85
 #define NAME string(str_rbe_Germany_DB_ET85)
 

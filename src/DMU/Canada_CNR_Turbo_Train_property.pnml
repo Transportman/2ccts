@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME dmu_Canada_CNR_Turbo_Train
+#define VEHIDCODE dmu_Canada_CNR_Turbo_Train
 #define ITEM item_dmu_Canada_CNR_Turbo_Train
 #define NAME string(str_dmu_Canada_CNR_Turbo_Train)
 

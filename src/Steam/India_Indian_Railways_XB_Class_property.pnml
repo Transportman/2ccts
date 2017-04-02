@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME steam_India_Indian_Railways_XB_Class
+#define VEHIDCODE steam_India_Indian_Railways_XB_Class
 #define ITEM item_steam_India_Indian_Railways_XB_Class
 #define NAME string(str_steam_India_Indian_Railways_XB_Class)
 

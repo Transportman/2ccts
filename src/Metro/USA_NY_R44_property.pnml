@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME mtro_USA_NY_R44
+#define VEHIDCODE mtro_USA_NY_R44
 #define ITEM item_mtro_USA_NY_R44
 #define NAME string(str_mtro_USA_NY_R44)
 
@@ -32,7 +32,7 @@
 #define WAGON_LENGTH 8
 
 #define HEAD_CAPACITY 162
-#define WAGON_CAPACITY 
+#define WAGON_CAPACITY 162
 
 
 #define DUAL_HEADED 1

@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME emu_Australia_Sydney_Trains_S_Set
+#define VEHIDCODE emu_Australia_Sydney_Trains_S_Set
 #define ITEM item_emu_Australia_Sydney_Trains_S_Set
 #define NAME string(str_emu_Australia_Sydney_Trains_S_Set)
 

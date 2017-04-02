@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME emu_Russia_RZD_S
+#define VEHIDCODE emu_Russia_RZD_S
 #define ITEM item_emu_Russia_RZD_S
 #define NAME string(str_emu_Russia_RZD_S)
 

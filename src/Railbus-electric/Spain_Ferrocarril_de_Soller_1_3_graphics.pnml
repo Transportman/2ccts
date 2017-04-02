@@ -27,7 +27,7 @@ spriteset(spriteset_rbe_Spain_Ferrocarril_de_Soller_1_3, "gfx/Railbus-electric/S
 * Cargo capacity
 */
 
-ENGINECAPACITYSWITCH
+ENGINECAPACITYSWITCH(VEHIDCODE)
 
 //Add defined switches
 

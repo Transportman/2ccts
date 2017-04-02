@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME coach_Gen5_Talgo_Pendular_Mail
+#define VEHIDCODE coach_Gen5_Talgo_Pendular_Mail
 #define ITEM item_coach_Gen5_Talgo_Pendular_Mail
 #define NAME string(str_coach_Gen5_Talgo_Pendular_Mail)
 

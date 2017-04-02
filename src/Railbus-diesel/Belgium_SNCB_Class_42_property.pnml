@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME rbd_Belgium_SNCB_Class_42
+#define VEHIDCODE rbd_Belgium_SNCB_Class_42
 #define ITEM item_rbd_Belgium_SNCB_Class_42
 #define NAME string(str_rbd_Belgium_SNCB_Class_42)
 

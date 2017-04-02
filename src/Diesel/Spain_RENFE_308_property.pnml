@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME diesel_Spain_RENFE_308
+#define VEHIDCODE diesel_Spain_RENFE_308
 #define ITEM item_diesel_Spain_RENFE_308
 #define NAME string(str_diesel_Spain_RENFE_308)
 

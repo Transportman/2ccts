@@ -41,6 +41,7 @@ item(FEAT_TRAINS, ITEM ) {
 		bitmask_vehicle_info: BITMASK_VEHICLE_INFO;
 	}
 	graphics {
+		ENGINECAPACITYSWITCHCALL(VEHIDCODE)
 		purchase: spriteset_rbd_Argentina_FCPBA_M_Railcar_purchase;
 		can_attach_wagon: switch_can_attach_vehicle;
 		//Add calls to defined switches below

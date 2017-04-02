@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME steam_USA_Southern_Pacific_GS_4_Daylight
+#define VEHIDCODE steam_USA_Southern_Pacific_GS_4_Daylight
 #define ITEM item_steam_USA_Southern_Pacific_GS_4_Daylight
 #define NAME string(str_steam_USA_Southern_Pacific_GS_4_Daylight)
 

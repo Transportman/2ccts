@@ -27,7 +27,7 @@ spriteset(spriteset_rbd_Belgium_SNCB_Class_42, "gfx/Railbus-diesel/Belgium_SNCB_
 * Cargo capacity
 */
 
-ENGINECAPACITYSWITCH
+ENGINECAPACITYSWITCH(VEHIDCODE)
 
 //Add defined switches
 

@@ -27,7 +27,7 @@ spriteset(spriteset_rbd_Russia_RZD_ACh2, "gfx/Railbus-diesel/Russia_RZD_ACh2.png
 * Cargo capacity
 */
 
-ENGINECAPACITYSWITCH
+ENGINECAPACITYSWITCH(VEHIDCODE)
 
 //Add defined switches
 

@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME diesel_South_Africa_SAR_DS
+#define VEHIDCODE diesel_South_Africa_SAR_DS
 #define ITEM item_diesel_South_Africa_SAR_DS
 #define NAME string(str_diesel_South_Africa_SAR_DS)
 

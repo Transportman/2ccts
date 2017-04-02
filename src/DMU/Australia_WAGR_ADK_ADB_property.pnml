@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME dmu_Australia_WAGR_ADK_ADB
+#define VEHIDCODE dmu_Australia_WAGR_ADK_ADB
 #define ITEM item_dmu_Australia_WAGR_ADK_ADB
 #define NAME string(str_dmu_Australia_WAGR_ADK_ADB)
 

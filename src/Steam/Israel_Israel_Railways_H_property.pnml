@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME steam_Israel_Israel_Railways_H
+#define VEHIDCODE steam_Israel_Israel_Railways_H
 #define ITEM item_steam_Israel_Israel_Railways_H
 #define NAME string(str_steam_Israel_Israel_Railways_H)
 

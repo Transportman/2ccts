@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME diesel_USA_Amtrack_SDP_40F
+#define VEHIDCODE diesel_USA_Amtrack_SDP_40F
 #define ITEM item_diesel_USA_Amtrack_SDP_40F
 #define NAME string(str_diesel_USA_Amtrack_SDP_40F)
 

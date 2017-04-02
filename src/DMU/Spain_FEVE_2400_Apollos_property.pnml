@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME dmu_Spain_FEVE_2400_Apollos
+#define VEHIDCODE dmu_Spain_FEVE_2400_Apollos
 #define ITEM item_dmu_Spain_FEVE_2400_Apollos
 #define NAME string(str_dmu_Spain_FEVE_2400_Apollos)
 

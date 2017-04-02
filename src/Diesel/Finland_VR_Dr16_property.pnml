@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME diesel_Finland_VR_Dr16
+#define VEHIDCODE diesel_Finland_VR_Dr16
 #define ITEM item_diesel_Finland_VR_Dr16
 #define NAME string(str_diesel_Finland_VR_Dr16)
 

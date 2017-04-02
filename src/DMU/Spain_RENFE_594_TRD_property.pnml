@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME dmu_Spain_RENFE_594_TRD
+#define VEHIDCODE dmu_Spain_RENFE_594_TRD
 #define ITEM item_dmu_Spain_RENFE_594_TRD
 #define NAME string(str_dmu_Spain_RENFE_594_TRD)
 

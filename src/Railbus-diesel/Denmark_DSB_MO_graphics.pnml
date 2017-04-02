@@ -27,7 +27,7 @@ spriteset(spriteset_rbd_Denmark_DSB_MO, "gfx/Railbus-diesel/Denmark_DSB_MO.png")
 * Cargo capacity
 */
 
-ENGINECAPACITYSWITCH
+ENGINECAPACITYSWITCH(VEHIDCODE)
 
 //Add defined switches
 

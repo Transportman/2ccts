@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME diesel_UK_LMS_7051_Diesel_Shunter
+#define VEHIDCODE diesel_UK_LMS_7051_Diesel_Shunter
 #define ITEM item_diesel_UK_LMS_7051_Diesel_Shunter
 #define NAME string(str_diesel_UK_LMS_7051_Diesel_Shunter)
 

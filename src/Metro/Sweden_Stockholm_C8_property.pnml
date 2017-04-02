@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME mtro_Sweden_Stockholm_C8
+#define VEHIDCODE mtro_Sweden_Stockholm_C8
 #define ITEM item_mtro_Sweden_Stockholm_C8
 #define NAME string(str_mtro_Sweden_Stockholm_C8)
 
@@ -32,7 +32,7 @@
 #define WAGON_LENGTH 8
 
 #define HEAD_CAPACITY 158
-#define WAGON_CAPACITY 
+#define WAGON_CAPACITY 158
 
 
 #define DUAL_HEADED 1

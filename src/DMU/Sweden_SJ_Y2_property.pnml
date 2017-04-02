@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME dmu_Sweden_SJ_Y2
+#define VEHIDCODE dmu_Sweden_SJ_Y2
 #define ITEM item_dmu_Sweden_SJ_Y2
 #define NAME string(str_dmu_Sweden_SJ_Y2)
 

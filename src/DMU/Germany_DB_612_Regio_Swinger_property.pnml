@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME dmu_Germany_DB_612_Regio_Swinger
+#define VEHIDCODE dmu_Germany_DB_612_Regio_Swinger
 #define ITEM item_dmu_Germany_DB_612_Regio_Swinger
 #define NAME string(str_dmu_Germany_DB_612_Regio_Swinger)
 

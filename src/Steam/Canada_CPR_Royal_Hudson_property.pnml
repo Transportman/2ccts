@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME steam_Canada_CPR_Royal_Hudson
+#define VEHIDCODE steam_Canada_CPR_Royal_Hudson
 #define ITEM item_steam_Canada_CPR_Royal_Hudson
 #define NAME string(str_steam_Canada_CPR_Royal_Hudson)
 

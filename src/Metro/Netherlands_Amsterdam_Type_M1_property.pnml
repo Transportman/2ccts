@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME mtro_Netherlands_Amsterdam_Type_M1
+#define VEHIDCODE mtro_Netherlands_Amsterdam_Type_M1
 #define ITEM item_mtro_Netherlands_Amsterdam_Type_M1
 #define NAME string(str_mtro_Netherlands_Amsterdam_Type_M1)
 
@@ -32,7 +32,7 @@
 #define WAGON_LENGTH 7
 
 #define HEAD_CAPACITY 174
-#define WAGON_CAPACITY 
+#define WAGON_CAPACITY 174
 
 
 #define DUAL_HEADED 1

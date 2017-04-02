@@ -27,7 +27,7 @@ spriteset(spriteset_rbd_Czech_Republic_CD_809, "gfx/Railbus-diesel/Czech_Republi
 * Cargo capacity
 */
 
-ENGINECAPACITYSWITCH
+ENGINECAPACITYSWITCH(VEHIDCODE)
 
 //Add defined switches
 

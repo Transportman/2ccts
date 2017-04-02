@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME steam_Mozambique_Beira_Railway_BR6_F2_Falcon
+#define VEHIDCODE steam_Mozambique_Beira_Railway_BR6_F2_Falcon
 #define ITEM item_steam_Mozambique_Beira_Railway_BR6_F2_Falcon
 #define NAME string(str_steam_Mozambique_Beira_Railway_BR6_F2_Falcon)
 

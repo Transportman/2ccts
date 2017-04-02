@@ -37,7 +37,7 @@ switch(FEAT_TRAINS, SELF, switch_rbs_spriteset_rbs_Australia_Victorian_Railways_
 * Cargo capacity
 */
 
-ENGINECAPACITYSWITCH
+ENGINECAPACITYSWITCH(VEHIDCODE)
 
 //Add defined switches
 

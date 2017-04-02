@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME emu_New_Zealand_NZR_EM_ET_Class
+#define VEHIDCODE emu_New_Zealand_NZR_EM_ET_Class
 #define ITEM item_emu_New_Zealand_NZR_EM_ET_Class
 #define NAME string(str_emu_New_Zealand_NZR_EM_ET_Class)
 

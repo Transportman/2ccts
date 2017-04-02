@@ -37,7 +37,7 @@ switch(FEAT_TRAINS, SELF, switch_rbd_Germany_Schienenzeppelin_animation, motion_
 * Cargo capacity
 */
 
-ENGINECAPACITYSWITCH
+ENGINECAPACITYSWITCH(VEHIDCODE)
 
 //Add defined switches
 

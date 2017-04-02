@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME diesel_Peru_Ferrocarril_Central_Andino_Alco_RSD_39
+#define VEHIDCODE diesel_Peru_Ferrocarril_Central_Andino_Alco_RSD_39
 #define ITEM item_diesel_Peru_Ferrocarril_Central_Andino_Alco_RSD_39
 #define NAME string(str_diesel_Peru_Ferrocarril_Central_Andino_Alco_RSD_39)
 

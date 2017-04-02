@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME emu_South_Africa_Gautrain_Electrostar
+#define VEHIDCODE emu_South_Africa_Gautrain_Electrostar
 #define ITEM item_emu_South_Africa_Gautrain_Electrostar
 #define NAME string(str_emu_South_Africa_Gautrain_Electrostar)
 

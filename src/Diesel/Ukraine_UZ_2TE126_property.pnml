@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME diesel_Ukraine_UZ_2TE126
+#define VEHIDCODE diesel_Ukraine_UZ_2TE126
 #define ITEM item_diesel_Ukraine_UZ_2TE126
 #define NAME string(str_diesel_Ukraine_UZ_2TE126)
 

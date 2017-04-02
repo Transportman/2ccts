@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME emu_Hungary_MAV_BDVmot
+#define VEHIDCODE emu_Hungary_MAV_BDVmot
 #define ITEM item_emu_Hungary_MAV_BDVmot
 #define NAME string(str_emu_Hungary_MAV_BDVmot)
 

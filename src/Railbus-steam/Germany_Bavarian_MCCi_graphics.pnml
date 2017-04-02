@@ -27,7 +27,7 @@ spriteset(spriteset_rbs_Germany_Bavarian_MCCi, "gfx/Railbus-steam/Germany_Bavari
 * Cargo capacity
 */
 
-ENGINECAPACITYSWITCH
+ENGINECAPACITYSWITCH(VEHIDCODE)
 
 //Add defined switches
 

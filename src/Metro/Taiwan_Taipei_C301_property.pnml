@@ -8,7 +8,7 @@
 
 #include "../undefine_properties.pnml"
 
-#define ITEMNAME mtro_Taiwan_Taipei_C301
+#define VEHIDCODE mtro_Taiwan_Taipei_C301
 #define ITEM item_mtro_Taiwan_Taipei_C301
 #define NAME string(str_mtro_Taiwan_Taipei_C301)
 
@@ -32,7 +32,7 @@
 #define WAGON_LENGTH 8
 
 #define HEAD_CAPACITY 250
-#define WAGON_CAPACITY 
+#define WAGON_CAPACITY 250
 
 
 #define DUAL_HEADED 1

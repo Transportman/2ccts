@@ -27,7 +27,7 @@ spriteset(spriteset_rbd_Eritrea_Eritrean_Railway_A62_70_Littorina, "gfx/Railbus-
 * Cargo capacity
 */
 
-ENGINECAPACITYSWITCH
+ENGINECAPACITYSWITCH(VEHIDCODE)
 
 //Add defined switches
 
