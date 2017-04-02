@@ -301,7 +301,12 @@
 #include "src/Railbus-electric/USA_SEPTA_Silverliner_V_property.pnml"
 #include "src/Railbus-electric/USA_SEPTA_Silverliner_V_graphics.pnml"
 #include "src/Railbus-electric/USA_SEPTA_Silverliner_V_item.pnml"
-
+#include "src/Railbus-electric/Germany_DB_4792_property.pnml"
+#include "src/Railbus-electric/Germany_DB_4792_graphics.pnml"
+#include "src/Railbus-electric/Germany_DB_4792_item.pnml"
+#include "src/Railbus-electric/Germany_Buckower_Kleinbahn_Nr_1_3_property.pnml"
+#include "src/Railbus-electric/Germany_Buckower_Kleinbahn_Nr_1_3_graphics.pnml"
+#include "src/Railbus-electric/Germany_Buckower_Kleinbahn_Nr_1_3_item.pnml"
 
 //Steam
 #include "src/_CodeSupport/TypeInitialization/init_type_Steam.pnml"
