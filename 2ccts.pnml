@@ -1815,7 +1815,7 @@
 #include "src/EMU/Europe_Sureot_item.pnml"
 
 //Single Unit Metro
-#include "src/_CodeSupport/TypeInitialization/init_type_Metro.pnml"
+#include "src/_CodeSupport/TypeInitialization/init_type_RBMTRO.pnml"
 #include "src/Single-Metro/USA_Brooklyn_Union_Gate_Car_property.pnml"
 #include "src/Single-Metro/USA_Brooklyn_Union_Gate_Car_graphics.pnml"
 #include "src/Single-Metro/USA_Brooklyn_Union_Gate_Car_item.pnml"
