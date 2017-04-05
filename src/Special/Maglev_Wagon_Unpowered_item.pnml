@@ -14,8 +14,8 @@ item(FEAT_TRAINS, ITEM ) {
 		model_life: MODEL_LIFE;
 		vehicle_life: VEHICLE_LIFE;
 		LOADINGSPEEDPROPERTY
-		PURCHASECOSTPROPERTY
-		RUNNINGCOSTPROPERTY
+		PURCHASECOSTMUUNPOWERED
+		RUNNINGCOSTMU
 		speed: SPEED km/h;
 		power: POWER hp;
 		cargo_capacity: HEAD_CAPACITY;
@@ -44,7 +44,6 @@ item(FEAT_TRAINS, ITEM ) {
 		purchase: spriteset_mglv_wagon_unpowered_purchase;
 		additional_text: string(str_unit_wagon_passenger);
 		//Add calls to defined switches below
-		RUNNINGCOSTENGINESWITCHCALL
 		PURCHASETEXTSWITCHCALL
 		default: spriteset_mglv_wagon_unpowered;
 	}
