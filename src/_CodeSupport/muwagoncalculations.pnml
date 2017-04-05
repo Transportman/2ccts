@@ -7,7 +7,7 @@
 */
 
 //this file is used to define all properties for MU wagons from one file
-#define WEIGHTMUWAGONUNPOWERED 0;
-#define POWERMUWAGONPOWERED 0;
-#define WEIGHTMUWAGONPOWERED 0;
-#define TEMUWAGONPOWERED 0;
+#define WEIGHTMUWAGONUNPOWERED int(WEIGHT*1/2);
+#define POWERMUWAGONPOWERED int(POWER*1/2);
+#define WEIGHTMUWAGONPOWERED int(WEIGHT*3/4);
+#define TEMUWAGONPOWERED int(TE_COEFFICIENT*10*WEIGHT);
