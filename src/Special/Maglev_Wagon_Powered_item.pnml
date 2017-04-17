@@ -42,10 +42,7 @@ item(FEAT_TRAINS, ITEM ) {
 	}
 	graphics {
 		purchase: spriteset_mglv_wagon_powered_purchase;
-		additional_text: string(str_unit_wagon_passenger);
-		//Add calls to defined switches below
-		RUNNINGCOSTENGINESWITCHCALL
-		PURCHASETEXTSWITCHCALL
+		PURCHASETEXTMUWAGONPASSENGERPOWERED
 		default: spriteset_mglv_wagon_powered;
 	}
 }

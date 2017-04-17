@@ -9,3 +9,8 @@
 //this file is used to define the purchase text from one point
 #define PURCHASETEXTSWITCHCALL
 #define PURCHASETEXTSWITCH
+
+#define PURCHASETEXTMUWAGONPASSENGERUNPOWERED additional_text: string(str_unit_wagon_passenger);
+#define PURCHASETEXTMUWAGONCARGOUNPOWERED additional_text: string(str_unit_wagon_cargo);
+#define PURCHASETEXTMUWAGONPASSENGERPOWERED additional_text: string(str_unit_wagon_passenger);
+#define PURCHASETEXTMUWAGONCARGOPOWERED additional_text: string(str_unit_wagon_cargo);

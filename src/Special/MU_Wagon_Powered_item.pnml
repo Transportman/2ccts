@@ -42,8 +42,7 @@ item(FEAT_TRAINS, ITEM ) {
 	}
 	graphics {
 		purchase: spriteset_mu_wagon_powered_purchase;
-		additional_text: string(str_unit_wagon_passenger);
-		PURCHASETEXTSWITCHCALL
+		PURCHASETEXTMUWAGONPASSENGERPOWERED
 		default: spriteset_mu_wagon_powered;
 	}
 }

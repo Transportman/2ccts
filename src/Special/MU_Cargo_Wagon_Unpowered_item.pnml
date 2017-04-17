@@ -42,9 +42,7 @@ item(FEAT_TRAINS, ITEM ) {
 	}
 	graphics {
 		purchase: spriteset_mu_cargo_wagon_unpowered_purchase;
-		additional_text: string(str_unit_wagon_cargo);
-		//Add calls to defined switches below
-		PURCHASETEXTSWITCHCALL
+		PURCHASETEXTMUWAGONCARGOUNPOWERED
 		default: spriteset_mu_cargo_wagon_unpowered;
 	}
 }

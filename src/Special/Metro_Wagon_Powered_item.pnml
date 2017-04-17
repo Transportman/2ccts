@@ -42,9 +42,7 @@ item(FEAT_TRAINS, ITEM ) {
 	}
 	graphics {
 		purchase: spriteset_mtro_wagon_powered_purchase;
-		additional_text: string(str_unit_wagon_passenger);
-		//Add calls to defined switches below
-		PURCHASETEXTSWITCHCALL
+		PURCHASETEXTMUWAGONPASSENGERPOWERED
 		default: spriteset_mtro_wagon_powered;
 	}
 }
