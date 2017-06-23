@@ -309,10 +309,10 @@ str_emu_Netherlands_NS_4800_HSA                         :NS 4800 HSA (Sähkömoo
 str_emu_Italy_NTV_AGV_Duplex                            :NTV AGV Duplex (Sähkömoottorivaunu)
 
 #Single Unit Metro
-str_singlemtro_USA_Brooklyn_Union_Gate_Car                                    :Brooklyn Union Gate Car (Yhden yksikön metro)
-str_singlemtro_Hungary_Budapest_1894_Stock                                    :Budapest vuoden 1894 kalusto (Yhden yksiön metro)
-str_singlemtro_USA_Chicago_L_Northwest_Elevated_1907_Stock    :Chicago L Northwest Elevated vuoden 1907 kalusto (Yhden yksikön metro)
-str_singlemtro_Germany_Berlin_U_Bahn_C_II                                             :Berliini U-Bahn C II (Yhden yksikön metro)
+str_singlemtro_USA_Brooklyn_Union_Gate_Car                                      :Brooklyn Union Gate Car (Yhden yksikön metro)
+str_singlemtro_Hungary_Budapest_1894_Stock                                      :Budapest vuoden 1894 kalusto (Yhden yksiön metro)
+str_singlemtro_USA_Chicago_L_Northwest_Elevated_1907_Stock      :Chicago L Northwest Elevated vuoden 1907 kalusto (Yhden yksikön metro)
+str_singlemtro_Germany_Berlin_U_Bahn_C_II                                               :Berliini U-Bahn C II (Yhden yksikön metro)
 
 #Multiple Unit Metro
 str_mtro_UK_London_1903_Stock                                   :Lontoo vuoden 1903 kalusto (Metro)

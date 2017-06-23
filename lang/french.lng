@@ -631,10 +631,10 @@ str_emu_Croatia_HZ_6112 :HZ 6112 (Rame Électrique)
 str_emu_China_Railways_CHR380A :China Railways CHR380A (Rame Électrique)
 
 #Single Unit Metro
-str_singlemtro_USA_Brooklyn_Union_Gate_Car                                    :Brooklyn Union Gate Car (Métro Unité Autonome)
-str_singlemtro_Hungary_Budapest_1894_Stock                                    :Budapest 1894 (Métro Unité Autonome)
-str_singlemtro_USA_Chicago_L_Northwest_Elevated_1907_Stock    :Chicago L Northwest Elevated 1907 (Métro Unité Autonome)
-str_singlemtro_Germany_Berlin_U_Bahn_C_II                                             :Berlin U-Bahn C II (Métro Unité Autonome)
+str_singlemtro_USA_Brooklyn_Union_Gate_Car                                      :Brooklyn Union Gate Car (Métro Unité Autonome)
+str_singlemtro_Hungary_Budapest_1894_Stock                                      :Budapest 1894 (Métro Unité Autonome)
+str_singlemtro_USA_Chicago_L_Northwest_Elevated_1907_Stock      :Chicago L Northwest Elevated 1907 (Métro Unité Autonome)
+str_singlemtro_Germany_Berlin_U_Bahn_C_II                                               :Berlin U-Bahn C II (Métro Unité Autonome)
 
 #Multiple Unit Metro
 str_mtro_UK_London_1903_Stock                                   :Londres 1903 (Métro)
