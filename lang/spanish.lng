@@ -70,9 +70,11 @@ str_rbs_Australia_Victorian_Railways_Motor_Car_3 :Victorian Railways Motor Car 3
 #Railbus-diesel
 str_rbd_Australia_Victorian_Railways_AEC_RM1    :Victorian Railways AEC RM1 (Railbus diésel)
 str_rbd_United_Kingdom_GWR_AEC_Railcar                  :GWR AEC Railcar (Railbus diésel)
+str_rbd_Austria_OBB_5042                                                :OBB 5042 (Railbus diésel)
 str_rbd_New_Zealand_NZR_RM31                                    :NZR RM31 (Railbus diésel)
 str_rbd_Portugal_CP_0100                                                :CP 0100 (Railbus diésel)
 str_rbd_USA_Amtrak_Budd_RDC                                     :Amtrak Budd RDC (Railbus diésel)
+str_rbd_Germany_DB_VT_989                                               :DB VT 98.9 / DB 798 'Uerdingen railbus' (Railbus diésel)
 str_rbd_Germany_OHE_520_GDT                                     :OHE 520 GDT (Railbus diésel)
 str_rbd_Netherlands_NS_20_Kameel                                :NS 20 'Kameel' (Railbus diésel)
 str_rbd_Finland_VR_Dm7                                                  :VR Dm7 (Railbus diésel)
