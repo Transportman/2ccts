@@ -60,7 +60,8 @@ STR_PARAM_LOADINGSPEED_ULTRA                    :Prawie natychmiastowa
 #Railbus-steam
 
 #Railbus-diesel
-str_rbd_Czech_Republic_CD_M120 :CD M120 (Spalinowy wagon motorowy)
+str_rbd_Czech_Republic_CD_M120 :CD M120 (wagon motorowy)
+str_rbd_Netherlands_NS_omBC :NS omBC 2900 (wagon motorowy)
 
 #Railbus-electric
 str_rbe_Italy_FS_E623 :FS E.623 (elektryczny wagon motorowy)
@@ -88,7 +89,7 @@ str_steam_UK_GWR_4900                           :GWR 4900 (Parowóz)
 str_steam_UK_GWR_5700                           :GWR 5700 (Parowóz)
 str_steam_Netherlands_NS_6300           :NS 6300 (Parowóz)
 str_steam_USA_AT_SF_5000                        :AT&SF 5000 (Parowóz)
-str_steam_Germany_Prussian_S10          :Prussian S.10 (Parowóz)
+str_steam_Germany_Prussian_S10          :Prussian S.10 / DB 17.01 (Parowóz)
 str_steam_UK_LMS_5MT_Black_Five         :LMS 5MT 'Black Five' (Parowóz)
 str_steam_Russia_RZD_9P                         :RZD 9P (Parowóz)
 str_steam_UK_LNER_A4_Gresley            :LNER A4 'Gresley' (Parowóz)
@@ -114,7 +115,7 @@ str_steam_Canada_Canadian_Pacific_374 :Canadian Pacific 374 (Parowóz)
 str_steam_South_Africa_PPR_35_tonner_4_6_0T :PPR 35-tonner 4-6-0T (Parowóz)
 str_steam_Switzerland_RhB_G_3_4 :RhB G 3/4 (Parowóz)
 str_steam_Spain_RENFE_Class_040 :RENFE 040 (Parowóz)
-str_steam_Germany_Saxon_IV_K :Saxon IV K (Parowóz)
+str_steam_Germany_Saxon_IV_K :Saxon IV K / DB 99.51-60 (Parowóz)
 str_steam_Germany_Prussian_S_3 :Prussian S.3 (Parowóz)
 str_steam_Norway_NSB_Class_XXI :NSB XXI (Parowóz)
 str_steam_USA_PRR_D16 :PRR D16 (Parowóz)
@@ -122,7 +123,7 @@ str_steam_Netherlands_NS_8100 :NS 8100 (Parowóz)
 str_steam_South_Africa_SAR_MD_Class :SAR MD (Parowóz)
 str_steam_Angola_South_West_African_2_8_0 :South West African 2-8-0 (Parowóz)
 str_steam_UK_LNER_N7 :LNER N7 (Parowóz)
-str_steam_Germany_Saxon_XX_HV :Saxon XX HV (Parowóz)
+str_steam_Germany_Saxon_XX_HV :Saxon XX HV / DB 19.0 (Parowóz)
 str_steam_Belgium_NMBS_Type_7 :NMBS Type 7 (Parowóz)
 str_steam_Ireland_DSER_15 :DSER 15 (Parowóz)
 str_steam_USA_Sierra_Railroad_28 :Sierra Railroad 28 (Parowóz)
@@ -171,6 +172,7 @@ str_steam_Austria_KKStB_310 :KKStB 310 (Parowóz)
 str_steam_USA_Southern_Pacific_GS_4_Daylight :Southern Pacific GS-4 'Daylight' (Parowóz)
 
 #Diesel
+str_diesel_Germany_DB_Kof_II                                                    :Kof II / DB 322 (Spalinowóz)
 str_diesel_USA_CNJ_ALCo_GE_IR_Boxcab                                    :CNJ ALCo-GE-IR Boxcab (Spalinowóz)
 str_diesel_Netherlands_NS_200                                                   :NS 200 'Sik' (Spalinowóz)
 str_diesel_Germany_DB_270                                                               :DB 270 (Spalinowóz)
@@ -191,6 +193,7 @@ str_diesel_Canada_VIA_Rail_FP9                                                  
 str_diesel_Hungary_MAV_M44                                                              :MAV M44 (Spalinowóz)
 str_diesel_Hungary_MAV_M28                                                              :MAV M28 (Spalinowóz)
 str_diesel_Belgium_NMBS_SNCB_83                                                 :NMBS/SNCB 83 (Spalinowóz)
+str_diesel_Germany_DB_220                                                               :DB 220 (Spalinowóz)
 str_diesel_USA_Amtrak_FL9                                                               :Amtrak FL9 (Spalinowóz)
 str_diesel_Czech_Republic_CD_720_ChME2                                  :CD 720 ChME2 (Spalinowóz)
 str_diesel_Finland_VR_Dr12                                                              :VR Dr12 (Spalinowóz)
@@ -228,9 +231,10 @@ str_diesel_UK_BR_67                                                             
 str_diesel_Iran_RAI_DE43CA_Prima                                                :RAI DE43CA 'Prima' (Spalinowóz)
 str_diesel_Ukraine_UZ_TEP150                                                    :UZ TEP150 (Spalinowóz)
 str_diesel_China_China_Railways_HXN5                                    :China Railways HXN5 (Spalinowóz)
+str_diesel_Germany_DB_261_Gravita_10BB                                  :DB 261 'Gravita 10BB' (Spalinowóz)
 str_diesel_Russia_RZD_GT1                                                               :RZD GT1 (Spalinowóz)
 str_diesel_China_MTR_8000                                                               :MTR 8000 (Spalinowóz)
-str_diesel_Germany_HVLE_V490                                                    :HVLE V490 (Spalinowóz)
+str_diesel_Germany_HVLE_V490                                                    :HVLE V490 'Maxima 40CC' (Spalinowóz)
 str_diesel_Russia_RZD_Emch_3            :RZD Emch-3 (Spalinowóz)
 str_diesel_Canada_CNR_9000                      :CNR 9000 (Spalinowóz)
 str_diesel_UK_LMS_7051_Diesel_Shunter :LMS 7051 (Spalinowóz manewrowy)
@@ -261,6 +265,7 @@ str_diesel_Saudi_Arabia_Saudi_Railways_4000_EMD_SD70ACS :Saudi Railways 4000 EMD
 str_diesel_Ireland_IE_201 :IE 201 (Spalinowóz)
 str_diesel_USA_Metrolink_EMD_F59PH :Metrolink EMD F59PH (Spalinowóz)
 str_diesel_France_SNCF_461000 :SNCF BB 461000 (Spalinowóz)
+str_diesel_Italy_ACT_D_200 :ACT D 200 (Spalinowóz)
 str_diesel_Canada_GO_Transit_MP40PH_3C :GO Transit MP40PH-3C (Spalinowóz)
 str_diesel_Spain_RENFE_Class_334 :RENFE 334 (Spalinowóz)
 str_diesel_Indonesia_Indonesia_Railways_CC300 :Indonesia Railways CC300 (Spalinowóz)
@@ -284,6 +289,13 @@ str_diesel_Poland_PKP_SP32 :PKP SP32 (Spalinowóz)
 str_diesel_Ukraine_UZ_2TE126 :UZ 2TE126 (Spalinowóz)
 str_diesel_Ukraine_UZ_2TE10Ut :UZ 2TE10Ut (Spalinowóz)
 str_diesel_Serbia_ZS_621 :ZS 621 (Spalinowóz)
+str_diesel_Italy_FS_207 :FS 207 (Spalinowóz)
+str_diesel_Russia_RZD_Db :RZD Db (Spalinowóz)
+str_diesel_Portugal_CP_1500 :CP 1500 (Spalinowóz)
+str_diesel_France_SNCF_BB_67400 :SNCF BB 67400 (Spalinowóz)
+str_diesel_Netherlands_NS_6400 :NS 6400 (Spalinowóz)
+str_diesel_Spain_RENFE_308 :RENFE 308 (Spalinowóz)
+str_diesel_Norway_CargoNet_312 :CargoNet 312 (Spalinowóz)
 
 #Electric
 str_electric_Switzerland_RhB_DE_2_2                     :RhB De 2/2 (Elektrowóz)
@@ -294,7 +306,7 @@ str_electric_USA_Pennsylvania_Railroad_FF_1     :PRR FF-1 (Elektrowóz)
 str_electric_USA_Milwaukee_Road_EP_2_Bipolar    :Milwaukee Road EP-2 Bipolar (Elektrowóz)
 str_electric_Chile_EFE_E_28                                     :EFE E-28 (Elektrowóz)
 str_electric_Austria_OBB_1161                                   :OBB 1161 (Elektrowóz)
-str_electric_Germany_DB_169                                     :DB 169 (Elektrowóz)
+str_electric_Germany_DB_169                                     :DB 169 005 (Elektrowóz)
 str_electric_Japan_JNR_EB10                                     :JNR EB10 (Elektrowóz)
 str_electric_Norway_NSB_EL10                                    :NSB EL10 (Elektrowóz)
 str_electric_Germany_DB_104                                     :DB 104 (Elektrowóz)
@@ -315,6 +327,7 @@ str_electric_Italy_FS_E646                                              :FS E.64
 str_electric_Russia_RZD_VL41                                    :RZD VL41 (Elektrowóz)
 str_electric_Japan_JNR_EF64                                     :JNR EF64 (Elektrowóz)
 str_electric_Croatia_HZ_1141                                    :HZ 1141 (Elektrowóz)
+str_electric_Germany_DB_1031                                    :DB 103.1 (Elektrowóz)
 str_electric_South_Africa_SAR_6E                                :SAR 6E (Elektrowóz)
 str_electric_Finland_VR_Sr1                                     :VR Sr1 (Elektrowóz)
 str_electric_Austria_OBB_1044                                   :OBB 1044 (Elektrowóz)
@@ -351,6 +364,7 @@ str_electric_Switzerland_RhB_Ge_6_6_Krokodil :RhB Ge 6/6 'Krokodil' (Elektrowóz
 str_electric_UK_NER_EE1 :NER EE1 (Elektrowóz)
 str_electric_Australia_Victorian_Railways_E_Class :Victorian Railways E (Elektrowóz)
 str_electric_New_Zealand_NZR_EO_Class :NZR EO (Elektrowóz)
+str_electric_Germany_DB_E_919 :DB 191.9 (Elektrowóz)
 str_electric_Japan_Aichi_Railroad_DeKi_400 :Aichi Railroad DeKi 400 (Elektrowóz)
 str_electric_Sweden_SJ_F_Class :SJ F (Elektrowóz)
 str_electric_Italy_FS_E424 :FS E.424 (Elektrowóz)
@@ -396,12 +410,92 @@ str_electric_Ukraine_UZ_ChS7 :UZ ChS7 (Elektrowóz)
 str_electric_Poland_PKP_EP09 :PKP EP09 (Elektrowóz)
 str_electric_Slovakia_ZSSK_162 :ZSSK 162 (Elektrowóz)
 str_electric_Ukraine_UZ_DE1 :UZ DE1 (Elektrowóz)
+str_electric_Norway_NSB_EL17 :NSB EL17 (Elektrowóz)
+str_electric_Russia_RZD_VL11 :RZD VL11 (Elektrowóz)
+str_electric_Germany_Prussian_ES_6 :K.P.St.E. ES 6 (Elektrowóz)
 
 #DMU
+str_dmu_Germany_DB_VT_040_Flying_Hamburger      :DB VT 04.0 'Flying Hamburger' (SZT)
+str_dmu_Czech_Republic_CD_M131                          :CD M131 (SZT)
+str_dmu_Germany_DB_VT_085                                       :DB VT 08.5 (SZT)
+str_dmu_Germany_DB_VT_115                                       :DB VT11.5 / DB 601 'TEE' (SZT)
+str_dmu_Netherlands_NS_Plan_U_DE_III            :NS Plan U DE-III (SZT)
+str_dmu_Serbia_ZS_811                                           :ZS 811 (SZT)
+str_dmu_Sweden_SJ_Y2                                            :SJ Y2 (SZT)
+str_dmu_Spain_RENFE_594_TRD                             :RENFE 594 TRD (SZT)
+str_dmu_Germany_DB_612_Regio_Swinger            :DB 612 'Regio Swinger' (SZT)
+str_dmu_Germany_DB_642_Desiro                           :DB 642 'Desiro' (SZT)
+str_dmu_Denmark_Arriva_Lint_41                          :Arriva Lint 41 (SZT)
+str_dmu_Norway_NSB_BM_93_Talent                         :NSB BM 93 'Talent' (SZT)
+str_dmu_Russia_RZD_RA2                                          :RZD RA2 (SZT)
+str_dmu_Denmark_DSB_IC4                                         :DSB IC4 (SZT)
+str_dmu_Croatia_HZ_7022                                         :HZ 7022 (SZT)
+str_dmu_Turkey_TCDD_MT_5500 :TCDD MT 5500 (SZT)
+str_dmu_Czech_Republic_CD_814 :CD 814 (SZT)
+str_dmu_Slovakia_ZSSK_861 :ZSSK 861 (SZT)
+str_dmu_France_SNCF_X_4630 :SNCF X 4630 (SZT)
+str_dmu_France_SNCF_T_2000 :SNCF T 2000 (SZT)
+str_dmu_Netherlands_NS_DH2 :NS DH2 (SZT)
+str_dmu_Germany_DB_6282 :DB 628.2 (SZT)
+str_dmu_Italy_FS_ALn_442_448 :FS ALn 442-448 (SZT)
+str_dmu_Portugal_CP_0400 :CP 0400 (SZT)
+str_dmu_Portugal_CP_0600 :CP 0600 (SZT)
+str_dmu_Spain_FEVE_2400_Apollos :FEVE 2400 'Apollos' (SZT)
 
 #CargoDMU
+str_cargodmu_Germany_DB_691_CargoSprinter       :DB 691 'CargoSprinter' (Towarowy SZT)
 
 #EMU
+str_emu_Netherlands_NS_Mat24                            :NS Mat'24 (EZT)
+str_emu_Austria_OBB_4041                                        :OBB 4041 (EZT)
+str_emu_Italy_ATAC_ECD_21_30                            :ATAC ECD 21-30 (EZT)
+str_emu_Netherlands_NS_Mat36                            :NS Mat'36 (EZT)
+str_emu_Italy_FS_ETR200                                         :FS ETR.200 (EZT)
+str_emu_Norway_NSB_BM65                                         :NSB BM65 (EZT)
+str_emu_Italy_FS_ETR300_Settebello                      :FS ETR.300 'Settebello' (EZT)
+str_emu_Netherlands_NS_Mat54                            :NS Mat'54 (EZT)
+str_emu_Turkey_TCDD_E8000                                       :TCDD E8000 (EZT)
+str_emu_Switzerland_SBB_Rae_TEE_II                      :SBB Rae TEE II (EZT)
+str_emu_Switzerland_SBB_RABDe_510                       :SBB RABDe 510 (EZT)
+str_emu_Denmark_DSB_S_Tog_II                            :DSB S-Tog II (EZT)
+str_emu_Germany_DB_ET420                                        :DB 420 (EZT)
+str_emu_Netherlands_NS_Plan_Y                           :NS Plan Y (EZT)
+str_emu_Finland_VR_Sm2                                          :VR Sm2 (EZT)
+str_emu_Netherlands_NS_ICM_4000                         :NS ICM 4000 (EZT)
+str_emu_France_SNCF_TGV_Sud_Est                         :SNCF TGV Sud-Est (EZT)
+str_emu_Switzerland_SBB_RBDe_560                        :SBB RBDe 560 (EZT)
+str_emu_Hungary_MAV_BDVmot                                      :MAV BDVmot (EZT)
+str_emu_Sweden_SJ_X2000                                         :SJ X2000 (EZT)
+str_emu_Italy_FS_ETR500                                         :FS ETR.500 'Frecciarossa' (EZT)
+str_emu_Netherlands_NS_DD_IRM_VIRM                      :NS DD-IRM 'VIRM' (EZT)
+str_emu_France_SNCF_TGV_Duplex                          :SNCF TGV Duplex (EZT)
+str_emu_France_Thalys_PBKA                                      :Thalys PBKA (EZT)
+str_emu_Denmark_DSB_S_Tog_IV                            :DSB S-Tog IV (EZT)
+str_emu_Italy_FS_ALe426                                         :FS ALe 426 (EZT)
+str_emu_Netherlands_NS_mDDm_390                         :NS mDDm 390 (EZT)
+str_emu_Norway_NSB_BM73                                         :NSB BM73 (EZT)
+str_emu_Czech_Republic_CD_680_Pendolino         :CD 680 'Pendolino' (EZT)
+str_emu_Luxembourg_CFL_2200_Coradia_Duplex      :CFL 2200 'Coradia Duplex' (EZT)
+str_emu_Finland_VR_Sm4                                          :VR Sm4 (EZT)
+str_emu_Germany_DB_403_ICE_3                            :DB 403 'ICE3' (EZT)
+str_emu_Spain_RENFE_120                                         :RENFE 120 (EZT)
+str_emu_Switzerland_SBB_RABe_523_Flirt          :SBB RABe 523 'Flirt' (EZT)
+str_emu_Bulgaria_BDZ_10_Desiro                          :BDZ 10 'Desiro' (EZT)
+str_emu_Italy_NTV_AGV                                           :NTV AGV (EZT)
+str_emu_Netherlands_NS_4800_HSA                         :NS 4800 HSA (EZT)
+str_emu_Italy_NTV_AGV_Duplex                            :NTV AGV Duplex (EZT)
+str_emu_Poland_PKP_EW90 :PKP EW90 (EZT)
+str_emu_Austria_OBB_4030 :OBB 4030 (EZT)
+str_emu_Macedonia_Macedonian_Railways_412 :Macedonian Railways 412 (EZT)
+str_emu_Netherlands_NS_Hispeed_V250_Albatros :NS Hispeed V250 'Albatros' (EZT)
+str_emu_Russia_RZD_S :RZD S (EZT)
+str_emu_Poland_PKP_EW54 :PKP EW54 (EZT)
+str_emu_Romania_CFR_58 :CFR 58 (EZT)
+str_emu_Russia_RZD_ER200 :RZD ER200 (EZT)
+str_emu_Russia_RZD_ES1_Lastochka :RZD ES1 'Lastochka' (EZT)
+str_emu_Austria_WESTbahn_4010_KISS :WESTbahn 4010 'KISS' (SZT)
+str_emu_Croatia_HZ_6112 :HZ 6112 (EZT)
+str_emu_Europe_Sureot :Sureot (EZT)
 
 #Single Unit Metro
 str_singlemtro_USA_Brooklyn_Union_Gate_Car                                      :Brooklyn Union Gate Car (Metro 1-wagonowe)
@@ -508,7 +602,7 @@ str_coach_Gen2_Steel_Regional_Coach                                     :Wagon b
 str_coach_Gen2_Steel_Mail_Coach                                                 :Wagon pocztowy, nadwozie stalowe
 str_coach_Gen2_Steel_2_axle_Compartment_Coach                   :Dwuosiowy wagon przedziałowy, nadwozie stalowe
 str_coach_Gen2_Steel_2_axle_Regional_Coach                              :Dwuosiowy wagon bezprzedziałowy, nadwozie stalowe
-str_coach_Gen2_Steel_2_axle_Mail_Coach                                  :Dwuosiowy wagon pocztowy 3-osiowy, nadwozie stalowe
+str_coach_Gen2_Steel_2_axle_Mail_Coach                                  :Dwuosiowy wagon pocztowy, nadwozie stalowe
 str_coach_Gen2_Steel_3_axle_Compartment_Coach                   :Trzyosiowy wagon przedziałowy, nadwozie stalowe
 str_coach_Gen2_Steel_3_axle_Regional_Coach                              :Trzyosiowy wagon bezprzedziałowy, nadwozie stalowe
 str_coach_Gen2_Steel_3_axle_Mail_Coach                                  :Trzyosiowy wagon pocztowy, nadwozie stalowe
@@ -519,6 +613,9 @@ str_coach_Gen3_Aluminium_Lightweight_Intercity_Coach    :Wagon dalekobieżny, le
 str_coach_Gen3_Aluminium_Lightweight_Regional_Coach     :Wagon bezprzedziałowy, lekkie nadwozie aluminiowe
 str_coach_Gen3_Aluminium_Lightweight_Mail_Coach                 :Wagon pocztowy, lekkie nadwozie aluminiowe
 str_coach_Gen3_Gallery_Car                                                              :Wagon dwupoziomowy
+str_coach_Gen3_Mk1_Intercity_Coach                                              :Wagon IC typu Mark 1
+str_coach_Gen3_Mk1_Regional_Coach                                               :Wagon osobowy typu Mark 1
+str_coach_Gen3_Mk1_Mail_Coach                                                   :Wagon pocztowy typu Mark 1
 str_coach_Gen3_UIC_X_Intercity_Coach                                    :Wagon dalekobieżny standardu UIC-X
 str_coach_Gen3_TEE_Intercity_Coach                                              :Wagon Eurocity TEE
 str_coach_Gen3_UIC_X_Regional_Coach                                     :Wagon bezprzedziałowy standardu UIC-X
@@ -555,3 +652,5 @@ str_cannot_attach_wagon_to_MU                                   :Nie można doł
 str_cannot_attach_wagon_to_Unit_Wagon                   :Nie można dołączyć zwykłego wagonu do Zespołu Trakcyjnego
 str_cannot_attach_Unit_wagon_to_engine                  :Nie można dołączyć ogólnego wagonu doczepnego do zwykłej lokomotywy (tylko do *ZT)
 str_cannot_attach_Unit_wagon_to_wagon                   :Nie można dołączyć ogólnego wagonu doczepnego do zwykłego wagonu (tylko do *ZT)
+str_cannot_attach_Unit_wagon_cargo_to_passenger :Nie można dołączyć wagonu towarowego do pasażerskiego Zespołu Trakcyjnego
+str_cannot_attach_Unit_wagon_passenger_to_cargo :Nie można dołączyć wagonu pasażerskiego do towarowego Zespołu Trakcyjnego
