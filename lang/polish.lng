@@ -60,8 +60,32 @@ STR_PARAM_LOADINGSPEED_ULTRA                    :Prawie natychmiastowa
 #Railbus-steam
 
 #Railbus-diesel
+str_rbd_Germany_DB_VT_133                                               :DB VT 133 'Wismar railbus' (wagon motorowy)
+str_rbd_Austria_OBB_5042                                                :OBB 5042 (wagon motorowy)
+str_rbd_Portugal_CP_0100                                                :CP 0100 (wagon motorowy)
+str_rbd_Germany_DB_VT_989                                               :DB VT 98.9 / DB 798 'Uerdingen railbus' (wagon motorowy)
+str_rbd_Germany_OHE_520_GDT                                     :OHE 520 GDT (wagon motorowy)
+str_rbd_Netherlands_NS_20_Kameel                                :NS 20 'Kameel' (wagon motorowy)
+str_rbd_Russia_RZD_ACh2                                                 :RZD ACh2 (wagon motorowy)
+str_rbd_Netherlands_NS_DH1                                              :NS DH1 (wagon motorowy)
+str_rbd_Austria_OBB_5047                                                :OBB 5047 (wagon motorowy)
+str_rbd_Czech_Republic_CD_809                                   :CD 809 (wagon motorowy)
+str_rbd_Germany_DB_670                                                  :DB 670 (wagon motorowy)
+str_rbd_Lithuania_Lithuanian_Railways_AR2               :Lithuanian Railways AR2 (wagon motorowy)
+str_rbd_Austria_kkStB_19 :KkStB 19 (wagon motorowy)
+str_rbd_Germany_Saxon_DET_1_2 :Saxon DET 1-2 (wagon motorowy)
+str_rbd_Germany_BSt_6001 :BSt 6001 (wagon motorowy)
 str_rbd_Czech_Republic_CD_M120 :CD M120 (wagon motorowy)
+str_rbd_Germany_Schienenzeppelin :Schienenzeppelin (wagon motorowy)
+str_rbd_Denmark_DSB_MO :DSB MO (wagon motorowy)
+str_rbd_Czech_Republic_CD_M290 :CD M290 (wagon motorowy)
 str_rbd_Netherlands_NS_omBC :NS omBC 2900 (wagon motorowy)
+str_rbd_Portugal_CP_USD_9050 :CP USD 9050 (wagon motorowy)
+str_rbd_Belgium_SNCB_Class_42 :NMBS/SNCB 42 (wagon motorowy)
+str_rbd_Bulgaria_BDZ_19 :BDZ 19 (wagon motorowy)
+str_rbd_Greece_OSE_AA71 :OSE AA.71 (wagon motorowy)
+str_rbd_Czech_Republic_CD_840 :CD 840 (wagon motorowy)
+str_rbd_Italy_FS_ALn_668 :FS ALn 668 (wagon motorowy)
 
 #Railbus-electric
 str_rbe_Italy_FS_E623 :FS E.623 (elektryczny wagon motorowy)
@@ -582,6 +606,11 @@ str_wagon_Gen4_Gondola                                  :4-ta generacja wagonu g
 str_wagon_Gen4_Car_Transporter                  :4-ta generacja wagonu do transportu aut
 str_wagon_Gen4_Container_Carrier                :4-ta generacja wagonu kontenerowego
 str_wagon_Gen4_Centerbeam                               :4-ta generacja platformy dwudzielnej
+str_wagon_Gen5_Flatcar                                  :5-ta generacja platformy
+str_wagon_Gen5_Gondola                                  :5-ta generacja wagonu gondoli
+str_wagon_Gen5_Silo_Type2                               :5-ta generacja wagonu zbiornikowego (silos typ 2)
+str_wagon_Gen5_Car_Transporter                  :5-ta generacja wagonu do transportu aut
+str_wagon_Gen5_Centerbeam                               :5-ta generacja platformy dwudzielnej
 
 
 #coaches
@@ -642,6 +671,11 @@ str_coach_Gen5_Talgo_Pendular_Mail                                              
 
 #special wagons
 str_mu_wagon_unpowered                  :Wagon Zespołu Trakcyjnego (doczepny)
+str_mtro_wagon_unpowered                :Wagon metra (doczepny)
+str_mu_cargo_wagon_unpowered    :Wagon towarowego Zespołu Trakcyjnego (doczepny)
+str_mu_wagon_powered                    :Wagon Zespołu Trakcyjnego (silnikowy)
+str_mtro_wagon_powered                  :Wagon metra (silnikowyy)
+str_mu_cargo_wagon_powered              :Wagon towarowego Zespołu Trakcyjnego (silnikowy)
 
 #Obsolete vehicles
 
