@@ -268,6 +268,7 @@ str_diesel_Canada_VIA_Rail_FP9                                                  
 str_diesel_Hungary_MAV_M44                                                              :MAV M44 (Diesel)
 str_diesel_Hungary_MAV_M28                                                              :MAV M28 (Diesel)
 str_diesel_Belgium_NMBS_SNCB_83                                                 :NMBS/SNCB 83 (Diesel)
+str_diesel_Germany_DB_220                                                               :DB V200.0 / DB 220 (Diesel)
 str_diesel_USA_Amtrak_FL9                                                               :Amtrak FL9 (Diesel)
 str_diesel_Czech_Republic_CD_720_ChME2                                  :CD 720 ChME2 (Diesel)
 str_diesel_Finland_VR_Dr12                                                              :VR Dr12 (Diesel)
@@ -405,6 +406,7 @@ str_electric_Italy_FS_E646                                              :FS E.64
 str_electric_Russia_RZD_VL41                                    :RZD VL41 (Électrique)
 str_electric_Japan_JNR_EF64                                     :JNR EF64 (Électrique)
 str_electric_Croatia_HZ_1141                                    :HZ 1141 (Électrique)
+str_electric_Germany_DB_1031                                    :DB 103.1 (Électrique)
 str_electric_South_Africa_SAR_6E                                :SAR 6E (Électrique)
 str_electric_Finland_VR_Sr1                                     :VR Sr1 (Électrique)
 str_electric_Austria_OBB_1044                                   :OBB 1044 (Électrique)
@@ -441,6 +443,7 @@ str_electric_Switzerland_RhB_Ge_6_6_Krokodil :RhB Ge 6/6 'Krokodil' (Électrique
 str_electric_UK_NER_EE1 :NER EE1 (Électrique)
 str_electric_Australia_Victorian_Railways_E_Class :Victorian Railways E (Électrique)
 str_electric_New_Zealand_NZR_EO_Class :NZR EO (Électrique)
+str_electric_Germany_DB_E_919 :DB E 91.9 / DB 191.9 (Électrique)
 str_electric_Japan_Aichi_Railroad_DeKi_400 :Aichi Railroad DeKi 400 (Électrique)
 str_electric_Sweden_SJ_F_Class :SJ F (Électrique)
 str_electric_Italy_FS_E424 :FS E.424 (Électrique)
@@ -504,8 +507,10 @@ str_electric_Germany_Prussian_ES_6 :Prussian ES 6 (Électrique)
 str_electric_China_China_Railways_6K :China Railways 6K (Électrique)
 
 #DMU
+str_dmu_Germany_DB_VT_040_Flying_Hamburger      :DB VT 04.0 'Fliegender Hamburger' (Rame Diesel)
 str_dmu_Australia_NSWGR_Silver_City_Comet       :NSWGR 'Silver City Comet' (Rame Diesel)
 str_dmu_Czech_Republic_CD_M131                          :CD M131 (Rame Diesel)
+str_dmu_Germany_DB_VT_085                                       :DB VT 08.5 (Rame Diesel)
 str_dmu_Australia_Queensland_Rail_400           :Queensland Rail 400 (Rame Diesel)
 str_dmu_Netherlands_NS_Plan_U_DE_III            :NS Plan U DE-III (Rame Diesel)
 str_dmu_Canada_CNR_Turbo_Train                          :CNR 'Turbo Train' (Rame Diesel)
@@ -801,7 +806,7 @@ str_coach_Gen4_Russian_Mail_Coach                                               
 str_coach_Gen4_Superliner_Coach                                                 :Voiture Superliner
 str_coach_Gen4_Superliner_California                                    :Superliner California
 str_coach_Gen4_Amfleet_Regional_Coach                                   :Voiture régionale Amfleet
-str_coach_Gen4_Amfleet_Intercity_Coach                                  :voiture Intercités Amfleet
+str_coach_Gen4_Amfleet_Intercity_Coach                                  :Voiture Intercités Amfleet
 str_coach_Gen4_Comet_Commuter_Coach                                     :Voiture de banlieue Comet
 str_coach_Gen4_Horizon_Regional_Coach                                   :Voiture régionale Horizon
 str_coach_Gen4_Horizon_Baggage_Coach                                    :Fourgon à bagages Horizon
