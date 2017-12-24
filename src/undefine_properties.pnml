@@ -13,6 +13,7 @@
 #undef VEHICLE_REGION 
 #undef INTRODUCTION_YEAR 
 #undef MODEL_LIFE 
+#undef RETIRE_EARLY
 #undef VEHICLE_LIFE 
 #undef LOADINGSPEED 
 #undef CARGODEF 
