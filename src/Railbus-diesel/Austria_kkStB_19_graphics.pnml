@@ -1,5 +1,5 @@
 /*
- *  Copyright (C) 2014 Transportman
+ *  Copyright (C) 2017 Transportman
  *  This file is part of the 2cc Trains In NML
  *  This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
  *  This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
@@ -27,8 +27,10 @@ spriteset(spriteset_rbd_Austria_kkStB_19, "gfx/Railbus-diesel/Austria_kkStB_19.p
 * Cargo capacity
 */
 
-switch(FEAT_TRAINS, SELF, switch_rbd_Austria_kkStB_19_capacity, cargo_classes) {
-	bitmask(CC_MAIL): 8;
-	bitmask(CC_ARMOURED): 4;
-	16;
-}
+ENGINECAPACITYSWITCH(VEHIDCODE)
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

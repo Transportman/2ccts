@@ -1,73 +1,71 @@
 /*
- *  Copyright (C) 2014 Transportman
+ *  Copyright (C) 2017 Transportman
  *  This file is part of the 2cc Trains In NML and is based on The Dutch Trainset 2.0 by Jasper Vries
  *  This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
  *  This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
  *  You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
-*/
+ */
 
-/*
-* ITEM
-*/
-
-item(FEAT_TRAINS, item_dmu_Iran_RAI_141_Pacer) {
-    property {
-        name: string(str_dmu_Iran_RAI_141_Pacer);
-        REGION(ASIA,NOREGION,NOCONCEPT)
-        
-        introduction_date: date(1984,1,1);
-        model_life: 15;
-        vehicle_life: 20;
-        LOADINGSPEEDDEF_COMMUTER
-        cost_factor: 23;
-        running_cost_factor: 19;
-        speed: 121 km/h;
-        power: 204 hp;
-        cargo_capacity: 47;
-        weight: 42 ton;
-        tractive_effort_coefficient: 0.21;
-        air_drag_coefficient: 0;
-        
-        reliability_decay: 20;
-        CARGODEF_PASSENGERS
-        cargo_age_period: 185;
-        misc_flags: bitmask(TRAIN_FLAG_MU,TRAIN_FLAG_2CC);
-        refit_cost: 0;
-        track_type: RAIL;
-		ai_special_flag: AI_FLAG_PASSENGER;
-        running_cost_base: RUNNING_COST_DIESEL;
-        engine_class: ENGINE_CLASS_DIESEL;
-        visual_effect_and_powered: visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
-
-        sprite_id: SPRITE_ID_NEW_TRAIN;
-        dual_headed: 1;
-        length: 6;
-        extra_power_per_wagon: 0;
-        bitmask_vehicle_info: 0;
+item(FEAT_TRAINS, ITEM ) {
+	property {
+		name: NAME;
+		VEHICLE_REGION
+		INTRODUCTIONDATEPROPERTY
+		model_life: MODEL_LIFE;
+		vehicle_life: VEHICLE_LIFE;
+		LOADINGSPEEDPROPERTY
+		PURCHASECOSTPROPERTY
+		RUNNINGCOSTPROPERTY
+		speed: SPEED km/h;
+		power: POWER hp;
+		cargo_capacity: HEAD_CAPACITY;
+		weight: WEIGHT ton;
+		tractive_effort_coefficient: TE_COEFFICIENT;
+		air_drag_coefficient: AIR_DRAG_COEFFICIENT;
+		
+		reliability_decay: RELIABILITY_DECAY;
+		CARGODEF
+		cargo_age_period: CARGO_AGE_PERIOD;
+		misc_flags: MISC_FLAGS;
+		refit_cost: REFIT_COST;
+		track_type: TRACK_TYPE;
+		AIFLAGPROPERTY
+		running_cost_base: RUNNING_COST_BASE;
+		engine_class: ENGINE_CLASS;
+		visual_effect_and_powered: VISUAL_FLAG;
+		
+		sprite_id: SPRITE_ID;
+		dual_headed: DUAL_HEADED;
+		length: LENGTH;
+		extra_power_per_wagon: POWER_PER_WAGON;
+		bitmask_vehicle_info: BITMASK_VEHICLE_INFO;
 	}
 	graphics {
 		purchase: spriteset_dmu_Iran_RAI_141_Pacer_purchase;
 		can_attach_wagon: switch_can_attach_vehicle;
-		cargo_capacity: switch_dmu_Iran_RAI_141_Pacer_capacity;
+		ENGINECAPACITYSWITCHCALL(VEHIDCODE)
 		visual_effect_and_powered: switch_dmu_Iran_RAI_141_Pacer_visual_effect_and_powered;
-		switch_dmu_Iran_RAI_141_Pacer_reversed;
-	}	
-	livery_override (item_mu_wagon_unpowered){
-		LOADINGSPEEDDEF_COMMUTER
-		running_cost_factor: 10;
-		power: 0;
-		weight: 21;
-		cargo_capacity: switch_dmu_Iran_RAI_141_Pacer_capacity;
-		length: 6;
+		//Add calls to defined switches below
+		RUNNINGCOSTENGINESWITCHCALL
+		PURCHASETEXTSWITCHCALL
+		default: switch_dmu_Iran_RAI_141_Pacer_reversed;
+	}
+	livery_override (item_mu_wagon_unpowered ) {
+		LOADINGSPEEDPROPERTY
+		RUNNINGCOSTMUWAGONUNPOWEREDSWITCHCALL
+		weight: WEIGHTMUWAGONUNPOWERED
+		WAGONCAPACITYSWITCHCALL(VEHIDCODE)
+		length: WAGON_LENGTH;
 		default: switch_dmu_Iran_RAI_141_Pacer_cargo_selection;
 	}
-	livery_override (item_mu_wagon_powered){
-		LOADINGSPEEDDEF_COMMUTER
-		running_cost_factor: 14;
-		power: 102;
-		weight: 32;
-		cargo_capacity: switch_dmu_Iran_RAI_141_Pacer_capacity;
-		length: 6;
+	livery_override (item_mu_wagon_powered ) {
+		LOADINGSPEEDPROPERTY
+		RUNNINGCOSTMUWAGONPOWEREDSWITCHCALL
+		power: POWERMUWAGONPOWERED
+		weight: WEIGHTMUWAGONPOWERED
+		WAGONCAPACITYSWITCHCALL(VEHIDCODE)
+		tractive_effort_coefficient: TEMUWAGONPOWERED
+		length: WAGON_LENGTH;
 		default: switch_dmu_Iran_RAI_141_Pacer_cargo_selection;
 	}
 }

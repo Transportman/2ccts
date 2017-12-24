@@ -1,0 +1,22 @@
+/*
+ *  Copyright (C) 2017 Transportman
+ *  This file is part of the 2cc Trains In NML and is based on The Dutch Trainset 2.0 by Jasper Vries
+ *  This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
+ *  This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+ *  You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+*/
+
+//this file is used to define default properties from one point, and also various values to resolve it
+
+#define DEFAULT_REFIT_COST 0
+#define DEFAULT_RELIABILITY_DECAY 20
+#define DEFAULT_CARGO_AGE_PERIOD 185
+#define DEFAULT_POWER_PER_WAGON 0
+#define DEFAULT_BITMASK 0
+#define DEFAULT_SPRITE_ID SPRITE_ID_NEW_TRAIN
+
+//AI flag
+#define AIFLAGPROPERTY ai_special_flag: PASSENGER ? AI_FLAG_PASSENGER : AI_FLAG_CARGO;
+
+//Introduction date
+#define INTRODUCTIONDATEPROPERTY introduction_date: date(INTRODUCTION_YEAR,1,1);

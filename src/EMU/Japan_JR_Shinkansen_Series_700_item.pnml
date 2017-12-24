@@ -1,75 +1,72 @@
 /*
- *  Copyright (C) 2014 Transportman
+ *  Copyright (C) 2017 Transportman
  *  This file is part of the 2cc Trains In NML and is based on The Dutch Trainset 2.0 by Jasper Vries
  *  This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
  *  This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
  *  You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
-*/
+ */
 
-/*
-* ITEM
-*/
-
-item(FEAT_TRAINS, item_emu_Japan_JR_Shinkansen_Series_700) {
-    property {
-        name: string(str_emu_Japan_JR_Shinkansen_Series_700);
-        REGION(ASIA,NOREGION,NOCONCEPT)
+item(FEAT_TRAINS, ITEM ) {
+	property {
+		name: NAME;
+		VEHICLE_REGION
+		INTRODUCTIONDATEPROPERTY
+		model_life: MODEL_LIFE;
+		vehicle_life: VEHICLE_LIFE;
+		LOADINGSPEEDPROPERTY
+		PURCHASECOSTPROPERTY
+		RUNNINGCOSTPROPERTY
+		speed: SPEED km/h;
+		power: POWER hp;
+		cargo_capacity: HEAD_CAPACITY;
+		weight: WEIGHT ton;
+		tractive_effort_coefficient: TE_COEFFICIENT;
+		air_drag_coefficient: AIR_DRAG_COEFFICIENT;
 		
-        introduction_date: date(1997,1,1);
-        model_life: VEHICLE_NEVER_EXPIRES;
-        vehicle_life: 25;
-        LOADINGSPEEDDEF_INTERCITY
-        cost_factor: 48;
-        running_cost_factor: 46;
-        speed: 270 km/h;
-        power: 1441 hp;
-        cargo_capacity: 83;
-        weight: 45 ton;
-        tractive_effort_coefficient: 0.56;
-        air_drag_coefficient: 0;
-        
-        reliability_decay: 20;
-        CARGODEF_PASSENGERS
-        cargo_age_period: 185;
-        misc_flags: bitmask(TRAIN_FLAG_MU,TRAIN_FLAG_2CC);
-        refit_cost: 0;
-        track_type: ELRL;
-		ai_special_flag: AI_FLAG_PASSENGER;
-        running_cost_base: RUNNING_COST_ELECTRIC;
-        engine_class: ENGINE_CLASS_ELECTRIC;
-        visual_effect_and_powered: visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
-
-        sprite_id: SPRITE_ID_NEW_TRAIN;
-        dual_headed: 1;
-        length: 8;
-        extra_power_per_wagon: 0;
-        bitmask_vehicle_info: 0;
+		reliability_decay: RELIABILITY_DECAY;
+		CARGODEF
+		cargo_age_period: CARGO_AGE_PERIOD;
+		misc_flags: MISC_FLAGS;
+		refit_cost: REFIT_COST;
+		track_type: TRACK_TYPE;
+		AIFLAGPROPERTY
+		running_cost_base: RUNNING_COST_BASE;
+		engine_class: ENGINE_CLASS;
+		visual_effect_and_powered: VISUAL_FLAG;
+		
+		sprite_id: SPRITE_ID;
+		dual_headed: DUAL_HEADED;
+		length: LENGTH;
+		extra_power_per_wagon: POWER_PER_WAGON;
+		bitmask_vehicle_info: BITMASK_VEHICLE_INFO;
 	}
 	graphics {
 		purchase: spriteset_emu_Japan_JR_Shinkansen_Series_700_purchase;
-		cargo_capacity: switch_emu_Japan_JR_Shinkansen_Series_700_capacity;
+		ENGINECAPACITYSWITCHCALL(VEHIDCODE)
 		can_attach_wagon: switch_can_attach_vehicle;
-		switch_emu_Japan_JR_Shinkansen_Series_700_reversed;
-	}	
-	livery_override (item_mu_wagon_unpowered){
-		LOADINGSPEEDDEF_INTERCITY
-		running_cost_factor: 23;
-		power: 0;
-		weight: 23;
-		cargo_capacity: switch_emu_Japan_JR_Shinkansen_Series_700_capacity;
-		length: 8;
+		//Add calls to defined switches below
+		RUNNINGCOSTENGINESWITCHCALL
+		PURCHASETEXTSWITCHCALL
+		default: switch_emu_Japan_JR_Shinkansen_Series_700_reversed;
+	}
+	livery_override (item_mu_wagon_unpowered ) {
+		LOADINGSPEEDPROPERTY
+		RUNNINGCOSTMUWAGONUNPOWEREDSWITCHCALL
+		weight: WEIGHTMUWAGONUNPOWERED
 		visual_effect_and_powered: switch_emu_Japan_JR_Shinkansen_Series_700_visual_effect_and_powered_position;
+		WAGONCAPACITYSWITCHCALL(VEHIDCODE)
+		length: WAGON_LENGTH;
 		default: switch_emu_Japan_JR_Shinkansen_Series_700_cargo_selection;
 	}
-	livery_override (item_mu_wagon_powered){
-		LOADINGSPEEDDEF_INTERCITY
-		running_cost_factor: 35;
-		power: 721;
-		weight: 34;
-		cargo_capacity: switch_emu_Japan_JR_Shinkansen_Series_700_capacity;
-        tractive_effort_coefficient: 125;
-		length: 8;
+	livery_override (item_mu_wagon_powered ) {
+		LOADINGSPEEDPROPERTY
+		RUNNINGCOSTMUWAGONPOWEREDSWITCHCALL
+		power: POWERMUWAGONPOWERED
+		weight: WEIGHTMUWAGONPOWERED
 		visual_effect_and_powered: switch_emu_Japan_JR_Shinkansen_Series_700_visual_effect_and_powered_position;
+		WAGONCAPACITYSWITCHCALL(VEHIDCODE)
+		tractive_effort_coefficient: TEMUWAGONPOWERED
+		length: WAGON_LENGTH;
 		default: switch_emu_Japan_JR_Shinkansen_Series_700_cargo_selection;
 	}
 }

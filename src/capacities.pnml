@@ -1,0 +1,37 @@
+/*
+ *  Copyright (C) 2017 Transportman
+ *  This file is part of the 2cc Trains In NML and is based on The Dutch Trainset 2.0 by Jasper Vries
+ *  This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
+ *  This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+ *  You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+*/
+
+#define ENGINECAPACITYSWITCHNAME(VEHIDCODE) EXPANDEDENGINECAPACITYSWITCHNAME(VEHIDCODE)
+#define ENGINECAPACITYSWITCHCALL(VEHIDCODE) EXPANDEDENGINECAPACITYSWITCHCALL(VEHIDCODE)
+#define ENGINECAPACITYSWITCH(VEHIDCODE) EXPANDEDENGINECAPACITYSWITCH(VEHIDCODE)
+
+
+#define EXPANDEDENGINECAPACITYSWITCHNAME(VEHIDCODE) switch_ ## VEHIDCODE ## _capacity_engine
+#define EXPANDEDENGINECAPACITYSWITCHCALL(VEHIDCODE) cargo_capacity: switch_ ## VEHIDCODE ## _capacity_engine;
+
+#define EXPANDEDENGINECAPACITYSWITCH(VEHIDCODE) \
+switch(FEAT_TRAINS, SELF, switch_ ## VEHIDCODE ## _capacity_engine, cargo_classes) { \
+	bitmask(CC_MAIL): HEAD_CAPACITY/2; \
+	bitmask(CC_ARMOURED): HEAD_CAPACITY/4; \
+	HEAD_CAPACITY; \
+}
+
+#define WAGONCAPACITYSWITCHNAME(VEHIDCODE) EXPANDEDWAGONCAPACITYSWITCHNAME(VEHIDCODE)
+#define WAGONCAPACITYSWITCHCALL(VEHIDCODE) EXPANDEDWAGONCAPACITYSWITCHCALL(VEHIDCODE)
+
+#define WAGONCAPACITYSWITCH(VEHIDCODE) EXPANDEDWAGONCAPACITYSWITCH(VEHIDCODE)
+
+#define EXPANDEDWAGONCAPACITYSWITCHNAME(VEHIDCODE) switch_ ## VEHIDCODE ## _capacity_wagon
+#define EXPANDEDWAGONCAPACITYSWITCHCALL(VEHIDCODE) cargo_capacity: switch_ ## VEHIDCODE ## _capacity_wagon;
+
+#define EXPANDEDWAGONCAPACITYSWITCH(VEHIDCODE) \
+switch(FEAT_TRAINS, SELF, switch_ ## VEHIDCODE ## _capacity_wagon, cargo_classes) { \
+	bitmask(CC_MAIL): HEAD_CAPACITY/2; \
+	bitmask(CC_ARMOURED): HEAD_CAPACITY/4; \
+	HEAD_CAPACITY; \
+}

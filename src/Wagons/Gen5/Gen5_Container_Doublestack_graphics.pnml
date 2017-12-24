@@ -1,5 +1,5 @@
 /*
- *  Copyright (C) 2014 Transportman
+ *  Copyright (C) 2017 Transportman
  *  This file is part of the 2cc Trains In NML
  *  This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
  *  This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
@@ -218,3 +218,9 @@ switch(FEAT_TRAINS, SELF, switch_wagon_Gen5_Container_Doublestack_cargo_selectio
 	FISH: switch_wagon_Gen5_Container_Doublestack_Refrigerated_livery;
 	switch_wagon_Gen5_Container_Doublestack_Container_livery; //PAPR, TOYS, BATT, SWET, BUBL, BDMT, BRCK, CERA, CERE, COPR, ENSP, FERT, FICR, FMSP, GLAS, JAVA, MNSP, RCYC, WDPR, WOOL, URAN
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

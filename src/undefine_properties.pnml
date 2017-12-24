@@ -1,0 +1,41 @@
+/*
+ *  Copyright (C) 2017 Transportman
+ *  This file is part of the 2cc Trains In NML and is based on The Dutch Trainset 2.0 by Jasper Vries
+ *  This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
+ *  This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+ *  You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+*/
+
+//this file is used to undefine vehicle property defines to silence warnings and should be included in every property file
+#undef VEHIDCODE 
+#undef ITEM 
+#undef NAME 
+#undef VEHICLE_REGION 
+#undef INTRODUCTION_YEAR 
+#undef MODEL_LIFE 
+#undef VEHICLE_LIFE 
+#undef LOADINGSPEED 
+#undef CARGODEF 
+#undef SPEED 
+#undef POWER 
+#undef WEIGHT 
+#undef TE_COEFFICIENT 
+#undef AIR_DRAG_COEFFICIENT 
+#undef LENGTH 
+#undef ACTUAL_LENGTH 
+#undef WAGON_LENGTH 
+#undef HEAD_CAPACITY 
+#undef WAGON_CAPACITY 
+#undef DUAL_HEADED 
+#undef PASSENGER 
+#undef MISC_FLAGS 
+#undef VISUAL_FLAG 
+#undef TRACK_TYPE 
+#undef ENGINE_CLASS 
+#undef RUNNING_COST_BASE 
+#undef REFIT_COST 
+#undef RELIABILITY_DECAY 
+#undef CARGO_AGE_PERIOD 
+#undef POWER_PER_WAGON 
+#undef BITMASK_VEHICLE_INFO 
+#undef SPRITE_ID

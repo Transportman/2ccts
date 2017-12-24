@@ -1,5 +1,5 @@
 /*
- *  Copyright (C) 2014 Transportman
+ *  Copyright (C) 2017 Transportman
  *  This file is part of the 2cc Trains In NML
  *  This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
  *  This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
@@ -27,9 +27,11 @@ spriteset(spriteset_rbe_Germany_Buckower_Kleinbahn_Nr_1_3, "gfx/Railbus-electric
 * Cargo capacity
 */
 
-switch(FEAT_TRAINS, SELF, switch_rbe_Germany_Buckower_Kleinbahn_Nr_1_3_capacity, cargo_classes) {
-	bitmask(CC_MAIL): 25;
-	bitmask(CC_ARMOURED): 13;
-	50;
-}
+ENGINECAPACITYSWITCH(VEHIDCODE)
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH
 	

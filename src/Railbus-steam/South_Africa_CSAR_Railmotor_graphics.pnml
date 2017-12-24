@@ -1,5 +1,5 @@
 /*
- *  Copyright (C) 2014 Transportman
+ *  Copyright (C) 2017 Transportman
  *  This file is part of the 2cc Trains In NML
  *  This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
  *  This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
@@ -56,14 +56,10 @@ switch(FEAT_TRAINS, SELF, switch_rbs_South_Africa_CSAR_Railmotor_length, positio
 * Cargo capacity
 */
 
-switch(FEAT_TRAINS, SELF, switch_rbs_South_Africa_CSAR_Railmotor_capacity, cargo_classes) {
-	bitmask(CC_MAIL): 25;
-	bitmask(CC_ARMOURED): 13;
-	50;
-}
+ENGINECAPACITYSWITCH(VEHIDCODE)
 
 switch(FEAT_TRAINS, SELF, switch_rbs_South_Africa_CSAR_Railmotor_capacity_position, position_in_vehid_chain % 2) {
-	0: switch_rbs_South_Africa_CSAR_Railmotor_capacity;
+	0: ENGINECAPACITYSWITCHNAME(VEHIDCODE);
 	0;
 }
 
@@ -75,3 +71,9 @@ switch(FEAT_TRAINS, SELF, switch_rbs_South_Africa_CSAR_Railmotor_articulated, ex
 	1: return item_rbs_South_Africa_CSAR_Railmotor;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

@@ -63,8 +63,8 @@ Cost Parameters
 	1/16x, 1/8x, 1/4x, 1/2x, 1x (default), 2x, 4x, 8x, 16x
 	
 Concept Parameter
-	This parameter is currently not active, but will allow you to disable conceptual
-	vehicles when implemented. By default the conceptual vehicles are enabled
+	This parameter allows you to disable conceptual	vehicles. 
+	By default the conceptual vehicles are enabled.
 	
 Regional Parameters
 	These parameters allow you to enable/disable vehicles from certain regions. The

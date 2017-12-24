@@ -1,5 +1,5 @@
 /*
- *  Copyright (C) 2014 Transportman
+ *  Copyright (C) 2017 Transportman
  *  This file is part of the 2cc Trains In NML
  *  This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
  *  This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
@@ -55,14 +55,20 @@ switch(FEAT_TRAINS, SELF, switch_emu_Romania_CFR_58_visual_effect_and_powered, v
 * Cargo capacity
 */
 
-switch(FEAT_TRAINS, SELF, switch_emu_Romania_CFR_58_capacity, cargo_classes) {
-	bitmask(CC_MAIL): 50;
-	bitmask(CC_ARMOURED): 25;
-	100;
-}
+ENGINECAPACITYSWITCH(VEHIDCODE)
+
+WAGONCAPACITYSWITCH(VEHIDCODE)
 
 //Graphics for the unit wagon based on cargo class
 switch(FEAT_TRAINS, SELF, switch_emu_Romania_CFR_58_cargo_selection, cargo_classes){
 	bitmask(CC_PASSENGERS): spriteset_emu_Romania_CFR_58_middlepass;
 	spriteset_emu_Romania_CFR_58_middlemail;
 }
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+RUNNINGCOSTMUWAGONSWITCH
+
+PURCHASETEXTSWITCH
