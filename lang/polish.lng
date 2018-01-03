@@ -58,6 +58,11 @@ STR_PARAM_LOADINGSPEED_ULTRA                    :Prawie natychmiastowa
 
 #VEHICLE NAMES
 #Railbus-steam
+str_rbs_Austria_NOLB_1          :NOLB 1 (parowy wagon motorowy)
+str_rbs_Italy_FS_86                     :FS 86 (parowy wagon motorowy)
+str_rbs_Switzerland_UeBB_Czm_1_2 :UeBB Czm 1/2 (parowy wagon motorowy)
+str_rbs_Germany_Bavarian_MCCi :K.Bay.Sts.B. MCCi (parowy wagon motorowy)
+str_rbs_Austria_kkStB_4_0       :kkStB 4.0 (parowy wagon motorowy)
 
 #Railbus-diesel
 str_rbd_Germany_DB_VT_133                                               :DB VT 133 'Wismar railbus' (wagon motorowy)
@@ -91,8 +96,24 @@ str_rbd_Czech_Republic_CD_840 :CD 840 (wagon motorowy)
 str_rbd_Italy_FS_ALn_668 :FS ALn 668 (wagon motorowy)
 
 #Railbus-electric
+str_rbe_Switzerland_AB_CFe_3_3          :AB CFe 3/3 (elektryczny wagon motorowy)
+str_rbe_Germany_DB_ET_85                                :DB ET 85 / DB 485 (elektryczny wagon motorowy)
+str_rbe_Italy_FS_ALe_840                        :FS ALe 840 (elektryczny wagon motorowy)
+str_rbe_Czech_Republic_CD_M400 :CD M400 (elektryczny wagon motorowy)
+str_rbe_Switzerland_TPC_BVB_Be_2_2 :TPC BVB Be 2/2 (elektryczny wagon motorowy)
+str_rbe_Spain_Ferrocarril_de_Soller_1_3 :Ferrocarril de Soller 1-3 (elektryczny wagon motorowy)
+str_rbe_Slovakia_ZSSK_490 :ZSSK 49.0 (elektryczny wagon motorowy)
 str_rbe_Italy_FS_E623 :FS E.623 (elektryczny wagon motorowy)
+str_rbe_Sweden_SJ_X16 :SJ X16 (elektryczny wagon motorowy)
+str_rbe_France_SNCF_Z_7100 :SNCF Z 7100 (elektryczny wagon motorowy)
 str_rbe_USA_Pennsylvania_Railroad_Silverliner_II :PRR Silverliner II (elektryczny wagon motorowy)
+str_rbe_Italy_FG_ALe_80 :FG ALe 80 (elektryczny wagon motorowy)
+str_rbe_Austria_OBB_4855 :OBB 4855 (elektryczny wagon motorowy)
+str_rbe_Switzerland_MVR_Beh_2_4 :MVR Beh 2/4 (elektryczny wagon motorowy)
+str_rbe_Austria_MBS_ET_10109 :MBS ET 10.109 (elektryczny wagon motorowy)
+str_rbe_Poland_PKP_EN81 :PKP EN81 (elektryczny wagon motorowy)
+str_rbe_Germany_Buckower_Kleinbahn_Nr_1_3 :Buckower Kleinbahn Nr. 1-3 (elektryczny wagon motorowy)
+str_rbe_Germany_DB_4792: DB 479.2 (elektryczny wagon motorowy)
 
 #Steam
 str_steam_Belgium_Le_Belge                      :Le Belge (Parowóz)
@@ -161,6 +182,8 @@ str_steam_Egypt_ENR_1100 :ENR 1100 (Parowóz)
 str_steam_Japan_JNR_Class_E10 :JNR E10 (Parowóz)
 str_steam_UK_GWR_1600_Class :GWR 1600 (Parowóz)
 str_steam_Australia_Victorian_Railways_R_Class :Victorian Railways R (Parowóz)
+str_steam_Germany_DB_9977_79 :DB 99.77-79 (Parowóz)
+str_steam_Germany_DB_18_201 :DB 18 201 (Parowóz)
 str_steam_New_Zealand_NZR_WAB :NZR WAB (Parowóz)
 str_steam_Australia_NSWGR_D57 :NSWGR D57 (Parowóz)
 str_steam_Australia_South_Australian_Railways_520 :South Australian Railways 520 (Parowóz)
@@ -197,6 +220,8 @@ str_steam_Czech_Republic_CD_4590 :CD 459.0 (Parowóz)
 str_steam_Poland_PKP_OI49 :PKP OI49 (Parowóz)
 str_steam_Austria_KKStB_310 :KKStB 310 (Parowóz)
 str_steam_USA_Southern_Pacific_GS_4_Daylight :Southern Pacific GS-4 'Daylight' (Parowóz)
+str_steam_Ireland_GS_WR_101 :GS&WR 101 (Parowóz)
+str_steam_Belgium_NMBS_SNCB_Type_29 :NMBS/SNCB Type 29 (Parowóz)
 
 #Diesel
 str_diesel_Germany_DB_Kof_II                                                    :Kof II / DB 322 (Spalinowóz)
@@ -323,6 +348,7 @@ str_diesel_France_SNCF_BB_67400 :SNCF BB 67400 (Spalinowóz)
 str_diesel_Netherlands_NS_6400 :NS 6400 (Spalinowóz)
 str_diesel_Spain_RENFE_308 :RENFE 308 (Spalinowóz)
 str_diesel_Norway_CargoNet_312 :CargoNet 312 (Spalinowóz)
+str_diesel_UK_BR_68 :BR 68 (Spalinowóz)
 
 #Electric
 str_electric_Switzerland_RhB_DE_2_2                     :RhB De 2/2 (Elektrowóz)
@@ -437,6 +463,7 @@ str_electric_Ukraine_UZ_ChS7 :UZ ChS7 (Elektrowóz)
 str_electric_Poland_PKP_EP09 :PKP EP09 (Elektrowóz)
 str_electric_Slovakia_ZSSK_162 :ZSSK 162 (Elektrowóz)
 str_electric_Ukraine_UZ_DE1 :UZ DE1 (Elektrowóz)
+str_electric_UK_BR_85 :BR 85 (Elektrowóz)
 str_electric_Norway_NSB_EL17 :NSB EL17 (Elektrowóz)
 str_electric_Russia_RZD_VL11 :RZD VL11 (Elektrowóz)
 str_electric_Germany_Prussian_ES_6 :K.P.St.E. ES 6 (Elektrowóz)
@@ -448,8 +475,10 @@ str_dmu_Germany_DB_VT_085                                       :DB VT 08.5 (SZT
 str_dmu_Germany_DB_VT_115                                       :DB VT11.5 / DB 601 'TEE' (SZT)
 str_dmu_Netherlands_NS_Plan_U_DE_III            :NS Plan U DE-III (SZT)
 str_dmu_Serbia_ZS_811                                           :ZS 811 (SZT)
+str_dmu_UK_BR_43_IC125                                          :BR 43 IC125 (SZT)
 str_dmu_Sweden_SJ_Y2                                            :SJ Y2 (SZT)
 str_dmu_Spain_RENFE_594_TRD                             :RENFE 594 TRD (SZT)
+str_dmu_UK_BR_168                                                       :BR 168 (SZT)
 str_dmu_Germany_DB_612_Regio_Swinger            :DB 612 'Regio Swinger' (SZT)
 str_dmu_Germany_DB_642_Desiro                           :DB 642 'Desiro' (SZT)
 str_dmu_Denmark_Arriva_Lint_41                          :Arriva Lint 41 (SZT)
@@ -459,7 +488,9 @@ str_dmu_Denmark_DSB_IC4                                         :DSB IC4 (SZT)
 str_dmu_Croatia_HZ_7022                                         :HZ 7022 (SZT)
 str_dmu_Turkey_TCDD_MT_5500 :TCDD MT 5500 (SZT)
 str_dmu_Czech_Republic_CD_814 :CD 814 (SZT)
+str_dmu_UK_BR_150_0_Sprinter :BR 150/0 'Sprinter' (SZT)
 str_dmu_Slovakia_ZSSK_861 :ZSSK 861 (SZT)
+str_dmu_UK_BR_251_Blue_Pullman :BR 251 'Blue Pullman' (SZT)
 str_dmu_France_SNCF_X_4630 :SNCF X 4630 (SZT)
 str_dmu_France_SNCF_T_2000 :SNCF T 2000 (SZT)
 str_dmu_Netherlands_NS_DH2 :NS DH2 (SZT)
@@ -604,17 +635,33 @@ str_wagon_Gen3_Silo_Type1                               :3-cia generacja wagonu 
 str_wagon_Gen3_Silo_Type2                               :3-cia generacja wagonu zbiornikowego (silos typ 2)
 str_wagon_Gen3_Hopper                                   :3-cia generacja wagonu samowyładowczego
 str_wagon_Gen4_Flatcar                                  :4-ta generacja platformy
+str_wagon_Gen4_Heavy_Flatcar                    :4-ta generacja platformy do ciężkich ładunków
 str_wagon_Gen4_Boxcar_Type1                             :4-ta generacja wagonu krytego (typ 1)
 str_wagon_Gen4_Boxcar_Type2                             :4-ta generacja wagonu krytego (typ 2)
+str_wagon_Gen4_Tanker                                   :4-ta generacja wagonu cysterny
 str_wagon_Gen4_Gondola                                  :4-ta generacja wagonu gondoli
+str_wagon_Gen4_Silo_Type1                               :4-ta generacja wagonu zbiornikowego (typ 1)
+str_wagon_Gen4_Silo_Type2                               :4-ta generacja wagonu zbiornikowego (typ 2)
+str_wagon_Gen4_Hopper_Type1                             :4-ta generacja wagonu samowyładowczego (typ 1)
+str_wagon_Gen4_Hopper_Type2                             :4-ta generacja wagonu samowyładowczego (typ 2)
 str_wagon_Gen4_Car_Transporter                  :4-ta generacja wagonu do transportu aut
 str_wagon_Gen4_Container_Carrier                :4-ta generacja wagonu kontenerowego
 str_wagon_Gen4_Centerbeam                               :4-ta generacja platformy dwudzielnej
 str_wagon_Gen5_Flatcar                                  :5-ta generacja platformy
+str_wagon_Gen5_Heavy_Flatcar                    :5-ta generacja platformy do ciężkich ładunków
+str_wagon_Gen5_Boxcar_Type1                             :5-ta generacja wagonu krytego (typ 1)
+str_wagon_Gen5_Boxcar_Type2                             :5-ta generacja wagonu krytego (typ 2)
+str_wagon_Gen5_Tanker                                   :5-ta generacja wagonu cysterny
 str_wagon_Gen5_Gondola                                  :5-ta generacja wagonu gondoli
+str_wagon_Gen5_Silo_Type1                               :5-ta generacja wagonu zbiornikowego (typ 1)
 str_wagon_Gen5_Silo_Type2                               :5-ta generacja wagonu zbiornikowego (silos typ 2)
+str_wagon_Gen5_Hopper_Type1                             :5-ta generacja wagonu samowyładowczego (typ 1)
+str_wagon_Gen5_Hopper_Type2                             :5-ta generacja wagonu samowyładowczego (typ 2)
 str_wagon_Gen5_Car_Transporter                  :5-ta generacja wagonu do transportu aut
+str_wagon_Gen5_Container_Carrier                :5-ta generacja wagonu kontenerowego
 str_wagon_Gen5_Centerbeam                               :5-ta generacja platformy dwudzielnej
+str_wagon_Gen5_Container_Doublestack    :5-ta generacja piętrowego wagonu kontenerowego
+str_wagon_Gen5_Superheavy_Flatcar               :5-ta generacja platformy do bardzo ciężkich ładunków
 
 
 #coaches
