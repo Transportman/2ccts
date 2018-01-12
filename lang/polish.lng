@@ -66,6 +66,7 @@ str_rbs_Austria_kkStB_4_0       :kkStB 4.0 (parowy wagon motorowy)
 
 #Railbus-diesel
 str_rbd_Germany_DB_VT_133                                               :DB VT 133 'Wismar railbus' (wagon motorowy)
+str_rbd_United_Kingdom_GWR_AEC_Railcar                  :GWR AEC Railcar (wagon motorowy)
 str_rbd_Austria_OBB_5042                                                :OBB 5042 (wagon motorowy)
 str_rbd_Portugal_CP_0100                                                :CP 0100 (wagon motorowy)
 str_rbd_Germany_DB_VT_989                                               :DB VT 98.9 / DB 798 'Uerdingen railbus' (wagon motorowy)
@@ -75,6 +76,7 @@ str_rbd_Finland_VR_Dm7                                                  :VR Dm7 
 str_rbd_Russia_RZD_ACh2                                                 :RZD ACh2 (wagon motorowy)
 str_rbd_Netherlands_NS_DH1                                              :NS DH1 (wagon motorowy)
 str_rbd_Austria_OBB_5047                                                :OBB 5047 (wagon motorowy)
+str_rbd_United_Kingdom_BR_153_Super_Sprinter    :BR 153 'Super Sprinter' (wagon motorowy)
 str_rbd_Czech_Republic_CD_809                                   :CD 809 (wagon motorowy)
 str_rbd_Germany_DB_670                                                  :DB 670 (wagon motorowy)
 str_rbd_Lithuania_Lithuanian_Railways_AR2               :Lithuanian Railways AR2 (wagon motorowy)
@@ -731,6 +733,8 @@ str_mu_cargo_wagon_powered              :Wagon towarowego Zespołu Trakcyjnego (
 #Obsolete vehicles
 
 #PURCHASE MENU TEXTS
+str_unit_wagon_passenger        :Wagon pasażerski przeznaczony TYLKO do zespołu trakcyjnego
+str_unit_wagon_cargo            :Wagon towarowy przeznaczony TYLKO do zespołu trakcyjnego
 
 #Can attach vehicle texts
 str_cannot_attach_wagon_to_MU                                   :Nie można dołączyć zwykłego wagonu do Zespołu Trakcyjnego (użyj ogólnego wagonu doczepnego)
