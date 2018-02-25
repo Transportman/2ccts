@@ -43,6 +43,7 @@ item(FEAT_TRAINS, ITEM ) {
 	}
 	graphics {
 		purchase: spriteset_diesel_USA_UP_EMD_E8_purchase;
+		visual_effect_and_powered: switch_diesel_USA_UP_EMD_E8_visual_effect;
 		can_attach_wagon: switch_can_attach_vehicle;
 		//Add calls to defined switches below
 		RUNNINGCOSTENGINESWITCHCALL

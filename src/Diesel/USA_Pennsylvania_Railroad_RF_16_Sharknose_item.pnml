@@ -42,7 +42,8 @@ item(FEAT_TRAINS, ITEM ) {
 		bitmask_vehicle_info: BITMASK_VEHICLE_INFO;
 	}
 	graphics {
-		purchase: spriteset_diesel_USA_Pennsylvania_Railroad_RF_16_Sharknose_purchase;
+		purchase: spriteset_diesel_USA_Pennsylvania_Railroad_RF_16_Sharknose_purchase;		
+		visual_effect_and_powered: switch_diesel_USA_Pennsylvania_Railroad_RF_16_Sharknose_visual_effect;
 		can_attach_wagon: switch_can_attach_vehicle;
 		//Add calls to defined switches below
 		RUNNINGCOSTENGINESWITCHCALL

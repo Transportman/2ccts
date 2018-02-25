@@ -11,7 +11,7 @@
 */
 
 spriteset(spriteset_diesel_USA_Pennsylvania_Railroad_RF_16_Sharknose_purchase, "gfx/Diesel/USA_Pennsylvania_Railroad_RF_16_Sharknose.png") {
-	template_purchase(1, 64)
+	template_purchase(1, 128)
 }
 
 /*
@@ -19,17 +19,37 @@ spriteset(spriteset_diesel_USA_Pennsylvania_Railroad_RF_16_Sharknose_purchase, "
 */
 
 //Engine
-spriteset(spriteset_diesel_USA_Pennsylvania_Railroad_RF_16_Sharknose_engine, "gfx/Diesel/USA_Pennsylvania_Railroad_RF_16_Sharknose.png") {
+spriteset(spriteset_diesel_USA_Pennsylvania_Railroad_RF_16_Sharknose_A_Front, "gfx/Diesel/USA_Pennsylvania_Railroad_RF_16_Sharknose.png") {
 	template_2cc_engines_general(1, 1)
 }
-//Tender
-spriteset(spriteset_diesel_USA_Pennsylvania_Railroad_RF_16_Sharknose_B, "gfx/Diesel/USA_Pennsylvania_Railroad_RF_16_Sharknose.png") {
+
+//B-unit Front
+spriteset(spriteset_diesel_USA_Pennsylvania_Railroad_RF_16_Sharknose_B_Front, "gfx/Diesel/USA_Pennsylvania_Railroad_RF_16_Sharknose.png") {
 	template_2cc_engines_general(1, 32)
 }
 
-switch(FEAT_TRAINS, SELF, switch_diesel_USA_Pennsylvania_Railroad_RF_16_Sharknose_position, position_in_vehid_chain % 2) {
-	0: spriteset_diesel_USA_Pennsylvania_Railroad_RF_16_Sharknose_engine;
-	spriteset_diesel_USA_Pennsylvania_Railroad_RF_16_Sharknose_B;
+//B-unit Back
+spriteset(spriteset_diesel_USA_Pennsylvania_Railroad_RF_16_Sharknose_B_Back, "gfx/Diesel/USA_Pennsylvania_Railroad_RF_16_Sharknose.png") {
+	template_2cc_engines_general(1, 64)
+}
+
+//A-unit Back
+spriteset(spriteset_diesel_USA_Pennsylvania_Railroad_RF_16_Sharknose_A_Back, "gfx/Diesel/USA_Pennsylvania_Railroad_RF_16_Sharknose.png") {
+	template_2cc_engines_general(1, 96)
+}
+
+//Switch for B-unit
+switch(FEAT_TRAINS, SELF, switch_diesel_USA_Pennsylvania_Railroad_RF_16_Sharknose_position, position_in_vehid_chain % 4) {
+	1: spriteset_diesel_USA_Pennsylvania_Railroad_RF_16_Sharknose_B_Front;
+	2: spriteset_diesel_USA_Pennsylvania_Railroad_RF_16_Sharknose_B_Back;
+	3: spriteset_diesel_USA_Pennsylvania_Railroad_RF_16_Sharknose_A_Back;
+	spriteset_diesel_USA_Pennsylvania_Railroad_RF_16_Sharknose_A_Front;
+}
+
+//Switch for visual effect
+switch(FEAT_TRAINS, SELF, switch_diesel_USA_Pennsylvania_Railroad_RF_16_Sharknose_visual_effect, position_in_vehid_chain % 4) {
+	2..3: visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
+	visual_effect_and_powered(VISUAL_EFFECT_DIESEL, -3, DISABLE_WAGON_POWER);
 }
 
 //Add defined switches

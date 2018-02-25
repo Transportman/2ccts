@@ -11,7 +11,7 @@
 */
 
 spriteset(spriteset_diesel_USA_UP_EMD_E8_purchase, "gfx/Diesel/USA_UP_EMD_E8.png") {
-	template_purchase(1, 64)
+	template_purchase(1, 127)
 }
 
 /*
@@ -19,19 +19,37 @@ spriteset(spriteset_diesel_USA_UP_EMD_E8_purchase, "gfx/Diesel/USA_UP_EMD_E8.png
 */
 
 //Engine
-spriteset(spriteset_diesel_USA_UP_EMD_E8_engine, "gfx/Diesel/USA_UP_EMD_E8.png") {
+spriteset(spriteset_diesel_USA_UP_EMD_E8_A_Front, "gfx/Diesel/USA_UP_EMD_E8.png") {
 	template_2cc_engines_general(1, 1)
 }
 
-//B-unit
-spriteset(spriteset_diesel_USA_UP_EMD_E8_B, "gfx/Diesel/USA_UP_EMD_E8.png") {
+//B-unit Front
+spriteset(spriteset_diesel_USA_UP_EMD_E8_B_Front, "gfx/Diesel/USA_UP_EMD_E8.png") {
 	template_2cc_engines_general(1, 32)
 }
 
+//B-unit Back
+spriteset(spriteset_diesel_USA_UP_EMD_E8_B_Back, "gfx/Diesel/USA_UP_EMD_E8.png") {
+	template_2cc_engines_general(1, 64)
+}
+
+//A-unit Back
+spriteset(spriteset_diesel_USA_UP_EMD_E8_A_Back, "gfx/Diesel/USA_UP_EMD_E8.png") {
+	template_2cc_engines_general(1, 95)
+}
+
 //Switch for B-unit
-switch(FEAT_TRAINS, SELF, switch_diesel_USA_UP_EMD_E8_position, position_in_vehid_chain % 2) {
-	1: spriteset_diesel_USA_UP_EMD_E8_B;
-	spriteset_diesel_USA_UP_EMD_E8_engine;
+switch(FEAT_TRAINS, SELF, switch_diesel_USA_UP_EMD_E8_position, position_in_vehid_chain % 4) {
+	1: spriteset_diesel_USA_UP_EMD_E8_B_Front;
+	2: spriteset_diesel_USA_UP_EMD_E8_B_Back;
+	3: spriteset_diesel_USA_UP_EMD_E8_A_Back;
+	spriteset_diesel_USA_UP_EMD_E8_A_Front;
+}
+
+//Switch for visual effect
+switch(FEAT_TRAINS, SELF, switch_diesel_USA_UP_EMD_E8_visual_effect, position_in_vehid_chain % 4) {
+	2..3: visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
+	visual_effect_and_powered(VISUAL_EFFECT_DIESEL, -3, DISABLE_WAGON_POWER);
 }
 
 //Add defined switches

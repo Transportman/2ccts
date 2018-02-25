@@ -11,36 +11,41 @@
 */
 
 spriteset(spriteset_diesel_Australia_Pacific_National_XR_XRB_purchase, "gfx/Diesel/Australia_Pacific_National_XR_XRB.png") {
-	template_purchase(1, 64)
+	template_purchase(1, 128)
 }
 
-/*
-* VEHICLE
-*/
-
 //Engine
-spriteset(spriteset_diesel_Australia_Pacific_National_XR_XRB_engine, "gfx/Diesel/Australia_Pacific_National_XR_XRB.png") {
+spriteset(spriteset_diesel_Australia_Pacific_National_XR_XRB_A_Front, "gfx/Diesel/Australia_Pacific_National_XR_XRB.png") {
 	template_2cc_engines_general(1, 1)
 }
 
-//B-unit
-spriteset(spriteset_diesel_Australia_Pacific_National_XR_XRB_B, "gfx/Diesel/Australia_Pacific_National_XR_XRB.png") {
+//B-unit Front
+spriteset(spriteset_diesel_Australia_Pacific_National_XR_XRB_B_Front, "gfx/Diesel/Australia_Pacific_National_XR_XRB.png") {
 	template_2cc_engines_general(1, 32)
 }
 
-//Switch for B-unit
-switch(FEAT_TRAINS, SELF, switch_diesel_Australia_Pacific_National_XR_XRB_position, position_in_vehid_chain % 2) {
-	1: spriteset_diesel_Australia_Pacific_National_XR_XRB_B;
-	spriteset_diesel_Australia_Pacific_National_XR_XRB_engine;
+//B-unit Back
+spriteset(spriteset_diesel_Australia_Pacific_National_XR_XRB_B_Back, "gfx/Diesel/Australia_Pacific_National_XR_XRB.png") {
+	template_2cc_engines_general(1, 64)
 }
 
-/*
-* Visual effect
-*/
+//A-unit Back
+spriteset(spriteset_diesel_Australia_Pacific_National_XR_XRB_A_Back, "gfx/Diesel/Australia_Pacific_National_XR_XRB.png") {
+	template_2cc_engines_general(1, 96)
+}
 
-switch(FEAT_TRAINS, SELF, switch_diesel_Australia_Pacific_National_XR_XRB_visual_effect, position_in_vehid_chain % 2) {
-	0: return visual_effect_and_powered(VISUAL_EFFECT_DIESEL, -3, DISABLE_WAGON_POWER);
-	return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
+//Switch for B-unit
+switch(FEAT_TRAINS, SELF, switch_diesel_Australia_Pacific_National_XR_XRB_position, position_in_vehid_chain % 4) {
+	1: spriteset_diesel_Australia_Pacific_National_XR_XRB_B_Front;
+	2: spriteset_diesel_Australia_Pacific_National_XR_XRB_B_Back;
+	3: spriteset_diesel_Australia_Pacific_National_XR_XRB_A_Back;
+	spriteset_diesel_Australia_Pacific_National_XR_XRB_A_Front;
+}
+
+//Switch for visual effect
+switch(FEAT_TRAINS, SELF, switch_diesel_Australia_Pacific_National_XR_XRB_visual_effect, position_in_vehid_chain % 4) {
+	2..3: visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
+	visual_effect_and_powered(VISUAL_EFFECT_DIESEL, -3, DISABLE_WAGON_POWER);
 }
 
 //Add defined switches

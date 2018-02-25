@@ -11,7 +11,7 @@
 */
 
 spriteset(spriteset_diesel_Canada_VIA_Rail_FP9_purchase, "gfx/Diesel/Canada_VIA_Rail_FP9.png") {
-	template_purchase(1, 64)
+	template_purchase(1, 128)
 }
 
 /*
@@ -19,17 +19,37 @@ spriteset(spriteset_diesel_Canada_VIA_Rail_FP9_purchase, "gfx/Diesel/Canada_VIA_
 */
 
 //Engine
-spriteset(spriteset_diesel_Canada_VIA_Rail_FP9_engine, "gfx/Diesel/Canada_VIA_Rail_FP9.png") {
+spriteset(spriteset_diesel_Canada_VIA_Rail_FP9_A_Front, "gfx/Diesel/Canada_VIA_Rail_FP9.png") {
 	template_2cc_engines_general(1, 1)
 }
-//Tender
-spriteset(spriteset_diesel_Canada_VIA_Rail_FP9_tender, "gfx/Diesel/Canada_VIA_Rail_FP9.png") {
+
+//B-unit Front
+spriteset(spriteset_diesel_Canada_VIA_Rail_FP9_B_Front, "gfx/Diesel/Canada_VIA_Rail_FP9.png") {
 	template_2cc_engines_general(1, 32)
 }
 
-switch(FEAT_TRAINS, SELF, switch_diesel_Canada_VIA_Rail_FP9_position, position_in_vehid_chain % 2) {
-	0: spriteset_diesel_Canada_VIA_Rail_FP9_engine;
-	spriteset_diesel_Canada_VIA_Rail_FP9_tender;
+//B-unit Back
+spriteset(spriteset_diesel_Canada_VIA_Rail_FP9_B_Back, "gfx/Diesel/Canada_VIA_Rail_FP9.png") {
+	template_2cc_engines_general(1, 64)
+}
+
+//A-unit Back
+spriteset(spriteset_diesel_Canada_VIA_Rail_FP9_A_Back, "gfx/Diesel/Canada_VIA_Rail_FP9.png") {
+	template_2cc_engines_general(1, 95)
+}
+
+//Switch for B-unit
+switch(FEAT_TRAINS, SELF, switch_diesel_Canada_VIA_Rail_FP9_position, position_in_vehid_chain % 4) {
+	1: spriteset_diesel_Canada_VIA_Rail_FP9_B_Front;
+	2: spriteset_diesel_Canada_VIA_Rail_FP9_B_Back;
+	3: spriteset_diesel_Canada_VIA_Rail_FP9_A_Back;
+	spriteset_diesel_Canada_VIA_Rail_FP9_A_Front;
+}
+
+//Switch for visual effect
+switch(FEAT_TRAINS, SELF, switch_diesel_Canada_VIA_Rail_FP9_visual_effect, position_in_vehid_chain % 4) {
+	2..3: visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
+	visual_effect_and_powered(VISUAL_EFFECT_DIESEL, -3, DISABLE_WAGON_POWER);
 }
 
 //Add defined switches
