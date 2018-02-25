@@ -31,7 +31,7 @@
 #define LENGTH 6
 #define ACTUAL_LENGTH 6
 
-#define HEAD_CAPACITY 35
+#define HEAD_CAPACITY 40
 
 
 #define DUAL_HEADED 0

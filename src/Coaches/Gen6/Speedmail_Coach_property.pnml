@@ -24,14 +24,14 @@
 
 #define SPEED 0
 #define POWER 0
-#define WEIGHT 42
+#define WEIGHT 38
 #define TE_COEFFICIENT 0.3
 #define AIR_DRAG_COEFFICIENT 0
 
 #define LENGTH 8
 #define ACTUAL_LENGTH 8
 
-#define HEAD_CAPACITY 80
+#define HEAD_CAPACITY 85
 
 
 #define DUAL_HEADED 0

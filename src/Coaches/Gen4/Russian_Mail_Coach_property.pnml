@@ -22,7 +22,7 @@
 #define LOADINGSPEED LOADINGSPEEDDEF_MAIL
 #define CARGODEF CARGODEF_MAIL_ONLY
 
-#define SPEED 140
+#define SPEED 160
 #define POWER 0
 #define WEIGHT 46
 #define TE_COEFFICIENT 0.3
@@ -31,7 +31,7 @@
 #define LENGTH 8
 #define ACTUAL_LENGTH 8
 
-#define HEAD_CAPACITY 90
+#define HEAD_CAPACITY 80
 
 
 #define DUAL_HEADED 0
