@@ -1,5 +1,78 @@
 2cc TrainsInNML changelog
 =========================
+3.0-alpha1 (08/07/2018)
+-----------------------
+- Change minimum version as a result of r847
+- Change: Move the MU wagons to separate folders
+- Change r872: Move MU wagon purchase texts to separate file
+- Change: Remove obsolete vehicles
+- Close #8441-Recode branch
+- Close #8498: Changed vehicle lifespans and retire early properties
+- Codechange: Compatible version update
+- Codechange: Decreased some vehicle ID ranges to make room for the CargoSprinter
+- Codechange: Initial recode
+- Codechange: Move the single unit metro's to a separate folder
+- Codechange: Use the defined loading speed for several vehicles and introduce a separate speed for mail
+- Update: Corrected B-unit sprites
+- Feature #7718: Change parameter text for concept vehicles as the parameter now works
+- Feature #7718: Enable the concept parameter for more vehicles (closes #7718)
+- Feature #7922: B-unit behavior changed to also have back A and B units
+- Feature #7968: Various stat changes
+- Feature #8334: Sureot vehicle (Graphics by Voyager One)(closes #8334)
+- Feature: Cargo DMU allow/disallow wagon attachments (closes #7728)
+- Feature: Cargo DMU sort order (issue #7728)
+- Feature: Cargo MU unit wagons (using temporary sprites)
+- Feature: CargoSprinter (Graphics by Emperor Jake and Voyager One)(issue #7728)
+- Feature: VPTS and YETY cargo support (closes #8365)
+- Fix #7739: Changed engine names
+- Fix #7756: MU power outputs
+- Fix #7788: Coach properties changed (suggestions by Valle)
+- Fix #7809: Rename GNR EMD F3 to AT&SF EMD F3
+- Fix #7814: Remove cargo capacity callback for cargo wagons
+- Fix #7815: Remove some of the CC_COVERED cargoes from flat cars
+- Fix #7829: Container carrier weight reduced
+- Fix #7853: NSGR AD60 tractive effort was slightly off
+- Fix #7939: Set the correct running bases for all vehicles, so that base cost mods work
+- Fix #7968: ChS7 TE
+- Fix #8308: Type 2 boxcars showed Type 1 sprites in some cases
+- Fix #8309: Increase superheavy flatcar capacity
+- Fix #8317: Wooden 3-axle compartment coach alignment
+- Fix #8335: Rename SBB Cfe 3/3 to AB CFe 3/3
+- Fix #8336: Rename SBB Ce 4/4 to BLS Ce 4/4
+- Fix #8337: Rename DB 601 VT11 TEE to DB 601 VT11.5 TEE
+- Fix #8338: RFFSA He 4/4 renamed to MRS He 4/4
+- Fix #8350: Several changed names
+- Fix #8351: Unpowered cargo MU wagon carried passengers instead of cargo
+- Fix #8354: Small sprite changes (Graphics by Voyager One)
+- Fix #8358: ZSSK 861 power output
+- Fix #8376: DSB E power
+- Fix #8455: ETR 300 speed reduction to 200 km/h
+- Fix: Initialize the single unit metro properties for those metros
+- Fix: PKP EW54 pantographs (closes #7849)
+- Fix: QR Tilt Train pantographs (issue #7849)
+- Fix r739: Include the Buckower Kleinbahn and DB 479.2 (issue #7694)
+- Fix r872: Add vehicle capacity switches content
+- Fix r872: Define MU wagon livery override properties
+- Fix r872: MU wagon running costs
+- Fix r872: Set the vehicle costs from a central file
+- Fix: RZD ER200 pantographs (issue #7849)
+- Fix: RZD ES1 pantographs (issue #7849)
+- Fix: Set AI special flag to cargo for Eastern European engines (thanks to Lionic) (issue #8353)
+- Fix: Set AI special flag to cargo for Northern European engines (thanks to Lionic) (issue #8353)
+- Fix: Set AI special flag to cargo for steam railbuses (issue #8353)
+- Fix: Set AI special flag to cargo for wagons (issue #8353)
+- Fix: Shinkansen E1 Max pantographs (issue #7849)
+- Merge translations
+- Merge: Translations
+- Merge: Translations
+- Merge with #8441-Recode
+- Merge with default (closes #8441)
+- Update r777: Correct changelog for 2.0-alpha1 (closes #8223)
+- Update: Readme for the concept parameter, as it has been implemented (issue #7718)
+- Update: Translations from webtranslator
+- Update: Update licenses to 2017
+
+
 2.0-alpha1 (19/04/2016)
 -----------------------
 - Add: Simplified Chinese translation by dirace (closes #7529)
