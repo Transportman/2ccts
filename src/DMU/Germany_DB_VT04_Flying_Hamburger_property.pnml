@@ -31,7 +31,7 @@
 #define WAGON_LENGTH 8
 
 #define HEAD_CAPACITY 50
-#define WAGON_CAPACITY null
+#define WAGON_CAPACITY 50
 
 
 #define DUALHEADED 1
