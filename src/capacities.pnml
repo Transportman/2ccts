@@ -31,7 +31,7 @@ switch(FEAT_TRAINS, SELF, switch_ ## VEHIDCODE ## _capacity_engine, cargo_classe
 
 #define EXPANDEDWAGONCAPACITYSWITCH(VEHIDCODE) \
 switch(FEAT_TRAINS, SELF, switch_ ## VEHIDCODE ## _capacity_wagon, cargo_classes) { \
-	bitmask(CC_MAIL): HEAD_CAPACITY/2; \
-	bitmask(CC_ARMOURED): HEAD_CAPACITY/4; \
-	HEAD_CAPACITY; \
+	bitmask(CC_MAIL): WAGON_CAPACITY/2; \
+	bitmask(CC_ARMOURED): WAGON_CAPACITY/4; \
+	WAGON_CAPACITY; \
 }
