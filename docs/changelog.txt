@@ -1,5 +1,10 @@
 2cc TrainsInNML changelog
 =========================
+3.0-alpha2 (29/07/2018)
+-----------------------
+- Fix #8562: Wagon capacity was 0 for some MU's
+- Fix #8564: MU wagon capacity switch used the HEAD_CAPACITY instead of WAGON_CAPACITY
+
 3.0-alpha1 (08/07/2018)
 -----------------------
 - Change minimum version as a result of r847
@@ -71,7 +76,6 @@
 - Update: Readme for the concept parameter, as it has been implemented (issue #7718)
 - Update: Translations from webtranslator
 - Update: Update licenses to 2017
-
 
 2.0-alpha1 (19/04/2016)
 -----------------------
