@@ -2,16 +2,20 @@
 ##plural 1
 
 #Main grf title and description
+STR_GRF_URL             :https://dev.openttdcoop.org/projects/2ccts
 
 #General error messages
 
 #parameter strings
 #cost parameters
 
+STR_PARAM_DIVIDE_2                  :1/2
 
 #region parameters
+STR_PARAM_REGION_NORTHAMERICA_DESC              :Gunakan kendaraan dari Amerika Utara
 
 #loading speed parameter
+STR_PARAM_LOADINGSPEED_SLOW                             :Lambat
 
 #VEHICLE NAMES
 #Railbus-steam
@@ -21,11 +25,48 @@
 #Railbus-electric
 
 #Steam
+str_steam_New_Zealand_NZR_X_Class       :NZR X (Uap)
+str_steam_UK_LNER_A4_Gresley            :LNER A4 'Gresley' (Uap)
+str_steam_France_SNCF_150B                      :SNCF 150B (Uap)
+str_steam_Netherlands_NS_700 :NS 700 (Uap)
+str_steam_UK_LNER_N7 :LNER N7 (Uap)
+str_steam_Germany_Saxon_XX_HV :DB 19.0 'Saxon XX HV' (Uap)
+str_steam_Egypt_ENR_1100 :ENR 1100 (Uap)
+str_steam_Australia_South_Australian_Railways_520 :KA Australia Selatan 520 (Uap)
+str_steam_Japan_JNR_9600 :JNR 9600 (Uap)
+str_steam_Italy_FS_480 :FS 480 (Uap)
+str_steam_Spain_RENFE_242F :RENFE 242F (Uap)
 
 #Diesel
+str_diesel_Hungary_MAV_M44                                                              :MAV M44 (Diesel)
+str_diesel_Belgium_NMBS_SNCB_83                                                 :NMBS/SNCB 83 (Diesel)
 str_diesel_UK_BR_14                                                                     :BR 14 (Diesel)
+str_diesel_Russia_RZD_ChME3                                                     :RZD ChME3 (Diesel)
+str_diesel_Egypt_ENR_G22W                                                               :ENR G22W (Diesel)
+str_diesel_Australia_Queensland_Rail_2100                               :KA Queensland 2100 (Diesel)
+str_diesel_UK_BR_67                                                                     :BR 67 (Diesel)
+str_diesel_Germany_HVLE_V490                                                    :HVLE V490 'Maxima 40CC'(Diesel)
+str_diesel_USA_NYC_Baldwin_VO_660 :NYC Baldwin VO-660 (Diesel)
+str_diesel_Ireland_CIE_113 :CIE 113 (Diesel)
+str_diesel_Australia_NSWGR_44 :NSWGR 44 (Diesel)
+str_diesel_Italy_FS_D345 :FS D.345 (Diesel)
+str_diesel_South_Africa_SAR_DS :SAR DS (Diesel)
+str_diesel_Tunisia_SNCFT_040_DF :SNCFT 040 DF (Diesel)
+str_diesel_UK_BR_68 :BR 68 (Diesel)
 
 #Electric
+str_electric_Chile_EFE_E_28                                     :EFE E-28 (Listrik)
+str_electric_Italy_FS_E428                                              :FS E.428 (Listrik)
+str_electric_New_Zealand_NZR_EO_Class :NZR EO (Listrik)
+str_electric_Belgium_NMBS_Class_255 :NMBS/SNCB 25.5 (Listrik)
+str_electric_Russia_RZD_ChS3 :RZD ChS3 (Listrik)
+str_electric_Poland_PKP_EU06 :PKP EU06 (Listrik)
+str_electric_Czech_Republic_CD_380 :CD 380 (Listrik)
+str_electric_USA_PRR_E44 :PRR E44 (Listrik)
+str_electric_USA_Amtrak_EMD_AEM_7 :Amtrak EMD AEM-7 (Listrik)
+str_electric_Czech_Republic_CD_363 :CD 363 (Listrik)
+str_electric_USA_PRR_B1 :PRR B1 (Listrik)
+str_electric_China_China_Railways_6K :KA Tiongkok 6K (Listrik)
 
 #DMU
 
@@ -36,6 +77,12 @@ str_diesel_UK_BR_14                                                             
 #Single Unit Metro
 
 #Multiple Unit Metro
+str_mtro_France_Paris_M2_840                                    :Paris M2 840 (Metro)
+str_mtro_Finland_Helsinki_M100                                  :Helsinki M100 (Metro)
+str_mtro_Norway_Oslo_MX3000                                     :Oslo MX3000 (Metro)
+str_mtro_Japan_Osaka_30000                                              :Osaka 30000 (Metro)
+str_mtro_Chile_Santiago_AS_2002 :Santiago AS-2002 (Metro)
+str_mtro_Germany_Berlin_U_Bahn_IK :Berlin U-Bahn IK (Metro)
 
 #Maglev railbus
 
@@ -45,6 +92,8 @@ str_diesel_UK_BR_14                                                             
 
 
 #coaches
+str_coach_Gen3_Indian_Regional_Coach                                    :Gerbong Daerah India
+str_coach_Gen4_Superliner_California                                    :Superliner California
 
 #special wagons
 
