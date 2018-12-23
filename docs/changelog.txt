@@ -1,5 +1,18 @@
 2cc TrainsInNML changelog
 =========================
+
+3.0-alpha3 (23/12/2018)
+-----------------------
+- Fix #8561: Cargo wagon capacities fixed
+- Fix #8562: Wagon capacity was 0 for some MU's
+- Fix #8564: MU wagon capacity switch used the HEAD_CAPACITY instead of WAGON_CAPACITY
+- Fix #8565: Increase model life of Gen 1-3 coaches to prevent gaps in availability
+- Fix #8566: MU wagons did not have running costs and simplify calculation
+- Fix #8570: Increase wagon model life to prevent gaps in availability
+- Fix: Introduce Gen 1 cargo wagons at the same time as the first Gen 1 coaches, allowing a lower model life
+- Merge: Translations
+- Update: Translations
+
 3.0-alpha2 (29/07/2018)
 -----------------------
 - Fix #8562: Wagon capacity was 0 for some MU's
