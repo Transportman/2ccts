@@ -313,7 +313,9 @@ switch(FEAT_TRAINS, SELF, switch_wagon_Gen4_Centerbeam_cargo_selection, cargo_ty
 	switch_wagon_Gen4_Centerbeam_Crates_livery; //Goods, Paper
 }
 
-//Add defined switches
+//Add defined switches 
+
+ENGINECAPACITYSWITCH(VEHIDCODE)
 
 RUNNINGCOSTENGINESWITCH
 

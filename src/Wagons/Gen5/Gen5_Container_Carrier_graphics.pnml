@@ -324,7 +324,9 @@ switch(FEAT_TRAINS, SELF, switch_wagon_Gen5_Container_Carrier_cargo_selection, c
 	switch_wagon_Gen5_Container_Carrier_Container_livery;
 }
 
-//Add defined switches
+//Add defined switches 
+
+ENGINECAPACITYSWITCH(VEHIDCODE)
 
 RUNNINGCOSTENGINESWITCH
 

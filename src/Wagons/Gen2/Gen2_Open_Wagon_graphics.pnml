@@ -721,7 +721,9 @@ switch(FEAT_TRAINS, SELF, switch_wagon_Gen2_Open_Wagon_cargo_selection, cargo_ty
 	switch_wagon_Gen2_Open_Wagon_Grain_livery; //GRAI, MAIZ, TOFF
 }
 
-//Add defined switches
+//Add defined switches 
+
+ENGINECAPACITYSWITCH(VEHIDCODE)
 
 RUNNINGCOSTENGINESWITCH
 

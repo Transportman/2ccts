@@ -219,7 +219,9 @@ switch(FEAT_TRAINS, SELF, switch_wagon_Gen5_Container_Doublestack_cargo_selectio
 	switch_wagon_Gen5_Container_Doublestack_Container_livery; //PAPR, TOYS, BATT, SWET, BUBL, BDMT, BRCK, CERA, CERE, COPR, ENSP, FERT, FICR, FMSP, GLAS, JAVA, MNSP, RCYC, WDPR, WOOL, URAN
 }
 
-//Add defined switches
+//Add defined switches 
+
+ENGINECAPACITYSWITCH(VEHIDCODE)
 
 RUNNINGCOSTENGINESWITCH
 

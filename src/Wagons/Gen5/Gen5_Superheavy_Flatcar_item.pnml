@@ -45,6 +45,7 @@ item(FEAT_TRAINS, ITEM ) {
 		purchase: spriteset_wagon_Gen5_Superheavy_Flatcar_purchase;
 		articulated_part: switch_wagon_Gen5_Superheavy_Flatcar_articulated;
 		//Add calls to defined switches below
+		ENGINECAPACITYSWITCHCALL(VEHIDCODE)
 		RUNNINGCOSTENGINESWITCHCALL
 		PURCHASETEXTSWITCHCALL
 		default: switch_wagon_Gen5_Superheavy_Flatcar;

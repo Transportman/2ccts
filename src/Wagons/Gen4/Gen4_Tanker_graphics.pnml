@@ -216,7 +216,9 @@ switch(FEAT_TRAINS, SELF, switch_wagon_Gen4_Tanker_cargo_selection, cargo_type_i
 	switch_wagon_Gen4_Tanker_Standard_livery; //GOOD, RUBR, WATR, COLA, PLST, BEER, DYES, MILK, PLAS
 }
 
-//Add defined switches
+//Add defined switches 
+
+ENGINECAPACITYSWITCH(VEHIDCODE)
 
 RUNNINGCOSTENGINESWITCH
 

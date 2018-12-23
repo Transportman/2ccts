@@ -43,8 +43,8 @@ item(FEAT_TRAINS, ITEM ) {
 	}
 	graphics {
 		purchase: spriteset_wagon_Gen4_Hopper_Type2_purchase;
-		cargo_capacity: 55;
 		//Add calls to defined switches below
+		ENGINECAPACITYSWITCHCALL(VEHIDCODE)
 		RUNNINGCOSTENGINESWITCHCALL
 		PURCHASETEXTSWITCHCALL
 		default: switch_wagon_Gen4_Hopper_Type2_cargo_selection;

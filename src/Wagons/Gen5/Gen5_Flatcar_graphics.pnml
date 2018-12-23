@@ -608,7 +608,9 @@ switch(FEAT_TRAINS, SELF, switch_wagon_Gen5_Flatcar_cargo_selection, cargo_type_
 	switch_wagon_Gen5_Flatcar_Crates_livery; //TOYS, BATT, SWET, BUBL, FZDR, BRCK, CERA, COPR, FICR, FMSP, JAVA, MNSP
 }
 
-//Add defined switches
+//Add defined switches 
+
+ENGINECAPACITYSWITCH(VEHIDCODE)
 
 RUNNINGCOSTENGINESWITCH
 

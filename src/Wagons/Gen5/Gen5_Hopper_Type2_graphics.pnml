@@ -405,7 +405,9 @@ switch(FEAT_TRAINS, SELF, switch_wagon_Gen5_Hopper_Type2_cargo_selection, cargo_
 	switch_wagon_Gen5_Hopper_Type2_Ore_livery; //IORE, CORE, AORE
 }
 
-//Add defined switches
+//Add defined switches 
+
+ENGINECAPACITYSWITCH(VEHIDCODE)
 
 RUNNINGCOSTENGINESWITCH
 

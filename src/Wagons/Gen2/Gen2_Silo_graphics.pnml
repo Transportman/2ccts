@@ -109,7 +109,9 @@ random_switch(FEAT_TRAINS, SELF, switch_wagon_Gen2_Silo_livery) {
 	1: spritegroup_wagon_Gen2_Silo_L4;
 }
 
-//Add defined switches
+//Add defined switches 
+
+ENGINECAPACITYSWITCH(VEHIDCODE)
 
 RUNNINGCOSTENGINESWITCH
 

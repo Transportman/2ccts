@@ -319,7 +319,9 @@ switch(FEAT_TRAINS, SELF, switch_wagon_Gen3_Boxcar_Type2_cargo_selection, cargo_
 	switch_wagon_Gen3_Boxcar_Type2_Standard_livery; //GRAI, PAPR, WHEA, MAIZ, SUGR, TOYS, BATT, BUBL, BDMT, BRCK, CERA, CERE, COPR,ENSP, FERT, FMSP, GLAS, JAVA, MNSP, OLSD, POTA, RCYC, SGBT, SGCN, SULP, VEHI, WOOL
 }
 
-//Add defined switches
+//Add defined switches 
+
+ENGINECAPACITYSWITCH(VEHIDCODE)
 
 RUNNINGCOSTENGINESWITCH
 

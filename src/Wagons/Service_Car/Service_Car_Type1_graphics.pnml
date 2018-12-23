@@ -45,7 +45,9 @@ random_switch(FEAT_TRAINS, SELF, switch_wagon_Service_Car_Type1_livery) {
 	1: spriteset_wagon_Service_Car_Type1_L4;
 }
 
-//Add defined switches
+//Add defined switches 
+
+ENGINECAPACITYSWITCH(VEHIDCODE)
 
 RUNNINGCOSTENGINESWITCH
 

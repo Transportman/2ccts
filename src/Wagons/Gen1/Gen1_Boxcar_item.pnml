@@ -44,6 +44,7 @@ item(FEAT_TRAINS, ITEM ) {
 	graphics {
 		purchase: spriteset_wagon_Gen1_Boxcar_purchase;
 		//Add calls to defined switches below
+		ENGINECAPACITYSWITCHCALL(VEHIDCODE)
 		RUNNINGCOSTENGINESWITCHCALL
 		PURCHASETEXTSWITCHCALL
 		default: switch_wagon_Gen1_Boxcar_cargo_selection;

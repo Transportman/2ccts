@@ -511,7 +511,9 @@ switch(FEAT_TRAINS, SELF, switch_wagon_Gen4_Heavy_Flatcar_cargo_selection, cargo
 	switch_wagon_Gen4_Heavy_Flatcar_Crates_livery;
 }
 
-//Add defined switches
+//Add defined switches 
+
+ENGINECAPACITYSWITCH(VEHIDCODE)
 
 RUNNINGCOSTENGINESWITCH
 

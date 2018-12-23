@@ -626,7 +626,9 @@ switch(FEAT_TRAINS, SELF, switch_wagon_Gen4_Gondola_cargo_selection, cargo_type_
 	switch_wagon_Gen4_Gondola_Grain_livery;
 }
 
-//Add defined switches
+//Add defined switches 
+
+ENGINECAPACITYSWITCH(VEHIDCODE)
 
 RUNNINGCOSTENGINESWITCH
 

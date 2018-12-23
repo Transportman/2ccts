@@ -323,7 +323,9 @@ switch(FEAT_TRAINS, SELF, switch_wagon_Gen2_Tanker_cargo_selection, cargo_type_i
 	switch_wagon_Gen2_Tanker_Water_livery; //WATR, COLA, BEER, DYES, MILK
 }
 
-//Add defined switches
+//Add defined switches 
+
+ENGINECAPACITYSWITCH(VEHIDCODE)
 
 RUNNINGCOSTENGINESWITCH
 
