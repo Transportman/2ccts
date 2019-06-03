@@ -51,7 +51,7 @@ item(FEAT_TRAINS, ITEM ) {
 		PURCHASETEXTSWITCHCALL
 		default: switch_dmu_UK_BR_251_Blue_Pullman_reversed;
 	}
-	livery_override (item_mtro_wagon_unpowered ) {
+	livery_override (item_mu_wagon_unpowered ) {
 		LOADINGSPEEDPROPERTY
 		RUNNINGCOSTMUWAGONUNPOWEREDSWITCHCALL
 		weight: WEIGHTMUWAGONUNPOWERED
@@ -59,7 +59,7 @@ item(FEAT_TRAINS, ITEM ) {
 		length: WAGON_LENGTH;
 		default: switch_dmu_UK_BR_251_Blue_Pullman_cargo_selection;
 	}
-	livery_override (item_mtro_wagon_powered ) {
+	livery_override (item_mu_wagon_powered ) {
 		LOADINGSPEEDPROPERTY
 		RUNNINGCOSTMUWAGONPOWEREDSWITCHCALL
 		power: POWERMUWAGONPOWERED
