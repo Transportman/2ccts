@@ -1,5 +1,12 @@
 2cc TrainsInNML changelog
 =========================
+3.0-RC1 (18/01/2020)
+--------------------
+- Fix #8645: Reduce early retirement to prevent gaps in wagon availability
+- Fix: Blue Pullman livery overrides were incorrect
+- Merge: Translations
+- Update: Translations
+
 
 3.0-alpha3 (23/12/2018)
 -----------------------
