@@ -1,5 +1,9 @@
 2cc TrainsInNML changelog
 =========================
+3.0 (23/02/2020)
+----------------
+- No changes
+
 3.0-RC1 (18/01/2020)
 --------------------
 - Fix #8645: Reduce early retirement to prevent gaps in wagon availability
