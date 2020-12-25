@@ -1,5 +1,11 @@
 2cc TrainsInNML changelog
 =========================
+3.1 (25/12/2020)
+--------------------
+- Cleanup: Old files
+- Fix: Steel 3 axle compartment coach introduction date and model life
+- Fix: 12L template alignment
+
 3.0 (23/02/2020)
 ----------------
 - No changes
