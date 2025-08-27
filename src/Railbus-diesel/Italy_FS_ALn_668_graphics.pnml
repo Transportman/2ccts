@@ -11,7 +11,7 @@
 */
 
 spriteset(spriteset_rbd_Italy_FS_ALn_668_purchase, "gfx/Railbus-diesel/Italy_FS_ALn_668.png") {
-	template_purchase_dualheaded(1, 32)
+	template_purchase(1, 32)
 }
 
 /*
