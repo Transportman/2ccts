@@ -259,7 +259,7 @@ item(FEAT_TRAINS, item_diesel_Australia_Queensland_Rail_2100, 5039) {}
 item(FEAT_TRAINS, item_diesel_Croatia_HZ_2062, 5040) {}
 item(FEAT_TRAINS, item_diesel_Sweden_SJ_V4, 5041) {}
 item(FEAT_TRAINS, item_diesel_Canada_CNR_MLW_M420W, 5042) {}
-item(FEAT_TRAINS, item_diesel_USA_GNR_SDP_40F, 5043) {}
+item(FEAT_TRAINS, item_diesel_USA_Amtrack_SDP_40F, 5043) {}
 item(FEAT_TRAINS, item_diesel_China_China_Railways_DFH3, 5044) {}
 item(FEAT_TRAINS, item_diesel_Panama_Panama_Canal_Railway_EMD_F40PH, 5045) {}
 item(FEAT_TRAINS, item_diesel_Portugal_CP_1900, 5046) {}
@@ -359,7 +359,7 @@ item(FEAT_TRAINS, item_electric_UK_NER_EF1, 6002) {}
 item(FEAT_TRAINS, item_electric_USA_Milwaukee_Road_ES_2, 6003) {}
 //6004 free
 //6005 free
-item(FEAT_TRAINS, item_electric_Chile_EFE_Series_E_28, 6006) {}
+item(FEAT_TRAINS, item_electric_Chile_EFE_E_28, 6006) {}
 item(FEAT_TRAINS, item_electric_Austria_OBB_1161, 6007) {}
 item(FEAT_TRAINS, item_electric_India_Indian_Railways_WCG_1, 6008) {}
 item(FEAT_TRAINS, item_electric_Germany_DB_169, 6009) {}
@@ -765,7 +765,7 @@ item(FEAT_TRAINS, item_coach_Gen6_Super_Voyager_Coach, 11070) {}
 //Wagons, available ID range: 12000-12999 (hex 0x2EE0..0x32C7)
 #define ID_RANGE_WAGONS 0x2EE0..0x32C7
 item(FEAT_TRAINS, item_wagon_Gen1_Flat_Wagon, 12000) {}
-item(FEAT_TRAINS, item_wagon_Gen1_BoxCar, 12001) {}
+item(FEAT_TRAINS, item_wagon_Gen1_Boxcar, 12001) {}
 item(FEAT_TRAINS, item_wagon_Gen1_Tanker, 12002) {}
 item(FEAT_TRAINS, item_wagon_Gen1_Open_Wagon, 12003) {}
 item(FEAT_TRAINS, item_wagon_Gen2_Flat_Wagon, 12004) {}
