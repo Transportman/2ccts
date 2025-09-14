@@ -1,5 +1,10 @@
 2cc TrainsInNML changelog
 =========================
+3.2 (14/09/2025)
+--------------------
+- Fix: Typos in vehicle IDs (#4) (Fix by althonos)
+- Fix: Fix sort order and purchase sprite of FS ALn 668 (#3) (Fix by althonos)
+
 3.1 (25/12/2020)
 --------------------
 - Cleanup: Old files
@@ -455,4 +460,5 @@
 - Update: Minimum compatible version, as recent changes broke compatibility
 - Update: Small change in parameter descriptions
 - Update: Some more cost balancing in preparation of Engine and MU inclusion
+
 - Update: Translations from webtranslator
